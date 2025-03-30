@@ -3,8 +3,8 @@ This repository contains detailed documentation of my Active Directory (AD) home
 
 # 🛡️ Active Directory Home Lab
 **Author:** Hugh Chanetsa  
-**Date:** [Insert Date]  
-**GitHub Repository:** [Link to the repo]  
+**Date:** 31/03/2025  
+**GitHub Repository:** [[Link to the repo](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-La)]  
 **Environment:**  
 - **Domain:** hughdomain.local  
 - **Server:** Windows Server 2025  

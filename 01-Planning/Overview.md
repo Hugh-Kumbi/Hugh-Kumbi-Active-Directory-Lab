@@ -16,8 +16,9 @@ The goal of this project is to build a **fully functional Active Directory (AD) 
 This project strengthens my **Active Directory, Windows Server, and enterprise security administration skills,** making it a key addition to my cybersecurity portfolio.
 
 ## Architecture Diagram
-The following diagram illustrates the Active Directory lab network topology:
+The following diagram illustrates the **Active Directory lab network topology:**
 
+```pgsql
 +--------------------------+                +---------------------------+
 |    Windows Server 2025   |                |    Windows 11 Client 1    |
 |    Domain Controller     |                |    (AD-WIN11-01)          |
@@ -32,6 +33,7 @@ The following diagram illustrates the Active Directory lab network topology:
 |    192.168.1.30           |                |    NAT / Internet        |
 |    Joined to AD Domain    |                +--------------------------+
 +---------- ----------------+
+```
 ## Pre-requisites
 Before setting up the Active Directory lab, I ensured that I had the following:
 

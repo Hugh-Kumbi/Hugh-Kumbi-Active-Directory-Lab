@@ -49,11 +49,11 @@ Before setting up the Active Directory lab, I ensured that I had the following:
    * Windows 11 Clients (2): 2 vCPUs, 4GB RAM, 50GB Storage (each)
 
 ### Software Requirements
-**Windows Server 2025 ISO** for the Domain Controller
+* **Windows Server 2025 ISO** for the Domain Controller
 
-**Windows 11 Enterprise ISO** for client machines
+* **Windows 11 Enterprise ISO** for client machines
 
-**VirtualBox Guest Additions** for smooth VM performance
+* **VirtualBox Guest Additions** for smooth VM performance
 
 ### Networking Setup
 * **Static IP Addressing:** Ensured all machines had static IPs assigned

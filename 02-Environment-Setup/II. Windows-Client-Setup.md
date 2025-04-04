@@ -1,12 +1,12 @@
 # 02-Environment-Setup
-This section outlines the step-by-step setup of the two Windows 11 Enterprise clients, and the overall network configuration.
+This section outlines the step-by-step setup of the two Windows 11 Pro clients, and the overall network configuration.
 
-## Windows 11 Enterprise Client Setup
+## Windows 11 Pro Client Setup
 ### Client VMs:
 
-  * `AD-WIN11-01` (IP: `192.168.1.20`)
+  * `AD-WIN11-01` (IP: `192.168.1.101`)
 
- * `AD-WIN11-02` (IP: `192.168.1.30`)
+ * `AD-WIN11-02` (IP: `192.168.1.12`)
 
 ## Steps Completed:
 1. **Created two Windows 11 VMs** with the following specs each:

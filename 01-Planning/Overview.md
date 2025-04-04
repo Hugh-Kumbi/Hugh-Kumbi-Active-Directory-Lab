@@ -24,7 +24,7 @@ The following diagram illustrates the **Active Directory lab network topology:**
 +--------------------------+                +---------------------------+
 |    Windows Server 2025   |                |    Windows 11 Client 1    |
 |    Domain Controller     |                |    (AD-WIN11-01)          |
-|    hughdomain.local      |                |    192.168.1.20           |
+|    hughdomain.local      |                |    192.168.1.101           |
 |    192.168.1.10          |                |    Joined to AD Domain    |
 +--------------------------+                +---------------------------+
           |  (DNS, DHCP)                                  |
@@ -32,7 +32,7 @@ The following diagram illustrates the **Active Directory lab network topology:**
 +---------------------------+                +--------------------------+
 |    Windows 11 Client 2    |                |    Router / Firewall     |
 |    (AD-WIN11-02)          |                |    192.168.1.1           |
-|    192.168.1.30           |                |    NAT / Internet        |
+|    192.168.1.12           |                |    NAT / Internet        |
 |    Joined to AD Domain    |                +--------------------------+
 +---------- ----------------+
 ```

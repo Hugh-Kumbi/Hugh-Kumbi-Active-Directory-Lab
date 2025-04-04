@@ -1,6 +1,6 @@
 # 03-Configuration
 ## 03-Active Directory Setup
-In this phase, I configured Active Directory Domain Services (AD DS) on Windows Server 2025, promoted the server to a Domain Controller, and joined the Windows 11 clients to the domain.
+In this phase, I configured **Active Directory Domain Services (AD DS)** on Windows Server 2025, promoted the server to a **Domain Controller,** and joined the Windows 11 clients to the domain.
 
 ### Domain Controller Setup (WS-2025-DC)
 **Domain Name:** `HUGHDOMAIN.LOCAL`

@@ -26,11 +26,3 @@ Renamed the clients to AD-WIN11-01 and AD-WIN11-02 respectively
 Enabled Remote Desktop for future access
 
 Installed VirtualBox Guest Additions for smoother performance
-
-🌐 Network Configuration
-✅ Steps Completed:
-Set all VMs to "Internal Network" mode in VirtualBox to isolate the AD lab from the internet
-
-Updated Windows Server and enabled Remote Desktop for remote management
-
-Prepared server for Active Directory Domain Services configuration in the next phase

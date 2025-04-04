@@ -1,3 +1,5 @@
+# 01-Planning
+
 ## Project Goals
 The goal of this project is to build a **fully functional Active Directory (AD) home lab** for hands-on learning and security testing. This lab simulates a real-world enterprise environment and allows me to:
 

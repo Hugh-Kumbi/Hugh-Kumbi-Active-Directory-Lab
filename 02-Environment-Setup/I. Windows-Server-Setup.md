@@ -1,4 +1,4 @@
-💻 Windows 11 Enterprise Client Setup
+## Windows 11 Enterprise Client Setup
 Client VMs:
 
 AD-WIN11-01 (IP: 192.168.1.20)

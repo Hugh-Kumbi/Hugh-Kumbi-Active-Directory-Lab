@@ -48,9 +48,9 @@ New-ADUser -Name "Mei Guzha" -GivenName "Mei" -Surname "Guzha" -UserPrincipalNam
 ## Joining Windows 11 Clients to the Domain
 ### Client Machines:
 
-  * `AD-WIN11-01 (192.168.1.20)`
+  * `DESKTOP-74HPA3F (192.168.1.20)`
 
-  * `AD-WIN11-02 (192.168.1.30)`
+  * `DESKTOP-2N3JERQ (192.168.1.30)`
 
 ### Steps Completed:
 1. **Set the correct DNS settings** on each client (`192.168.1.10`)
@@ -75,7 +75,7 @@ New-ADUser -Name "Mei Guzha" -GivenName "Mei" -Surname "Guzha" -UserPrincipalNam
 
   * Ran `gpupdate /force` on each client
 
-  * Confirmed policies applied using *gpresult /r*
+  * Confirmed policies applied using `gpresult /r`
 
 ## Final Validation
 ✔ Checked connectivity using ping ad-dc-01.hughdomain.local

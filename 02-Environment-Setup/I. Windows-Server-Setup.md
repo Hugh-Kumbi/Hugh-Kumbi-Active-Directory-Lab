@@ -22,10 +22,12 @@ This section outlines the step-by-step installation and configuration of Windows
   * Subnet Mask: 255.255.255.0
 
   * Gateway: 192.168.1.1
-  * 
-Configured static IPs on all VMs to maintain stable communication within the AD environment
+ 
+  * Preferred DNS: 192.168.1.10 (self)
 
-Tested network connectivity between the server and both clients using ping
+**4. Renamed the server** to `WS-2025-DC`
 
+**5. Updated Windows Server** and enabled Remote Desktop for remote management
+
+**6. Prepared server** for Active Directory Domain Services configuration in the next phase
 Validated name resolution (after DNS setup) to confirm proper hostname resolution in future phases
-

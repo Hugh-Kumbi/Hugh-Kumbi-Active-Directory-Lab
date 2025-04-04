@@ -79,7 +79,9 @@ New-ADUser -Name "Mei Guzha" -GivenName "Mei" -Surname "Guzha" -UserPrincipalNam
 
 ## Final Validation
 ✔ Checked connectivity using ping ad-dc-01.hughdomain.local
+
 ✔ Verified AD replication using repadmin /replsummary
+
 ✔ Tested login with a domain user on both Windows 11 clients
 
 At this stage, the Active Directory environment was fully operational, with centralized user authentication, device management, and group policy enforcement in place.

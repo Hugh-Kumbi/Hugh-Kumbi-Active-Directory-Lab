@@ -42,7 +42,7 @@ In this phase, I configured Active Directory Domain Services (AD DS) on Windows 
 
 ```powershell
 
-New-ADUser -Name "John Doe" -GivenName "John" -Surname "Doe" -UserPrincipalName "jdoe@lab.local" -SamAccountName "jdoe" -Path "OU=Users,DC=lab,DC=local" -AccountPassword (ConvertTo-SecureString "P@ssword123" -AsPlainText -Force) -Enabled $true
+New-ADUser -Name "Mei Guzha" -GivenName "Mei" -Surname "Guzha" -UserPrincipalName "mguzha@hughdomain.local" -SamAccountName "mguzha" -Path "OU=Users,DC=lab,DC=local" -AccountPassword (ConvertTo-SecureString "Chibanda20!" -AsPlainText -Force) -Enabled $true
 ```
 
 ## Joining Windows 11 Clients to the Domain

@@ -1,10 +1,12 @@
-🛠️ 02-Environment-Setup
-This section outlines the step-by-step setup of the virtual machines used in the lab, including the installation and configuration of Windows Server 2025, two Windows 11 Enterprise clients, and the overall network configuration.
+# 02-Environment-Setup
+This section outlines the overall network configuration.
 
-🌐 Network Configuration
-✅ Steps Completed:
-Set all VMs to "Internal Network" mode in VirtualBox to isolate the AD lab from the internet
+## Network Configuration
+### Steps Completed:
+1. **Set all VMs to "Internal Network" mode** in VirtualBox to isolate the AD lab from the internet
 
-Updated Windows Server and enabled Remote Desktop for remote management
+2. **Configured static IPs** on all VMs to maintain stable communication within the AD environment
 
-Prepared server for Active Directory Domain Services configuration in the next phase
+3. **Tested network connectivity** between the server and both clients using ping
+
+4. **Validated name resolution** (after DNS setup) to confirm proper hostname resolution in future phases

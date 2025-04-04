@@ -23,7 +23,7 @@ The following diagram illustrates the **Active Directory lab network topology:**
 ```pgsql
 +--------------------------+                +---------------------------+
 |    Windows Server 2025   |                |    Windows 11 Client 1    |
-|    Domain Controller     |                |    (AD-WIN11-01)          |
+|    Domain Controller     |                |    (DESKTOP-74HPA3F)          |
 |    hughdomain.local      |                |    192.168.1.101           |
 |    192.168.1.10          |                |    Joined to AD Domain    |
 +--------------------------+                +---------------------------+
@@ -31,7 +31,7 @@ The following diagram illustrates the **Active Directory lab network topology:**
           |                                              |
 +---------------------------+                +--------------------------+
 |    Windows 11 Client 2    |                |    Router / Firewall     |
-|    (AD-WIN11-02)          |                |    192.168.1.1           |
+|    (DESKTOP-2N3JERQ)          |                |    192.168.1.1           |
 |    192.168.1.12           |                |    NAT / Internet        |
 |    Joined to AD Domain    |                +--------------------------+
 +---------- ----------------+

@@ -44,9 +44,9 @@ Before setting up the Active Directory lab, I ensured that I had the following:
 
 * **System Resources:**
 
-   * Windows Server 2025 VM: 4 vCPUs, 8GB RAM, 80GB Storage
+   * __Windows Server 2025 VM:__ 4 vCPUs, 8GB RAM, 80GB Storage
 
-   * Windows 11 Clients (2): 2 vCPUs, 4GB RAM, 50GB Storage (each)
+   * __Windows 11 Clients (2):__ 2 vCPUs, 4GB RAM, 50GB Storage (each)
 
 ### Software Requirements
 * **Windows Server 2025 ISO** for the Domain Controller

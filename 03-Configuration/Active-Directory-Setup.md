@@ -4,7 +4,7 @@ In this phase, I configured **Active Directory Domain Services (AD DS)** on Wind
 
 ### Domain Controller Setup (WS-2025-DC)
 **Domain Name:** `HUGHDOMAIN.LOCAL`
-**Server Name:** `WS-2025-DC`
+**Server Name:** `WIN-D2PQBCI88JQ`
 **IP Address:**  `192.168.1.10`
 
 ### Steps Completed:

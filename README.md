@@ -32,20 +32,28 @@ Welcome to my Active Directory (AD) Home Lab, designed to simulate a small enter
 01-Planning/
   * Overview.md
   * Architecture-Diagram.png
+
 02-Environment-Setup/
   * Windows-Server-Setup.md
   * Windows-Client-Setup.md
+
 03-Configuration/
   * Active-Directory-Setup.md
   * GPO-Configurations.md
   * DNS-Setup.md
+
 04-Security-Policies/
   * Password-Policy.md
   * Account-Lockout-Policy.md
   * Audit-Policy.md
+
 05-Troubleshooting/
   * Common-Issues.md
+
 06-Screenshots/
+
 07-GPO-Security-Policies/
+
 08-User-Environment-Management/
+
 09-Infrastructure-Protection/

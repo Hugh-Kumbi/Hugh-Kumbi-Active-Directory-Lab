@@ -84,7 +84,3 @@ All screenshots used throughout the documentation can be found in the [06 - Scre
 ## 📘 License
 
 This project is for educational and portfolio purposes only.
-
----
-
-Now that this is set, let’s move on to the next file: `01-Planning/Overview.md`. Ready?

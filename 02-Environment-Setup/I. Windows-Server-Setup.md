@@ -1,33 +1,95 @@
-# 02-Environment-Setup
-This section outlines the step-by-step installation and configuration of Windows Server 2025.
+# 🛠️ Windows Server 2025 Setup
 
-## Windows Server 2025 Installation & Configuration
-**VM Name:** `WS-2025-DC`
-**Operating System:** Windows Server 2025
-**Roles:** Domain Controller, DNS Server, DHCP Server
+In this stage, I installed and configured **Windows Server 2025** as the Domain Controller (DC) for my lab environment. The process included setting a static IP, changing the computer name, installing Active Directory Domain Services, and promoting the server to a DC.
 
-## Steps Completed:
-**1. Created a new VM** in VirtualBox with the following specs:
+---
 
-  * 4 vCPUs, 8GB RAM, 80GB storage
+## 💾 1. Installation
 
-  * Attached the Windows Server 2025 ISO
+- Created a new virtual machine in **VirtualBox** with the following specs:
+  - 4 GB RAM
+  - 2 CPUs
+  - 80 GB virtual hard drive
+- Mounted the **Windows Server 2025 ISO** and completed the installation.
+- Selected the **Standard Evaluation (Desktop Experience)** during setup.
 
-**2. Installed Windows Server 2025** and completed initial setup
+📸 **Screenshot:**
+![Standard Evaluation (Desktop Experience)](https://github.com/user-attachments/assets/8265f6c7-e9c3-4134-9d0a-a82567a38632)
 
-**3. Set a static IP address**
+![First Boot Desktop After Installation](https://github.com/user-attachments/assets/619605d5-750f-4948-bda0-6d491d057bda)
 
-  * IP: 192.168.1.10
+---
 
-  * Subnet Mask: 255.255.255.0
+## 💻 2. Initial Configuration
 
-  * Gateway: 192.168.1.1
- 
-  * Preferred DNS: 192.168.1.10 (self)
+After installation, I performed the following:
 
-**4. Renamed the server** to `WS-2025-DC`
+- Kept the machine name as `WIN-D2PQBCI88JQ`
+- Set a **static IP address**: `192.168.1.10`
+- Configured DNS to point to itself (`192.168.1.10`)
+- Set the computer’s **time zone**
 
-**5. Updated Windows Server** and enabled Remote Desktop for remote management
+📸 **Screenshot:**
+![Network Settings Showing Static IP and DNS Config](https://github.com/user-attachments/assets/d0170b00-31ab-48cc-96e8-5b63ab36ee17)
 
-**6. Prepared server** for Active Directory Domain Services configuration in the next phase
-Validated name resolution (after DNS setup) to confirm proper hostname resolution in future phases
+![System About Showing Kept Computer Name](https://github.com/user-attachments/assets/7dc12389-7af9-486c-b9e7-b5dbfd4d7e76)
+
+---
+
+## 🧱 3. Installing AD DS Role
+
+- Opened **Server Manager**
+- Selected **Add Roles and Features**
+- Installed the **Active Directory Domain Services (AD DS)** role
+
+📸 **Screenshot:**
+![AD DS Selected in Add Roles and Features Wizard](https://github.com/user-attachments/assets/47187941-9d17-46ee-933d-238c215d06c7)
+
+
+---
+
+## 🏰 4. Promoting to Domain Controller
+
+- Promoted the server to a DC using the post-installation wizard
+- Created a **new forest** named `hughdomain.local`
+- Accepted the default NetBIOS name: `HUGHDOMAIN`
+- Rebooted the machine after setup completed
+
+📸 **Screenshot:**
+![Domain Configuration Summary Before Install](https://github.com/user-attachments/assets/280e0fbd-432e-4979-afb1-5de5f3a742b1)
+
+![Confirmation of Successful Promotion](https://github.com/user-attachments/assets/aa3b0eab-428d-4f7b-9336-bc6e325cb2f9)
+
+---
+
+## 🧪 5. Post-Installation Checks
+
+- Logged in using the domain admin account
+- Verified domain controller health using `dcdiag` in PowerShell
+- Ensured DNS was properly installed and functioning
+- Confirmed that AD-related services were running
+
+📸 **Screenshot suggestion:**
+![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/049a9c06-d3ad-4762-8825-cfa5d0d66d93)
+  
+![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/8aecd964-c65b-4048-ac74-0d2ac5bfe54a)
+
+---
+
+## 📦 Summary
+
+| Configuration Item    | Value                             |
+|------------------------|----------------------------------|
+| Server Name            | WIN-D2PQBCI88JQ                  |
+| Static IP              | 192.168.1.10                     |
+| Domain Name            | hughdomain.local                 |
+| DNS Server             | 192.168.1.10 (local)             |
+| AD Role Installed      | Active Directory Domain Services |
+| Domain Controller Type | New Forest                       |
+
+---
+
+## 📁 Screenshot Storage
+
+All screenshots for this section can be found in:  
+📂 `06-Screenshots/Windows-Server-Setup/`  

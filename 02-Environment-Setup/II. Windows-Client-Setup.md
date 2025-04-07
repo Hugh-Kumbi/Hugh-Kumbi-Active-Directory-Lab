@@ -85,7 +85,7 @@ After reboot, I:
 📸 **Screenshot:**
 ![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/60ffc840-6c1d-4db0-bed2-1af49fd3f053)
 
-- System properties showing domain joined  
+![System properties showing domain joined](https://github.com/user-attachments/assets/afdbaec2-139e-44b0-a573-16005268edc4)
 
 ![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/7920886b-afa6-45ca-87ec-83f85a2364e5)
 
@@ -99,10 +99,10 @@ After reboot, I:
 
 ## 📦 Summary
 
-| Client Name    | IP Address     | DNS Server     | Domain Joined         |
-|----------------|----------------|----------------|------------------------|
-| AD-WIN11-01     | 192.168.1.20   | 192.168.1.10   | hughdomain.local       |
-| AD-WIN11-02     | 192.168.1.30   | 192.168.1.10   | hughdomain.local       |
+| Client Name     | IP Address    | DNS Server     | Domain Joined    |
+|-----------------|---------------|----------------|------------------|
+| DESKTOP-74HPA3F | 192.168.1.101 | 192.168.1.10   | hughdomain.local |
+| DESKTOP-2N3JERQ | 192.168.1.12  | 192.168.1.10   | hughdomain.local |
 
 ---
 

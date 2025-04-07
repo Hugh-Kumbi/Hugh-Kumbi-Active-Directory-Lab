@@ -52,9 +52,6 @@ After installation, I did the following on both clients:
 
  ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
-![Uploading System  About  Showing Kept Computer Names.png…]()
-
-
 ---
 
 ## 🏢 3. Joining the Domain

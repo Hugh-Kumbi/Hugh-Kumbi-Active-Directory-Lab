@@ -50,7 +50,7 @@ After installation, I did the following on both clients:
 📸 **Screenshot:**
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
 
- ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
+![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
 ---
 
@@ -109,4 +109,4 @@ After reboot, I:
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 [`06-Screenshots/Windows-Client-Setup/`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Domain%20Join%20Success.md)
+📂 [`06-Screenshots/Windows-Client-Setup/`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Windows-Client-Setup/Domain%20Join%20Success.md)

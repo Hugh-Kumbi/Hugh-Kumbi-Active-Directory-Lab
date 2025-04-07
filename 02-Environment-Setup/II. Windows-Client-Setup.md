@@ -64,7 +64,7 @@ On each client:
 4. Restarted the machine when prompted
 
 📸 **Screenshot:**
-![Domain Join Prompt With Domain Name Entered2](https://github.com/user-attachments/assets/f007182c-786d-4447-b72f-f085bbe0cece)
+![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
 
 ![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/4a39927b-ba5d-4fd6-8b1a-455943c53533)
 

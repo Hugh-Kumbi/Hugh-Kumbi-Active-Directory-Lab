@@ -49,7 +49,9 @@ After installation, I did the following on both clients:
 
 📸 **Screenshot:**
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
- 
+
+ ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
+
 ![Uploading System  About  Showing Kept Computer Names.png…]()
 
 

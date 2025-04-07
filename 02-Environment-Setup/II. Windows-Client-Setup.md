@@ -91,7 +91,7 @@ After reboot, I:
 
 ![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/9ff3b78a-7e31-4b3a-87c9-a9d30626c624)
 
-![System properties showing domain joined](https://github.com/user-attachments/assets/1a3f4418-4a7d-4c0c-a165-11411c830128)
+![System properties showing domain joined](https://github.com/user-attachments/assets/9d55c881-e968-40ee-ab5f-1b3c8baf73b3)
 
 ![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/786662b4-9a08-4464-9acf-d0c0973b9002)
 

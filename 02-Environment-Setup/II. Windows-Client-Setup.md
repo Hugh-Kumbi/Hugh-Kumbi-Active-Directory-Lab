@@ -1,6 +1,6 @@
 # 💻 Windows 11 Client Setup
 
-This section details how I configured and joined two Windows 11 Enterprise clients—**DESKTOP-74HPA3F** and **DESKTOP-2N3JERQ**—to my domain `hughdomain.local`.
+This section details how I configured and joined two Windows 11 Pro clients—**DESKTOP-74HPA3F** and **DESKTOP-2N3JERQ**—to my domain `hughdomain.local`.
 
 ---
 

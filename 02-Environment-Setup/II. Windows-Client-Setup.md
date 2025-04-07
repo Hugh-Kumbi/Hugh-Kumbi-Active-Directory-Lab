@@ -87,10 +87,13 @@ After reboot, I:
 
 - System properties showing domain joined  
 
-![Uploading PowerShell Showing Successful ping.png…]()
+![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/7920886b-afa6-45ca-87ec-83f85a2364e5)
 
 ![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/9ff3b78a-7e31-4b3a-87c9-a9d30626c624)
 
+![System properties showing domain joined](https://github.com/user-attachments/assets/1a3f4418-4a7d-4c0c-a165-11411c830128)
+
+![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/786662b4-9a08-4464-9acf-d0c0973b9002)
 
 ---
 

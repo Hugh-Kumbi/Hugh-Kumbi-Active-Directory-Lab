@@ -1,4 +1,4 @@
-![VirtualBox_AD-WIN11-01_07_04_2025_07_05_15](https://github.com/user-attachments/assets/315143c5-2c0d-4501-96f8-f67cb3a45c84)# 💻 Windows 11 Client Setup
+# 💻 Windows 11 Client Setup
 
 This section details how I configured and joined two Windows 11 Enterprise clients—**DESKTOP-74HPA3F** and **DESKTOP-2N3JERQ**—to my domain `hughdomain.local`.
 

@@ -145,17 +145,21 @@ To confirm everything worked:
 - Ensured all created objects appeared correctly in ADUC
 
 📸 **Screenshot suggestion:**
-- Login screen showing domain user  
-- `whoami` and `gpresult /r` results in Command Prompt or PowerShell
+![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
+
+- `whoami` 
+
+![gpresult r 1](https://github.com/user-attachments/assets/d2e61890-5c4f-411c-98a4-3c2ade7fe02b)
+
+![gpresult r 2](https://github.com/user-attachments/assets/a28715ad-35ad-47b1-9c5b-cc12e1715255)
+
+![gpresult r 3](https://github.com/user-attachments/assets/172c416c-2d74-4457-be57-2de2f649fa35)
+
+![gpresult r 4](https://github.com/user-attachments/assets/b94205a1-75dd-490c-9670-a252ab610131)
 
 ---
 
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 `06-Screenshots/Active-Directory-Setup/`
-
-Use relative image links like:
-
-```md
-![OU Structure](../../06-Screenshots/Active-Directory-Setup/ou-structure.png)
+📂 `[06-Screenshots/Active-Directory-Setup/]`()

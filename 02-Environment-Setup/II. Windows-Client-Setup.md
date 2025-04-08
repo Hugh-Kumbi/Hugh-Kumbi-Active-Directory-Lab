@@ -109,4 +109,5 @@ After reboot, I:
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 [`06-Screenshots/Windows-Client-Setup/`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Windows-Client-Setup/Domain%20Join%20Success.md)
+📂 [`06-Screenshots/III. Windows-Client-Setup
+/Domain Join Success`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Windows-Client-Setup/Domain%20Join%20Success.md)

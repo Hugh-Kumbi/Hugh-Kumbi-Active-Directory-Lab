@@ -47,7 +47,7 @@ HUGHDOMAIN.LOCAL
 Each department OU will be used for GPO targeting and permission management.
 
 📸 **Screenshot:**
-![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/6262a4ca-6fa4-4520-acd4-4b8e8ab41435)
+![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/904523b7-eb37-40bc-9038-d88d32cbb576)
 
 ---
 

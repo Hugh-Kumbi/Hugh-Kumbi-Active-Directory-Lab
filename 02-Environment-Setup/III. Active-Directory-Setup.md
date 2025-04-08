@@ -47,13 +47,13 @@ HUGHDOMAIN.LOCAL
 Each department OU will be used for GPO targeting and permission management.
 
 📸 **Screenshot suggestion:**
-- Active Directory Users and Computers (ADUC) showing OU structure
+![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/53747998-af92-4d02-9b9f-815be4aa7544)
 
 ---
 
 ## 👤 3. User Account Creation
 
-Using either the **ADUC GUI** or **PowerShell**, I created domain user accounts:
+Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 ### Example Users:
 | Username        | Full Name        | Department | OU Placement |
@@ -74,8 +74,17 @@ Passwords were set to expire and require change on first login (except admin acc
 
 ![1550 Users confirmation](https://github.com/user-attachments/assets/41918c4d-817b-49d0-b289-0a12981fd397)
 
+![Properties Window Showing Group Membership 1](https://github.com/user-attachments/assets/eefc81fc-e7b2-47c1-8e11-0a586920c30e)
 
-- Properties window showing group membership
+![Properties Window Showing Group Membership 2](https://github.com/user-attachments/assets/74b83d52-7133-4c2e-8d83-4eb7533275ee)
+
+![Properties Window Showing Group Membership 3](https://github.com/user-attachments/assets/c2ef91ea-40b6-4258-a2aa-9cdcfc5d39b0)
+
+![Properties Window Showing Group Membership 4](https://github.com/user-attachments/assets/c8930467-c625-4f39-8ad5-4ff723566605)
+
+![Properties Window Showing Group Membership 5](https://github.com/user-attachments/assets/22d6aa8c-329e-47a5-9d71-0a4ff90529d8)
+
+![Properties Window Showing Group Membership 6](https://github.com/user-attachments/assets/7095a4b8-bf0b-4254-80fc-3d93b8c63ff0)
 
 ---
 

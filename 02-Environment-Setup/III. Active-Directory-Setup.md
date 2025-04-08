@@ -144,7 +144,7 @@ To confirm everything worked:
 - Ran `gpresult /r` to ensure correct GPO application  
 - Ensured all created objects appeared correctly in ADUC
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
 
 - `whoami` 
@@ -162,4 +162,4 @@ To confirm everything worked:
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 `[06-Screenshots/Active-Directory-Setup/]`()
+📂 `[06-Screenshots/Active-Directory-Setup/]`(https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)

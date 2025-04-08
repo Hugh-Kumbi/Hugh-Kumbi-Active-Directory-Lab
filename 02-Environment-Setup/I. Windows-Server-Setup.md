@@ -92,4 +92,5 @@ After installation, I performed the following:
 ## 📁 Screenshot Storage
 
 All screenshots for this section can be found in:  
-📂 [`06-Screenshots/Windows-Server-Setup/`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Windows-Server-Setup/Screenshots.md)  
+📂 [`06-Screenshots/II. Windows-Server-Setup
+/Server Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/Windows-Server-Setup/Screenshots.md)  

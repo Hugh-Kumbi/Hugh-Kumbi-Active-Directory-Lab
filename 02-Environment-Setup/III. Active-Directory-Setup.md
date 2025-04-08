@@ -162,4 +162,4 @@ To confirm everything worked:
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 `[06-Screenshots/Active-Directory-Setup/]`(https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)
+📂 [`06-Screenshots/Active-Directory-Setup/`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)

@@ -31,17 +31,18 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 I created the following OUs to organize domain objects:
 
 ```
-HUGHDOMAIN.LOCAL 
-├── _Employees 
-├── _ITSupportComputers 
-├── _Groups 
+HUGHDOMAIN.LOCAL
+├── Computers
+├── Employees 
+├── ITSupportComputers 
 ├── Tech 
   ├── Accounting 
   ├── HR 
   ├── IT 
   ├── IT Computers
   ├── IT Security 
-  ├── Marketing 
+  ├── Marketing
+  ├── IT Support 
 ├── Users
 ````
 Each department OU will be used for GPO targeting and permission management.

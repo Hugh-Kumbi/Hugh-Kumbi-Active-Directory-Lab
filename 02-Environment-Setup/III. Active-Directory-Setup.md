@@ -16,13 +16,12 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 - **Global Catalog:** Enabled  
 - **Directory Services Restore Mode (DSRM) Password:** Set securely  
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![Server Manager Summary After Installation](https://github.com/user-attachments/assets/0a4ce9a7-3f9b-46be-b130-2a7a1a6a0546)
 
 ![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/72f95f6f-0c87-4a91-baac-9e6bbaca6d1e)
   
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/154b55df-b766-4eaa-84db-e29f4f29c926)
-
 
 ---
 
@@ -47,8 +46,8 @@ HUGHDOMAIN.LOCAL
 ````
 Each department OU will be used for GPO targeting and permission management.
 
-📸 **Screenshot suggestion:**
-![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/53747998-af92-4d02-9b9f-815be4aa7544)
+📸 **Screenshot:**
+![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/6262a4ca-6fa4-4520-acd4-4b8e8ab41435)
 
 ---
 
@@ -68,7 +67,7 @@ Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 Passwords were set to expire and require change on first login (except admin accounts).
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![New User Wizard in ADUC](https://github.com/user-attachments/assets/8add7233-8b78-4811-b53f-fb6cd40f17ea)
   
 ![1500 users ps](https://github.com/user-attachments/assets/3a0f8681-6487-41ff-8e8e-ffd41e472df7)
@@ -96,12 +95,18 @@ I created security groups for access control and GPO scoping:
 ### Examples:
 | Group Name             | Type     | Scope     | Description                         |
 |------------------------|----------|-----------|-------------------------------------|
-| IT-Support             | Security | Global    | All IT support technicians          |
+| Accounting-Managers    | Security | Global    | All IT support technicians          |
+| Administrators         | User     |           | HR management staff                 |
+| BackupAdmin            | User     |           |  Built-in; Admin privileges         |
+| BackupAdmin1           | User     |           |  Granted local admin on Sales PCs   |
+| Domain Admins          | Security | Global    | All IT support technicians          |
 | HR-Managers            | Security | Global    | HR management staff                 |
-| Domain Admins          | Security | Global    | Built-in; Admin privileges          |
-| Local-Admins-Sales     | Security | Global    | Granted local admin on Sales PCs   |
+| IT-Managers            | Security | Global    | Built-in; Admin privileges          |
+| IT-Support             | Security | Global    | Granted local admin on Sales PCs    |
+| Marketing-Managers     | Security | Global    | Built-in; Admin privileges          |
+| TechUsers              | Security | Global    | Granted local admin on Sales PCs    |
 
-Group nesting was applied where relevant (e.g., IT-Support inside Local-Admins-IT).
+Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
 
 📸 **Screenshot suggestion:**
 - Group creation wizard  

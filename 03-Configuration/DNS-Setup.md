@@ -66,6 +66,7 @@ To ensure everything worked:
 ### On the Domain Controller:
 - Ran `nslookup` and `ping` commands for hostname and IP resolution  
 - Verified that domain services could be located via:
+
   ```powershell
   nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
   ```
@@ -81,4 +82,4 @@ To ensure everything worked:
 
 ![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
 
-![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/d65ecde3-ce87-4e26-ad71-4946ab0d98c0)

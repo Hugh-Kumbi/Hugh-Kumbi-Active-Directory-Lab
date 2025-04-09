@@ -16,7 +16,7 @@ The goal of this lab was to simulate a small enterprise Active Directory environ
 
 The diagram below illustrates the network structure, including the domain controller, two client machines, and how they are logically connected.
 
-📌 **[Screenshot]**  
+📌 **Lab Architecture**  
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)
 
 ## 🛠️ 3. Lab Components

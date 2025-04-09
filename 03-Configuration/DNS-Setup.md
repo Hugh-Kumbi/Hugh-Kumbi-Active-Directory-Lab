@@ -65,12 +65,12 @@ To ensure everything worked:
 
 ### On the Domain Controller:
 - Ran `nslookup` and `ping` commands for hostname and IP resolution  
-- Verified that domain services could be located via:
 
 ![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
 
 ![Ran ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
 
+- Verified that domain services could be located via:
 ![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
 
 ### On Client Machines:

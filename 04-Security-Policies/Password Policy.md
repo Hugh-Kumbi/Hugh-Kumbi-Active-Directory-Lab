@@ -58,6 +58,18 @@ These settings align with best practices and compliance requirements such as NIS
 
 - Logged into a test account and attempted to change the password using a weak one — blocked by GPO.
 - Verified GPO application using:
-  
 ```powershell
 gpresult /r
+```
+- Checked rsop.msc (Resultant Set of Policy) to confirm applied settings.
+
+📸 **Screenshot:**
+![Gpresult r WIN Policy](https://github.com/user-attachments/assets/5115121c-ce01-41be-a2f8-676dd0bf32d8)
+
+![Gpresult r WIN Policy 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
+
+![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
+
+## 📁 Screenshot Storage
+All screenshots related to this section should be stored in:
+📂 [`06-Screenshots/Password-Policy/Password-policy-settings`]

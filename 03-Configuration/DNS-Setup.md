@@ -65,23 +65,20 @@ To ensure everything worked:
 
 ### On the Domain Controller:
 - Ran `nslookup` and `ping` commands for hostname and IP resolution  
+- Verified that domain services could be located via:
+  ```powershell
+  nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
+  ```
+### On Client Machines:
+- Used nslookup to confirm the DNS server (192.168.1.10) was responding
+- Ran gpupdate /force and gpresult /r to check successful GPO delivery
 
-![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+📸 **Screenshot:**
+
+![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
 
 ![Ran ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
 
-- Verified that domain services could be located via:
-![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
+![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
 
-### On Client Machines:
-- Used nslookup to confirm the DNS server (192.168.1.10) was responding
-
-- Ran gpupdate /force and gpresult /r to check successful GPO delivery
-
-📸 **Screenshot suggestion:**
-
-- Terminal output of nslookup and SRV record lookups
-
-- ping WIN-D2PQBCI88JQ results
-
-- ipconfig /all showing DNS server as 192.168.1.10
+![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)

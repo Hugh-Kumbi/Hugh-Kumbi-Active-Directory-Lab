@@ -16,11 +16,13 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 - **Global Catalog:** Enabled  
 - **Directory Services Restore Mode (DSRM) Password:** Set securely  
 
-📸 **Screenshot:**
+📸 **Server Manager Summary After Installation:**
 ![Server Manager Summary After Installation](https://github.com/user-attachments/assets/0a4ce9a7-3f9b-46be-b130-2a7a1a6a0546)
 
+📸 **Domain Promotion Wizard Final Confirmation Screen:**
 ![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/72f95f6f-0c87-4a91-baac-9e6bbaca6d1e)
-  
+
+📸 **Command Prompt With Ipconfig All Showing Domain Suffix:**
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/154b55df-b766-4eaa-84db-e29f4f29c926)
 
 ---
@@ -46,7 +48,7 @@ HUGHDOMAIN.LOCAL
 ````
 Each department OU will be used for GPO targeting and permission management.
 
-📸 **Screenshot:**
+📸 **Active Directory Users and Computers (ADUC) Showing OU Structure:**
 ![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/904523b7-eb37-40bc-9038-d88d32cbb576)
 
 ---
@@ -147,8 +149,8 @@ To confirm everything worked:
 📸 **Screenshot:**
 ![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
 
-- `whoami` 
-
+![Whoami](https://github.com/user-attachments/assets/708ed3be-2897-406c-bd2f-804bb0c7f05f)
+ 
 ![gpresult r 1](https://github.com/user-attachments/assets/d2e61890-5c4f-411c-98a4-3c2ade7fe02b)
 
 ![gpresult r 2](https://github.com/user-attachments/assets/a28715ad-35ad-47b1-9c5b-cc12e1715255)

@@ -14,8 +14,9 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 - Secure dynamic updates enabled
 
 📸 **Screenshot suggestion:**
-- DNS Manager showing the forward lookup zone  
-- Reverse lookup zone creation wizard
+![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/49da0768-4f2f-4e93-89a0-7497c99bec09)
+
+![Reverse lookup zone creation wizard](https://github.com/user-attachments/assets/10ebd273-c1a7-4e61-8323-b29e8f0225b2)
 
 ---
 
@@ -24,8 +25,8 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 Within the **Forward Lookup Zone**, I verified the creation of:
 
 - **Host (A)** records for:
-  - Domain Controller (e.g., `DC01` ➝ `192.168.1.10`)
-  - Windows 11 clients (`AD-WIN11-01`, `AD-WIN11-02`)
+  - Domain Controller: `WIN-D2PQBCI88JQ` ➝ `192.168.1.10`
+  - Windows 11 clients: `DESKTOP-74HPA3F`, `DESKTOP-2N3JERQ
 - **_msdcs** subdomain (used for AD replication and services)
 - SRV Records for:
   - `_ldap._tcp.dc._msdcs.hughdomain.local`
@@ -46,9 +47,9 @@ To support name resolution from IP → hostname, I manually created a **Reverse 
 - Enabled secure dynamic updates
 
 Verified PTR records for:
-- `192.168.1.10` ➝ `DC01`
-- `192.168.1.20` ➝ `AD-WIN11-01`
-- `192.168.1.30` ➝ `AD-WIN11-02`
+- `192.168.1.10` ➝ `WIN-D2PQBCI88JQ`
+- `192.168.1.20` ➝ `DESKTOP-74HPA3F`
+- `192.168.1.30` ➝ `DESKTOP-2N3JERQ`
 
 📸 **Screenshot suggestion:**
 - Reverse Lookup Zone configuration in DNS Manager  

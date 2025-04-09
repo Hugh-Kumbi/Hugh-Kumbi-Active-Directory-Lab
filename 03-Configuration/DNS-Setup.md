@@ -26,15 +26,16 @@ Within the **Forward Lookup Zone**, I verified the creation of:
 
 - **Host (A)** records for:
   - Domain Controller: `WIN-D2PQBCI88JQ` ➝ `192.168.1.10`
-  - Windows 11 clients: `DESKTOP-74HPA3F`, `DESKTOP-2N3JERQ
+  - Windows 11 clients: `DESKTOP-74HPA3F`, `DESKTOP-2N3JERQ`
 - **_msdcs** subdomain (used for AD replication and services)
 - SRV Records for:
   - `_ldap._tcp.dc._msdcs.hughdomain.local`
   - `_kerberos._tcp.dc._msdcs.hughdomain.local`
 
 📸 **Screenshot suggestion:**
-- DNS Manager with `_msdcs` and SRV records visible  
-- Host records for domain members
+![DNS Manager With msdcs and SRV Records Visible](https://github.com/user-attachments/assets/6bdf6414-3673-4d76-91bb-3635bb6687bc)
+
+![Host Records For Domain Members](https://github.com/user-attachments/assets/799d22f0-446d-4598-810b-0c1c1d01e820)
 
 ---
 
@@ -48,12 +49,13 @@ To support name resolution from IP → hostname, I manually created a **Reverse 
 
 Verified PTR records for:
 - `192.168.1.10` ➝ `WIN-D2PQBCI88JQ`
-- `192.168.1.20` ➝ `DESKTOP-74HPA3F`
-- `192.168.1.30` ➝ `DESKTOP-2N3JERQ`
+- `192.168.1.101` ➝ `DESKTOP-74HPA3F`
+- `192.168.1.12` ➝ `DESKTOP-2N3JERQ`
 
 📸 **Screenshot suggestion:**
-- Reverse Lookup Zone configuration in DNS Manager  
-- PTR record list
+![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/60a91dd9-dff6-43f8-9377-c609b3e6f845)
+
+![PTR Record List](https://github.com/user-attachments/assets/e4d77d55-e09a-4fcf-a2cf-062d0f4be1e1)
 
 ---
 
@@ -64,6 +66,22 @@ To ensure everything worked:
 ### On the Domain Controller:
 - Ran `nslookup` and `ping` commands for hostname and IP resolution  
 - Verified that domain services could be located via:
-  ```powershell
-  nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
 
+![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+
+![Ran ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
+
+![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
+
+### On Client Machines:
+- Used nslookup to confirm the DNS server (192.168.1.10) was responding
+
+- Ran gpupdate /force and gpresult /r to check successful GPO delivery
+
+📸 **Screenshot suggestion:**
+
+- Terminal output of nslookup and SRV record lookups
+
+- ping WIN-D2PQBCI88JQ results
+
+- ipconfig /all showing DNS server as 192.168.1.10

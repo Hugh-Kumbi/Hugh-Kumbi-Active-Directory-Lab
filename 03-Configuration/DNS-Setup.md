@@ -13,7 +13,7 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 - Reverse Lookup Zone: Created for subnet `192.168.1.0/24`
 - Secure dynamic updates enabled
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/49da0768-4f2f-4e93-89a0-7497c99bec09)
 
 ![Reverse lookup zone creation wizard](https://github.com/user-attachments/assets/10ebd273-c1a7-4e61-8323-b29e8f0225b2)
@@ -32,7 +32,7 @@ Within the **Forward Lookup Zone**, I verified the creation of:
   - `_ldap._tcp.dc._msdcs.hughdomain.local`
   - `_kerberos._tcp.dc._msdcs.hughdomain.local`
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![DNS Manager With msdcs and SRV Records Visible](https://github.com/user-attachments/assets/6bdf6414-3673-4d76-91bb-3635bb6687bc)
 
 ![Host Records For Domain Members](https://github.com/user-attachments/assets/799d22f0-446d-4598-810b-0c1c1d01e820)
@@ -52,7 +52,7 @@ Verified PTR records for:
 - `192.168.1.101` ➝ `DESKTOP-74HPA3F`
 - `192.168.1.12` ➝ `DESKTOP-2N3JERQ`
 
-📸 **Screenshot suggestion:**
+📸 **Screenshot:**
 ![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/60a91dd9-dff6-43f8-9377-c609b3e6f845)
 
 ![PTR Record List](https://github.com/user-attachments/assets/e4d77d55-e09a-4fcf-a2cf-062d0f4be1e1)

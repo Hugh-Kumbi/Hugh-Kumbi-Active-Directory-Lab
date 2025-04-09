@@ -12,7 +12,7 @@ This document outlines the **Password Policy** implemented through Group Policy 
 This policy was created using the **Group Policy Management Console (GPMC)** and linked at the domain level to ensure that it applies uniformly to all domain user accounts.
 
 📸 **Screenshot**
-- GPMC showing the "Domain Password Policy" GPO linked to the domain
+![GPMC showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
 
 ---
 
@@ -34,8 +34,9 @@ The following settings were configured under:
 These settings ensure users cannot reuse old passwords frequently, must use complex and lengthy passwords, and cannot store passwords insecurely.
 
 📸 **Screenshot:**
-- Group Policy Editor window showing the Password Policy path  
-- Each setting with its configured value
+![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+
+![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
 
 ---
 

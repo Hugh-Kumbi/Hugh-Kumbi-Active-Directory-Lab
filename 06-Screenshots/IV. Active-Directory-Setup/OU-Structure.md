@@ -50,7 +50,7 @@
 
 ![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
 
-- `whoami` 
+![Whoami](https://github.com/user-attachments/assets/9cd7921e-53b8-4493-b298-30fe138e4e0c)
 
 ![gpresult r 1](https://github.com/user-attachments/assets/d2e61890-5c4f-411c-98a4-3c2ade7fe02b)
 

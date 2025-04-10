@@ -77,6 +77,6 @@ Checked Event Viewer for GroupPolicy logs under Applications and Services Logs >
 
 - Event Viewer logs confirming GPO application
 
-📁 Screenshot Storage
+### 📁 Screenshot Storage
 All screenshots related to GPOs should be saved in:
 📂 [`06-Screenshots/GPO-Configurations/GPMC GPO List`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/GPO-Configurations/VI.%20GPMC%20GPO%20List.md)

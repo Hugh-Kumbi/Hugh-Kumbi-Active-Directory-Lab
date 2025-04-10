@@ -61,7 +61,8 @@ Verified that GPOs were successfully replicated and applied:
 
 ### On Domain Controller:
 ```powershell
-repadmin /syncall /AdeP ```
+repadmin /syncall /AdeP
+```
 
 ### On Clients:
 - gpupdate /force
@@ -69,9 +70,13 @@ repadmin /syncall /AdeP ```
 Checked Event Viewer for GroupPolicy logs under Applications and Services Logs > Microsoft > Windows > GroupPolicy.
 
 📸 **Screenshot:**
-- Command line results from gpupdate and gpresult
+- Command line results from gpupdate
+- Command line results from gpresult
+
+![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
+
 - Event Viewer logs confirming GPO application
 
 📁 Screenshot Storage
 All screenshots related to GPOs should be saved in:
-📂 06-Screenshots/GPO-Configurations/GPMC GPO List
+📂 [`06-Screenshots/GPO-Configurations/GPMC GPO List`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/GPO-Configurations/VI.%20GPMC%20GPO%20List.md)

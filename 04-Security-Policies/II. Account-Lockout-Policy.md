@@ -68,4 +68,4 @@ These configurations align with enterprise security policies and common audit st
 ## 📁 Screenshot Storage
 
 Screenshots for this section should be saved in:  
-📂 [`06-Screenshots/Account-Lockout-Policy/Account-Lockout-Settings/account-lockout-settings.png`]()
+📂 [`06-Screenshots/Account-Lockout-Policy/Account-Lockout-Settings/Account-Lockout-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Account-Lockout-Policy/Account-Lockout-Settings.md)

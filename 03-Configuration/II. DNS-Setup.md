@@ -90,3 +90,7 @@ To ensure everything worked:
 ![Ran gpupdate](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
 
 ![Ran gpresult](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
+
+## 📁 Screenshot Storage
+All screenshots for this section should be placed in:
+📂 [`06-Screenshots/DNS-Setup/DNS-Forward-Zone`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/DNS-Forward-Zone.md)

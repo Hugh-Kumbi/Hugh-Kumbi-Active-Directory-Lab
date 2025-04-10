@@ -165,4 +165,4 @@ To confirm everything worked:
 
 All screenshots for this section should be placed in:  
 📂 [`06-Screenshots/IV. Active-Directory-Setup
-/OU-Structure`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)
+/OU-Structure.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)

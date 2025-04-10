@@ -33,7 +33,7 @@ Path to settings:
 | **System**             | Security System Extension        | Success/Failure   |
 
 📸 **Screenshot:**
-- ![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
+![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
 
 ---
 

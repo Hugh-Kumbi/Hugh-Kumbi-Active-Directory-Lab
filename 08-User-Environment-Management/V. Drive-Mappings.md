@@ -71,10 +71,4 @@ This section outlines how I configured shared drive mappings using Group Policy 
 ## 🗂️ 5. Screenshot Storage
 
 Store all related images in:  
-📂 [`06-Screenshots/Drive-Mappings/Drive-Map-Config`]
-
-Example embed in Markdown:
-
-```md
-![Drive Mapping Configuration](../../06-Screenshots/Drive-Mappings/drive-map-config.png)
-```
+📂 [`06-Screenshots/Drive-Mappings/Drive-Map-Config`]()

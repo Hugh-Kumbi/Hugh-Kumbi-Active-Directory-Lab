@@ -49,3 +49,10 @@ Ensured Windows Server had proper DNS and time sync.
 Selected features and policies aligned with real-world enterprise best practices.
 
 Documented each configuration step with screenshots and explanations.
+
+---
+
+## 📁 Screenshot Storage
+
+All screenshots for this section should be placed in:  
+📂 [`06-Screenshots/I. Planning/Lab Architecture.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)

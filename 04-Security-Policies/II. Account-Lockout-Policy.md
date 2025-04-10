@@ -12,7 +12,7 @@ This document outlines the **Account Lockout Policy** configured in the domain t
 Created and applied via the **Group Policy Management Console (GPMC)**, this GPO was designed to lock accounts temporarily after multiple failed login attempts.
 
 📸 **Screenshot:**
-- GPMC showing the "Account Lockout Policy" GPO and its link to the domain
+![GPMC Showing The Account Lockout Policy GPO And Its Link To The Domain](https://github.com/user-attachments/assets/d62b5148-6c62-4236-8ee9-07b583a6c247)
 
 ---
 
@@ -32,7 +32,7 @@ These settings ensure that accounts are temporarily disabled after five failed l
 
 📸 **Screenshot:**
 - Group Policy Editor showing the Account Lockout Policy path  
-- Each individual setting with values applied
+![Each Individual Setting With Values Applied](https://github.com/user-attachments/assets/3ff81187-e9ee-475f-a78e-d6c1345069df)
 
 ---
 
@@ -56,20 +56,16 @@ These configurations align with enterprise security policies and common audit st
 
 📂 `Event Viewer > Windows Logs > Security`
 
-- Used `net user username /domain` to confirm lockout status.
+- Used `net user TechUser2` to confirm lockout status.
 
 📸 **Screenshot:**
-- Lockout entry in Event Viewer
-- Command prompt showing account status after lockout
+![User Account Management Account Lockout](https://github.com/user-attachments/assets/9f5cd4f7-2ba3-4899-9ffd-d512b7128da0)
+
+![Command Prompt Showing Account Status After Lockout](https://github.com/user-attachments/assets/b18b8a48-9b44-4f11-948d-fab810b29be2)
 
 ---
 
 ## 📁 Screenshot Storage
 
 Screenshots for this section should be saved in:  
-📂 `06-Screenshots/Account-Lockout-Policy/`
-
-To include images in this Markdown:
-
-```md
-![Account Lockout Settings](../../06-Screenshots/Account-Lockout-Policy/account-lockout-settings.png)
+📂 [`06-Screenshots/Account-Lockout-Policy/Account-Lockout-Settings/account-lockout-settings.png`]()

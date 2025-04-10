@@ -72,4 +72,4 @@ gpresult /r
 
 ## 📁 Screenshot Storage
 All screenshots related to this section should be stored in:
-📂 [`06-Screenshots/Password-Policy/Password-policy-settings`]
+📂 [`06-Screenshots/Password-Policy/Password-policy-settings.png`]()

@@ -10,7 +10,7 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 - **Linked To:** hughdomain.local or a specific OU containing user accounts
 
 📸 **Screenshot:**
-- Group Policy Management Console showing the “Folder Redirection Policy” GPO and link
+![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/ffc5e2c4-c4f0-4cb2-b781-cdd03253ccf5)
 
 ---
 
@@ -32,8 +32,9 @@ Settings applied:
   - Policy removal behavior: Leave contents in the redirected location
 
 📸 **Screenshot:**
-- Folder Redirection configuration window  
-- Root path entered (\\Server\UserDocs\%USERNAME%)
+![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/797fd428-1c6e-4c1d-a671-64d6aad6c198)
+  
+![Root Path Entered](https://github.com/user-attachments/assets/8c0dc5da-1191-4ba7-9105-75b8b2195deb)
 
 ---
 
@@ -56,12 +57,13 @@ To verify the configuration:
 3. Checked that the files were successfully redirected to `\\Server\UserDocs\%USERNAME%`.
 
 📸 **Screenshot:**
-- Client-side Documents folder showing the redirected location in Properties  
-- Server-side share (\\Server\UserDocs) showing user folders
+![Client Side Documents Folder Showing the Redirected Location In Properties](https://github.com/user-attachments/assets/44b93241-be75-4f16-9945-e25f78bd08a1)
+
+![Server Side Share Showing User Folders](https://github.com/user-attachments/assets/84313e57-e680-41fd-9336-5f7f1d170dec)
 
 ---
 
 ## 🗂️ 5. Screenshot Storage
 
 All screenshots for this configuration should be saved in:  
-📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection/folder-redirection-settings`]
+📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection/folder-redirection-settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Folder-Redirection/Folder-Redirection-Settings.md)

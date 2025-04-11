@@ -1,4 +1,4 @@
-![VirtualBox_AD-WIN11-02_12_04_2025_05_31_17](https://github.com/user-attachments/assets/2d7fe196-bba8-4a15-bc0b-db5e7fdd82a9)# 🔧 Common Issues & Troubleshooting
+# 🔧 Common Issues & Troubleshooting
 
 During the setup and configuration of my Active Directory Lab, I encountered a few challenges. This section documents those issues, how I identified them, and the steps I took to resolve them. Recording these solutions not only helped me deepen my understanding but also serves as a helpful reference for future troubleshooting.
 
@@ -22,10 +22,12 @@ Corrupted trust relationship between the domain controller and the client.
   ```
 
 📸 **Screenshot:**
+![VirtualBox_AD-WIN11-02_12_04_2025_05_31_17](https://github.com/user-attachments/assets/2d7fe196-bba8-4a15-bc0b-db5e7fdd82a9)
 
 ![Error Message Showing Trust Relationship Failure](https://github.com/user-attachments/assets/69fba4ca-38d1-424a-999f-7a7d1ba46d31)
 
-- System Properties screen showing domain rejoining
+![System Properties Screen Showing Domain Rejoining](https://github.com/user-attachments/assets/97892673-b001-4b4a-92b7-d3ad969f4bfd)
+
 
 ## 🔐 2. RDP Access Denied for Domain Admins
 **Issue:**

@@ -1,4 +1,4 @@
-# 🔧 Common Issues & Troubleshooting
+![VirtualBox_AD-WIN11-02_12_04_2025_05_31_17](https://github.com/user-attachments/assets/2d7fe196-bba8-4a15-bc0b-db5e7fdd82a9)# 🔧 Common Issues & Troubleshooting
 
 During the setup and configuration of my Active Directory Lab, I encountered a few challenges. This section documents those issues, how I identified them, and the steps I took to resolve them. Recording these solutions not only helped me deepen my understanding but also serves as a helpful reference for future troubleshooting.
 
@@ -23,7 +23,7 @@ Corrupted trust relationship between the domain controller and the client.
 
 📸 **Screenshot:**
 
-- Error message showing trust relationship failure
+![Error Message Showing Trust Relationship Failure](https://github.com/user-attachments/assets/69fba4ca-38d1-424a-999f-7a7d1ba46d31)
 
 - System Properties screen showing domain rejoining
 
@@ -71,9 +71,9 @@ gpupdate /force
 
 📸 **Screenshot:**
 
-- gpupdate /force command output
+![Gpupdate Force Command Output For USB Restriction](https://github.com/user-attachments/assets/048cab8d-18ce-4d7a-a2d8-4e541cdfc323)
 
-- GPO Result Wizard showing USB restrictions applied
+![Ran gpresult](https://github.com/user-attachments/assets/d2cd5644-473a-43dd-a886-ce6360f7291d)
 
 ## 🔒 4. Logon Denied for Domain Users
 **Issue:**
@@ -92,11 +92,14 @@ Computer Configuration > Windows Settings > Security Settings > Local Policies >
 - Rebooted affected machines.
 
 **📸 Screenshot:**
+![GPO Showing Deny Log On Locally Setting](https://github.com/user-attachments/assets/f23b3f25-875a-4fbe-8f56-4626fb43e0f5)
 
-- GPO showing "Deny log on locally" setting
+![Resultant Set of Policy (RSoP) Output Showing Unresolved Permissions](https://github.com/user-attachments/assets/2a720ab1-39da-446d-a1a3-c261d7c1c5d3)
 
-- Resultant Set of Policy (RSoP) output showing resolved permissions
+![Logon Access Denied Because Deny Logon Setting](https://github.com/user-attachments/assets/ecfc4808-66a9-4190-ba6f-eda972444c5b)
+
+![Resultant Set of Policy (RSoP) Output Showing Resolved Permissions](https://github.com/user-attachments/assets/0a9bf0cb-e8b1-4034-910b-b3f2f9feba28)
 
 🗂️ 5. Screenshot Storage
 All related troubleshooting screenshots are saved in:
-📂 [`06-Screenshots/Troubleshooting/Trust-Issue.png`]()
+📂 [`06-Screenshots/Troubleshooting/Trust-Issue.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/X.%20Troubleshooting/Trust-Issues.md)

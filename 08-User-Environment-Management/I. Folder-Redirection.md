@@ -24,7 +24,7 @@ Settings applied:
 
 - **Target Folder Location:**  
   ➤ Redirect to the following location: **Basic - Redirect everyone’s folder to the same location**  
-  ➤ Root Path: `\\Server\UserDocs\%USERNAME%`
+  ➤ Root Path: `\\WIN-D2PQBCI88JQ\RedirectedFolder$\TechUser1`
 
 - **Settings:**
   - Grant the user exclusive rights to Documents

@@ -48,7 +48,8 @@ Computer Configuration > Policies > Windows Settings > Security Settings > Local
 📸 **Screenshot:**
 ![RDP Access Denied](https://github.com/user-attachments/assets/12745c2e-bf5c-4a8e-a41d-7a767cf172fc)
 
-- GPO setting showing Domain Admins added to RDP permissions
+![GPO setting Showing Domain Admins Added To RDP Permissions](https://github.com/user-attachments/assets/e31a3b6d-a423-403a-8813-782af0d30eea)
+
 
 ## 💾 3. USB Device Policy Not Applying
 **Issue:**

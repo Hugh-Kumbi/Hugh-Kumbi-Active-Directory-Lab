@@ -24,7 +24,7 @@ Settings applied:
 
 - **Target Folder Location:**  
   ➤ Redirect to the following location: **Basic - Redirect everyone’s folder to the same location**  
-  ➤ Root Path: `\\WIN-D2PQBCI88JQ\RedirectedFolder$\TechUser1`
+  ➤ Root Path: `\\WIN-D2PQBCI88JQ\RedirectedFolder$`
 
 - **Settings:**
   - Grant the user exclusive rights to Documents
@@ -54,7 +54,7 @@ To verify the configuration:
 
 1. Logged into the client machine as a domain user.
 2. Created test documents in the **Documents** folder.
-3. Checked that the files were successfully redirected to `\\Server\UserDocs\%USERNAME%`.
+3. Checked that the files were successfully redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\TechUser1`.
 
 📸 **Screenshot:**
 ![Client Side Documents Folder Showing the Redirected Location In Properties](https://github.com/user-attachments/assets/44b93241-be75-4f16-9945-e25f78bd08a1)

@@ -46,6 +46,7 @@ Computer Configuration > Policies > Windows Settings > Security Settings > Local
 - Ran `gpupdate /force`.
 
 📸 **Screenshot:**
+![RDP Access Denied](https://github.com/user-attachments/assets/12745c2e-bf5c-4a8e-a41d-7a767cf172fc)
 
 - GPO setting showing Domain Admins added to RDP permissions
 

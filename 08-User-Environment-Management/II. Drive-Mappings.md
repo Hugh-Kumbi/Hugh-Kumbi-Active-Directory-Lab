@@ -28,7 +28,7 @@ I used the **Group Policy Preferences** feature for drive mappings:
 - **Drive Letter:** Z:  
 - **Reconnect:** Enabled  
 - **Use:** Update  
-- **Item-level Targeting:** Enabled to apply based on group membership (e.g., only for Marketing Group)
+- **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the Tech Users Group
 
 📸 **Screenshot:**
 ![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)

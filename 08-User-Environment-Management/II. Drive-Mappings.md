@@ -10,7 +10,7 @@ This document explains how I configured **drive mappings via Group Policy** to p
 - **Linked To:** hughdomain.local or relevant user OU
 
 📸 **Screenshot:**
-- Group Policy Management Console showing “Drive Mappings Policy” under the correct OU
+![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
 
 ---
 
@@ -25,14 +25,26 @@ I used the **Group Policy Preferences** feature for drive mappings:
 - **Action:** Create  
 - **Location:** `\\Server\Share`  
 - **Label as:** Shared Drive  
-- **Drive Letter:** S:  
+- **Drive Letter:** Z:  
 - **Reconnect:** Enabled  
 - **Use:** Update  
 - **Item-level Targeting:** Enabled to apply based on group membership (e.g., only for Marketing Group)
 
 📸 **Screenshot:**
-- Drive Maps GPP window  
-- Shared folder path and drive letter configuration  
+![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)
+
+![Shared Folder Path and Drive Letter Configuration 10](https://github.com/user-attachments/assets/c0f01b56-6415-46b5-a765-f050936565ca)
+
+![Shared Folder Path and Drive Letter Configuration 1](https://github.com/user-attachments/assets/ffea3ee2-ebd7-4d95-a2ee-09a6800a7d70)
+
+![Shared Folder Path and Drive Letter Configuration 2](https://github.com/user-attachments/assets/fd839620-9d66-475c-894b-11303a8819b4)
+
+![Shared Folder Path and Drive Letter Configuration 21](https://github.com/user-attachments/assets/856426ce-df8b-4c25-8c53-29e9385fd006)
+
+![Shared Folder Path and Drive Letter Configuration 3](https://github.com/user-attachments/assets/44ebbfd0-9476-42fe-9005-7d99f1fc4d57)
+
+![Shared Folder Path and Drive Letter Configuration 31](https://github.com/user-attachments/assets/3cc04899-fd49-4407-aa01-0a1df9718434)
+
 - Item-level targeting condition
 
 ---
@@ -56,7 +68,7 @@ To test the setup:
 3. Verified access to the contents in the shared folder.
 
 📸 **Screenshot:**
-- File Explorer showing the mapped S: drive  
+- File Explorer showing the mapped Z: drive  
 - Properties of the mapped drive
 
 ---

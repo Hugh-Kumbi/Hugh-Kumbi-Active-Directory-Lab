@@ -68,7 +68,7 @@ To test the setup:
 3. Verified access to the contents in the shared folder.
 
 📸 **Screenshot:**
-![File Explorer Showing The Mapped Z Drive](https://github.com/user-attachments/assets/aa677e95-0060-45b2-b478-01090cc716a3)
+![File Explorer Showing The Mapped Z Drive (2)](https://github.com/user-attachments/assets/add0c1c1-4ff5-4a42-8265-bba1e4385648)
 
 ![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/9287615a-91f1-4dfb-aa37-ba44e053f333)
 
@@ -77,4 +77,4 @@ To test the setup:
 ## 🗂️ 5. Screenshot Storage
 
 Save all related screenshots in:  
-📂 [`06-Screenshots/Drive-Mappings/Drive-Mappings/drive-map-settings`]
+📂 [`06-Screenshots/Drive-Mappings/Drive-Mappings/Drive-Map-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XII.%20Drive-Mappings/Drive-Map-Settings.md)

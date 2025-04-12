@@ -7,7 +7,7 @@ This document explains how I configured **drive mappings via Group Policy** to p
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Drive Mappings Policy  
-- **Linked To:** hughdomain.local or relevant user OU
+- **Linked To:** hughdomain.local
 
 📸 **Screenshot:**
 ![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
@@ -23,7 +23,7 @@ I used the **Group Policy Preferences** feature for drive mappings:
 ### ➕ New Mapped Drive:
 
 - **Action:** Create  
-- **Location:** `\\Server\Share`  
+- **Location:** `\\WIN-D2PQBCI88JQ\DepartmentShares`  
 - **Label as:** Shared Drive  
 - **Drive Letter:** Z:  
 - **Reconnect:** Enabled  
@@ -45,7 +45,7 @@ I used the **Group Policy Preferences** feature for drive mappings:
 
 ![Shared Folder Path and Drive Letter Configuration 31](https://github.com/user-attachments/assets/3cc04899-fd49-4407-aa01-0a1df9718434)
 
-- Item-level targeting condition
+![Item-Level Targeting Condition](https://github.com/user-attachments/assets/e1c1f6e3-1671-4138-8e4a-2f9e27de2fac)
 
 ---
 
@@ -64,12 +64,13 @@ This configuration eliminated the need for manual drive mapping and allowed bett
 To test the setup:
 
 1. Logged in as a domain user from the targeted group.
-2. Confirmed that the **S:** drive appeared under “This PC”.
+2. Confirmed that the **Z:** drive appeared under “This PC”.
 3. Verified access to the contents in the shared folder.
 
 📸 **Screenshot:**
-- File Explorer showing the mapped Z: drive  
-- Properties of the mapped drive
+![File Explorer Showing The Mapped Z Drive](https://github.com/user-attachments/assets/aa677e95-0060-45b2-b478-01090cc716a3)
+
+![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/9287615a-91f1-4dfb-aa37-ba44e053f333)
 
 ---
 

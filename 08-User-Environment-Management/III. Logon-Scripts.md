@@ -1,16 +1,16 @@
-# 🔁 Logon/Logoff Scripts Policy
+# 🔁 Logon-Logoff Scripts Policy
 
-This document outlines how I configured **logon scripts via Group Policy** to automate tasks and customize the user environment upon login.
+This document outlines how I configured **logon-loggoff scripts via Group Policy** to automate tasks and customize the user environment upon login.
 
 ---
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** Logon Scripts Policy  
-- **Linked To:** hughdomain.local or a specific OU containing the user accounts
+- **GPO Name:** Logon-Logoff Scripts Policy  
+- **Linked To:** hughdomain.local
 
 📸 **Screenshot suggestion:**
-- Group Policy Management Console showing “Logon Scripts Policy” linked to the correct OU
+![Group Policy Management Console Showing Logon Scripts Policy](https://github.com/user-attachments/assets/bd046d0d-e96c-4ada-9417-0faf223f2f64)
 
 ---
 
@@ -18,17 +18,26 @@ This document outlines how I configured **logon scripts via Group Policy** to au
 
 I configured scripts using:
 
-📂 `User Configuration > Policies > Windows Settings > Scripts (Logon/Logoff)`
+📂 `User Configuration > Policies > Windows Settings > Scripts (Logon-Logoff)`
 
 ### ➕ Logon Script Configuration
 
-- **Script Name:** `startup-config.ps1`  
-- **Location:** `\\hughdomain.local\NETLOGON\Scripts\startup-config.ps1`  
+- **Script Name:**
+ - `LogonScript.ps1`
+ - `LogoffScript.ps1`  
+- **Location:**
+ - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User\Scripts\Logon
+ - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User\Scripts\Logoff`  
 - **Script Type:** PowerShell
 
 📸 **Screenshot:**
-- Logon Properties window showing the added PowerShell script  
-- File location in the NETLOGON share
+![Logon Properties Window Showing The Added PowerShell Script](https://github.com/user-attachments/assets/db482f6b-4aad-41ee-8284-7edce454bb8f)
+
+![Logoff Properties window showing the added PowerShell script](https://github.com/user-attachments/assets/021c7348-c065-4bda-aab1-d8fbef0e2051)
+
+![Logon File Location In The SysVol Share](https://github.com/user-attachments/assets/8817a049-18c8-461b-a4b0-a45b7c9ccf5d)
+
+![Logoff File Location In The SysVol Share](https://github.com/user-attachments/assets/8c51ea24-a6a9-412c-a9be-f026b31d1285)
 
 ---
 
@@ -41,7 +50,14 @@ The PowerShell logon script was used to:
 - Set desktop background (via registry key or group policy command)  
 - Write logon activity to a shared log file
 
-### Example: `startup-config.ps1`
+### Example: `LogonScript.ps1`
+
+```powershell
+Write-Output "Welcome, $env:USERNAME" > \\Server\Logs\$env:USERNAME-logon.txt
+New-PSDrive -Name "S" -PSProvider FileSystem -Root "\\Server\Share"
+```
+
+### Example: `LogoffScript.ps1`
 
 ```powershell
 Write-Output "Welcome, $env:USERNAME" > \\Server\Logs\$env:USERNAME-logon.txt

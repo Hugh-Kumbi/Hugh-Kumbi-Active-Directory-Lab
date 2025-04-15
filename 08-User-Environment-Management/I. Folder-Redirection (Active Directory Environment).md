@@ -38,33 +38,6 @@ Settings applied:
 
 ---
 
-## 📂 3. Folder Structure on Server
-
-Created the following folder on the server to hold user files:  
-```plaintext
-C:\FileShares\UserData
-```
-
-Then shared it with proper permissions:
-
- -  **Share Permissions:**
-
-   - Authenticated Users: Read/Write
-
--  **NTFS Permissions:**
-
- -  Creator Owner: Full Control
-
- -  Authenticated Users: Modify, Read & Execute, List Folder Contents, Read, Write
-
-📸 **Screenshot:**
-
-![NTFS Permission Settings For The FileShares Folder](https://github.com/user-attachments/assets/274be70b-4d35-4bc3-8438-2d7964943369)
-
-![Share Settings With Authenticated Users Listed](https://github.com/user-attachments/assets/de3e23a0-8852-4047-8354-9be238e0a9be)
-
----
-
 ## 🎯 4. Objectives and Benefits
 
 - Ensure user documents are stored on the server for **centralized management and backup**.

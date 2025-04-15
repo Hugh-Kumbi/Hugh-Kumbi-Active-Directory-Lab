@@ -73,7 +73,7 @@ To test the policy:
 2. Opened the Documents folder.
 
 3. Verified that the Documents folder was redirected to the server path:
-    `\\WIN-D2PQBCI88JQ\UserDat\%username%`
+    `\\WIN-D2PQBCI88JQ\UserData\TechUser1`
 
 4. Created a test file and confirmed it was saved on the server location.
 
@@ -81,7 +81,7 @@ To test the policy:
 
 ![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/edf69bc9-71e1-434b-8ddc-7d91d2f1c6e3)
 
-_ File Explorer showing `\\Server\UserDocs\username`
+![File Explorer Showing ServerUserDataUsername](https://github.com/user-attachments/assets/0868574e-ea46-4e9a-986f-e6da18a12f3d)
 
 ## 🗂️ 5. Screenshot Storage
 Store all screenshots in:

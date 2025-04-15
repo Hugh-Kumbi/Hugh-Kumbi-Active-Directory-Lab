@@ -1,5 +1,4 @@
-![Group Policy Editor showing the Account Lockout Policy path](https://github.com/user-attachments/assets/a548a4e5-5e8c-497c-85f5-5359c010c05a)# 
-🚫 Account Lockout Policy (Domain GPO)
+# 🚫 Account Lockout Policy (Domain GPO)
 
 This document outlines the **Account Lockout Policy** configured in the domain to limit repeated invalid login attempts. This policy adds a critical layer of defense against password-guessing and brute-force attacks.
 

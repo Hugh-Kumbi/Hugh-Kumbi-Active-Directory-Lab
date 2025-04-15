@@ -10,7 +10,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 - **Linked To:** hughdomain.local or the specific OU containing domain users
 
 📸 **Screenshot:**
-- Group Policy Management Console showing the GPO linked to the appropriate OU
+![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/7a6b5186-8001-41d2-9b92-97325d2c48b5)
 
 ---
 

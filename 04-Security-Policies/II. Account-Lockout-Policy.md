@@ -31,13 +31,9 @@ Configured in:
 These settings ensure that accounts are temporarily disabled after five failed logon attempts, making it more difficult for attackers to guess passwords.
 
 📸 **Screenshot:**
+![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+
 ![Group Policy Editor showing the Account Lockout Policy path](https://github.com/user-attachments/assets/4188be8c-cfb9-407d-be3b-a3e3de9aabed)
-  
-![Account Lockout Policy Showing Each Individual Setting With Values Applied 0](https://github.com/user-attachments/assets/76f407af-d1e6-4c04-932a-48846d4cc27f)
-
-![Account Lockout Policy Showing Each Individual Setting With Values Applied 1](https://github.com/user-attachments/assets/970c3df6-6059-4f99-b44a-2d07cbeda5e3)
-
-![Account Lockout Policy Showing Each Individual Setting With Values Applied 2](https://github.com/user-attachments/assets/6d6d50ea-3a2a-447e-90a7-feb6183a1d50)
 
 ---
 

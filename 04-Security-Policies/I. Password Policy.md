@@ -6,7 +6,7 @@ This document outlines the **Password Policy** implemented through Group Policy 
 
 ## 📛 1. GPO Name
 
-- **GPO Name:** Domain Password Policy
+- **GPO Name:** Win11 Security Policy
 - **Linked To:** hughdomain.local (domain root)
 
 This policy was created using the **Group Policy Management Console (GPMC)** and linked at the domain level to ensure that it applies uniformly to all domain user accounts.

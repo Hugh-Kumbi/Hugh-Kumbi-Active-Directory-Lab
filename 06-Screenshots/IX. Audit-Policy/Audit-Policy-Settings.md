@@ -1,6 +1,6 @@
 ![GPMC showing the linked Domain Audit Policy GPO](https://github.com/user-attachments/assets/31bb11fb-730e-4dc4-ab12-e201766397f2)
 
-![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
+![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
 
 ![Security Event Logs In Event Viewer Showing Sample Audited Events](https://github.com/user-attachments/assets/738fb487-504f-4c15-8bf6-f65a3b1cc814)
 

@@ -1,4 +1,4 @@
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/ffc5e2c4-c4f0-4cb2-b781-cdd03253ccf5)
+![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
 
 ![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/797fd428-1c6e-4c1d-a671-64d6aad6c198)
   

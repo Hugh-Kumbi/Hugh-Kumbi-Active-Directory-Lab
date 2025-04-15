@@ -4,7 +4,7 @@
 To track and monitor critical security events such as logons, account management, and policy changes.
 
 ## 🛠️ GPO Details
-- **GPO Name:** Domain Audit Policy
+- **GPO Name:** Win11 Security Policy
 - **Scope:** Domain Controllers and critical servers
 
 ## 🔎 Categories Audited

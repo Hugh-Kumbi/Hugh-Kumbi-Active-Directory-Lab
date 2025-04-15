@@ -66,4 +66,4 @@ To verify the configuration:
 ## 🗂️ 5. Screenshot Storage
 
 All screenshots for this configuration should be saved in:  
-📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection/folder-redirection-settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Folder-Redirection/Folder-Redirection-Settings.md)
+📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection/Folder-Redirection-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Folder-Redirection/Folder-Redirection-Settings.md)

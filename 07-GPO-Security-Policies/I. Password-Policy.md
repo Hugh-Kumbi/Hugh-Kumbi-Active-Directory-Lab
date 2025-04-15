@@ -18,15 +18,13 @@ To enhance account security by enforcing strong password policies across all dom
 | Store passwords using reversible encryption | Disabled            |
 
 ## 📸 Screenshot
-![Password Policy GPO](https://github.com/user-attachments/assets/94702822-f78a-4afc-b672-699ee5cf3e2c)
-
-![Password Policy GPO](![Uploading Password Policy GPO.png…]()
-)(../../06-Screenshots/Security-Policies/password-policy-gpo.png)
+![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
 
 ## ✅ Verification
 - Used `gpresult /H report.html` to confirm the policy was applied.
 - Attempted to change password to weak formats to confirm rejection.
 
-🗂️ 5. Screenshot Storage
-All related troubleshooting screenshots are saved in:
-📂 [`06-Screenshots/GPO-Security-Policies/Password Policy GPO.png`]()
+
+## 📁 Screenshot Storage
+All screenshots related to this section should be stored in:
+📂 [`06-Screenshots/Password-Policy/Password-policy-settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/Password-Policy-Settings.md)

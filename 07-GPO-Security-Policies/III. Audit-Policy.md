@@ -20,8 +20,13 @@ To track and monitor critical security events such as logons, account management
 | System                 | Security System Extension           | Success, Failure  |
 
 ## 📸 Screenshot
-![Audit Policy GPO](../../06-Screenshots/Security-Policies/audit-policy-settings.png)
+![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
 
 ## ✅ Verification
 - Monitored **Security logs** in Event Viewer for expected audit events.
 - Ran test logons and account changes to generate events.
+
+## 📁 Screenshot Storage
+
+Screenshots for this section should be saved in:  
+📂 [`06-Screenshots/Audit-Policy/Audit-Policy/Audit-Policy-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Audit-Policy/Audit-Policy-Settings.md)

@@ -4,7 +4,7 @@
 To prevent brute-force logon attempts by locking user accounts after a set number of invalid login attempts.
 
 ## 🛠️ GPO Details
-- **GPO Name:** Account Lockout Policy
+- **GPO Name:** Win11 Security Policy
 - **Scope:** Domain-wide
 
 ## ⚙️ Settings Implemented

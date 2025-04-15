@@ -6,7 +6,7 @@ This document outlines the **Audit Policy** applied to the domain via Group Poli
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** Domain Audit Policy  
+- **GPO Name:** Win11 Security Policy  
 - **Linked To:** hughdomain.local
 
 Created using the **Group Policy Management Console (GPMC)**, this GPO was applied at the domain level to ensure consistent audit logging across all domain-joined systems.

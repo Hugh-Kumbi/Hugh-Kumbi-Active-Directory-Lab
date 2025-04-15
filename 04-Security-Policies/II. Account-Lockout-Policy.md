@@ -1,4 +1,5 @@
-# 🚫 Account Lockout Policy (Domain GPO)
+![Group Policy Editor showing the Account Lockout Policy path](https://github.com/user-attachments/assets/a548a4e5-5e8c-497c-85f5-5359c010c05a)# 
+🚫 Account Lockout Policy (Domain GPO)
 
 This document outlines the **Account Lockout Policy** configured in the domain to limit repeated invalid login attempts. This policy adds a critical layer of defense against password-guessing and brute-force attacks.
 
@@ -6,7 +7,7 @@ This document outlines the **Account Lockout Policy** configured in the domain t
 
 ## 📛 1. GPO Name
 
-- **GPO Name:** Account Lockout Policy  
+- **GPO Name:** Win11 Security Policy  
 - **Linked To:** hughdomain.local (domain root)
 
 Created and applied via the **Group Policy Management Console (GPMC)**, this GPO was designed to lock accounts temporarily after multiple failed login attempts.
@@ -31,8 +32,13 @@ Configured in:
 These settings ensure that accounts are temporarily disabled after five failed logon attempts, making it more difficult for attackers to guess passwords.
 
 📸 **Screenshot:**
-- Group Policy Editor showing the Account Lockout Policy path  
-![Each Individual Setting With Values Applied](https://github.com/user-attachments/assets/3ff81187-e9ee-475f-a78e-d6c1345069df)
+![Group Policy Editor showing the Account Lockout Policy path](https://github.com/user-attachments/assets/4188be8c-cfb9-407d-be3b-a3e3de9aabed)
+  
+![Account Lockout Policy Showing Each Individual Setting With Values Applied 0](https://github.com/user-attachments/assets/76f407af-d1e6-4c04-932a-48846d4cc27f)
+
+![Account Lockout Policy Showing Each Individual Setting With Values Applied 1](https://github.com/user-attachments/assets/970c3df6-6059-4f99-b44a-2d07cbeda5e3)
+
+![Account Lockout Policy Showing Each Individual Setting With Values Applied 2](https://github.com/user-attachments/assets/6d6d50ea-3a2a-447e-90a7-feb6183a1d50)
 
 ---
 

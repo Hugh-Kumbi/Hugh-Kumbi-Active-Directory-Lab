@@ -85,4 +85,4 @@ To test the policy:
 
 ## 🗂️ 5. Screenshot Storage
 Store all screenshots in:
-📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection-Properties.png`]
+📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection-Properties.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Folder-Redirection/II.%20Folder-Redirection-Settings%20(via%20Group%20Policy).md)

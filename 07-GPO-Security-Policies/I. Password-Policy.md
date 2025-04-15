@@ -4,7 +4,7 @@
 To enhance account security by enforcing strong password policies across all domain users.
 
 ## 🛠️ GPO Details
-- **GPO Name:** Domain Password Policy
+- **GPO Name:** Win11 Security Policy
 - **Scope:** Applied at the domain level to ensure all users comply.
 
 ## ⚙️ Settings Implemented

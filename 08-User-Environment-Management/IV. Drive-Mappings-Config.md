@@ -24,7 +24,7 @@ This section outlines how I configured shared drive mappings using Group Policy 
 4. Configured the following settings:
 
    - **Action:** Create  
-   - **Location:** `\\Server\Share`  
+   - **Location:** `\\WIN-D2PQBCI88JQ\Shares`  
    - **Drive Letter:** `S:`  
    - **Reconnect:** Enabled  
    - **Label as:** Shared Drive  
@@ -34,15 +34,18 @@ This section outlines how I configured shared drive mappings using Group Policy 
    - Enabled **Item-level targeting** to apply the mapping to specific users or security groups.
 
 📸 **Screenshot:**
-- Drive Mapping settings window showing path, label, and drive letter  
-- Item-level targeting configuration
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter](https://github.com/user-attachments/assets/6ffe13fd-8e6b-49f7-bd7c-7aa75ee898a9)
+
+![Item-Level Targeting Configuration](https://github.com/user-attachments/assets/bb4208c6-e570-4770-82b6-6d1d0f44e93b)
+
+![Item-Level Targeting Configuration](https://github.com/user-attachments/assets/5d274933-a3d3-45a8-bbdd-5ba6d0ebdbbf)
 
 ---
 
 ## 🔐 3. Share Permissions
 
-- **Shared Folder Path:** `C:\Shares\Share`  
-- **Network Share Name:** `\\Server\Share`
+- **Shared Folder Path:** `C:\Shares\UserInfo`  
+- **Network Share Name:** `\\WIN-D2PQBCI88JQ\Shares\UserInfo`
 
 - **Share Permissions:**
   - Domain Users: Full Control
@@ -51,8 +54,9 @@ This section outlines how I configured shared drive mappings using Group Policy 
   - Read/Write for necessary users or groups
 
 📸 **Screenshot:**
-- NTFS permission settings  
-- Share settings for `\\Server\Share`
+![NTFS Permission Settings Drive Maps S](https://github.com/user-attachments/assets/41681c23-ce77-4393-b344-81911b20c5ea)
+
+![Share settings for Server Share Drive Mapping S](https://github.com/user-attachments/assets/1a66274a-f41e-4285-a5bf-58475ed22a19)
 
 ---
 
@@ -63,8 +67,9 @@ This section outlines how I configured shared drive mappings using Group Policy 
 3. Created a test file to confirm write access.
 
 📸 **Screenshot:**
-- File Explorer showing the mapped S: drive  
-- File saved successfully in the shared folder
+![File Explorer Showing The mapped S Drive](https://github.com/user-attachments/assets/d25558c6-198a-46d7-9db2-e98fe00a6510)
+
+![File Savedn Successfully In The Shared Folder](https://github.com/user-attachments/assets/cbf325c1-ec0b-4a19-8db8-75074426585c)
 
 ---
 

@@ -153,7 +153,7 @@ The PowerShell logoff script executes the following when a user logs off:
 
  * Safely disconnects mapped Z: drive
 
- * Clears temporary files from %TEMP%
+ * Clears temporary files from `%TEMP%`
 
 4. **User Data Backup**
 

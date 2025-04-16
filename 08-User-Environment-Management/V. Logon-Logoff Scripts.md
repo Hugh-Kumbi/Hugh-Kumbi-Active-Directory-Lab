@@ -41,14 +41,36 @@ I configured scripts using:
 
 ---
 
-## 🔧 3. Script Functionality
+## 🔧 3. Logon Script Functionality
+The PowerShell logon script performs the following actions when a user logs in to the **hughdomain.local domain:**
 
-The PowerShell logon script was used to:
+1. **User Notification**
 
-- Display a welcome message  
-- Map a network drive (fallback if GPP fails)  
-- Set desktop background (via registry key or group policy command)  
-- Write logon activity to a shared log file
+ * Displays a popup notification indicating the logon script is running
+
+ * Shows a completion message when finished
+
+2. **Logging & Auditing**
+
+ * Records logon events to a centralized log file (`\\WIN-D2PQBCI88JQ\LogFiles\<USERNAME>-logon.log`)
+
+ * Logs timestamp, username, and source computer for each logon
+
+3. **Drive Mapping**
+
+ * Maps persistent Z: drive to `\\WIN-D2PQBCI88JQ\SharedDocs`
+
+ * Includes error handling and logging for drive mapping failures
+
+ * Removes existing Z: drive mappings before reconnection
+
+4. **User Folder Management**
+
+ * Creates personalized folders in `\\WIN-D2PQBCI88JQ\UserFolders\<USERNAME>` if they don't exist
+
+5. **Outlook Signature Deployment**
+
+ * Copies user-specific Outlook signatures from a network template location to the local Signatures folder
 
 ### Example: `LogonScript.ps1`
 
@@ -114,6 +136,38 @@ if (Test-Path $SignatureSource) {
 # Final notification to user
 $wshell.Popup("Logon script completed successfully.", 3, "Domain Logon Script", 0x0 + 0x40)
 ```
+## 🔌 3.1  Logoff Script Functionality
+The PowerShell logoff script executes the following when a user logs off:
+
+1. **User Notification**
+
+ * Displays a popup notification indicating the logoff process has started
+
+2. **Logging & Auditing**
+
+ * Records logoff events to `\\WIN-D2PQBCI88JQ\LogFiles\<USERNAME>-logoff.log`
+
+ * Tracks timestamp, username, and source computer
+
+3. **Resource Cleanup**
+
+ * Safely disconnects mapped Z: drive
+
+ * Clears temporary files from %TEMP%
+
+4. **User Data Backup**
+
+ * Performs incremental backup of key folders (Desktop, Documents, Pictures) to the user's network folder
+
+ * Only copies new or modified files to optimize performance
+
+ * Maintains original folder structure during backup
+
+5. **Session Termination**
+
+ * Attempts to display a completion notification (may not appear if logoff is rapid)
+
+ * Logs final completion timestamp
 
 ### Example: `LogoffScript.ps1`
 
@@ -224,7 +278,6 @@ To validate the script:
 ![PowerShell execution results (from user logon) 3](https://github.com/user-attachments/assets/b21b2e59-defd-4071-8207-eed819906f7d)
 
 ![Log File Entry In ServerLogs](https://github.com/user-attachments/assets/e80ff5a3-b01a-4c81-b2d9-863f16e32f09)
-
 
 🗂️ 5. Screenshot Storage
 Store all relevant images in:

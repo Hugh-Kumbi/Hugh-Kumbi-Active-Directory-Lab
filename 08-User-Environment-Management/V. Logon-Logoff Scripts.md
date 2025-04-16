@@ -53,21 +53,158 @@ The PowerShell logon script was used to:
 ### Example: `LogonScript.ps1`
 
 ```powershell
-Write-Output "Welcome, $env:USERNAME" > \\Server\Logs\$env:USERNAME-logon.txt
-New-PSDrive -Name "S" -PSProvider FileSystem -Root "\\Server\Share"
+# PowerShell Logon Script for hughdomain.local
+# Save as LogonScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Display notification to user
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logon script is running. Please wait...", 5, "Domain Logon Script", 0x0 + 0x40)
+
+# Log the logon event
+$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logon.log"
+$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged on from computer $env:COMPUTERNAME"
+Add-Content -Path $LogPath -Value $LogMessage
+
+# Map network drives
+try {
+    # Remove any existing Z drive mapping
+    if (Test-Path "Z:\") {
+        Remove-PSDrive -Name "Z" -Force -ErrorAction SilentlyContinue
+    }
+    
+    # Map the Z drive to shared documents
+    New-PSDrive -Name "Z" -PSProvider FileSystem -Root "\\WIN-D2PQBCI88JQ\SharedDocs" -Persist -ErrorAction Stop
+    Write-Output "Successfully mapped Z: drive to \\WIN-D2PQBCI88JQ\SharedDocs" | Add-Content -Path $LogPath
+} 
+catch {
+    Write-Output "Error mapping Z: drive: $($_.Exception.Message)" | Add-Content -Path $LogPath
+}
+
+# Create user folders if they don't exist
+$userFolder = "\\WIN-D2PQBCI88JQ\UserFolders\$env:USERNAME"
+if (-not (Test-Path $userFolder)) {
+    try {
+        New-Item -Path $userFolder -ItemType Directory -Force -ErrorAction Stop
+        Write-Output "Created user folder: $userFolder" | Add-Content -Path $LogPath
+    }
+    catch {
+        Write-Output "Error creating user folder: $($_.Exception.Message)" | Add-Content -Path $LogPath
+    }
+}
+
+# Set up Outlook signature if applicable
+$SignatureSource = "\\WIN-D2PQBCI88JQ\Templates\Signatures\$env:USERNAME"
+$SignatureDest = "$env:APPDATA\Microsoft\Signatures"
+if (Test-Path $SignatureSource) {
+    try {
+        # Create Signatures directory if it doesn't exist
+        if (-not (Test-Path $SignatureDest)) {
+            New-Item -Path $SignatureDest -ItemType Directory -Force -ErrorAction Stop
+        }
+        
+        # Copy signature files
+        Copy-Item -Path "$SignatureSource\*" -Destination $SignatureDest -Recurse -Force -ErrorAction Stop
+        Write-Output "Successfully copied Outlook signatures" | Add-Content -Path $LogPath
+    }
+    catch {
+        Write-Output "Error copying Outlook signatures: $($_.Exception.Message)" | Add-Content -Path $LogPath
+    }
+}
+
+# Final notification to user
+$wshell.Popup("Logon script completed successfully.", 3, "Domain Logon Script", 0x0 + 0x40)
 ```
 
 ### Example: `LogoffScript.ps1`
 
 ```powershell
-Write-Output "Welcome, $env:USERNAME" > \\Server\Logs\$env:USERNAME-logon.txt
-New-PSDrive -Name "S" -PSProvider FileSystem -Root "\\Server\Share"
+# PowerShell Logoff Script for hughdomain.local
+# Save as LogoffScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Display notification to user
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logoff script is running. Please wait...", 5, "Domain Logoff Script", 0x0 + 0x40)
+
+# Log the logoff event
+$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logoff.log"
+$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged off from computer $env:COMPUTERNAME"
+Add-Content -Path $LogPath -Value $LogMessage
+
+# Disconnect any mapped drives
+try {
+    # Remove Z drive mapping
+    if (Test-Path "Z:\") {
+        Remove-PSDrive -Name "Z" -Force -ErrorAction SilentlyContinue
+        Write-Output "Successfully removed Z: drive mapping" | Add-Content -Path $LogPath
+    }
+}
+catch {
+    Write-Output "Error removing Z: drive: $($_.Exception.Message)" | Add-Content -Path $LogPath
+}
+
+# Backup user data if configured
+$userFolder = "\\WIN-D2PQBCI88JQ\UserFolders\$env:USERNAME"
+$documentsFolder = [Environment]::GetFolderPath("MyDocuments")
+$backupFolders = @("Desktop", "Documents", "Pictures")
+
+foreach ($folder in $backupFolders) {
+    $sourcePath = Join-Path -Path $documentsFolder -ChildPath "..\$folder"
+    $destPath = Join-Path -Path $userFolder -ChildPath $folder
+    
+    if (Test-Path $sourcePath) {
+        try {
+            # Create destination folder if it doesn't exist
+            if (-not (Test-Path $destPath)) {
+                New-Item -Path $destPath -ItemType Directory -Force -ErrorAction Stop
+            }
+            
+            # Copy only new or modified files
+            $files = Get-ChildItem -Path $sourcePath -Recurse -File
+            foreach ($file in $files) {
+                $destFile = Join-Path -Path $destPath -ChildPath $file.FullName.Substring($sourcePath.Length + 1)
+                $destFileDir = Split-Path -Path $destFile -Parent
+                
+                if (-not (Test-Path $destFileDir)) {
+                    New-Item -Path $destFileDir -ItemType Directory -Force -ErrorAction Stop
+                }
+                
+                if (-not (Test-Path $destFile) -or (Get-Item $file).LastWriteTime -gt (Get-Item $destFile).LastWriteTime) {
+                    Copy-Item -Path $file.FullName -Destination $destFile -Force -ErrorAction Stop
+                }
+            }
+            Write-Output "Successfully backed up $folder folder" | Add-Content -Path $LogPath
+        }
+        catch {
+            Write-Output "Error backing up $folder folder: $($_.Exception.Message)" | Add-Content -Path $LogPath
+        }
+    }
+}
+
+# Clear temporary files
+try {
+    Remove-Item -Path "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+    Write-Output "Cleared temporary files" | Add-Content -Path $LogPath
+}
+catch {
+    Write-Output "Error clearing temporary files: $($_.Exception.Message)" | Add-Content -Path $LogPath
+}
+
+# Log the script completion
+Add-Content -Path $LogPath -Value "Logoff script completed at $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+
+# Final notification (this may not be shown if logoff proceeds quickly)
+try {
+    $wshell.Popup("Logoff script completed successfully.", 2, "Domain Logoff Script", 0x0 + 0x40)
+}
+catch {
+    # If popup fails, it's likely because the user session is already ending
+}
 ```
 
 ### ✅ 4. Testing and Validation
 To validate the script:
 
-1. Ensured the file was placed in the \\hughdomain.local\NETLOGON shared folder.
+1. Ensured the files were placed in the \\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User shared folder.
 
 2. Logged in as a domain user.
 
@@ -75,9 +212,9 @@ To validate the script:
 
   * Welcome message displayed
 
-  * S: drive mounted (if not already mapped by GPP)
+  * S: drive mounted
 
-  * Log file created or updated
+  * Log file created
 
 📸 Screenshot:
 ![PowerShell execution results (from user logon) 1](https://github.com/user-attachments/assets/69d2e049-253a-45db-ae81-331e7c8238b3)
@@ -91,4 +228,4 @@ To validate the script:
 
 🗂️ 5. Screenshot Storage
 Store all relevant images in:
-📂 [`06-Screenshots/Logon-Scripts/Logon-Scripts/logon-script-config`]()
+📂 [`06-Screenshots/Logon-Scripts/Logon-Scripts/logon-script-config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/I.%20Logon-Logoff%20Config.md)

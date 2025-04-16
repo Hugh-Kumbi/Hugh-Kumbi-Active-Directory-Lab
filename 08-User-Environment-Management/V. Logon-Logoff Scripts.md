@@ -72,7 +72,7 @@ The PowerShell logon script performs the following actions when a user logs in t
 
  * Copies user-specific Outlook signatures from a network template location to the local Signatures folder
 
-### Example: `LogonScript.ps1`
+### `LogonScript.ps1`
 
 ```powershell
 # PowerShell Logon Script for hughdomain.local
@@ -169,7 +169,7 @@ The PowerShell logoff script executes the following when a user logs off:
 
  * Logs final completion timestamp
 
-### Example: `LogoffScript.ps1`
+### `LogoffScript.ps1`
 
 ```powershell
 # PowerShell Logoff Script for hughdomain.local

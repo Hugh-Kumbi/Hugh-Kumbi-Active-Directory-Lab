@@ -86,7 +86,7 @@ $LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logoff.log"
 $LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged off from computer $env:COMPUTERNAME"
 Add-Content -Path $LogPath -Value $LogMessage
 ```
-The script creates a welcome message on the user's desktop after logging of.
+The script creates a message on the user's desktop after logging off.
 
 ## 🧪 4. Testing the Script
 **Logon Script Verification:**

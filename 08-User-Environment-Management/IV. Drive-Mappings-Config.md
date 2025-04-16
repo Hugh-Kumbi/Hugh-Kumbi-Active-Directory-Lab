@@ -10,7 +10,7 @@ This section outlines how I configured shared drive mappings using Group Policy 
 - **Linked To:** Organizational Unit (OU) where the users are located
 
 📸 **Screenshot:**
-- GPMC showing the Drive Mappings GPO linked to the correct OU
+![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
 
 ---
 
@@ -76,4 +76,4 @@ This section outlines how I configured shared drive mappings using Group Policy 
 ## 🗂️ 5. Screenshot Storage
 
 Store all related images in:  
-📂 [`06-Screenshots/Drive-Mappings/Drive-Map-Config`]()
+📂 [`06-Screenshots/Drive-Mappings/Drive-Map-Config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XII.%20Drive-Mappings/II.%20Drive-Mappings-Config.md)

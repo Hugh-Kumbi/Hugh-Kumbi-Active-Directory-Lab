@@ -26,7 +26,7 @@ I configured scripts using:
  - `LogonScript.ps1`
  - `LogoffScript.ps1`  
 - **Location:**
- - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User\Scripts\Logon
+ - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User\Scripts\Logon`
  - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User\Scripts\Logoff`  
 - **Script Type:** PowerShell
 
@@ -80,11 +80,15 @@ To validate the script:
   * Log file created or updated
 
 📸 Screenshot:
+![PowerShell execution results (from user logon) 1](https://github.com/user-attachments/assets/69d2e049-253a-45db-ae81-331e7c8238b3)
 
-- PowerShell execution results (from user logon)
+![PowerShell execution results (from user logon) 2](https://github.com/user-attachments/assets/b572b6cd-35b4-4533-bf84-03a9d16885a7)
 
-- Log file entry in \\Server\Logs
+![PowerShell execution results (from user logon) 3](https://github.com/user-attachments/assets/b21b2e59-defd-4071-8207-eed819906f7d)
+
+![Log File Entry In ServerLogs](https://github.com/user-attachments/assets/e80ff5a3-b01a-4c81-b2d9-863f16e32f09)
+
 
 🗂️ 5. Screenshot Storage
 Store all relevant images in:
-📂 [`06-Screenshots/Logon-Scripts/Logon-Scripts/logon-script-config`]
+📂 [`06-Screenshots/Logon-Scripts/Logon-Scripts/logon-script-config`]()

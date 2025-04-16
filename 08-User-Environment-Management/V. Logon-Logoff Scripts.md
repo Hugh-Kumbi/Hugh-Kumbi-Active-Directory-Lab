@@ -212,7 +212,7 @@ To validate the script:
 
   * Welcome message displayed
 
-  * S: drive mounted
+  * Z: drive mounted
 
   * Log file created
 

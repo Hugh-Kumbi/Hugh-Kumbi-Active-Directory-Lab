@@ -36,34 +36,120 @@ In this section, I configured logon scripts using Group Policy to automate speci
 
 ![Logoff Script Configuration Dialog Box With Script Path 4](https://github.com/user-attachments/assets/b7c57fe2-533c-4080-85c8-cf022d3acbdf)
 
-- PowerShell script contents in Notepad or PowerShell ISE
+![Logon Script Contents In PowerShell ISE 1](https://github.com/user-attachments/assets/ee206d6d-6eb6-4376-b8ca-8c269def6c50)
+
+![Logon Script Contents In PowerShell ISE 2](https://github.com/user-attachments/assets/00297695-0f27-4ba0-8024-b2a7b499c2ee)
+
+![Logon Script Contents In PowerShell ISE 3](https://github.com/user-attachments/assets/2747e6ae-6cb7-4c43-8b80-b22bb0a841ee)
+
+![Logoff Script Contents In PowerShell ISE 1](https://github.com/user-attachments/assets/fc68c379-de05-4852-9b17-432a631eec58)
+
+![Logoff Script Contents In PowerShell ISE 2](https://github.com/user-attachments/assets/d5bb6c78-899c-47d3-930b-aa88cff4f623)
+
+![Logoff Script Contents In PowerShell ISE 3](https://github.com/user-attachments/assets/77a533b3-b37e-4c4b-b07e-05b7dc4b5935)
 
 ---
 
 ## 📂 3. Script Contents
 
-Here’s an example of what my `logonScript.ps1` included:
+Here’s an example of what my `LogonScript.ps1` included:
 
 ```powershell
-# logonScript.ps1
-New-Item -Path "C:\Users\$env:USERNAME\Desktop" -Name "Welcome.txt" -ItemType File -Force
-Add-Content -Path "C:\Users\$env:USERNAME\Desktop\Welcome.txt" -Value "Welcome to HughDomain!"
+# LogonScript.ps1
+# PowerShell Logon Script for hughdomain.local
+# Save as LogonScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Display notification to user
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logon script is running. Please wait...", 5, "Domain Logon Script", 0x0 + 0x40)
+
+# Log the logon event
+$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logon.log"
+$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged on from computer $env:COMPUTERNAME"
+Add-Content -Path $LogPath -Value $LogMessage"
 ```
-The script creates a welcome message on the user's desktop after logging in.
+The script creates a message on the user's desktop after logging in.
+
+Here’s an example of what my `LogoffScript.ps1` included:
+
+```powershell
+# LogoffScript.ps1
+# PowerShell Logoff Script for hughdomain.local
+# Save as LogoffScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Display notification to user
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logoff script is running. Please wait...", 5, "Domain Logoff Script", 0x0 + 0x40)
+
+# Log the logoff event
+$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logoff.log"
+$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged off from computer $env:COMPUTERNAME"
+Add-Content -Path $LogPath -Value $LogMessage
+```
+The script creates a welcome message on the user's desktop after logging of.
 
 ## 🧪 4. Testing the Script
-1. Logged in to the domain as a regular user.
+**Logon Script Verification:**
 
-2. Verified that Welcome.txt was automatically created on the desktop.
+1. Logged in to hughdomain.local as a standard domain user
 
-3. Confirmed the contents were accurate and permissions were correct.
+2. Observed the following automated behaviors:
 
-📸 **Screenshot suggestions:**
+   * ✔️ "Logon script is running" notification appeared (5-second timeout)
 
-- User desktop showing `Welcome.txt` file
+   * ✔️ Z: drive successfully mapped to `\\WIN-D2PQBCI88JQ\SharedDocs`
 
-- Opened file showing the welcome message
+   * ✔️ User folder created at `\\WIN-D2PQBCI88JQ\UserFolders\<username>` (if first logon)
+
+   * ✔️ Outlook signatures deployed (if template existed for user)
+
+   * ✔️ Completion notification displayed
+
+3. Verified log file creation at:
+   * `\\WIN-D2PQBCI88JQ\LogFiles\<username>-logon.log`
+
+   * Confirmed timestamp, username, and computer name were recorded
+
+   * Checked success/failure messages for all operations
+
+**Logoff Script Verification:**
+
+1. Initiated logoff sequence
+
+2. Confirmed:
+
+   * ✔️ "Logoff script is running" notification appeared
+
+   * ✔️ Z: drive was automatically disconnected
+
+   * ✔️ User data (Desktop/Documents/Pictures) backed up to network folder
+
+   * ✔️ Temporary files cleared from %TEMP%
+
+3. Verified logoff entry in:
+   `\\WIN-D2PQBCI88JQ\LogFiles\<username>-logoff.log`
+
+📸 **Screenshot:**
+![Logon Notification Popup](https://github.com/user-attachments/assets/1a5be81f-3d4d-4e39-ba0e-dfed1e7cd62e)
+
+![Logon Notification Popup 1](https://github.com/user-attachments/assets/52b30f86-6eef-49e2-a326-46ba776b7bb5)
+
+![File Explorer Showing Mapped Z Drive And Network User Folder](https://github.com/user-attachments/assets/607d6665-69cc-48cf-b143-cfac9d648b2a)
+
+![Sample Log File Contents Showing Successful Operations](https://github.com/user-attachments/assets/9550eb54-f479-44ba-b2ab-eeef7cfeaa8e)
+
+Logoff notification popup (if captured before session termination)
+
+🔍 **Validation Checklist:**
+
+* All users receive consistent drive mappings
+
+* Log files are writable by standard users
+
+* Backup process preserves file structure/permissions
+
+* No errors in PowerShell event logs (`Win+R → eventvwr.msc`)
 
 🗂️ 5. Screenshot Storage
 All images related to this section are stored in:
-📂 [`06-Screenshots/Logon-Scripts/Logon-Script-Desktop.png`]()
+📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

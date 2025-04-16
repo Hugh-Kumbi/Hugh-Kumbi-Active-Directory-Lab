@@ -11,11 +11,13 @@ To streamline the user experience, improve productivity, and maintain a secure d
 I configured a GPO to automatically map specific network drives based on a user's organizational unit (OU). This ensures that users have access to the correct shared resources without needing to configure anything manually.
 
 ### Drives Created
-- **H:** Home directory (mapped to personal user folder)
-- **S:** Shared Department folder (based on department OU)
+- **S:** Home directory (mapped to personal user folder)
+- **Z:** Shared Department folder (based on department OU)
 
 ### 📸 Screenshot
-![Mapped Drives GPO](../../06-Screenshots/User-Environment/mapped-drives-gpo.png)
+![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
+
+![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
 
 ---
 
@@ -25,11 +27,11 @@ I configured a GPO to automatically map specific network drives based on a user'
 I enforced a corporate desktop background to maintain a consistent visual identity and prevent inappropriate or distracting wallpapers.
 
 ### Settings Used
-- **Path to Wallpaper:** `\\domain-controller\SYSVOL\company\wallpaper.jpg`
+- **Path to Wallpaper:** `\\WIN-D2PQBCI88JQ\Users\Wallpaper\MEIVAULT SYSTEMS LOGO.png`
 - **Wallpaper Style:** Fill
 
 ### 📸 Screenshot
-![Desktop Wallpaper GPO](../../06-Screenshots/User-Environment/desktop-wallpaper.png)
+![Desktop Wallpaper GPO](https://github.com/user-attachments/assets/c7fa5a84-94d7-4790-83fe-d9633974e956)
 
 ---
 
@@ -53,10 +55,11 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 I redirected the **Documents** folder to a network location to ensure user files are backed up and accessible from any domain-joined machine.
 
 ### Path Redirected
-- `\\server\users\%username%\Documents`
+- `\\WIN-D2PQBCI88JQ\RedirectedFolder$`
+- `\\WIN-D2PQBCI88JQ\UserData`
 
 ### 📸 Screenshot
-![Folder Redirection GPO](../../06-Screenshots/User-Environment/folder-redirection.png)
+![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/ba7969ae-be46-466e-89c1-5d863c0d4e45)
 
 ---
 

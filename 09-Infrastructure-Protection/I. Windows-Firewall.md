@@ -38,18 +38,6 @@ In this section, I configured Windows Firewall rules using Group Policy to ensur
 - Prevent local exceptions
 
 📸 **Screenshot:**
-![Windows Firewall](https://github.com/user-attachments/assets/69609911-c234-4952-8a0b-20c3b3bdb7ee)
-
-![Windows Firewall 1](https://github.com/user-attachments/assets/b249d020-2bcc-43a8-a491-01958f944001)
-
-![Windows Firewall 2](https://github.com/user-attachments/assets/1116862a-369c-4ab0-b77f-0bacff974f29)
-
-![Windows Firewall 3](https://github.com/user-attachments/assets/142590b9-eb6b-4448-a192-daf09abe77cf)
-
-![Windows Firewall 4](https://github.com/user-attachments/assets/4c8d0fd7-cd70-42f6-8622-ba9d0bc01c44)
-
-![Windows Firewall 5](https://github.com/user-attachments/assets/166d2a43-1c6f-4a36-ac57-d2fbc8bd06da)
-
 ![Domain Showing Configured Rules](https://github.com/user-attachments/assets/c6c0d172-a761-4623-9585-b4e1c3847934)
 
 ![Domain Showing Configured Rules 1](https://github.com/user-attachments/assets/0fc7037e-47c4-4fff-9705-e6259b832be0)
@@ -80,7 +68,13 @@ Steps:
 4. Named and saved each rule
 
 📸 **Screenshot:**  
-- Custom rule properties window showing protocol, port, action, and profile
+![Blocks SMBv1](https://github.com/user-attachments/assets/fb693f99-c92c-4f11-b4df-ba63cf00c821)
+
+![Telnet](https://github.com/user-attachments/assets/fea2d844-3171-4aa7-914a-8d682192e35e)
+
+![Unencrypted FTP Properties](https://github.com/user-attachments/assets/b51a559c-1ed3-4397-9e42-85a29f2c9d41)
+
+![TFTP](https://github.com/user-attachments/assets/33e270b5-c463-4277-b134-3bda2485eb9b)
 
 ---
 

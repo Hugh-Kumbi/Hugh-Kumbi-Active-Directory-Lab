@@ -33,6 +33,8 @@ I enforced a corporate desktop background to maintain a consistent visual identi
 ### 📸 Screenshot
 ![Desktop Wallpaper GPO](https://github.com/user-attachments/assets/c7fa5a84-94d7-4790-83fe-d9633974e956)
 
+![Changed Wall Paper](https://github.com/user-attachments/assets/20190256-7d77-4f36-b1fd-a8ca3c32fb07)
+
 ---
 
 ## 🚫 Control Panel & Settings Restrictions

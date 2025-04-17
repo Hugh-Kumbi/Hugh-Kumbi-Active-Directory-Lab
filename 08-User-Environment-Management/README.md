@@ -45,7 +45,13 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 - Hide specific Control Panel items (e.g., Network Settings)
 
 ### 📸 Screenshot
-![Control Panel Restrictions](https://github.com/user-attachments/assets/f3cb539a-a93d-42c3-befa-420af54cc1ab)
+![Control Panel Restrictions Policy](https://github.com/user-attachments/assets/bd46cb94-aa86-4489-8cd6-799e73725aad)
+
+![Control Panel Restrictions Policy 1](https://github.com/user-attachments/assets/fa9264c7-7440-40eb-b34c-4b037c7acef2)
+
+![Control Panel Restrictions Policy 2](https://github.com/user-attachments/assets/8411723b-8663-492a-a50b-e6c336916b21)
+
+![Control Panel Restrictions Policy 2](https://github.com/user-attachments/assets/18760da3-914e-43cb-8f81-afafe8ffe9db)
 
 ---
 

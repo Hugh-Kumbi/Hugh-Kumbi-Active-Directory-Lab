@@ -16,7 +16,7 @@ I enforced strict firewall rules on all domain-joined systems to protect the int
 - **Public Profile:** Enabled, More restrictive settings (e.g., block RDP and file sharing)
 
 ### 📸 Screenshot
-![Windows Firewall GPO](../../06-Screenshots/Infrastructure-Protection/windows-firewall-policy.png)
+![Windows Firewall GPO](https://github.com/user-attachments/assets/a49d5f89-8945-4f9d-a21d-a85b7a8cf1ab)
 
 ---
 

@@ -1,11 +1,9 @@
 # 🔥 Windows Firewall Group Policy Configuration
-
 In this section, I configured Windows Firewall rules using Group Policy to ensure consistent network protection across all domain-joined machines. The firewall was enforced for all profiles—Domain, Private, and Public—using secure inbound/outbound rules.
 
 ---
 
 ## 🏷️ 1. GPO Name
-
 - **GPO Name:** Windows Firewall Policy  
 - **Linked To:** Domain Computers OU
 
@@ -15,7 +13,6 @@ In this section, I configured Windows Firewall rules using Group Policy to ensur
 ---
 
 ## 🛠️ 2. Steps Taken to Configure Firewall Settings
-
 1. Opened **Group Policy Management Editor**.  
 2. Navigated to:  
    `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Windows Defender Firewall with Advanced Security - LDAP://...`
@@ -55,11 +52,13 @@ In this section, I configured Windows Firewall rules using Group Policy to ensur
 ---
 
 ## 📋 3. Custom Firewall Rules
-
 Created custom inbound rules to allow:
 - **Remote Desktop Protocol (RDP)** for Domain Admins
 - **File and Printer Sharing**
-- Blocked known vulnerable services like SMBv1
+- Blocked  **SMBv1** services
+- Blocked **Unencrypted FTP** services
+- Blocked **TFTP** services
+- Blocked **Telnet** services
 
 Steps:
 1. Navigated to `Inbound Rules` > New Rule  
@@ -79,7 +78,6 @@ Steps:
 ---
 
 ## 🧪 4. Testing Firewall Behavior
-
 - Verified that only allowed services could be accessed remotely.
 - Confirmed that non-domain machines could not connect to domain resources unless allowed.
 - Used `netsh advfirewall show allprofiles` to verify profile settings on clients.

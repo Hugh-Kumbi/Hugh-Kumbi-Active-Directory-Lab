@@ -10,8 +10,9 @@ In this section, I implemented secure network communication policies across all 
 - **Linked To:** Domain Computers OU
 
 📸 **Screenshot:**  
-- Group Policy Management Console showing the GPO linked to the OU  
-- GPMC Editor with the policy path highlighted
+![Network Security Policy GPO](https://github.com/user-attachments/assets/95ee90ce-1338-4a1d-aba9-5f901aedd2df)
+ 
+![GPMC Editor With The Policy Path Highlighted](https://github.com/user-attachments/assets/440e3822-00d3-48c4-a9c0-6377207af281)
 
 ---
 

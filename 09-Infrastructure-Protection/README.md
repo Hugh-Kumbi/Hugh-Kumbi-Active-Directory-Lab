@@ -27,11 +27,11 @@ I configured LAN Manager authentication and session security to enforce strong e
 
 ### GPO Settings Applied
 - LAN Manager Authentication Level: **Send NTLMv2 response only. Refuse LM & NTLM**
-- Minimum session security: **128-bit encryption**
-- Digitally sign communications (always): **Enabled**
+- Minimum session security for NTLM SSP (Clients & Servers): **128-bit encryption**
+- Digitally sign communications for Server & Clients (always): **Enabled**
 
 ### 📸 Screenshot
-![Network Security GPO](../../06-Screenshots/Infrastructure-Protection/network-security-settings.png)
+![Network Security GPO](https://github.com/user-attachments/assets/e1e7f036-d389-4e8f-8c4d-458985658b93)
 
 ---
 

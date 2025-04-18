@@ -10,7 +10,8 @@ Reducing the attack surface of domain-joined machines is essential for a secure 
 - **Linked To:** Domain Computers OU
 
 📸 **Screenshot:**  
-- GPMC view with the GPO linked to the appropriate OU  
+![Disabled Unnecessary Services Policy](https://github.com/user-attachments/assets/8dc20531-0fd8-4024-9e98-204be91f3f1e)
+
 - GPO Editor open on the service configuration node
 
 ---
@@ -41,7 +42,14 @@ I disabled the following services using Group Policy Preferences:
 - **Reason:** Legacy service with known vulnerabilities
 
 📸 **Screenshot:**
-- Service settings inside GPO showing each service’s configuration
+![Print Spooler](https://github.com/user-attachments/assets/9774fc36-d2ce-4c27-b68e-9e9fff99c6a8)
+
+![RemoteRegistry](https://github.com/user-attachments/assets/fcb1870f-3025-49b7-b4f5-2efa37d912ca)
+
+![Telnet x](https://github.com/user-attachments/assets/f782f60d-c4d9-4c35-8914-c5c770dc5a5e)
+
+![SNMP](https://github.com/user-attachments/assets/b25e244a-1248-4497-9a8a-1c040606b09b)
+
 - Screenshot of services.msc on a domain computer showing the service as "Disabled"
 
 ---

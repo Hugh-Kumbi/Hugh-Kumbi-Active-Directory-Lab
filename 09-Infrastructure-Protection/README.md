@@ -47,7 +47,7 @@ To reduce the attack surface, I disabled several services not required in this l
 - **SNMP** – Disabled unless explicitly needed for monitoring.
 
 ### 📸 Screenshot
-![Services GPO](../../06-Screenshots/Infrastructure-Protection/disabled-services.png)
+![Disabled Unnecessary Services Policy](https://github.com/user-attachments/assets/69802663-c673-472f-856f-7713a73372a7)
 
 ---
 

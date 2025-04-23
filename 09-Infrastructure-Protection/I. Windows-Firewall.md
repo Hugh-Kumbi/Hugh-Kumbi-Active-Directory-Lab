@@ -116,7 +116,7 @@ I created multiple inbound rules for Active Directory communication services usi
    * __Description:__ Test rule for GPO troubleshooting.Port 8080.
 
 📸 **Screenshot:**
-![Test Rule - Allow TCP 8080](https://github.com/user-attachments/assets/7ed6abad-cf4d-446e-b125-e7784737970c)
+![Test Rule - Allow TCP 8080](https://github.com/user-attachments/assets/9cbae4fa-a748-41b3-bdd3-736ab1722edd)
 
 ### 🛠️ Windows Remote Management (WinRM) Rule
 
@@ -172,10 +172,10 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Name:__ Block Telnet
 
-   * __Description:__ Blocks outgoing Telnet connections
+   * __Description:__ Blocks legacy Telnet protocol which transmits data in plaintext, creating security vulnerabilities through potential credential exposure. Port 23 TCP.
 
 📸 **Screenshot:**
-
+![Block Telnet TCP Properties Window](https://github.com/user-attachments/assets/1a20f3ee-1915-413b-9c97-1ab22ccf61a2)
 
 ### 🚫 Block Unencrypted FTP
 
@@ -191,9 +191,10 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Name:__ Block Unencrypted FTP
 
-   * __Description:__ Blocks outgoing unencrypted FTP connections
+   * __Description:__ Blocks standard File Transfer Protocol (FTP) connections that transmit credentials and data without encryption, posing significant security risks. Port 21 TCP.
 
 📸 **Screenshot:**
+![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/eccccbc1-8567-4fcb-82b2-bcbdc851f90e)
 
 
 ### 🚫 Block SMBv1
@@ -212,10 +213,10 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Name:__ Block SMBv1
 
-   * __Description:__ Blocks SMBv1 connections
+   * __Description:__ Blocks Server Message Block version 1 (SMBv1) protocol traffic due to known security vulnerabilities including EternalBlue exploits. Legacy protocol that should be disabled in secure environments.
 
 📸 **Screenshot:**
-
+![Block SMBv1 Properties Window](https://github.com/user-attachments/assets/be125be0-b9cb-4361-a8f7-ea5d72ef0f07)
 
 ### 🚫 Block Printer Sharing
 
@@ -229,10 +230,22 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Name:__ Block Printer Sharing
 
-   * __Description:__ Blocks printer sharing connections
-
+   * __Description:__ Blocks printer sharing protocols that could be leveraged for unauthorized access or privilege escalation attacks in domain environments. Ports 515 TCP (LPR), 631 TCP/UDP (IPP).
+   * 
 📸 **Screenshot:**
+![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/e6086804-92e3-4b60-9ea9-2b0906d25b5c)
 
+![File and Printer Sharing (NB-Session-Out) TCP Properties Window](https://github.com/user-attachments/assets/7c60ac09-20fc-42cc-bf8a-bdcab666fbd4)
+
+![File and Printer Sharing (NB-Name-Out) UDP Properties Window](https://github.com/user-attachments/assets/7ebe16e8-a07f-4cb1-b0e8-cc2bd6a22768)
+
+![File and Printer Sharing (NB-Datagram-Out) UDP Properties Window](https://github.com/user-attachments/assets/af826a70-1de5-4097-9766-3b12f82b7cf8)
+
+![File and Printer Sharing (LLMNR-UDP-Out) Properties Window](https://github.com/user-attachments/assets/3e78ceae-9d05-4a1b-9181-6f2c1d227271)
+
+![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP Properties Window](https://github.com/user-attachments/assets/66d8aed8-a2cb-4403-864f-2d67a57f9832)
+
+![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP Properties Window](https://github.com/user-attachments/assets/a48ada81-bfe6-4772-8eb3-5cefd60a5a36)
 
 ### 🛡️ Additional Security Rules
 
@@ -243,8 +256,15 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Block mDNS:__ Block outbound UDP port 5353
 
 📸 **Screenshot:**
+![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
 
-- Outbound rules list showing blocked protocols
+![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
+
+![Block LLMNR Properties Window](https://github.com/user-attachments/assets/d938581f-bab3-4599-9d83-53c5b24ea9ef)
+
+![Block mDNS Properties Window](https://github.com/user-attachments/assets/cdc0290f-ec43-41b8-a1b7-744d02721cc3)
+
+![Outbound rules](https://github.com/user-attachments/assets/81faafa6-8dd6-4eab-89b3-e931f0370630)
 
 ## 4. Configured the following profiles:
 

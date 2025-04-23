@@ -196,7 +196,6 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 📸 **Screenshot:**
 ![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/eccccbc1-8567-4fcb-82b2-bcbdc851f90e)
 
-
 ### 🚫 Block SMBv1
 
    * __Rule Type:__ Custom
@@ -231,39 +230,43 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Name:__ Block Printer Sharing
 
    * __Description:__ Blocks printer sharing protocols that could be leveraged for unauthorized access or privilege escalation attacks in domain environments. Ports 515 TCP (LPR), 631 TCP/UDP (IPP).
-   * 
-📸 **Screenshot:**
+
+📸 **Screenshots:**
+**File and Printer Sharing (SMB-Out) TCP**
 ![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/e6086804-92e3-4b60-9ea9-2b0906d25b5c)
 
+**File and Printer Sharing (NB-Session-Out) TCP**
 ![File and Printer Sharing (NB-Session-Out) TCP Properties Window](https://github.com/user-attachments/assets/7c60ac09-20fc-42cc-bf8a-bdcab666fbd4)
 
+**File and Printer Sharing (NB-Name-Out) UDP**
 ![File and Printer Sharing (NB-Name-Out) UDP Properties Window](https://github.com/user-attachments/assets/7ebe16e8-a07f-4cb1-b0e8-cc2bd6a22768)
 
+**File and Printer Sharing (NB-Datagram-Out) UDP**
 ![File and Printer Sharing (NB-Datagram-Out) UDP Properties Window](https://github.com/user-attachments/assets/af826a70-1de5-4097-9766-3b12f82b7cf8)
 
+**File and Printer Sharing (LLMNR-UDP-Out)**
 ![File and Printer Sharing (LLMNR-UDP-Out) Properties Window](https://github.com/user-attachments/assets/3e78ceae-9d05-4a1b-9181-6f2c1d227271)
 
+**File and Printer Sharing (Echo Request - ICMPv6-Out) TCP**
 ![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP Properties Window](https://github.com/user-attachments/assets/66d8aed8-a2cb-4403-864f-2d67a57f9832)
 
+**File and Printer Sharing (Echo Request - ICMPv4-Out) TCP**
 ![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP Properties Window](https://github.com/user-attachments/assets/a48ada81-bfe6-4772-8eb3-5cefd60a5a36)
 
 ### 🛡️ Additional Security Rules
 
    * __Block NetBIOS:__ Block outbound TCP/UDP ports 137–139
-
-   * __Block LLMNR:__ Block outbound UDP port 5355
-
-   * __Block mDNS:__ Block outbound UDP port 5353
-
-📸 **Screenshot:**
 ![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
 
 ![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
 
+   * __Block LLMNR:__ Block outbound UDP port 5355
 ![Block LLMNR Properties Window](https://github.com/user-attachments/assets/d938581f-bab3-4599-9d83-53c5b24ea9ef)
 
+   * __Block mDNS:__ Block outbound UDP port 5353
 ![Block mDNS Properties Window](https://github.com/user-attachments/assets/cdc0290f-ec43-41b8-a1b7-744d02721cc3)
 
+📸 **Screenshot:**
 ![Outbound rules](https://github.com/user-attachments/assets/81faafa6-8dd6-4eab-89b3-e931f0370630)
 
 ## 4. Configured the following profiles:

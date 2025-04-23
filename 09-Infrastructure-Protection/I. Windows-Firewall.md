@@ -92,6 +92,32 @@ I created multiple inbound rules for Active Directory communication services usi
 📸 **Screenshot:**
 ![Allow RDP Window](https://github.com/user-attachments/assets/88a984ce-c202-4905-902a-e53fd1ed4fe1)
 
+### 🖥️ MeiVault Systems Rule
+
+   * __Port:__ 80, 443
+
+   * __Protocol:__ TCP
+
+   * __Name:__ MeiVault Systems 
+
+   * __Description:__ An internal secure protocol which provides strong online security for online communication. Port 80, 443 TCP.
+
+📸 **Screenshot:**
+![Allow MeiVault Systems](https://github.com/user-attachments/assets/8f1dcb41-63df-4454-8c12-3ff60b00e81d)
+
+### 🛠️ Test Rule
+
+   * __Port:__ 8080
+
+   * __Protocol:__ TCP
+
+   * __Name:__ Test Rule - Allow TCP 8080
+
+   * __Description:__ Test rule for GPO troubleshooting.Port 8080.
+
+📸 **Screenshot:**
+![Test Rule - Allow TCP 8080](https://github.com/user-attachments/assets/7ed6abad-cf4d-446e-b125-e7784737970c)
+
 ### 🛠️ Windows Remote Management (WinRM) Rule
 
    * __Port:__ 5985
@@ -127,7 +153,10 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Name:__ Block TFTP
 
-   * __Description:__ Blocks outgoing TFTP connections
+   * __Description:__ Blocks Trivial File Transfer Protocol (TFTP) traffic which uses unencrypted communications that could expose sensitive data. Port 69 UDP.
+
+📸 **Screenshot:**
+![TFTP](https://github.com/user-attachments/assets/63271cd2-514f-49ee-82c8-3d9d15e66ba2)
 
 ### 🚫 Block Telnet
 
@@ -145,6 +174,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Description:__ Blocks outgoing Telnet connections
 
+📸 **Screenshot:**
+
+
 ### 🚫 Block Unencrypted FTP
 
    * __Rule Type:__ Port
@@ -160,6 +192,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Name:__ Block Unencrypted FTP
 
    * __Description:__ Blocks outgoing unencrypted FTP connections
+
+📸 **Screenshot:**
+
 
 ### 🚫 Block SMBv1
 
@@ -179,6 +214,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Description:__ Blocks SMBv1 connections
 
+📸 **Screenshot:**
+
+
 ### 🚫 Block Printer Sharing
 
    * __Rule Type:__ Predefined
@@ -192,6 +230,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Name:__ Block Printer Sharing
 
    * __Description:__ Blocks printer sharing connections
+
+📸 **Screenshot:**
+
 
 ### 🛡️ Additional Security Rules
 

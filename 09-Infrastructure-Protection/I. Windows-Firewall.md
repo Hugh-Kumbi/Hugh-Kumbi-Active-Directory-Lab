@@ -113,7 +113,7 @@ I created multiple inbound rules for Active Directory communication services usi
 
    * __Name:__ Test Rule - Allow TCP 8080
 
-   * __Description:__ Test rule for GPO troubleshooting.Port 8080.
+   * __Description:__ Test rule for GPO troubleshooting. Port 8080.
 
 📸 **Screenshot:**
 ![Test Rule - Allow TCP 8080](https://github.com/user-attachments/assets/9cbae4fa-a748-41b3-bdd3-736ab1722edd)
@@ -134,7 +134,7 @@ I created multiple inbound rules for Active Directory communication services usi
 **Overview of all Newly Added Inbound Rules**
 ![Inbound Rules Overview](https://github.com/user-attachments/assets/8553cc9b-fd15-45f3-b122-7ca9832d52b1)
 
-### ⛔ 3. Outbound Firewall Blocking Rules
+### ⛔ 3. Custom Firewall Outbound Firewall Blocking Rules
 
 To enhance security, I created outbound rules to block potentially unsafe or legacy protocols.
 
@@ -233,6 +233,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Description:__ Blocks printer sharing protocols that could be leveraged for unauthorized access or privilege escalation attacks in domain environments. Ports 515 TCP (LPR), 631 TCP/UDP (IPP).
 
 📸 **Screenshots:**
+
 **File and Printer Sharing (SMB-Out) TCP**
 ![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/e6086804-92e3-4b60-9ea9-2b0906d25b5c)
 
@@ -256,15 +257,16 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 ### 🛡️ Additional Security Rules
 
-   * __Block NetBIOS:__ Block outbound TCP/UDP ports 137–139
-![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
-
+   * __Block NetBIOS:__ Blocks outbound TCP ports 137–139
 ![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
 
-   * __Block LLMNR:__ Block outbound UDP port 5355
+* __Block NetBIOS:__ Blocks outbound UDP ports 137–139
+![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
+
+   * __Block LLMNR:__ Blocks outbound UDP port 5355
 ![Block LLMNR Properties Window](https://github.com/user-attachments/assets/d938581f-bab3-4599-9d83-53c5b24ea9ef)
 
-   * __Block mDNS:__ Block outbound UDP port 5353
+   * __Block mDNS:__ Blocks outbound UDP port 5353
 ![Block mDNS Properties Window](https://github.com/user-attachments/assets/cdc0290f-ec43-41b8-a1b7-744d02721cc3)
 
 📸 **Screenshot:**
@@ -278,8 +280,20 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 - Outbound connections: **Allow**
 - Logging: Enabled with custom path
 
+📸 **Screenshot:**
+![Domain Showing Configured Rules](https://github.com/user-attachments/assets/c6c0d172-a761-4623-9585-b4e1c3847934)
+
+![Domain Showing Configured Rules 1](https://github.com/user-attachments/assets/0fc7037e-47c4-4fff-9705-e6259b832be0)
+
 ### 🏠 Private Profile
-- Same settings as Domain profile
+- Firewall state: **On**
+- Inbound connections: **Block**
+- Outbound connections: **Allow**
+- Logging: Enabled with custom path
+📸 **Screenshot:**
+![Private Showing Configured Rules](https://github.com/user-attachments/assets/e5f44e85-cfbc-4eb3-b668-fc228c980a80)
+
+![Private Showing Configured Rules 1](https://github.com/user-attachments/assets/2ba6fedd-7209-4932-81c4-8d868858f9ad)
 
 ### 🌍 Public Profile
 - Firewall state: **On**
@@ -288,14 +302,6 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 - Prevent local exceptions
 
 📸 **Screenshot:**
-![Domain Showing Configured Rules](https://github.com/user-attachments/assets/c6c0d172-a761-4623-9585-b4e1c3847934)
-
-![Domain Showing Configured Rules 1](https://github.com/user-attachments/assets/0fc7037e-47c4-4fff-9705-e6259b832be0)
-
-![Private Showing Configured Rules](https://github.com/user-attachments/assets/e5f44e85-cfbc-4eb3-b668-fc228c980a80)
-
-![Private Showing Configured Rules 1](https://github.com/user-attachments/assets/2ba6fedd-7209-4932-81c4-8d868858f9ad)
-
 ![Public Showing Configured Rules](https://github.com/user-attachments/assets/d480cd8e-06ce-45a1-ac3e-394ac041fde1)
 
 ![Public Showing Configured Rules 1](https://github.com/user-attachments/assets/137ff7ad-faba-4113-b253-4d93e6dffddd)
@@ -304,58 +310,28 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 ---
 
-## 📋 5. Custom Firewall Rules
-Created custom inbound rules to allow:
-- **Remote Desktop Protocol (RDP)** for Domain Admins
-- **File and Printer Sharing**
-- Blocked  **SMBv1** services
-- Blocked **Unencrypted FTP** services
-- Blocked **TFTP** services
-- Blocked **Telnet** services
+## 🚀 4. Applying and Testing the Policy
+I closed the Group Policy Management Editor
 
-Steps:
-1. Navigated to `Inbound Rules` > New Rule  
-2. Chose Port or Program-based rules  
-3. Configured action as **Block** or **Allow**, with appropriate scope and user/group restrictions  
-4. Named and saved each rule
+- On each client computer, I ran the following command:
+
+  `gpupdate /force`
+
+- Then I restarted the clients to ensure the policy was fully applied
+
+- I tested connectivity between the domain controller and the clients
 
 📸 **Screenshot:**  
-![Block LLMNR Properties Window](https://github.com/user-attachments/assets/82fbde88-b642-412b-b7b7-f372320835f2)
+Command prompt showing successful gpupdate /force output
 
-![Block mDNS Properties Window](https://github.com/user-attachments/assets/36395d59-8b5b-4121-93db-07282e44c2ca)
+### 🧪 5. Testing Firewall Behavior
+On a client computer, I opened Command Prompt as administrator and ran:
 
-![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/cbd74013-ee6d-4d04-bbe1-a0f520822f31)
+  `gpresult /r`
 
-![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/7d718616-60f1-449f-9ad7-981fdb668f5b)
-
-![Block SMBv1 Properties Window](https://github.com/user-attachments/assets/0d48cb8e-4bb9-4f6f-a4a7-d7c45d20aacd)
-
-![Block Telnet TCP Properties Window](https://github.com/user-attachments/assets/fd56330f-ba13-4604-9f62-282d3776c4a8)
-
-Block TFTP Screenshot Missing
-
-![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/13037d1f-dc37-4e80-8384-e380148d281c)
-
-![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP Properties Window](https://github.com/user-attachments/assets/f7216e57-9313-412a-92ef-e18dfe08e43b)
-
-![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP Properties Window](https://github.com/user-attachments/assets/a451e0d7-3261-4631-ba72-a5f0b2b52be6)
-
-![File and Printer Sharing (LLMNR-UDP-Out) Properties Window](https://github.com/user-attachments/assets/a410002b-cc9c-4da1-baf2-a1447f0977bd)
-
-![File and Printer Sharing (NB-Datagram-Out) UDP Properties Window](https://github.com/user-attachments/assets/476129e7-a558-4e26-8e80-008a72de3008)
-
-![File and Printer Sharing (NB-Name-Out) UDP Properties Window](https://github.com/user-attachments/assets/b3e92182-7557-4e2a-b82c-4410569a55f6)
-
-![File and Printer Sharing (NB-Session-Out) TCP Properties Window](https://github.com/user-attachments/assets/e01f8323-9d04-4709-9e13-1b86d592a4bd)
-
-![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/8cc5e85e-6b1c-4ea9-82d2-03e2b5615b0a)
-
----
-
-## 🧪 4. Testing Firewall Behavior
-- Verified that only allowed services could be accessed remotely.
-- Confirmed that non-domain machines could not connect to domain resources unless allowed.
-- Used `netsh advfirewall show allprofiles` to verify profile settings on clients.
+To verify firewall rules were active, I ran:
+  
+  `netsh advfirewall show allprofiles`
 
 📸 **Screenshot:**  
 ![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration](https://github.com/user-attachments/assets/39749568-d626-44a0-80c0-9aad2a3fd6bd)
@@ -368,7 +344,29 @@ Block TFTP Screenshot Missing
 
 ---
 
-## 🗂️ 5. Screenshot Storage
+## 🛠️ 6. Troubleshooting Tips
+
+- Temporarily disabled the firewall to determine if it was blocking connectivity
+
+- Used rsop.msc to confirm policy inheritance on client machines
+
+- Checked Event Viewer for related errors
+
+- Ran:
+
+  `netsh advfirewall monitor show firewall rule name=all`
+
+- To see all applied firewall rules and check for any misconfiguration
+
+📸 Screenshot suggestions:
+
+![Resultant Windows Firewall Settings Policy](https://github.com/user-attachments/assets/62db8287-fd22-4fef-9159-6f3d8485f02f)
+
+![Event Viewer Logs for Firewall](https://github.com/user-attachments/assets/fbe59af8-3d8e-4fb0-bcd6-7c5278213823)
+
+---
+
+## 🗂️ 7. Screenshot Storage
 
 All images related to this section are stored in:  
 📂 [`06-Screenshots/Windows-Firewall/domain-profile-config.png`]()

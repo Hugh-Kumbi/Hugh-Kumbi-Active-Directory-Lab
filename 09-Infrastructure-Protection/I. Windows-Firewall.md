@@ -131,6 +131,7 @@ I created multiple inbound rules for Active Directory communication services usi
 📸 **Screenshot:**
 ![Allow WinRM Window](https://github.com/user-attachments/assets/80658456-40a4-490b-906d-6e9c2b2b87dc)
 
+**Overview of all Newly Added Inbound Rules**
 ![Inbound Rules Overview](https://github.com/user-attachments/assets/8553cc9b-fd15-45f3-b122-7ca9832d52b1)
 
 ### ⛔ 3. Outbound Firewall Blocking Rules

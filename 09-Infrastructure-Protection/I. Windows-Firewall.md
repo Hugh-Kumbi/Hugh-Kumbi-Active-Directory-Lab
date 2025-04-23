@@ -260,7 +260,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
    * __Block NetBIOS:__ Blocks outbound TCP ports 137–139
 ![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
 
-* __Block NetBIOS:__ Blocks outbound UDP ports 137–139
+   * __Block NetBIOS:__ Blocks outbound UDP ports 137–139
 ![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
 
    * __Block LLMNR:__ Blocks outbound UDP port 5355
@@ -290,6 +290,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 - Inbound connections: **Block**
 - Outbound connections: **Allow**
 - Logging: Enabled with custom path
+
 📸 **Screenshot:**
 ![Private Showing Configured Rules](https://github.com/user-attachments/assets/e5f44e85-cfbc-4eb3-b668-fc228c980a80)
 
@@ -334,12 +335,17 @@ To verify firewall rules were active, I ran:
   `netsh advfirewall show allprofiles`
 
 📸 **Screenshot:**  
+![gpresult /r](https://github.com/user-attachments/assets/63cea284-b4c9-4147-bbfe-4ca5dfd304a8)
+
+**Profile Settings Verification On Clients**
 ![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration](https://github.com/user-attachments/assets/39749568-d626-44a0-80c0-9aad2a3fd6bd)
 
 ![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration 2](https://github.com/user-attachments/assets/fdc7bc4c-c3f1-4a01-8e38-dc59680d18c6)
 
+**Failed Ping to Domain**
 ![Ping hughdomain local failure](https://github.com/user-attachments/assets/643a888e-615a-4304-a133-847501a45a80)
 
+**Successful Ping to Domain**
 ![Ping hughdomain local Success](https://github.com/user-attachments/assets/cc2a37c6-0efc-426f-af0f-9634692b589c)
 
 ---
@@ -350,7 +356,7 @@ To verify firewall rules were active, I ran:
 
 - Used rsop.msc to confirm policy inheritance on client machines
 
-- Checked Event Viewer for related errors
+- Checked **Event Viewer** for related errors
 
 - Ran:
 
@@ -359,9 +365,10 @@ To verify firewall rules were active, I ran:
 - To see all applied firewall rules and check for any misconfiguration
 
 📸 Screenshot suggestions:
-
+**`rsop.msc` Results**
 ![Resultant Windows Firewall Settings Policy](https://github.com/user-attachments/assets/62db8287-fd22-4fef-9159-6f3d8485f02f)
 
+**Event Viewer Logs for Firewall**
 ![Event Viewer Logs for Firewall](https://github.com/user-attachments/assets/fbe59af8-3d8e-4fb0-bcd6-7c5278213823)
 
 ---

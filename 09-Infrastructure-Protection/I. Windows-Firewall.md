@@ -8,7 +8,7 @@ This document outlines how I configured **inbound and outbound firewall rules vi
 - **Linked To:** Domain
 
 📸 **Screenshot:**  
-![Windows Firewall GPO](https://github.com/user-attachments/assets/88637b64-1050-4123-b148-00efe9dcb92b)
+![Windows Firewall Linked to Domain](https://github.com/user-attachments/assets/be8dc087-2f18-49aa-9306-572b0a164b19)
 
 ---
 
@@ -33,9 +33,8 @@ I created multiple inbound rules for Active Directory communication services usi
 
    * __Description:__ Allows LDAP communications for Active Directory
 
-📸 Screenshot:
-
-New Inbound Rule Wizard with TCP 389 selected
+📸 **Screenshot:**
+![Allow LDAP Window](https://github.com/user-attachments/assets/6c9d0837-9a1f-487c-97c2-5c42a0e3977d)
 
 ### 📁 SMB Communication Rule
 
@@ -45,7 +44,10 @@ New Inbound Rule Wizard with TCP 389 selected
 
    * __Name:__ Allow SMB
 
-   * __Description:__ Enables file and printer sharing over the network
+   * __Description:__ Allows Server Message Block (SMB) protocol traffic for file and printer sharing between domain-joined computers, including access to shared folders and resources. Port 445 TCP.
+
+📸 **Screenshot:**
+![Allow SMB](https://github.com/user-attachments/assets/e9dc0cd5-999b-4883-9133-61c5677f84fb)
 
 ### 🔐 Kerberos Authentication Rules
 
@@ -55,7 +57,12 @@ New Inbound Rule Wizard with TCP 389 selected
 
    * __Names:__ Allow Kerberos TCP, Allow Kerberos UDP
 
-   * __Description:__ Supports authentication for domain services
+   * __Description:__ Enables Kerberos authentication protocol traffic over TCP for secure domain authentication and single sign-on functionality. Port 88 TCP & Port 88 UDP.
+
+📸 **Screenshot:**
+![Allow Kerberos TCP Window](https://github.com/user-attachments/assets/134486eb-f73c-48e3-a3c3-18f5fdabba41)
+
+![Allow Kerberos UDP Window](https://github.com/user-attachments/assets/907f5438-8cb1-4f18-a576-906573bf3104)
 
 ### 🌐 DNS Rules
 
@@ -65,7 +72,12 @@ New Inbound Rule Wizard with TCP 389 selected
 
    * __Names:__ Allow DNS TCP, Allow DNS UDP
 
-   * __Description:__ Enables name resolution services
+   * __Description:__ Permits Domain Name System (DNS) resolution traffic over TCP to support name resolution services critical for Active Directory functionality. Port 53 TCP & Port 53 UDP.
+
+📸 **Screenshot:**
+![Allow DNS TCP Properties Window](https://github.com/user-attachments/assets/88071662-addc-4a6b-bc32-ea78e360901e)
+
+![Allow DNS UDP Properties Window](https://github.com/user-attachments/assets/256bf0ef-d613-46fa-b93c-4b8ee9fa6d3f)
 
 ### 🖥️ Remote Desktop Protocol (RDP) Rule
 
@@ -75,7 +87,10 @@ New Inbound Rule Wizard with TCP 389 selected
 
    * __Name:__ Allow RDP
 
-   * __Description:__ Allows remote desktop access to the domain controller
+   * __Description:__ Allows Remote Desktop Protocol (RDP) connections to enable remote management and administration of servers and clients within the domain. Port 3389 TCP.
+
+📸 **Screenshot:**
+![Allow RDP Window](https://github.com/user-attachments/assets/88a984ce-c202-4905-902a-e53fd1ed4fe1)
 
 ### 🛠️ Windows Remote Management (WinRM) Rule
 
@@ -85,11 +100,12 @@ New Inbound Rule Wizard with TCP 389 selected
 
    * __Name:__ Allow WinRM
 
-   * __Description:__ Enables remote management via PowerShell and other admin tools
+   * __Description:__ Enables Windows Remote Management (WinRM) traffic for remote PowerShell sessions and administration tasks between domain computers. Ports 5985 (HTTP) and 5986 (HTTPS) TCP.
 
 📸 **Screenshot:**
+![Allow WinRM Window](https://github.com/user-attachments/assets/80658456-40a4-490b-906d-6e9c2b2b87dc)
 
-- Overview of all newly added inbound rules in the Group Policy Editor
+![Inbound Rules Overview](https://github.com/user-attachments/assets/8553cc9b-fd15-45f3-b122-7ca9832d52b1)
 
 ### ⛔ 3. Outbound Firewall Blocking Rules
 

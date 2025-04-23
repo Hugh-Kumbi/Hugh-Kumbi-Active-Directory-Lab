@@ -67,13 +67,33 @@ Steps:
 4. Named and saved each rule
 
 📸 **Screenshot:**  
-![Blocks SMBv1](https://github.com/user-attachments/assets/fb693f99-c92c-4f11-b4df-ba63cf00c821)
+![Block LLMNR Properties Window](https://github.com/user-attachments/assets/82fbde88-b642-412b-b7b7-f372320835f2)
 
-![Telnet](https://github.com/user-attachments/assets/fea2d844-3171-4aa7-914a-8d682192e35e)
+![Block mDNS Properties Window](https://github.com/user-attachments/assets/36395d59-8b5b-4121-93db-07282e44c2ca)
 
-![Unencrypted FTP Properties](https://github.com/user-attachments/assets/b51a559c-1ed3-4397-9e42-85a29f2c9d41)
+![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/cbd74013-ee6d-4d04-bbe1-a0f520822f31)
 
-![TFTP](https://github.com/user-attachments/assets/33e270b5-c463-4277-b134-3bda2485eb9b)
+![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/7d718616-60f1-449f-9ad7-981fdb668f5b)
+
+![Block SMBv1 Properties Window](https://github.com/user-attachments/assets/0d48cb8e-4bb9-4f6f-a4a7-d7c45d20aacd)
+
+![Block Telnet TCP Properties Window](https://github.com/user-attachments/assets/fd56330f-ba13-4604-9f62-282d3776c4a8)
+
+![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/13037d1f-dc37-4e80-8384-e380148d281c)
+
+![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP Properties Window](https://github.com/user-attachments/assets/f7216e57-9313-412a-92ef-e18dfe08e43b)
+
+![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP Properties Window](https://github.com/user-attachments/assets/a451e0d7-3261-4631-ba72-a5f0b2b52be6)
+
+![File and Printer Sharing (LLMNR-UDP-Out) Properties Window](https://github.com/user-attachments/assets/a410002b-cc9c-4da1-baf2-a1447f0977bd)
+
+![File and Printer Sharing (NB-Datagram-Out) UDP Properties Window](https://github.com/user-attachments/assets/476129e7-a558-4e26-8e80-008a72de3008)
+
+![File and Printer Sharing (NB-Name-Out) UDP Properties Window](https://github.com/user-attachments/assets/b3e92182-7557-4e2a-b82c-4410569a55f6)
+
+![File and Printer Sharing (NB-Session-Out) TCP Properties Window](https://github.com/user-attachments/assets/e01f8323-9d04-4709-9e13-1b86d592a4bd)
+
+![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/8cc5e85e-6b1c-4ea9-82d2-03e2b5615b0a)
 
 ---
 
@@ -83,8 +103,13 @@ Steps:
 - Used `netsh advfirewall show allprofiles` to verify profile settings on clients.
 
 📸 **Screenshot:**  
-- Command prompt showing firewall status on a client  
-- Failed and successful connection attempts (e.g., ping or RDP)
+![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration](https://github.com/user-attachments/assets/39749568-d626-44a0-80c0-9aad2a3fd6bd)
+
+![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration 2](https://github.com/user-attachments/assets/fdc7bc4c-c3f1-4a01-8e38-dc59680d18c6)
+
+![Ping hughdomain local failure](https://github.com/user-attachments/assets/643a888e-615a-4304-a133-847501a45a80)
+
+![Ping hughdomain local Success](https://github.com/user-attachments/assets/cc2a37c6-0efc-426f-af0f-9634692b589c)
 
 ---
 

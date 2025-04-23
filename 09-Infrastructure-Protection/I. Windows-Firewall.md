@@ -1,23 +1,195 @@
 # 🔥 Windows Firewall Group Policy Configuration
-In this section, I configured Windows Firewall rules using Group Policy to ensure consistent network protection across all domain-joined machines. The firewall was enforced for all profiles—Domain, Private, and Public—using secure inbound/outbound rules.
+This document outlines how I configured **inbound and outbound firewall rules via Group Policy** to ensure that essential Active Directory services are permitted while blocking insecure or unnecessary protocols.
 
 ---
 
 ## 🏷️ 1. GPO Name
 - **GPO Name:** Windows Firewall Policy  
-- **Linked To:** Domain Computers OU
+- **Linked To:** Domain
 
 📸 **Screenshot:**  
 ![Windows Firewall GPO](https://github.com/user-attachments/assets/88637b64-1050-4123-b148-00efe9dcb92b)
 
 ---
 
-## 🛠️ 2. Steps Taken to Configure Firewall Settings
-1. Opened **Group Policy Management Editor**.  
-2. Navigated to:  
-   `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Windows Defender Firewall with Advanced Security - LDAP://...`
+## 🔧 2. Inbound Firewall Rule Configuration
+I created multiple inbound rules for Active Directory communication services using:
 
-3. Configured the following profiles:
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Inbound Rules`
+
+### 🔐 LDAP Rule
+
+   * __Rule Type:__ Port
+
+   * __Protocol:__ TCP
+
+   * __Port:__ 389
+
+   * __Action:__ Allow the connection
+
+   * __Profile:__ Domain only
+
+   * __Name:__ Allow LDAP
+
+   * __Description:__ Allows LDAP communications for Active Directory
+
+📸 Screenshot:
+
+New Inbound Rule Wizard with TCP 389 selected
+
+### 📁 SMB Communication Rule
+
+   * __Port:__ 445
+
+   * __Protocol:__ TCP
+
+   * __Name:__ Allow SMB
+
+   * __Description:__ Enables file and printer sharing over the network
+
+### 🔐 Kerberos Authentication Rules
+
+   * __Ports:__ 88
+
+   * __Protocols:__ TCP and UDP (separate rules)
+
+   * __Names:__ Allow Kerberos TCP, Allow Kerberos UDP
+
+   * __Description:__ Supports authentication for domain services
+
+### 🌐 DNS Rules
+
+   * __Ports:__ 53
+
+   * __Protocols:__ TCP and UDP (separate rules)
+
+   * __Names:__ Allow DNS TCP, Allow DNS UDP
+
+   * __Description:__ Enables name resolution services
+
+### 🖥️ Remote Desktop Protocol (RDP) Rule
+
+   * __Port:__ 3389
+
+   * __Protocol:__ TCP
+
+   * __Name:__ Allow RDP
+
+   * __Description:__ Allows remote desktop access to the domain controller
+
+### 🛠️ Windows Remote Management (WinRM) Rule
+
+   * __Port:__ 5985
+
+   * __Protocol:__ TCP
+
+   * __Name:__ Allow WinRM
+
+   * __Description:__ Enables remote management via PowerShell and other admin tools
+
+📸 **Screenshot:**
+
+- Overview of all newly added inbound rules in the Group Policy Editor
+
+### ⛔ 3. Outbound Firewall Blocking Rules
+
+To enhance security, I created outbound rules to block potentially unsafe or legacy protocols.
+
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Outbound Rules`
+
+### 🚫 Block TFTP
+
+   * __Rule Type:__ Port
+
+   * __Protocol:__ UDP
+
+   * __Port: 69
+
+   * __Action:__ Block the connection
+
+   * __Profiles:__ Domain, Private, Public
+
+   * __Name:__ Block TFTP
+
+   * __Description:__ Blocks outgoing TFTP connections
+
+### 🚫 Block Telnet
+
+   * __Rule Type:__ Port
+
+   * __Protocol:__ TCP
+
+   * __Port:__ 23
+
+   * __Action:__ Block the connection
+
+   * __Profiles:__ Domain, Private, Public
+
+   * __Name:__ Block Telnet
+
+   * __Description:__ Blocks outgoing Telnet connections
+
+### 🚫 Block Unencrypted FTP
+
+   * __Rule Type:__ Port
+
+   * __Protocol:__ TCP
+
+   * __Port:__ 21
+
+   * __Action:__ Block the connection
+
+   * __Profiles:__ Domain, Private, Public
+
+   * __Name:__ Block Unencrypted FTP
+
+   * __Description:__ Blocks outgoing unencrypted FTP connections
+
+### 🚫 Block SMBv1
+
+   * __Rule Type:__ Custom
+
+   * __Protocol:__ TCP
+
+   * __Remote Port:__ 445
+
+   * __Service Name:__ LanmanServer
+
+   * __Action:__ Block the connection
+
+   * __Profiles:__ Domain, Private, Public
+
+   * __Name:__ Block SMBv1
+
+   * __Description:__ Blocks SMBv1 connections
+
+### 🚫 Block Printer Sharing
+
+   * __Rule Type:__ Predefined
+
+   * __Profile:__ All (Domain, Private, Public)
+
+   * __Predefined Set:__ File and Printer Sharing
+
+   * __Action:__ Block the connection
+
+   * __Name:__ Block Printer Sharing
+
+   * __Description:__ Blocks printer sharing connections
+
+### 🛡️ Additional Security Rules
+
+   * __Block NetBIOS:__ Block outbound TCP/UDP ports 137–139
+
+   * __Block LLMNR:__ Block outbound UDP port 5355
+
+   * __Block mDNS:__ Block outbound UDP port 5353
+
+📸 **Screenshot:**
+
+- Outbound rules list showing blocked protocols
+
+## 4. Configured the following profiles:
 
 ### 🌐 Domain Profile
 - Firewall state: **On**
@@ -51,7 +223,7 @@ In this section, I configured Windows Firewall rules using Group Policy to ensur
 
 ---
 
-## 📋 3. Custom Firewall Rules
+## 📋 5. Custom Firewall Rules
 Created custom inbound rules to allow:
 - **Remote Desktop Protocol (RDP)** for Domain Admins
 - **File and Printer Sharing**
@@ -78,6 +250,8 @@ Steps:
 ![Block SMBv1 Properties Window](https://github.com/user-attachments/assets/0d48cb8e-4bb9-4f6f-a4a7-d7c45d20aacd)
 
 ![Block Telnet TCP Properties Window](https://github.com/user-attachments/assets/fd56330f-ba13-4604-9f62-282d3776c4a8)
+
+Block TFTP Screenshot Missing
 
 ![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/13037d1f-dc37-4e80-8384-e380148d281c)
 

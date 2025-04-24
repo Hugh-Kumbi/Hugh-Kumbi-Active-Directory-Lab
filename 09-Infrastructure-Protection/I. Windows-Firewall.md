@@ -348,7 +348,7 @@ I closed the Group Policy Management Editor
 ![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration 2](https://github.com/user-attachments/assets/fdc7bc4c-c3f1-4a01-8e38-dc59680d18c6)
 
 **Failed Ping to Domain**
-![Ping hughdomain local failure](https://github.com/user-attachments/assets/643a888e-615a-4304-a133-847501a45a80)
+![Failed Connection Result](https://github.com/user-attachments/assets/285924f9-4d82-4f2b-a02e-daf0f8293b8d)
 
 **Successful Ping to Domain**
 ![Ping hughdomain local Success](https://github.com/user-attachments/assets/cc2a37c6-0efc-426f-af0f-9634692b589c)

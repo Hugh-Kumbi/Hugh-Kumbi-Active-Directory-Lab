@@ -369,8 +369,8 @@ I closed the Group Policy Management Editor
 
 - To see all applied firewall rules and check for any misconfiguration
 
-📸 **Screenshot:**
-  * **`rsop.msc` Results**
+📸 **Screenshot:**<br/>
+**`rsop.msc` Results**
 ![Resultant Windows Firewall Settings Policy](https://github.com/user-attachments/assets/62db8287-fd22-4fef-9159-6f3d8485f02f)
 
 **Event Viewer Logs for Firewall**

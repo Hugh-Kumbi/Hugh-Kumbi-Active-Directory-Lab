@@ -42,15 +42,27 @@ I disabled the following services using Group Policy Preferences:
 - **Reason:** Legacy service with known vulnerabilities
 
 📸 **Screenshot:**
-![Print Spooler](https://github.com/user-attachments/assets/9774fc36-d2ce-4c27-b68e-9e9fff99c6a8)
+![Disable Unnecessary Services 1](https://github.com/user-attachments/assets/5401014e-7408-4a87-8077-1e11dfdad064)
 
-![RemoteRegistry](https://github.com/user-attachments/assets/fcb1870f-3025-49b7-b4f5-2efa37d912ca)
+![Disable Unnecessary Services 2](https://github.com/user-attachments/assets/859e648a-956b-42ff-86f8-0074a45a36f3)
 
-![Telnet x](https://github.com/user-attachments/assets/f782f60d-c4d9-4c35-8914-c5c770dc5a5e)
+![Disable Unnecessary Services 3](https://github.com/user-attachments/assets/cb3d0fff-7f69-4f1f-891b-a15f61af2b96)
 
-![SNMP](https://github.com/user-attachments/assets/b25e244a-1248-4497-9a8a-1c040606b09b)
+![Disable Unnecessary Services 4](https://github.com/user-attachments/assets/47f4d118-e0e0-4b78-85d4-3f1925e230ca)
 
-- Screenshot of services.msc on a domain computer showing the service as "Disabled"
+![Disable Unnecessary Services 5](https://github.com/user-attachments/assets/259fd65b-93a0-4a56-b66f-154a76bd2fa5)
+
+![Disable Unnecessary Services 6](https://github.com/user-attachments/assets/ea9edc5c-6fa8-4910-91df-347b5eedf6eb)
+
+![Disable Unnecessary Services 7](https://github.com/user-attachments/assets/53e94b13-68f9-4b9b-af72-2415ea79ca94)
+
+![Disable Unnecessary Services 8](https://github.com/user-attachments/assets/5d8e3197-f105-4157-8dcf-9610c7e0f229)
+
+![Disable Unnecessary Services 9](https://github.com/user-attachments/assets/e396a190-88c0-4f72-845e-283485ae0e82)
+
+![Disable Unnecessary Services 10](https://github.com/user-attachments/assets/37ff44db-f2a9-4eef-bfcf-9e7189768bf8)
+
+![secpol msc Network Security Configuration](https://github.com/user-attachments/assets/c918231b-45d4-4d32-8b83-939924209412)
 
 ---
 
@@ -61,7 +73,13 @@ I disabled the following services using Group Policy Preferences:
 - Monitored event logs for any disruptions caused by these changes.
 
 📸 **Screenshot:**
-- Screenshot showing the "Services" window with the disabled services highlighted
+![Printer Spooler Disabled](https://github.com/user-attachments/assets/dfa8f31c-28eb-437e-a804-3ba24898f1fd)
+
+![RemoteRegistry Disabled](https://github.com/user-attachments/assets/14fa610c-a16f-4770-98ac-422394672aa7)
+
+![SNMP Trap Disabled](https://github.com/user-attachments/assets/4a0931a9-4d2f-41d0-80fc-526e9bb76bff)
+
+![Xbox Live Disabled](https://github.com/user-attachments/assets/1db7c42a-955e-48e2-a8f0-5f0dc7114ebd)
 
 ---
 

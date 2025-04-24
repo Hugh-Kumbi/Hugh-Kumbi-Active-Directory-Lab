@@ -57,7 +57,7 @@ Here’s an example of what my `LogonScript.ps1` included:
 ```powershell
 # LogonScript.ps1
 # PowerShell Logon Script for hughdomain.local
-# Save as LogonScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+# Save as LogonScript.ps1 in `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\`
 
 # Display notification to user
 $wshell = New-Object -ComObject Wscript.Shell
@@ -75,7 +75,7 @@ Here’s an example of what my `LogoffScript.ps1` included:
 ```powershell
 # LogoffScript.ps1
 # PowerShell Logoff Script for hughdomain.local
-# Save as LogoffScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+# Save as LogoffScript.ps1 in `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\`
 
 # Display notification to user
 $wshell = New-Object -ComObject Wscript.Shell

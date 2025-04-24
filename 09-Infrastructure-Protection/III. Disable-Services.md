@@ -123,8 +123,6 @@ I disabled the following services using Group Policy Preferences:
 📸 **Screenshot:**
 ![Disable Unnecessary Services 14 wisvc](https://github.com/user-attachments/assets/85276a98-179e-47f6-be39-499ab81d6515)
 
-![secpol msc Network Security Configuration](https://github.com/user-attachments/assets/c918231b-45d4-4d32-8b83-939924209412)
-
 ---
 
 ## 🧪 3. Validation

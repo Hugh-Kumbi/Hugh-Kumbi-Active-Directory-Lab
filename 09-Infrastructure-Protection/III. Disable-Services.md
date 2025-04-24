@@ -132,13 +132,25 @@ I disabled the following services using Group Policy Preferences:
 - Monitored event logs for any disruptions caused by these changes.
 
 📸 **Screenshot:**
-![Printer Spooler Disabled](https://github.com/user-attachments/assets/dfa8f31c-28eb-437e-a804-3ba24898f1fd)
+![Print Spooler msc](https://github.com/user-attachments/assets/7ad8af5c-f501-4b50-ab6c-1fe231371d1f)
 
-![RemoteRegistry Disabled](https://github.com/user-attachments/assets/14fa610c-a16f-4770-98ac-422394672aa7)
+![RemoteRegistry msc](https://github.com/user-attachments/assets/81ba4908-49bc-4c1e-99c0-8d6ad8478739)
 
-![SNMP Trap Disabled](https://github.com/user-attachments/assets/4a0931a9-4d2f-41d0-80fc-526e9bb76bff)
+![SNMP msc](https://github.com/user-attachments/assets/2c1d45cf-e04f-46db-b264-299f3bdaa937)
 
-![Xbox Live Disabled](https://github.com/user-attachments/assets/1db7c42a-955e-48e2-a8f0-5f0dc7114ebd)
+![Scondary Logon msc](https://github.com/user-attachments/assets/040ae3c8-3664-432e-93c8-7c5fc9ea52a8)
+
+![Windows Error Reporting msc](https://github.com/user-attachments/assets/eed89852-c495-4f6d-9119-cae2be90b632)
+
+![Windows Insider Service msc](https://github.com/user-attachments/assets/7d33f912-e1f9-4087-a998-e17b76f381dd)
+
+![Windows Media Player Network Sharing Service msc](https://github.com/user-attachments/assets/ea1cf24f-1dc5-48c3-aeab-36f7d76c5246)
+
+![Windows Search msc](https://github.com/user-attachments/assets/320df70d-9d0d-48b3-b665-4e1112da5817)
+
+![Windows Update msc](https://github.com/user-attachments/assets/a4075b8f-ab10-4ffe-b508-9d2c03c1546a)
+
+![Xbox msc](https://github.com/user-attachments/assets/9e262fd8-2939-41d5-a88a-1e25ac7515cd)
 
 ---
 

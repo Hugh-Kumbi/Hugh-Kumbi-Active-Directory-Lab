@@ -4,7 +4,7 @@ This document outlines how I configured **inbound and outbound firewall rules vi
 ---
 
 ## 🏷️ 1. GPO Name
-- **GPO Name:** Windows Firewall Policy  
+- **GPO Name:** Windows Firewall Settings Policy  
 - **Linked To:** Domain
 
 📸 **Screenshot:**  

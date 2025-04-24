@@ -12,20 +12,20 @@ Linked To: Tech OU
 
 ---
 
-## 🛠️ 2. Script Settings Configuration
+## 🗂️ 2. Script Paths
 📂 `Computer Configuration > Policies > Windows Settings > Scripts (Startup/Shutdown)`
 
 ### 🔼 Startup Script
 - Script Name: `startup.ps1`
 
-- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{D57D1CEA-817D-4D68-999F-265442775384}\Machine\Scripts\Startup`
+- Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\StartupScript.ps1`
 
 - Script Type: PowerShell
 
 ### 🔽 Shutdown Script
 - Script Name: shutdown.ps1
 
-- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{D57D1CEA-817D-4D68-999F-265442775384}\Machine\Scripts\Shutdown`
+- Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\ShutdownScript.ps1`
 
 - Script Type: PowerShell
 
@@ -49,26 +49,78 @@ Linked To: Tech OU
 ## 🔧 3. Script Functionality
 These scripts were used to maintain operational visibility and enforce configurations at the system level.
 
+**Startup Script Tasks:**
+
+- Logs boot time and system health info to `\\WIN-D2PQBCI88JQ\LogFiles\`
+
+- Displays a user-friendly popup notification
+
+- Updates Windows Defender definitions
+
+- Checks for and logs pending Windows Updates
+
+- Generates a system health report (disk space, memory, uptime)
+
 💻 **Example:** `startup.ps1`
+
 ```
-powershell
-Write-Output "System started at $(Get-Date)" >> \\hughdomain.local\Logs\startup-events.txt
+# PowerShell Computer Shutdown Script for hughdomain.local
+# Save as ShutdownScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Display notification
+try {
+    $message = "Computer shutdown script is running. Please wait..."
+    $title = "Domain Shutdown Script"
 ```
+**Shutdown Script Tasks:**
+
+- Logs shutdown events and system uptime
+
+- Displays a shutdown popup
+
+- Captures currently logged-in users
+
+- Detects pending Windows Updates requiring reboot
+
+- Begins disk cleanup using built-in VolumeCaches
 
 💻 **Example:** `shutdown.ps1`
+
 ```
-powershell
-Write-Output "System shutdown at $(Get-Date)" >> \\hughdomain.local\Logs\shutdown-events.txt
+# PowerShell Computer Startup Script for hughdomain.local
+# Save as StartupScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+
+# Set log path
+$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:COMPUTERNAME-startup.log"
 ```
 ---
 
+🛡️ **Security and Reliability Considerations**
+
+- Scripts are signed
+
+- Log file locations are stored on a secure server with restricted write access
+
+- Error handling is included throughout to ensure script continuity
+
+- Temporary files (e.g., VBS popups) are cleaned up after use
+
 ## 👩🏻‍💻 4. Tasks performed
 
-Logged startup and shutdown times
+- Logged startup and shutdown times
 
-Applied system settings
+- Applied system settings
 
-Enabled activity tracking for compliance and auditing
+- Enabled activity tracking for compliance and auditing
+
+📸 **Screenshot:**
+![Log File Contents Startup](https://github.com/user-attachments/assets/9ab6a712-f801-4359-8f9f-3cc1d66376ee)
+
+![Log File Contents Shutdown](https://github.com/user-attachments/assets/b1559bf2-eb99-413f-8b11-4102cf3f7a31)
+
+![Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/87b81369-c222-49dd-ac1c-b1ba9adb163b)
+
+![Powershell Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/db1bb8ea-4b1c-4f92-b9ae-1a06b62f41fa)
 
 ---
 

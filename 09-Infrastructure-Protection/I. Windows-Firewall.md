@@ -327,7 +327,8 @@ I closed the Group Policy Management Editor
 - I tested connectivity between the domain controller and the clients
 
 📸 **Screenshot:**  
-Command prompt showing successful gpupdate /force output
+![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
+
 
 ### 🧪 5. Testing Firewall Behavior
 On a client computer, I opened Command Prompt as administrator and ran:

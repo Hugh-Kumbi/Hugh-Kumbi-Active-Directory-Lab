@@ -150,6 +150,6 @@ Logoff notification popup (if captured before session termination)
 
 * No errors in PowerShell event logs (`Win+R → eventvwr.msc`)
 
-🗂️ 5. Screenshot Storage
+## 🗂️ 5. Screenshot Storage
 All images related to this section are stored in:
 📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

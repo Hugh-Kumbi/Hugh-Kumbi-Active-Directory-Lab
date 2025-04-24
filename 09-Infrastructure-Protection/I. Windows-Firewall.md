@@ -331,11 +331,11 @@ I closed the Group Policy Management Editor
 
 
 ### 🧪 5. Testing Firewall Behavior
-On a client computer, I opened Command Prompt as administrator and ran:
+- On a client computer, I opened Command Prompt as administrator and ran:
 
   `gpresult /r`
 
-To verify firewall rules were active, I ran:
+- To verify firewall rules were active, I ran:
   
   `netsh advfirewall show allprofiles`
 

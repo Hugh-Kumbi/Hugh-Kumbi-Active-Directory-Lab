@@ -7,7 +7,7 @@ In this section, I implemented secure network communication policies across all 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Network Security Policy  
-- **Linked To:** Domain Computers OU
+- **Linked To:** Domain
 
 📸 **Screenshot:**  
 ![Network Security Policy GPO](https://github.com/user-attachments/assets/95ee90ce-1338-4a1d-aba9-5f901aedd2df)
@@ -19,7 +19,7 @@ In this section, I implemented secure network communication policies across all 
 ## 🔐 2. Security Settings Applied
 
 The following settings were configured under:  
-`Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
 ### ✅ LAN Manager Authentication Level
 - **Policy:** Network Security: LAN Manager authentication level  
@@ -59,7 +59,7 @@ The following settings were configured under:
 - Attempted legacy connections to confirm they were blocked or upgraded to NTLMv2.
 
 📸 **Screenshot:**
-- PowerShell or command prompt output of gpresult showing policy enforcement
+![gpresult Network Security Configuration](https://github.com/user-attachments/assets/bfb982a2-1933-49c8-b224-4295b6a6c69e)
 
 ---
 

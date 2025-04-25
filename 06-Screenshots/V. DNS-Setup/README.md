@@ -54,27 +54,31 @@ This section documents the DNS setup and verification process that supports the 
 
 ![Output From Ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
 
-![Output From Ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+**9. Output From `nslookup` Commands For Hostname and IP Resolution:**
 
-**9. Command Prompt With `ipconfig /all` Showing Domain Suffix**
+- Displays results from `nslookup` queries using both hostnames and IP addresses. Confirms that the DNS server correctly resolves internal domain names to IPs and supports reverse lookup functionality. This validates proper DNS integration with Active Directory services.
+
+![Output From `nslookup` Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+
+**10. Command Prompt With `ipconfig /all` Showing Domain Suffix**
 
 - Displays full DNS configuration of the client, including domain suffix and DNS server IP.
 
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/d65ecde3-ce87-4e26-ad71-4946ab0d98c0)
 
-**10. Output From `nslookup` to Confirm the DNS Server Response**
+**11. Output From `nslookup` to Confirm the DNS Server Response**
 
 - Confirms that queries are being answered by the correct internal DNS server, with accurate forward and reverse resolution.
 
 ![Output From `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/05855f94-6b9f-4bd7-a129-b205c8993f35)
 
-**11. Output From `gpupdate` Command**
+**12. Output From `gpupdate` Command**
 
 - Verifies successful Group Policy update via DNS-based domain controller discovery.
 
 ![Output From `gpupdate` Command](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
 
-**12. Output From `gpresult` Command**
+**13. Output From `gpresult` Command**
 
 - Confirms GPOs are applied, indirectly verifying DNS resolution and domain controller accessibility.
 

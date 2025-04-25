@@ -4,8 +4,7 @@ This section includes screenshots that document the full process of configuring 
 ## 📸 Screenshot Descriptions:
 
 **1. VirtualBox VM Settings for DESKTOP-2N3JERQ**
-
-Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
+- Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
 
 📸 **VirtualBox VM Settings for DESKTOP-2N3JERQ:**
 

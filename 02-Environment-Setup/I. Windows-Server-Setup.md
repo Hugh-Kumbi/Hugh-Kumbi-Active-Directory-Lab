@@ -78,7 +78,7 @@ After installation, I performed the following:
 - Ensured DNS was properly installed and functioning
 - Confirmed that AD-related services were running
 
-📸 **PowerShell with `dcdiag` Results:**
+📸 **PowerShell With `dcdiag` Results:**
 
 ![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/049a9c06-d3ad-4762-8825-cfa5d0d66d93)
 

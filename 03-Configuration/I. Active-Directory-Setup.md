@@ -108,7 +108,7 @@ I created security groups for access control and GPO scoping:
 | Marketing-Managers     | Security | Global    | Built-in; Admin privileges          |
 | TechUsers              | Security | Global    | Granted local admin on Sales PCs    |
 
-Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
+🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
 
 📸 **Screenshot:**
 ![Group membership list 1](https://github.com/user-attachments/assets/2470f069-fe22-4618-9a8c-0123fa81c908)

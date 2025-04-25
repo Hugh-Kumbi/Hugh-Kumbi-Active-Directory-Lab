@@ -81,4 +81,4 @@ gpresult /r
 
 ## 📁 Screenshot Storage
 All screenshots related to this section should be stored in:
-📂 [`06-Screenshots/Password-Policy/Password-policy-settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/Password-Policy-Settings.md)
+📂 [`06-Screenshots/Password-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/Password-Policy-Settings.md)

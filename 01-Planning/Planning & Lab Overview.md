@@ -29,26 +29,26 @@ The diagram below illustrates the network structure, including the domain contro
 | Network Type | Internal Network (VirtualBox) |
 
 ## ✅ 4. Pre-Requisites
-Before building the lab, I ensured the following were in place:
+- Before building the lab, I ensured the following were in place:
 
-A host system with at least 16GB RAM and 150GB disk space
+- A host system with at least 16GB RAM and 150GB disk space
 
-VirtualBox installed and working properly
+- VirtualBox installed and working properly
 
-ISO files for Windows Server 2025 and Windows 11 Enterprise
+- ISO files for Windows Server 2025 and Windows 11 Enterprise
 
-Network properly configured to allow domain communication
+- Network properly configured to allow domain communication
 
-Basic understanding of AD, DNS, and GPO concepts
+- Basic understanding of AD, DNS, and GPO concepts
 
 ## 🔍 5. Planning Considerations
-Used static IPs for all virtual machines to ensure consistent connectivity.
+- Used static IPs for all virtual machines to ensure consistent connectivity.
 
-Ensured Windows Server had proper DNS and time sync.
+- Ensured Windows Server had proper DNS and time sync.
 
-Selected features and policies aligned with real-world enterprise best practices.
+- Selected features and policies aligned with real-world enterprise best practices.
 
-Documented each configuration step with screenshots and explanations.
+- Documented each configuration step with screenshots and explanations.
 
 ---
 

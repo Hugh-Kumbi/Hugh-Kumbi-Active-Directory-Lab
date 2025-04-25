@@ -27,6 +27,7 @@ This section includes screenshots that document the full process of configuring 
 ![VirtualBox VM settings for DESKTOP-2N3JERQ 8](https://github.com/user-attachments/assets/409c0327-845e-4940-b192-173071cbe949)
 
 **2. Network Settings With Static IP and DNS for `DESKTOP-74HPA3F` & `DESKTOP-2N3JERQ`**
+
 - Shows the client’s manually configured IP address and DNS pointing to the domain controller, a critical step for domain communication.
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
@@ -34,6 +35,7 @@ This section includes screenshots that document the full process of configuring 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
 **3. Domain Join Prompt With Domain Name Entered**
+
 - Captures the moment the domain name hughdomain.local is entered in the System Properties dialog to initiate the domain join process.
 
 ![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
@@ -41,6 +43,7 @@ This section includes screenshots that document the full process of configuring 
 ![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
 
 **4 Confirmation Screen For Successful Domain Join**
+
 - Verifies that the client was successfully joined to the domain with the appropriate confirmation message.
 
 ![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/4a39927b-ba5d-4fd6-8b1a-455943c53533)
@@ -48,6 +51,7 @@ This section includes screenshots that document the full process of configuring 
 ![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/3dfb83d6-5da0-4982-b765-07c5135e3f95)
 
 **5. Login Screen With Domain Name Shown**
+
 - Displays the Windows login screen where the domain name is now visible, confirming the system recognizes domain credentials.
 
 ![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/60ffc840-6c1d-4db0-bed2-1af49fd3f053)
@@ -55,6 +59,7 @@ This section includes screenshots that document the full process of configuring 
 ![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/9ff3b78a-7e31-4b3a-87c9-a9d30626c624)
 
 **6. System Properties Showing Domain Joined**
+
 - Confirms through the System Properties panel that the client is now a member of hughdomain.local.
 
 ![System properties showing domain joined](https://github.com/user-attachments/assets/afdbaec2-139e-44b0-a573-16005268edc4)
@@ -62,6 +67,7 @@ This section includes screenshots that document the full process of configuring 
 ![System properties showing domain joined](https://github.com/user-attachments/assets/9d55c881-e968-40ee-ab5f-1b3c8baf73b3)
 
 **7. PowerShell Showing Successful Ping**
+
 - Demonstrates network connectivity by showing a successful ping to the domain controller via PowerShell.
 
 ![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/7920886b-afa6-45ca-87ec-83f85a2364e5)

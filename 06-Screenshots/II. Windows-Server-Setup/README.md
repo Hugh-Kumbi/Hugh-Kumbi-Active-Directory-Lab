@@ -2,7 +2,7 @@
 This section contains screenshots documenting the step-by-step setup of the domain controller using Windows Server 2025. These images demonstrate key configurations and verification steps necessary to prepare the server as the foundation of the Active Directory environment.
 
 ## 📸 Screenshot Descriptions:
-**1. Installation Setup Screen With Edition Selection**
+**1. Installation Setup Screen With Edition Selection** 
 Shows the Windows Server 2025 installer where the Server edition was selected before proceeding with the installation.
 
    ![Standard Evaluation (Desktop Experience)](https://github.com/user-attachments/assets/8265f6c7-e9c3-4134-9d0a-a82567a38632)

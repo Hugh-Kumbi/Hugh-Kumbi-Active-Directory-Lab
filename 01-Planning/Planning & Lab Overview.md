@@ -59,4 +59,4 @@ Before building the lab, I ensured the following were in place:
 ## 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 [`06-Screenshots/I. Planning/Lab Architecture.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)
+📂 [`06-Screenshots/I. Planning/Lab Architecture.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/OU-Structure.md)

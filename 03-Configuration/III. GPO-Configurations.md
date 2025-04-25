@@ -14,7 +14,7 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
 - `AdminUsers`
 - `StandardUsers`
 
-📸 **Screenshot:**
+📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy:**
 ![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](https://github.com/user-attachments/assets/f58420e2-e67f-497b-9862-ce4a8be2a78a)
 
 ---
@@ -37,9 +37,13 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | Firewall Policy              | Domain Root         | Harden network security                 |
 | Service Configuration Policy | Domain Root         | Disable unnecessary services            |
 
-📸 **Screenshot:**
-- GPMC with list of GPOs  
-- Link status to respective OUs
+📸 **GPMC With List of GPOs:**
+
+- 
+
+📸 **Link Status to Respective OUs:**
+
+- 
 
 ---
 
@@ -49,9 +53,12 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 - Blocked inheritance on specific OUs where necessary to prevent unintended policy application.
 - Used **WMI Filtering** and **Security Filtering** for targeted GPO deployment.
 
-📸 **Screenshot:**
-- GPMC showing GPO inheritance settings  
-- Example of WMI or security filter applied
+📸 **GPMC Showing GPO Inheritance Settings:**
+
+- 
+
+📸 **Example of WMI or Security Filter Applied:**
+- 
 
 ---
 
@@ -69,13 +76,20 @@ repadmin /syncall /AdeP
 - gpresult /r
 Checked Event Viewer for GroupPolicy logs under Applications and Services Logs > Microsoft > Windows > GroupPolicy.
 
-📸 **Screenshot:**
-- Command line results from gpupdate
-- Command line results from gpresult
+📸 **Command line results from gpupdate:**
+- 
+
+📸 **Command line results from gpresult:**
+- 
+
+📸 **Command Line Results From Repadmin Syncall AdeP:**
 
 ![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
 
-- Event Viewer logs confirming GPO application
+📸 **Event Viewer logs confirming GPO application:**
+- 
+
+---
 
 ### 📁 Screenshot Storage
 All screenshots related to GPOs should be saved in:

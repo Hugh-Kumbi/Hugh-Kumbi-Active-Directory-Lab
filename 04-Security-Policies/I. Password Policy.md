@@ -11,8 +11,9 @@ This document outlines the **Password Policy** implemented through Group Policy 
 
 This policy was created using the **Group Policy Management Console (GPMC)** and linked at the domain level to ensure that it applies uniformly to all domain user accounts.
 
-📸 **Screenshot**
-![GPMC showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
+📸 **GPMC Showing The Domain Password Policy GPO**
+
+![GPMC Showing The Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
 
 ---
 
@@ -33,8 +34,11 @@ The following settings were configured under:
 
 These settings ensure users cannot reuse old passwords frequently, must use complex and lengthy passwords, and cannot store passwords insecurely.
 
-📸 **Screenshot:**
+📸 **Group Policy Editor Window Showing the Password Policy Path:**
+
 ![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+
+📸 **Each Setting With Its Configured Value:**
 
 ![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
 
@@ -63,10 +67,13 @@ gpresult /r
 ```
 - Checked rsop.msc (Resultant Set of Policy) to confirm applied settings.
 
-📸 **Screenshot:**
-![Gpresult r WIN Policy 1](https://github.com/user-attachments/assets/c63c2776-fa06-4c92-bdc7-04b2bb9a799c)
+📸 **`gpresult` Showing WIN Security Policy Application:**
 
-![Gpresult r WIN Policy 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
+![`gpresult` Showing WIN Security Policy Application 1](https://github.com/user-attachments/assets/c63c2776-fa06-4c92-bdc7-04b2bb9a799c)
+
+![`gpresult` Showing WIN Security Policy Application 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
+
+📸 **Resultant Set of Policy:**
 
 ![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
 

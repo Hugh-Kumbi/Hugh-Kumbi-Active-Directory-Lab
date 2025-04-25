@@ -1,5 +1,8 @@
 # 🖼️ Lab Architecture Overview
+
 This screenshot illustrates the overall design and architecture of the Active Directory lab environment I built. It outlines the core components of the lab, including:
+
+---
 
 - **Domain Controller (Windows Server 2025)**
     Acts as the central authority for authentication, DNS, DHCP, and Group Policy.
@@ -12,8 +15,12 @@ This screenshot illustrates the overall design and architecture of the Active Di
 
 This architecture provided the foundation for all the configurations and simulations performed throughout the lab. It helped guide the logical deployment of features like DNS, DHCP, user management, and GPO policies.
 
+---
+
 📸 **Lab Architecture**
 
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)
+
+---
 
 The above image corresponds to a step described in 📂 `01-Planning/Planning & Lab Overview.md`

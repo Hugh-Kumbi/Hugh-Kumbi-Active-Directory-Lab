@@ -13,10 +13,13 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 - Reverse Lookup Zone: Created for subnet `192.168.1.0/24`
 - Secure dynamic updates enabled
 
-📸 **Screenshots:**
-![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/49da0768-4f2f-4e93-89a0-7497c99bec09)
+📸 **DNS Manager Showing Forward Lookup Zone For hughdomain.local:**
 
-![Reverse lookup zone creation wizard](https://github.com/user-attachments/assets/10ebd273-c1a7-4e61-8323-b29e8f0225b2)
+![DNS Manager Showing Forward Lookup Zone For hughdomain.local](https://github.com/user-attachments/assets/49da0768-4f2f-4e93-89a0-7497c99bec09)
+
+📸 **Reverse Lookup Zone Creation Wizard:**
+
+![Reverse Lookup Zone Creation Wizard](https://github.com/user-attachments/assets/10ebd273-c1a7-4e61-8323-b29e8f0225b2)
 
 ---
 
@@ -32,8 +35,11 @@ Within the **Forward Lookup Zone**, I verified the creation of:
   - `_ldap._tcp.dc._msdcs.hughdomain.local`
   - `_kerberos._tcp.dc._msdcs.hughdomain.local`
 
-📸 **Screenshots:**
+📸 **DNS Manager With `msdcs` and SRV Records Visible:**
+
 ![DNS Manager With msdcs and SRV Records Visible](https://github.com/user-attachments/assets/6bdf6414-3673-4d76-91bb-3635bb6687bc)
+
+📸 **Host Records For Domain Members:**
 
 ![Host Records For Domain Members](https://github.com/user-attachments/assets/799d22f0-446d-4598-810b-0c1c1d01e820)
 
@@ -52,8 +58,11 @@ Verified PTR records for:
 - `192.168.1.101` ➝ `DESKTOP-74HPA3F`
 - `192.168.1.12` ➝ `DESKTOP-2N3JERQ`
 
-📸 **Screenshots:**
+📸 **Reverse Lookup Zone Configuration in DNS Manager:**
+
 ![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/60a91dd9-dff6-43f8-9377-c609b3e6f845)
+
+📸 **PTR Record List:**
 
 ![PTR Record List](https://github.com/user-attachments/assets/e4d77d55-e09a-4fcf-a2cf-062d0f4be1e1)
 
@@ -70,13 +79,19 @@ To ensure everything worked:
   ```powershell
   nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
   ```
-  📸 **Screenshots:**
+  📸 **Verified That Domain Services Could Be Located:**
 
 ![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
 
-![Ran ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
+📸 **Output From `ping` Commands For Hostname and IP Resolution:**
 
-![Ran nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+![Output From Ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
+
+📸 **Output From `nslookup` Commands For Hostname and IP Resolution:**
+
+![Output From `nslookup` Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+
+📸 **Command Prompt With `Ipconfig all` Showing Domain Suffix:**
 
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/d65ecde3-ce87-4e26-ad71-4946ab0d98c0)
 
@@ -84,12 +99,17 @@ To ensure everything worked:
 - Used `nslookup` to confirm the DNS server `(192.168.1.10)` was responding
 - Ran `gpupdate /force` and `gpresult /r` to check successful GPO delivery
 
-📸 **Screenshots:**
-![Used nslookup to confirm the DNS server was responding](https://github.com/user-attachments/assets/05855f94-6b9f-4bd7-a129-b205c8993f35)
+📸 **Output From `nslookup` to Confirm The DNS Server Response:**
 
-![Ran gpupdate](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
+![Output From `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/05855f94-6b9f-4bd7-a129-b205c8993f35)
 
-![Ran gpresult](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
+📸 **Output From `gpupdate` Command:**
+
+![Output From `gpupdate` Command](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
+
+📸 **Output From `gpresult` Command:**
+
+![Output From `gpresult` Command](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
 
 ## 📁 Screenshot Storage
 All screenshots for this section should be placed in:

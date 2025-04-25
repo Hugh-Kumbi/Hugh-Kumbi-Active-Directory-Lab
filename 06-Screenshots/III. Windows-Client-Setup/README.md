@@ -2,6 +2,8 @@
 
 This section includes screenshots that document the full process of configuring and joining Windows 11 Enterprise clients to the Active Directory domain. Each image captures an essential step in verifying proper network settings, domain connectivity, and user login capability.
 
+---
+
 ## 📸 Screenshot Descriptions:
 
 **1. VirtualBox VM Settings for DESKTOP-2N3JERQ**
@@ -73,5 +75,7 @@ This section includes screenshots that document the full process of configuring 
 ![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/7920886b-afa6-45ca-87ec-83f85a2364e5)
 
 ![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/786662b4-9a08-4464-9acf-d0c0973b9002)
+
+---
 
 Each image corresponds to a step described in 📂 02-Environment-Setup/Windows-Client-Setup.md

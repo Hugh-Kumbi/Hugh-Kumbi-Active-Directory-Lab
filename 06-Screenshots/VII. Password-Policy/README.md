@@ -35,4 +35,4 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ---
 
-Each image corresponds to a step described in 📂 04-Security-Policies/Password-Policy.md
+Each image corresponds to a step described in `📂 04-Security-Policies/Password-Policy.md`

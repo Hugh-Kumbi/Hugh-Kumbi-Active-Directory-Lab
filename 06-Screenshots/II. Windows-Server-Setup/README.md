@@ -1,5 +1,8 @@
 # 🛠️ Windows Server 2025 Setup
+
 This section contains screenshots documenting the step-by-step setup of the domain controller using Windows Server 2025. These images demonstrate key configurations and verification steps necessary to prepare the server as the foundation of the Active Directory environment.
+
+---
 
 ## 📸 Screenshot Descriptions:
 **1. Installation Setup Screen With Edition Selection** 
@@ -55,5 +58,7 @@ Captures the output of the dcdiag command, confirming domain controller health a
 Displays the configured DNS forward lookup zone, validating that DNS was set up properly during the AD DS role installation.
 
    ![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/8aecd964-c65b-4048-ac74-0d2ac5bfe54a)
+
+---
 
 Each image corresponds to a step described in `📂 02-Environment-Setup/Windows-Server-Setup.md`

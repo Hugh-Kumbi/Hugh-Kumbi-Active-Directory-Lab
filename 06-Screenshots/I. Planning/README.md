@@ -15,3 +15,5 @@ This architecture provided the foundation for all the configurations and simulat
 📸 **Lab Architecture**
 
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)
+
+Each image corresponds to a step described in 02-Environment-Setup/Windows-Server-Setup.md. 📂 `06-Screenshots/I. Planning/Lab Architecture.md`

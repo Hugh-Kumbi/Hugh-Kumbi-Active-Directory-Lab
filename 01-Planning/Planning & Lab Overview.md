@@ -17,9 +17,11 @@ The goal of this lab was to simulate a small enterprise Active Directory environ
 The diagram below illustrates the network structure, including the domain controller, two client machines, and how they are logically connected.
 
 📌 **Lab Architecture**  
+
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)
 
 ## 🛠️ 3. Lab Components
+
 | Component | Details |
 | :- | :- |
 | Domain | hughdomain.local |
@@ -29,6 +31,7 @@ The diagram below illustrates the network structure, including the domain contro
 | Network Type | Internal Network (VirtualBox) |
 
 ## ✅ 4. Pre-Requisites
+
 Before building the lab, I ensured the following were in place:
 
 - A host system with at least 16GB RAM and 150GB disk space
@@ -42,6 +45,7 @@ Before building the lab, I ensured the following were in place:
 - Basic understanding of AD, DNS, and GPO concepts
 
 ## 🔍 5. Planning Considerations
+
 - Used static IPs for all virtual machines to ensure consistent connectivity.
 
 - Ensured Windows Server had proper DNS and time sync.

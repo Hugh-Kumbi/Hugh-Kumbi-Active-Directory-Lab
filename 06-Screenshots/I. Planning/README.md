@@ -2,8 +2,6 @@
 
 This screenshot illustrates the overall design and architecture of the Active Directory lab environment I built. It outlines the core components of the lab, including:
 
----
-
 - **Domain Controller (Windows Server 2025)**
     Acts as the central authority for authentication, DNS, DHCP, and Group Policy.
 

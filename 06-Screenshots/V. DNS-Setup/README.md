@@ -86,4 +86,4 @@ This section documents the DNS setup and verification process that supports the 
 
 ---
 
-Each image corresponds to a step described in 📂 03-Configuration/DNS-Setup.md
+Each image corresponds to a step described in `📂 03-Configuration/DNS-Setup.md`

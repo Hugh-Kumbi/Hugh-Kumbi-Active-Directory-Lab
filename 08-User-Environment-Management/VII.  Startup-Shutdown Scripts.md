@@ -105,6 +105,17 @@ $LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:COMPUTERNAME-startup.log"
 
 - Temporary files (e.g., VBS popups) are cleaned up after use
 
+📸 **Screenshot:**
+![StartupScript Powershell Test](https://github.com/user-attachments/assets/700cd42b-f587-4ea2-91a1-7e700195e4fa)
+
+![ShutdownScript Powershell Test](https://github.com/user-attachments/assets/b531a3e2-2935-4bc1-b39d-6b8ec77b7c47)
+
+![Cert signing](https://github.com/user-attachments/assets/34164dfe-6bcd-4975-a022-daf8d9531231)
+
+![Cert signing 1](https://github.com/user-attachments/assets/a4990c62-35b7-46eb-872a-50b02e268db3)
+
+![Cert signing 2](https://github.com/user-attachments/assets/44ec6467-7ca0-4a3e-a15a-a0babbeb71ef)
+
 ## 👩🏻‍💻 4. Tasks performed
 
 - Logged startup and shutdown times

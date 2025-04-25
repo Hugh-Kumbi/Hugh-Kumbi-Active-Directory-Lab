@@ -29,7 +29,7 @@ The diagram below illustrates the network structure, including the domain contro
 | Network Type | Internal Network (VirtualBox) |
 
 ## ✅ 4. Pre-Requisites
-- Before building the lab, I ensured the following were in place:
+Before building the lab, I ensured the following were in place:
 
 - A host system with at least 16GB RAM and 150GB disk space
 

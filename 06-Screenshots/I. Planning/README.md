@@ -12,4 +12,6 @@ This screenshot illustrates the overall design and architecture of the Active Di
 
 This architecture provided the foundation for all the configurations and simulations performed throughout the lab. It helped guide the logical deployment of features like DNS, DHCP, user management, and GPO policies.
 
+📸 **Lab Architecture**
+
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)

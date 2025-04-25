@@ -1,9 +1,11 @@
 # 🖥️ Windows Client Setup
+
 This section includes screenshots that document the full process of configuring and joining Windows 11 Enterprise clients to the Active Directory domain. Each image captures an essential step in verifying proper network settings, domain connectivity, and user login capability.
 
 ## 📸 Screenshot Descriptions:
 
 **1. VirtualBox VM Settings for DESKTOP-2N3JERQ**
+
 - Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
 
 📸 **VirtualBox VM Settings for DESKTOP-2N3JERQ:**

@@ -4,7 +4,7 @@ This screenshot illustrates the overall design and architecture of the Active Di
 - **Domain Controller (Windows Server 2025)**
     Acts as the central authority for authentication, DNS, DHCP, and Group Policy.
 
-- **Client Machines (Windows 11 Enterprise)**
+- **Client Machines (Windows 11 Pro)**
     Two clients are joined to the domain to simulate a small enterprise environment.
 
 - **Network Configuration**

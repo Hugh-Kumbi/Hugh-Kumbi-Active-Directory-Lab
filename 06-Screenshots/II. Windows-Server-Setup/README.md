@@ -56,4 +56,4 @@ Displays the configured DNS forward lookup zone, validating that DNS was set up 
 
    ![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/8aecd964-c65b-4048-ac74-0d2ac5bfe54a)
 
-Each image corresponds to a step described in `📂 02-Environment-Setup/Windows-Server-Setup.md`.
+Each image corresponds to a step described in `📂 02-Environment-Setup/Windows-Server-Setup.md`

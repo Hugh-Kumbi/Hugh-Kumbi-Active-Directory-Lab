@@ -2,6 +2,8 @@
 
 This section showcases the complete setup and verification of Active Directory services on Windows Server 2025, including user provisioning, group management, and domain-level login confirmation.
 
+---
+
 📸 **Screenshot Descriptions:**
 
 **1. Server Manager Summary After Installation**
@@ -111,5 +113,7 @@ This section showcases the complete setup and verification of Active Directory s
 ![gpresult r 3](https://github.com/user-attachments/assets/172c416c-2d74-4457-be57-2de2f649fa35)
 
 ![gpresult r 4](https://github.com/user-attachments/assets/b94205a1-75dd-490c-9670-a252ab610131)
+
+---
 
 Each image corresponds to a step described in 📂 03-Configuration/Active-Directory-Setup.md

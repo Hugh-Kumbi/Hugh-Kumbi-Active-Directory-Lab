@@ -111,6 +111,8 @@ To ensure everything worked:
 
 ![Output From `gpresult` Command](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
 
+---
+
 ## 📁 Screenshot Storage
 All screenshots for this section should be placed in:
 📂 [`06-Screenshots/DNS-Setup/DNS-Forward-Zone.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/DNS-Forward-Zone.md)

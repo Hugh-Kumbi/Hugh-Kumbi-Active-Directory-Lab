@@ -70,6 +70,8 @@ gpresult /r
 
 ![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
 
+---
+
 ## 📁 Screenshot Storage
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/Password-Policy/Password-policy-settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/Password-Policy-Settings.md)

@@ -13,7 +13,7 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 📸 **GPMC Showing Local Administrator Restrictions GPO**
 
-![GPMC Showing Local Administrator Restrictions GPO](https://github.com/user-attachments/assets/xxxxx-xxxxxx-xxxxxx)
+![GPMC Showing Local Administrator Restrictions GPO](https://github.com/user-attachments/assets/1ef8739a-0e6a-4708-8851-14aacd1dd13e)
 
 ---
 
@@ -32,7 +32,7 @@ These settings restrict local administrators from accessing systems remotely and
 
 📸 **Group Policy Editor Window Showing Local Administrator Restrictions Path:**
 
-![Group Policy Editor Window Showing Local Administrator Restrictions Path](https://github.com/user-attachments/assets/xxxxx-xxxxxx-xxxxxx)
+![Group Policy Editor Window Showing Local Administrator Restrictions Path](https://github.com/user-attachments/assets/6dcc0043-1f3a-40e2-a156-29e8b427d46a)
 
 ---
 

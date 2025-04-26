@@ -37,7 +37,7 @@ These rights control the ability of users or groups to log on to the system, run
 
 ![Group Policy Editor Window Showing User Rights Path 1](https://github.com/user-attachments/assets/d0495faf-a128-4a38-b694-375bf8577ed3)
 
-![Group Policy Editor Window Showing User Rights Path 2](https://github.com/user-attachments/assets/72c7fda2-f493-4df0-adf4-f3736173dc86)
+![Group Policy Editor Window Showing User Rights Path 2](https://github.com/user-attachments/assets/0fcd640d-aafb-4c24-b619-e13e5be83ade)
 
 ---
 

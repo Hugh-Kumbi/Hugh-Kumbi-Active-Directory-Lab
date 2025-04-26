@@ -13,7 +13,7 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 📸 **GPMC Showing User Rights Assignment GPO**
 
-![User Rights Assignment Creation Linked to OU](https://github.com/user-attachments/assets/e5a6653b-89c3-4f60-9642-da5707b9b3d2)
+![Win 11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/41d02b02-6eff-41ca-95c6-6cf19b33bb1d)
 
 ---
 

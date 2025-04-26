@@ -50,9 +50,11 @@ These settings restrict local administrators from accessing systems remotely and
 - Tested remote access restrictions by attempting to log in with local administrator credentials.
 - Verified that only domain admins had the ability to perform administrative tasks.
 
-📸 **Command Prompt Showing Remote Access Denied:**
+📸 **Remote Desktop Access With Local Admin Credentials Showing Test Denied:**
 
-![Command Prompt Showing Remote Access Denied](https://github.com/user
+![Remote Desktop Access With Local Admin Credentials Showing Test Denied](https://github.com/user-attachments/assets/8393a084-ff77-4a2a-9b7f-903c64103cd8)
+
+![Remote Desktop Access With Local Admin Credentials Showing Test Denied 2](https://github.com/user-attachments/assets/af762531-4192-48ed-9cbc-bb12c644a288)
 
 ---
 

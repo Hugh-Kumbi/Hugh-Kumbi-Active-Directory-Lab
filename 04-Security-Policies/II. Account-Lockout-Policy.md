@@ -11,7 +11,8 @@ This document outlines the **Account Lockout Policy** configured in the domain t
 
 Created and applied via the **Group Policy Management Console (GPMC)**, this GPO was designed to lock accounts temporarily after multiple failed login attempts.
 
-📸 **Screenshot:**
+📸 **GPMC Showing The Account Lockout Policy GPO And Its Link To The Domain:**
+
 ![GPMC Showing The Account Lockout Policy GPO And Its Link To The Domain](https://github.com/user-attachments/assets/d62b5148-6c62-4236-8ee9-07b583a6c247)
 
 ---
@@ -30,7 +31,8 @@ Configured in:
 
 These settings ensure that accounts are temporarily disabled after five failed logon attempts, making it more difficult for attackers to guess passwords.
 
-📸 **Screenshot:**
+📸 **Group Policy Editor Window Showing the Password Policy Path:**
+
 ![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
 
 ![Group Policy Editor showing the Account Lockout Policy path](https://github.com/user-attachments/assets/4188be8c-cfb9-407d-be3b-a3e3de9aabed)
@@ -59,8 +61,11 @@ These configurations align with enterprise security policies and common audit st
 
 - Used `net user TechUser2` to confirm lockout status.
 
-📸 **Screenshot:**
+📸 **User Account Management Account Lockout:**
+
 ![User Account Management Account Lockout](https://github.com/user-attachments/assets/9f5cd4f7-2ba3-4899-9ffd-d512b7128da0)
+
+📸 **Command Prompt Showing Account Status After Lockout:**
 
 ![Command Prompt Showing Account Status After Lockout](https://github.com/user-attachments/assets/b18b8a48-9b44-4f11-948d-fab810b29be2)
 
@@ -69,4 +74,4 @@ These configurations align with enterprise security policies and common audit st
 ## 📁 Screenshot Storage
 
 Screenshots for this section should be saved in:  
-📂 [`06-Screenshots/Account-Lockout-Policy/Account-Lockout-Settings/Account-Lockout-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Account-Lockout-Policy/Account-Lockout-Settings.md)
+📂 [`06-Screenshots/Account-Lockout-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Account-Lockout-Policy/Account-Lockout-Settings.md)

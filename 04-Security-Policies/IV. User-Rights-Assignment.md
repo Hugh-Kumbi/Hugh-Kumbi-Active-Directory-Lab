@@ -59,7 +59,7 @@ These rights control the ability of users or groups to log on to the system, run
 
 ```powershell
 gpresult /r
-
+```
 ---
 
 

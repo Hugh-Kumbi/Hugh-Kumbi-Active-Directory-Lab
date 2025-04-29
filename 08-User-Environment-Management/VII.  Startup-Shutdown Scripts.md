@@ -4,18 +4,21 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 ---
 
 ## 🏷️ 1. GPO Name
-GPO Name: Startup/Shutdown Scripts
-Linked To: Tech OU
+- **GPO Name:** Startup/Shutdown Scripts
+- **Linked To:** Tech OU
 
-📸 **Screenshot:**
+📸 **Startup Shutdown Scripts Policy Linked to Tech OU:**
+
 ![Startup Shutdown Scripts Policy Linked to OU](https://github.com/user-attachments/assets/0db30914-40b0-4534-bf5b-5ef72aff1206)
 
 ---
 
 ## 🗂️ 2. Script Paths
-📂 `Computer Configuration > Policies > Windows Settings > Scripts (Startup/Shutdown)`
+
+    📂 `Computer Configuration > Policies > Windows Settings > Scripts (Startup/Shutdown)`
 
 ### 🔼 Startup Script
+
 - Script Name: `startup.ps1`
 
 - Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\StartupScript.ps1`
@@ -23,6 +26,7 @@ Linked To: Tech OU
 - Script Type: PowerShell
 
 ### 🔽 Shutdown Script
+
 - Script Name: shutdown.ps1
 
 - Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\ShutdownScript.ps1`

@@ -117,17 +117,9 @@ repadmin /syncall /AdeP
 
 📸 **Command line results from gpresult:**
 
-![IPsec Authentication Initial gpresult](https://github.com/user-attachments/assets/1a664265-a1d7-46d0-8069-eb18031e3bc7)
+![Group Policy Results 1](https://github.com/user-attachments/assets/6d3b0ed5-fea1-491e-94df-7df944c765e0)
 
-![IPsec Authentication Initial gpresult 1](https://github.com/user-attachments/assets/8bf441ac-1fd7-44b2-b6c3-4f360a0842b0)
-
-![IPsec Authentication Initial gpresult 2](https://github.com/user-attachments/assets/9d70a294-94a0-429e-8a75-6e1a7901ef3b)
-
-![IPsec Authentication Initial gpresult 3](https://github.com/user-attachments/assets/d3360eab-f425-49ef-8418-e9ef4736e4ce)
-
-![IPsec Authentication Initial gpresult 4](https://github.com/user-attachments/assets/826272a0-c008-4ac0-8d40-5e7bac6caca5)
-
-![IPsec Authentication Initial gpresult 5](https://github.com/user-attachments/assets/e5e077ea-f7ac-442d-b2dc-c0c1e57fafba)
+![Grop Policy Results 2](https://github.com/user-attachments/assets/6bcddea7-d1d5-4e53-b2b6-20641a4e393b)
 
 📸 **Command Line Results From Repadmin Syncall AdeP:**
 

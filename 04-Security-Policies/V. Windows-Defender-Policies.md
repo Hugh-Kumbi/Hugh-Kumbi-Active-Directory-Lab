@@ -23,17 +23,17 @@ Configured under:
 
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Defender Antivirus`
 
-| Setting                                             | Value                |
-|-----------------------------------------------------|----------------------|
-| Turn off Microsoft Defender Antivirus               | Disabled             |
-| Turn off real-time protection                       | Disabled             |
-| Join Microsoft MAPS                                 | Enabled              |
-| Scan Removable Drives                               | Enabled              |
-| Send file samples when further analysis is required | Enabled              |
+| Setting                                                 | Value                |
+|---------------------------------------------------------|----------------------|
+| **Turn off Microsoft Defender Antivirus**               | Disabled             |
+| **Turn off real-time protection**                       | Disabled             |
+| **Join Microsoft MAPS**                                 | Enabled              |
+| **Scan Removable Drives**                               | Enabled              |
+| **Send file samples when further analysis is required** | Enabled              |
 
 These settings ensure that Windows Defender is active, real-time protection is enabled, and cloud-based protections are being used.
 
-📸 **Group Policy Editor Window Showing Windows Defender Path:**
+📸 **Group Policy Editor Window Showing Windows Defender Path**
 
 ![Group Policy Editor Window Showing Windows Defender Path](https://github.com/user-attachments/assets/553e98c7-e411-4659-97e4-a95a74238fad)
 
@@ -83,6 +83,7 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 5. Screenshot Storage
+
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/Windows-Defender-Policies.png`]()

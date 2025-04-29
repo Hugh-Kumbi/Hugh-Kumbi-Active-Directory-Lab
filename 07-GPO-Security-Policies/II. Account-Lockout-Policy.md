@@ -14,6 +14,7 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 ---
 
 ## ⚙️ 3. Settings Implemented
+
 | Setting                                 | Value        |
 |-----------------------------------------|--------------|
 | Account lockout duration                | 30 minutes   |

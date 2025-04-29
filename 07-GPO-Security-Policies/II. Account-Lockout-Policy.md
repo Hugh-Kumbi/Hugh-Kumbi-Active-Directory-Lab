@@ -20,7 +20,7 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 | Account lockout threshold               | 5 attempts   |
 | Reset lockout counter after             | 30 minutes   |
 
-## 📸 Screenshot
+## 📸 Account Lockout Policy Showing Each Individual Setting With Values Applied
 
 ![Each Individual Setting With Values Applied](https://github.com/user-attachments/assets/3ff81187-e9ee-475f-a78e-d6c1345069df)
 

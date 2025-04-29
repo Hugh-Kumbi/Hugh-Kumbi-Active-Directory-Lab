@@ -9,7 +9,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 - **GPO Name:** Folder Redirection Policy  
 - **Linked To:** Tech OU
 
-📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link:**
+📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
 
 ![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/7a6b5186-8001-41d2-9b92-97325d2c48b5)
 
@@ -32,11 +32,11 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 5. Enabled:  
    ✅ *Move the contents of Documents to the new location*
 
-📸 **Folder Redirection Properties Window With Configuration:**
+📸 **Folder Redirection Properties Window With Configuration**
 
 ![Folder Redirection Properties Window With Configuration](https://github.com/user-attachments/assets/bda6c476-6430-4b88-bc7a-3bd71f590c4a)
 
-📸 **Shared Folder Structure on The Server Showing ServerUserDocs:**
+📸 **Shared Folder Structure on The Server Showing ServerUserDocs**
 
 ![Shared Folder Structure on The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/64c80926-489a-4cff-a541-11ff220415cb)
 
@@ -62,11 +62,11 @@ Then shared it with proper permissions:
 
  -  Authenticated Users: Modify, Read & Execute, List Folder Contents, Read, Write
 
-📸 **NTFS Permission Settings For The FileShares Folder:**
+📸 **NTFS Permission Settings For The FileShares Folder**
 
 ![NTFS Permission Settings For The FileShares Folder](https://github.com/user-attachments/assets/274be70b-4d35-4bc3-8438-2d7964943369)
 
-📸 **Share Settings With Authenticated Users Listed:**
+📸 **Share Settings With Authenticated Users Listed**
 
 ![Share Settings With Authenticated Users Listed](https://github.com/user-attachments/assets/de3e23a0-8852-4047-8354-9be238e0a9be)
 

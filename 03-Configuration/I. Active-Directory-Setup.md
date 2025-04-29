@@ -62,14 +62,14 @@ Each department OU will be used for GPO targeting and permission management.
 Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 ### Example Users:
-| Username        | Full Name        | Department | OU Placement |
-|-----------------|------------------|------------|--------------|
-| mguzha          | Mei Guzha        | Marketing  | Marketing    |
-| BackupAdmin     | Backup Admin     | Admins     | Admins       |
-| BackupAdmin1    | Backup Admin1    | Admins     | Admins       |
-| lguzha          | Lana Guzha       | HR         | HR           |
-| TechUser1       | Tech User1       | IT         | IT Security  |
-| TechUser2       | Tech User2       | IT         | IT Security  |
+| Username            | Full Name        | Department | OU Placement |
+|---------------------|------------------|------------|--------------|
+| **mguzha**          | Mei Guzha        | Marketing  | Marketing    |
+| **BackupAdmin**     | Backup Admin     | Admins     | Admins       |
+| **BackupAdmin1**    | Backup Admin1    | Admins     | Admins       |
+| **lguzha**          | Lana Guzha       | HR         | HR           |
+| **TechUser1**       | Tech User1       | IT         | IT Security  |
+| **TechUser2**       | Tech User2       | IT         | IT Security  |
 
 Passwords were set to expire and require change on first login (except admin accounts).
 
@@ -106,18 +106,18 @@ Passwords were set to expire and require change on first login (except admin acc
 I created security groups for access control and GPO scoping:
 
 ### Examples:
-| Group Name             | Type     | Scope     | Description                         |
-|------------------------|----------|-----------|-------------------------------------|
-| Accounting-Managers    | Security | Global    | All IT support technicians          |
-| Administrators         | User     |           | HR management staff                 |
-| BackupAdmin            | User     |           |  Built-in; Admin privileges         |
-| BackupAdmin1           | User     |           |  Granted local admin on Sales PCs   |
-| Domain Admins          | Security | Global    | All IT support technicians          |
-| HR-Managers            | Security | Global    | HR management staff                 |
-| IT-Managers            | Security | Global    | Built-in; Admin privileges          |
-| IT-Support             | Security | Global    | Granted local admin on Sales PCs    |
-| Marketing-Managers     | Security | Global    | Built-in; Admin privileges          |
-| TechUsers              | Security | Global    | Granted local admin on Sales PCs    |
+| Group Name                 | Type     | Scope     | Description                         |
+|----------------------------|----------|-----------|-------------------------------------|
+| **Accounting-Managers**    | Security | Global    | All IT support technicians          |
+| **Administrators**         | User     |           | HR management staff                 |
+| **BackupAdmin**            | User     |           |  Built-in; Admin privileges         |
+| **BackupAdmin1**           | User     |           |  Granted local admin on Sales PCs   |
+| **Domain Admins**          | Security | Global    | All IT support technicians          |
+| **HR-Managers**            | Security | Global    | HR management staff                 |
+| **IT-Managers**            | Security | Global    | Built-in; Admin privileges          |
+| **IT-Support**             | Security | Global    | Granted local admin on Sales PCs    |
+| **Marketing-Managers**     | Security | Global    | Built-in; Admin privileges          |
+| **TechUsers**              | Security | Global    | Granted local admin on Sales PCs    |
 
 🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
 
@@ -178,7 +178,7 @@ To confirm everything worked:
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 6. Screenshot Storage
 
 All screenshots for this section should be placed in:  
 📂 [`06-Screenshots/IV. Active-Directory-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)

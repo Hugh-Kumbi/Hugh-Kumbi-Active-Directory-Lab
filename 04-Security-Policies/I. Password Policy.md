@@ -34,11 +34,11 @@ The following settings were configured under:
 
 These settings ensure users cannot reuse old passwords frequently, must use complex and lengthy passwords, and cannot store passwords insecurely.
 
-📸 **Group Policy Editor Window Showing the Password Policy Path:**
+📸 **Group Policy Editor Window Showing the Password Policy Path**
 
 ![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
 
-📸 **Each Setting With Its Configured Value:**
+📸 **Each Setting With Its Configured Value**
 
 ![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
 
@@ -67,18 +67,19 @@ gpresult /r
 ```
 - Checked rsop.msc (Resultant Set of Policy) to confirm applied settings.
 
-📸 **`gpresult` Showing WIN Security Policy Application:**
+📸 **`gpresult` Showing WIN Security Policy Application**
 
 ![`gpresult` Showing WIN Security Policy Application 1](https://github.com/user-attachments/assets/c63c2776-fa06-4c92-bdc7-04b2bb9a799c)
 
 ![`gpresult` Showing WIN Security Policy Application 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
 
-📸 **Resultant Set of Policy:**
+📸 **Resultant Set of Policy**
 
 ![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
 
 ---
 
 ## 📁 Screenshot Storage
+
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/Password-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/README.md)

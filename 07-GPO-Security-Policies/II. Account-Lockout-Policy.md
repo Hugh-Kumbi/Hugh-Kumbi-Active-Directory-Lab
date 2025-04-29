@@ -32,6 +32,8 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 - Tested with dummy user accounts and incorrect passwords to ensure lockout.
 - Confirmed via Event Viewer logs and GPO Management Console.
 
+---
+
 ## 📁 5. Screenshot Storage
 
 Screenshots for this section should be saved in:  

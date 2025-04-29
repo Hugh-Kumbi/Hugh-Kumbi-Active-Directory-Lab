@@ -115,8 +115,8 @@ repadmin /syncall /AdeP
 ![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
 
 ### On Clients:
-- gpupdate /force
-- gpresult /r
+- Ran `gpupdate /force`
+- Ran `gpresult /r`
 
 📸 **Command Line Results From gpupdate**
 

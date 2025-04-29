@@ -21,6 +21,7 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
   - `IT Security`
   - `IT Support`
   - `Marketing`
+- `Users`
 
 📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy**
 

@@ -10,6 +10,7 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 - **Linked To:** Tech OU
 
 📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
+
 ![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
 
 ---

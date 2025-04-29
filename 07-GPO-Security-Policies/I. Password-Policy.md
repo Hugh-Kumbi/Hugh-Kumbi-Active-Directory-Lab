@@ -15,14 +15,14 @@ To enhance account security by enforcing strong password policies across all dom
 
 ## ⚙️ 3. Settings Implemented
 
-| Setting                                     | Value                   |
-|---------------------------------------------|-------------------------|
-| Enforce password history                    | 24 passwords remembered |
-| Maximum password age                        | 90 days                 |
-| Minimum password age                        | 1 day                   |
-| Minimum password length                     | 12 characters           |
-| Password must meet complexity requirements  | Enabled                 |
-| Store passwords using reversible encryption | Disabled                |
+| Setting                                         | Value                   |
+|-------------------------------------------------|-------------------------|
+| **Enforce password history**                    | 24 passwords remembered |
+| **Maximum password age**                        | 90 days                 |
+| **Minimum password age**                        | 1 day                   |
+| **Minimum password length**                     | 12 characters           |
+| **Password must meet complexity requirements**  | Enabled                 |
+| **Store passwords using reversible encryption** | Disabled                |
 
 **📸 Password Policy Showing Each Setting With Its Configured Value**
 

@@ -7,10 +7,10 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** User Folder Redirection Policy  
-- **Linked To:** hughdomain.local
+- **Linked To:** Tech OU
 
-📸 **Screenshot:**
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
+📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
+![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
 
 ---
 
@@ -18,22 +18,24 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 
 Using the **Group Policy Management Editor**, I navigated to:
 
-📂 `User Configuration > Policies > Windows Settings > Folder Redirection > Documents`
+  📂 `User Configuration > Policies > Windows Settings > Folder Redirection > Documents`
 
-Settings applied:
-
+**Settings applied:**
 - **Target Folder Location:**  
   ➤ Redirect to the following location: **Basic - Redirect everyone’s folder to the same location**  
   ➤ Root Path: `\\WIN-D2PQBCI88JQ\RedirectedFolder$`
 
-- **Settings:**
+- **Settings applied:**
   - Grant the user exclusive rights to Documents
   - Move the contents of Documents to the new location
   - Policy removal behavior: Leave contents in the redirected location
 
-📸 **Screenshot:**
+📸 **Folder Redirection Configuration Window**
+
 ![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/797fd428-1c6e-4c1d-a671-64d6aad6c198)
-  
+
+📸 **Root Path Entered**
+
 ![Root Path Entered](https://github.com/user-attachments/assets/8c0dc5da-1191-4ba7-9105-75b8b2195deb)
 
 ---
@@ -51,13 +53,15 @@ This redirection also simplified data recovery and enabled easy integration with
 ## 🧪 5. Testing and Validation
 
 To verify the configuration:
-
 1. Logged into the client machine as a domain user.
 2. Created test documents in the **Documents** folder.
 3. Checked that the files were successfully redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\TechUser1`.
 
-📸 **Screenshot:**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties**
+
 ![Client Side Documents Folder Showing the Redirected Location In Properties](https://github.com/user-attachments/assets/44b93241-be75-4f16-9945-e25f78bd08a1)
+
+📸 **Server Side Share Showing User Folders**
 
 ![Server Side Share Showing User Folders](https://github.com/user-attachments/assets/84313e57-e680-41fd-9336-5f7f1d170dec)
 

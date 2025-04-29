@@ -16,15 +16,15 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 - **Global Catalog:** Enabled  
 - **Directory Services Restore Mode (DSRM) Password:** Set securely  
 
-📸 **Server Manager Summary After Installation:**
+📸 **Server Manager Summary After Installation**
 
 ![Server Manager Summary After Installation](https://github.com/user-attachments/assets/0a4ce9a7-3f9b-46be-b130-2a7a1a6a0546)
 
-📸 **Domain Promotion Wizard Final Confirmation Screen:**
+📸 **Domain Promotion Wizard Final Confirmation Screen**
 
 ![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/72f95f6f-0c87-4a91-baac-9e6bbaca6d1e)
 
-📸 **Command Prompt With Ipconfig All Showing Domain Suffix:**
+📸 **Command Prompt With Ipconfig All Showing Domain Suffix**
 
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/154b55df-b766-4eaa-84db-e29f4f29c926)
 
@@ -51,7 +51,7 @@ HUGHDOMAIN.LOCAL
 ````
 Each department OU will be used for GPO targeting and permission management.
 
-📸 **Active Directory Users and Computers (ADUC) Showing OU Structure:**
+📸 **Active Directory Users and Computers (ADUC) Showing OU Structure**
 
 ![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/904523b7-eb37-40bc-9038-d88d32cbb576)
 
@@ -73,19 +73,19 @@ Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 Passwords were set to expire and require change on first login (except admin accounts).
 
-📸 **New User Wizard in ADUC:**
+📸 **New User Wizard in ADUC**
 
 ![New User Wizard in ADUC](https://github.com/user-attachments/assets/8add7233-8b78-4811-b53f-fb6cd40f17ea)
 
-📸 **1500 Users Creation Using PowerShell Script:**
+📸 **1500 Users Creation Using PowerShell Script**
   
 ![1500 Users Creation Using PowerShell Script](https://github.com/user-attachments/assets/3a0f8681-6487-41ff-8e8e-ffd41e472df7)
 
-📸 **1500 Users Creation Confirmation:**
+📸 **1500 Users Creation Confirmation**
 
 ![1500 Users Creation Confirmation](https://github.com/user-attachments/assets/41918c4d-817b-49d0-b289-0a12981fd397)
 
-📸 **Properties Window Showing Group Membership:**
+📸 **Properties Window Showing Group Membership**
 
 ![Properties Window Showing Group Membership 1](https://github.com/user-attachments/assets/750d0033-adc4-4796-9495-ef65e5c7ef9a)
 
@@ -121,7 +121,7 @@ I created security groups for access control and GPO scoping:
 
 🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
 
-📸 **Group Membership List:**
+📸 **Group Membership List**
 
 ![Group membership list 1](https://github.com/user-attachments/assets/2470f069-fe22-4618-9a8c-0123fa81c908)
 
@@ -158,15 +158,15 @@ To confirm everything worked:
 - Ran `gpresult /r` to ensure correct GPO application  
 - Ensured all created objects appeared correctly in ADUC
 
-📸 **Login Screen Showing Domain User:**
+📸 **Login Screen Showing Domain User**
 
 ![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
 
-📸 **Output From `whoami` Command:**
+📸 **Output From `whoami` Command**
 
 ![Whoami](https://github.com/user-attachments/assets/708ed3be-2897-406c-bd2f-804bb0c7f05f)
 
- 📸 **Output From `gpresult` Command:**
+ 📸 **Output From `gpresult` Command**
  
 ![gpresult r 1](https://github.com/user-attachments/assets/d2e61890-5c4f-411c-98a4-3c2ade7fe02b)
 

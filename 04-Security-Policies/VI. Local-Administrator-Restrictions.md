@@ -21,12 +21,12 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 Configured under:
 
-📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`
 
-| Setting                                                   | Value                       |
-|-----------------------------------------------------------|-----------------------------|
-| Administrators                                            | Domain Admins, Local Admins |
-| Deny Local Administrators from Remotely Accessing Systems | Enabled                     |
+| Setting                                                       | Value                       |
+|---------------------------------------------------------------|-----------------------------|
+| **Administrators**                                            | Domain Admins, Local Admins |
+| **Deny Local Administrators from Remotely Accessing Systems** | Enabled                     |
 
 These settings restrict local administrators from accessing systems remotely and enforce the use of domain-based administrative rights.
 
@@ -58,6 +58,6 @@ These settings restrict local administrators from accessing systems remotely and
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 5. Screenshot Storage
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/Local-Administrator-Restrictions.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/README.md)

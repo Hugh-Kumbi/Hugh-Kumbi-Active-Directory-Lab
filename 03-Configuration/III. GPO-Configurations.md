@@ -22,7 +22,7 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
   - `IT Support`
   - `Marketing`
 
-📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy:**
+📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy**
 
 ![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](https://github.com/user-attachments/assets/f58420e2-e67f-497b-9862-ce4a8be2a78a)
 
@@ -58,27 +58,27 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | Windows Defender Settings Policy                | Domain Root         | Configure antivirus settings for enhanced endpoint protection   |
 | Windows Firewall Settings Policy                | Domain Root         | Enforce firewall rules to control inbound and outbound traffic  |
 
-📸 **GPMC With List of GPOs:**
+📸 **GPMC With List of GPOs**
 
 ![GPMC With List of GPOs](https://github.com/user-attachments/assets/f4e52b53-440b-4efb-b7d9-a11dfdbb719d)
 
-📸 **Link Status to Domain Root:**
+📸 **Link Status to Domain Root**
 
 ![Link Status to Domain Root](https://github.com/user-attachments/assets/8419880b-5c0e-4bca-a39e-d3c28cf0d956)
 
-📸 **Link Status to Domain Controller:**
+📸 **Link Status to Domain Controller**
 
 ![Link Status to Domain Controller](https://github.com/user-attachments/assets/1b625100-a06a-4aba-a13c-812f6016af31)
 
-📸 **Link Status to Groups OU:**
+📸 **Link Status to Groups OU**
 
 ![Link Status to Groups OU](https://github.com/user-attachments/assets/439629b7-8078-450e-8756-7ec81a192a3c)
 
-📸 **Link Status to Tech OU:**
+📸 **Link Status to Tech OU**
 
 ![Link Status to Tech OU](https://github.com/user-attachments/assets/4f1e9f37-e83f-4353-bea0-a0b7b3e51d34)
 
-📸 **Link Status to IT Computers:**
+📸 **Link Status to IT Computers**
 
 ![Link Status to IT Computers](https://github.com/user-attachments/assets/e8c0540a-aac3-4f7a-acd3-c6c42398c65b)
 
@@ -89,7 +89,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 - Used **Enforced** flag for domain-wide security GPOs.
 - Blocked inheritance on specific OUs where necessary to prevent unintended policy application.
 
-📸 **GPMC Showing GPO Inheritance Settings:**
+📸 **GPMC Showing GPO Inheritance Settings**
 
 ![GPMC Showing GPO Inheritance Settings for Domain oot](https://github.com/user-attachments/assets/074de9ee-94c7-49cc-99be-05c6fa7346e2)
 
@@ -106,30 +106,32 @@ Verified that GPOs were successfully replicated and applied:
 repadmin /syncall /AdeP
 ```
 
+📸 **Event Viewer logs confirming GPO application**
+
+![Event Viewer logs Confirming GPO Application](https://github.com/user-attachments/assets/2b27071d-d616-4de8-bb5d-932dfeff5ae7)
+
+📸 **Command Line Results From Repadmin Syncall AdeP**
+
+![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
+
 ### On Clients:
 - gpupdate /force
 - gpresult /r
 
-📸 **Command line results from gpupdate:**
+📸 **Command Line Results From gpupdate**
 
-![IPsec Authentication gpudate](https://github.com/user-attachments/assets/393227ba-3625-4c5f-b801-b0d39e827a24)
+![Command Line Results From gpupdate](https://github.com/user-attachments/assets/393227ba-3625-4c5f-b801-b0d39e827a24)
 
 
-📸 **Command line results from gpresult:**
+📸 **Command Line Results From gpresult**
 
 ![Group Policy Results 1](https://github.com/user-attachments/assets/6d3b0ed5-fea1-491e-94df-7df944c765e0)
 
 ![Grop Policy Results 2](https://github.com/user-attachments/assets/6bcddea7-d1d5-4e53-b2b6-20641a4e393b)
 
-📸 **Command Line Results From Repadmin Syncall AdeP:**
-
-![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
-
-📸 **Event Viewer logs confirming GPO application:**
-![Event Viewer logs Confirming GPO Application](https://github.com/user-attachments/assets/2b27071d-d616-4de8-bb5d-932dfeff5ae7)
-
 ---
 
 ### 📁 Screenshot Storage
+
 All screenshots related to GPOs should be saved in:
 📂 [`06-Screenshots/GPO-Configurations.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VI.%20GPO-Configurations/README.md)

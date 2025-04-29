@@ -9,7 +9,7 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 ## 🛠️ 2. GPO Details
 
 - **GPO Name:** Win11 Security Policy
-- **Scope:** Applied at the domain level to ensure all users comply.
+- **Scope:** Applied at the domain level.
 
 ---
 

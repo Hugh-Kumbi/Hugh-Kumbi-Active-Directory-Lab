@@ -1,19 +1,19 @@
 # 🚫 Account Lockout Policy GPO
 
-## 🎯 Objective
+## 🎯 1. Objective
 
 To prevent brute-force logon attempts by locking user accounts after a set number of invalid login attempts.
 
 ---
 
-## 🛠️ 1. GPO Details
+## 🛠️ 2. GPO Details
 
 - **GPO Name:** Win11 Security Policy
 - **Scope:** Domain-wide
 
 ---
 
-## ⚙️ 2. Settings Implemented
+## ⚙️ 3. Settings Implemented
 | Setting                                 | Value        |
 |-----------------------------------------|--------------|
 | Account lockout duration                | 30 minutes   |
@@ -26,12 +26,12 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 
 ---
 
-## ✅ 3. Verification
+## ✅ 4. Verification
 
 - Tested with dummy user accounts and incorrect passwords to ensure lockout.
 - Confirmed via Event Viewer logs and GPO Management Console.
 
-## 📁 4. Screenshot Storage
+## 📁 5. Screenshot Storage
 
 Screenshots for this section should be saved in:  
 📂 [`06-Screenshots/Account-Lockout-Policy/Account-Lockout-Settings/Account-Lockout-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Account-Lockout-Policy/Account-Lockout-Settings.md)

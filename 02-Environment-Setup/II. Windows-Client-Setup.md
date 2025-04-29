@@ -8,14 +8,14 @@ This section details how I configured and joined two Windows 11 Pro clients—**
 
 I created two new VMs in **VirtualBox** with the following specifications:
 
-- **VM Names:** DESKTOP-74HPA3F and DESKTOP-2N3JERQ
+- **VM Names:** AD-WIN11-01 and AD-WIN11-02
 - **OS:** Windows 11 Pro
 - **RAM:** 4 GB each
 - **CPU:** 2 cores each
 - **Disk:** 50 GB each
 - Network Adapter: **Internal Network** (same as Domain Controller)
 
-📸 **VirtualBox VM Settings for DESKTOP-2N3JERQ:**
+📸 **VirtualBox VM Settings for AD-WIN11-02:**
 
 ![VirtualBox VM settings for DESKTOP-2N3JERQ 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
 

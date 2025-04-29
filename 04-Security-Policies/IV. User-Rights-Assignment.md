@@ -23,17 +23,17 @@ The following settings were configured under:
 
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
-| Setting                                                        | Value                           |
-|----------------------------------------------------------------|---------------------------------|
-| Allow Log on locally                                           | Administrators, Domain Users    |
-| Allow Log on through Remote Desktop Services                   | Administrators, Domain Users    |
-| Log on as a service                                            | Local Service, Network Service  |
-| Log on as a batch job                                          | Administrators, Backup Admins   |
-| Shut down the system                                           | Administrators                  |
+| Setting                                                            | Value                           |
+|--------------------------------------------------------------------|---------------------------------|
+| **Allow Log on locally**                                           | Administrators, Domain Users    |
+| **Allow Log on through Remote Desktop Services**                   | Administrators, Domain Users    |
+| **Log on as a service**                                            | Local Service, Network Service  |
+| **Log on as a batch job**                                          | Administrators, Backup Admins   |
+| **Shut down the system**                                           | Administrators                  |
 
 These rights control the ability of users or groups to log on to the system, run services, and perform administrative tasks like shutting down the computer.
 
-📸 **Group Policy Editor Window Showing User Rights Path:**
+📸 **Group Policy Editor Window Showing User Rights Path**
 
 ![Group Policy Editor Window Showing User Rights Path 1](https://github.com/user-attachments/assets/d0495faf-a128-4a38-b694-375bf8577ed3)
 
@@ -62,7 +62,7 @@ gpresult /r
 ```
 ---
 
+## 📁 5. Screenshot Storage
 
-## 📁 Screenshot Storage
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/User-Rights-Assignment.png`]()

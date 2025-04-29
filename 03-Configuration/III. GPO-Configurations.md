@@ -24,26 +24,54 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
 Created and linked GPOs to the appropriate OUs using the **Group Policy Management Console (GPMC)**.
 
 ### GPOs Implemented:
-| GPO Name                     | Linked To           | Purpose                                 |
-|------------------------------|---------------------|-----------------------------------------|
-| USB Restriction Policy       | Workstations        | Disable removable storage               |
-| RDP Restriction Policy       | Domain Controllers  | Allow RDP for Domain Admins only        |
-| Password Policy              | Domain Root         | Enforce complex password rules          |
-| Account Lockout Policy       | Domain Root         | Prevent brute-force attacks             |
-| Audit Policy                 | Domain Root         | Track critical system/user activity     |
-| Folder Redirection Policy    | StandardUsers       | Redirect user folders to server share   |
-| Drive Mappings Policy        | StandardUsers       | Map network drives                      |
-| Logon Scripts Policy         | StandardUsers       | Execute scripts at logon/logoff         |
-| Firewall Policy              | Domain Root         | Harden network security                 |
-| Service Configuration Policy | Domain Root         | Disable unnecessary services            |
+| GPO Name                                        | Linked To           | Purpose                                                         |
+|-------------------------------------------------|---------------------|-----------------------------------------------------------------|
+| Block VLC - Policy                              | Tech OU             | Prevent the use of unauthorized media applications              |
+| Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security   |
+| Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                     |
+| Default Domain Controller Policy                | Domain Controllers  | Strengthen authentication to mitigate brute-force attacks       |
+| Default Domain Policy                           | Domain Root         | Enable auditing of key system and user activities               |
+| Desktop Wallpaper Policy                        | Tech OU             | Standardize desktop appearance across all user devices          |
+| Disabling Unnecessary Windows Services Policy   | IT Computers        | Reduce attack surface by disabling non-essential services       |
+| Drive Mappings Policy                           | Tech OU             | Assign network drives based on user or group membership         |
+| IPsec Authentication Policy                     | Domain Root         | Enforce secure communication through IPsec authentication       |
+| Logon-Logoff Scripts Policy                     | Tech OU             | Run custom scripts during user logon and logoff events          |
+| Map Network Drives Policy                       | Groups OU           | Automatically connect users to shared network resources         |
+| Network Security Settings Policy                | Domain Root         | Enhance remote access control for administrative accounts       |
+| Restricted Groups Policy                        | Domain Root         | Define and enforce group membership for privileged roles        |
+| Service Configuration Policy                    | IT Computers        | Harden systems by managing and securing Windows services        |
+| Software Deployment Google Chrome Policy        | IT Computers        | Automate installation of approved web browser software          |
+| Start Menu and Taskbar Settings Policy          | Tech OU             | Customize user interface elements for consistency and control   |
+| Startup/Shutdown Scripts Policy                 | Tech OU             | Execute scripts during system startup and shutdown events       |
+| USB Restriction Policy                          | IT Computers        | Block the use of USB storage devices to prevent data leakage    |
+| User Folder Redirection Policy                  | Tech OU             | Redirect user data folders to centralized file servers          |
+| Win11 Security Policy | Domain Root             | Domain Root         | Apply Windows 11-specific hardening configurations              |
+| Windows Defender Settings Policy                | Domain Root         | Configure antivirus settings for enhanced endpoint protection   |
+| Windows Firewall Settings Policy                | Domain Root         | Enforce firewall rules to control inbound and outbound traffic  |
 
 📸 **GPMC With List of GPOs:**
 
-- 
+![GPMC With List of GPOs](https://github.com/user-attachments/assets/f4e52b53-440b-4efb-b7d9-a11dfdbb719d)
 
-📸 **Link Status to Respective OUs:**
+📸 **Link Status to Domain Root:**
 
-- 
+![Link Status to Domain Root](https://github.com/user-attachments/assets/8419880b-5c0e-4bca-a39e-d3c28cf0d956)
+
+📸 **Link Status to Domain Controller:**
+
+![Link Status to Domain Controller](https://github.com/user-attachments/assets/1b625100-a06a-4aba-a13c-812f6016af31)
+
+📸 **Link Status to Groups OU:**
+
+![Link Status to Groups OU](https://github.com/user-attachments/assets/439629b7-8078-450e-8756-7ec81a192a3c)
+
+📸 **Link Status to Tech OU:**
+
+![Link Status to Tech OU](https://github.com/user-attachments/assets/4f1e9f37-e83f-4353-bea0-a0b7b3e51d34)
+
+📸 **Link Status to IT Computers:**
+
+![Link Status to IT Computers](https://github.com/user-attachments/assets/e8c0540a-aac3-4f7a-acd3-c6c42398c65b)
 
 ---
 
@@ -51,14 +79,10 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 
 - Used **Enforced** flag for domain-wide security GPOs (e.g., Password Policy).
 - Blocked inheritance on specific OUs where necessary to prevent unintended policy application.
-- Used **WMI Filtering** and **Security Filtering** for targeted GPO deployment.
 
 📸 **GPMC Showing GPO Inheritance Settings:**
 
-- 
-
-📸 **Example of WMI or Security Filter Applied:**
-- 
+![GPMC Showing GPO Inheritance Settings for Domain oot](https://github.com/user-attachments/assets/074de9ee-94c7-49cc-99be-05c6fa7346e2)
 
 ---
 
@@ -67,6 +91,8 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 Verified that GPOs were successfully replicated and applied:
 
 ### On Domain Controller:
+- Checked Event Viewer for GroupPolicy logs under Applications and Services Logs > Microsoft > Windows > GroupPolicy.
+- Ran:
 ```powershell
 repadmin /syncall /AdeP
 ```
@@ -74,20 +100,32 @@ repadmin /syncall /AdeP
 ### On Clients:
 - gpupdate /force
 - gpresult /r
-Checked Event Viewer for GroupPolicy logs under Applications and Services Logs > Microsoft > Windows > GroupPolicy.
 
 📸 **Command line results from gpupdate:**
-- 
+
+![IPsec Authentication gpudate](https://github.com/user-attachments/assets/393227ba-3625-4c5f-b801-b0d39e827a24)
+
 
 📸 **Command line results from gpresult:**
-- 
+
+![IPsec Authentication Initial gpresult](https://github.com/user-attachments/assets/1a664265-a1d7-46d0-8069-eb18031e3bc7)
+
+![IPsec Authentication Initial gpresult 1](https://github.com/user-attachments/assets/8bf441ac-1fd7-44b2-b6c3-4f360a0842b0)
+
+![IPsec Authentication Initial gpresult 2](https://github.com/user-attachments/assets/9d70a294-94a0-429e-8a75-6e1a7901ef3b)
+
+![IPsec Authentication Initial gpresult 3](https://github.com/user-attachments/assets/d3360eab-f425-49ef-8418-e9ef4736e4ce)
+
+![IPsec Authentication Initial gpresult 4](https://github.com/user-attachments/assets/826272a0-c008-4ac0-8d40-5e7bac6caca5)
+
+![IPsec Authentication Initial gpresult 5](https://github.com/user-attachments/assets/e5e077ea-f7ac-442d-b2dc-c0c1e57fafba)
 
 📸 **Command Line Results From Repadmin Syncall AdeP:**
 
 ![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
 
 📸 **Event Viewer logs confirming GPO application:**
-- 
+![Event Viewer logs Confirming GPO Application](https://github.com/user-attachments/assets/2b27071d-d616-4de8-bb5d-932dfeff5ae7)
 
 ---
 

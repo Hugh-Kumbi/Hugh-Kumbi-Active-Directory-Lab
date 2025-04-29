@@ -23,11 +23,11 @@ Configured in:
 
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
-| Setting                                 | Value         |
-|-----------------------------------------|---------------|
-| Account lockout duration                | 30 minutes    |
-| Account lockout threshold               | 5 attempts    |
-| Reset account lockout counter after     | 30 minutes    |
+| Setting                                     | Value         |
+|---------------------------------------------|---------------|
+| **Account lockout duration**                | 30 minutes    |
+| **Account lockout threshold**               | 5 attempts    |
+| **Reset account lockout counter after**     | 30 minutes    |
 
 These settings ensure that accounts are temporarily disabled after five failed logon attempts, making it more difficult for attackers to guess passwords.
 

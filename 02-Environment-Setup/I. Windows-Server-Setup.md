@@ -88,20 +88,20 @@ After installation, I performed the following:
 
 ---
 
-## 📦 Summary
+## 📦 6. Summary
 
-| Configuration Item    | Value                             |
-|------------------------|----------------------------------|
-| Server Name            | WIN-D2PQBCI88JQ                  |
-| Static IP              | 192.168.1.10                     |
-| Domain Name            | hughdomain.local                 |
-| DNS Server             | 192.168.1.10 (local)             |
-| AD Role Installed      | Active Directory Domain Services |
-| Domain Controller Type | New Forest                       |
+| Configuration Item         | Value                            |
+|----------------------------|----------------------------------|
+| **Server Name**            | WIN-D2PQBCI88JQ                  |
+| **Static IP**              | 192.168.1.10                     |
+| **Domain Name**            | hughdomain.local                 |
+| **DNS Server**             | 192.168.1.10 (local)             |
+| **AD Role Installed**      | Active Directory Domain Services |
+| **Domain Controller Type** | New Forest                       |
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 7. Screenshot Storage
 
 All screenshots for this section can be found in:  
 📂 [`06-Screenshots/II. Windows-Server-Setup

@@ -15,7 +15,7 @@ I created two new VMs in **VirtualBox** with the following specifications:
 - **Disk:** 50 GB each
 - Network Adapter: **Internal Network** (same as Domain Controller)
 
-📸 **VirtualBox VM Settings for AD-WIN11-02**
+📸 **VirtualBox VM Settings For AD-WIN11-02**
 
 ![VirtualBox VM settings for DESKTOP-2N3JERQ 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
 
@@ -48,11 +48,11 @@ After installation, I did the following on both clients:
 - Set Preferred DNS to point to the Domain Controller: `192.168.1.10`
 - Restarted each machine to apply changes
 
-📸 **Network Settings With Static IP and DNS for `DESKTOP-74HPA3F`**
+📸 **Network Settings With Static IP and DNS For `DESKTOP-74HPA3F`**
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
 
-📸 **Network Settings With Static IP and DNS for `DESKTOP-2N3JERQ`**
+📸 **Network Settings With Static IP and DNS For `DESKTOP-2N3JERQ`**
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 

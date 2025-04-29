@@ -18,7 +18,7 @@ Corrupted trust relationship between the domain controller and the client.
 
 - Removed the affected computer from the domain.
 - Rebooted the system.
-- Rejoined it to the domain using:
+- Rejoined it to the domain by doing the following:
 
    📂 `System Properties > Computer Name > Change > Workgroup → Restart → Rejoin Domain`
 

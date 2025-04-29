@@ -119,7 +119,7 @@ After reboot, I:
 
 ---
 
-## 📦 Summary
+## 📦 7. Summary
 
 | Client Name     | IP Address    | DNS Server     | Domain Joined    |
 |-----------------|---------------|----------------|------------------|
@@ -128,7 +128,7 @@ After reboot, I:
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 8. Screenshot Storage
 
 All screenshots for this section should be placed in:  
 📂 [`06-Screenshots/III. Windows-Client-Setup

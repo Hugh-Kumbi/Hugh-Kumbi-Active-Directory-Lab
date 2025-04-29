@@ -57,6 +57,14 @@ GPO missing or misconfigured to allow RDP access to Domain Admins group.
 
 ![GPO setting Showing Domain Admins Added To RDP Permissions](https://github.com/user-attachments/assets/e31a3b6d-a423-403a-8813-782af0d30eea)
 
+📸 **Regaining RDP access After Adding Domain Admins**
+
+![Regaining RDP access After Adding Domain Admins](https://github.com/user-attachments/assets/d0819674-6fa2-4f42-9274-83b793af8215)
+
+📸 **RDP Access Granted**
+
+![RDP Access Granted](https://github.com/user-attachments/assets/9a1d9aca-b09a-40d5-8618-93f9289db288)
+
 ---
 
 ## 💾 3. USB Device Policy Not Applying
@@ -85,6 +93,10 @@ gpupdate /force
 **📸 Output From `gpresult`Command**
 
 ![Ran gpresult](https://github.com/user-attachments/assets/d2cd5644-473a-43dd-a886-ce6360f7291d)
+
+**📸 USB Restriction Policy Successfully Implemented**
+
+![USB Restriction Policy Successfully Implemented](https://github.com/user-attachments/assets/d2b6e6fe-30a8-45a5-8b93-998aef634777)
 
 ---
 

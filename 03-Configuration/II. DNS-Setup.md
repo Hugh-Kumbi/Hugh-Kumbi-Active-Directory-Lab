@@ -72,14 +72,14 @@ Verified PTR records for:
 
 To ensure everything worked:
 
-### On the Domain Controller:
+**On the Domain Controller:**
 - Ran `nslookup` and `ping` commands for hostname and IP resolution  
 - Verified that domain services could be located via:
 
   ```powershell
   nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
   ```
-  📸 **Verified That Domain Services Could Be Located**
+📸 **Verified That Domain Services Could Be Located**
 
 ![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
 
@@ -95,7 +95,7 @@ To ensure everything worked:
 
 ![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/d65ecde3-ce87-4e26-ad71-4946ab0d98c0)
 
-### On Client Machines:
+**On Client Machines:**
 - Used `nslookup` to confirm the DNS server `(192.168.1.10)` was responding
 - Ran `gpupdate /force` and `gpresult /r` to check successful GPO delivery
 
@@ -114,5 +114,6 @@ To ensure everything worked:
 ---
 
 ## 📁 Screenshot Storage
+
 All screenshots for this section should be placed in:
 📂 [`06-Screenshots/DNS-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/README.md)

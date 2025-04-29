@@ -11,7 +11,7 @@ This document explains how I configured **drive mappings via Group Policy** to p
 
 📸 **Group Policy Management Console Showing Drive Mappings Policy Under The Tech OU**
 
-![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
+![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
 
 ---
 

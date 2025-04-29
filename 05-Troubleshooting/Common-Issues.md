@@ -20,9 +20,7 @@ Corrupted trust relationship between the domain controller and the client.
 - Rebooted the system.
 - Rejoined it to the domain using:
 
-  ```bash
-  System Properties > Computer Name > Change > Workgroup → Restart → Rejoin Domain
-  ```
+   📂 `System Properties > Computer Name > Change > Workgroup → Restart → Rejoin Domain`
 
 📸 **Error Message Showing Trust Relationship Failure**
 

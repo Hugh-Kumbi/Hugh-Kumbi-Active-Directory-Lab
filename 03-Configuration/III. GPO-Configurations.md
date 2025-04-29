@@ -86,7 +86,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 
 ## 🔁 3. GPO Enforcement & Inheritance
 
-- Used **Enforced** flag for domain-wide security GPOs (e.g., Password Policy).
+- Used **Enforced** flag for domain-wide security GPOs.
 - Blocked inheritance on specific OUs where necessary to prevent unintended policy application.
 
 📸 **GPMC Showing GPO Inheritance Settings:**

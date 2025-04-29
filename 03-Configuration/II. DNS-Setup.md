@@ -113,7 +113,7 @@ To ensure everything worked:
 
 ---
 
-## 📁 Screenshot Storage
+## 📁 5. Screenshot Storage
 
 All screenshots for this section should be placed in:
 📂 [`06-Screenshots/DNS-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/README.md)

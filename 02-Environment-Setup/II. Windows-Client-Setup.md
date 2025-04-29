@@ -121,10 +121,10 @@ After reboot, I:
 
 ## 📦 7. Summary
 
-| Client Name     | IP Address    | DNS Server     | Domain Joined    |
-|-----------------|---------------|----------------|------------------|
-| DESKTOP-74HPA3F | 192.168.1.101 | 192.168.1.10   | hughdomain.local |
-| DESKTOP-2N3JERQ | 192.168.1.12  | 192.168.1.10   | hughdomain.local |
+| Client Name         | IP Address    | DNS Server     | Domain Joined    |
+|---------------------|---------------|----------------|------------------|
+| **DESKTOP-74HPA3F** | 192.168.1.101 | 192.168.1.10   | hughdomain.local |
+| **DESKTOP-2N3JERQ** | 192.168.1.12  | 192.168.1.10   | hughdomain.local |
 
 ---
 

@@ -45,9 +45,8 @@ GPO missing or misconfigured to allow RDP access to Domain Admins group.
 
 - Added `Domain Admins` to:
 
-```pgsql
-Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment > Allow log on through Remote Desktop Services
-```
+   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment > Allow log on through Remote Desktop Services`
+
 - Ran `gpupdate /force`.
 
 📸 **RDP Access Denied**

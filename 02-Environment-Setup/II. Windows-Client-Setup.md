@@ -62,7 +62,7 @@ After installation, I did the following on both clients:
 
 On each client:
 
-1. Opened **Settings > System > About > Rename this PC (Advanced)**
+1. Opened **📂 `Settings > System > About > Rename this PC (Advanced)`**
 2. Selected **Domain Join**, entered `hughdomain.local`
 3. Supplied credentials for a domain admin account
 4. Restarted the machine when prompted

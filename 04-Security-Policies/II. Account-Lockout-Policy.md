@@ -57,7 +57,7 @@ These configurations align with enterprise security policies and common audit st
 - Verified the account was locked.
 - Checked Event Viewer logs for lockout entries under:
 
-📂 `Event Viewer > Windows Logs > Security`
+  📂 `Event Viewer > Windows Logs > Security`
 
 - Used `net user TechUser2` to confirm lockout status.
 

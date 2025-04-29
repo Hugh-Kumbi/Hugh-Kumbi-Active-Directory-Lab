@@ -100,7 +100,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 Verified that GPOs were successfully replicated and applied:
 
 ### On Domain Controller:
-- Checked Event Viewer for GroupPolicy logs under Applications and Services Logs > Microsoft > Windows > GroupPolicy.
+- Checked Event Viewer for GroupPolicy logs under 📂 `Applications and Services Logs > Microsoft > Windows > GroupPolicy`.
 - Ran:
 ```powershell
 repadmin /syncall /AdeP

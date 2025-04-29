@@ -44,6 +44,8 @@ In this section, I configured logon scripts using Group Policy to automate speci
 
 ![Logon Script Contents In PowerShell ISE 3](https://github.com/user-attachments/assets/2747e6ae-6cb7-4c43-8b80-b22bb0a841ee)
 
+📸 **Logoff Script Contents in PowerShell ISE**
+
 ![Logoff Script Contents In PowerShell ISE 1](https://github.com/user-attachments/assets/fc68c379-de05-4852-9b17-432a631eec58)
 
 ![Logoff Script Contents In PowerShell ISE 2](https://github.com/user-attachments/assets/d5bb6c78-899c-47d3-930b-aa88cff4f623)

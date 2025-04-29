@@ -7,10 +7,11 @@ In this section, I configured logon scripts using Group Policy to automate speci
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Logon Scripts Policy  
-- **Linked To:** The Organizational Unit (OU) containing domain users
+- **Linked To:** Tech OU
 
 📸 **Screenshot:**
-![Group Policy Management Console Showing Logon Scripts Policy](https://github.com/user-attachments/assets/bd046d0d-e96c-4ada-9417-0faf223f2f64)
+
+![Link Status to Tech OU](https://github.com/user-attachments/assets/27bcd5a4-20a0-441d-8fdb-bc0ae5588bfb)
 
 ---
 

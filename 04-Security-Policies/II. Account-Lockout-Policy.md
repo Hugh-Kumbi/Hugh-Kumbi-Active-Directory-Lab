@@ -21,7 +21,7 @@ Created and applied via the **Group Policy Management Console (GPMC)**, this GPO
 
 Configured in:
 
-  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
+    📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 | Setting                                 | Value         |
 |-----------------------------------------|---------------|

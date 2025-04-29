@@ -39,7 +39,7 @@ I created two new VMs in **VirtualBox** with the following specifications:
 
 After installation, I did the following on both clients:
 
-- Kept machine names as:
+- Kept host machine names as:
   - `DESKTOP-74HPA3F`
   - `DESKTOP-2N3JERQ`
 - Set static IP addresses and DNS:

@@ -71,12 +71,12 @@ GPO not applied properly or user logged in before policy propagated.
 
 Forced GPO update:
 
-```bash
+```
 gpupdate /force
 ```
-- Verified policy scope and security filtering.
+- Verified policy scope and checked security filtering.
 
-- Ensured WMI filtering (if used) was accurate.
+- Ensured WMI filtering was not used.
 
 📸 **`gpupdate` Command Output For USB Restriction**
 
@@ -100,9 +100,8 @@ Users were added to a GPO with the **"Deny log on locally"** setting.
 
 Removed `Domain Users` group from:
 
-```pgsql
-Computer Configuration > Windows Settings > Security Settings > Local Policies > User Rights Assignment > Deny log on locally
-```
+   📂 `Computer Configuration > Windows Settings > Security Settings > Local Policies > User Rights Assignment > Deny log on locally`
+
 - Rebooted affected machines.
 
 **📸 GPO Showing Deny Log On Locally Setting**

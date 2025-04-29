@@ -23,14 +23,14 @@ The following settings were configured under:
 
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
-| Setting                               | Value                |
-|---------------------------------------|----------------------|
-| Enforce password history              | 24 passwords         |
-| Maximum password age                  | 90 days              |
-| Minimum password age                  | 1 day                |
-| Minimum password length               | 12 characters        |
-| Password must meet complexity         | Enabled              |
-| Store passwords using reversible encryption | Disabled         |
+| Setting                                         | Value                |
+|-------------------------------------------------|----------------------|
+| **Enforce password history**                    | 24 passwords         |
+| **Maximum password age**                        | 90 days              |
+| **Minimum password age**                        | 1 day                |
+| **Minimum password length**                     | 12 characters        |
+| **Password must meet complexity**               | Enabled              |
+| **Store passwords using reversible encryption** | Disabled             |
 
 These settings ensure users cannot reuse old passwords frequently, must use complex and lengthy passwords, and cannot store passwords insecurely.
 

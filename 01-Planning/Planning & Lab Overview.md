@@ -22,13 +22,13 @@ The diagram below illustrates the network structure, including the domain contro
 
 ## 🛠️ 3. Lab Components
 
-| Component | Details |
-| :- | :- |
-| Domain | hughdomain.local |
-| Domain Controller | Windows Server 2025 |
-| Clients | Windows 11 Pro (x2) |
-| Virtualization | VirtualBox |
-| Network Type | Internal Network (VirtualBox) |
+| Component             | Details                       |
+|-----------------------|-------------------------------|
+| **Domain**            | hughdomain.local              |
+| **Domain Controller** | Windows Server 2025           |
+| **Clients**           | Windows 11 Pro (x2)           |
+| **Virtualization**    | VirtualBox                    |
+| **Network Type**      | Internal Network (VirtualBox) |
 
 ## ✅ 4. Pre-Requisites
 
@@ -49,7 +49,7 @@ Before building the lab, I ensured the following were in place:
 
 ---
 
-## 📁 Screenshot Storage
+## 6. 📁 Screenshot Storage
 
 All screenshots for this section should be placed in:  
 📂 [`06-Screenshots/I. Planning/Lab Architecture.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/I.%20Planning/README.md)

@@ -7,9 +7,10 @@ This document explains how I configured **drive mappings via Group Policy** to p
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Drive Mappings Policy  
-- **Linked To:** hughdomain.local
+- **Linked To:** Tech OU
 
-📸 **Screenshot:**
+📸 **Group Policy Management Console Showing Drive Mappings Policy Under The Tech OU:**
+
 ![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
 
 ---
@@ -18,7 +19,7 @@ This document explains how I configured **drive mappings via Group Policy** to p
 
 I used the **Group Policy Preferences** feature for drive mappings:
 
-📂 `User Configuration > Preferences > Windows Settings > Drive Maps`
+  📂 `User Configuration > Preferences > Windows Settings > Drive Maps`
 
 ### ➕ New Mapped Drive:
 
@@ -30,8 +31,11 @@ I used the **Group Policy Preferences** feature for drive mappings:
 - **Use:** Update  
 - **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the Tech Users Group
 
-📸 **Screenshot:**
+📸 **Drive Maps GPP Window**
+
 ![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)
+
+📸 **Shared Folder Path and Drive Letter Configurations**
 
 ![Shared Folder Path and Drive Letter Configuration 10](https://github.com/user-attachments/assets/c0f01b56-6415-46b5-a765-f050936565ca)
 
@@ -44,6 +48,8 @@ I used the **Group Policy Preferences** feature for drive mappings:
 ![Shared Folder Path and Drive Letter Configuration 3](https://github.com/user-attachments/assets/44ebbfd0-9476-42fe-9005-7d99f1fc4d57)
 
 ![Shared Folder Path and Drive Letter Configuration 31](https://github.com/user-attachments/assets/3cc04899-fd49-4407-aa01-0a1df9718434)
+
+📸 **Item-Level Targeting Condition**
 
 ![Item-Level Targeting Condition](https://github.com/user-attachments/assets/e1c1f6e3-1671-4138-8e4a-2f9e27de2fac)
 
@@ -62,13 +68,15 @@ This configuration eliminated the need for manual drive mapping and allowed bett
 ## 🧪 4. Testing and Validation
 
 To test the setup:
-
 1. Logged in as a domain user from the targeted group.
 2. Confirmed that the **Z:** drive appeared under “This PC”.
 3. Verified access to the contents in the shared folder.
 
-📸 **Screenshot:**
+📸 **File Explorer Showing The Mapped Z Drive**
+
 ![File Explorer Showing The Mapped Z Drive (2)](https://github.com/user-attachments/assets/add0c1c1-4ff5-4a42-8265-bba1e4385648)
+
+📸 **Properties Of The Mapped Drive**
 
 ![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/9287615a-91f1-4dfb-aa37-ba44e053f333)
 

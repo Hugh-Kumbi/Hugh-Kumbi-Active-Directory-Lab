@@ -30,7 +30,7 @@ Configured under:
 
 These settings restrict local administrators from accessing systems remotely and enforce the use of domain-based administrative rights.
 
-📸 **Group Policy Editor Window Showing Local Administrator Restrictions Path:**
+📸 **Group Policy Editor Window Showing Local Administrator Restrictions Path**
 
 ![Group Policy Editor Window Showing Local Administrator Restrictions Path](https://github.com/user-attachments/assets/6dcc0043-1f3a-40e2-a156-29e8b427d46a)
 
@@ -50,7 +50,7 @@ These settings restrict local administrators from accessing systems remotely and
 - Tested remote access restrictions by attempting to log in with local administrator credentials.
 - Verified that only domain admins had the ability to perform administrative tasks.
 
-📸 **Remote Desktop Access With Local Admin Credentials Showing Test Denied:**
+📸 **Remote Desktop Access With Local Admin Credentials Showing Test Denied**
 
 ![Remote Desktop Access With Local Admin Credentials Showing Test Denied](https://github.com/user-attachments/assets/8393a084-ff77-4a2a-9b7f-903c64103cd8)
 
@@ -59,5 +59,6 @@ These settings restrict local administrators from accessing systems remotely and
 ---
 
 ## 📁 5. Screenshot Storage
+
 All screenshots related to this section should be stored in:
 📂 [`06-Screenshots/Local-Administrator-Restrictions.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/README.md)

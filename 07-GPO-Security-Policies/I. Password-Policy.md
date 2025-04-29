@@ -1,7 +1,5 @@
 # 🔐 Password Policy GPO
 
----
-
 ## 🎯 1. Objective
 
 To enhance account security by enforcing strong password policies across all domain users.

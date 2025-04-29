@@ -23,6 +23,7 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
   - `Marketing`
 
 📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy:**
+
 ![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](https://github.com/user-attachments/assets/f58420e2-e67f-497b-9862-ce4a8be2a78a)
 
 ---

@@ -42,23 +42,23 @@ The following settings were configured under:
 - **Policy:** Microsoft Network Server: Digitally sign communications (always)  
 - **Setting:** **Enabled**
 
-📸 **LAN Manager Authentication Level**
+📸 **LAN Manager Authentication Level Properties**
 
 ![LAN Manager Authentication Level](https://github.com/user-attachments/assets/26a42542-6ab3-448c-8248-74c736257205)
 
-📸 **Minimum Session Security for NTLM SSP**
+📸 **Minimum Session Security for NTLM SSP Properties**
 
 ![Minimum Session Security for NTLM SSP](https://github.com/user-attachments/assets/8daeb0ed-c941-4f62-90e2-2f111f4645be)
 
-📸 **Minimum Session Security for NTLM SSP Servers**
+📸 **Minimum Session Security for NTLM SSP Servers Properties**
 
 ![Minimum Session Security for NTLM SSP Servers](https://github.com/user-attachments/assets/f256db18-6057-4692-959c-1afaa90deedd)
 
-📸 **Digitally Sign Communications Clients**
+📸 **Digitally Sign Communications Clients Properties**
 
 ![Digitally Sign Communications Clients](https://github.com/user-attachments/assets/f1dc9677-57a4-4d95-82bd-36d658f318cd)
 
-📸 **Digitally Sign Communications Server**
+📸 **Digitally Sign Communications Server Properties**
 
 ![Digitally Sign Communications Server](https://github.com/user-attachments/assets/484c82dc-65a0-4941-8622-e679e3fee8f3)
 

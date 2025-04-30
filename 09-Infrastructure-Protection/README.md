@@ -38,7 +38,7 @@ I configured LAN Manager authentication and session security to enforce strong e
 
 📸 **Network Security Policy Linked to Domain**
 
-![Network Security GPO](https://github.com/user-attachments/assets/e1e7f036-d389-4e8f-8c4d-458985658b93)
+![Network Security Policy Linked to Domain](https://github.com/user-attachments/assets/3251539c-cafe-4fbf-a1c2-3de1250c6382)
 
 ---
 

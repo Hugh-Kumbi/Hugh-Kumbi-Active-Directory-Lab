@@ -9,11 +9,11 @@ In this section, I implemented secure network communication policies across all 
 - **GPO Name:** Network Security Policy  
 - **Linked To:** Domain
 
-📸 **[Network Security Policy Linked to Domain**  
+📸 **Network Security Policy Linked to Domain**  
 
 ![Network Security Policy GPO](https://github.com/user-attachments/assets/95ee90ce-1338-4a1d-aba9-5f901aedd2df)
 
-📸 **[Network Security Configuration**  
+📸 **Network Security Configuration**  
  
 ![secpol msc Network Security Configuration](https://github.com/user-attachments/assets/c918231b-45d4-4d32-8b83-939924209412)
 

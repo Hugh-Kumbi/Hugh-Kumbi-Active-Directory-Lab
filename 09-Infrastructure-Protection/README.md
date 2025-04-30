@@ -1,8 +1,8 @@
-# 🔐 Infrastructure Protection
+# 🛡️ Infrastructure Protection
 
-## 🎯 Objective
+## 📘 Overview
 
-To enhance domain-wide security by applying firewall rules, configuring secure communication protocols, and disabling unnecessary services through Group Policy.
+This section of the Active Directory Lab focuses on enhancing the security posture of the domain environment. It outlines the implementation of firewall rules, network security configurations, and the disabling of unnecessary services through Group Policy Objects (GPOs). These measures aim to reduce the attack surface and enforce best practices within the Active Directory infrastructure.
 
 ---
 
@@ -71,13 +71,13 @@ To reduce the attack surface, I disabled several services not required in this l
 
 ## 📂 5. Files Included
 
-I. Windows-Firewall.md: Detailed steps and configurations for implementing Windows Firewall rules via GPO.
+`I. Windows-Firewall.md`: Detailed steps and configurations for implementing Windows Firewall rules via GPO.
 
-II. Network-Security.md: Instructions for setting up network security protocols and configurations.
+`II. Network-Security.md`: Instructions for setting up network security protocols and configurations.
 
-III. Disable-Services.md: Guidelines for identifying and disabling unnecessary services to harden the domain environment.
+`III. Disable-Services.md`: Guidelines for identifying and disabling unnecessary services to harden the domain environment.
 
-README.md: This documentation file summarizing the configurations and their purposes.
+`README.md`: This documentation file summarizing the configurations and their purposes.
 
 ---
 

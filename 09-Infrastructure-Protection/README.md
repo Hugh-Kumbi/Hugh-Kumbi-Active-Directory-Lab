@@ -69,7 +69,41 @@ To reduce the attack surface, I disabled several services not required in this l
 
 ---
 
-## 🔁 5. Lessons Learned
+## 📂 5. Files Included
+
+I. Windows-Firewall.md: Detailed steps and configurations for implementing Windows Firewall rules via GPO.
+
+II. Network-Security.md: Instructions for setting up network security protocols and configurations.
+
+III. Disable-Services.md: Guidelines for identifying and disabling unnecessary services to harden the domain environment.
+
+README.md: This documentation file summarizing the configurations and their purposes.
+
+---
+
+## ✅ 6. Outcome
+
+By applying these configurations:
+
+Enhanced Security: Strengthened the domain's defense against unauthorized access and potential attacks.
+
+Standardization: Ensured consistent security settings across all domain-joined systems.
+
+Reduced Attack Surface: Minimized potential vulnerabilities by disabling unnecessary services.
+
+---
+
+## 🔁 7. Lessons Learned
 
 - Infrastructure protection must be proactive and layered.
 - Group Policy is a powerful tool for enforcing uniform, secure configurations across multiple endpoints.
+
+---
+
+## 📚 8. References
+
+[Active Directory Security Best Practices](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
+
+[Group Policy for Beginners](https://medium.com/@theauzman/beginners-guide-to-group-policy-5c2769254c5c)
+
+[Security Compliance Toolkit](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10)

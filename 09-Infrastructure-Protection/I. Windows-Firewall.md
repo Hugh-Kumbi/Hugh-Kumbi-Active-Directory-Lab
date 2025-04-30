@@ -226,22 +226,22 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 ### 🛡️ Additional Security Rules
 
-__Block NetBIOS:__
+📸 __Block NetBIOS:__
   * Blocks outbound TCP ports 137–139
 
 ![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
 
-__Block NetBIOS:__
+📸 __Block NetBIOS:__
   * Blocks outbound UDP ports 137–139
 
 ![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
 
-__Block LLMNR:__
+📸 __Block LLMNR:__
   * Blocks outbound UDP port 5355
 
 ![Block LLMNR Properties Window](https://github.com/user-attachments/assets/d938581f-bab3-4599-9d83-53c5b24ea9ef)
 
-__Block mDNS:__ 
+📸 __Block mDNS:__ 
   * Blocks outbound UDP port 5353
 
 ![Block mDNS Properties Window](https://github.com/user-attachments/assets/cdc0290f-ec43-41b8-a1b7-744d02721cc3)
@@ -298,7 +298,9 @@ __Block mDNS:__
 
 I closed the Group Policy Management Editor
 - On each client computer, I ran the following command:
+
   `gpupdate /force`
+  
 - Then I restarted the clients to ensure the policy was fully applied
 - I tested connectivity between the domain controller and the clients
 
@@ -311,7 +313,9 @@ I closed the Group Policy Management Editor
 ### 🧪 5. Testing Firewall Behavior
 
 - On a client computer, I opened Command Prompt as administrator and ran:
+
   `gpresult /r`
+  
 - To verify firewall rules were active, I ran:  
   `netsh advfirewall show allprofiles`
 

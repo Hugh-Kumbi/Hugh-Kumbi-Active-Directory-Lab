@@ -6,7 +6,7 @@ To enhance domain-wide security by applying firewall rules, configuring secure c
 
 ---
 
-## 🛡️ Windows Firewall Configuration
+## 🛡️ 1. Windows Firewall Configuration
 
 ### Description
 
@@ -24,7 +24,7 @@ I enforced strict firewall rules on all domain-joined systems to protect the int
 
 ---
 
-## 🌐 Network Security Settings
+## 🌐 2. Network Security Settings
 
 ### Description
 
@@ -42,7 +42,7 @@ I configured LAN Manager authentication and session security to enforce strong e
 
 ---
 
-## 🛠️ Disabled Unnecessary Services
+## 🛠️ 3. Disabled Unnecessary Services
 
 ### Description
 
@@ -61,7 +61,7 @@ To reduce the attack surface, I disabled several services not required in this l
 
 ---
 
-## ✅ Verification & Testing
+## ✅ 4. Verification & Testing
 
 - Verified firewall rules with `Windows Defender Firewall with Advanced Security`.
 - Used `telnet` and `nmap` to scan for disabled services.
@@ -69,7 +69,7 @@ To reduce the attack surface, I disabled several services not required in this l
 
 ---
 
-## 🔁 Lessons Learned
+## 🔁 5. Lessons Learned
 
 - Infrastructure protection must be proactive and layered.
 - Group Policy is a powerful tool for enforcing uniform, secure configurations across multiple endpoints.

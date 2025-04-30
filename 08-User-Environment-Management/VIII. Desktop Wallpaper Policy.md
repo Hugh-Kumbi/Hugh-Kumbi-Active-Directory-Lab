@@ -33,7 +33,7 @@ To ensure a consistent and professional desktop environment across all domain us
 
 ---
 
-## 🖼️ Suggested Screenshots to Include
+## 🖼️ Screenshots
 
 - 📷 `GPMC - Desktop Wallpaper Policy Creation`  
   _Screenshot of GPMC with the new policy being created._

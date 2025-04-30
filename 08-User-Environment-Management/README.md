@@ -137,7 +137,7 @@ Deployed scripts to execute during user logon and logoff events, automating rout
 
   - Displays a popup notification indicating the logon script is running
   - Records logon events to a centralized log file
-  - Maps persistent Z: drive to \\WIN-D2PQBCI88JQ\SharedDocs
+  - Maps persistent Z: drive to `\\WIN-D2PQBCI88JQ\SharedDocs`
   - Includes error handling and logging for drive mapping failures
   - Creates personalized folders
   - Copies user-specific Outlook signatures from a network template location to the local Signatures folder

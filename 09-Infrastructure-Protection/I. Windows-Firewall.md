@@ -120,6 +120,8 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Rules Overview](https://github.com/user-attachments/assets/8553cc9b-fd15-45f3-b122-7ca9832d52b1)
 
+---
+
 ### ⛔ 3. Custom Firewall Outbound Firewall Blocking Rules
 
 To enhance security, I created outbound rules to block potentially unsafe or legacy protocols.
@@ -247,6 +249,8 @@ __Block mDNS:__
 📸 **Overview of all Newly Added Outbound Rules**
 
 ![Outbound rules](https://github.com/user-attachments/assets/81faafa6-8dd6-4eab-89b3-e931f0370630)
+
+---
 
 ## 4. Configured the following profiles:
 

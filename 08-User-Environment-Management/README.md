@@ -105,9 +105,11 @@ I configured a GPO to automatically map specific network drives based on a user'
   - Applied item-level targeting to assign drives based on group membership or OU.
  
  📸 **Item-Level Targeting Condition For Shares**
+ 
   ![Item-Level Targeting Condition For Shares](https://github.com/user-attachments/assets/242ec8fa-c629-4e63-8d75-a196036e779d)
   
  📸 **Item-Level Targeting Condition For DepartmentShares**
+ 
   ![Item-Level Targeting Condition For DepartmentShares](https://github.com/user-attachments/assets/e2d2c8e9-0c91-4176-a859-3916a49d4fe7)
 
 Configuration details are provided in the `III. Drive-Mappings-Settings.md` and IV. `Drive-Mappings-Config.md` files.

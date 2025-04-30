@@ -11,7 +11,7 @@ This document outlines how I configured **logon-loggoff scripts via Group Policy
 
 📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to Tech OU**
 
-![Link Status to Tech OU](https://github.com/user-attachments/assets/27bcd5a4-20a0-441d-8fdb-bc0ae5588bfb)
+![Logon-Logoff Scripts Policy Linked to Tech OU](https://github.com/user-attachments/assets/b62d45f3-c5eb-429f-a50e-21a47bfc76f7)
 
 ---
 

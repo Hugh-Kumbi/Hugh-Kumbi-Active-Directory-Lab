@@ -8,7 +8,7 @@ This section of the Active Directory Lab focuses on enhancing the security postu
 
 ## 🔥 1. Windows Firewall Configuration
 
-### Description
+### 📝 Description
 
 I enforced strict firewall rules on all domain-joined systems to protect the internal network from unauthorized access and to control inbound and outbound traffic.
 
@@ -26,7 +26,7 @@ I enforced strict firewall rules on all domain-joined systems to protect the int
 
 ## 🌐 2. Network Security Settings
 
-### Description
+### 📝 Description
 
 I configured LAN Manager authentication and session security to enforce strong encryption and prevent legacy protocol use.
 
@@ -44,7 +44,7 @@ I configured LAN Manager authentication and session security to enforce strong e
 
 ## 🛠️ 3. Disabled Unnecessary Services
 
-### Description
+### 📝 Description
 
 To reduce the attack surface, I disabled several services not required in this lab environment.
 

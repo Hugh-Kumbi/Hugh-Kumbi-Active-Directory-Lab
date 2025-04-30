@@ -16,49 +16,49 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 
 - **Redirected Folders:**
 
-  - **Desktop:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Desktop
+  - **Desktop:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Desktop`
  
   📸 **Desktop Folder Redirection Configuration**
   
   ![Desktop Folder Redirection Configuration](https://github.com/user-attachments/assets/d9ddcae3-e705-4c23-9694-12110d135ccc)
 
-  - **Documents:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Documents
+  - **Documents:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Documents`
  
   📸 **Documents Folder Redirection Configuration**
 
   ![Documents Folder Redirection Configuration](https://github.com/user-attachments/assets/3f58f036-f245-4586-9599-fb1bee9ab0f9)
 
-  - **Pictures:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Pictures
+  - **Pictures:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Pictures`
  
   📸 **Pictures Folder Redirection Configuration**
 
   ![Pictures Folder Redirection Configuration](https://github.com/user-attachments/assets/0f8b799f-f6df-475b-9af3-ff0208fb1176)
 
-  - **Favourites:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Favourites
+  - **Favourites:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Favourites`
  
   📸 **Favourites Folder Redirection Configuration**
 
   ![Favourites Folder Redirection Configuration](https://github.com/user-attachments/assets/1a7b3cd6-8a86-4ce9-a1e2-e11458b6e55a)
 
-  - **Contacts:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Contacts
+  - **Contacts:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Contacts`
   
   📸 **Contacts Folder Redirection Configuration**
 
   ![Contacts Folder Redirection Configuration](https://github.com/user-attachments/assets/df8050c1-c67a-43fc-b056-ccab0af020f3)
 
-   - **Downloads:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Downloads 
+   - **Downloads:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Downloads` 
  
   📸 **Downloads Folder Redirection Configuration**
 
   ![Downloads Folder Redirection Configuration](https://github.com/user-attachments/assets/aa2aa11a-d1b8-4269-8536-be625fcdd8ed)
 
-  - **Links:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Links
+  - **Links:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Links`
  
   📸 **Links Folder Redirection Configuration**
 
   ![Links Folder Redirection Configuration](https://github.com/user-attachments/assets/6ee5b31c-ae90-4822-949f-317fbbb50e62)
  
-  - **Searches:** Redirected to \\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Searches
+  - **Searches:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Searches`
  
   📸 **Searches Folder Redirection Configuration**
 

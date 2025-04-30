@@ -11,7 +11,7 @@ In this section, I implemented secure network communication policies across all 
 
 📸 **Network Security Policy Linked to Domain**  
 
-![Network Security Policy GPO](https://github.com/user-attachments/assets/95ee90ce-1338-4a1d-aba9-5f901aedd2df)
+![Network Security Policy Linked to Domain](https://github.com/user-attachments/assets/0e56aa70-3962-4314-b952-e8a174b1c45e)
 
 📸 **Network Security Configuration**  
  

@@ -67,8 +67,6 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 - **Settings:**
   - Enabled offline files for redirected folders to allow access during network outages.
   - Configured redirection to follow the user across different computers within the domain.
-
-These settings are detailed in the `I. Folder-Redirection Settings.md` and `II. Folder-Redirection Properties.md` files.
   
 ### Paths Redirected
 
@@ -78,6 +76,8 @@ These settings are detailed in the `I. Folder-Redirection Settings.md` and `II. 
 📸 **Group Policy Management Console Showing The Folder Redirection Policy Link to Domain**
 
 ![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/ba7969ae-be46-466e-89c1-5d863c0d4e45)
+
+These settings are detailed in the `I. Folder-Redirection Settings.md` and `II. Folder-Redirection Properties.md` files.
 
 ---
 
@@ -113,8 +113,6 @@ I configured a GPO to automatically map specific network drives based on a user'
  
   ![Item-Level Targeting Condition For DepartmentShares](https://github.com/user-attachments/assets/e2d2c8e9-0c91-4176-a859-3916a49d4fe7)
 
-Configuration details are provided in the `III. Drive-Mappings-Settings.md` and IV. `Drive-Mappings-Config.md` files.
-
 📸 **Group Policy Management Console Showing Drive Mappings Policy Under Groups OU**
 
 ![Map Network Drives Policy Linked to Groups OU](https://github.com/user-attachments/assets/fec1cc06-b99f-443c-bba3-4c3292cb89ee)
@@ -122,6 +120,8 @@ Configuration details are provided in the `III. Drive-Mappings-Settings.md` and 
 📸 **Group Policy Management Console Showing Drive Mappings Policy Under Tech OU**
 
 ![Drive Mappings Policy Linked to Tech OU](https://github.com/user-attachments/assets/20bba512-9c75-4c79-b9c2-4e1cc370e316)
+
+Configuration details are provided in the `III. Drive-Mappings-Settings.md` and IV. `Drive-Mappings-Config.md` files.
 
 ---
 
@@ -176,7 +176,8 @@ Implemented scripts that run during system startup and shutdown to perform maint
   - Captures currently logged-in users
   - Detects pending Windows Updates requiring reboot
   - Begins disk cleanup using built-in VolumeCaches
-These scripts are managed through GPO and documented in the VII. Startup-Shutdown Scripts.md file.
+
+These scripts are managed through GPO and documented in the `VII. Startup-Shutdown Scripts.md` file.
 
 ---
 
@@ -216,6 +217,8 @@ I enforced a corporate desktop background to maintain a consistent visual identi
 📸 **Desktop Wallpaper Policy Implemented Successfully**
 
 ![Changed Wall Paper](https://github.com/user-attachments/assets/20190256-7d77-4f36-b1fd-a8ca3c32fb07)
+
+Configuration details are provided in the `VIII. Desktop Wallpaper Policy.md`.
 
 ---
 
@@ -262,6 +265,8 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 
 ![Control Panel Restrictions Policy 2](https://github.com/user-attachments/assets/18760da3-914e-43cb-8f81-afafe8ffe9db)
 
+Configuration details are provided in the `IX. Control Panel Restrictions Policy.md`.
+
 ---
 
 ## ✅ 7. Verification
@@ -281,6 +286,8 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 - `V. Logon-Logoff Scripts-Config.md`: Configuration of logon and logoff scripts.
 - `VI. Logon-Logoff Scripts-Desktop.md`: Scripts applied to the desktop environment.
 - `VII. Startup-Shutdown Scripts.md`: Scripts executed during system startup and shutdown.
+- `VIII. Desktop Wallpaper Policy.md`: Enforced a corporate desktop background.
+- `IX. Control Panel Restrictions Policy.md`: Configured restricted access to the Control Panel and selected system settings.
 - `README.md`: This documentation file summarizing the configurations and their purposes.
 
 ## ✅ 9. Outcome

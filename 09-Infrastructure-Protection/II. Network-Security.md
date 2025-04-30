@@ -9,8 +9,11 @@ In this section, I implemented secure network communication policies across all 
 - **GPO Name:** Network Security Policy  
 - **Linked To:** Domain
 
-📸 **Screenshot:**  
+📸 **[Network Security Policy Linked to Domain**  
+
 ![Network Security Policy GPO](https://github.com/user-attachments/assets/95ee90ce-1338-4a1d-aba9-5f901aedd2df)
+
+📸 **[Network Security Configuration**  
  
 ![secpol msc Network Security Configuration](https://github.com/user-attachments/assets/c918231b-45d4-4d32-8b83-939924209412)
 
@@ -19,7 +22,7 @@ In this section, I implemented secure network communication policies across all 
 ## 🔐 2. Security Settings Applied
 
 The following settings were configured under:  
-📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
+ 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
 ### ✅ LAN Manager Authentication Level
 - **Policy:** Network Security: LAN Manager authentication level  
@@ -39,14 +42,23 @@ The following settings were configured under:
 - **Policy:** Microsoft Network Server: Digitally sign communications (always)  
 - **Setting:** **Enabled**
 
-📸 **Screenshot:**
+📸 **LAN Manager Authentication Level**
+
 ![LAN Manager Authentication Level](https://github.com/user-attachments/assets/26a42542-6ab3-448c-8248-74c736257205)
+
+📸 **Minimum Session Security for NTLM SSP**
 
 ![Minimum Session Security for NTLM SSP](https://github.com/user-attachments/assets/8daeb0ed-c941-4f62-90e2-2f111f4645be)
 
+📸 **Minimum Session Security for NTLM SSP Servers**
+
 ![Minimum Session Security for NTLM SSP Servers](https://github.com/user-attachments/assets/f256db18-6057-4692-959c-1afaa90deedd)
 
+📸 **Digitally Sign Communications Clients**
+
 ![Digitally Sign Communications Clients](https://github.com/user-attachments/assets/f1dc9677-57a4-4d95-82bd-36d658f318cd)
+
+📸 **Digitally Sign Communications Server**
 
 ![Digitally Sign Communications Server](https://github.com/user-attachments/assets/484c82dc-65a0-4941-8622-e679e3fee8f3)
 
@@ -58,7 +70,8 @@ The following settings were configured under:
 - Used `secpol.msc` and `gpresult /h` to verify effective policy settings.
 - Attempted legacy connections to confirm they were blocked or upgraded to NTLMv2.
 
-📸 **Screenshot:**
+📸 **Command Line Showing `gpresult` For The Network Security Configuration**
+
 ![gpresult Network Security Configuration](https://github.com/user-attachments/assets/bfb982a2-1933-49c8-b224-4295b6a6c69e)
 
 ---

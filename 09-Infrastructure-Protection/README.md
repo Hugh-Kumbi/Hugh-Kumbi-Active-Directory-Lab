@@ -104,6 +104,6 @@ Reduced Attack Surface: Minimized potential vulnerabilities by disabling unneces
 
 [Active Directory Security Best Practices](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
 
-[Group Policy for Beginners](https://medium.com/@theauzman/beginners-guide-to-group-policy-5c2769254c5c)
+[Beginner’s Guide To Group Policy](https://medium.com/@theauzman/beginners-guide-to-group-policy-5c2769254c5c)
 
 [Security Compliance Toolkit](https://learn.microsoft.com/en-us/windows/security/operating-system-security/device-management/windows-security-configuration-framework/security-compliance-toolkit-10)

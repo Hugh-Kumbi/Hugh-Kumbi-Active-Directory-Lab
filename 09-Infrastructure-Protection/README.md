@@ -6,7 +6,7 @@ This section of the Active Directory Lab focuses on enhancing the security postu
 
 ---
 
-## 🛡️ 1. Windows Firewall Configuration
+## 🔥 1. Windows Firewall Configuration
 
 ### Description
 

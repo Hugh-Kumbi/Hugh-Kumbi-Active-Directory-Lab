@@ -67,6 +67,7 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 - **Settings:**
   - Enabled offline files for redirected folders to allow access during network outages.
   - Configured redirection to follow the user across different computers within the domain.
+
 These settings are detailed in the `I. Folder-Redirection Settings.md` and `II. Folder-Redirection Properties.md` files.
   
 ### Paths Redirected

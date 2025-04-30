@@ -36,7 +36,7 @@ These settings ensure users cannot reuse old passwords frequently, must use comp
 
 📸 **Group Policy Editor Window Showing the Password Policy Path**
 
-![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+![Win11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/e235c750-fb60-4739-9176-8d86e62219d6)
 
 📸 **Each Setting With Its Configured Value**
 

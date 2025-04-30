@@ -12,7 +12,7 @@ This section of the Active Directory Lab focuses on enhancing the security postu
 
 I enforced strict firewall rules on all domain-joined systems to protect the internal network from unauthorized access and to control inbound and outbound traffic.
 
-### Group Policy Settings Applied
+### 🛠️ Group Policy Settings Applied
 
 - **Domain Profile:** Enabled, Block Inbound, Allow Outbound
 - **Private Profile:** Enabled, Block Inbound, Allow Outbound
@@ -30,7 +30,7 @@ I enforced strict firewall rules on all domain-joined systems to protect the int
 
 I configured LAN Manager authentication and session security to enforce strong encryption and prevent legacy protocol use.
 
-### GPO Settings Applied
+### 🛠️ GPO Settings Applied
 
 - LAN Manager Authentication Level: **Send NTLMv2 response only. Refuse LM & NTLM**
 - Minimum session security for NTLM SSP (Clients & Servers): **128-bit encryption**
@@ -42,13 +42,13 @@ I configured LAN Manager authentication and session security to enforce strong e
 
 ---
 
-## 🛠️ 3. Disabled Unnecessary Services
+## 🧹 3. Disabled Unnecessary Services
 
 ### 📝 Description
 
 To reduce the attack surface, I disabled several services not required in this lab environment.
 
-### Services Disabled via GPO
+### 🛠️ Services Disabled via GPO
 
 - **Print Spooler** – Disabled on servers not offering print services.
 - **Remote Registry** – Prevented remote tampering.

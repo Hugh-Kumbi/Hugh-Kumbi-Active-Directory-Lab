@@ -92,7 +92,7 @@ I configured a GPO to automatically map specific network drives based on a user'
 - **Drives Created**
   - **S:** Home directory mapped to `\\WIN-D2PQBCI88JQ\Shares`
   
-  📸 **Mapped Drives Path For Shares**
+📸 **Mapped Drives Path For Shares**
   
 ![Drive Mapping Settings Window Showing Path, Label, and Drive Letter](https://github.com/user-attachments/assets/7e475869-fd73-4559-915a-8d8aafb77ee1)
 

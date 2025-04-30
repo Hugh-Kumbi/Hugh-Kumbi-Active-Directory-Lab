@@ -317,6 +317,7 @@ I closed the Group Policy Management Editor
   `gpresult /r`
   
 - To verify firewall rules were active, I ran:  
+
   `netsh advfirewall show allprofiles`
 
 📸 **Command Line Showing `gpresult` Output**  

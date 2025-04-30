@@ -243,7 +243,7 @@ catch {
 ### ✅ 4. Testing and Validation
 
 To validate the script:
-1. Ensured the files were placed in the \\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User shared folder.
+1. Ensured the files were placed in the `\\hughdomain.local\SysVol\hughdomain.local\Policies\{FA47D7AB-C6A5-4898-9D72-3C0AE53F0246}\User` shared folder.
 2. Logged in as a domain user.
 3. Verified:
   * Welcome message displayed

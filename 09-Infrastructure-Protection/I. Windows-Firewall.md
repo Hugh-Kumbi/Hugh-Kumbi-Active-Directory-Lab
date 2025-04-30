@@ -123,6 +123,7 @@ I created multiple **inbound rules** for Active Directory communication services
 ### ⛔ 3. Custom Firewall Outbound Firewall Blocking Rules
 
 To enhance security, I created outbound rules to block potentially unsafe or legacy protocols.
+  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Outbound Rules`
 
 ### 🚫 Block TFTP

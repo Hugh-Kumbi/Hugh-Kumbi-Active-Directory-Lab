@@ -62,7 +62,7 @@ To verify the policy:
 
 📸 **Settings Access Blocked Message**
 
-![Settings Blocked](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/assets/your-screenshot-folder/04-user-settings-blocked.png)
+![Settings Access Blocked Message](https://github.com/user-attachments/assets/9980d0de-856f-45f3-a63c-1e639aaaf65e)
 
 ---
 

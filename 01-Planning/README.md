@@ -9,9 +9,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 ## 🎯 Objectives
 
 - **Skill Development:** Gain hands-on experience with Active Directory services, including domain controllers, DNS, DHCP, Group Policy Objects (GPOs), and user management.
-
 - **Testing Environment:** Create a safe space to test configurations, updates, and security policies without affecting production systems.
-
 - **Scenario Simulation:** Replicate common enterprise environments to practice deployment, troubleshooting, and administrative tasks.
 
 ---
@@ -19,11 +17,8 @@ The planning phase is crucial for establishing a structured and efficient Active
 ## 🗺️ Network Topology Design
 
 - **Domain Structure:** Plan a single forest with one or more domains to reflect organizational hierarchy.
-
 - **Organizational Units (OUs):** Design OUs based on departments or functions (e.g., IT, HR, Finance) to manage policies and permissions effectively.
-
 - **Site Configuration:** When simulating multiple physical locations, define sites and associate subnets accordingly.
-
 - **Trust Relationships:** Outline trust relationships between domains when multiple domains are planned.
 
 ---
@@ -33,23 +28,16 @@ The planning phase is crucial for establishing a structured and efficient Active
 ### Hardware
 
 - **Host Machine:**
-
   - **CPU:** Quad-core processor or higher
-
   - **RAM:** Minimum 16 GB
-
   - **Storage:** SSD with at least 200 GB free space
 
 ### Software
 
 - **Virtualization Platform:** VirtualBox
-
 - **Operating Systems:**
-
   - **Windows Server:** 2025 for domain controllers
-
   - **Windows Client:** Windows 11 for client machines
-
 - **ISO Files:** Obtain evaluation versions from the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/)
 
 ---

@@ -242,9 +242,9 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 
 - Enabled the Show only specified Control Panel items policy.
 
-  📸 **Control Panel Restrictions Showing Only Specified Control Panel Items**
+📸 **Control Panel Restrictions Showing Only Specified Control Panel Items**
   
-  ![Control Panel Restrictions Showing Only Specified Control Panel Items](https://github.com/user-attachments/assets/72b81a45-4fe8-44c9-877a-bbe60c637446)
+![Control Panel Restrictions Showing Only Specified Control Panel Items](https://github.com/user-attachments/assets/72b81a45-4fe8-44c9-877a-bbe60c637446)
 
 - Entered the canonical names of items to be shown (e.g., Microsoft.Personalization and Microsoft.Fonts).
 - Referenced Microsoft's list of canonical names for accuracy.

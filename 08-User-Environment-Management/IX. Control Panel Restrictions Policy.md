@@ -1,52 +1,72 @@
-# 🔒 Control Panel & Settings Restrictions
+# 🔧 Control Panel & Settings Restrictions
 
-To reduce the risk of user misconfigurations and enhance endpoint security, I applied Group Policy settings that restricted access to the Windows Control Panel and Settings app.
-
----
-
-## 🔧 Steps Taken
-
-1. **Created the GPO**
-   - Opened **Group Policy Management Console** (GPMC).
-   - Created a new GPO named `Control Panel Restrictions`.
-
-2. **Blocked Full Access**
-   - Navigated to:  
-     `User Configuration > Policies > Administrative Templates > Control Panel`
-   - Enabled the **Prohibit access to Control Panel and PC settings** policy.
-
-3. **(Optional) Allowed Specific Control Panel Items**
-   - To allow only selected applets:
-     - Enabled **Show only specified Control Panel items**.
-     - Entered canonical names like:
-       - `Programs and Features`
-       - `Printers`
-     - Used Microsoft’s canonical item list for accuracy.
-
-4. **Applied and Tested the GPO**
-   - Linked the GPO to the intended user OU.
-   - Executed `gpupdate /force` on a client machine.
-   - Confirmed restricted access on login.
+This section explains how I implemented **Control Panel and Settings Restrictions** via Group Policy to prevent standard users from accessing system settings. This increases security and reduces the risk of misconfiguration or unauthorized system changes.
 
 ---
 
-## 🖼️ Suggested Screenshots to Include
+## 🏷️ 1. GPO Name
 
-- 📷 `GPMC - Control Panel Restrictions GPO`  
-  _Screenshot of the GPO creation in GPMC._
+- **GPO Name:** Control Panel & Settings Restrictions Policy 
+- **Linked To:** Tech OU
 
-- 📷 `GPO - Prohibit Access to Control Panel`  
-  _Policy path and enabled setting for blocking Control Panel._
+📸 **Group Policy Management Console Showing The Control Panel Restrictions GPO And Link**
 
-- 📷 `GPO - Show Only Specified Control Panel Items` (if used)  
-  _Configured canonical names in the allowed items list._
-
-- 📷 `Access Denied - Control Panel`  
-  _Screenshot of the message or blocked screen when a user attempts to open Control Panel._
+![Control Panel Restrictions Policy Linked to Tech OU](https://github.com/user-attachments/assets/d17184d7-1008-47e5-91b4-611dbf9c2899)
 
 ---
 
-## ✅ Result
+## 🛠️ 2. Policy Configuration Steps
 
-Access to both the Control Panel and Settings app was successfully restricted for standard users. This mitigated the risk of unauthorized system changes and improved overall system stability and compliance.
+1. Navigated to:  
+   📂 `User Configuration > Policies > Administrative Templates > Control Panel`
 
+2. Enabled the policy:  
+   `Prohibit access to Control Panel and PC settings`
+
+📸 **Policy Setting - Prohibit Access to Control Panel**
+
+![Control Panel Restrictions Policy Creation Editor Window Settings 1](https://github.com/user-attachments/assets/c3df2072-e33a-45bf-8d67-af8d18d744a0)
+
+3. Additionally verified these related settings:
+   - Enabled the Hide specified Control Panel items policy 
+   
+   📸 **Control Panel Restrictions Showing Only Specified Control Panel Items**
+   ![Control Panel Restrictions Showing Only Specified Control Panel Items](https://github.com/user-attachments/assets/72b81a45-4fe8-44c9-877a-bbe60c637446)
+   
+   - Enabled the Show only specified Control Panel items policy.
+
+  📸 **Control Panel Restrictions Showing disallowed Control Panel Items**
+  
+  ![Control Panel Restrictions Policy 1](https://github.com/user-attachments/assets/fa9264c7-7440-40eb-b34c-4b037c7acef2)
+
+---
+
+## 🚫 3. User Experience
+
+After applying the policy, users:
+- Receive an error message when attempting to open Control Panel or Windows Settings.
+- Are unable to make changes to system configurations.
+
+📸 **Control Panel Access Blocked Message**
+
+![Control Panel Access Restriction Working](https://github.com/user-attachments/assets/871509e5-d1c3-4ad6-86bb-0667e8b7b263)
+
+---
+
+## ✅ 4. Testing and Results
+
+To verify the policy:
+1. Logged into a domain-joined Windows 11 client as a standard user.
+2. Attempted to open Control Panel and Settings.
+3. Verified that both were blocked successfully.
+
+📸 **Settings Access Blocked Message**
+
+![Settings Blocked](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/assets/your-screenshot-folder/04-user-settings-blocked.png)
+
+---
+
+## 🗂️ 5. Screenshot Storage
+
+All images related to this section are stored in:
+📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

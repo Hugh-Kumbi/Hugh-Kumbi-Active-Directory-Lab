@@ -300,9 +300,15 @@ By implementing these configurations:
 ## 📚 10. References
 
 [Group Policy Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
+
 [Group Policy Management Console](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-management-console)
+
 [Best Practices for Group Policy in Active Directory](https://learn.microsoft.com/en-us/answers/questions/1377673/best-practices-for-group-policy-in-active-director)
+
 [Set Desktop Wallpaper using GPO - Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1053594/set-desktop-wallpaper-using-gpo)
+
 [Restrict Control Panel Access using Group Policy](https://activedirectorypro.com/restrict-control-panel-access-using-group-policy/)
+
 [Deploy Desktop Background Wallpaper using Group Policy](https://msftwebcast.com/2019/08/deploy-desktop-background-wallpaper-using-group-policy.html)
+
 [Manage the Settings app with Group Policy - Microsoft Learn](https://learn.microsoft.com/en-us/windows/client-management/client-tools/manage-settings-app-with-group-policy)

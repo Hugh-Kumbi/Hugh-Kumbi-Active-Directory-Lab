@@ -255,11 +255,9 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 
 ![Control Panel Restrictions Policy Linked to Tech OU](https://github.com/user-attachments/assets/54e6a4b3-db5b-4674-b387-5961684030a6)
 
-📸 **Group Management Editor Configuration**
+📸 **Control Panel Restrictions Showing disallowed Control Panel Items**
 
 ![Control Panel Restrictions Policy 1](https://github.com/user-attachments/assets/fa9264c7-7440-40eb-b34c-4b037c7acef2)
-
-![Control Panel Restrictions Policy 2](https://github.com/user-attachments/assets/8411723b-8663-492a-a50b-e6c336916b21)
 
 📸 **Control Panel Restrictions Policy Implemented Successfully**
 

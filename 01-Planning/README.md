@@ -36,7 +36,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 
   - **CPU:** Quad-core processor or higher
 
-  - **RAM:** Minimum 16 GB (32 GB recommended)
+  - **RAM:** Minimum 16 GB
 
   - **Storage:** SSD with at least 200 GB free space
 
@@ -46,9 +46,9 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 - **Operating Systems:**
 
-  - **Windows Server:** 2019 or 2022 for domain controllers
+  - **Windows Server:** 2025 for domain controllers
 
-  - **Windows Client:** Windows 10 or 11 for client machines
+  - **Windows Client:** Windows 11 for client machines
 
 - **ISO Files:** Obtain evaluation versions from the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/)
 

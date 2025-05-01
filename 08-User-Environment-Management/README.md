@@ -261,6 +261,8 @@ To reduce risk and accidental misconfigurations, I restricted access to the Cont
 
 📸 **Control Panel Restrictions Policy Implemented Successfully**
 
+![Control Panel Restrictions](https://github.com/user-attachments/assets/5e38fcf2-69cf-4d0c-8106-8b7d624f39fc)
+
 ![Control Panel Restrictions Policy 2](https://github.com/user-attachments/assets/18760da3-914e-43cb-8f81-afafe8ffe9db)
 
 Configuration details are provided in the `IX. Control Panel Restrictions Policy.md`.

@@ -22,9 +22,9 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 - **Organizational Units (OUs):** Design OUs based on departments or functions (e.g., IT, HR, Finance) to manage policies and permissions effectively.
 
-- **Site Configuration:** If simulating multiple physical locations, define sites and associate subnets accordingly.
+- **Site Configuration:** When simulating multiple physical locations, define sites and associate subnets accordingly.
 
-- **Trust Relationships:** Outline any trust relationships between domains if multiple domains are planned.
+- **Trust Relationships:** Outline trust relationships between domains when multiple domains are planned.
 
 ---
 

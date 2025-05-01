@@ -34,7 +34,7 @@ The diagram below illustrates the network structure, including the domain contro
 
 Before building the lab, I ensured the following were in place:
 
-- A host system with at least 16GB RAM and 150GB disk space
+- A host system with at least 16GB RAM and 220GB disk space
 - VirtualBox installed and working properly
 - ISO files for Windows Server 2025 and Windows 11 Pro
 - Network properly configured to allow domain communication

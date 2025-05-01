@@ -31,6 +31,7 @@ This section explains how I implemented **Control Panel and Settings Restriction
    - Enabled the Hide specified Control Panel items policy 
    
    📸 **Control Panel Restrictions Showing Only Specified Control Panel Items**
+   
    ![Control Panel Restrictions Showing Only Specified Control Panel Items](https://github.com/user-attachments/assets/72b81a45-4fe8-44c9-877a-bbe60c637446)
    
    - Enabled the Show only specified Control Panel items policy.

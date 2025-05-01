@@ -72,7 +72,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 ## 📂 Files Included
 
-- Detailed documentation outlining the lab's objectives, network design, hardware/software requirements, and implementation steps can be found in `Planning & Lab Overview.md`, `Windows-Server-Setup.md`, `Windows-Client-Setup.md`, `Active-Directory-Setup`, `DNS-Setip.md` & GPO-Configurations.
+- Detailed documentation outlining the lab's objectives, network design, hardware/software requirements, and implementation steps can be found in `Planning & Lab Overview.md`, `I. Windows-Server-Setup.md`, `II. Windows-Client-Setup.md`, `I. Active-Directory-Setup`, `II. DNS-Setip.md` & `III. GPO-Configurations`.
  
 ---
 

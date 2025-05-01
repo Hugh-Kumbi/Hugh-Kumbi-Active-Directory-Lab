@@ -1,6 +1,6 @@
 # 🖥️ Environment Setup
 
-##📘 Overview
+## 📘 Overview
 
 This section of the Active Directory Lab focuses on setting up the foundational environment required for deploying Active Directory services. It encompasses the installation and configuration of Windows Server and Windows Client operating systems within a virtualized environment, ensuring a controlled and isolated setup for testing and learning purposes.
 

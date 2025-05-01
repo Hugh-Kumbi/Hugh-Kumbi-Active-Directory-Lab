@@ -19,6 +19,7 @@ The initial step involves setting up a Windows Server machine that will later be
   - Assigned a static IP address to ensure consistent network communication.
   - Kept the server hostname as `WIN-D2PQBCI88JQ` for easier identification.
   - Updated the system with the latest patches and updates to ensure security and stability.
+
 Detailed instructions and configurations can be found in the `I. Windows-Server-Setup.md` file.
 
 ---
@@ -36,6 +37,7 @@ Set up Windows Client machines that will later join the Active Directory domain.
   - Configured network settings to communicate with the Domain Controller.
   - Kept the client machines identifiable hostnames namely `DESKTOP-74HPA3F` & `DESKTOP-2N3JERQ`.
   - Updated the systems with the latest patches and updates.
+
 Detailed instructions and configurations can be found in the `II. Windows-Client-Setup.md` file.
 
 ---

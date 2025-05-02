@@ -1,4 +1,4 @@
-# ⚙️ Active Directory Configuration
+    # ⚙️ Active Directory Configuration
 
 ## 📘 Overview
 
@@ -49,6 +49,7 @@ Implemented foundational GPOs to enforce security settings and standardize confi
 
 ### 🛠️ Policies Implemented
 
+- Block VLC - Policy: 
 - **Password Policy:** Enforced complexity requirements and minimum length.
 - **Account Lockout Policy:** Defined thresholds for account lockouts to mitigate brute-force attacks.
 - **Audit Policy:** Enabled auditing of logon events, account management, and system events.

@@ -186,7 +186,7 @@ By applying these security policies:
 
 ---
 
-📚 References
+## 📚 References
 
 [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
 

@@ -45,18 +45,67 @@ These configurations are outlined in the `II. DNS-Setup.md` file.
 
 ## 📝 Description
 
-Implemented foundational GPOs to enforce security settings and standardize configurations across the domain.
+This section documents the various Group Policy Objects (GPOs) I implemented in the lab environment to enforce security baselines, enhance user experience, and manage system behavior across all domain-joined machines.
 
-### 🛠️ Policies Implemented
+### 🛠️ ✅ Security and System Hardening Policies
 
-- Block VLC - Policy: 
 - **Password Policy:** Enforced complexity requirements and minimum length.
 - **Account Lockout Policy:** Defined thresholds for account lockouts to mitigate brute-force attacks.
 - **Audit Policy:** Enabled auditing of logon events, account management, and system events.
 - **User Rights Assignment:** Configured rights such as logon locally and access this computer from the network.
 - **Security Options:** Adjusted settings to enhance the security posture of domain-joined systems.
 
-These policies are detailed in the `III. GPO-Configurations.md` file.
+🔒 Custom Group Policies Implemented
+
+### 🧩 Description of Custom Group Policies Implemented
+
+The custom Group Policies implemented in this lab environment were designed to enforce organizational standards, streamline user experience, and mitigate potential security threats. These policies cover a broad range of system and user configurations, including software restrictions (e.g., blocking VLC), enhanced browser settings, desktop environment personalization, USB access control, firewall and antivirus configurations, and scripted automation for startup/shutdown and user sessions. Each policy was tailored to reflect real-world enterprise needs, ensuring that domain-joined systems are secure, manageable, and consistent across the organization. Where applicable, these policies align with cybersecurity best practices and regulatory compliance frameworks.
+
+- **Block VLC - Policy**
+
+- **Browser Security Settings Policy**
+
+- **Control Panel Restrictions**
+
+- **Default Domain Controller Policy**
+
+- **Default Domain Policy**
+
+- **Desktop Wallpaper Policy**
+
+- **Disabling Unnecessary Windows Services Policy**
+
+- **Drive Mappings Policy**
+
+- **IPsec Authentication Policy**
+
+- **Logon-Logoff Scripts Policy**
+
+- **Map Network Drives Policy**
+
+- **Network Security Settings Policy**
+
+- **Restricted Groups Policy**
+
+- **Service Configuration Policy**
+
+- **Software Deployment Google Chrome Policy**
+
+- **Start Menu and Taskbar Settings Policy**
+
+- **Startup/Shutdown Scripts Policy**
+
+- **USB Restriction Policy**
+
+- **User Folder Redirection Policy**
+
+- **Win11 Security Policy**
+
+- **Windows Defender Settings Policy**
+
+- **Windows Firewall Settings Policy**
+
+Each policy above was configured to meet specific security or operational objectives within the Active Directory domain. Detailed documentation for individual policies can be found within the corresponding folders in the `III. GPO-Configurations.md` file.
 
 ---
 

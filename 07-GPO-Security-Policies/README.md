@@ -1,3 +1,9 @@
+# 🔐 GPO Security Policies
+
+## 📘 Overview
+
+This section of the Active Directory Lab focuses on implementing essential security policies through Group Policy Objects (GPOs) to enhance the security posture of the domain environment. It encompasses configurations for password policies, account lockout mechanisms, and audit policies to ensure robust protection against unauthorized access and to maintain compliance with security best practices.
+
 ---
 
 ## 🔑 1. Password Policy

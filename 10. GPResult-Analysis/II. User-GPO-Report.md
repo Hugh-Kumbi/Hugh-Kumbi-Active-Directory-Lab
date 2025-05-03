@@ -17,7 +17,7 @@
 
 📸 **Filtered GPOs - User Scope**
 
-![Filtered GPOs - User Scope](https://github.com/user-attachments/assets/fa82c4ce-4c6a-42cd-a6fe-73d9ca0fe518)
+![Filtered GPOs - User Scope](https://github.com/user-attachments/assets/77aaa7e2-b563-46d7-aafa-08d518f9b034)
 
 ---
 

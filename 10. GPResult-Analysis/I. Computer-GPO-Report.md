@@ -90,7 +90,7 @@ Shows verbose details of computer policies.
 
 📸 **Command Prompt Output: `gpresult /v /scope:computer`**
    
-![gpresult /v /scope:computer](../06-Screenshots/gpresult_v_scope_computer.png)
+![gpresult /v /scope:computer](https://github.com/user-attachments/assets/7ce50106-a21f-407b-9d95-775d71970248)
 
 ![gpresult /v /scope:computer 1](https://github.com/user-attachments/assets/9ecf51b9-1397-4637-a32e-53f2e4ad74e3)
 

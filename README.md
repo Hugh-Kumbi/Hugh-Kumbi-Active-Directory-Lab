@@ -27,57 +27,38 @@ Welcome to my Active Directory (AD) Home Lab, designed to simulate a small enter
 
 ---
 
-## 📂 Lab Structure
+## 🗺️ Architecture Overview
 
-**01-Planning**
-  * Overview.md
-  * Architecture-Diagram.png
+Below is the high-level architecture of the lab environment:
 
-**02-Environment-Setup**
-  * Windows-Server-Setup.md
-  * Windows-Client-Setup.md
-
-**03-Configuration**
-  * Active-Directory-Setup.md
-  * GPO-Configurations.md
-  * DNS-Setup.md
-
-**04-Security-Policies**
-  * Password-Policy.md
-  * Account-Lockout-Policy.md
-  * Audit-Policy.md
-
-**05-Troubleshooting**
-  * Common-Issues.md
-
-**06-Screenshots**
-
-**07-GPO-Security-Policies**
-
-**08-User-Environment-Management**
-
-**09-Infrastructure-Protection**
+📷 [View Architecture Diagram](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/I.%20Planning)
 
 ---
 
-## 🔗 Section Links
+## 📚 Documentation
 
-- [01 - Planning](./01-Planning/Overview.md)
-- [02 - Environment Setup](./02-Environment-Setup/Windows-Server-Setup.md)
-- [03 - Configuration](./03-Configuration/Active-Directory-Setup.md)
-- [04 - Security Policies](./04-Security-Policies/Password-Policy.md)
-- [05 - Troubleshooting](./05-Troubleshooting/Common-Issues.md)
-- [06 - Screenshots](./06-Screenshots)
-- [07 - GPO-Security-Policies](./02-Environment-Setup/Windows-Server-Setup.md)
-- [08 - User-Environment-Management](./03-Configuration/Active-Directory-Setup.md)
-- [09 - Infrastructure-Protection](./04-Security-Policies/Password-Policy.md)
-- [05 - Troubleshooting](./05-Troubleshooting/Common-Issues.md)
+All configuration steps, screenshots, and explanations are organized in folders for easy navigation.
+
+🔗 [📚 View Full Table of Contents](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/Table-of-Contents.md)
 
 ---
 
-## 📸 Screenshots
+## 🗂️ Project Structure
 
-All screenshots used throughout the documentation can be found in the [06 - Screenshots](./06-Screenshots) folder. They are also embedded in relevant `.md` files for visual reference.
+```plaintext
+📂 Active-Directory-Lab
+│── README.md
+│── Table-of-Contents.md
+│── 01-Planning/
+│── 02-Environment-Setup/
+│── 03-Configuration/
+│── 04-Security-Policies/
+│── 05-Troubleshooting/
+│── 06-Screenshots/
+│── 07-GPO-Security-Policies/
+│── 08-User-Environment-Management/
+│── 09-Infrastructure-Protection/
+```
 
 ---
 

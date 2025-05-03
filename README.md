@@ -4,15 +4,14 @@ Welcome to my Active Directory (AD) Home Lab, designed to simulate a small enter
 
 ---
 
-## 🎯 Objectives
+## 🎯 Key Learning Objectives
 
-- Set up a Windows Server 2025 Domain Controller
-- Configure Active Directory Domain Services (AD DS)
-- Join Windows 11 clients to the domain
-- Implement Group Policy Objects (GPOs) for user and system management
-- Enforce domain-level security policies (passwords, lockouts, audits)
-- Troubleshoot and document common issues
-- Practice infrastructure hardening and endpoint protection
+- Build and manage an Active Directory domain environment.
+- Configure DNS and DHCP services for domain operations.
+- Create and manage Group Policies to enforce security standards.
+- Implement security policies like password complexity, account lockout, auditing, and firewall rules.
+- Automate user environment management with logon/startup scripts.
+- Protect the infrastructure with encryption and patch management.
 
 ---
 

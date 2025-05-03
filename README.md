@@ -44,19 +44,54 @@ All configuration steps, screenshots, and explanations are organized in folders 
 
 ## 🗂️ Project Structure
 
+To ensure clarity, scalability, and professional documentation, I organized the lab into a structured folder hierarchy. Each main folder contains detailed explanations, configuration steps, and relevant screenshots. This layout allows for easy navigation, future expansion, and efficient reference as the environment evolves.
+
 ```plaintext
 📂 Active-Directory-Lab
 │── README.md
-│── Table-of-Contents.md
 │── 01-Planning/
+│   ├── Overview.md
+│   ├── Architecture-Diagram.png
 │── 02-Environment-Setup/
+│   ├── Windows-Server-Setup.md
+│   ├── Windows-Client-Setup.md
 │── 03-Configuration/
+│   ├── Active-Directory-Setup.md
+│   ├── GPO-Configurations.md
+│   ├── DNS-Setup.md
 │── 04-Security-Policies/
+│   ├── Password-Policy.md
+│   ├── Account-Lockout-Policy.md
+│   ├── Audit-Policy.md
 │── 05-Troubleshooting/
+│   ├── Common-Issues.md
 │── 06-Screenshots/
+│   ├── Planning-And-Overview/
+│   │   ├── Lab-Architecture.png
+│   ├── Environment-Setup/
+│   │   ├── Windows-Server-Installation.png
+│   │   ├── Windows-11-Installation.png
+│   ├── Configuration/
+│   │   ├── Active-Directory-Installation.png
+│   │   ├── DNS-Configuration.png
+│   ├── Security-Policies/
+│   │   ├── Password-Policy-Settings.png
+│   │   ├── Audit-Policy-Settings.png
+│   ├── User-Environment-Management/
+│   │   ├── Logon-Script-Configuration.png
+│   ├── Infrastructure-Protection/
+│   │   ├── Firewall-Rules-Setup.png
 │── 07-GPO-Security-Policies/
+│   ├── GPO-Backup-Export.md
+│   ├── GPO-Important-Settings.md
 │── 08-User-Environment-Management/
+│   ├── Logon-Scripts.md
+│   ├── Startup-Scripts.md
+│   ├── Group-Policy-Deployment.md
 │── 09-Infrastructure-Protection/
+│   ├── Windows-Firewall-Rules.md
+│   ├── BitLocker-Encryption.md
+│   ├── WSUS-Configuration.md
 ```
 
 ---

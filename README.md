@@ -49,6 +49,7 @@ To ensure clarity, scalability, and professional documentation, I organized the 
 ```plaintext
 📂 Active-Directory-Lab
 │── README.md
+│── Table-of-Contents.md
 │── 01-Planning/
 │   ├── Overview.md
 │   ├── Architecture-Diagram.png

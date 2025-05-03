@@ -2,30 +2,8 @@
 
 ## 🏷️ 1. Applied Group Policy Objects
 
-- **Default Domain Policy**
-- **Windows Defender Configuration**
-- **Block VLC - Policy**
-- **Browser Security Settings Policy**
-- **Control Panel Restrictions**
-- **Default Domain Controller Policy**
-- **Default Domain Policy**
-- **Desktop Wallpaper Policy**
-- **Disabling Unnecessary Windows Services Policy**
-- **Drive Mappings Policy**
-- **IPsec Authentication Policy**
-- **Logon-Logoff Scripts Policy**
-- **Map Network Drives Policy**
-- **Network Security Settings Policy**
-- **Restricted Groups Policy**
-- **Service Configuration Policy**
-- **Software Deployment Google Chrome Policy**
-- **Start Menu and Taskbar Settings Policy**
-- **Startup/Shutdown Scripts Policy**
-- **USB Restriction Policy**
 - **User Folder Redirection Policy**
-- **Win11 Security Policy**
-- **Windows Defender Settings Policy**
-- **Windows Firewall Settings Policy**
+
 
 📸 **Applied GPOs - User Scope**
 
@@ -36,7 +14,6 @@
 ## 🚫 2. GPOs Not Applied
 
 - **Local Group Policy**: Not applied (empty).
-- **Logon-Logoff Scripts Policy Group Policy**: Not applied (Unknown Reason).
 
 📸 **Filtered GPOs - User Scope**
 

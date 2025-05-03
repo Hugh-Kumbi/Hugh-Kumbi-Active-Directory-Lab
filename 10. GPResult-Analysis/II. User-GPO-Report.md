@@ -27,9 +27,9 @@
 - **Windows Defender Settings Policy**
 - **Windows Firewall Settings Policy**
 
-📸 **Applied GPOs - Computer Scope**
+📸 **Applied GPOs - User Scope**
 
-![Summary of Computer-Specific Group Policy Settings](https://github.com/user-attachments/assets/c38a8bc4-657c-4934-beab-e68bee09f42c)
+![Applied GPOs - User Scope](https://github.com/user-attachments/assets/5f1e63ac-de14-4386-ae59-4b72d4d74f25)
 
 ---
 
@@ -38,9 +38,9 @@
 - **Local Group Policy**: Not applied (empty).
 - **Logon-Logoff Scripts Policy Group Policy**: Not applied (Unknown Reason).
 
-📸 **Filtered GPOs - Computer Scope**
+📸 **Filtered GPOs - User Scope**
 
-![Summary of Computer-Specific Group Policy Settings 1](https://github.com/user-attachments/assets/fa82c4ce-4c6a-42cd-a6fe-73d9ca0fe518)
+![Filtered GPOs - User Scope](https://github.com/user-attachments/assets/fa82c4ce-4c6a-42cd-a6fe-73d9ca0fe518)
 
 ---
 
@@ -63,82 +63,76 @@
 - `Denied RODC Password Replication Group`
 - `High Mandatory Level`
 
-📸 **Security Groups - Computer Scope**
+📸 **Security Groups - User Scope**
 
-![Security Groups - Computer Scope](https://github.com/user-attachments/assets/94717468-94f5-465e-b48f-6c471450c184)
+![Security Groups - User Scope](https://github.com/user-attachments/assets/07a1985c-02d9-41c5-b62c-14c7c031ab2e)
 
-📸 **Last GP Update - Computer Scope**
+📸 **Last GP Update - User Scope**
 
-![Last GP Update - Computer Scope](https://github.com/user-attachments/assets/7f70da7c-e28a-4029-a255-406d76fd4752)
+![Last GP Update - User Scope](https://github.com/user-attachments/assets/7f70da7c-e28a-4029-a255-406d76fd4752)
 
 ---
 
 ## 🖌️ 4. Additional Screenshots
 
-### A. Command Prompt Output: `gpresult /r /scope:computer`
+### A. Command Prompt Output: `gpresult /r /scope:user`
 
 #### 📝 Description
 
 Displays a summary of computer-specific Group Policy settings.
+
+#### 🎯 Purpose
+
+Offers a concise view of GPOs applied to the user account.
    - **Capture Location**: Client Machine
      
-📸 **Command Prompt Output: `gpresult /r /scope:computer`**
+📸 **Command Prompt Output: `gpresult /r /scope:user`**
    
-![Summary of Computer-Specific Group Policy Settings](https://github.com/user-attachments/assets/49fa90da-59d7-4aac-9582-d757dc90b429)
+![Summary of User-Specific Group Policy Settings](https://github.com/user-attachments/assets/82b68d4d-8aae-442c-9d77-931d4b8b7b3e)
 
-![Summary of Computer-Specific Group Policy Settings 1](https://github.com/user-attachments/assets/86001b69-b575-48fb-b5fe-16e85a0fc011)
+![Summary of User-Specific Group Policy Settings 2](https://github.com/user-attachments/assets/8cc64949-d484-49fa-96ae-ee49655def22)
 
-### B. Command Prompt Output: `gpresult /v /scope:computer`
+### B. Command Prompt Output: `gpresult /v /scope:user`
 
 #### 📝 Description 
 
 Shows verbose details of computer policies.
-   - **Capture Location**: Client Machine
 
-📸 **Command Prompt Output: `gpresult /v /scope:computer`**
+#### 🎯 Purpose
+
+Provides detailed insights into each policy setting applied to the user.
+
+   - `Capture Location`: Client Machine
+
+📸 **Command Prompt Output: `gpresult /v /scope:user`**
    
-![gpresult /v /scope:computer](https://github.com/user-attachments/assets/7ce50106-a21f-407b-9d95-775d71970248)
+![Verbose Details of User Policies](https://github.com/user-attachments/assets/b082f784-5e17-40d3-a000-00a4a664a6e4)
 
-![gpresult /v /scope:computer 1](https://github.com/user-attachments/assets/9ecf51b9-1397-4637-a32e-53f2e4ad74e3)
+![Verbose Details of User Policies 1](https://github.com/user-attachments/assets/c25c6e1a-a6fd-40e8-9e44-f1cfa75b47b1)
 
-![gpresult /v /scope:computer 2](https://github.com/user-attachments/assets/d5207a5b-8978-4c36-823a-5befddac76c5)
+![Verbose Details of User Policies 2](https://github.com/user-attachments/assets/1b0e99a0-8dd7-444d-9df2-7bef177c7fed)
 
-![gpresult /v /scope:computer 3](https://github.com/user-attachments/assets/111fb30d-508d-42ec-8e48-695ae0445a13)
-
-![gpresult /v /scope:computer 4](https://github.com/user-attachments/assets/fdc31f66-eed9-4700-b596-e8ba3cfd1eb7)
-
-![gpresult /v /scope:computer 5](https://github.com/user-attachments/assets/978ca0e4-78c1-4ac2-86e3-23292ecb101e)
-
-![gpresult /v /scope:computer 6](https://github.com/user-attachments/assets/9f94d82d-0e93-4820-aa59-a52159eaafab)
-
-![gpresult /v /scope:computer 7](https://github.com/user-attachments/assets/4c5e6173-ceb2-4286-9894-143d39cb52a8)
-
-![gpresult /v /scope:computer 8](https://github.com/user-attachments/assets/153510f4-4a89-45a4-aa83-a1cb4f26888d)
-
-![gpresult /v /scope:computer 9](https://github.com/user-attachments/assets/70b46c7c-f7a9-492d-be03-92ebf955a5a2)
-
-![gpresult /v /scope:computer 10](https://github.com/user-attachments/assets/4369ac68-a1be-41e9-acd7-0fe92b778489)
-
-![gpresult /v /scope:computer 11](https://github.com/user-attachments/assets/a3308e0a-e5fd-4777-b6be-d1a0d4af0d2b)
-
-![gpresult /v /scope:computer 12](https://github.com/user-attachments/assets/b20dae67-b09c-42e3-80d7-ae329619877b)
-
-![gpresult /v /scope:computer 13](https://github.com/user-attachments/assets/6103f3d2-0461-4945-b9a6-bf4e85128144)
-
-![gpresult /v /scope:computer 14](https://github.com/user-attachments/assets/730cbaaf-4134-4bf2-8a10-c0ffcea4f9ed)   
-
-### C. **Group Policy Results Wizard in GPMC (Computer Configuration)**
+![Verbose Details of User Policies 3](https://github.com/user-attachments/assets/0335aed7-52f3-425e-bb84-e40e2dacb5a1)
+   
+### C. **Group Policy Results Wizard in GPMC (User Configuration)**
    
 #### 📝 Description 
 
 Screenshot of the Group Policy Results Wizard displaying computer configuration results.
-   - **Capture Location**: Domain Controller
 
-📸 **GPMC - Computer Configuration:**
+#### 🎯 Purpose
+
+Visual representation of GPOs applied to the user, facilitating better understanding.
+
+   - `Capture Location`: Domain Controller
+
+📸 **GPMC - User Configuration:**
    
-![Group Policy Results Wizard Displaying Computer Configuration Results](https://github.com/user-attachments/assets/ee2f063a-a863-4bc6-9acf-357e5616c96f)
+![Group Policy Results Wizard Displaying User Configuration Results 1](https://github.com/user-attachments/assets/de30c4eb-3fc5-44f3-b15e-1c4df1b52384)
 
-![Group Policy Results Wizard Displaying Computer Configuration Results 2](https://github.com/user-attachments/assets/ae1e2709-fd81-4d35-ba71-8f6fde2f3618)
+![Group Policy Results Wizard Displaying User Configuration Results 2](https://github.com/user-attachments/assets/94d74082-0442-40f3-a663-86b6bf4592c7)
+
+![Group Policy Results Wizard Displaying User Configuration Results 3](https://github.com/user-attachments/assets/47f8543e-612e-47c2-9e8d-f7f2334183a5)
 
 ---
 
@@ -147,13 +141,20 @@ Screenshot of the Group Policy Results Wizard displaying computer configuration 
 #### 📝 Description 
 
 Snapshot of the HTML report focusing on the computer configuration section.
-   - **Capture Location**: Client Machine
 
-📸 **`gpresult` HTML Report - Computer:**
+#### 🎯 Purpose 
+
+Offers a structured and detailed view of applied user policies.
+
+   - `Capture Location`: Client Machine
+
+📸 **`gpresult` HTML Report - User:**
    
-![HTML Report Generated by gpresult](https://github.com/user-attachments/assets/0bccec8e-4226-4b2a-b447-fc1999b28822)
+![Snapshot of the HTML Report Focusing on The User Configuration Section](https://github.com/user-attachments/assets/e96366f3-13b7-41dc-b972-c7fe6f5b2ba1)
 
-![HTML Report Generated by gpresult 1](https://github.com/user-attachments/assets/fd7bdd87-2529-4b49-a378-4a8144cc5a79)
+![Snapshot of the HTML Report Focusing on The User Configuration Section 1](https://github.com/user-attachments/assets/9a954d82-20b3-4dea-978b-28b5d85ebc7a)
+
+![Snapshot of the HTML Report Focusing on The User Configuration Section 2](https://github.com/user-attachments/assets/1b493ad1-869a-4733-b80a-b43821225bd5)
 
 ---
 

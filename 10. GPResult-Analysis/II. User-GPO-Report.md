@@ -39,6 +39,7 @@
 - **Logon-Logoff Scripts Policy Group Policy**: Not applied (Unknown Reason).
 
 📸 **Filtered GPOs - Computer Scope**
+
 ![Summary of Computer-Specific Group Policy Settings 1](https://github.com/user-attachments/assets/fa82c4ce-4c6a-42cd-a6fe-73d9ca0fe518)
 
 ---

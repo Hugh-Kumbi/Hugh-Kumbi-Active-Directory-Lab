@@ -102,7 +102,9 @@ Visual representation of GPOs applied to the user, facilitating better understan
    - `Capture Location`: Domain Controller
 
 📸 **GPMC - User Configuration:**
-   
+
+![Group Policy Results Wizard Displaying User Configuration Results](https://github.com/user-attachments/assets/0b4be58f-6657-4417-9cc6-045bf5cf51af)
+  
 ![Group Policy Results Wizard Displaying User Configuration Results 1](https://github.com/user-attachments/assets/de30c4eb-3fc5-44f3-b15e-1c4df1b52384)
 
 ![Group Policy Results Wizard Displaying User Configuration Results 2](https://github.com/user-attachments/assets/94d74082-0442-40f3-a663-86b6bf4592c7)

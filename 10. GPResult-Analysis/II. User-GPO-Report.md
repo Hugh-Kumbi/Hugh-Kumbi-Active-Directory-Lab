@@ -46,16 +46,22 @@
 
 ## 🛂 3. Security Group Memberships
 
-- **BUILTIN\Administrators**
-- **Everyone**
-- **BUILTIN\Users**
-- **NT AUTHORITY\NETWORK**
-- **NT AUTHORITY\Authenticated Users**
-- **This Organization**
-- **DESKTOP-2N3JERQ$**
-- **Domain Computers**
-- **Authenticated authority asserted identity**
-- **System Mandatory Level**
+- `Domain Users`
+- `Everyone`
+- `BUILTIN\Users`
+- `BUILTIN\Administrators`
+- `NT AUTHORITY\INTERACTIVE`
+- `CONSOLE LOGON`
+- `NT AUTHORITY\Authenticated Users`
+- `This Organization`
+- `LOCAL`
+- `Group Policy Creator Owners`
+- `Domain Admins`
+- `Schema Admins`
+- `Enterprise Admins`
+- `Authentication authority asserted identity`
+- `Denied RODC Password Replication Group`
+- `High Mandatory Level`
 
 📸 **Security Groups - Computer Scope**
 

@@ -20,7 +20,7 @@ Welcome to my Active Directory (AD) Home Lab, designed to simulate a small enter
 
 - **VirtualBox** – Virtualization platform
 - **Windows Server 2025** – Domain Controller (AD DS, DNS, GPOs)
-- **Windows 11 Enterprise** – Domain-joined clients
+- **Windows 11 Pro** – Domain-joined clients
 - **Group Policy Management Console (GPMC)** – Policy configuration
 - **PowerShell / Command Prompt** – Administration and scripting
 - **Active Directory Users and Computers (ADUC)** – User and group management

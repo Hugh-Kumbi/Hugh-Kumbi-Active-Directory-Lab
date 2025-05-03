@@ -56,12 +56,12 @@
 
 #### 📝 Description
 
-Displays a summary of computer-specific Group Policy settings.
+Displays a summary of user-specific Group Policy settings
 
 #### 🎯 Purpose
 
 Offers a concise view of GPOs applied to the user account.
-   - **Capture Location**: Client Machine
+   - `Capture Location`: Client Machine
      
 📸 **Command Prompt Output: `gpresult /r /scope:user`**
    
@@ -73,12 +73,11 @@ Offers a concise view of GPOs applied to the user account.
 
 #### 📝 Description 
 
-Shows verbose details of computer policies.
+Shows verbose details of user policies.
 
 #### 🎯 Purpose
 
 Provides detailed insights into each policy setting applied to the user.
-
    - `Capture Location`: Client Machine
 
 📸 **Command Prompt Output: `gpresult /v /scope:user`**
@@ -95,12 +94,11 @@ Provides detailed insights into each policy setting applied to the user.
    
 #### 📝 Description 
 
-Screenshot of the Group Policy Results Wizard displaying computer configuration results.
+Screenshot of the Group Policy Results Wizard displaying user configuration results.
 
 #### 🎯 Purpose
 
 Visual representation of GPOs applied to the user, facilitating better understanding.
-
    - `Capture Location`: Domain Controller
 
 📸 **GPMC - User Configuration:**
@@ -117,12 +115,11 @@ Visual representation of GPOs applied to the user, facilitating better understan
 
 #### 📝 Description 
 
-Snapshot of the HTML report focusing on the computer configuration section.
+Snapshot of the HTML report focusing on the user configuration section.
 
 #### 🎯 Purpose 
 
 Offers a structured and detailed view of applied user policies.
-
    - `Capture Location`: Client Machine
 
 📸 **`gpresult` HTML Report - User:**

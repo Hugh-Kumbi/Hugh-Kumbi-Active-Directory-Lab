@@ -51,21 +51,28 @@ To ensure clarity, scalability, and professional documentation, I organized the 
 │── README.md
 │── Table-of-Contents.md
 │── 01-Planning/
-│   ├── Overview.md
-│   ├── Architecture-Diagram.png
+│   ├── Planning & Lab Overview.md
+│   ├── README.md
 │── 02-Environment-Setup/
-│   ├── Windows-Server-Setup.md
-│   ├── Windows-Client-Setup.md
+│   ├── I. Windows-Server-Setup.md
+│   ├── II. Windows-Client-Setup.md
+│   ├── README.md
 │── 03-Configuration/
-│   ├── Active-Directory-Setup.md
-│   ├── GPO-Configurations.md
-│   ├── DNS-Setup.md
+│   ├── I. Active-Directory-Setup.md
+│   ├── II. DNS-Setup.md
+│   ├── III. GPO-Configurations.md
+│   ├── README.md
 │── 04-Security-Policies/
-│   ├── Password-Policy.md
-│   ├── Account-Lockout-Policy.md
-│   ├── Audit-Policy.md
+│   ├── I. Password Policy.md
+│   ├── II. Account-Lockout-Policy.md
+│   ├── III. Audit-Policy.md
+│   ├── IV. User-Rights-Assignment.md
+│   ├── V. Windows-Defender-Policies.md
+│   ├── VI. Local-Administrator-Restrictions.md
+│   ├── README.md
 │── 05-Troubleshooting/
 │   ├── Common-Issues.md
+│   ├── README.md
 │── 06-Screenshots/
 │   ├── Planning-And-Overview/
 │   │   ├── Lab-Architecture.png
@@ -83,16 +90,43 @@ To ensure clarity, scalability, and professional documentation, I organized the 
 │   ├── Infrastructure-Protection/
 │   │   ├── Firewall-Rules-Setup.png
 │── 07-GPO-Security-Policies/
-│   ├── GPO-Backup-Export.md
-│   ├── GPO-Important-Settings.md
+│   ├── I. Password-Policy.md
+│   ├── II. Account-Lockout-Policy.md
+│   ├── III. Audit-Policy.md
+│   ├── IV. GPO-Backup-Export.md
+│   ├── V. GPO-Important-Settings.md
+│   ├── README.md
 │── 08-User-Environment-Management/
-│   ├── Logon-Scripts.md
-│   ├── Startup-Scripts.md
-│   ├── Group-Policy-Deployment.md
+│   ├── I. Folder-Redirection Settings.md
+│   ├── II. Folder-Redirection Properties.md
+│   ├── III. Drive-Mappings-Settings.md
+│   ├── IV. Drive-Mappings-Config.md
+│   ├── V. Logon-Logoff Scripts-Config.md
+│   ├── VI. Logon-Logoff Scripts-Desktop.md
+│   ├── VII. Startup-Shutdown Scripts.md
+│   ├── VIII. Desktop Wallpaper Policy.md
+│   ├── IX. Control Panel Restrictions Policy.md
+│   ├── X. Group-Policy-Deployment.md
+│   ├── README.md
 │── 09-Infrastructure-Protection/
-│   ├── Windows-Firewall-Rules.md
-│   ├── BitLocker-Encryption.md
-│   ├── WSUS-Configuration.md
+│   ├── I. Windows-Firewall.md
+│   ├── II. Network-Security.md
+│   ├── III. Disable-Services.md
+│   ├── IV. WSUS-Configuration.md
+│   ├── V. BitLocker-Encryption.md
+│   ├── README.md
+│── 10. GPResult-Analysis/
+│   ├── I. Computer-GPO-Report.md
+│   ├── II. User-GPO-Report.md
+│   ├── README.md
+│── 11. Scripts/
+│   ├── 
+│   ├── 
+│   ├── README.md
+│── 12. Docs/
+│   ├── 
+│   ├── 
+│   ├── README.md
 ```
 
 ---

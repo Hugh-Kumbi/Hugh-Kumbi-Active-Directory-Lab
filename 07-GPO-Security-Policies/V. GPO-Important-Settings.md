@@ -10,9 +10,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Password Policies**
 
-![Password Policies Screenshot](../06-Screenshots/01-Password-Policy.png)
+![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
 
 | Setting                                             | Value                   |
 |-----------------------------------------------------|-------------------------|
@@ -29,9 +29,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Account Lockout Policies**
 
-![Account Lockout Policy Screenshot](../06-Screenshots/02-Account-Lockout.png)
+![Account Lockout Policies](https://github.com/user-attachments/assets/dcee3079-fea0-4fb0-80c2-65e6d9b6e5a1)
 
 | Setting                                    | Value              |
 |--------------------------------------------|--------------------|
@@ -52,10 +52,12 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | Setting                                         | Assigned To                |
 |-------------------------------------------------|----------------------------|
 | Access this computer from the network           | Authenticated Users        |
-| Allow log on locally                            | Administrators, Users      |
-| Deny access to this computer from the network   | Guest                      |
-| Deny log on locally                             | Guest                      |
-| Log on as a service                             | Defined service accounts   |
+| Allow log on locally                            | Administrators, HUGHDOMAIN\Administrator, HUGHDOMAIN\BackupAdmin, HUGHDOMAIN\BackupAdmin1, Domain Users, Users    |
+| Allow log on through Remote Desktop Services    | Administrator, Administrators, HUGHDOMAIN\Administrator, HUGHDOMAIN\BackupAdmin, HUGHDOMAIN\BackupAdmin1, Remote Desktop Users   |
+| Deny access to this computer from the network   | Local Admins, Guest                                                |
+| Deny log on locally                             | Guest                                                              |
+| Log on as a batch job                           | Administrators, HUGHDOMAIN\BackupAdmin, HUGHDOMAIN\BackupAdmin1  |
+| Log on as a service                             | Network Service, Local Service                                   |
 
 ---
 

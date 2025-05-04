@@ -105,12 +105,18 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 | Setting                                | Value             |
 |----------------------------------------|-------------------|
+| Join Microsoft Maps                    | Enabled           |
+| Configure removal of items from Quarantine folder                    | Enabled           |
+| Turn off real-time protection           | Disabled           |
+| Turn on behaviour monitoring           | Enabled           |
+| Scan all downloaded file and attachments           | Enabled           |
+| Monitor file and program activity on your computer           | Enabled           |
+| Scan removable drives           | Enabled           |
+| Specify the scan type ro use for a scheduled scan                              | 2 - Full scan     |
+| Specify the day of the week to run a scheduled scan           | Enabled           |
+| Specify the time of day to run a scheduled scan           | Enabled           |
 | Turn off Microsoft Defender Antivirus  | Disabled          |
-| Turn on real-time protection           | Enabled           |
-| Schedule scan day                      | 0 - Every day     |
-| Scan type                              | 2 - Full scan     |
-| Turn on behavior monitoring            | Enabled           |
-| Turn on cloud-delivered protection     | Enabled           |
+
 
 ---
 

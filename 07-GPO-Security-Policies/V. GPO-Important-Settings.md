@@ -99,23 +99,23 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Windows Defender Settings**
 
 ![Defender Antivirus Screenshot](../06-Screenshots/05-Defender-AV.png)
 
-| Setting                                | Value             |
-|----------------------------------------|-------------------|
-| Join Microsoft Maps                    | Enabled           |
-| Configure removal of items from Quarantine folder                    | Enabled           |
-| Turn off real-time protection           | Disabled           |
-| Turn on behaviour monitoring           | Enabled           |
-| Scan all downloaded file and attachments           | Enabled           |
-| Monitor file and program activity on your computer           | Enabled           |
-| Scan removable drives           | Enabled           |
-| Specify the scan type ro use for a scheduled scan                              | 2 - Full scan     |
-| Specify the day of the week to run a scheduled scan           | Enabled           |
-| Specify the time of day to run a scheduled scan           | Enabled           |
-| Turn off Microsoft Defender Antivirus  | Disabled          |
+| Setting                                                  | Value             |
+|----------------------------------------------------------|-------------------|
+| Join Microsoft Maps                                      | Enabled           |
+| Configure removal of items from Quarantine folder        | Enabled           |
+| Turn off real-time protection                            | Disabled          |
+| Turn on behaviour monitoring                             | Enabled           |
+| Scan all downloaded file and attachments                 | Enabled           |
+| Monitor file and program activity on your computer       | Enabled           |
+| Scan removable drives                                    | Enabled           |
+| Specify the scan type ro use for a scheduled scan        | 2 - Full scan     |
+| Specify the day of the week to run a scheduled scan      | Enabled           |
+| Specify the time of day to run a scheduled scan          | Enabled           |
+| Turn off Microsoft Defender Antivirus                    | Disabled          |
 
 
 ---

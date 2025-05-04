@@ -279,7 +279,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Control Panel Settings**
 
-![Control Panel and System Screenshot](../06-Screenshots/09-Edge-Settings.png)
+![Control Panel Settings](https://github.com/user-attachments/assets/53cb252c-a453-4f08-ad84-4e06c7593b78)
 
 - **Prohibit access to Control Panel and PC settings:** Enabled
 

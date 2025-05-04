@@ -8,7 +8,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔑 Password Policies
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 📸 **Password Policies Settings**
 
@@ -28,7 +28,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🚫 Account Lockout Policies
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 📸 **Account Lockout Policies Settings**
 
@@ -44,7 +44,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 👤 User Rights Assignment
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
 📸 **User Rights Assignment Settings**
 
@@ -68,7 +68,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🛡️ Security Options
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
 📸 **Security Options Settings**
 
@@ -90,14 +90,13 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | User Account Control: Behaviour of the elevation prompt for administrators in Admin Mode                                 | Prompt for consent on secure desktop                          |
 | User Account Control: Behaviour of the elevation prompt for administrators running with enhanced privilege protection    | Prompt for consent on secure desktop                          |
 | User Account Control: Run all administrators in Admin Approval Mode                                                      | Enabled                                                       |
-
 ---
 
 ## 🦠 Windows Defender Settings
 
 ### 🛡️ Microsoft Defender Antivirus
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 📸 **Windows Defender Settings**
 
@@ -134,16 +133,24 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | Specify the time of day to run a scheduled scan          | Enabled           |
 | Turn off Microsoft Defender Antivirus                    | Disabled          |
 
-
 ---
 
 ### 🔥 Windows Defender Firewall
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
 
 📸 **Windows Defender Firewall Settings**
 
-![Firewall Settings Screenshot](../06-Screenshots/06-Defender-Firewall.png)
+![Windows Defender Firewall Settings](https://github.com/user-attachments/assets/05a7a557-cff8-4867-9eec-de6c2bd58ac2)
+
+📸 **Windows Defender Firewall Settings**
+
+![Windows Defender Firewall Settings 1](https://github.com/user-attachments/assets/c60c8387-2024-4d04-af00-bb2ef0eabce3)
+
+📸 **Windows Defender Firewall Settings**
+
+![Windows Defender Firewall Settings 2](https://github.com/user-attachments/assets/67d4f7a1-9400-4a32-af41-f835e7965558)
+
 
 | Profile Type     | Firewall State | Inbound Connections  | Outbound Connections  |
 |------------------|----------------|----------------------|-----------------------|
@@ -157,7 +164,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🖼️ Desktop Settings
 
-**Path:** `User Configuration > Policies > Administrative Templates > Desktop`
+**Path:** 📂 `User Configuration > Policies > Administrative Templates > Desktop`
 
 📸 **Xxxxxxxxxxxxx**
 

@@ -302,9 +302,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Network`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Network Settings**
 
-![Network Screenshot](../06-Screenshots/09-Edge-Settings.png)
+![Network Settings](https://github.com/user-attachments/assets/d7a5d051-dd53-47a8-b1c3-dc4e4b9590ea)
 
 - Prohibit Internet Connection Sharing on DNS domain network: Enabled  
 - Route all traffic through internal network: Enabled (for VPN)
@@ -315,9 +315,13 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Power Management Settings**
 
-![Power Settings Screenshot](../06-Screenshots/10-Power-Settings.png)
+![Power Management Settings](https://github.com/user-attachments/assets/4157944a-d40b-4a6e-8328-8e4bcac10474)
+
+📸 **Power Management Settings**
+
+![Power Management Settings 1](https://github.com/user-attachments/assets/8293b095-bb1e-42ae-83ff-4087b39c0e86)
 
 - Active power plan: Enabled, set to "Balanced"  
 - Hibernate timeout (plugged in): Enabled, set accordingly  
@@ -332,9 +336,17 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Data Loss Prevention Settings**
 
-![Data Loss Prevention Screenshot](../06-Screenshots/10-Power-Settings.png)
+![Data Loss Prevention Settings](https://github.com/user-attachments/assets/66517c19-4d53-4aff-b057-3c3a4bf8afc1)
+
+📸 **Data Loss Prevention Settings**
+
+![Data Loss Prevention Settings 2](https://github.com/user-attachments/assets/e6649043-7613-469c-a853-6490a72064db)
+
+📸 **Data Loss Prevention Settings**
+
+![Data Loss Prevention Settings 3](https://github.com/user-attachments/assets/a31973ec-13c1-4747-8507-0fd04558ca1a)
 
 - Block copying to removable drives: Enabled  
 - Windows SmartScreen: Enabled  
@@ -344,9 +356,17 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **BitLocker Drive Encryption Settings**
 
-![BitLocker Screenshot](../06-Screenshots/11-BitLocker.png)
+![BitLocker Drive Encryption](https://github.com/user-attachments/assets/5c5f5dac-7be3-4710-9b68-6ca3352ff76c)
+
+📸 **BitLocker Drive Encryption Settings**
+
+![BitLocker Drive Encryption 2](https://github.com/user-attachments/assets/66315f81-6736-40cd-90d4-cbe7cfbc7205)
+
+📸 **BitLocker Drive Encryption Settings**
+
+![BitLocker Drive Encryption 3](https://github.com/user-attachments/assets/c8abc7e5-e676-4229-84a6-a69cd3ce1f6a)
 
 - OS Drives > Require additional auth at startup: Enabled  
 - OS Drives > Enable keyboard input on slates: Enabled  
@@ -383,12 +403,12 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Device Installation Settings**
 
-![Device Installation Screenshot](../06-Screenshots/13-Device-Installation.png)
+![Device Installation Settings](https://github.com/user-attachments/assets/14367313-7368-4dde-856e-223f9c939c4a)
 
-- Prevent install by device ID: Enabled (customized)  
-- Prevent install by setup class: Enabled (customized)
+- Prevent install by device ID: Enabled (`PCI\VEN_8086&DEV_1C3A`, `USB\VID_0781&PID_5583`, `USB\VID_05AC&PID_12A8`)  
+- Prevent install by setup class: Enabled (`{4d36e967-e325-11ce-bfc1-08002be10318}`)
 
 ---
 

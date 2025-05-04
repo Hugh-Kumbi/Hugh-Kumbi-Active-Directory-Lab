@@ -76,9 +76,13 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 | Setting                                                                    | Value                                         |
 |----------------------------------------------------------------------------|-----------------------------------------------|
+| Microsoft network client: Digitally sign communications (always)           | Enabled                                       |
+| Microsoft network client: Digitally sign communications (if server agrees)           | Enabled                                       |
+| Microsoft network server: Digitally sign communications (always)           | Enabled                                       |
+| Microsoft network server: Digitally sign communications (if client agrees)           | Enabled                                       |
 | Network security: LAN Manager authentication level                                           | Send NTLMv2 response only. Refuse LM & NTLM   |
 | Interactive logon: Do not display last user name                           | Enabled                                       |
-| Microsoft network server: Digitally sign communications (always)           | Enabled                                       |
+
 | UAC: Elevation prompt for administrators                                   | Prompt for consent on secure desktop          |
 | UAC: Run all administrators in Admin Approval Mode                         | Enabled                                       |
 

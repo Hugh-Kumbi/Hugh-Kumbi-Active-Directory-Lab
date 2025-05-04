@@ -10,7 +10,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
-📸 **Password Policies**
+📸 **Password Policies Settings**
 
 ![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
 
@@ -30,7 +30,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
-📸 **Account Lockout Policies**
+📸 **Account Lockout Policies Settings**
 
 ![Account Lockout Policies](https://github.com/user-attachments/assets/dcee3079-fea0-4fb0-80c2-65e6d9b6e5a1)
 
@@ -46,7 +46,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
-📸 **User Rights Assignment**
+📸 **User Rights Assignment Settings**
 
 ![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
 
@@ -70,7 +70,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
-📸 **Security Options**
+📸 **Security Options Settings**
 
 ![Security Options](https://github.com/user-attachments/assets/61a85dad-1038-4f0d-9965-0a27e57e93ea)
 
@@ -101,7 +101,24 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Windows Defender Settings**
 
-![Defender Antivirus Screenshot](../06-Screenshots/05-Defender-AV.png)
+![Windows Defender Settings](https://github.com/user-attachments/assets/644f5eff-899c-4120-aae2-927805964de4)
+
+📸 **Windows Defender Settings**
+
+![Windows Defender Settings 1](https://github.com/user-attachments/assets/5f969e39-ce5c-4b7b-b706-a60aa4116f64)
+
+📸 **Windows Defender Settings**
+
+![Windows Defender Settings 2](https://github.com/user-attachments/assets/a2fb5fff-3a20-402e-9cb4-de73cc0fae87)
+
+📸 **Windows Defender Settings**
+
+![Windows Defender Settings 3](https://github.com/user-attachments/assets/0106bdfd-bec0-410c-a1ef-4cc9baac084a)
+
+📸 **Windows Defender Settings**
+
+![Windows Defender Settings 4](https://github.com/user-attachments/assets/f4e5c54f-a83d-40df-a251-aebd89bf989c)
+
 
 | Setting                                                  | Value             |
 |----------------------------------------------------------|-------------------|
@@ -124,7 +141,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Windows Defender Firewall Settings**
 
 ![Firewall Settings Screenshot](../06-Screenshots/06-Defender-Firewall.png)
 

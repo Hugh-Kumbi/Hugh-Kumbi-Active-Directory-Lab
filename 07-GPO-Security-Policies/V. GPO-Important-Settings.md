@@ -7,7 +7,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🔐 Security Baseline Settings
 
 ### 🔑 Password Policies
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Password Policies Screenshot](../06-Screenshots/01-Password-Policy.png)
 
@@ -23,7 +26,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ### 🚫 Account Lockout Policies
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Account Lockout Policy Screenshot](../06-Screenshots/02-Account-Lockout.png)
 
@@ -36,7 +42,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ### 👤 User Rights Assignment
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![User Rights Assignment Screenshot](../06-Screenshots/03-User-Rights-Assignment.png)
 
@@ -51,7 +60,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ### 🛡️ Security Options
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Security Options Screenshot](../06-Screenshots/04-Security-Options.png)
 
@@ -68,7 +80,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🦠 Windows Defender Settings
 
 ### 🛡️ Microsoft Defender Antivirus
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Defender Antivirus Screenshot](../06-Screenshots/05-Defender-AV.png)
 
@@ -84,7 +99,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ### 🔥 Windows Defender Firewall
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Firewall Settings Screenshot](../06-Screenshots/06-Defender-Firewall.png)
 
@@ -99,7 +117,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🖥️ Desktop and Start Menu Settings
 
 ### 🖼️ Desktop Settings
+
 **Path:** `User Configuration > Policies > Administrative Templates > Desktop`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Desktop Settings Screenshot](../06-Screenshots/07-Desktop-StartMenu.png)
 
@@ -108,7 +129,12 @@ This guide outlines the essential Group Policy settings I configured to align wi
 - **Screen saver:** Enabled with 15-minute timeout and password protection
 
 ### 📋 Start Menu and Taskbar
+
 **Path:** `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+
+📸 **Xxxxxxxxxxxxx**
+
+![Start Menu and Taskbar Screenshot](../06-Screenshots/07-Desktop-StartMenu.png)
 
 - Remove access to taskbar context menus: Disabled  
 - Remove "Search the Internet" link: Enabled  
@@ -120,7 +146,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🔄 Windows Update Settings
 
 ### 🔧 Windows Update for Business
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Windows Update Screenshot](../06-Screenshots/08-Windows-Update.png)
 
@@ -138,7 +167,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🌐 Internet Explorer and Microsoft Edge
 
 ### 🌎 Microsoft Edge Settings
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Microsoft Edge Screenshot](../06-Screenshots/09-Edge-Settings.png)
 
@@ -153,6 +185,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🧩 Administrative Templates
 
 ### ⚙️ Control Panel
+
 **Path:** `User Configuration > Policies > Administrative Templates > Control Panel`
 
 - **Prohibit access to Control Panel and PC settings:** Disabled (or Enabled for kiosk)
@@ -160,12 +193,21 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 💻 System
 **Path:** `Computer Configuration > Policies > Administrative Templates > System`
 
+📸 **Xxxxxxxxxxxxx**
+
+![Control Panel and System Screenshot](../06-Screenshots/09-Edge-Settings.png)
+
 - Turn off DEP for Explorer: Disabled  
 - Turn off heap termination on corruption: Disabled  
 - Don’t display Getting Started screen: Enabled
 
 ### 🌐 Network
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Network`
+
+📸 **Xxxxxxxxxxxxx**
+
+![Network Screenshot](../06-Screenshots/09-Edge-Settings.png)
 
 - Prohibit Internet Connection Sharing on DNS domain network: Enabled  
 - Route all traffic through internal network: Enabled (for VPN)
@@ -173,7 +215,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ## 🔋 Power Management
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > System > Power Management`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Power Settings Screenshot](../06-Screenshots/10-Power-Settings.png)
 
@@ -187,14 +232,22 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 🏢 Corporate Compliance Settings
 
 ### 🛡️ Data Loss Prevention
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
+
+📸 **Xxxxxxxxxxxxx**
+
+![Data Loss Prevention Screenshot](../06-Screenshots/10-Power-Settings.png)
 
 - Block copying to removable drives: Enabled  
 - Windows SmartScreen: Enabled  
 - DEP: Disabled
 
 ### 🔐 BitLocker Drive Encryption
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![BitLocker Screenshot](../06-Screenshots/11-BitLocker.png)
 
@@ -208,7 +261,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## 📦 Application Control
 
 ### 📋 AppLocker
+
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![AppLocker Screenshot](../06-Screenshots/12-AppLocker.png)
 
@@ -218,6 +274,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 - Packaged App Rules: Create Default Rules
 
 ### 📁 App Package Deployment
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
 - Deployment in special profiles: Disabled  
@@ -226,7 +283,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ---
 
 ## 🔧 Device Installation
+
 **Path:** `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
+
+📸 **Xxxxxxxxxxxxx**
 
 ![Device Installation Screenshot](../06-Screenshots/13-Device-Installation.png)
 
@@ -238,38 +298,45 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ## ✅ Best Practices for GPO Implementation
 
 ### 📁 Use GPO Categories:
+
 - Security policies  
 - Software deployment  
 - User preferences  
 - Windows settings
 
 ### 🎯 GPO Filtering:
+
 - Use security filtering to target specific groups  
 - Apply WMI filtering for hardware/software targeting  
 - Use item-level targeting for preferences
 
 ### 🔗 GPO Links:
+
 - Link GPOs at appropriate OU levels  
 - Avoid linking conflicting GPOs  
 - Use "Enforced" sparingly
 
 ### 🔄 GPO Processing:
+
 - Computer settings process at startup  
 - User settings process at logon  
 - Consider slow link detection settings  
 - Configure processing order as needed
 
 ### 🧪 Testing and Verification:
+
 - Test GPOs in a lab before production  
 - Use `gpresult /r` or `gpresult /h` to troubleshoot  
 - Create a test OU that mirrors production
 
 ### 📝 Documentation:
+
 - Document purpose and settings of each GPO  
 - Maintain a change history  
 - Keep a current GPO inventory
 
 ### 🚀 Performance Considerations:
+
 - Limit number of GPOs  
 - Avoid excessive item-level targeting  
 - Use loopback processing only when necessary  

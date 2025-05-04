@@ -220,10 +220,21 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Microsoft Edge Screenshot](../06-Screenshots/09-Edge-Settings.png)
 
-- **Do Not Track:** Enabled  
-- **Block pop-ups:** Enabled  
-- **Disable Password Manager:** Enabled  
-- **SmartScreen:** Enabled  
+- **Block tracking of user's web-browsing activity:** Enabled
+- **Configure Do Not Track:** Enabled  
+- **Block pop-ups:** Enabled
+- **Block external extensions from being installed:** Enabled
+- **Allow users to be alerted if their passwords are found to be unsafe:** Enabled
+- **Enable saving passwords to the password manager Password Manager:** Disabled
+- **Configure Microsoft Defender SmartScreen:** Enabled
+- **Configure Microsoft Defender SmartScreen to block potentially unwanted apps:** Enabled
+- **Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads:** Enabled
+- **Action to take on Microsoft Edge startup:** Enabled
+- **Configure the homepage URL:** Enabled
+- **Configure the new tab URL:** Enabled
+- **Set the new tab page as the home page:** Enabled
+- **Show Home button on toolbar:** Enabled
+- **Sites to open when the browser starts:** Enabled 
 - **Default search provider:** Set to corporate engine
 
 ---

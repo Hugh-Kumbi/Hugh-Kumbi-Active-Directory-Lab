@@ -166,9 +166,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `User Configuration > Policies > Administrative Templates > Desktop`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Desktop Settings**
 
-![Desktop Settings Screenshot](../06-Screenshots/07-Desktop-StartMenu.png)
+![Desktop Policy Settings](https://github.com/user-attachments/assets/2e370ae0-2d27-4092-afbb-3b0dc89cad40)
 
 - **Desktop Wallpaper:** Set to corporate wallpaper
 - **Desktop Icons:** Control icons on desktop
@@ -178,9 +178,17 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Start Menu and Taskbar Settings**
 
-![Start Menu and Taskbar Screenshot](../06-Screenshots/07-Desktop-StartMenu.png)
+![Start Menu and Taskbar Settings](https://github.com/user-attachments/assets/2df4f67e-3403-4340-8c87-996d655ef111)
+
+📸 **Start Menu and Taskbar Settings**
+
+![Start Menu and Taskbar Settings 1](https://github.com/user-attachments/assets/d6e63319-8182-4701-84c8-ff87658cf967)
+
+📸 **Start Menu and Taskbar Settings**
+
+![Start Menu and Taskbar Settings 2](https://github.com/user-attachments/assets/1890af72-3bb0-4d54-a3ed-a06d2e1291cc)
 
 - Remove access to taskbar context menus: Disabled  
 - Remove "Search the Internet" link: Enabled  
@@ -195,7 +203,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Windows Update Settings**
 
 ![Windows Update Screenshot](../06-Screenshots/08-Windows-Update.png)
 
@@ -216,9 +224,25 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Microsoft Edge Settings**
 
-![Microsoft Edge Screenshot](../06-Screenshots/09-Edge-Settings.png)
+![Microsoft Edge Settings](https://github.com/user-attachments/assets/618a6ab5-bc5e-425c-bfb3-d01a3a4b79d2)
+
+📸 **Microsoft Edge Settings**
+
+![Microsoft Edge Settings 1](https://github.com/user-attachments/assets/cbc8ff72-667a-420b-8866-07fd3710ea2d)
+
+📸 **Microsoft Edge Settings**
+
+![Microsoft Edge Settings 2](https://github.com/user-attachments/assets/e766778d-525d-45a4-9de8-e793c0dc4e85)
+
+📸 **Microsoft Edge Settings**
+
+![Microsoft Edge Settings 3](https://github.com/user-attachments/assets/2f1caf01-4b5d-4cd2-8845-a20084e2ef83)
+
+📸 **Microsoft Edge Settings**
+
+![Microsoft Edge Settings 4](https://github.com/user-attachments/assets/4575549a-80d6-4535-ac90-770059076549)
 
 - **Action to take on Microsoft Edge startup:** Enabled
 - **Allow users to be alerted if their passwords are found to be unsafe:** Enabled

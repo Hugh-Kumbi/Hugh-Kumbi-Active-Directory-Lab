@@ -200,7 +200,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔧 Windows Update for Business
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
 
 📸 **Windows Update Settings**
 
@@ -230,7 +230,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🌎 Microsoft Edge Settings
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
 
 📸 **Microsoft Edge Settings**
 
@@ -275,16 +275,24 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### ⚙️ Control Panel
 
-**Path:** `User Configuration > Policies > Administrative Templates > Control Panel`
+**Path:** 📂 `User Configuration > Policies > Administrative Templates > Control Panel`
 
-- **Prohibit access to Control Panel and PC settings:** Disabled (or Enabled for kiosk)
-
-### 💻 System
-**Path:** `Computer Configuration > Policies > Administrative Templates > System`
-
-📸 **Xxxxxxxxxxxxx**
+📸 **Control Panel Settings**
 
 ![Control Panel and System Screenshot](../06-Screenshots/09-Edge-Settings.png)
+
+- **Prohibit access to Control Panel and PC settings:** Enabled
+
+### 💻 System
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System`
+
+📸 **System Settings**
+
+![System Settings 2](https://github.com/user-attachments/assets/36486c0e-af16-4662-adc9-865d8aa6f78d)
+
+📸 **System Settings**
+
+![System Settings 1](https://github.com/user-attachments/assets/74d8674a-d2b7-48a3-83d7-4fdf28a67fee)
 
 - Turn off DEP for Explorer: Disabled  
 - Turn off heap termination on corruption: Disabled  
@@ -292,7 +300,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🌐 Network
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Network`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Network`
 
 📸 **Xxxxxxxxxxxxx**
 
@@ -305,7 +313,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 🔋 Power Management
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > System > Power Management`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
 
 📸 **Xxxxxxxxxxxxx**
 
@@ -322,7 +330,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🛡️ Data Loss Prevention
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
 
 📸 **Xxxxxxxxxxxxx**
 
@@ -334,7 +342,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔐 BitLocker Drive Encryption
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
 
 📸 **Xxxxxxxxxxxxx**
 
@@ -351,7 +359,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📋 AppLocker
 
-**Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
 
 📸 **Xxxxxxxxxxxxx**
 
@@ -364,7 +372,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📁 App Package Deployment
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
 - Deployment in special profiles: Disabled  
 - Block user app installs: Enabled
@@ -373,7 +381,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 🔧 Device Installation
 
-**Path:** `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
+**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
 
 📸 **Xxxxxxxxxxxxx**
 

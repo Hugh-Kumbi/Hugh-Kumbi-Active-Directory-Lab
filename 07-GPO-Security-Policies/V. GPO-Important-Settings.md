@@ -45,9 +45,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **User Rights Assignment**
 
-![User Rights Assignment Screenshot](../06-Screenshots/03-User-Rights-Assignment.png)
+![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
 
 | Setting                                         | Assigned To                                                                                                                      |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|

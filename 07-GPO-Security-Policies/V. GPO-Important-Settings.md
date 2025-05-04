@@ -204,7 +204,16 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Windows Update Settings**
 
-![Windows Update Screenshot](../06-Screenshots/08-Windows-Update.png)
+![Windows Update Settings](https://github.com/user-attachments/assets/bdfc9c27-934d-4465-b8dc-f9c1e9692869)
+
+📸 **Windows Update Settings**
+
+![Windows Update Settings 1](https://github.com/user-attachments/assets/f127dba5-964a-4ddf-a7e1-be47748fa67c)
+
+📸 **Windows Update Settings**
+
+![Windows Update Settings 2](https://github.com/user-attachments/assets/13c858f1-ce85-4380-bbd6-9b011f15c3af)
+
 
 | Setting                                              | Value                         |
 |------------------------------------------------------|-------------------------------|

@@ -14,6 +14,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
 
+
 | Setting                                             | Value                   |
 |-----------------------------------------------------|-------------------------|
 | Enforce password history                            | 24 passwords remembered |
@@ -48,6 +49,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 📸 **User Rights Assignment**
 
 ![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
+
+![User Rights Assignment](https://github.com/user-attachments/assets/439c855e-43ea-4c5e-9e3a-7ce91efe1139)
+
 
 | Setting                                         | Assigned To                                                                                                                      |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|

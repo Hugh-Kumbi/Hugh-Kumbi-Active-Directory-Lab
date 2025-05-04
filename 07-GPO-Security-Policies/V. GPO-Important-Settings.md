@@ -172,7 +172,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 - **Desktop Wallpaper:** Set to corporate wallpaper
 - **Desktop Icons:** Control icons on desktop
-- **Screen saver:** Enabled with 15-minute timeout and password protection
 
 ### 📋 Start Menu and Taskbar
 

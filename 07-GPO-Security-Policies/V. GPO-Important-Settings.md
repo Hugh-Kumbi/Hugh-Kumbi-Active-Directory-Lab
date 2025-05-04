@@ -70,9 +70,12 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
-📸 **Xxxxxxxxxxxxx**
+📸 **Security Options**
 
-![Security Options Screenshot](../06-Screenshots/04-Security-Options.png)
+![Security Options](https://github.com/user-attachments/assets/61a85dad-1038-4f0d-9965-0a27e57e93ea)
+
+![Security Options 2](https://github.com/user-attachments/assets/f9166e44-8d35-40e3-a373-7c00e4170b5e)
+
 
 | Setting                                                                    | Value                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|

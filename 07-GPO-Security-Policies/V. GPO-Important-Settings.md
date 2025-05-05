@@ -175,7 +175,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📋 Start Menu and Taskbar
 
-**Path:** `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+**Path:** 📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
 
 📸 **Start Menu and Taskbar Settings**
 
@@ -381,19 +381,19 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
 
-📸 **AppLocker Settings Executable Rules**
+📸 **AppLocker Settings Executable Rules Settings**
 
 ![AppLocker Settings](https://github.com/user-attachments/assets/a8109dc1-b983-44ef-a7b8-4dceffaaef0f)
 
-📸 **AppLocker Settings Windows Installer Rules**
+📸 **AppLocker Settings Windows Installer Rules Settings**
 
 ![AppLocker Settings 1](https://github.com/user-attachments/assets/59ec0b18-e225-432e-b818-87f599da3445)
 
-📸 **AppLocker Settings Script Rules**
+📸 **AppLocker Settings Script Rules Settings**
 
 ![AppLocker Settings 2](https://github.com/user-attachments/assets/38351e58-6bc2-4c75-a374-72bbccecd7ee)
 
-📸 **AppLocker Settings Packaged App Rules**
+📸 **AppLocker Settings Packaged App Rules Settings**
 
 ![AppLocker Settings 3](https://github.com/user-attachments/assets/c40e471c-4012-40a2-9337-4105c6b8968f)
 
@@ -403,6 +403,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 - Packaged App Rules: Create Default Rules & Custom Rules
 
 ### 📁 App Package Deployment
+
+📸 **App Package Deployment Settings**
+
+
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 

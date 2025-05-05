@@ -410,8 +410,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
-- Deployment in special profiles: Disabled  
-- Block user app installs: Enabled
+- Allow deployment operations in special profiles: Disabled  
+- Prevent non-admin users from installing packaged Windows apps: Enabled
 
 ---
 

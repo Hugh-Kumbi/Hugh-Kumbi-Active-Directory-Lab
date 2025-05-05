@@ -49,7 +49,11 @@ hughdomain.local
 
 📸 **Default Domain Policy Settings** 
 
-![Default Domain Policy Settings](screenshots/default-domain-policy-settings.png)
+![Default Domain Policy Settings](https://github.com/user-attachments/assets/9aaa87c0-86d7-4d21-9c92-bac9c49246a2)
+
+![Default Domain Policy Settings 1](https://github.com/user-attachments/assets/e65f50af-42be-4891-8126-90428d0037be)
+
+![Default Domain Policy Settings 2](https://github.com/user-attachments/assets/5422c8b5-da57-40c7-b0f9-16ee72faa32d)
 
 - **Scope**: Domain-wide
 - **Purpose**: Base security settings for all domain objects
@@ -59,7 +63,11 @@ hughdomain.local
 
 📸 **Domain Controllers Policy Settings**
 
-![Domain Controllers Policy Settings](screenshots/domain-controllers-policy.png)
+![Domain Controllers Policy Settings](https://github.com/user-attachments/assets/ac014281-9e62-4094-a981-6407b272df8f)
+
+![Domain Controllers Policy Settings 1](https://github.com/user-attachments/assets/acc24ad8-6113-4179-97b6-28dece0c6522)
+
+![Domain Controllers Policy Settings 2](https://github.com/user-attachments/assets/b13966bb-b069-4bf8-8894-3d8fdbaa6d65)
 
 - **Scope**: Domain Controllers OU
 - **Purpose**: Secure authentication servers
@@ -69,7 +77,23 @@ hughdomain.local
 
 📸 **Windows Firewall GPO Settings**
 
-![Windows Firewall GPO Settings](screenshots/firewall-policy-settings.png)
+![Windows Firewall GPO Settings](https://github.com/user-attachments/assets/ac917249-25d1-4678-8972-f35fea310b91)
+
+![Windows Firewall GPO Settings 1](https://github.com/user-attachments/assets/2982e38f-d73a-4377-bf3a-4bc2099f2013)
+
+![Windows Firewall GPO Settings 2](https://github.com/user-attachments/assets/d2449593-b4c2-462c-9d17-7b4e81e1855b)
+
+![Windows Firewall GPO Settings 3](https://github.com/user-attachments/assets/922f47b2-e39a-4c73-b1d9-e62fe5b82105)
+
+![Windows Firewall GPO Settings 4](https://github.com/user-attachments/assets/a8ced314-1865-47e5-be8d-7416e40515b2)
+
+![Windows Firewall GPO Settings 5](https://github.com/user-attachments/assets/28102bef-a40a-41e2-ac3a-e48444bbe1b2)
+
+![Windows Firewall GPO Settings 6](https://github.com/user-attachments/assets/b26c22c5-b937-486d-ae42-b935ef58b597)
+
+![Windows Firewall GPO Settings 7](https://github.com/user-attachments/assets/8a606efe-8744-45e6-b0e5-14851bef7355)
+
+![Windows Firewall GPO Settings 8](https://github.com/user-attachments/assets/8ba5a134-22d3-4211-805b-111a292c573a)
 
 - **Scope**: Domain-wide (focused on DCs)
 - **Purpose**: Enforce firewall configurations
@@ -79,7 +103,17 @@ hughdomain.local
 
 📸 **Windows 11 Security Policy Settings**
 
-![Windows 11 Security Policy Settings](screenshots/win11-security-policy.png)
+![Windows 11 Security Policy Settings](https://github.com/user-attachments/assets/a84540e5-a165-4a99-a2fa-e082ec06d46b)
+
+![Windows 11 Security Policy Settings 1](https://github.com/user-attachments/assets/ce700c1e-2e63-4cd7-bc95-33e197f9f143)
+
+![Windows 11 Security Policy Settings 2](https://github.com/user-attachments/assets/edcd97e8-8326-40fc-a591-f08cf720f4b1)
+
+![Windows 11 Security Policy Settings 3](https://github.com/user-attachments/assets/c1d6cc12-c670-4bdd-a5f7-812f99465490)
+
+![Windows 11 Security Policy Settings 4](https://github.com/user-attachments/assets/09442dd5-4627-4c07-b771-3e5a92ac91c2)
+
+![Windows 11 Security Policy Settings 5](https://github.com/user-attachments/assets/2e051cf5-fc23-4e8e-ad5c-da089f513dbd)
 
 - **Scope**: Windows 11 workstations
 - **Purpose**: Harden client endpoints
@@ -89,7 +123,11 @@ hughdomain.local
 
 📸 **Windows Defender Policy Configuration**
 
-![Windows Defender Policy Configuration](screenshots/windows-defender-policy.png)
+![Windows Defender Policy Configuration](https://github.com/user-attachments/assets/bdf16b4c-ef6e-4cb3-ba73-01e90880448c)
+
+![Windows Defender Policy Configuration 1](https://github.com/user-attachments/assets/98c3c2ac-c360-42a2-ad9f-3193dc6512f1)
+
+![Windows Defender Policy Configuration 2](https://github.com/user-attachments/assets/c999a0bf-f267-4166-801a-5540ae8285f1)
 
 - **Scope**: All computers
 - **Purpose**: Antivirus and threat protection
@@ -99,7 +137,11 @@ hughdomain.local
 
 📸 **Network Security GPO Settings**
 
-![Network Security GPO Settings](screenshots/network-security-settings.png)
+![Network Security GPO Settings](https://github.com/user-attachments/assets/1dcb2d60-b128-43ab-9c6e-f38a21d72149)
+
+![Network Security GPO Settings 1](https://github.com/user-attachments/assets/2862f9fb-067f-43fe-9e8e-3c5463092dcc)
+
+![Network Security GPO Settings 2](https://github.com/user-attachments/assets/8cb223f5-3390-4ea6-8c99-52e7ce126fad)
 
 - **Scope**: All computers
 - **Purpose**: Secure communication protocols
@@ -109,7 +151,9 @@ hughdomain.local
 
 📸 **Restricted Groups Configuration**
 
-![Restricted Groups Configuration](screenshots/restricted-groups-policy.png)
+![Restricted Groups Policy](https://github.com/user-attachments/assets/79ae5617-c6c1-4ff8-ae48-a173feb8d179)
+
+![Restricted Groups Policy 1](https://github.com/user-attachments/assets/2711c893-e041-4006-b0a1-05528e5e5a38)
 
 - **Scope**: DCs and IT Security computers
 - **Purpose**: Manage group membership
@@ -119,17 +163,31 @@ hughdomain.local
 
 📸 **IPsec Policy Settings**
 
-![IPsec Policy Settings](screenshots/ipsec-policy-settings.png)
+![IPsec Policy Settings](https://github.com/user-attachments/assets/85505f69-af0e-4cc8-b0e0-66bdac833a06)
+
+![IPsec Policy Settings 1](https://github.com/user-attachments/assets/60f7f5eb-0445-4479-8084-7689494aec29)
+
+![IPsec Policy Settings 2](https://github.com/user-attachments/assets/ec98372d-0600-4932-9afd-b25ab24fc61f)
 
 - **Scope**: Secure communication channels
 - **Purpose**: Encrypt sensitive traffic
 - **Key Settings**: IPsec rules, encryption, authentication
 
-### 9. Map Network Drives Policy
+### 9. Map Network Drives Policies
 
 📸 **Drive Mapping Policy**
 
-![Drive Mapping Policy](screenshots/map-network-drives-policy.png)
+![Drive Mapping Policy](https://github.com/user-attachments/assets/4908581f-1bd2-4216-8283-2bc9efeabc40)
+
+![Drive Mapping Policy 1](https://github.com/user-attachments/assets/074cce5f-c86b-4cf3-9def-8d4a86d4d6fa)
+
+![Drive Mapping Policy 2](https://github.com/user-attachments/assets/2c043a6f-5d48-4cc4-a05a-a5786ede9ca3)
+
+![Map Network Drives Policy](https://github.com/user-attachments/assets/c41fa089-611e-45ea-83f3-1c6d62f92827)
+
+![Map Network Drives Policy 1](https://github.com/user-attachments/assets/25b7969b-ac58-4f79-b9ea-4d58ddd10cf3)
+
+![Map Network Drives Policy 2](https://github.com/user-attachments/assets/dff93057-da6f-4af6-8fe9-cc6868d871fc)
 
 - **Scope**: User configuration
 - **Purpose**: Drive mapping automation

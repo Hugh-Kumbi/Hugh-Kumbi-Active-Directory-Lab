@@ -244,7 +244,91 @@ hughdomain.local
 
 📸 **Computer Configuration Settings**
 
-![Computer Configuration Settings](screenshots/computer-configuration.png)
+![Computer Configuration Settings On Client Machine](https://github.com/user-attachments/assets/aa654be4-c939-41c8-bc0e-f01f1d4332ad)
+
+![Computer Configuration Settings On Client Machine 1](https://github.com/user-attachments/assets/6db814d0-7fd3-4504-9659-0790f4157f24)
+
+![Computer Configuration Settings On Client Machine 2](https://github.com/user-attachments/assets/8dbf86c1-9511-41c2-af93-cf8c92b15969)
+
+![Computer Configuration Settings On Client Machine 3](https://github.com/user-attachments/assets/37932f22-8052-486f-bcf9-e6856e441d54)
+
+![Computer Configuration Settings On Client Machine 4](https://github.com/user-attachments/assets/894e157e-0edb-4cde-9f59-f2b9344912c7)
+
+![Computer Configuration Settings On Client Machine 5](https://github.com/user-attachments/assets/f1f45fbf-8492-4f00-8559-33c214445fd0)
+
+![Computer Configuration Settings On Client Machine 6](https://github.com/user-attachments/assets/cfbd4fd3-c532-408b-bffb-e8a013a97bb1)
+
+![Computer Configuration Settings On Client Machine 7](https://github.com/user-attachments/assets/b46a373c-a80e-431e-a969-e5103ff52c5d)
+
+![Computer Configuration Settings On Client Machine 8](https://github.com/user-attachments/assets/c2cde3bd-a091-4330-9f10-3516cfad4530)
+
+![Computer Configuration Settings On Client Machine 9](https://github.com/user-attachments/assets/5e9cb427-a7bf-4af7-8893-6166b4530283)
+
+![Computer Configuration Settings On Client Machine 10](https://github.com/user-attachments/assets/531a9f11-1b30-4a27-beb7-4ec0e0515a39)
+
+![Computer Configuration Settings On Client Machine 11](https://github.com/user-attachments/assets/5eeed4d6-dc9b-49d4-b3f7-d1d8c688c352)
+
+![Computer Configuration Settings On Client Machine 12](https://github.com/user-attachments/assets/e73615c8-b1f2-4e1b-afb9-6ac46cbdc7f1)
+
+![Computer Configuration Settings On Client Machine 13](https://github.com/user-attachments/assets/a6c04758-080b-439c-a8cd-94eadab503f4)
+
+![Computer Configuration Settings On Client Machine 14](https://github.com/user-attachments/assets/fffd8a0b-3f56-4cbc-b229-c8757d3806bb)
+
+![Computer Configuration Settings On Client Machine 15](https://github.com/user-attachments/assets/aabfa352-8895-4368-8213-63f34d2d5aff)
+
+![Computer Configuration Settings On Client Machine 16](https://github.com/user-attachments/assets/1e3f9948-27d9-401b-b6e6-2a7d4dd5a37a)
+
+![Computer Configuration Settings On Client Machine 17](https://github.com/user-attachments/assets/801f67ba-99f9-4582-a813-6a92a2e75ac8)
+
+![Computer Configuration Settings On Client Machine 18](https://github.com/user-attachments/assets/860fa969-5488-4d67-a3ac-4fcdc74c7c1d)
+
+![Computer Configuration Settings On Client Machine 19](https://github.com/user-attachments/assets/eaed7b36-e51d-43cb-bcc3-b2aa510531e1)
+
+![Computer Configuration Settings On Client Machine 20](https://github.com/user-attachments/assets/8750d004-95ef-4ef6-9a90-afaaf09517c3)
+
+![Computer Configuration Settings On Client Machine 21](https://github.com/user-attachments/assets/99e0fbc6-af32-465f-94a3-847c5beabc14)
+
+![Computer Configuration Settings On Client Machine 22](https://github.com/user-attachments/assets/216bc197-7093-4edc-b0ee-8d8dc7feda6a)
+
+![Computer Configuration Settings On Client Machine 23](https://github.com/user-attachments/assets/217c95c7-0a2e-4395-a627-207da57fec5f)
+
+![Computer Configuration Settings On Client Machine 24](https://github.com/user-attachments/assets/947ac508-44ae-4810-8e8f-e3e5e96f0cd2)
+
+![Computer Configuration Settings On Client Machine 25](https://github.com/user-attachments/assets/378d8d16-b0fc-4913-b721-e071bd7fdfea)
+
+![Computer Configuration Settings On Client Machine 26](https://github.com/user-attachments/assets/0cc5bd38-13cc-4cb0-8c93-77f87c82f6f2)
+
+![Computer Configuration Settings On Client Machine 27](https://github.com/user-attachments/assets/6c318c12-c122-4f03-a8d8-d4dfe97d2624)
+
+![Computer Configuration Settings On Client Machine 28](https://github.com/user-attachments/assets/eaa8045f-be88-4900-868d-ac6f5a196482)
+
+![Computer Configuration Settings On Client Machine 29](https://github.com/user-attachments/assets/8802dc54-251e-48f5-89a3-dc3fca3ce03d)
+
+![Computer Configuration Settings On Client Machine 30](https://github.com/user-attachments/assets/73df91c1-8bca-4328-bc72-919ff7595da4)
+
+![Computer Configuration Settings On Client Machine 31](https://github.com/user-attachments/assets/0be92bfb-1568-4a2a-84c7-9cbc1fff4a0b)
+
+![Computer Configuration Settings On Client Machine 32](https://github.com/user-attachments/assets/fc0d1f94-391a-48cc-b2d0-390d0a5ceef2)
+
+![Computer Configuration Settings On Client Machine 33](https://github.com/user-attachments/assets/9582f1ea-8559-4c40-838a-195549e6be41)
+
+![Computer Configuration Settings On Client Machine 34](https://github.com/user-attachments/assets/f0a82c55-9ff2-483a-8459-6391b941a5fc)
+
+![Computer Configuration Settings On Client Machine 35](https://github.com/user-attachments/assets/ffb47982-0d58-4f6e-9a59-b9c78b5c6838)
+
+![Computer Configuration Settings On Client Machine 36](https://github.com/user-attachments/assets/317393c2-e374-46c3-8d94-8670df415285)
+
+![Computer Configuration Settings On Client Machine 37](https://github.com/user-attachments/assets/37a2bd2a-a84a-4845-b264-0174e5a5a028)
+
+![Computer Configuration Settings On Client Machine 38](https://github.com/user-attachments/assets/5993f326-0d32-486a-a824-00b451132cda)
+
+![Computer Configuration Settings On Client Machine 39](https://github.com/user-attachments/assets/898e4e44-5ace-4f20-8784-a99587ec6ad7)
+
+![Computer Configuration Settings On Client Machine 40](https://github.com/user-attachments/assets/691cdb3f-5867-4793-a03a-41128f37c682)
+
+![Computer Configuration Settings On Client Machine 41](https://github.com/user-attachments/assets/43ca570d-2c37-478d-a50f-2af4661141ed)
+
+![Computer Configuration Settings On Client Machine 42](https://github.com/user-attachments/assets/0dbcb6ac-1198-424b-aa65-7e42795ae13f)
 
 ### User Configuration
 
@@ -258,7 +342,46 @@ hughdomain.local
 
 📸 **User Configuration Settings**
 
-![User Configuration Settings](screenshots/user-configuration.png)
+![User Configuration Settings On Client Machine](https://github.com/user-attachments/assets/8625f087-b4a6-402d-9e3a-0898d5c30211)
+
+![User Configuration Settings On Client Machine 1](https://github.com/user-attachments/assets/1d93478b-d559-4ebd-a46c-8bf21390e961)
+
+![User Configuration Settings On Client Machine 2](https://github.com/user-attachments/assets/afd58271-297b-4eea-a0d8-02286904235e)
+
+---
+
+## 📅 Implementation Methodology
+
+### 1. Planning Phase
+- OU structure and security group planning
+- Policy categorization
+
+### 2. Development Phase
+- Lab setup and policy testing
+- Documentation drafting
+
+### 3. Deployment Phase
+- Test group rollout
+- Staggered production deployment
+- Performance monitoring
+
+### 4. Maintenance Phase
+- Ongoing policy review and refinement
+- Documentation updates
+
+---
+
+## 🎯 Group Policy Filtering
+
+### Security Filtering
+- Example: Windows Defender policy limited to select groups
+
+### WMI Filtering
+- OS version targeting
+- Hardware-based deployment
+
+### Block Inheritance
+- Used in sensitive OUs with enforced policies
 
 ---
 

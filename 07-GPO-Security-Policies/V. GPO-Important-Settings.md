@@ -406,7 +406,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **App Package Deployment Settings**
 
-
+![App Package Deployment Settings](https://github.com/user-attachments/assets/eee5dc48-9ab9-44c5-a9c4-420e24b18f4e)
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
@@ -428,49 +428,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## ✅ Best Practices for GPO Implementation
+## 🗂️ 5. Screenshot Storage
 
-### 📁 Use GPO Categories:
-
-- Security policies  
-- Software deployment  
-- User preferences  
-- Windows settings
-
-### 🎯 GPO Filtering:
-
-- Use security filtering to target specific groups  
-- Apply WMI filtering for hardware/software targeting  
-- Use item-level targeting for preferences
-
-### 🔗 GPO Links:
-
-- Link GPOs at appropriate OU levels  
-- Avoid linking conflicting GPOs  
-- Use "Enforced" sparingly
-
-### 🔄 GPO Processing:
-
-- Computer settings process at startup  
-- User settings process at logon  
-- Consider slow link detection settings  
-- Configure processing order as needed
-
-### 🧪 Testing and Verification:
-
-- Test GPOs in a lab before production  
-- Use `gpresult /r` or `gpresult /h` to troubleshoot  
-- Create a test OU that mirrors production
-
-### 📝 Documentation:
-
-- Document purpose and settings of each GPO  
-- Maintain a change history  
-- Keep a current GPO inventory
-
-### 🚀 Performance Considerations:
-
-- Limit number of GPOs  
-- Avoid excessive item-level targeting  
-- Use loopback processing only when necessary  
-- Clean up unused or outdated GPOs
+Store all screenshots in:
+📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection-Properties.png`]()

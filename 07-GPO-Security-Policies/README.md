@@ -98,7 +98,8 @@ Core security policies enforcing authentication standards and access controls, i
 
 ##### 🔑 Password Policies
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 | Setting | Value |
@@ -110,7 +111,8 @@ Core security policies enforcing authentication standards and access controls, i
 
 ##### 🚫 Account Lockout Policies
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 | Setting | Value |
@@ -126,7 +128,8 @@ Endpoint protection settings enabling real-time threat detection, behavioral mon
 
 ##### Microsoft Defender Antivirus
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 Key Settings:
@@ -136,7 +139,8 @@ Key Settings:
 
 ##### Firewall Settings
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall`
 
 | Profile | Firewall State | Inbound | Outbound |
@@ -151,14 +155,16 @@ Standardized interface configurations that enforce corporate branding while limi
 
 ##### Desktop Configuration
 
-**Path:**  
+These settings are configured under:
+  
   📂 `User Configuration > Policies > Administrative Templates > Desktop`
 - Enforced corporate wallpaper
 - Controlled desktop icons
 
 ##### Start Menu Customization
 
-**Path:**  
+These settings are configured under:
+  
   📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
 - Removed "Search the Internet" option
 - Disabled user tracking
@@ -169,7 +175,8 @@ Standardized interface configurations that enforce corporate branding while limi
 
 Centralized patch management policies that enforce scheduled security updates, feature rollouts, and quality patches while maintaining operational stability through controlled deployment cycles. Configures automatic download/install schedules with enterprise-appropriate deferral periods to balance security responsiveness with business continuity requirements.
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update`
 - Update deployment: Semi-Annual Channel
 - Quality updates: 7-day deferral
@@ -183,7 +190,8 @@ Whitelisting policies leveraging AppLocker and deployment restrictions to preven
 
 ##### AppLocker Policies
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
 - Created default rules for:
   - Executables (.exe)
@@ -193,7 +201,8 @@ Whitelisting policies leveraging AppLocker and deployment restrictions to preven
 
 ##### App Deployment Restrictions
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 - Blocked user app installations
 - Disabled special profile deployments
@@ -204,7 +213,8 @@ Whitelisting policies leveraging AppLocker and deployment restrictions to preven
 
 Hardware restriction policies that govern peripheral and storage device usage through device ID and class-based blocking to prevent data exfiltration and unauthorized hardware access.
 
-**Path:**  
+These settings are configured under:
+  
   📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation`
 - Blocked installation by:
   - Device IDs (specific hardware)

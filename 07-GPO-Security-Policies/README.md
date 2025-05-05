@@ -227,7 +227,7 @@ These settings are configured under:
 - `I. Password Policy.md`: Detailed configurations for enforcing strong password policies.
 - `II. Account-Lockout-Policy.md`: Settings to prevent unauthorized access through account lockouts.
 - `III. Audit-Policy.md`: Configurations for auditing and monitoring critical security events.
-- `III. GPO-Important-Settings.md`: Configurations for security baselines, ensuring corporate compliance, and optimization of user experience in a Windows enterprise environment.
+- `IV. GPO-Important-Settings.md`: Configurations for security baselines, ensuring corporate compliance, and optimization of user experience in a Windows enterprise environment.
 - `README.md`: This documentation file summarizing the implemented security policies.
 
 ---

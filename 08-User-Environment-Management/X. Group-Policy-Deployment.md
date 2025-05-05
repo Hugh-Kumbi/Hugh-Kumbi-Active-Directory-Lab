@@ -35,7 +35,7 @@ hughdomain.local
 
 📸 **OU Structure in Active Directory Users and Computers**
 
-![OU Structure in Active Directory Users and Computers](screenshots/ou-structure.png)
+![OU Structure in Active Directory Users and Computers](https://github.com/user-attachments/assets/31108f9f-0809-49fd-bcb1-b56b4ca4d080)
 
 ---
 

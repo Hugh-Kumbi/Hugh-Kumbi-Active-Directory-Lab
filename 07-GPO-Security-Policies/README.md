@@ -88,23 +88,125 @@ Detailed configurations can be found in the `III. Audit-Policy.md` file.
 
 ---
 
+## 📘 Group Policy Important Settings Guide
+
+### 🔐 Security Baseline Settings
+
+#### 🔑 Password Policies
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
+
+| Setting | Value |
+|---------|-------|
+| Enforce password history | 24 passwords |
+| Maximum password age | 90 days |
+| Minimum password length | 14 characters |
+| Password complexity | Enabled |
+
+#### 🚫 Account Lockout Policies
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
+
+| Setting | Value |
+|---------|-------|
+| Account lockout threshold | 5 attempts |
+| Lockout duration | 30 minutes |
+
+### 🛡️ Windows Defender Configuration
+
+#### Microsoft Defender Antivirus
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
+
+Key Settings:
+- Real-time protection: Enabled
+- Behavior monitoring: Enabled
+- Scheduled scans: Full scan weekly
+
+#### Firewall Settings
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall`
+
+| Profile | Firewall State | Inbound | Outbound |
+|---------|---------------|---------|----------|
+| Domain | On | Block | Allow |
+
+### 🖥️ User Experience Settings
+
+#### Desktop Configuration
+
+**Path:**  
+  📂 `User Configuration > Policies > Administrative Templates > Desktop`
+- Enforced corporate wallpaper
+- Controlled desktop icons
+
+#### Start Menu Customization
+
+**Path:**  
+  📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+- Removed "Search the Internet" option
+- Disabled user tracking
+
+### 🔄 Windows Update Management
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update`
+- Update deployment: Semi-Annual Channel
+- Quality updates: 7-day deferral
+- Automatic updates: Enabled (3AM daily)
+
+### 📦 Application Control
+
+#### AppLocker Policies
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+- Created default rules for:
+  - Executables (.exe)
+  - Windows Installers (.msi)
+  - Scripts (.ps1, .bat)
+  - Packaged Apps (AppX)
+
+#### App Deployment Restrictions
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
+- Blocked user app installations
+- Disabled special profile deployments
+
+### 🔧 Device Management
+
+**Path:**  
+  📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation`
+- Blocked installation by:
+  - Device IDs (specific hardware)
+  - Setup classes (disk drives, etc.)
+
+---
+
 ## 📂 Files Included
 
 - `I. Password Policy.md`: Detailed configurations for enforcing strong password policies.
 - `II. Account-Lockout-Policy.md`: Settings to prevent unauthorized access through account lockouts.
 - `III. Audit-Policy.md`: Configurations for auditing and monitoring critical security events.
+- `III. GPO-Important-Settings.md`: Configurations for security baselines, ensuring corporate compliance, and optimization of user experience in a Windows enterprise environment.
 - `README.md`: This documentation file summarizing the implemented security policies.
 
 ---
 
 ## ✅ Outcome
 
-By applying these security policies:
-- **Enhanced Authentication Security:** Enforced strong password requirements to prevent unauthorized access.
-- **Protection Against Brute-Force Attacks:** Implemented account lockout mechanisms to deter repeated unauthorized login attempts.
-- **Improved Monitoring and Compliance:** Established comprehensive auditing to monitor security events and ensure compliance with security standards.
-- **Controlled User Privileges:** Defined user rights to limit actions to authorized personnel only.
-
+Implemented Group Policy configurations have achieved:
+- **Enhanced Security Posture**: Reduced attack surface through strict password policies, application whitelisting, and device installation controls
+- **Standardized User Environment**: Consistent desktop experience across all domain-joined systems with controlled customization options
+- **Improved Compliance**: Meeting organizational security requirements through enforced Windows Defender configurations and update management
+- **Reduced Attack Vectors**: Application control policies prevent execution of unauthorized scripts and binaries
+- **Controlled Device Ecosystem**: Hardware restrictions prevent installation of unauthorized peripherals and storage devices
+  
 ---
 
 ## 📚 References
@@ -114,3 +216,11 @@ By applying these security policies:
 [Group Policy Overview](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
 
 [Configure Group Policies to Set Security](https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/configure-group-policies-set-security)
+
+[Microsoft Security Baselines](https://learn.microsoft.com/en-us/windows/security/)
+
+[NIST SP 800-53 Security Controls](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+
+[CIS Windows Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
+
+[Microsoft Group Policy Documentation](https://learn.microsoft.com/en-us/windows-server/identity/group-policy/group-policy-overview)

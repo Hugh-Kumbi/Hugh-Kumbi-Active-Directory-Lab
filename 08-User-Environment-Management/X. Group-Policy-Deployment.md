@@ -16,10 +16,6 @@ This document outlines the implementation of a comprehensive Group Policy strate
 
 ## 🗂️ Organizational Unit (OU) Structure
 
-📸 **OU Structure in Active Directory Users and Computers**
-
-![OU Structure in Active Directory Users and Computers](screenshots/ou-structure.png)
-
 ```
 hughdomain.local
 ├── Domain Controllers
@@ -37,6 +33,10 @@ hughdomain.local
 └── Users
 ```
 
+📸 **OU Structure in Active Directory Users and Computers**
+
+![OU Structure in Active Directory Users and Computers](screenshots/ou-structure.png)
+
 ---
 
 ## 📜 Applied Group Policies
@@ -47,6 +47,10 @@ hughdomain.local
 
 ### 1. Default Domain Policy
 
+- **Scope**: Domain-wide
+- **Purpose**: Base security settings for all domain objects
+- **Key Settings**: Password policies, account lockout policies, Kerberos settings
+
 📸 **Default Domain Policy Settings** 
 
 ![Default Domain Policy Settings](https://github.com/user-attachments/assets/9aaa87c0-86d7-4d21-9c92-bac9c49246a2)
@@ -55,11 +59,11 @@ hughdomain.local
 
 ![Default Domain Policy Settings 2](https://github.com/user-attachments/assets/5422c8b5-da57-40c7-b0f9-16ee72faa32d)
 
-- **Scope**: Domain-wide
-- **Purpose**: Base security settings for all domain objects
-- **Key Settings**: Password policies, account lockout policies, Kerberos settings
-
 ### 2. Default Domain Controllers Policy
+
+- **Scope**: Domain Controllers OU
+- **Purpose**: Secure authentication servers
+- **Key Settings**: User rights assignments, security options, audit policies
 
 📸 **Domain Controllers Policy Settings**
 
@@ -69,11 +73,11 @@ hughdomain.local
 
 ![Domain Controllers Policy Settings 2](https://github.com/user-attachments/assets/b13966bb-b069-4bf8-8894-3d8fdbaa6d65)
 
-- **Scope**: Domain Controllers OU
-- **Purpose**: Secure authentication servers
-- **Key Settings**: User rights assignments, security options, audit policies
-
 ### 3. Windows Firewall Settings Policy
+
+- **Scope**: Domain-wide (focused on DCs)
+- **Purpose**: Enforce firewall configurations
+- **Key Settings**: Firewall enabled, port rules, logging
 
 📸 **Windows Firewall GPO Settings**
 
@@ -95,11 +99,11 @@ hughdomain.local
 
 ![Windows Firewall GPO Settings 8](https://github.com/user-attachments/assets/8ba5a134-22d3-4211-805b-111a292c573a)
 
-- **Scope**: Domain-wide (focused on DCs)
-- **Purpose**: Enforce firewall configurations
-- **Key Settings**: Firewall enabled, port rules, logging
-
 ### 4. Win11 Security Policy
+
+- **Scope**: Windows 11 workstations
+- **Purpose**: Harden client endpoints
+- **Key Settings**: Exploit protection, Credential Guard, AppLocker
 
 📸 **Windows 11 Security Policy Settings**
 
@@ -115,11 +119,11 @@ hughdomain.local
 
 ![Windows 11 Security Policy Settings 5](https://github.com/user-attachments/assets/2e051cf5-fc23-4e8e-ad5c-da089f513dbd)
 
-- **Scope**: Windows 11 workstations
-- **Purpose**: Harden client endpoints
-- **Key Settings**: Exploit protection, Credential Guard, AppLocker
-
 ### 5. Windows Defender Settings Policy
+
+- **Scope**: All computers
+- **Purpose**: Antivirus and threat protection
+- **Key Settings**: Real-time protection, cloud protection, scans
 
 📸 **Windows Defender Policy Configuration**
 
@@ -129,11 +133,11 @@ hughdomain.local
 
 ![Windows Defender Policy Configuration 2](https://github.com/user-attachments/assets/c999a0bf-f267-4166-801a-5540ae8285f1)
 
-- **Scope**: All computers
-- **Purpose**: Antivirus and threat protection
-- **Key Settings**: Real-time protection, cloud protection, scans
-
 ### 6. Network Security Settings Policy
+
+- **Scope**: All computers
+- **Purpose**: Secure communication protocols
+- **Key Settings**: SMB/LDAP signing, TLS configurations
 
 📸 **Network Security GPO Settings**
 
@@ -143,11 +147,11 @@ hughdomain.local
 
 ![Network Security GPO Settings 2](https://github.com/user-attachments/assets/8cb223f5-3390-4ea6-8c99-52e7ce126fad)
 
-- **Scope**: All computers
-- **Purpose**: Secure communication protocols
-- **Key Settings**: SMB/LDAP signing, TLS configurations
-
 ### 7. Restricted Groups Policy
+
+- **Scope**: DCs and IT Security computers
+- **Purpose**: Manage group membership
+- **Key Settings**: Enforced privileged group control
 
 📸 **Restricted Groups Configuration**
 
@@ -155,11 +159,11 @@ hughdomain.local
 
 ![Restricted Groups Policy 1](https://github.com/user-attachments/assets/2711c893-e041-4006-b0a1-05528e5e5a38)
 
-- **Scope**: DCs and IT Security computers
-- **Purpose**: Manage group membership
-- **Key Settings**: Enforced privileged group control
-
 ### 8. IPsec Authentication Policy
+
+- **Scope**: Secure communication channels
+- **Purpose**: Encrypt sensitive traffic
+- **Key Settings**: IPsec rules, encryption, authentication
 
 📸 **IPsec Policy Settings**
 
@@ -169,11 +173,11 @@ hughdomain.local
 
 ![IPsec Policy Settings 2](https://github.com/user-attachments/assets/ec98372d-0600-4932-9afd-b25ab24fc61f)
 
-- **Scope**: Secure communication channels
-- **Purpose**: Encrypt sensitive traffic
-- **Key Settings**: IPsec rules, encryption, authentication
-
 ### 9. Map Network Drives Policies
+
+- **Scope**: User configuration
+- **Purpose**: Drive mapping automation
+- **Key Settings**: Department/home folder mappings
 
 📸 **Drive Mapping Policy**
 
@@ -189,17 +193,9 @@ hughdomain.local
 
 ![Map Network Drives Policy 2](https://github.com/user-attachments/assets/dff93057-da6f-4af6-8fe9-cc6868d871fc)
 
-- **Scope**: User configuration
-- **Purpose**: Drive mapping automation
-- **Key Settings**: Department/home folder mappings
-
 ---
 
 ## 👥 Security Group Utilization
-
-📸 **Security Groups in Active Directory**
-
-![Security Groups in Active Directory](screenshots/security-groups.png)
 
 - `Domain Users`: Default access control
 - `Schema Admins`: Schema management
@@ -207,26 +203,30 @@ hughdomain.local
 - `BUILTIN\Administrators`: Local admin rights
 - `Group Policy Creator Owners`: GPO delegation
 
+📸 **Security Groups in Active Directory**
+
+![Security Groups in Active Directory](screenshots/security-groups.png)
+
 ---
 
 ## 🔧 Technical Implementation Details
 
-📸 **GPResult from Client Machine**
-
-![GPResult from Client Machine](screenshots/gpresult-client.png)
-
 ### Group Policy Processing
 
 - **Mode**: Normal
-- **Last Applied**: May 3, 2025, 9:20:24 PM
+- **Last Applied**: May 5, 2025, 2:45:30 PM
 - **Slow Link Threshold**: 500 kbps
 - **Policy Source**: `WIN-D2PQBCI88JQ.hughdomain.local`
 
+📸 **GPResult from Client Machine**
+
+![GPResult from Client Machine](https://github.com/user-attachments/assets/28eb2d27-4bce-427d-b832-06aafacd3d8d)
+
+![GPResult from Client Machine 1](https://github.com/user-attachments/assets/0a512658-0fbd-4a84-99e2-8ba4f3cbe71d)
+
+![GPResult from Client Machine 2](https://github.com/user-attachments/assets/a667c08c-c032-4b31-96f0-40c9ef1d9668)
+
 ### Computer Configuration
-
-📸 **Computer Configuration Settings**
-
-![Computer Configuration Settings](screenshots/computer-configuration.png)
 
 #### Application Policies
 - AppLocker enforcement
@@ -242,11 +242,11 @@ hughdomain.local
 - Security options
 - Firewall rules
 
+📸 **Computer Configuration Settings**
+
+![Computer Configuration Settings](screenshots/computer-configuration.png)
+
 ### User Configuration
-
-📸 **User Configuration Settings**
-
-![User Configuration Settings](screenshots/user-configuration.png)
 
 #### Preference Items
 - Drive and printer mappings
@@ -256,64 +256,9 @@ hughdomain.local
 - Start menu and desktop policies
 - Control Panel restrictions
 
----
+📸 **User Configuration Settings**
 
-## 📅 Implementation Methodology
-
-### 1. Planning Phase
-
-📸 **Planning Documentation Screenshot**
-
-![Planning Documentation Screenshot](screenshots/planning-phase-docs.png)
-
-- OU structure and security group planning
-- Policy categorization
-
-### 2. Development Phase
-
-📸 **Group Policy Testing in Lab**
-
-![Group Policy Testing in Lab](screenshots/lab-testing-gpo.png)
-
-- Lab setup and policy testing
-- Documentation drafting
-
-### 3. Deployment Phase
-
-📸 **Production GPO Deployment**
-
-![Production GPO Deployment](screenshots/gpo-deployment-production.png)
-
-- Test group rollout
-- Staggered production deployment
-- Performance monitoring
-
-### 4. Maintenance Phase
-
-📸 **Ongoing Maintenance Logs**
-
-![Ongoing Maintenance Logs](screenshots/gpo-maintenance-logs.png)
-
-- Ongoing policy review and refinement
-- Documentation updates
-
----
-
-## 🎯 Group Policy Filtering
-
-📸 **WMI Filter Setup Screenshot**
-
-![WMI Filter Setup Screenshot](screenshots/wmi-filter-setup.png)
-
-### Security Filtering
-- Example: Windows Defender policy limited to select groups
-
-### WMI Filtering
-- OS version targeting
-- Hardware-based deployment
-
-### Block Inheritance
-- Used in sensitive OUs with enforced policies
+![User Configuration Settings](screenshots/user-configuration.png)
 
 ---
 
@@ -321,29 +266,33 @@ hughdomain.local
 
 ### Principle of Least Privilege
 
-📸 **Least Privilege Group Membership Screenshot**
-
-![Least Privilege Group Membership Screenshot](screenshots/least-privilege-settings.png)
-
 - Rights assignment based on role
 - Limited admin privileges
 - Secure service account policies
 
+📸 **Least Privilege Group Membership Screenshot**
+
+![Least Privilege Group Membership Screenshot](screenshots/least-privilege-settings.png)
+
 ### Application Control
-
-📸 **AppLocker Configuration**
-
-![AppLocker Configuration](screenshots/applocker-configuration.png)
 
 - Managed installs
 - Blocked executable directories
 - Script control
+
+📸 **AppLocker Configuration**
+
+![AppLocker Configuration](screenshots/applocker-configuration.png)
 
 ---
 
 ## 📊 Audit and Compliance
 
 ### Event Logging
+
+- Advanced audit policies
+- Security log collection
+- SIEM integration
 
 📸 **Advanced Audit Policy Settings**
 
@@ -352,10 +301,6 @@ hughdomain.local
 📸 **SIEM Integration Sample**
 
 ![SIEM Integration Sample](screenshots/siem-integration.png)
-
-- Advanced audit policies
-- Security log collection
-- SIEM integration
 
 ### Compliance Monitoring
 - GPResult analysis
@@ -372,37 +317,29 @@ hughdomain.local
 
 ### GPO Backups
 
-📸 **GPO Backup Procedure**
-
-![GPO Backup Procedure](screenshots/gpo-backup.png)
-
 - Daily automated
 - Weekly manual validation
 - Offsite storage
 
+📸 **GPO Backup Procedure**
+
+![GPO Backup Procedure](screenshots/gpo-backup.png)
+
 ### Performance Monitoring
-
-📸 **Performance Monitoring Tools**
-
-![Performance Monitoring Tools](screenshots/gpo-performance-monitoring.png)
 
 - GPO processing time
 - Slow link review
 - Extension load analysis
+
+📸 **Performance Monitoring Tools**
+
+![Performance Monitoring Tools](screenshots/gpo-performance-monitoring.png)
 
 ---
 
 ## 🧪 Troubleshooting Methodology
 
 ### Diagnostic Tools
-
-📸 **Troubleshooting Using gpresult**
-
-![Troubleshooting Using gpresult](screenshots/troubleshooting-gpresult.png)
-
-📸 **Event Viewer Logs**
-
-![Event Viewer Logs](screenshots/event-viewer-logs.png)
 
 - `gpresult /r`
 - Group Policy Modeling
@@ -413,15 +350,19 @@ hughdomain.local
 - WMI filter mismatches
 - Extension errors
 
+📸 **Troubleshooting Using gpresult**
+
+![Troubleshooting Using gpresult](screenshots/troubleshooting-gpresult.png)
+
+📸 **Event Viewer Logs**
+
+![Event Viewer Logs](screenshots/event-viewer-logs.png)
+
 ---
 
 ## 🚀 Conclusion and Future Enhancements
 
 This Group Policy deployment lays the foundation for secure, scalable, and manageable Active Directory operations.
-
-📸 **Summary and Future Planning**
-
-![Summary and Future Planning](screenshots/future-enhancements.png)
 
 ### 🔒 Future Enhancements
 - Zero Trust architecture integration
@@ -437,6 +378,10 @@ This Group Policy deployment lays the foundation for secure, scalable, and manag
 - PowerShell-based automation
 - Continuous testing workflows
 - AI-assisted optimization
+
+📸 **Summary and Future Planning**
+
+![Summary and Future Planning](screenshots/future-enhancements.png)
 
 ---
 

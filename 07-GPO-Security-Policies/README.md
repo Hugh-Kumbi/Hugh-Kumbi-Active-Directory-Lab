@@ -108,7 +108,7 @@ Core security policies enforcing authentication standards and access controls, i
 | Minimum password length | 14 characters |
 | Password complexity | Enabled |
 
-#### 🚫 Account Lockout Policies
+##### 🚫 Account Lockout Policies
 
 **Path:**  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
@@ -134,7 +134,7 @@ Key Settings:
 - Behavior monitoring: Enabled
 - Scheduled scans: Full scan weekly
 
-#### Firewall Settings
+##### Firewall Settings
 
 **Path:**  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall`
@@ -156,7 +156,7 @@ Standardized interface configurations that enforce corporate branding while limi
 - Enforced corporate wallpaper
 - Controlled desktop icons
 
-#### Start Menu Customization
+##### Start Menu Customization
 
 **Path:**  
   📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
@@ -181,7 +181,7 @@ Centralized patch management policies that enforce scheduled security updates, f
 
 Whitelisting policies leveraging AppLocker and deployment restrictions to prevent execution of unauthorized scripts, installers, and applications while permitting approved business-critical software.
 
-#### AppLocker Policies
+##### AppLocker Policies
 
 **Path:**  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
@@ -191,7 +191,7 @@ Whitelisting policies leveraging AppLocker and deployment restrictions to preven
   - Scripts (.ps1, .bat)
   - Packaged Apps (AppX)
 
-#### App Deployment Restrictions
+##### App Deployment Restrictions
 
 **Path:**  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`

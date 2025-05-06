@@ -263,6 +263,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 📸 **Microsoft Edge Settings**
 
 ![Microsoft Edge Settings 4](https://github.com/user-attachments/assets/4575549a-80d6-4535-ac90-770059076549)
+
 ---
 
 ## 🧩 Administrative Templates

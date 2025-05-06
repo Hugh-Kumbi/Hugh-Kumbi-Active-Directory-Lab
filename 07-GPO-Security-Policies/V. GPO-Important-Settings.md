@@ -78,18 +78,18 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 
 | Setting                                                                    | Value                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| Interactive logon: Do not display last user name                                                                         | Enabled                                                       |
-| Microsoft network client: Digitally sign communications (always)                                                         | Enabled                                                       |
-| Microsoft network client: Digitally sign communications (if server agrees)                                               | Enabled                                                       |
-| Microsoft network server: Digitally sign communications (always)                                                         | Enabled                                                       |
-| Microsoft network server: Digitally sign communications (if client agrees)                                               | Enabled                                                       |
-| Network security: LAN Manager authentication level                                                                       | Send NTLMv2 response only. Refuse LM & NTLM                   |
-| Network security: Minimum session security for NTLM SSP based (including secure RPC) clients                             | Require NTLMv2 session security, Require 128-bit encryption   |
-| Network security: Minimum session security for NTLM SSP based (including secure RPC) server                              | Require NTLMv2 session security, Require 128-bit encryption   |
-| User Account Control: Behaviour of the elevation prompt for administrators in Admin Mode                                 | Prompt for consent on secure desktop                          |
-| User Account Control: Behaviour of the elevation prompt for administrators running with enhanced privilege protection    | Prompt for consent on secure desktop                          |
-| User Account Control: Run all administrators in Admin Approval Mode                                                      | Enabled                                                       |
+|------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| **Interactive logon: Do not display last user name**                                                                         | Enabled                                                       |
+| **Microsoft network client: Digitally sign communications (always)**                                                         | Enabled                                                       |
+| **Microsoft network client: Digitally sign communications (if server agrees)**                                               | Enabled                                                       |
+| **Microsoft network server: Digitally sign communications (always)**                                                         | Enabled                                                       |
+| **Microsoft network server: Digitally sign communications (if client agrees)**                                               | Enabled                                                       |
+| **Network security: LAN Manager authentication level**                                                                       | Send NTLMv2 response only. Refuse LM & NTLM                   |
+| **Network security: Minimum session security for NTLM SSP based (including secure RPC) clients**                             | Require NTLMv2 session security, Require 128-bit encryption   |
+| **Network security: Minimum session security for NTLM SSP based (including secure RPC) server**                              | Require NTLMv2 session security, Require 128-bit encryption   |
+| **User Account Control: Behaviour of the elevation prompt for administrators in Admin Mode**                                 | Prompt for consent on secure desktop                          |
+| **User Account Control: Behaviour of the elevation prompt for administrators running with enhanced privilege protection**    | Prompt for consent on secure desktop                          |
+| **User Account Control: Run all administrators in Admin Approval Mode**                                                      | Enabled                                                       |
 ---
 
 ## 🦠 Windows Defender Settings

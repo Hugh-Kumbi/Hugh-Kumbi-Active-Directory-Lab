@@ -374,7 +374,7 @@ hughdomain.local
 ## 🎯 Group Policy Filtering
 
 ### 🚨 Security Filtering
-- Example: Windows Defender policy limited to select groups
+- All policies limited to Authenticated Users
 
 ### ⚙️ WMI Filtering
 - None used

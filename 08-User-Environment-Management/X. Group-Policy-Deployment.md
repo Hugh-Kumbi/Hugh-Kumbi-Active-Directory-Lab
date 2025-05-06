@@ -43,7 +43,7 @@ hughdomain.local
 
 📸 **Group Policy Management Console - GPO List**
 
-![Group Policy Management Console - GPO List](https://github.com/user-attachments/assets/7844817d-1749-4e34-8dab-d6f38042f127)
+![Group Policy Management Console - GPO List](https://github.com/user-attachments/assets/ba43cf79-a1ac-4541-baf4-520e3e53fea3)
 
 ### 1. Default Domain Policy
 

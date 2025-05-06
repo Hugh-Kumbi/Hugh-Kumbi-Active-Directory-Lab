@@ -205,7 +205,7 @@ hughdomain.local
 
 📸 **Security Groups in Active Directory**
 
-![Security Groups in Active Directory](screenshots/security-groups.png)
+![Security Groups in Active Directory](https://github.com/user-attachments/assets/d9b945f0-4977-48ac-b0de-2d66fb16b54b)
 
 ---
 

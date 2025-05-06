@@ -10,11 +10,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
-📸 **Password Policies Settings**
-
-![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
-
-
 | Setting                                                 | Value                   |
 |---------------------------------------------------------|-------------------------|
 | **Enforce password history**                            | 24 passwords remembered |
@@ -24,15 +19,15 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | **Password must meet complexity requirements**          | Enabled                 |
 | **Store passwords using reversible encryption**         | Disabled                |
 
+📸 **Password Policies Settings**
+
+![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
+
 ---
 
 ### 🚫 Account Lockout Policies
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
-
-📸 **Account Lockout Policies Settings**
-
-![Account Lockout Policies](https://github.com/user-attachments/assets/dcee3079-fea0-4fb0-80c2-65e6d9b6e5a1)
 
 | Setting                                        | Value              |
 |------------------------------------------------|--------------------|
@@ -40,18 +35,15 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | **Account lockout threshold**                  | 5 invalid attempts |
 | **Reset account lockout counter after**        | 30 minutes         |
 
+📸 **Account Lockout Policies Settings**
+
+![Account Lockout Policies](https://github.com/user-attachments/assets/dcee3079-fea0-4fb0-80c2-65e6d9b6e5a1)
+
 ---
 
 ### 👤 User Rights Assignment
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
-
-📸 **User Rights Assignment Settings**
-
-![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
-
-![User Rights Assignment](https://github.com/user-attachments/assets/439c855e-43ea-4c5e-9e3a-7ce91efe1139)
-
 
 | Setting                                             | Assigned To                                                                                                                      |
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -64,18 +56,17 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | **Log on as a service**                             | Network Service, Local Service                                                                                                   |
 | **Shut down the system**                            | Administrators, HUGHDOMAIN\BackupAdmin, HUGHDOMAIN\BackupAdmin1                                                                  |
 
+📸 **User Rights Assignment Settings**
+
+![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
+
+![User Rights Assignment](https://github.com/user-attachments/assets/439c855e-43ea-4c5e-9e3a-7ce91efe1139)
+
 ---
 
 ### 🛡️ Security Options
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
-
-📸 **Security Options Settings**
-
-![Security Options](https://github.com/user-attachments/assets/61a85dad-1038-4f0d-9965-0a27e57e93ea)
-
-![Security Options 2](https://github.com/user-attachments/assets/f9166e44-8d35-40e3-a373-7c00e4170b5e)
-
 
 | Setting                                                                    | Value                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -90,6 +81,13 @@ This guide outlines the essential Group Policy settings I configured to align wi
 | **User Account Control: Behaviour of the elevation prompt for administrators in Admin Mode**                                 | Prompt for consent on secure desktop                          |
 | **User Account Control: Behaviour of the elevation prompt for administrators running with enhanced privilege protection**    | Prompt for consent on secure desktop                          |
 | **User Account Control: Run all administrators in Admin Approval Mode**                                                      | Enabled                                                       |
+
+📸 **Security Options Settings**
+
+![Security Options](https://github.com/user-attachments/assets/61a85dad-1038-4f0d-9965-0a27e57e93ea)
+
+![Security Options 2](https://github.com/user-attachments/assets/f9166e44-8d35-40e3-a373-7c00e4170b5e)
+
 ---
 
 ## 🦠 Windows Defender Settings
@@ -97,6 +95,20 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 🛡️ Microsoft Defender Antivirus
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
+
+| Setting                                                      | Value             |
+|--------------------------------------------------------------|-------------------|
+| **Join Microsoft Maps**                                      | Enabled           |
+| **Configure removal of items from Quarantine folder**        | Enabled           |
+| **Turn off real-time protection**                            | Disabled          |
+| **Turn on behaviour monitoring**                             | Enabled           |
+| **Scan all downloaded file and attachments**                 | Enabled           |
+| **Monitor file and program activity on your computer**       | Enabled           |
+| **Scan removable drives**                                    | Enabled           |
+| **Specify the scan type ro use for a scheduled scan**        | 2 - Full scan     |
+| **Specify the day of the week to run a scheduled scan**      | Enabled           |
+| **Specify the time of day to run a scheduled scan**          | Enabled           |
+| **Turn off Microsoft Defender Antivirus**                    | Disabled          |
 
 📸 **Windows Defender Settings**
 
@@ -118,26 +130,17 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Windows Defender Settings 4](https://github.com/user-attachments/assets/f4e5c54f-a83d-40df-a251-aebd89bf989c)
 
-
-| Setting                                                      | Value             |
-|--------------------------------------------------------------|-------------------|
-| **Join Microsoft Maps**                                      | Enabled           |
-| **Configure removal of items from Quarantine folder**        | Enabled           |
-| **Turn off real-time protection**                            | Disabled          |
-| **Turn on behaviour monitoring**                             | Enabled           |
-| **Scan all downloaded file and attachments**                 | Enabled           |
-| **Monitor file and program activity on your computer**       | Enabled           |
-| **Scan removable drives**                                    | Enabled           |
-| **Specify the scan type ro use for a scheduled scan**        | 2 - Full scan     |
-| **Specify the day of the week to run a scheduled scan**      | Enabled           |
-| **Specify the time of day to run a scheduled scan**          | Enabled           |
-| **Turn off Microsoft Defender Antivirus**                    | Disabled          |
-
 ---
 
 ### 🔥 Windows Defender Firewall
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
+
+| Profile Type         | Firewall State | Inbound Connections  | Outbound Connections  |
+|----------------------|----------------|----------------------|-----------------------|
+| **Domain Profile**   | On             | Block (default)      | Allow (default)       |
+| **Private Profile**  | On             | Block (default)      | Allow (default)       |
+| **Public Profile**   | On             | Block (default)      | Allow (default)       |
 
 📸 **Windows Defender Firewall Settings**
 
@@ -151,13 +154,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Windows Defender Firewall Settings 2](https://github.com/user-attachments/assets/67d4f7a1-9400-4a32-af41-f835e7965558)
 
-
-| Profile Type         | Firewall State | Inbound Connections  | Outbound Connections  |
-|----------------------|----------------|----------------------|-----------------------|
-| **Domain Profile**   | On             | Block (default)      | Allow (default)       |
-| **Private Profile**  | On             | Block (default)      | Allow (default)       |
-| **Public Profile**   | On             | Block (default)      | Allow (default)       |
-
 ---
 
 ## 🖥️ Desktop and Start Menu Settings
@@ -166,16 +162,21 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `User Configuration > Policies > Administrative Templates > Desktop`
 
+- **Desktop Wallpaper:** Set to corporate wallpaper
+- **Desktop Icons:** Control icons on desktop
+
 📸 **Desktop Settings**
 
 ![Desktop Policy Settings](https://github.com/user-attachments/assets/2e370ae0-2d27-4092-afbb-3b0dc89cad40)
 
-- **Desktop Wallpaper:** Set to corporate wallpaper
-- **Desktop Icons:** Control icons on desktop
-
 ### 📋 Start Menu and Taskbar
 
 **Path:** 📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+
+- Remove access to taskbar context menus: Disabled  
+- Remove "Search the Internet" link: Enabled  
+- Do not allow pinning items in Jump Lists: Disabled  
+- Turn off user tracking: Enabled
 
 📸 **Start Menu and Taskbar Settings**
 
@@ -189,11 +190,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Start Menu and Taskbar Settings 2](https://github.com/user-attachments/assets/1890af72-3bb0-4d54-a3ed-a06d2e1291cc)
 
-- Remove access to taskbar context menus: Disabled  
-- Remove "Search the Internet" link: Enabled  
-- Do not allow pinning items in Jump Lists: Disabled  
-- Turn off user tracking: Enabled
-
 ---
 
 ## 🔄 Windows Update Settings
@@ -201,6 +197,15 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 🔧 Windows Update for Business
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
+
+| Setting                                                  | Value                         |
+|----------------------------------------------------------|-------------------------------|
+| **Preview Builds and Feature Updates**                   | Enabled, Semi-Annual, 30 days |
+| **Quality Updates**                                      | Enabled, 7 days deferral      |
+| **Configure Automatic Updates**                          | Enabled                       |
+| **Configure automatic updating**                         | 4 - Auto download & schedule  |
+| **Scheduled install day**                                | 0 - Every day                 |
+| **Scheduled install time**                               | 03:00                         |
 
 📸 **Windows Update Settings**
 
@@ -214,16 +219,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Windows Update Settings 2](https://github.com/user-attachments/assets/13c858f1-ce85-4380-bbd6-9b011f15c3af)
 
-
-| Setting                                                  | Value                         |
-|----------------------------------------------------------|-------------------------------|
-| **Preview Builds and Feature Updates**                   | Enabled, Semi-Annual, 30 days |
-| **Quality Updates**                                      | Enabled, 7 days deferral      |
-| **Configure Automatic Updates**                          | Enabled                       |
-| **Configure automatic updating**                         | 4 - Auto download & schedule  |
-| **Scheduled install day**                                | 0 - Every day                 |
-| **Scheduled install time**                               | 03:00                         |
-
 ---
 
 ## 🌐 Internet Explorer and Microsoft Edge
@@ -231,6 +226,23 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 🌎 Microsoft Edge Settings
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
+
+- `Action to take on Microsoft Edge startup`: Enabled
+- `Allow users to be alerted if their passwords are found to be unsafe`: Enabled
+- `Block external extensions from being installed`: Enabled
+- `Block tracking of user's web-browsing activity`: Enabled
+- `Block pop-ups`: Enabled
+- `Configure Do Not Track`: Enabled  
+- `Configure Microsoft Defender SmartScreen`: Enabled
+- `Configure Microsoft Defender SmartScreen to block potentially unwanted apps` Enabled
+- `Configure the homepage URL`: Enabled
+- `Configure the new tab URL`: Enabled
+- `Enable saving passwords to the password manager Password Manager`: Disabled
+- `Default search provider`:** Set to corporate engine
+- `Set the new tab page as the home page`: Enabled
+- `Show Home button on toolbar`: Enabled
+- `Sites to open when the browser starts`: Enabled 
+- `Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads`: Enabled 
 
 📸 **Microsoft Edge Settings**
 
@@ -251,24 +263,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 📸 **Microsoft Edge Settings**
 
 ![Microsoft Edge Settings 4](https://github.com/user-attachments/assets/4575549a-80d6-4535-ac90-770059076549)
-
-- **Action to take on Microsoft Edge startup:** Enabled
-- **Allow users to be alerted if their passwords are found to be unsafe:** Enabled
-- **Block external extensions from being installed:** Enabled
-- **Block tracking of user's web-browsing activity:** Enabled
-- **Block pop-ups:** Enabled
-- **Configure Do Not Track:** Enabled  
-- **Configure Microsoft Defender SmartScreen:** Enabled
-- **Configure Microsoft Defender SmartScreen to block potentially unwanted apps:** Enabled
-- **Configure the homepage URL:** Enabled
-- **Configure the new tab URL:** Enabled
-- **Enable saving passwords to the password manager Password Manager:** Disabled
-- **Default search provider:** Set to corporate engine
-- **Set the new tab page as the home page:** Enabled
-- **Show Home button on toolbar:** Enabled
-- **Sites to open when the browser starts:** Enabled 
-- **Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads:** Enabled 
-
 ---
 
 ## 🧩 Administrative Templates
@@ -277,14 +271,18 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `User Configuration > Policies > Administrative Templates > Control Panel`
 
+- **Prohibit access to Control Panel and PC settings:** Enabled
+
 📸 **Control Panel Settings**
 
 ![Control Panel Settings](https://github.com/user-attachments/assets/53cb252c-a453-4f08-ad84-4e06c7593b78)
 
-- **Prohibit access to Control Panel and PC settings:** Enabled
-
 ### 💻 System
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System`
+
+- Turn off DEP for Explorer: Disabled  
+- Turn off heap termination on corruption: Disabled  
+- Don’t display Getting Started screen: Enabled
 
 📸 **System Settings**
 
@@ -294,26 +292,27 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![System Settings 1](https://github.com/user-attachments/assets/74d8674a-d2b7-48a3-83d7-4fdf28a67fee)
 
-- Turn off DEP for Explorer: Disabled  
-- Turn off heap termination on corruption: Disabled  
-- Don’t display Getting Started screen: Enabled
-
 ### 🌐 Network
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Network`
 
+- Prohibit Internet Connection Sharing on DNS domain network: Enabled  
+- Route all traffic through internal network: Enabled (for VPN)
+
 📸 **Network Settings**
 
 ![Network Settings](https://github.com/user-attachments/assets/d7a5d051-dd53-47a8-b1c3-dc4e4b9590ea)
-
-- Prohibit Internet Connection Sharing on DNS domain network: Enabled  
-- Route all traffic through internal network: Enabled (for VPN)
 
 ---
 
 ## 🔋 Power Management
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
+
+- Active power plan: Enabled, set to "Balanced"  
+- Hibernate timeout (plugged in): Enabled, set accordingly  
+- Turn off hybrid sleep (plugged in): Enabled  
+- Require password on wake (plugged in): Enabled
 
 📸 **Power Management Settings**
 
@@ -323,11 +322,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Power Management Settings 1](https://github.com/user-attachments/assets/8293b095-bb1e-42ae-83ff-4087b39c0e86)
 
-- Active power plan: Enabled, set to "Balanced"  
-- Hibernate timeout (plugged in): Enabled, set accordingly  
-- Turn off hybrid sleep (plugged in): Enabled  
-- Require password on wake (plugged in): Enabled
-
 ---
 
 ## 🏢 Corporate Compliance Settings
@@ -335,6 +329,10 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 🛡️ Data Loss Prevention
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
+
+- Block copying to removable drives: Enabled  
+- Windows SmartScreen: Enabled  
+- DEP: Disabled
 
 📸 **Data Loss Prevention Settings**
 
@@ -348,13 +346,14 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Data Loss Prevention Settings 3](https://github.com/user-attachments/assets/a31973ec-13c1-4747-8507-0fd04558ca1a)
 
-- Block copying to removable drives: Enabled  
-- Windows SmartScreen: Enabled  
-- DEP: Disabled
-
 ### 🔐 BitLocker Drive Encryption
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+
+- OS Drives > Require additional auth at startup: Enabled  
+- OS Drives > Enable keyboard input on slates: Enabled  
+- Fixed Data Drives > Use passwords: Enabled  
+- Removable Drives > Deny write if no BitLocker: Enabled
 
 📸 **BitLocker Drive Encryption Settings**
 
@@ -368,11 +367,6 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![BitLocker Drive Encryption 3](https://github.com/user-attachments/assets/c8abc7e5-e676-4229-84a6-a69cd3ce1f6a)
 
-- OS Drives > Require additional auth at startup: Enabled  
-- OS Drives > Enable keyboard input on slates: Enabled  
-- Fixed Data Drives > Use passwords: Enabled  
-- Removable Drives > Deny write if no BitLocker: Enabled
-
 ---
 
 ## 📦 Application Control
@@ -380,6 +374,11 @@ This guide outlines the essential Group Policy settings I configured to align wi
 ### 📋 AppLocker
 
 **Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+
+- Executable Rules: Create Default Rules & Custom Rules 
+- Windows Installer Rules: Create Default Rules & Custom Rules  
+- Script Rules: Create Default Rules & Custom Rules  
+- Packaged App Rules: Create Default Rules & Custom Rules
 
 📸 **AppLocker Settings Executable Rules Settings**
 
@@ -397,21 +396,16 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![AppLocker Settings 3](https://github.com/user-attachments/assets/c40e471c-4012-40a2-9337-4105c6b8968f)
 
-- Executable Rules: Create Default Rules & Custom Rules 
-- Windows Installer Rules: Create Default Rules & Custom Rules  
-- Script Rules: Create Default Rules & Custom Rules  
-- Packaged App Rules: Create Default Rules & Custom Rules
-
 ### 📁 App Package Deployment
-
-📸 **App Package Deployment Settings**
-
-![App Package Deployment Settings](https://github.com/user-attachments/assets/eee5dc48-9ab9-44c5-a9c4-420e24b18f4e)
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
 - Allow deployment operations in special profiles: Disabled  
 - Prevent non-admin users from installing packaged Windows apps: Enabled
+
+📸 **App Package Deployment Settings**
+
+![App Package Deployment Settings](https://github.com/user-attachments/assets/eee5dc48-9ab9-44c5-a9c4-420e24b18f4e)
 
 ---
 
@@ -419,12 +413,12 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
 
+- Prevent install by device ID: Enabled (`PCI\VEN_8086&DEV_1C3A`, `USB\VID_0781&PID_5583`, `USB\VID_05AC&PID_12A8`)  
+- Prevent install by setup class: Enabled (`{4d36e967-e325-11ce-bfc1-08002be10318}`)
+
 📸 **Device Installation Settings**
 
 ![Device Installation Settings](https://github.com/user-attachments/assets/14367313-7368-4dde-856e-223f9c939c4a)
-
-- Prevent install by device ID: Enabled (`PCI\VEN_8086&DEV_1C3A`, `USB\VID_0781&PID_5583`, `USB\VID_05AC&PID_12A8`)  
-- Prevent install by setup class: Enabled (`{4d36e967-e325-11ce-bfc1-08002be10318}`)
 
 ---
 

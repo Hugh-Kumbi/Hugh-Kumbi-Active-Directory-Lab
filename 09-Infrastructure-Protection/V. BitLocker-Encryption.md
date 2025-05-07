@@ -28,7 +28,7 @@ In the GPO, I navigated to:
 - **Configure TPM startup key settings:** Enabled  
   - **Allow TPM:** Yes  
   - **Allow PIN + TPM:** Yes  
-  - **Allow Startup Key + TPM:** No  
+  - **Allow Startup Key + TPM:** Yes  
   - **Allow TPM + PIN + Startup Key:** Yes
 
 📸 **Additional Authentication at Startup For Operating System Drives Overview** 

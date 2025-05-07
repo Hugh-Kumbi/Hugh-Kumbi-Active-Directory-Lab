@@ -7,18 +7,30 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** BitLocker Policy  
-- **Linked To:** Domain Computers OU
+- **Linked To:** Domain-wide
 
 📸 **Screenshot suggestion:**  
-- Group Policy Management Console showing the BitLocker GPO linked to the appropriate OU  
-- GPMC Editor open to BitLocker Drive Encryption settings
+
+![Group Policy Management Console showing the BitLocker GPO linked to Domain Root](https://github.com/user-attachments/assets/e3a06f9e-8bc6-45a7-8b11-4a9d64e8c230)
+
+📸 **BitLocker Drive Encryption Fixed Drive Settings Overview** 
+
+![BitLocker Drive Encryption Fixed Drive Settings Overview](https://github.com/user-attachments/assets/4a784e3a-6046-41fd-bb49-dacc95cb9e69)
+
+📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
+
+![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)
+
+📸 **BitLocker Drive Encryption Removable Data Drives Overview** 
+
+![BitLocker Drive Encryption Removable Data Drives Overview](https://github.com/user-attachments/assets/bb7d38ab-357c-4f9b-a12c-6c79d702ff7c)
 
 ---
 
 ## ⚙️ 2. Policy Configuration
 
 The following policies were configured under:  
-`Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
 
 ### ✅ Operating System Drives
 
@@ -66,9 +78,4 @@ The following policies were configured under:
 ## 🗂️ 4. Screenshot Storage
 
 All images related to this section are stored in:  
-📂 `06-Screenshots/BitLocker-Policy/`
-
-Example embed:
-
-```md
-![BitLocker GPO Editor](../../06-Screenshots/BitLocker-Policy/bitlocker-gpo-settings.png)
+📂 `06-Screenshots/BitLocker-Policy/`![BitLocker GPO Editor](../../06-Screenshots/BitLocker-Policy/bitlocker-gpo-settings.png)

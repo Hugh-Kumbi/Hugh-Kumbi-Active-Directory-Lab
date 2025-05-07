@@ -43,7 +43,7 @@ In the GPO, I navigated to:
 - **Choose drive encryption method and cipher strength:** Enabled  
   - **Setting:** XTS-AES 256-bit  
 
-📸 **BitLocker-Protected Operating System Drives Overview** 
+📸 **BitLocker-Protected Operating System Drives Settings** 
 
 ![BitLocker Drive Encryption Policies for Operating System Drives 2](https://github.com/user-attachments/assets/6252125b-12bf-40c5-80e9-2766931ca8bd)
 

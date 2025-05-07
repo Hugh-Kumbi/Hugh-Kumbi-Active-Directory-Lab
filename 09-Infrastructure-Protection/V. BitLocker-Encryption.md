@@ -9,17 +9,73 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 - **GPO Name:** BitLocker Policy  
 - **Linked To:** Domain-wide
 
-📸 **Screenshot suggestion:**  
+📸 **Group Policy Management Console showing the BitLocker GPO linked to Domain Root**  
 
 ![Group Policy Management Console showing the BitLocker GPO linked to Domain Root](https://github.com/user-attachments/assets/e3a06f9e-8bc6-45a7-8b11-4a9d64e8c230)
+
+---
+
+## ⚙️ 2. Policy Configuration
+
+### ✅ Operating System Drives
+
+In the GPO, I navigated to:
+
+  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption > Operating System Drives`
+
+- **Require additional authentication at startup:** Enabled  
+- Checked "Requires a password or startup key on a USB flash drive"
+- **Configure TPM startup key settings:** Enabled  
+  - **Allow TPM:** Yes  
+  - **Allow PIN + TPM:** Yes  
+  - **Allow Startup Key + TPM:** No  
+  - **Allow TPM + PIN + Startup Key:** Yes
+
+📸 **Additional Authentication at Startup For Operating System Drives Overview** 
+
+![BitLocker Drive Encryption Policies for Operating System Drives](https://github.com/user-attachments/assets/fbed651b-51f5-47b3-b452-ca364c48e123)
+
+- **Enable use of BitLocker authentication requiring preboot keyboard input on slates:** Enabled
+- **Configure minimum PIN length for startup:** Enabled
+- **Configure recovery options:** Enabled  
+- **Configure use of hardware-based encryption for operating system drives:** Disabled
+- **Allow enhanced PINs for startup:** Enabled
+- **Choose drive encryption method and cipher strength:** Enabled  
+  - **Setting:** XTS-AES 256-bit  
+
+📸 **BitLocker-Protected Operating System Drives Overview** 
+
+![Uploading BitLocker Drive Encryption Policies for Operating System Drives 2.png…]()
+
+📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
+
+![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)
+
+### 3. Configure Fixed Data Drive Encryption
+
+I navigated to:
+
+  📂 `Computer Configuration → Administrative Templates → Windows Components → BitLocker Drive Encryption → Fixed Data Drives`
+
+I enabled:
+
+- **Deny write access to fixed drives not protected by BitLocker**
+- **Choose how BitLocker-protected fixed drives can be recovered**
 
 📸 **BitLocker Drive Encryption Fixed Drive Settings Overview** 
 
 ![BitLocker Drive Encryption Fixed Drive Settings Overview](https://github.com/user-attachments/assets/4a784e3a-6046-41fd-bb49-dacc95cb9e69)
 
-📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
+### 4. Configure Removable Drive Encryption
 
-![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)
+I navigated to:
+
+  📂 `Computer Configuration → Administrative Templates → Windows Components → BitLocker Drive Encryption → Removable Data Drives`
+
+I enabled:
+
+- **Control use of BitLocker on removable drives**
+- **Deny write access to removable drives not protected by BitLocker**
 
 📸 **BitLocker Drive Encryption Removable Data Drives Overview** 
 
@@ -27,26 +83,51 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 
 ---
 
-## ⚙️ 2. Policy Configuration
+### 5. Enable Network Unlock
 
-The following policies were configured under:  
-  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+To allow systems to automatically unlock BitLocker-protected OS drives on domain-joined systems with TPM, I enabled:
 
-### ✅ Operating System Drives
+- **Enable BitLocker Network Unlock**
 
-**Path:** `BitLocker Drive Encryption > Operating System Drives`
+📸 **Insert Screenshot of Network Unlock Settings Here**
 
-- **Require additional authentication at startup:** Enabled  
-  - ✅ TPM + PIN  
-  - ✅ TPM only (fallback if no PIN configured)  
-- **Configure use of hardware-based encryption for operating system drives:** Disabled  
-- **Choose drive encryption method and cipher strength:** Enabled  
-  - **Setting:** XTS-AES 256-bit  
-- **Configure TPM startup key settings:** Enabled  
-  - **Allow TPM:** Yes  
-  - **Allow TPM + PIN:** Yes  
-  - **Allow TPM + Startup Key:** No  
-  - **Allow TPM + PIN + Startup Key:** No  
+![BitLocker Drive Encryption Options for Network Unlock Feature Overview](https://github.com/user-attachments/assets/8fa82a9c-d03c-4473-939d-b1503fc6c41a)
+
+---
+
+### 6. Configure Data Recovery Agents (DRA)
+
+To manage data recovery securely, I:
+
+1. Created a DRA certificate using the `manage-bde -protectors` command.
+2. Exported the certificate and added it to the GPO under:
+
+  📂 `Computer Configuration → Policies → Windows Settings → Security Settings → Public Key Policies → BitLocker Drive Encryption`
+
+📸 **Insert Screenshot of DRA Certificate Configuration Here**
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy](https://github.com/user-attachments/assets/4557a403-391b-414b-8e6b-d8ecadeb6904)
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 1](https://github.com/user-attachments/assets/1c2b2636-d771-4778-ae1b-af9a245d240f)
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 2](https://github.com/user-attachments/assets/e110f2cf-ceba-467f-a693-be4bda7142fb)
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 3](https://github.com/user-attachments/assets/ea28a692-ccd0-4a25-93eb-558eabefd645)
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 4](https://github.com/user-attachments/assets/ea6129bd-eef8-4ccd-a18e-b2b5e3ff421f)
+
+![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 5](https://github.com/user-attachments/assets/dab51797-353e-481d-95a2-70224a4f3ace)
+
+---
+
+## Summary
+
+This section demonstrated how to manage full-disk encryption across different drive types using Group Policy. It reflects a practical understanding of enterprise-grade BitLocker deployment, compliance enforcement, and data recovery preparedness in an Active Directory environment.
+
+📸 **Insert Screenshot of Client System with BitLocker Status Here**
+
+
+
 
 ### ✅ BitLocker Recovery
 

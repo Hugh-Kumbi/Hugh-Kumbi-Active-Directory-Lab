@@ -37,7 +37,7 @@ In the GPO, I navigated to:
 
 - **Enable use of BitLocker authentication requiring preboot keyboard input on slates:** Enabled
 - **Configure minimum PIN length for startup:** Enabled
-- **Configure recovery options:** Enabled  
+- **Choose how BitLocker-protected operating system drives can be recovered:** Enabled  
 - **Configure use of hardware-based encryption for operating system drives:** Disabled
 - **Allow enhanced PINs for startup:** Enabled
 - **Choose drive encryption method and cipher strength:** Enabled  

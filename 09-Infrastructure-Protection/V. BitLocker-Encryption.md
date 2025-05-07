@@ -47,6 +47,14 @@ In the GPO, I navigated to:
 
 ![BitLocker Drive Encryption Policies for Operating System Drives 2](https://github.com/user-attachments/assets/6252125b-12bf-40c5-80e9-2766931ca8bd)
 
+📸 **BitLocker Drive Encryption Method and Cipher Strength**
+
+![BitLocker Drive Encryption Policies for Operating System Drives 3](https://github.com/user-attachments/assets/eb4bcf7b-8aa6-4b84-b495-4e5769a32ce9)
+
+📸 **BitLocker Drive Encryption Overview**
+
+![BitLocker Drive Encryption Policies for Operating System Drives 4](https://github.com/user-attachments/assets/1ef6eec1-bb0a-4a7a-aebd-e975e407eaed)
+
 📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
 
 ![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)

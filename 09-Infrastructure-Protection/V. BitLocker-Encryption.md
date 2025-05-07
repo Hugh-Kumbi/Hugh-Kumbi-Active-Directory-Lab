@@ -45,7 +45,7 @@ In the GPO, I navigated to:
 
 📸 **BitLocker-Protected Operating System Drives Overview** 
 
-![Uploading BitLocker Drive Encryption Policies for Operating System Drives 2.png…]()
+![BitLocker Drive Encryption Policies for Operating System Drives 2](https://github.com/user-attachments/assets/6252125b-12bf-40c5-80e9-2766931ca8bd)
 
 📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
 

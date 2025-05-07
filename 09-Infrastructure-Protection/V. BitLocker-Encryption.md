@@ -24,7 +24,7 @@ In the GPO, I navigated to:
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption > Operating System Drives`
 
 - **Require additional authentication at startup:** Enabled  
-- Checked "Requires a password or startup key on a USB flash drive"
+- **Checked** "Requires a password or startup key on a USB flash drive"
 - **Configure TPM startup key settings:** Enabled  
   - **Allow TPM:** Yes  
   - **Allow PIN + TPM:** Yes  

@@ -39,29 +39,51 @@ After the role installation, I launched the **AD CS Configuration Wizard** to se
 - **Validity period**: 5 years
 - **Certificate database locations**: Used default paths
 
-📸 **AD CS Configuration Wizard**
+📸 **AD CS Configuration Wizard Credentials**
 
 ![Specify Credentials to Configure Role Services](https://github.com/user-attachments/assets/475d8cf2-16a5-4ce3-b44e-ab34e2a517fb)
 
+📸 **AD CS Configuration Wizard Role Services**
+
 ![Specify Credentials to Configure Role Services 1](https://github.com/user-attachments/assets/731c71f9-9088-4b2e-9df8-2eca8460872f)
+
+📸 **AD CS Configuration Wizard Setup Type**
 
 ![Specify Credentials to Configure Role Services 2](https://github.com/user-attachments/assets/80f9378b-9cf1-42a6-ab87-ca82f12b4bf4)
 
+📸 **AD CS Configuration Wizard CA Type**
+
 ![Specify Credentials to Configure Role Services 3](https://github.com/user-attachments/assets/3c13d88c-0834-453a-ba3c-c611b0df9a1b)
+
+📸 **AD CS Configuration Wizard Private Key**
 
 ![Specify Credentials to Configure Role Services 4](https://github.com/user-attachments/assets/6a889e4d-7ed5-4a4b-9b6b-6f9d6a3c3488)
 
+📸 **AD CS Configuration Wizard Cryptography**
+
 ![Specify Credentials to Configure Role Services 5](https://github.com/user-attachments/assets/b4d1ae35-abc2-476f-935a-6f24f8e12010)
+
+📸 **AD CS Configuration Wizard CA Name**
 
 ![Specify Credentials to Configure Role Services 6](https://github.com/user-attachments/assets/6f23e3a5-1171-45aa-836d-26c0d14b6310)
 
+📸 **AD CS Configuration Wizard Validity Period**
+
 ![Specify Credentials to Configure Role Services 7](https://github.com/user-attachments/assets/99d9bfc8-2b33-4f7d-9f9e-51345b01be3d)
+
+📸 **AD CS Configuration Wizard Certificate Database**
 
 ![Specify Credentials to Configure Role Services 8](https://github.com/user-attachments/assets/c190e951-92d2-4e98-814b-7b2946f760ca)
 
+📸 **AD CS Configuration Wizard Confirmation**
+
 ![Specify Credentials to Configure Role Services 9](https://github.com/user-attachments/assets/1cf9f466-1889-419c-a479-ae0aba6e8bd1)
 
+📸 **AD CS Configuration Wizard Progress**
+
 ![Specify Credentials to Configure Role Services 10](https://github.com/user-attachments/assets/db878a5c-fe90-4f9a-88db-c46a74c5d399)
+
+📸 **AD CS Configuration Wizard Results**
 
 ![Specify Credentials to Configure Role Services 11](https://github.com/user-attachments/assets/66071b85-11cc-4ce6-b0cb-d6665ffe3a58)
 

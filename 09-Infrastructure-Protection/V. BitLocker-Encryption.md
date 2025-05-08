@@ -201,10 +201,6 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 ![BitLocker Policy Settings 7](https://github.com/user-attachments/assets/8d40e5a1-4549-4883-b304-f32463ce21d6)
 
-📸 **Recovery Options and Encryption Method Selections:**
-
-- Recovery options and encryption method selections
-
 ---
 
 ## 🧪 3. Verification and Testing

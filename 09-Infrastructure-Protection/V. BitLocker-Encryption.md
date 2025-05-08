@@ -59,31 +59,37 @@ In the GPO, I navigated to:
 
 ![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)
 
-### 3. Configure Fixed Data Drive Encryption
+### 3. 🧩 Configure Fixed Data Drive Encryption
 
-I navigated to:
+In the GPO, I navigated to:
 
   📂 `Computer Configuration → Administrative Templates → Windows Components → BitLocker Drive Encryption → Fixed Data Drives`
 
 I enabled:
 
-- **Deny write access to fixed drives not protected by BitLocker**
-- **Choose how BitLocker-protected fixed drives can be recovered**
+- **Allow access to BitLocker-protected fixed data drives from earlier versions of Windows:** Enabled
+- **Choose how BitLocker-protected fixed drives can be recovered:** Enabled
+- **Configure use of hardware-based encryption for fixed data drives:** Enable
+- **Configure use of passwords for fixed data drives:** Enabled
+- **Configure use of smart cards on fixed data drives:** Enabled
+- **Deny write access to removable drives not protected by BitLocker:** Enabled
+- **Enforce drive encryption type on fixed data drives:** Enabled
 
 📸 **BitLocker Drive Encryption Fixed Drive Settings Overview** 
 
 ![BitLocker Drive Encryption Fixed Drive Settings Overview](https://github.com/user-attachments/assets/4a784e3a-6046-41fd-bb49-dacc95cb9e69)
 
-### 4. Configure Removable Drive Encryption
+### 4. 🔑 Configure Removable Drive Encryption
 
-I navigated to:
+In the GPO, I navigated to:
 
   📂 `Computer Configuration → Administrative Templates → Windows Components → BitLocker Drive Encryption → Removable Data Drives`
 
 I enabled:
 
-- **Control use of BitLocker on removable drives**
-- **Deny write access to removable drives not protected by BitLocker**
+- **Configure use of password for removable data drives:** Enabled
+- **Control use of BitLocker on removable drives** Enabled 
+- **Deny write access to removable drives not protected by BitLocker:** Enabled
 
 📸 **BitLocker Drive Encryption Removable Data Drives Overview** 
 
@@ -95,9 +101,30 @@ I enabled:
 
 To allow systems to automatically unlock BitLocker-protected OS drives on domain-joined systems with TPM, I enabled:
 
+- **:** Enabled
+- **:** Enabled
+- **:** Enabled
+- **:** Enabled
+- **:** Enabled
+- **:** Enabled
+- **:** Enabled
 - **Enable BitLocker Network Unlock**
 
-📸 **Insert Screenshot of Network Unlock Settings Here**
+📸 **Network Unlock Settings**
+
+![BitLocker Drive Encryption Options for Network Unlock Feature](https://github.com/user-attachments/assets/df624485-fd6a-4b1e-bb47-b3298e4f7bc2)
+
+![BitLocker Drive Encryption Options for Network Unlock Feature 1](https://github.com/user-attachments/assets/3aa58a18-da3a-4912-8065-a4661a32fa99)
+
+![BitLocker Drive Encryption Options for Network Unlock Feature 2](https://github.com/user-attachments/assets/939c1f22-2aa3-455e-90d7-742305c08fe0)
+
+![BitLocker Drive Encryption Options for Network Unlock Feature 3](https://github.com/user-attachments/assets/4b7a867a-2b6b-4c80-a805-77ccde54344f)
+
+![BitLocker Drive Encryption Options for Network Unlock Feature 4](https://github.com/user-attachments/assets/3e583e4d-94d0-439e-a956-7bf652dea338)
+
+![BitLocker Drive Encryption Options for Network Unlock Feature 5](https://github.com/user-attachments/assets/64878673-a3e6-47ff-bf47-e6634ee4b9e2)
+
+📸 **Network Unlock Settings Overview**
 
 ![BitLocker Drive Encryption Options for Network Unlock Feature Overview](https://github.com/user-attachments/assets/8fa82a9c-d03c-4473-939d-b1503fc6c41a)
 

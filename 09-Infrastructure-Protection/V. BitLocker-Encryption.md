@@ -171,9 +171,9 @@ To manage data recovery securely, I:
 
 This section demonstrated how to manage full-disk encryption across different drive types using Group Policy. It reflects a practical understanding of enterprise-grade BitLocker deployment, compliance enforcement, and data recovery preparedness in an Active Directory environment.
 
-📸 **Insert Screenshot of Client System with BitLocker Status Here**
+📸 **Client System with BitLocker Status**
 
-
+![PowerShell Output Showing BitLocker Status](https://github.com/user-attachments/assets/43554830-ef7c-40b6-aee4-f9255c86108a)
 
 ### ✅ BitLocker Recovery
 
@@ -183,8 +183,26 @@ This section demonstrated how to manage full-disk encryption across different dr
   - ✅ Store recovery passwords and key packages  
 - **Do not enable BitLocker until recovery information is stored to AD DS:** Enabled  
 
-📸 **Screenshot suggestions:**  
-- BitLocker policy settings shown in the GPO Editor  
+📸 **BitLocker Policy Settings**  
+
+![BitLocker Policy Settings](https://github.com/user-attachments/assets/29c60283-bdfd-479c-8c79-504872af8158)
+
+![BitLocker Policy Settings 1](https://github.com/user-attachments/assets/8d4f7c52-d317-4c67-8f0f-384237d68308)
+
+![BitLocker Policy Settings 2](https://github.com/user-attachments/assets/86d22d63-248f-425f-be94-d33b3c41275d)
+
+![BitLocker Policy Settings 3](https://github.com/user-attachments/assets/7837af5e-d06c-4078-b2e1-95d72b10399d)
+
+![BitLocker Policy Settings 4](https://github.com/user-attachments/assets/f7c3c76a-5244-474d-9eb4-49ffa161b7db)
+
+![BitLocker Policy Settings 5](https://github.com/user-attachments/assets/02a4f6c8-c0ec-43fa-bfb3-e82d260f8567)
+
+![BitLocker Policy Settings 6](https://github.com/user-attachments/assets/ad355001-a11c-48af-82ac-7ff24b3110e4)
+
+![BitLocker Policy Settings 7](https://github.com/user-attachments/assets/8d40e5a1-4549-4883-b304-f32463ce21d6)
+
+📸 **Recovery Options and Encryption Method Selections:**
+
 - Recovery options and encryption method selections
 
 ---
@@ -196,8 +214,12 @@ This section demonstrated how to manage full-disk encryption across different dr
 - Confirmed recovery keys were stored in Active Directory via the **Active Directory Users and Computers (ADUC)** console.  
 - Rebooted to test TPM + PIN prompt on startup.
 
-📸 **Screenshot suggestion:**  
-- PowerShell output showing BitLocker status  
+📸 **PowerShell Output Showing BitLocker Status:**  
+
+![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/fe2792b5-d847-4a6b-83c2-af4018c4c9fc)
+
+📸 **ADUC Interface Displaying BitLocker Recovery Tab:**  
+
 - ADUC interface displaying BitLocker recovery tab
 
 ---

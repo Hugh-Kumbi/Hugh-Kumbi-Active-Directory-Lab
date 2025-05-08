@@ -101,6 +101,9 @@ After completing the wizard, I verified the CA installation via:
 
 ![Specify Credentials to Configure Role Services 12](https://github.com/user-attachments/assets/cb859fd7-5977-4d81-a4cc-8360309f7e34)
 
+📸 **Certification Authority Console**
+
+
 ---
 
 ### 4. 🌐 Publish the Root Certificate

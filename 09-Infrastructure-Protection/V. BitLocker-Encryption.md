@@ -171,9 +171,9 @@ To manage data recovery securely, I:
 
 This section demonstrated how to manage full-disk encryption across different drive types using Group Policy. It reflects a practical understanding of enterprise-grade BitLocker deployment, compliance enforcement, and data recovery preparedness in an Active Directory environment.
 
-📸 **Client System with BitLocker Status**
+📸 **Client System With BitLocker Status**
 
-![PowerShell Output Showing BitLocker Status](https://github.com/user-attachments/assets/43554830-ef7c-40b6-aee4-f9255c86108a)
+![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)
 
 ### ✅ BitLocker Recovery
 
@@ -216,11 +216,11 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 📸 **PowerShell Output Showing BitLocker Status:**  
 
-![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/fe2792b5-d847-4a6b-83c2-af4018c4c9fc)
+![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)
 
 📸 **ADUC Interface Displaying BitLocker Recovery Tab:**  
 
-- ADUC interface displaying BitLocker recovery tab
+![BitLocker Recovery Tab at AUDC For DESKTOP-2N3JERQ](https://github.com/user-attachments/assets/10ee3290-3395-45ad-9c36-10d30dfc985a)
 
 ---
 

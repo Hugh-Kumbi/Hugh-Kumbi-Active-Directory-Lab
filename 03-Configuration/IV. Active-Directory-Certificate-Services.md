@@ -1,6 +1,6 @@
-# Active-Directory-Certificate-Services
+# 📜 Active Directory Certificate Services
 
-## Overview
+## 📊 Overview
 
 In this part of my Active Directory lab, I installed and configured **Active Directory Certificate Services (AD CS)** to establish a Public Key Infrastructure (PKI) within the domain. AD CS provides customizable services for issuing and managing public key certificates, which are used for securing information exchange through authentication, digital signatures, and encryption.
 
@@ -8,9 +8,9 @@ This setup laid the foundation for implementing advanced features like BitLocker
 
 ---
 
-## Configuration Steps
+## 🛠️ Configuration Steps
 
-### 1. Add the AD CS Role
+### 1. 🖥️ Add the AD CS Role
 
 Using **Server Manager**, I added the **Active Directory Certificate Services** role on my domain controller.
 
@@ -25,7 +25,7 @@ Using **Server Manager**, I added the **Active Directory Certificate Services** 
 
 ---
 
-### 2. Configure AD CS Role Services
+### 2. 📡 Configure AD CS Role Services
 
 After the role installation, I launched the **AD CS Configuration Wizard** to set up the CA:
 
@@ -67,7 +67,7 @@ After the role installation, I launched the **AD CS Configuration Wizard** to se
 
 ---
 
-### 3. Verify Certification Authority Installation
+### 3. 🔍 Verify Certification Authority Installation
 
 After completing the wizard, I verified the CA installation via:
 
@@ -81,7 +81,7 @@ After completing the wizard, I verified the CA installation via:
 
 ---
 
-### 4. Publish the Root Certificate
+### 4. 🌐 Publish the Root Certificate
 
 To ensure domain clients trust the internal CA, I:
 
@@ -97,7 +97,7 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
 
 ---
 
-### 5. Optional: Install Web Enrollment
+### 5. Optional: 📥 Install Web Enrollment
 
 To simulate a certificate request portal, I optionally installed **Certificate Authority Web Enrollment**, which allows users to request and retrieve certificates via a browser interface.
 

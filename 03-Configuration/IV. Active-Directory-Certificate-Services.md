@@ -21,6 +21,8 @@ Using **Server Manager**, I added the **Active Directory Certificate Services** 
 
 📸 **Server Role Selection**
 
+![Active Directory Certificate Services (AD CS) Installation 6](https://github.com/user-attachments/assets/f956db8a-1a5e-4775-a8ef-7c98dcd4049e)
+
 ---
 
 ### 2. Configure AD CS Role Services
@@ -39,6 +41,30 @@ After the role installation, I launched the **AD CS Configuration Wizard** to se
 
 📸 **AD CS Configuration Wizard**
 
+![Specify Credentials to Configure Role Services](https://github.com/user-attachments/assets/475d8cf2-16a5-4ce3-b44e-ab34e2a517fb)
+
+![Specify Credentials to Configure Role Services 1](https://github.com/user-attachments/assets/731c71f9-9088-4b2e-9df8-2eca8460872f)
+
+![Specify Credentials to Configure Role Services 2](https://github.com/user-attachments/assets/80f9378b-9cf1-42a6-ab87-ca82f12b4bf4)
+
+![Specify Credentials to Configure Role Services 3](https://github.com/user-attachments/assets/3c13d88c-0834-453a-ba3c-c611b0df9a1b)
+
+![Specify Credentials to Configure Role Services 4](https://github.com/user-attachments/assets/6a889e4d-7ed5-4a4b-9b6b-6f9d6a3c3488)
+
+![Specify Credentials to Configure Role Services 5](https://github.com/user-attachments/assets/b4d1ae35-abc2-476f-935a-6f24f8e12010)
+
+![Specify Credentials to Configure Role Services 6](https://github.com/user-attachments/assets/6f23e3a5-1171-45aa-836d-26c0d14b6310)
+
+![Specify Credentials to Configure Role Services 7](https://github.com/user-attachments/assets/99d9bfc8-2b33-4f7d-9f9e-51345b01be3d)
+
+![Specify Credentials to Configure Role Services 8](https://github.com/user-attachments/assets/c190e951-92d2-4e98-814b-7b2946f760ca)
+
+![Specify Credentials to Configure Role Services 9](https://github.com/user-attachments/assets/1cf9f466-1889-419c-a479-ae0aba6e8bd1)
+
+![Specify Credentials to Configure Role Services 10](https://github.com/user-attachments/assets/db878a5c-fe90-4f9a-88db-c46a74c5d399)
+
+![Specify Credentials to Configure Role Services 11](https://github.com/user-attachments/assets/66071b85-11cc-4ce6-b0cb-d6665ffe3a58)
+
 ---
 
 ### 3. Verify Certification Authority Installation
@@ -50,6 +76,8 @@ After completing the wizard, I verified the CA installation via:
 - Checked Event Viewer logs for successful startup
 
 📸 **Certification Authority Console**
+
+![Specify Credentials to Configure Role Services 12](https://github.com/user-attachments/assets/cb859fd7-5977-4d81-a4cc-8360309f7e34)
 
 ---
 

@@ -7,11 +7,11 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** BitLocker Policy  
-- **Linked To:** Domain-wide
+- **Linked To:** IT Computers
 
-📸 **Group Policy Management Console showing the BitLocker GPO linked to Domain Root**  
+📸 **Group Policy Management Console showing the BitLocker GPO linked to IT Computers**  
 
-![Group Policy Management Console showing the BitLocker GPO linked to Domain Root](https://github.com/user-attachments/assets/e3a06f9e-8bc6-45a7-8b11-4a9d64e8c230)
+![Group Policy Management Console showing the BitLocker GPO linked to IT Computers](https://github.com/user-attachments/assets/4e6d8b3c-270a-42cb-9a57-6b3736a8147b)
 
 ---
 
@@ -97,30 +97,42 @@ I enabled:
 
 ---
 
-### 5. Enable Network Unlock
+### 5. 🌐 Enable Network Unlock
 
 To allow systems to automatically unlock BitLocker-protected OS drives on domain-joined systems with TPM, I enabled:
 
-- **:** Enabled
-- **:** Enabled
-- **:** Enabled
-- **:** Enabled
-- **:** Enabled
-- **:** Enabled
-- **:** Enabled
-- **Enable BitLocker Network Unlock**
+- **Store BitLocker recovery information in Active Directory Domain Services(Windows Server 2008 and Windows Vista):** Enabled
+- **Choose default folder for recovery password:** Enabled
+- **Choose how users can recover BitLocker-protected drives(Windows & Windows Server2012, Windows 8.1, Windows Server 2012 R2, Windows 10 [Version 1507):** Enabled
+- **Choose drive encryption method and cipher strength(Windows 8, Windows Server2012, Windows 8.1, Windows Server 2012 R2, Windows 10 [Version 1507):** Enabled
+- **Disable new DMA devices when this computer is locked (Windows 10 [Version 1511):** Enabled
+- **Provide the unique identifiers for your organization:** Enabled
+- **Prevent memory overwrite on restart:** Enabled
+- **Validate smart card certificate usage rule compliance:** Enabled
 
-📸 **Network Unlock Settings**
+#### 📶 Network Unlock Settings
+
+📸 **Store BitLocker Recovery Information in Active Directory Domain Services Settings**
 
 ![BitLocker Drive Encryption Options for Network Unlock Feature](https://github.com/user-attachments/assets/df624485-fd6a-4b1e-bb47-b3298e4f7bc2)
 
+📸 **Choose Default Folder For Recovery Password Settings**
+
 ![BitLocker Drive Encryption Options for Network Unlock Feature 1](https://github.com/user-attachments/assets/3aa58a18-da3a-4912-8065-a4661a32fa99)
+
+📸 **Choose How Users Can Recover BitLocker-protected drives Settings**
 
 ![BitLocker Drive Encryption Options for Network Unlock Feature 2](https://github.com/user-attachments/assets/939c1f22-2aa3-455e-90d7-742305c08fe0)
 
+📸 **Choose Drive Encryption Method and Cipher Strength Settings**
+
 ![BitLocker Drive Encryption Options for Network Unlock Feature 3](https://github.com/user-attachments/assets/4b7a867a-2b6b-4c80-a805-77ccde54344f)
 
+📸 **Provide The Unique Identifiers For Your Organization Settings**
+
 ![BitLocker Drive Encryption Options for Network Unlock Feature 4](https://github.com/user-attachments/assets/3e583e4d-94d0-439e-a956-7bf652dea338)
+
+📸 **Validate Smart Card Certificate Usage Rule Compliance Settings**
 
 ![BitLocker Drive Encryption Options for Network Unlock Feature 5](https://github.com/user-attachments/assets/64878673-a3e6-47ff-bf47-e6634ee4b9e2)
 
@@ -130,7 +142,7 @@ To allow systems to automatically unlock BitLocker-protected OS drives on domain
 
 ---
 
-### 6. Configure Data Recovery Agents (DRA)
+### 6. 🗄️ Configure Data Recovery Agents (DRA)
 
 To manage data recovery securely, I:
 
@@ -139,7 +151,7 @@ To manage data recovery securely, I:
 
   📂 `Computer Configuration → Policies → Windows Settings → Security Settings → Public Key Policies → BitLocker Drive Encryption`
 
-📸 **Insert Screenshot of DRA Certificate Configuration Here**
+📸 **DRA Certificate Configuration**
 
 ![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy](https://github.com/user-attachments/assets/4557a403-391b-414b-8e6b-d8ecadeb6904)
 
@@ -163,10 +175,9 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 
 
-
 ### ✅ BitLocker Recovery
 
-**Path:** `BitLocker Drive Encryption > Operating System Drives > BitLocker Recovery`
+**Path:** 📂 `BitLocker Drive Encryption > Operating System Drives > BitLocker Recovery`
 
 - **Save BitLocker recovery information to Active Directory Domain Services:** Enabled  
   - ✅ Store recovery passwords and key packages  

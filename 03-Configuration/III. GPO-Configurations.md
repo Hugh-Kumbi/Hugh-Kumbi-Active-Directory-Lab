@@ -34,34 +34,36 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
 Created and linked GPOs to the appropriate OUs using the **Group Policy Management Console (GPMC)**.
 
 ### GPOs Implemented:
-| GPO Name                                        | Linked To           | Purpose                                                         |
-|-------------------------------------------------|---------------------|-----------------------------------------------------------------|
-| Block VLC - Policy                              | Tech OU             | Prevent the use of unauthorized media applications              |
-| Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security   |
-| Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                     |
-| Default Domain Controller Policy                | Domain Controllers  | Strengthen authentication to mitigate brute-force attacks       |
-| Default Domain Policy                           | Domain Root         | Enable auditing of key system and user activities               |
-| Desktop Wallpaper Policy                        | Tech OU             | Standardize desktop appearance across all user devices          |
-| Disabling Unnecessary Windows Services Policy   | IT Computers        | Reduce attack surface by disabling non-essential services       |
-| Drive Mappings Policy                           | Tech OU             | Assign network drives based on user or group membership         |
-| IPsec Authentication Policy                     | Domain Root         | Enforce secure communication through IPsec authentication       |
-| Logon-Logoff Scripts Policy                     | Tech OU             | Run custom scripts during user logon and logoff events          |
-| Map Network Drives Policy                       | Groups OU           | Automatically connect users to shared network resources         |
-| Network Security Settings Policy                | Domain Root         | Enhance remote access control for administrative accounts       |
-| Restricted Groups Policy                        | Domain Root         | Define and enforce group membership for privileged roles        |
-| Service Configuration Policy                    | IT Computers        | Harden systems by managing and securing Windows services        |
-| Software Deployment Google Chrome Policy        | IT Computers        | Automate installation of approved web browser software          |
-| Start Menu and Taskbar Settings Policy          | Tech OU             | Customize user interface elements for consistency and control   |
-| Startup/Shutdown Scripts Policy                 | Tech OU             | Execute scripts during system startup and shutdown events       |
-| USB Restriction Policy                          | IT Computers        | Block the use of USB storage devices to prevent data leakage    |
-| User Folder Redirection Policy                  | Tech OU             | Redirect user data folders to centralized file servers          |
-| Win11 Security Policy | Domain Root             | Domain Root         | Apply Windows 11-specific hardening configurations              |
-| Windows Defender Settings Policy                | Domain Root         | Configure antivirus settings for enhanced endpoint protection   |
-| Windows Firewall Settings Policy                | Domain Root         | Enforce firewall rules to control inbound and outbound traffic  |
+| GPO Name                                        | Linked To           | Purpose                                                                 |
+|-------------------------------------------------|---------------------|-------------------------------------------------------------------------|
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| Block VLC - Policy                              | Tech OU             | Prevent the use of unauthorized media applications                      |
+| Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security           |
+| Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                             |
+| Default Domain Controller Policy                | Domain Controllers  | Strengthen authentication to mitigate brute-force attacks               |
+| Default Domain Policy                           | Domain Root         | Enable auditing of key system and user activities                       |
+| Desktop Wallpaper Policy                        | Tech OU             | Standardize desktop appearance across all user devices                  |
+| Disabling Unnecessary Windows Services Policy   | IT Computers        | Reduce attack surface by disabling non-essential services               |
+| Drive Mappings Policy                           | Tech OU             | Assign network drives based on user or group membership                 |
+| IPsec Authentication Policy                     | Domain Root         | Enforce secure communication through IPsec authentication               |
+| Logon-Logoff Scripts Policy                     | Tech OU             | Run custom scripts during user logon and logoff events                  |
+| Map Network Drives Policy                       | Groups OU           | Automatically connect users to shared network resources                 |
+| Network Security Settings Policy                | Domain Root         | Enhance remote access control for administrative accounts               |
+| Restricted Groups Policy                        | Domain Root         | Define and enforce group membership for privileged roles                |
+| Service Configuration Policy                    | IT Computers        | Harden systems by managing and securing Windows services                |
+| Software Deployment Google Chrome Policy        | IT Computers        | Automate installation of approved web browser software                  |
+| Start Menu and Taskbar Settings Policy          | Tech OU             | Customize user interface elements for consistency and control           |
+| Startup/Shutdown Scripts Policy                 | Tech OU             | Execute scripts during system startup and shutdown events               |
+| Temp_Cleaned_DC_Policy                          | Domain Controllers  | Clears temporary files and caches on Domain Controllers                 |
+| USB Restriction Policy                          | IT Computers        | Block the use of USB storage devices to prevent data leakage            |
+| User Folder Redirection Policy                  | Tech OU             | Redirect user data folders to centralized file servers                  |
+| Win11 Security Policy | Domain Root             | Domain Root         | Apply Windows 11-specific hardening configurations                      |
+| Windows Defender Settings Policy                | Domain Root         | Configure antivirus settings for enhanced endpoint protection           |
+| Windows Firewall Settings Policy                | Domain Root         | Enforce firewall rules to control inbound and outbound traffic          |
 
 📸 **GPMC With List of GPOs**
 
-![GPMC With List of GPOs](https://github.com/user-attachments/assets/f4e52b53-440b-4efb-b7d9-a11dfdbb719d)
+![Group Policy Management Console - GPO List](https://github.com/user-attachments/assets/cddf40b7-62a0-4cc8-b8a9-dcf1289153cb)
 
 📸 **Link Status to Domain Root**
 

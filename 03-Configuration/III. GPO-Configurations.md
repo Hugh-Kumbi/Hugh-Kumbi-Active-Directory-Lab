@@ -125,7 +125,6 @@ repadmin /syncall /AdeP
 
 ![Command Line Results From gpupdate](https://github.com/user-attachments/assets/393227ba-3625-4c5f-b801-b0d39e827a24)
 
-
 📸 **Command Line Results From gpresult**
 
 ![Group Policy Results 1](https://github.com/user-attachments/assets/6d3b0ed5-fea1-491e-94df-7df944c765e0)

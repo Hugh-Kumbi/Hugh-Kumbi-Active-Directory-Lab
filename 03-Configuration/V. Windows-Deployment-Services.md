@@ -100,3 +100,7 @@ By configuring Windows Deployment Services on Windows Server 2025, I successfull
 
 📸 **Client Desktop with Domain Info Displayed**
 
+---
+
+📁 5. Screenshot Storage
+All screenshots related to GPOs should be saved in: 📂 06-Screenshots/GPO-Configurations.png

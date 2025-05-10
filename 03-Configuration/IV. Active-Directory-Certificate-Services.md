@@ -136,3 +136,10 @@ To simulate a certificate request portal, I optionally installed **Certificate A
 By installing and configuring AD CS, I established a foundational internal PKI within my Active Directory lab. This service enables secure identity verification and supports various enterprise features such as BitLocker encryption, S/MIME, and certificate-based authentication. The configuration of the CA, key parameters, and trust distribution showcases my ability to manage core security infrastructure in a Windows Server environment.
 
 📸 **CA Root Certificate Installed on Client Machine**
+
+---
+
+## 📁 6. Screenshot Storage
+
+All screenshots for this section should be placed in:  
+📂 [`06-Screenshots/IV. Active-Directory-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)

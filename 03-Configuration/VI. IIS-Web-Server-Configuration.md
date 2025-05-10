@@ -87,3 +87,8 @@ In this lab, I successfully installed and configured **IIS Web Server** on Windo
 - Test network functionality across Active Directory-connected endpoints
 
 📸 **Final Setup (Server + Client Browser View)**
+
+---
+
+📁 5. Screenshot Storage
+All screenshots related to GPOs should be saved in: 📂 06-Screenshots/GPO-Configurations.png

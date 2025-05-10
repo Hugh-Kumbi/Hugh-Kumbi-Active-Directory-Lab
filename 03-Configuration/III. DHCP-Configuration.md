@@ -123,5 +123,7 @@ This DHCP configuration allows for seamless, automatic IP address management in 
 
 ---
 
-📁 5. Screenshot Storage
-All screenshots related to GPOs should be saved in: 📂 06-Screenshots/GPO-Configurations.png
+## 📁 6. Screenshot Storage
+
+All screenshots for this section should be placed in:  
+📂 [`06-Screenshots/IV. Active-Directory-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)

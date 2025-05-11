@@ -1,6 +1,6 @@
 # 🔐 Password Policy (Domain GPO)
 
-This section highlights the configuration and enforcement of the domain-wide password policy applied through a dedicated GPO named Win11 Security Policy.
+This section highlights the configuration and enforcement of the domain-wide password policy applied through a dedicated GPO named Win11 Security Policy. The goal was to enhance account security by enforcing complex passwords, regular changes, and minimum length standards.
 
 ---
 

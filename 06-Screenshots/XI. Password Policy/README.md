@@ -10,6 +10,8 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ![GPMC Showing The Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
 
+---
+
 ## 2. 📜 Group Policy Editor Window Showing the Password Policy Path
 
 - Shows the exact configuration path:
@@ -17,11 +19,15 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
 
+---
+
 ## 3. ✅ Each Setting With Its Configured Value
 
 - Displays detailed settings including minimum password length, complexity requirements, maximum and minimum password age, and password history enforcement.
 
 ![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
+
+---
 
 ## 4. 👁️ GPO Scope Tab – Security Filtering**
 
@@ -29,11 +35,15 @@ Displays the Security Filtering that targets Authenticated Users to ensure corre
 
 `📸 Password Policy Security Filtering`
 
+---
+
 **5. Command Line Results From `gpupdate /force`**
 
 Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 `📸 gpupdate /force Output`
+
+---
 
 ## 6. 📊 `gpresult` Showing WIN Security Policy Application**
 
@@ -43,16 +53,22 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 ![`gpresult` Showing WIN Security Policy Application 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
 
+---
+
 ## 7. 📊 Resultant Set of Policy (RSoP)
 - Provides a graphical summary of all enforced security settings on the system, helping validate that the password policy is functioning as expected.
   
 ![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
+
+---
 
 ## 8. 📝 Event Viewer – Group Policy Operational Log
 
 Displays log entries that confirm successful application of the Password Policy on the client, useful for auditing and troubleshooting.
 
 `📸 Event Viewer Logs`
+
+---
 
 ## 9. 🔄 Replication Check – repadmin syncall
 

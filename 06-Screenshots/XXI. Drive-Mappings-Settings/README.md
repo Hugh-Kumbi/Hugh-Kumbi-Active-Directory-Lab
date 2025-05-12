@@ -1,3 +1,75 @@
+# 🔧 Drive Mappings Settings
+
+This section explains the Drive Mappings settings available within Group Policy, allowing administrators to map network drives to specific users or groups.
+
+---
+
+## 1. 🗺️ Drive Mappings Overview
+
+Drive Mappings allow administrators to assign network drives to users or groups based on Group Policy, ensuring that users have access to shared resources upon login.
+
+📸 **Drive Mappings Overview**
+
+---
+
+## 2. 👨‍💻 Configuring Drive Mapping via Group Policy
+
+The Drive Mappings setting within Group Policy allows administrators to assign network drives to specific user groups or Organizational Units (OUs).
+
+📸 **Configuring Drive Mapping via Group Policy**
+
+---
+
+## 3. 🗄️ Setting Drive Letter and Network Path
+
+When configuring a drive mapping, specify the Drive Letter (e.g., Z:) and the Network Path (e.g., \server\share), ensuring that the correct path is available for users.
+
+📸 **Setting Drive Letter and Network Path**
+
+
+
+## 4. ⚙️ Configuring Reconnection Settings
+
+The Reconnect option ensures that the network drive is automatically reconnected each time the user logs in, providing seamless access to shared resources.
+
+📸 **Configuring Reconnection Settings**
+
+---
+
+## 5. 👥 Setting Drive Mapping for Specific User Groups
+
+Drive mappings can be set for specific user groups or Organizational Units (OUs) to ensure that only users who belong to certain groups have access to particular network drives.
+
+📸 **Setting Drive Mapping for Specific User Groups**
+
+---
+
+## 6. ✅ Verifying Drive Mapping on Client Machines
+
+Once configured, verify that the drive mappings are applied correctly by checking the This PC window or using the net use command.
+
+📸 **Verifying Drive Mapping on Client Machines**
+
+---
+
+## 7. 🖥️ Command Line Results From `gpupdate`
+
+Use the gpupdate command to refresh Group Policy settings on client machines, ensuring that drive mappings are updated.
+
+📸 **Command Line Results From `gpupdate`**
+
+---
+
+## 8. 🖥️ Command Line Results From `gpresult`
+
+Verify the drive mappings using the gpresult command, ensuring that the correct network drives are being mapped for the user.
+
+📸 **Command Line Results From `gpresult`**
+
+---
+
+Each image corresponds to a step described in 📂 `08-User-Environment-Management/III.Drive-Mappings-Settings.md` and `IV. Drive-Mappings-Config.md`.
+
 ![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
 
 ![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)

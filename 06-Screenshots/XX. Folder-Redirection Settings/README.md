@@ -3,7 +3,9 @@ This section explains the configuration of Folder Redirection within the Group P
 
 ## 1. Accessing Folder Redirection Settings in GPMC
 
-Open the Group Policy Management Console (GPMC) and navigate to the folder redirection settings under User Configuration > Policies > Windows Settings > Folder Redirection.
+Open the Group Policy Management Console (GPMC) and navigate to the folder redirection settings under: 
+
+  📁 `User Configuration > Policies > Windows Settings > Folder Redirection`
 
 📸 Accessing Folder Redirection Settings in GPMC
 
@@ -11,7 +13,11 @@ Open the Group Policy Management Console (GPMC) and navigate to the folder redir
 
 ## 2. 📁 Configuring Folder Redirection for Documents
 
-Redirecting the Documents folder to a shared network location allows for centralized access and backup. This setting is applied through GPO under Folder Redirection > Documents.
+Redirecting the Documents folder to a shared network location allows for centralized access and backup. 
+
+This setting is applied through GPO under: 
+
+  📁 `Folder Redirection > Documents`
 
 📸 Configuring Folder Redirection for Documents
 
@@ -57,7 +63,7 @@ The gpresult command is used to verify which policies, including folder redirect
 
 ---
 
-Each image corresponds to a step described in 📂 `08-User-Environment-Management/I.Folder-Redirection-Settings.md`.
+Each image corresponds to a step described in 📂 `08-User-Environment-Management/I.Folder-Redirection-Settings.md` and `II. Folder-Redirection Properties.md`.
 
 ![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
 

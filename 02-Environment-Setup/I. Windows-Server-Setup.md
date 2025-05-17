@@ -15,11 +15,11 @@ In this stage, I installed and configured **Windows Server 2025** as the Domain 
 
 📸 **Installation Setup Screen With Edition Selection**
 
-![Standard Evaluation (Desktop Experience)](https://github.com/user-attachments/assets/8265f6c7-e9c3-4134-9d0a-a82567a38632)
+![Windows Server Setup 3](https://github.com/user-attachments/assets/915a6e00-5202-4e3c-a4fc-601ce180731a)
 
 📸 **First Boot Desktop After Installation**
 
-![First Boot Desktop After Installation](https://github.com/user-attachments/assets/619605d5-750f-4948-bda0-6d491d057bda)
+![First Boot Desktop After Installation](https://github.com/user-attachments/assets/077f8658-6c5d-4ac0-b9c6-9f02d1fc6266)
 
 ---
 
@@ -38,7 +38,7 @@ After installation, I performed the following:
 
 📸 **System > About > Showing Kept Computer Name**
 
-![System About Showing Kept Computer Name](https://github.com/user-attachments/assets/7dc12389-7af9-486c-b9e7-b5dbfd4d7e76)
+![System - About - Showing Changed Computer Name](https://github.com/user-attachments/assets/a7de73d0-1690-40c1-8836-4be64b97c13b)
 
 ---
 

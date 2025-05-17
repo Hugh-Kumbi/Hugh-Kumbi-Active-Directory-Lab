@@ -11,7 +11,7 @@ In this stage, I installed and configured **Windows Server 2025** as the Domain 
   - 2 CPUs
   - 80 GB virtual hard drive
 - Mounted the **Windows Server 2025 ISO** and completed the installation.
-- Selected the **Standard Evaluation (Desktop Experience)** during setup.
+- Selected the **Datacenter Evaluation (Desktop Experience)** during setup.
 
 📸 **Installation Setup Screen With Edition Selection**
 
@@ -27,7 +27,7 @@ In this stage, I installed and configured **Windows Server 2025** as the Domain 
 
 After installation, I performed the following:
 
-- Kept the machine name as `WIN-D2PQBCI88JQ`
+- Changed the machine name to `WinServer2025`
 - Set a **static IP address**: `192.168.1.10`
 - Configured DNS to point to itself (`192.168.1.10`)
 - Set the computer’s **time zone**

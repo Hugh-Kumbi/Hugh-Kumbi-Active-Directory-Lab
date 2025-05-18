@@ -50,7 +50,7 @@ After installation, I performed the following:
 
 📸 **"Add Roles and Features Wizard" With AD DS Selected**
 
-![AD DS Selected in Add Roles and Features Wizard](https://github.com/user-attachments/assets/47187941-9d17-46ee-933d-238c215d06c7)
+![Add Roles and Features Wizard With AD DS Selected 3](https://github.com/user-attachments/assets/5cd38039-3f07-4bac-bfa1-e13427d5474f)
 
 ---
 

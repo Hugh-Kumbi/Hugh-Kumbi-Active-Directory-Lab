@@ -63,11 +63,13 @@ After installation, I performed the following:
 
 📸 **Domain Configuration Summary Before Installation**
 
-![Domain Configuration Summary Before Install](https://github.com/user-attachments/assets/280e0fbd-432e-4979-afb1-5de5f3a742b1)
+![Promoting Server to Domain Controller 5](https://github.com/user-attachments/assets/5d1fce70-9210-4f4f-be7a-61bb0dd29ca4)
 
 📸 **Confirmation of Successful Promotion**
 
-![Confirmation of Successful Promotion](https://github.com/user-attachments/assets/aa3b0eab-428d-4f7b-9336-bc6e325cb2f9)
+![Promoting Server to Domain Controller 7](https://github.com/user-attachments/assets/f339e91d-6469-4db4-8589-047feb46958e)
+
+![Confirmation of Successful Promotion](https://github.com/user-attachments/assets/fe5a27cd-e662-47ab-a8a5-4203b19b43b9)
 
 ---
 

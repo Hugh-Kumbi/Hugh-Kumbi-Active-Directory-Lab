@@ -79,6 +79,15 @@ To ensure everything worked:
   ```powershell
   nslookup -type=SRV _ldap._tcp.dc._msdcs.hughdomain.local
   ```
+
+    ```powershell
+  nslookup -type=SRV _kerberos._tcp.dc._msdcs.hughdomain.local
+  ```
+
+      ```powershell
+  dcdiag /test:dns /v
+  ```
+  
 📸 **Verified That Domain Services Could Be Located**
 
 ![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)

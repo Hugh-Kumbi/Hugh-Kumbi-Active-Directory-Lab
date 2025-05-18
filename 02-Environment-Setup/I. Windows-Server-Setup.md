@@ -82,7 +82,10 @@ After installation, I performed the following:
 
 📸 **PowerShell With `dcdiag` Results**
 
-![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/049a9c06-d3ad-4762-8825-cfa5d0d66d93)
+![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/64125786-ae8e-4fc2-bdc2-f8cbaeaedbab)
+
+![PowerShell With dcdiag Results 1](https://github.com/user-attachments/assets/c3dfcb92-6099-41a3-9e64-4973c0f8ba8e)
+
 
 📸 **DNS Manager Showing Forward Lookup Zone for `hughdomain.local`**
   
@@ -94,7 +97,7 @@ After installation, I performed the following:
 
 | Configuration Item         | Value                            |
 |----------------------------|----------------------------------|
-| **Server Name**            | WIN-D2PQBCI88JQ                  |
+| **Server Name**            | WinServer2025                    |
 | **Static IP**              | 192.168.1.10                     |
 | **Domain Name**            | hughdomain.local                 |
 | **DNS Server**             | 192.168.1.10 (local)             |

@@ -84,7 +84,7 @@ To ensure everything worked:
   nslookup -type=SRV _kerberos._tcp.dc._msdcs.hughdomain.local
   ```
 
-      ```powershell
+    ```powershell
   dcdiag /test:dns /v
   ```
   

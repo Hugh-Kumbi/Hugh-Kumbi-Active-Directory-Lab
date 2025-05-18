@@ -28,8 +28,8 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 Within the **Forward Lookup Zone**, I verified the creation of:
 
 - **Host (A)** records for:
-  - Domain Controller: `WIN-D2PQBCI88JQ` ➝ `192.168.1.10`
-  - Windows 11 clients: `DESKTOP-74HPA3F`, `DESKTOP-2N3JERQ`
+  - Domain Controller: `WinServer2025` ➝ `192.168.1.10`
+  - Windows 11 clients: `AD-WIN11-01`, `AD-WIN11-01`
 - **_msdcs** subdomain (used for AD replication and services)
 - SRV Records for:
   - `_ldap._tcp.dc._msdcs.hughdomain.local`
@@ -54,9 +54,9 @@ To support name resolution from IP → hostname, I manually created a **Reverse 
 - Enabled secure dynamic updates
 
 Verified PTR records for:
-- `192.168.1.10` ➝ `WIN-D2PQBCI88JQ`
-- `192.168.1.101` ➝ `DESKTOP-74HPA3F`
-- `192.168.1.12` ➝ `DESKTOP-2N3JERQ`
+- `192.168.1.10` ➝ `WinServer2025`
+- `192.168.1.11` ➝ `AD-WIN11-01`
+- `192.168.1.12` ➝ `AD-WIN11-02`
 
 📸 **Reverse Lookup Zone Configuration in DNS Manager**
 

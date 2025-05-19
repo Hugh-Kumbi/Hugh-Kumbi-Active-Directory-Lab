@@ -12,26 +12,42 @@ I created two new VMs in **VirtualBox** with the following specifications:
 - **OS:** Windows 11 Pro
 - **RAM:** 4 GB each
 - **CPU:** 2 cores each
-- **Disk:** 50 GB each
-- Network Adapter: **Internal Network** (same as Domain Controller)
+- **Disk:** 60 GB each
+- **Network Adapter:** Internal Network (same as Domain Controller)
 
-📸 **VirtualBox VM Settings For AD-WIN11-01**
+📸 **VirtualBox VM General Settings for AD-WIN11-01**
 
 ![VirtualBox VM General Settings for AD-WIN11-01](https://github.com/user-attachments/assets/8da28c73-02bf-4688-b908-1af65d8b30e5)
 
+📸 **VirtualBox VM System Motherboard Settings for AD-WIN11-01**
+
 ![VirtualBox VM System Motherboard Settings for AD-WIN11-01](https://github.com/user-attachments/assets/dd51caf8-2558-497c-baf8-6e6b83042bf2)
+
+📸 **VirtualBox VM System Processor Settings for AD-WIN11-01**
 
 ![VirtualBox VM System Processor Settings for AD-WIN11-01](https://github.com/user-attachments/assets/3febf267-9362-45f6-be6c-7edb8149189e)
 
+📸 **VirtualBox VM System Acceleration Settings for AD-WIN11-01**
+
 ![VirtualBox VM System Acceleration Settings for AD-WIN11-01](https://github.com/user-attachments/assets/82c218ca-a10f-4561-94cc-53fd3d8738a7)
+
+📸 **VirtualBox VM Display Screen Settings for AD-WIN11-01**
 
 ![VirtualBox VM Display Screen Settings for AD-WIN11-01](https://github.com/user-attachments/assets/5395c314-ac3d-4826-b21a-bfc9ed74732a)
 
+📸 **VirtualBox VM Display Recording Settings for AD-WIN11-01**
+
 ![VirtualBox VM Display Recording Settings for AD-WIN11-01](https://github.com/user-attachments/assets/76037d83-952d-4d58-bc2e-4bf21267e024)
+
+📸 **VirtualBox VM Storage Settings for AD-WIN11-01**
 
 ![VirtualBox VM Storage Settings for AD-WIN11-01](https://github.com/user-attachments/assets/c7329dad-1fd4-4999-af5e-d28656bbda93)
 
+📸 **VirtualBox VM Network Settings for AD-WIN11-01**
+
 ![VirtualBox VM Network Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e6e8b8a7-8baa-4498-84a7-448d5aabf7e7)
+
+📸 **VirtualBox VM USB Settings for AD-WIN11-01**
 
 ![VirtualBox VM USB Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e2219acf-0c0d-4e36-84a4-edfbcf93e087)
 

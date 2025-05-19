@@ -15,23 +15,26 @@ I created two new VMs in **VirtualBox** with the following specifications:
 - **Disk:** 50 GB each
 - Network Adapter: **Internal Network** (same as Domain Controller)
 
-📸 **VirtualBox VM Settings For AD-WIN11-02**
+📸 **VirtualBox VM Settings For AD-WIN11-01**
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
+![VirtualBox VM General Settings for AD-WIN11-01](https://github.com/user-attachments/assets/8da28c73-02bf-4688-b908-1af65d8b30e5)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 2](https://github.com/user-attachments/assets/796dd80a-70fe-4fc6-a990-0032bd4d966f)
+![VirtualBox VM System Motherboard Settings for AD-WIN11-01](https://github.com/user-attachments/assets/dd51caf8-2558-497c-baf8-6e6b83042bf2)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 3](https://github.com/user-attachments/assets/e0dd9fb2-2906-4ffd-b09c-ed9d6ddec9fd)
+![VirtualBox VM System Processor Settings for AD-WIN11-01](https://github.com/user-attachments/assets/3febf267-9362-45f6-be6c-7edb8149189e)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 4](https://github.com/user-attachments/assets/2569c935-b009-4b5a-a89a-a43f24f185eb)
+![VirtualBox VM System Acceleration Settings for AD-WIN11-01](https://github.com/user-attachments/assets/82c218ca-a10f-4561-94cc-53fd3d8738a7)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 5](https://github.com/user-attachments/assets/1dfa3395-88ea-43cd-b2b9-6244dde283f3)
+![VirtualBox VM Display Screen Settings for AD-WIN11-01](https://github.com/user-attachments/assets/5395c314-ac3d-4826-b21a-bfc9ed74732a)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 6](https://github.com/user-attachments/assets/096aa30b-7818-4bfd-bde1-cc75df1d117d)
+![VirtualBox VM Display Recording Settings for AD-WIN11-01](https://github.com/user-attachments/assets/76037d83-952d-4d58-bc2e-4bf21267e024)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 7](https://github.com/user-attachments/assets/c39d4368-7aab-4a02-b633-e74398ba9ce6)
+![VirtualBox VM Storage Settings for AD-WIN11-01](https://github.com/user-attachments/assets/c7329dad-1fd4-4999-af5e-d28656bbda93)
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 8](https://github.com/user-attachments/assets/409c0327-845e-4940-b192-173071cbe949)
+![VirtualBox VM Network Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e6e8b8a7-8baa-4498-84a7-448d5aabf7e7)
+
+![VirtualBox VM USB Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e2219acf-0c0d-4e36-84a4-edfbcf93e087)
+
 
 ---
 

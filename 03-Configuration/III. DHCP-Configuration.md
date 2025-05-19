@@ -18,7 +18,7 @@ I used **Server Manager** to install the **DHCP Server** role:
 
 📸 **DHCP Role Installation Summary**
 
-![DHCP Role Installation Summary](https://github.com/user-attachments/assets/50c9e7bb-3ce8-4a01-bd60-2bb15e5af80e)
+![DHCP Role Installation Summary](https://github.com/user-attachments/assets/a8262d04-f17c-4f8d-8c6a-b7a3e4b759d6)
 
 ---
 
@@ -32,7 +32,7 @@ After installation:
 
 📸 **Authorized DHCP Server in DHCP Console**
 
-![Authorized DHCP Server in DHCP Console](https://github.com/user-attachments/assets/72d15a7f-c8bb-4272-a88a-91daed81b7aa)
+![DHCP Post-Install Configuration 2](https://github.com/user-attachments/assets/59565a59-559f-45fb-8b94-fa970d95828d)
 
 ---
 
@@ -52,35 +52,35 @@ To distribute IP addresses to the Windows 11 clients:
 
 📸 **DHCP Scope Name**
 
-![DHCP Scope Name](https://github.com/user-attachments/assets/15542a48-a895-4170-80a9-e21c7c46af8c)
+![DHCP Scope Name](https://github.com/user-attachments/assets/d1b68a3c-d6d3-44c5-adff-cdd852b1d3a4)
 
 📸 **IP Address Range Configuration**
 
-![IP Address Range](https://github.com/user-attachments/assets/7494b36d-eeb1-47b3-a51b-448806153068)
+![IP Address Range Configuration](https://github.com/user-attachments/assets/7b73483a-404c-4982-a87e-c71a941e0306)
 
 📸 **Lease Duration Configuration**
 
-![Lease Duration](https://github.com/user-attachments/assets/b479bc6b-85b3-4f42-ab18-95b5f69c65ed)
+![DHCP Scope Configuration Settings 4](https://github.com/user-attachments/assets/7f595ac6-d22f-4fdc-b2d3-d415a35918ac)
 
 📸 **Configure DHCP Options**
 
-![Configure DHCP Options](https://github.com/user-attachments/assets/b9eaa2a3-1291-49a0-8f2e-a09dd63a4364)
+![Configure DHCP Options](https://github.com/user-attachments/assets/e7f99d5f-87f1-4660-ace7-068578065ac4)
 
 📸 **Router (Default Gateaway) Configuration**
 
-![Router (Default Gateaway)](https://github.com/user-attachments/assets/0eb1f2a3-6e09-4e0b-8bf8-cd07f901de6b)
+![Router (Default Gateaway) Configuration](https://github.com/user-attachments/assets/450d4e51-095b-44c4-8181-b50739956883)
 
 📸 **Domain Name and DNS Servers Settings**
 
-![Domain Name and DNS Servers Settings](https://github.com/user-attachments/assets/ef72d0b1-2126-4711-b2f3-93b32a0b62c9)
+![Domain Name and DNS Servers Settings](https://github.com/user-attachments/assets/aebbac62-9621-46a8-af49-a76a1aecde06)
 
-📸 **Activate Scope Settingsn**
+📸 **Activate Scope Settings**
 
-![Activate Scope Settings](https://github.com/user-attachments/assets/cf34a1dc-3417-41cd-86e5-277deed5a91a)
+![DHCP Scope Configuration Settings 9](https://github.com/user-attachments/assets/78a78541-956e-4e29-af29-36fc42a8c2c3)
 
 📸 **Configured DHCP Scope Settings Confirmation**
 
-![Configured DHCP Scope Settings Confirmation](https://github.com/user-attachments/assets/f58f5dd6-5afd-4c4f-bd66-b11bcef4dc8d)
+![DHCP Scope Configuration Settings 11](https://github.com/user-attachments/assets/aca761a4-985f-40da-91e4-253ad19d5e9c)
 
 ---
 

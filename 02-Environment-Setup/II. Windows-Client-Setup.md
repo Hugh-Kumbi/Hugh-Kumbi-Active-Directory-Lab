@@ -39,20 +39,20 @@ I created two new VMs in **VirtualBox** with the following specifications:
 
 After installation, I did the following on both clients:
 
-- Kept host machine names as:
-  - `DESKTOP-74HPA3F`
-  - `DESKTOP-2N3JERQ`
+- Changed host machine names as:
+  - `AD-WIN11-01`
+  - `AD-WIN11-02`
 - Set static IP addresses and DNS:
-  - DESKTOP-74HPA3F: `192.168.1.101`
-  - DESKTOP-2N3JERQ: `192.168.1.12`
+  - AD-WIN11-01: `192.168.1.11`
+  - AD-WIN11-02: `192.168.1.12`
 - Set Preferred DNS to point to the Domain Controller: `192.168.1.10`
 - Restarted each machine to apply changes
 
-📸 **Network Settings With Static IP and DNS For `DESKTOP-74HPA3F`**
+📸 **Network Settings With Static IP and DNS For `AD-WIN11-01`**
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
 
-📸 **Network Settings With Static IP and DNS For `DESKTOP-2N3JERQ`**
+📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
@@ -123,8 +123,8 @@ After reboot, I:
 
 | Client Name         | IP Address    | DNS Server     | Domain Joined    |
 |---------------------|---------------|----------------|------------------|
-| **DESKTOP-74HPA3F** | 192.168.1.101 | 192.168.1.10   | hughdomain.local |
-| **DESKTOP-2N3JERQ** | 192.168.1.12  | 192.168.1.10   | hughdomain.local |
+| **AD-WIN11-01**     | 192.168.1.11  | 192.168.1.10   | hughdomain.local |
+| **AD-WIN11-02**     | 192.168.1.12  | 192.168.1.10   | hughdomain.local |
 
 ---
 

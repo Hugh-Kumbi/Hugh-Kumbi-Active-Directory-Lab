@@ -34,7 +34,7 @@ After installation, I performed the following:
 
 📸 **Network Settings Showing Static IP and DNS Config**
 
-![Network Settings Showing Static IP and DNS Config](https://github.com/user-attachments/assets/c56b55ca-c31d-4860-b712-137f006e0556)
+![Network Settings Showing Static IP and DNS Config 1](https://github.com/user-attachments/assets/9dbc64e7-e854-4573-a383-d46e458b3c18)
 
 📸 **System > About > Showing Changed Computer Name**
 

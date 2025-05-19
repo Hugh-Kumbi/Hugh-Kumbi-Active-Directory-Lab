@@ -19,6 +19,8 @@ I used **Server Manager** to install the **Web Server (IIS)** role:
 
 📸 **Server Manager - Role Selection with Web Server (IIS) Checked**
 
+![Role Selection with Web Server (IIS) Checked 3](https://github.com/user-attachments/assets/b7bbabdd-eee5-4680-acfc-7e7c4967d66a)
+
 ---
 
 ### 2. ✅ Confirm Installation and Test Default Website

@@ -82,10 +82,21 @@ After installation, I performed the following:
 
 📸 **PowerShell With `dcdiag` Results**
 
-![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/64125786-ae8e-4fc2-bdc2-f8cbaeaedbab)
+![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/b0b55f72-0cbd-4034-ab04-dd87a585fee8)
 
-![PowerShell With dcdiag Results 1](https://github.com/user-attachments/assets/c3dfcb92-6099-41a3-9e64-4973c0f8ba8e)
+![PowerShell With dcdiag Results 1](https://github.com/user-attachments/assets/d052baa0-9798-463d-803a-b9fe65ee006d)
 
+![PowerShell With dcdiag Results 2](https://github.com/user-attachments/assets/a30a8dad-45c0-4c5f-8920-1f1d2bdfb269)
+
+![PowerShell With dcdiag Results 3](https://github.com/user-attachments/assets/dcb8c2e7-b5b6-4198-a1df-e5231ffc3812)
+
+![PowerShell With dcdiag Results 4](https://github.com/user-attachments/assets/961ab258-2e5b-4309-b827-6afd8d3ccd2c)
+
+![PowerShell With dcdiag Results 5](https://github.com/user-attachments/assets/fcee262a-37f8-4bb9-b3a2-4ecf0dc41b69)
+
+![PowerShell With dcdiag Results 6](https://github.com/user-attachments/assets/b8a67ce3-3ae8-4298-8b77-d1f21bab1b8d)
+
+![PowerShell With dcdiag Results 7](https://github.com/user-attachments/assets/6cc40123-f283-4176-a17c-3922beb50bd3)
 
 📸 **DNS Manager Showing Forward Lookup Zone for `hughdomain.local`**
   

@@ -19,7 +19,31 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 
 📸 **Reverse Lookup Zone Creation Wizard**
 
-![Reverse Lookup Zone Creation Wizard](https://github.com/user-attachments/assets/10ebd273-c1a7-4e61-8323-b29e8f0225b2)
+![DNS Server Post Configuration Reverse Lookup Zone](https://github.com/user-attachments/assets/47b146b5-d91c-49fc-808b-5db77e1cebdd)
+
+📸 **Reverse Lookup Zone Type**
+
+![DNS Server Post Configuration Reverse Lookup Zone 1](https://github.com/user-attachments/assets/33d2b8c2-1019-4d14-a9ee-71ab7b944eb6)
+
+📸 **Reverse Lookup Active Directory Zone Replication Scope**
+
+![DNS Server Post Configuration Reverse Lookup Zone 2](https://github.com/user-attachments/assets/8d0b09be-9131-4e15-9638-57de4f7b82ec)
+
+📸 **Reverse Lookup Zone Name**
+
+![DNS Server Post Configuration Reverse Lookup Zone 3](https://github.com/user-attachments/assets/4a434024-55ad-47fe-8255-75e79886c909)
+
+📸 **Reverse Lookup Zone Name Network ID**
+
+![DNS Server Post Configuration Reverse Lookup Zone 4](https://github.com/user-attachments/assets/739c273c-da4c-4742-965f-8112b255bd39)
+
+📸 **Reverse Lookup Zone Dynamic Update**
+
+![DNS Server Post Configuration Reverse Lookup Zone 5](https://github.com/user-attachments/assets/9ab771db-aad5-42fb-b2c7-ceea4b9dfabd)
+
+📸 **Reverse Lookup Zone Creation Completion**
+
+![DNS Server Post Configuration Reverse Lookup Zone 6](https://github.com/user-attachments/assets/7c70f166-c141-43f1-bccd-a98811c75f8b)
 
 ---
 
@@ -37,7 +61,7 @@ Within the **Forward Lookup Zone**, I verified the creation of:
 
 📸 **DNS Manager With `msdcs` and SRV Records Visible**
 
-![DNS Manager With msdcs and SRV Records Visible](https://github.com/user-attachments/assets/6bdf6414-3673-4d76-91bb-3635bb6687bc)
+![DNS Manager With msdcs and SRV Records Visible](https://github.com/user-attachments/assets/6fe3186d-56b2-44b1-987e-d332d97b837c)
 
 📸 **Host Records For Domain Members**
 
@@ -90,19 +114,33 @@ To ensure everything worked:
   
 📸 **Verified That Domain Services Could Be Located**
 
-![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/d1886a50-33e2-4383-a1cc-c511cfecae4a)
+![Verified That Domain Services Could Be Located](https://github.com/user-attachments/assets/506cd97a-d99f-4ea0-ba4d-24cba15e9648)
+
+![Verified That Domain Services Could Be Located 1](https://github.com/user-attachments/assets/659148cc-76cd-4a77-b737-22ca71919597)
+
+![Verified That Domain Services Could Be Located 2](https://github.com/user-attachments/assets/425b6d39-320b-4b11-888f-e2e2365293b0)
+
+![Verified That Domain Services Could Be Located 3](https://github.com/user-attachments/assets/f444c25d-ae39-4eaf-9e4e-41927f676dfa)
+
+![Verified That Domain Services Could Be Located 4](https://github.com/user-attachments/assets/5de037cc-6309-499c-b73d-7bd1da8174ab)
+
+![Verified That Domain Services Could Be Located 5](https://github.com/user-attachments/assets/afb0ae54-6ea4-43c2-be2e-ef03103f72f1)
+
+![Verified That Domain Services Could Be Located 6](https://github.com/user-attachments/assets/1ae65ced-5272-4787-a8a1-93622fbecc52)
+
+![Verified That Domain Services Could Be Located 7](https://github.com/user-attachments/assets/75154b70-67ea-41ce-88f7-c2b65c157d20)
 
 📸 **Output From `ping` Commands For Hostname and IP Resolution**
 
-![Output From Ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
+![Output From ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/50a58e4a-5119-4ca6-bf5e-4155da8388c5)
 
 📸 **Output From `nslookup` Commands For Hostname and IP Resolution**
 
-![Output From `nslookup` Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/d166a456-0d28-4956-adc6-3c537ed42c6e)
+![Output From nslookup Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/89ca04a7-5e98-40fa-af84-e1c062163573)
 
 📸 **Command Prompt With `Ipconfig all` Showing Domain Suffix**
 
-![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/d65ecde3-ce87-4e26-ad71-4946ab0d98c0)
+![Command Prompt With Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/7a8c2ef9-ddd0-42c7-9c3a-6cf824031e78)
 
 **On Client Machines:**
 - Used `nslookup` to confirm the DNS server `(192.168.1.10)` was responding

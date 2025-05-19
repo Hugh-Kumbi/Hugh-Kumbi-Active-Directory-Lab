@@ -18,15 +18,15 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 
 📸 **Server Manager Summary After Installation**
 
-![Server Manager Summary After Installation](https://github.com/user-attachments/assets/0a4ce9a7-3f9b-46be-b130-2a7a1a6a0546)
+![Server Manager Summary After Installation](https://github.com/user-attachments/assets/077f8658-6c5d-4ac0-b9c6-9f02d1fc6266)
 
 📸 **Domain Promotion Wizard Final Confirmation Screen**
 
-![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/72f95f6f-0c87-4a91-baac-9e6bbaca6d1e)
+![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/a546e169-0eac-4ee6-85bf-0b825d36210c)
 
 📸 **Command Prompt With Ipconfig All Showing Domain Suffix**
 
-![Command Prompt With Ipconfig All Showing Domain Suffix](https://github.com/user-attachments/assets/154b55df-b766-4eaa-84db-e29f4f29c926)
+![Command Prompt With Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/2968bc91-1b53-4616-b169-f9c0f6c47656)
 
 ---
 

@@ -16,9 +16,9 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 - **Global Catalog:** Enabled  
 - **Directory Services Restore Mode (DSRM) Password:** Set securely  
 
-📸 **Server Manager Summary After Installation**
+📸 **Server Manager Summary Before Installation**
 
-![Server Manager Summary After Installation](https://github.com/user-attachments/assets/077f8658-6c5d-4ac0-b9c6-9f02d1fc6266)
+![Promoting Server to Domain Controller 5](https://github.com/user-attachments/assets/c6728cf2-d631-48f2-a867-65a3a0276cc1)
 
 📸 **Domain Promotion Wizard Final Confirmation Screen**
 

@@ -106,8 +106,7 @@ Passwords were set to expire and require change on first login (except admin acc
 
 📸 **Users Created in ADUC Confirmation**
 
-<!-- YouTube Embed -->
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hIbdutpT678" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/hIbdutpT678" title="Users in ADUC Confirmation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 📸 **Properties Window Showing Group Membership**
 

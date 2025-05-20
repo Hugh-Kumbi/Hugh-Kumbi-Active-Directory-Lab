@@ -104,7 +104,7 @@ Passwords were set to expire and require change on first login (except admin acc
 
 ![1500 Users Creation Confirmation](https://github.com/user-attachments/assets/5f19de2f-512d-4e81-a225-a1dda4e9fec2)
 
-
+![1500 Users Creation Confirmation](https://imgur.com/a/MIxksFH)
 
 📸 **Properties Window Showing Group Membership**
 

@@ -104,18 +104,10 @@ Passwords were set to expire and require change on first login (except admin acc
 
 ![1500 Users Creation Confirmation](https://github.com/user-attachments/assets/5f19de2f-512d-4e81-a225-a1dda4e9fec2)
 
-📸 **Users in ADUC Confirmation**
+📸 **Users Created in ADUC Confirmation**
 
 <!-- YouTube Embed -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-
-<!-- OR Direct Video File (if hosted elsewhere) -->
-<video width="560" height="315" controls>
-  <source src="https://www.youtube.com/watch?v=hIbdutpT678" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-![1500 Users Creation Confirmation](https://youtu.be/hIbdutpT678)
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=hIbdutpT678" frameborder="0" allowfullscreen></iframe>
 
 📸 **Properties Window Showing Group Membership**
 

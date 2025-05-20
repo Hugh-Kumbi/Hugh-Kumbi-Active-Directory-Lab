@@ -78,17 +78,33 @@ Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 Passwords were set to expire and require change on first login (except admin accounts).
 
-📸 **New User Wizard in ADUC**
+📸 **New User Creation Wizard in ADUC for Mei Guzha**
 
-![New User Wizard in ADUC](https://github.com/user-attachments/assets/8add7233-8b78-4811-b53f-fb6cd40f17ea)
+![New User Creation Wizard in ADUC for Mei Guzha](https://github.com/user-attachments/assets/17972dbf-d53a-423e-ad8e-aec894665864)
+
+📸 **New User Creation Wizard in ADUC for Lana Guzha**
+
+![New User Creation Wizard in ADUC for Lana Guzha](https://github.com/user-attachments/assets/7ebf1f4c-fff2-4f70-964f-bb0b986a8491)
+
+📸 **New User Creation Wizard in ADUC for Tech User1**
+
+![New User Wizard in ADUC 2](https://github.com/user-attachments/assets/ea7d9229-679f-49c5-ad46-7878d4deda95)
+
+📸 **New User Creation Wizard in ADUC for Tech User1**
+
+![New User Wizard in ADUC 3](https://github.com/user-attachments/assets/3b7eb3b4-7e3b-4992-9661-22b31bec18b9)
 
 📸 **1500 Users Creation Using PowerShell Script**
   
-![1500 Users Creation Using PowerShell Script](https://github.com/user-attachments/assets/3a0f8681-6487-41ff-8e8e-ffd41e472df7)
+![1500 Users Creation Using PowerShell Script](https://github.com/user-attachments/assets/caebe869-dd01-4ea1-80ba-6b149fd481a4)
+
+![1500 Users Creation Using PowerShell Script 1](https://github.com/user-attachments/assets/98a98044-31d6-4790-b625-4363dfceada6)
 
 📸 **1500 Users Creation Confirmation**
 
-![1500 Users Creation Confirmation](https://github.com/user-attachments/assets/41918c4d-817b-49d0-b289-0a12981fd397)
+![1500 Users Creation Confirmation](https://github.com/user-attachments/assets/5f19de2f-512d-4e81-a225-a1dda4e9fec2)
+
+
 
 📸 **Properties Window Showing Group Membership**
 

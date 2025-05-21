@@ -106,9 +106,9 @@ On each client:
 
 ![Domain Join Prompt with Domain Name Entered](https://github.com/user-attachments/assets/dc7540d2-de7f-4f32-be2b-fcf0998c53f1)
 
-![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/84a03122-8d70-48ac-b7d3-e7a9b464722f)
-
 📸 **Confirmation Screen for Successful Domain Join for `AD-WIN11-01`**
+
+![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/84a03122-8d70-48ac-b7d3-e7a9b464722f)
 
 ![Confirmation Screen for Successful Domain Join 1](https://github.com/user-attachments/assets/06c695ad-39af-4467-b560-ba8d8d600e10)
 
@@ -116,9 +116,9 @@ On each client:
 
 ![Domain Join Prompt with Domain Name Entered](https://github.com/user-attachments/assets/fc5bfcb1-afc5-46ba-8c8b-b49768ae6981)
 
-![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/4c02ba18-e465-4167-8d42-c2b24110f5b1)
-
 📸 **Confirmation Screen for Successful Domain Join for `AD-WIN11-02`**
+
+![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/4c02ba18-e465-4167-8d42-c2b24110f5b1)
 
 ![Confirmation Screen for Successful Domain Join 1](https://github.com/user-attachments/assets/11c484a7-0a8d-4b4f-bffd-3ae36bce120b)
 

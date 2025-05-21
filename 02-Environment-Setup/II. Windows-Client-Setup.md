@@ -148,15 +148,17 @@ After reboot, I:
 
 📸 **Login Screen with Domain Name Shown for `AD-WIN11-02`**
 
-![Login Screen With Domain Name Shown](https://github.com/user-attachments/assets/9ff3b78a-7e31-4b3a-87c9-a9d30626c624)
+![Login Screen with Domain Name Shown for AD-WIN11-02](https://github.com/user-attachments/assets/075477de-4a29-447c-ac33-9bc3f6d183c0)
 
 📸 **System Properties Showing Domain Joined for `AD-WIN11-02`**
 
-![System properties showing domain joined](https://github.com/user-attachments/assets/9d55c881-e968-40ee-ab5f-1b3c8baf73b3)
+![System Properties Showing Domain Joined for AD-WIN11-02](https://github.com/user-attachments/assets/1af06e6d-98de-4f18-bb8b-71212c4c8d72)
+
+![System Properties Showing Domain Joined for `AD-WIN11-02 1](https://github.com/user-attachments/assets/85a4ccff-926f-42a3-8109-6ec644499254)
 
 📸 **PowerShell Showing Successful Ping for `AD-WIN11-02`**
 
-![PowerShell Showing Successful Ping](https://github.com/user-attachments/assets/786662b4-9a08-4464-9acf-d0c0973b9002)
+![PowerShell Showing Successful Ping for AD-WIN11-02](https://github.com/user-attachments/assets/fb275185-9eb9-4eea-90ec-8f8ab4f7ac1b)
 
 ---
 

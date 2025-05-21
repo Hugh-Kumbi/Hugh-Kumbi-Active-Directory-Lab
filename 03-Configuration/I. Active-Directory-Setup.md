@@ -70,8 +70,8 @@ Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 | Username            | Full Name        | Department       | OU Placement      |
 |---------------------|------------------|------------------|-------------------|
 | **mguzha**          | Mei Guzha        | Marketing        | Marketing         |
-| **BackupAdmin**     | Backup Admin     | Admins           | Admins            |
-| **BackupAdmin1**    | Backup Admin1    | Admins           | Admins            |
+| **BUAdmin1**        | Backup Admin     | Admins           | Admins            |
+| **BUAdmin2**        | Backup Admin1    | Admins           | Admins            |
 | **lguzha**          | Lana Guzha       | Human Resources  | Human Resources   |
 | **TechUser1**       | Tech User1       | IT               | IT Security       |
 | **TechUser2**       | Tech User2       | IT               | IT Security       |

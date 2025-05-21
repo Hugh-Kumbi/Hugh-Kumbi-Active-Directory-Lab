@@ -115,19 +115,26 @@ Passwords were set to expire and require change on first login (except admin acc
 I created security groups for access control and GPO scoping:
 
 ### Examples:
-| Group Name                 | Type     | Scope     | Description                         |
-|----------------------------|----------|-----------|-------------------------------------|
-| **Administrators**         | User     |           | Admin privileges                    |
-| **BackupAdmin**            | User     |           | Built-in; Admin privileges          |
-| **BackupAdmin1**           | User     |           | Granted local admin on Sales PCs    |
-| **Domain Admins**          | Security | Global    | All IT support technicians          |
-| **HR-Managers**            | Security | Global    | HR management staff                 |
-| **IT-Managers**            | Security | Global    | Admin privileges                    |
-| **IT-Support**             | Security | Global    | Granted local admin on Sales PCs    |
-| **Marketing-Managers**     | Security | Global    | Built-in; Admin privileges          |
-| **TechUsers**              | Security | Global    | Granted local admin on Sales PCs    |
+| Group Name                           | Type     | Scope  | Description                                       |
+|--------------------------------------|----------|--------|---------------------------------------------------|
+| **Administrators**                   | User     |        | Built-in; Admin privileges                        |
+| **BUAdmin1**                         | User     |        | Admin privileges                                  |
+| **BUAdmin2**                         | User     |        | Admin privileges                                  |
+| **CustomerSupport-managers**         | Security | Global | Granted local admin on Customer Support PCs       |
+| **Domain Admins**                    | Security | Global | Built-in; Admin privileges                        |
+| **Finance-Managers**                 | Security | Global | Granted local admin on Finance PCs                |
+| **Human Resources-Managers**         | Security | Global | Granted local admin on Human Resources PCs        |
+| **IT-Managers**                      | Security | Global | Granted local admin on IT PCs                     |
+| **IT-Support**                       | Security | Global | Granted local admin on IT Support PCs             |
+| **IT-Security**                      | Security | Global | Granted local admin on IT Security PCs            |
+| **Legal-Managers**                   | Security | Global | Granted local admin on Legal PCs                  |
+| **Marketing-Managers**               | Security | Global | Granted local admin on Marketing PCs              |
+| **Operations-Managers**              | Security | Global | Granted local admin on Operations PCs             |
+| **ProductManagement-Managers**       | Security | Global | Granted local admin on Product Management PCs     |
+| **Research & Development-Managers**  | Security | Global | Granted local admin on Research & Development PCs |
+| **Sales-Managers**                   | Security | Global | Granted local admin on Sales PCs                  |
 
-🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
+🔁 Group nesting was applied where relevant (e.g., IT-Support inside IT-Managers).
 
 ## 🏢 Properties Window Showing Group Membership
 

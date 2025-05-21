@@ -73,7 +73,7 @@ After installation, I did the following on both clients:
 
 📸 **Windows IP Configuration for `AD-WIN11-01`**
 
-![Network settings with static IP and DNS](https://github.com/user-attachments/assets/df273dd0-bc9b-4550-992f-8e2aab110a8c)
+![Windows IP Configuration for AD-WIN11-01](https://github.com/user-attachments/assets/a4ede77c-2a9e-4af1-b2b3-964a608f182c)
 
 📸 **System > About > Showing Changed Computer Name**
 
@@ -81,7 +81,7 @@ After installation, I did the following on both clients:
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 
-![Network Settings With Static IP and DNS for AD-WIN11-02](https://github.com/user-attachments/assets/d2c7e08f-c299-4a65-89d8-3a127f6f9f5a)
+![Windows IP Configuration for AD-WIN11-02](https://github.com/user-attachments/assets/5098de5f-bd94-45a7-945f-d9bf660bc147)
 
 📸 **Windows IP Configuration for `AD-WIN11-02`**
 

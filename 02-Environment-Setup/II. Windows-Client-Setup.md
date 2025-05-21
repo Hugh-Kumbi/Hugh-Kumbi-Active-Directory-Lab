@@ -81,12 +81,11 @@ After installation, I did the following on both clients:
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 
-![Windows IP Configuration for AD-WIN11-02](https://github.com/user-attachments/assets/5098de5f-bd94-45a7-945f-d9bf660bc147)
+![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
 📸 **Windows IP Configuration for `AD-WIN11-02`**
 
-![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
-
+![Windows IP Configuration for AD-WIN11-02](https://github.com/user-attachments/assets/4dff8c8c-ee88-4877-974f-5e48629e5403)
 
 📸 **System > About > Showing Changed Computer Name**
 

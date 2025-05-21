@@ -117,12 +117,12 @@ I created security groups for access control and GPO scoping:
 ### Examples:
 | Group Name                 | Type     | Scope     | Description                         |
 |----------------------------|----------|-----------|-------------------------------------|
-| **Administrators**         | User     |           | HR management staff                 |
-| **BackupAdmin**            | User     |           |  Built-in; Admin privileges         |
-| **BackupAdmin1**           | User     |           |  Granted local admin on Sales PCs   |
+| **Administrators**         | User     |           | Admin privileges                    |
+| **BackupAdmin**            | User     |           | Built-in; Admin privileges          |
+| **BackupAdmin1**           | User     |           | Granted local admin on Sales PCs    |
 | **Domain Admins**          | Security | Global    | All IT support technicians          |
 | **HR-Managers**            | Security | Global    | HR management staff                 |
-| **IT-Managers**            | Security | Global    | Built-in; Admin privileges          |
+| **IT-Managers**            | Security | Global    | Admin privileges                    |
 | **IT-Support**             | Security | Global    | Granted local admin on Sales PCs    |
 | **Marketing-Managers**     | Security | Global    | Built-in; Admin privileges          |
 | **TechUsers**              | Security | Global    | Granted local admin on Sales PCs    |

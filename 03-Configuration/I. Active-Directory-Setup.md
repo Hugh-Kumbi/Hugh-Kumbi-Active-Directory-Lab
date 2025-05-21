@@ -1,4 +1,4 @@
-rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr# 🏢 Active Directory Setup
+# 🏢 Active Directory Setup
 
 This section outlines how I configured **Active Directory Domain Services (AD DS)** on the Windows Server 2025 Domain Controller and organized the domain structure using **Organizational Units (OUs)**, **users**, and **security groups**.
 

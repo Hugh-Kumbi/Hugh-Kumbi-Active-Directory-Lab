@@ -201,23 +201,33 @@ To confirm everything worked:
 - Ran `gpresult /r` to ensure correct GPO application  
 - Ensured all created objects appeared correctly in ADUC
 
-📸 **Login Screen Showing Domain User**
+📸 **Login Screen Showing Domain User for `AD-WIN11-01`**
 
-![Login Screen Showing Domain User](https://github.com/user-attachments/assets/e45946a0-0b2e-43a0-9822-7c075c3452cf)
+![Login Screen Showing Domain User for AD-WIN11-01](https://github.com/user-attachments/assets/0bc7e673-9b66-45c8-aeec-09678c7076f4)
 
-📸 **Output From `whoami` Command**
+📸 **Output From `whoami` Command for `AD-WIN11-01`**
 
-![Whoami](https://github.com/user-attachments/assets/708ed3be-2897-406c-bd2f-804bb0c7f05f)
+![Output From whoami Command for `AD-WIN11-01](https://github.com/user-attachments/assets/028472e8-4048-4d0e-9be9-13069ca425ab)
 
- 📸 **Output From `gpresult` Command**
+📸 **Output From `gpresult` Command for `AD-WIN11-01`**
+
+![Output From gpresult Command for AD-WIN11-01](https://github.com/user-attachments/assets/1f63b1dc-52ec-4913-9e2a-b11c4a455109)
+
+![Output From gpresult Command for AD-WIN11-01 1](https://github.com/user-attachments/assets/b52e482c-cd8a-47cd-a5eb-638d9abee787)
  
-![gpresult r 1](https://github.com/user-attachments/assets/d2e61890-5c4f-411c-98a4-3c2ade7fe02b)
+📸 **Login Screen Showing Domain User for `AD-WIN11-02`**
 
-![gpresult r 2](https://github.com/user-attachments/assets/a28715ad-35ad-47b1-9c5b-cc12e1715255)
+![Login Screen Showing Domain User for AD-WIN11-02](https://github.com/user-attachments/assets/e0b5123f-e3d2-4858-855d-e1b3eb70aa28)
 
-![gpresult r 3](https://github.com/user-attachments/assets/172c416c-2d74-4457-be57-2de2f649fa35)
+📸 **Output From `whoami` Command for `AD-WIN11-02`**
 
-![gpresult r 4](https://github.com/user-attachments/assets/b94205a1-75dd-490c-9670-a252ab610131)
+![Output From whoami Command for `AD-WIN11-02](https://github.com/user-attachments/assets/30cd62c0-77ca-4091-b74c-fc5ae0adf6ba)
+
+📸 **Output From `gpresult` Command for `AD-WIN11-02`**
+
+![Output From gpresult Command for AD-WIN11-02](https://github.com/user-attachments/assets/d7c53c8d-9977-4165-9594-ad4d9ac1f839)
+
+![Output From gpresult Command for AD-WIN11-02 1](https://github.com/user-attachments/assets/8a76d089-c683-4859-8674-7665a45e2681)
 
 ---
 

@@ -77,7 +77,7 @@ After installation, I did the following on both clients:
 
 📸 **System > About > Showing Changed Computer Name**
 
-![System - About - Showing Changed Computer Name](https://github.com/user-attachments/assets/6726cf3c-c69b-4c22-b2a6-e055936eaba7)
+![System - About - Showing Changed Computer Name 1](https://github.com/user-attachments/assets/1e124501-0f94-413e-a88c-3681087c3c99)
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 

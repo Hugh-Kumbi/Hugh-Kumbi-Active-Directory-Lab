@@ -26,7 +26,7 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 
 📸 **Command Prompt With Ipconfig All Showing Domain Suffix**
 
-![Command Prompt With Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/2968bc91-1b53-4616-b169-f9c0f6c47656)
+![Command Prompt With Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/57373b59-666c-48ae-81fe-155efae12f53)
 
 ---
 
@@ -67,14 +67,14 @@ Each department OU will be used for GPO targeting and permission management.
 Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 
 ### Example Users:
-| Username            | Full Name        | Department | OU Placement |
-|---------------------|------------------|------------|--------------|
-| **mguzha**          | Mei Guzha        | Marketing  | Marketing    |
-| **BackupAdmin**     | Backup Admin     | Admins     | Admins       |
-| **BackupAdmin1**    | Backup Admin1    | Admins     | Admins       |
-| **lguzha**          | Lana Guzha       | HR         | HR           |
-| **TechUser1**       | Tech User1       | IT         | IT Security  |
-| **TechUser2**       | Tech User2       | IT         | IT Security  |
+| Username            | Full Name        | Department       | OU Placement      |
+|---------------------|------------------|------------------|-------------------|
+| **mguzha**          | Mei Guzha        | Marketing        | Marketing         |
+| **BackupAdmin**     | Backup Admin     | Admins           | Admins            |
+| **BackupAdmin1**    | Backup Admin1    | Admins           | Admins            |
+| **lguzha**          | Lana Guzha       | Human Resources  | Human Resources   |
+| **TechUser1**       | Tech User1       | IT               | IT Security       |
+| **TechUser2**       | Tech User2       | IT               | IT Security       |
 
 Passwords were set to expire and require change on first login (except admin accounts).
 
@@ -107,6 +107,27 @@ Passwords were set to expire and require change on first login (except admin acc
 📸 **Users Created in ADUC Confirmation**
 
 [![Watch my video](https://img.youtube.com/vi/hIbdutpT678/0.jpg)](https://www.youtube.com/watch?v=hIbdutpT678)
+
+---
+
+## 👥 4. Group Creation and Nesting
+
+I created security groups for access control and GPO scoping:
+
+### Examples:
+| Group Name                 | Type     | Scope     | Description                         |
+|----------------------------|----------|-----------|-------------------------------------|
+| **Administrators**         | User     |           | HR management staff                 |
+| **BackupAdmin**            | User     |           |  Built-in; Admin privileges         |
+| **BackupAdmin1**           | User     |           |  Granted local admin on Sales PCs   |
+| **Domain Admins**          | Security | Global    | All IT support technicians          |
+| **HR-Managers**            | Security | Global    | HR management staff                 |
+| **IT-Managers**            | Security | Global    | Built-in; Admin privileges          |
+| **IT-Support**             | Security | Global    | Granted local admin on Sales PCs    |
+| **Marketing-Managers**     | Security | Global    | Built-in; Admin privileges          |
+| **TechUsers**              | Security | Global    | Granted local admin on Sales PCs    |
+
+🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
 
 ## 🏢 Properties Window Showing Group Membership
 
@@ -161,55 +182,6 @@ Passwords were set to expire and require change on first login (except admin acc
 📸 **Research & Development Managers Membership**
 
 ![Research & Development Managers Membership](https://github.com/user-attachments/assets/6d0d9710-1ae1-4adc-b822-38e39f8ac39b)
-
-
----
-
-## 👥 4. Group Creation and Nesting
-
-I created security groups for access control and GPO scoping:
-
-### Examples:
-| Group Name                 | Type     | Scope     | Description                         |
-|----------------------------|----------|-----------|-------------------------------------|
-| **Accounting-Managers**    | Security | Global    | All IT support technicians          |
-| **Administrators**         | User     |           | HR management staff                 |
-| **BackupAdmin**            | User     |           |  Built-in; Admin privileges         |
-| **BackupAdmin1**           | User     |           |  Granted local admin on Sales PCs   |
-| **Domain Admins**          | Security | Global    | All IT support technicians          |
-| **HR-Managers**            | Security | Global    | HR management staff                 |
-| **IT-Managers**            | Security | Global    | Built-in; Admin privileges          |
-| **IT-Support**             | Security | Global    | Granted local admin on Sales PCs    |
-| **Marketing-Managers**     | Security | Global    | Built-in; Admin privileges          |
-| **TechUsers**              | Security | Global    | Granted local admin on Sales PCs    |
-
-🔁 Group nesting was applied where relevant (e.g., IT-Managers inside TechUsers).
-
-📸 **Group Membership List**
-
-![Group membership list 1](https://github.com/user-attachments/assets/2470f069-fe22-4618-9a8c-0123fa81c908)
-
-![Group membership list 2](https://github.com/user-attachments/assets/02fd4efb-c704-4c9f-b164-3101a83520f2)
-
-![Group membership list 3](https://github.com/user-attachments/assets/78d4c7b6-2e8a-43d5-8df2-d0c625b1461f)
-
-![Group membership list 4](https://github.com/user-attachments/assets/9a4019a6-4c28-4a30-90f0-85928482d508)
-
-![Group membership list 5](https://github.com/user-attachments/assets/9d574d18-e909-425b-b8bf-15371ea1359c)
-
-![Group membership list 6](https://github.com/user-attachments/assets/01248bf9-b859-4d15-a2f0-fc6f6b9dd8c4)
-
-![Group membership list 7](https://github.com/user-attachments/assets/ef900dac-6ba1-45b5-8310-1c2ab5f802ae)
-
-![Group membership list 8](https://github.com/user-attachments/assets/fc273d96-6ca6-4962-b937-68a4ddd93828)
-
-![Group membership list 12](https://github.com/user-attachments/assets/fe11e96c-65ab-4151-908b-ef91642f448e)
-
-![Group membership list 9](https://github.com/user-attachments/assets/f98a6845-5241-4eeb-bd01-034972ce1a6e)
-
-![Group membership list 10](https://github.com/user-attachments/assets/38c5bd87-cfe1-49a2-938b-4d7ece8b2ee2)
-
-![Group membership list 11](https://github.com/user-attachments/assets/001c1f8b-fc68-4bb1-959e-93ff26b55caa)
 
 ---
 

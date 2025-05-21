@@ -75,7 +75,7 @@ After installation, I did the following on both clients:
 
 ![Windows IP Configuration for AD-WIN11-01](https://github.com/user-attachments/assets/365b1b19-fbcc-42b7-b29f-724e88b716a2)
 
-📸 **System > About > Showing Changed Computer Name**
+📸 **System > About > Showing Changed Computer Name for `AD-WIN11-01`**
 
 ![System - About - Showing Changed Computer Name 1](https://github.com/user-attachments/assets/1e124501-0f94-413e-a88c-3681087c3c99)
 
@@ -87,9 +87,9 @@ After installation, I did the following on both clients:
 
 ![Windows IP Configuration for AD-WIN11-02](https://github.com/user-attachments/assets/4dff8c8c-ee88-4877-974f-5e48629e5403)
 
-📸 **System > About > Showing Changed Computer Name**
+📸 **System > About > Showing Changed Computer Name for `AD-WIN11-02`**
 
-![System - About - Showing Changed Computer Name](https://github.com/user-attachments/assets/e8f8deae-6ed3-4fc7-8e58-8191d547d59e)
+![System - About - Showing Changed Computer Name 2](https://github.com/user-attachments/assets/ebaa5a2f-a68b-498c-bb81-586313001efc)
 
 ---
 

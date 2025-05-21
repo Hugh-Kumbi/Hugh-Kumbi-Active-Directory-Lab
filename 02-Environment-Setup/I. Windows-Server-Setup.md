@@ -100,7 +100,7 @@ After installation, I performed the following:
 
 📸 **DNS Manager Showing Forward Lookup Zone for `hughdomain.local`**
   
-![DNS Manager Showing Forward Lookup Zone For hughdomain local](https://github.com/user-attachments/assets/8aecd964-c65b-4048-ac74-0d2ac5bfe54a)
+![DNS Manager Showing Forward Lookup Zone for hughdomain](https://github.com/user-attachments/assets/f08e7ca0-a52e-430a-b76e-e05361b522cf)
 
 ---
 

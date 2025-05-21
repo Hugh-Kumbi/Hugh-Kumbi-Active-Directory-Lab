@@ -1,4 +1,4 @@
-# 🏢 Active Directory Setup
+rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr# 🏢 Active Directory Setup
 
 This section outlines how I configured **Active Directory Domain Services (AD DS)** on the Windows Server 2025 Domain Controller and organized the domain structure using **Organizational Units (OUs)**, **users**, and **security groups**.
 
@@ -108,19 +108,60 @@ Passwords were set to expire and require change on first login (except admin acc
 
 [![Watch my video](https://img.youtube.com/vi/hIbdutpT678/0.jpg)](https://www.youtube.com/watch?v=hIbdutpT678)
 
-📸 **Properties Window Showing Group Membership**
+## 🏢 Properties Window Showing Group Membership
 
-![Properties Window Showing Group Membership 1](https://github.com/user-attachments/assets/750d0033-adc4-4796-9495-ef65e5c7ef9a)
+📸 **Administrators Group Membership**
 
-![Properties Window Showing Group Membership 2](https://github.com/user-attachments/assets/0d027de8-aea2-4dbe-b8c7-9d6fa6c8c1fe)
+![Administrators Group](https://github.com/user-attachments/assets/dda1b010-c4e9-49c8-8573-b80828c828b6)
 
-![Properties Window Showing Group Membership 3](https://github.com/user-attachments/assets/fa4aaaca-dc8b-4601-83ed-b3edd8e0a3ba)
+📸 **Administrator Groups Membership**
 
-![Properties Window Showing Group Membership 4](https://github.com/user-attachments/assets/03dd0b50-7654-499c-9d3d-49f81ba01d96)
+![Administrator Groups Membership](https://github.com/user-attachments/assets/faf9342e-eb5a-47bf-b9db-bedbb7be36c0)
 
-![Properties Window Showing Group Membership 5](https://github.com/user-attachments/assets/528d7bfa-47e0-40d8-8444-346c43afe7d1)
+📸 **CustomerSupport Managers Membership**
 
-![Properties Window Showing Group Membership 6](https://github.com/user-attachments/assets/1afdb14d-07ae-4fc4-9a57-adf4c1f74c29)
+![CustomerSupport Managers Membership](https://github.com/user-attachments/assets/8644ecc1-38fe-491c-b29a-5bbe5211fd2a)
+
+📸 **Finance Managers Membership**
+
+![Finance Managers Membership](https://github.com/user-attachments/assets/bfe1e641-fcb9-4302-ac34-bbdaa5d2907e)
+
+📸 **Human Resources Managers Membership**
+
+![Human Resources Managers Membership](https://github.com/user-attachments/assets/bed4e332-78f8-432b-94b8-12b28ff06d18)
+
+📸 **IT Managers Membership**
+
+![IT Managers Membership](https://github.com/user-attachments/assets/614200cd-9ae7-417b-ad09-a8c0fab7f24d)
+
+📸 **IT Security Membership**
+
+![IT Security Membership](https://github.com/user-attachments/assets/270d1c3f-28e7-4b1f-8472-010c09e4395c)
+
+📸 **IT Support Membership**
+
+![IT Support Membership](https://github.com/user-attachments/assets/78472e2f-69e8-4afc-a56b-bfee59bd6018)
+
+📸 **Legal Managers Membership**
+
+![Legal Managers Membership](https://github.com/user-attachments/assets/0863da7a-3792-4cf5-9906-8bc195a6111a)
+
+📸 **Marketing Managers Membership**
+
+![Marketing Managers Membership](https://github.com/user-attachments/assets/4d86390e-71b0-4f2b-bdc3-da20dc93d919)
+
+📸 **Operations Managers Membership**
+
+![Operations Managers Membership](https://github.com/user-attachments/assets/3da6ccb0-6f5d-41cf-bdbc-0123654faeb7)
+
+📸 **Product Management Managers Membership**
+
+![Product Management Managers Membership](https://github.com/user-attachments/assets/620f4eaa-ff6b-4318-8dd9-fab681181e06)
+
+📸 **Research & Development Managers Membership**
+
+![Research & Development Managers Membership](https://github.com/user-attachments/assets/6d0d9710-1ae1-4adc-b822-38e39f8ac39b)
+
 
 ---
 

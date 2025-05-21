@@ -81,7 +81,7 @@ After installation, I did the following on both clients:
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 
-![Network Settings With Static IP and DNS for AD-WIN11-02](https://github.com/user-attachments/assets/0c9b8ecf-2170-4b54-971b-f58e7a4479d4)
+![Network Settings With Static IP and DNS for AD-WIN11-02](https://github.com/user-attachments/assets/de6ebac8-5a3a-4c6e-8197-cbe4b5aaec2c)
 
 📸 **Windows IP Configuration for `AD-WIN11-02`**
 

@@ -69,7 +69,7 @@ After installation, I did the following on both clients:
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-01`**
 
-
+![Network Settings With Static IP and DNS For `AD-WIN11-01](https://github.com/user-attachments/assets/56804e76-f1bd-4fa3-9dfe-b085a1fe9e43)
 
 📸 **Windows IP Configuration for `AD-WIN11-01`**
 
@@ -77,11 +77,11 @@ After installation, I did the following on both clients:
 
 📸 **System > About > Showing Changed Computer Name**
 
-
+![System - About - Showing Changed Computer Name](https://github.com/user-attachments/assets/6726cf3c-c69b-4c22-b2a6-e055936eaba7)
 
 📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
 
-
+![Network Settings With Static IP and DNS for AD-WIN11-02](https://github.com/user-attachments/assets/d2c7e08f-c299-4a65-89d8-3a127f6f9f5a)
 
 📸 **Windows IP Configuration for `AD-WIN11-02`**
 
@@ -89,6 +89,8 @@ After installation, I did the following on both clients:
 
 
 📸 **System > About > Showing Changed Computer Name**
+
+![System - About - Showing Changed Computer Name](https://github.com/user-attachments/assets/e8f8deae-6ed3-4fc7-8e58-8191d547d59e)
 
 ---
 
@@ -101,21 +103,25 @@ On each client:
 3. Supplied credentials for a domain admin account
 4. Restarted the machine when prompted
 
-📸 **Domain Join Prompt With Domain Name Entered**
+📸 **Domain Join Prompt With Domain Name Entered For `AD-WIN11-01`**
 
-![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
+![Domain Join Prompt with Domain Name Entered](https://github.com/user-attachments/assets/dc7540d2-de7f-4f32-be2b-fcf0998c53f1)
 
-📸 **Confirmation Screen For Successful Domain Join**
+![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/84a03122-8d70-48ac-b7d3-e7a9b464722f)
 
-![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/4a39927b-ba5d-4fd6-8b1a-455943c53533)
+📸 **Confirmation Screen For Successful Domain Join For `AD-WIN11-01`**
 
-📸 **Domain Join Prompt With Domain Name Entered**
+![Confirmation Screen for Successful Domain Join 1](https://github.com/user-attachments/assets/06c695ad-39af-4467-b560-ba8d8d600e10)
 
-![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
+📸 **Domain Join Prompt With Domain Name Entered For `AD-WIN11-02`**
 
-📸 **Confirmation Screen For Successful Domain Join**
+![Domain Join Prompt with Domain Name Entered](https://github.com/user-attachments/assets/fc5bfcb1-afc5-46ba-8c8b-b49768ae6981)
 
-![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/3dfb83d6-5da0-4982-b765-07c5135e3f95)
+![Confirmation Screen for Successful Domain Join](https://github.com/user-attachments/assets/4c02ba18-e465-4167-8d42-c2b24110f5b1)
+
+📸 **Confirmation Screen For Successful Domain Join For `AD-WIN11-02`**
+
+![Confirmation Screen for Successful Domain Join 1](https://github.com/user-attachments/assets/11c484a7-0a8d-4b4f-bffd-3ae36bce120b)
 
 ---
 

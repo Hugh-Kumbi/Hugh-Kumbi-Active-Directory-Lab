@@ -73,7 +73,7 @@ After installation, I did the following on both clients:
 
 📸 **Windows IP Configuration for `AD-WIN11-01`**
 
-![Windows IP Configuration for AD-WIN11-01](https://github.com/user-attachments/assets/a4ede77c-2a9e-4af1-b2b3-964a608f182c)
+![Windows IP Configuration for AD-WIN11-01](https://github.com/user-attachments/assets/365b1b19-fbcc-42b7-b29f-724e88b716a2)
 
 📸 **System > About > Showing Changed Computer Name**
 

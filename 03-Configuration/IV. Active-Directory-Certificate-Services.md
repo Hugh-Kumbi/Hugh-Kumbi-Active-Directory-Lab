@@ -112,11 +112,11 @@ After completing the wizard, I verified the CA installation via:
 
 📸 **Certification Authority Console**
 
-![Specify Credentials to Configure Role Services 12](https://github.com/user-attachments/assets/cb859fd7-5977-4d81-a4cc-8360309f7e34)
+![Certification Authority Console](https://github.com/user-attachments/assets/304ab09f-d196-48fd-85d5-0097fa74bafe)
 
 📸 **Certification Authority Console Showing Issued Root Certificate**
 
-![Issued Root Certificate](https://github.com/user-attachments/assets/c612d45b-6acb-4bac-af93-f4a3bd1bff3b)
+![Certification Authority Console Showing Issued Root Certificate](https://github.com/user-attachments/assets/73fff1d7-7cb7-4f69-bc1f-0b11cbc82853)
 
 ---
 

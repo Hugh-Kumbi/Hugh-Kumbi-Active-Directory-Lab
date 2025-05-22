@@ -166,6 +166,7 @@ To ensure everything worked:
 
 📸 **Output From `gpupdate` Command for `AD-WIN11-02`**
 
+![Output From `gpupdate` Command for `AD-WIN11-02`](https://github.com/user-attachments/assets/6eb4e6da-f4b6-4347-a24a-bb04f9b31a16)
 
 📸 **Output From `gpresult` Command for `AD-WIN11-02`**
 

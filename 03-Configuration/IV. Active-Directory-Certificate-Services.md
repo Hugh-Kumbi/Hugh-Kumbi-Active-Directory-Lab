@@ -17,11 +17,11 @@ Using **Server Manager**, I added the **Active Directory Certificate Services** 
 - Role selected: `Active Directory Certificate Services`
 - Services selected:
   - Certification Authority (CA)
-  - Certification Authority Web Enrollment *(optional)*
+  - Certification Authority Web Enrollment
 
 📸 **Server Role Selection**
 
-![Active Directory Certificate Services (AD CS) Installation 6](https://github.com/user-attachments/assets/f956db8a-1a5e-4775-a8ef-7c98dcd4049e)
+![AD CS Configuration Wizard Role Services](https://github.com/user-attachments/assets/84fc05fc-5550-4643-bd47-8fa3e0968817)
 
 ---
 
@@ -31,61 +31,74 @@ After the role installation, I launched the **AD CS Configuration Wizard** to se
 
 - **Role services configured**:
   - Certification Authority
+  - Certification Authority Web Enrollment
 - **Setup type**: Enterprise CA
 - **CA type**: Root CA
 - **Private key**: Created a new private key
 - **Cryptography settings**: RSA 2048-bit
 - **CA name**: Auto-generated using domain and hostname
-- **Validity period**: 5 years
+- **Validity period**: 10 years
 - **Certificate database locations**: Used default paths
 
 📸 **AD CS Configuration Wizard Credentials**
 
-![Specify Credentials to Configure Role Services](https://github.com/user-attachments/assets/475d8cf2-16a5-4ce3-b44e-ab34e2a517fb)
+![AD CS Configuration Wizard Credentials](https://github.com/user-attachments/assets/b0924a25-a74d-4e2e-ac55-a5c787223bc6)
 
 📸 **AD CS Configuration Wizard Role Services**
 
-![Specify Credentials to Configure Role Services 1](https://github.com/user-attachments/assets/731c71f9-9088-4b2e-9df8-2eca8460872f)
+![AD CS Configuration Wizard Role Services](https://github.com/user-attachments/assets/099502c9-e730-4d31-b29a-f372555f4cd7)
 
 📸 **AD CS Configuration Wizard Setup Type**
 
-![Specify Credentials to Configure Role Services 2](https://github.com/user-attachments/assets/80f9378b-9cf1-42a6-ab87-ca82f12b4bf4)
+![AD CS Configuration Wizard Setup Type](https://github.com/user-attachments/assets/99a258bb-e8a6-4877-b169-b7f419c6eee6)
 
 📸 **AD CS Configuration Wizard CA Type**
 
-![Specify Credentials to Configure Role Services 3](https://github.com/user-attachments/assets/3c13d88c-0834-453a-ba3c-c611b0df9a1b)
+![AD CS Configuration Wizard CA Type](https://github.com/user-attachments/assets/726b4b7c-b38d-4af7-b0ed-a599e9e3766a)
 
 📸 **AD CS Configuration Wizard Private Key**
 
-![Specify Credentials to Configure Role Services 4](https://github.com/user-attachments/assets/6a889e4d-7ed5-4a4b-9b6b-6f9d6a3c3488)
+![AD CS Configuration Wizard Private Key](https://github.com/user-attachments/assets/d2454eef-e52f-4a73-a6bc-4fed9741545e)
 
 📸 **AD CS Configuration Wizard Cryptography**
 
-![Specify Credentials to Configure Role Services 5](https://github.com/user-attachments/assets/b4d1ae35-abc2-476f-935a-6f24f8e12010)
+![AD CS Configuration Wizard Cryptography](https://github.com/user-attachments/assets/2f051796-4f8a-4315-9be3-36870a5f3f11)
 
 📸 **AD CS Configuration Wizard CA Name**
 
-![Specify Credentials to Configure Role Services 6](https://github.com/user-attachments/assets/6f23e3a5-1171-45aa-836d-26c0d14b6310)
+![AD CS Configuration Wizard CA Name](https://github.com/user-attachments/assets/593ca3bc-c6cd-42e6-b60e-e72b940d3d6f)
 
 📸 **AD CS Configuration Wizard Validity Period**
 
-![Specify Credentials to Configure Role Services 7](https://github.com/user-attachments/assets/99d9bfc8-2b33-4f7d-9f9e-51345b01be3d)
+![AD CS Configuration Wizard Validity Period](https://github.com/user-attachments/assets/73c1d3a6-5f34-4831-afbf-43d56f29e5c5)
 
 📸 **AD CS Configuration Wizard Certificate Database**
 
-![Specify Credentials to Configure Role Services 8](https://github.com/user-attachments/assets/c190e951-92d2-4e98-814b-7b2946f760ca)
+![AD CS Configuration Wizard Certificate Database](https://github.com/user-attachments/assets/002323f5-63da-4798-97c0-b193c276cbc1)
+
+📸 **AD CS Configuration Wizard Authentification Type for CEP**
+
+![AD CS Configuration Wizard Authentification Type for CEP](https://github.com/user-attachments/assets/8c2346a7-beae-4d4f-8308-7d78a972dfae)
+
+📸 **AD CS Configuration Wizard Server Certificate**
+
+![AD CS Configuration Wizard Server Certificate](https://github.com/user-attachments/assets/0e60bc55-1ba0-4adb-8fc7-f0bb87cf1aba)
 
 📸 **AD CS Configuration Wizard Confirmation**
 
-![Specify Credentials to Configure Role Services 9](https://github.com/user-attachments/assets/1cf9f466-1889-419c-a479-ae0aba6e8bd1)
+![AD CS Configuration Wizard Confirmation](https://github.com/user-attachments/assets/c0033221-fdee-4fa9-b3ba-6134e7a4985a)
 
 📸 **AD CS Configuration Wizard Progress**
 
-![Specify Credentials to Configure Role Services 10](https://github.com/user-attachments/assets/db878a5c-fe90-4f9a-88db-c46a74c5d399)
+![AD CS Configuration Wizard Progress](https://github.com/user-attachments/assets/58d8de44-111e-412c-88d8-c8308e20e85c)
 
 📸 **AD CS Configuration Wizard Results**
 
-![Specify Credentials to Configure Role Services 11](https://github.com/user-attachments/assets/66071b85-11cc-4ce6-b0cb-d6665ffe3a58)
+![AD CS Configuration Wizard Results](https://github.com/user-attachments/assets/97b55a6b-4865-482e-9f6c-8a7299cb8cd5)
+
+📸 **AD CS Configuration Final Result**
+
+![AD CS Configuration Final Result](https://github.com/user-attachments/assets/365b5ae9-1547-4f06-8084-ad09423d9e28)
 
 ---
 

@@ -15,7 +15,7 @@ During the **Active Directory Domain Services (AD DS)** installation and domain 
 
 📸 **DNS Manager Showing Forward Lookup Zone For hughdomain.local**
 
-![DNS Manager Showing Forward Lookup Zone For hughdomain.local](https://github.com/user-attachments/assets/49da0768-4f2f-4e93-89a0-7497c99bec09)
+![DNS Manager Showing Forward Lookup Zone for hughdomain](https://github.com/user-attachments/assets/c51b04af-24b8-40e5-858e-547e8d207033)
 
 📸 **Reverse Lookup Zone Creation Wizard**
 
@@ -65,7 +65,7 @@ Within the **Forward Lookup Zone**, I verified the creation of:
 
 📸 **Host Records For Domain Members**
 
-![Host Records For Domain Members](https://github.com/user-attachments/assets/799d22f0-446d-4598-810b-0c1c1d01e820)
+![Host Records For Domain Members](https://github.com/user-attachments/assets/447427b9-9aa0-43a7-8486-6d473fc4fced)
 
 ---
 
@@ -84,11 +84,11 @@ Verified PTR records for:
 
 📸 **Reverse Lookup Zone Configuration in DNS Manager**
 
-![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/60a91dd9-dff6-43f8-9377-c609b3e6f845)
+![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/03a2ff6e-c85f-4947-8917-9263d655d7be)
 
 📸 **PTR Record List**
 
-![PTR Record List](https://github.com/user-attachments/assets/e4d77d55-e09a-4fcf-a2cf-062d0f4be1e1)
+![PTR Record List](https://github.com/user-attachments/assets/84c3653f-b565-4bc8-a490-c8c1b58803ca)
 
 ---
 
@@ -146,15 +146,15 @@ To ensure everything worked:
 - Used `nslookup` to confirm the DNS server `(192.168.1.10)` was responding
 - Ran `gpupdate /force` and `gpresult /r` to check successful GPO delivery
 
-📸 **Output From `nslookup` to Confirm The DNS Server Response**
+📸 **Output From `nslookup` to Confirm The DNS Server Response for `AD-WIN11-01`**
 
-![Output From `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/05855f94-6b9f-4bd7-a129-b205c8993f35)
+![Output From `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/b2077a0c-d7a0-41fb-b93e-ce29116e3017)
 
-📸 **Output From `gpupdate` Command**
+📸 **Output From `gpupdate` Command for `AD-WIN11-01`**
 
 ![Output From `gpupdate` Command](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
 
-📸 **Output From `gpresult` Command**
+📸 **Output From `gpresult` Command for `AD-WIN11-01`**
 
 ![Output From `gpresult` Command](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
 

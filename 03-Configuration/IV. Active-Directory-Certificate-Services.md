@@ -21,7 +21,7 @@ Using **Server Manager**, I added the **Active Directory Certificate Services** 
 
 📸 **Server Role Selection**
 
-![AD CS Configuration Wizard Role Services](https://github.com/user-attachments/assets/84fc05fc-5550-4643-bd47-8fa3e0968817)
+![AD CS Server Role Selection](https://github.com/user-attachments/assets/a35854bd-81f3-4d09-8680-97323ba0823f)
 
 ---
 

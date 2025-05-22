@@ -152,11 +152,26 @@ To ensure everything worked:
 
 📸 **Output From `gpupdate` Command for `AD-WIN11-01`**
 
-![Output From `gpupdate` Command](https://github.com/user-attachments/assets/284e084a-7b85-455d-abbf-9117d30b444f)
+![Output From `gpupdate` Command for `AD-WIN11-01`](https://github.com/user-attachments/assets/8974d5c9-c52c-4937-9196-8e14ff373ec6)
 
 📸 **Output From `gpresult` Command for `AD-WIN11-01`**
 
-![Output From `gpresult` Command](https://github.com/user-attachments/assets/310ebd8a-498f-4426-bd5a-96ef72c4823c)
+![Output From `gpresult` Command for `AD-WIN11-01`](https://github.com/user-attachments/assets/795f2a4b-c930-4d9d-b2bf-1ceda5056d79)
+
+![Output From `gpresult` Command for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/3087e4d0-7ecd-4f17-95c2-ccf76b4fdb89)
+
+📸 **Output From `nslookup` to Confirm The DNS Server Response for `AD-WIN11-02`**
+
+![Output From `nslookup` to Confirm The DNS Server Response for `AD-WIN11-02`](https://github.com/user-attachments/assets/df5988db-2130-464e-a896-44735dda2ea8)
+
+📸 **Output From `gpupdate` Command for `AD-WIN11-02`**
+
+
+📸 **Output From `gpresult` Command for `AD-WIN11-02`**
+
+![Output From `gpresult` Command for `AD-WIN11-02`](https://github.com/user-attachments/assets/1111636a-791b-47ff-b20d-f96c15e0c0bc)
+
+![Output From `gpresult` Command for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/5a403c0d-4d3b-4e67-8c34-6d3be2416ff6)
 
 ---
 

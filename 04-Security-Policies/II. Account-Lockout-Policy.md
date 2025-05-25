@@ -11,9 +11,9 @@ This document outlines the **Account Lockout Policy** configured in the domain t
 
 Created and applied via the **Group Policy Management Console (GPMC)**, this GPO was designed to lock accounts temporarily after multiple failed login attempts.
 
-📸 **GPMC Showing The Account Lockout Policy GPO And Its Link to The Domain**
+📸 **GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain**
 
-![GPMC Showing The Account Lockout Policy GPO And Its Link to The Domain](https://github.com/user-attachments/assets/de8ce8fa-ae37-4bbb-8cc6-faf17c429b2c)
+![GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain](https://github.com/user-attachments/assets/de8ce8fa-ae37-4bbb-8cc6-faf17c429b2c)
 
 ---
 

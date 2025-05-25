@@ -24,8 +24,9 @@ To track and monitor critical security events such as logons, account management
 | **Privilege Use**          | Sensitive Privilege Use             | Success, Failure  |
 | **System**                 | Security System Extension           | Success, Failure  |
 
-## 📸 Screenshot
-![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
+## 📸 Audit Policy Configuration Window
+
+![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/9d82e1ac-04f2-4c97-be37-abdb595dc055)
 
 ---
 

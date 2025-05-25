@@ -11,7 +11,7 @@ This section documents the **User Rights Assignment** configured through Group P
 
 This policy is configured using the **Group Policy Management Console (GPMC)** and applied at the domain level to ensure that all user rights are properly assigned.
 
-📸 **GPMC Showing User Rights Assignment GPO**
+📸 **GPMC Showing User Rights Assignment GPO Under Win11 Security Policy**
 
 ![Win 11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/41d02b02-6eff-41ca-95c6-6cf19b33bb1d)
 
@@ -35,9 +35,9 @@ These rights control the ability of users or groups to log on to the system, run
 
 📸 **Group Policy Editor Window Showing User Rights Path**
 
-![Group Policy Editor Window Showing User Rights Path 1](https://github.com/user-attachments/assets/d0495faf-a128-4a38-b694-375bf8577ed3)
+![Group Policy Editor Window Showing User Rights Path](https://github.com/user-attachments/assets/76170d21-d2b2-4a02-aa54-7315606c72cc)
 
-![Group Policy Editor Window Showing User Rights Path 2](https://github.com/user-attachments/assets/0fcd640d-aafb-4c24-b619-e13e5be83ade)
+![Group Policy Editor Window Showing User Rights Path 1](https://github.com/user-attachments/assets/685c9085-f8e7-43d2-aeef-d5e14cff2361)
 
 ---
 

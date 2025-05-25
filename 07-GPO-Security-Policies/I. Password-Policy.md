@@ -8,7 +8,7 @@ To enhance account security by enforcing strong password policies across all dom
 
 ## 🛠️ 2. GPO Details
 
-- **GPO Name:** Win11 Security Policy
+- **GPO Name:** Password Policy
 - **Scope:** Applied at the domain level to ensure all users comply.
 
 ---
@@ -24,9 +24,9 @@ To enhance account security by enforcing strong password policies across all dom
 | **Password must meet complexity requirements**  | Enabled                 |
 | **Store passwords using reversible encryption** | Disabled                |
 
-**📸 Password Policy Showing Each Setting With Its Configured Value**
+**📸 Password Policy Showing Each Setting with Its Configured Value**
 
-![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
+![Password Policy Showing Each Setting with Its Configured Value](https://github.com/user-attachments/assets/9c13030a-018e-4ac8-8873-0991bfb40001)
 
 ---
 

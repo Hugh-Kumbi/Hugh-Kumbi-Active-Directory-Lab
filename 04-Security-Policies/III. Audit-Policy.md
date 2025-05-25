@@ -11,9 +11,9 @@ This document outlines the **Audit Policy** applied to the domain via Group Poli
 
 Created using the **Group Policy Management Console (GPMC)**, this GPO was applied at the domain level to ensure consistent audit logging across all domain-joined systems.
 
-📸 **GPMC Showing The Linked Domain Audit Policy GPO**
+📸 **GPMC Showing the Linked Domain Audit Policy GPO**
 
-![GPMC Showing The Linked Domain Audit Policy GPO](https://github.com/user-attachments/assets/31bb11fb-730e-4dc4-ab12-e201766397f2)
+![GPMC Showing the Linked Domain Audit Policy GPO](https://github.com/user-attachments/assets/359144f9-5834-4f01-ac62-ee0d118d8e2b)
 
 ---
 
@@ -33,13 +33,13 @@ Path to settings:
 | **Privilege Use**      | Sensitive Privilege Use          | Success/Failure   |
 | **System**             | Security System Extension        | Success/Failure   |
 
-📸 **Group Policy Editor Window Showing The Audit Policy Configuration Window**
+📸 **Group Policy Editor Window Showing the Audit Policy Configuration Window**
 
-![Win11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/e9d0a272-5a26-4415-b2fc-797be0a3cedd)
+![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/9d82e1ac-04f2-4c97-be37-abdb595dc055)
 
 📸 **Advanced Audit Policy Configuration Window:**
 
-![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
+![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/1219e42e-26b1-46a9-bae6-ce7b512d5ff9)
 
 ---
 
@@ -66,7 +66,7 @@ By auditing both successful and failed events, I ensured I could track both norm
 
 📸 **Security Event Logs in Event Viewer Showing Sample Audited Events**
 
-![Security Event Logs In Event Viewer Showing Sample Audited Events](https://github.com/user-attachments/assets/738fb487-504f-4c15-8bf6-f65a3b1cc814)
+![Security Event Logs in Event Viewer Showing Sample Audited Events](https://github.com/user-attachments/assets/b5d91f9f-503a-4e6b-9a02-b0a811733335)
 
 📸 **Other Policy Change Events**
 
@@ -78,19 +78,19 @@ By auditing both successful and failed events, I ensured I could track both norm
 
 📸 **Logoff**
 
-![Logoff](https://github.com/user-attachments/assets/094b2bd8-7893-45ab-8725-23c1d9ac8d5e)
+![Logoff](https://github.com/user-attachments/assets/9b0a025c-851d-4b21-80b4-12ed2b057d13)
 
 📸 **Logon**
 
-![Logon](https://github.com/user-attachments/assets/ee69efda-3b3b-4a1f-ab4b-efbc6e7c0c7d)
+![Logon](https://github.com/user-attachments/assets/40dd2d42-cac8-48d1-986d-3ea25db67960)
 
 📸 **Group Membership**
 
-![Group Membership](https://github.com/user-attachments/assets/a62ca287-2a0e-4a86-8825-8635b18675f4)
+![Group Membership](https://github.com/user-attachments/assets/e591efdd-1001-42b7-b1d9-e6d2f47f8fec)
 
 📸 **Special Logon**
 
-![Special Logon](https://github.com/user-attachments/assets/e1eea46d-5a9e-4802-8415-037fceed0530)
+![Special Logon](https://github.com/user-attachments/assets/b3524807-3f8e-4ff5-8c1b-2de9212cc225)
 
 ---
 

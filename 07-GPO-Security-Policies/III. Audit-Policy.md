@@ -6,7 +6,7 @@ To track and monitor critical security events such as logons, account management
 ---
 
 ## 🛠️ 2. GPO Details
-- **GPO Name:** Win11 Security Policy
+- **GPO Name:** Audit Policy
 - **Scope:** Domain-wide
 
 ---

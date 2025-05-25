@@ -6,14 +6,14 @@ This document outlines the **Password Policy** implemented through Group Policy 
 
 ## 📛 1. GPO Name
 
-- **GPO Name:** Win11 Security Policy
+- **GPO Name:** Password Policy
 - **Linked To:** hughdomain.local (domain root)
 
 This policy was created using the **Group Policy Management Console (GPMC)** and linked at the domain level to ensure that it applies uniformly to all domain user accounts.
 
-📸 **GPMC Showing The Domain Password Policy GPO**
+📸 **GPMC Showing the Domain Password Policy GPO**
 
-![GPMC Showing The Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
+![GPMC Showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/86192e7a-509f-4998-b9bb-d188f02fe743)
 
 ---
 
@@ -23,24 +23,24 @@ The following settings were configured under:
 
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
-| Setting                                         | Value                |
-|-------------------------------------------------|----------------------|
-| **Enforce password history**                    | 24 passwords         |
-| **Maximum password age**                        | 90 days              |
-| **Minimum password age**                        | 1 day                |
-| **Minimum password length**                     | 12 characters        |
-| **Password must meet complexity**               | Enabled              |
-| **Store passwords using reversible encryption** | Disabled             |
+| Setting                                         | Value                   |
+|-------------------------------------------------|-------------------------|
+| **Enforce password history**                    | 24 passwords remembered |
+| **Maximum password age**                        | 90 days                 |
+| **Minimum password age**                        | 1 day                   |
+| **Minimum password length**                     | 12 characters           |
+| **Password must meet complexity requirements**  | Enabled                 |
+| **Store passwords using reversible encryption** | Disabled                |
 
 These settings ensure users cannot reuse old passwords frequently, must use complex and lengthy passwords, and cannot store passwords insecurely.
 
 📸 **Group Policy Editor Window Showing the Password Policy Path**
 
-![Win11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/e235c750-fb60-4739-9176-8d86e62219d6)
+![GPMC Showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/823e9888-7b67-4ae2-aa30-c658fe1b7c20)
 
-📸 **Each Setting With Its Configured Value**
+📸 **Policy Showing Each Setting with Its Configured Value**
 
-![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
+![Password Policy Showing Each Setting with Its Configured Value](https://github.com/user-attachments/assets/f8b39093-d77c-4b89-8974-048946e32b7d)
 
 ---
 
@@ -67,15 +67,21 @@ gpresult /r
 ```
 - Checked rsop.msc (Resultant Set of Policy) to confirm applied settings.
 
-📸 **`gpresult` Showing WIN Security Policy Application**
+📸 **`gpresult` Showing Password Policy Application for `AD-WIN11-01`**
 
-![`gpresult` Showing WIN Security Policy Application 1](https://github.com/user-attachments/assets/c63c2776-fa06-4c92-bdc7-04b2bb9a799c)
+![`gpresult` Showing Password Policy Application for `AD-WIN11-01`](https://github.com/user-attachments/assets/b8efa2b6-49ee-4456-9005-432ae51312c1)
 
-![`gpresult` Showing WIN Security Policy Application 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
+![`gpresult` Showing Password Policy Application for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/05f7ce83-918e-4594-b4e0-d9689c050eee)
 
-📸 **Resultant Set of Policy**
+📸 **`gpresult` Showing Password Policy Application for `AD-WIN11-02`**
 
-![Resultant Set of Policy](https://github.com/user-attachments/assets/2427206f-ffe8-4c92-9ec9-854ad33702a6)
+![presult` Showing Password Policy Application for `AD-WIN11-02`](https://github.com/user-attachments/assets/86ad4f47-f523-456c-92e5-2a85fd19ec3e)
+
+![presult` Showing Password Policy Application for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/3f5a2733-3c40-4425-9347-40b7e822cba5)
+
+📸 **Resultant Set of Policy for AD-WIN11-01**
+
+![Resultant Set of Policy](https://github.com/user-attachments/assets/da085e01-74f1-422b-a720-92ce52780b8e)
 
 ---
 

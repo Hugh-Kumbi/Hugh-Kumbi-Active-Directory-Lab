@@ -36,11 +36,7 @@ These settings ensure users cannot reuse old passwords frequently, must use comp
 
 📸 **Group Policy Editor Window Showing the Password Policy Path**
 
-![GPMC Showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/823e9888-7b67-4ae2-aa30-c658fe1b7c20)
-
-📸 **Policy Showing Each Setting with Its Configured Value**
-
-![Password Policy Showing Each Setting with Its Configured Value](https://github.com/user-attachments/assets/f8b39093-d77c-4b89-8974-048946e32b7d)
+![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/f8b39093-d77c-4b89-8974-048946e32b7d)
 
 ---
 

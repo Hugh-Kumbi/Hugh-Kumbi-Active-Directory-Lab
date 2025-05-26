@@ -76,15 +76,11 @@ These settings restrict local administrators from accessing systems remotely and
 
 ![Remote Desktop RDP Attempt for AD-Win11-02 5](https://github.com/user-attachments/assets/a93aec6c-0d50-4b5a-ae1b-ffe373ced144)
 
-![Remote Desktop RDP Attempt for AD-Win11-02 4](https://github.com/user-attachments/assets/0c7fe2a9-51d1-41ce-a431-ce66bfef3d90)
-
 ![Remote Desktop RDP Attempt for AD-Win11-02 Successful](https://github.com/user-attachments/assets/ea29dc15-c0c8-4a30-a83d-66168de564ee)
 
 📸 **Remote Desktop Access with Local Admin Credentials Showing Test Denied for `AD-WIN11-02`**
 
 ![Accessing AD-WIN11-02 Using LocalAdmin Credentials](https://github.com/user-attachments/assets/adcb2ce7-0eea-4f6b-9a9b-834ea3caad55)
-
-![Remote Desktop RDP Attempt for AD-Win11-02](https://github.com/user-attachments/assets/a35a3a46-14df-429a-b4cd-a29e6717f717)
 
 ![Remote Desktop RDP Attempt for AD-Win11-02 1](https://github.com/user-attachments/assets/c38722cd-a9a7-4b54-ac48-b233ef1ced8e)
 

@@ -7,11 +7,11 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** User Folder Redirection Policy  
-- **Linked To:** Tech OU
+- **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link**
 
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
+![Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link](https://github.com/user-attachments/assets/c4af2028-f958-474b-840b-f618b5be9df8)
 
 ---
 

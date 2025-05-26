@@ -68,8 +68,6 @@ These settings restrict local administrators from accessing systems remotely and
 
 ![Local Admin Account Login to Test RDP](https://github.com/user-attachments/assets/c29851d1-e1d2-46fe-941d-c09de3e381a2)
 
-![Remote Desktop RDP Attempt 3](https://github.com/user-attachments/assets/583ecded-f813-4d97-ae4c-9f397e835715)
-
 ![Remote Desktop RDP Attempt 4](https://github.com/user-attachments/assets/856f1f1a-0175-46a2-a45e-002cc3afaecb)
 
 ![Remote Desktop RDP Attempt failed 1](https://github.com/user-attachments/assets/dbea4eb1-f0b2-47ec-97bc-9ec30cff5bc4)

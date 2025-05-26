@@ -11,7 +11,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
 
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/7a6b5186-8001-41d2-9b92-97325d2c48b5)
+![Group Policy Management Console Showing The User Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/e2303c72-8b23-4632-8d74-28eab4708666)
 
 ---
 
@@ -24,7 +24,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
    `Create a folder for each user under the root path`
 
 3. Specified the **Root Path**:  
-   `\\WIN-D2PQBCI88JQ\UserData`
+   `\\WINSERVER2025\FileShares$`
 
 4. Checked the box for:  
    ✅ *Grant the user exclusive rights to Documents*
@@ -32,13 +32,18 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 5. Enabled:  
    ✅ *Move the contents of Documents to the new location*
 
+6. Checked:  
+   ✅ *Redirect the folder back to the user profile location when policy is removed*
+
 📸 **Folder Redirection Properties Window With Configuration**
 
-![Folder Redirection Properties Window With Configuration](https://github.com/user-attachments/assets/bda6c476-6430-4b88-bc7a-3bd71f590c4a)
+![Configuring Documents Redirection](https://github.com/user-attachments/assets/69b3c952-a1aa-499e-97a9-c1c3cfc39604)
+
+![Configuring Documents Redirection 1](https://github.com/user-attachments/assets/0e3b9272-7766-456f-b60f-717183658040)
 
 📸 **Shared Folder Structure on The Server Showing ServerUserDocs**
 
-![Shared Folder Structure on The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/64c80926-489a-4cff-a541-11ff220415cb)
+![Shared Folder Structure on The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/8b39cd3a-e7de-48be-b75f-b9aaca42253d)
 
 ---
 
@@ -47,28 +52,28 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 Created the following folder on the server to hold user files:  
 
 ```
-C:\FileShares\UserData
+C:\FileShares$
 ```
 
 Then shared it with proper permissions:
 
  -  **Share Permissions:**
 
-   - Authenticated Users: Read/Write
+   - Domain Users: Read/Write
 
 -  **NTFS Permissions:**
 
  -  Creator Owner: Full Control
 
- -  Authenticated Users: Modify, Read & Execute, List Folder Contents, Read, Write
+ -  Domain Users: Modify, Read & Execute, List Folder Contents, Read, Write
 
 📸 **NTFS Permission Settings For The FileShares Folder**
 
-![NTFS Permission Settings For The FileShares Folder](https://github.com/user-attachments/assets/274be70b-4d35-4bc3-8438-2d7964943369)
+![NTFS Permissions for Fileshares$ Creator Owner 2](https://github.com/user-attachments/assets/2124442d-9f73-4737-a74a-61ea1fd162a2)
 
-📸 **Share Settings With Authenticated Users Listed**
+📸 **Share Settings with Domain Users Listed**
 
-![Share Settings With Authenticated Users Listed](https://github.com/user-attachments/assets/de3e23a0-8852-4047-8354-9be238e0a9be)
+![Share Settings with Domain Users Listed](https://github.com/user-attachments/assets/671b9a43-0887-40a8-b9c1-e913524daa77)
 
 ---
 
@@ -78,16 +83,16 @@ To test the policy:
 1. Logged into a Windows 11 domain client as a user.
 2. Opened the Documents folder.
 3. Verified that the Documents folder was redirected to the server path:
-    `\\WIN-D2PQBCI88JQ\UserData\TechUser1`
+    `\\WINSERVER2025\FileShares$\TechUser2\Documents`
 4. Created a test file and confirmed it was saved on the server location.
 
 📸 **User’s Documents Folder Showing The Server Path**
 
-![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/edf69bc9-71e1-434b-8ddc-7d91d2f1c6e3)
+![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/4c509b11-2a60-47c6-afea-3f5e26f42077)
 
 📸 **File Explorer Showing ServerUserDataUsername**
 
-![File Explorer Showing ServerUserDataUsername](https://github.com/user-attachments/assets/0868574e-ea46-4e9a-986f-e6da18a12f3d)
+![File Explorer Showing ServerUserDataUsername](https://github.com/user-attachments/assets/b3fe7a31-6c01-414b-9aee-a39b48da7d6d)
 
 ---
 

@@ -43,7 +43,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 📸 **Shared Folder Structure on the Server Showing ServerUserDocs**
 
-![Shared Folder Structure on The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/8b39cd3a-e7de-48be-b75f-b9aaca42253d)
+![Shared Folder Structure on the Server Showing ServerUserDocs 1](https://github.com/user-attachments/assets/2c16f811-b972-4ffc-a123-245379b5caf8)
 
 ---
 

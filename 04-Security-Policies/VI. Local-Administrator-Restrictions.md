@@ -60,8 +60,6 @@ These settings restrict local administrators from accessing systems remotely and
 
 📸 **Remote Desktop Access with Domain Admin Credentials Showing Test Success for `AD-WIN11-01`**
 
-![Remote Desktop Access with Domain Admin Credentials Showing Test Success for `AD-WIN11-01`](https://github.com/user-attachments/assets/909d2664-2695-4784-89ec-f271b1175d70)
-
 ![Remote Desktop RDP Attempt 2](https://github.com/user-attachments/assets/aea5bf2a-6291-4e5f-8457-f3a80fa0441c)
 
 ![Remote Desktop RDP Attempt Successful](https://github.com/user-attachments/assets/214f5e88-1387-4e38-bde2-1b7775da1f67)

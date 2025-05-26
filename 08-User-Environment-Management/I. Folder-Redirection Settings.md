@@ -19,7 +19,7 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 
 Using the **Group Policy Management Editor**, I navigated to:
 
-  📂 `User Configuration > Policies > Windows Settings > Folder Redirection > Documents`
+  📂 `User Configuration > Policies > Windows Settings > Folder Redirection > ... `
 
 **Settings applied:**
 - **Target Folder Location:**  
@@ -27,8 +27,8 @@ Using the **Group Policy Management Editor**, I navigated to:
   ➤ Root Path: `\\WINSERVER2025\FileShares$`
 
 - **Settings applied:**
-  - Grant the user exclusive rights to Documents
-  - Move the contents of Documents to the new location
+  - Grant the user exclusive rights
+  - Move the contents to the new location
   - Policy removal behavior: Redirect the folder back to the user profile location when policy is removed
 
 📸 **Folder Redirection Configuration Window**

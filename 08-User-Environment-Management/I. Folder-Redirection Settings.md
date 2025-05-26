@@ -24,20 +24,48 @@ Using the **Group Policy Management Editor**, I navigated to:
 **Settings applied:**
 - **Target Folder Location:**  
   ➤ Redirect to the following location: **Basic - Redirect everyone’s folder to the same location**  
-  ➤ Root Path: `\\WIN-D2PQBCI88JQ\RedirectedFolder$`
+  ➤ Root Path: `\\WINSERVER2025\FileShares$`
 
 - **Settings applied:**
   - Grant the user exclusive rights to Documents
   - Move the contents of Documents to the new location
-  - Policy removal behavior: Leave contents in the redirected location
+  - Policy removal behavior: Redirect the folder back to the user profile location when policy is removed
 
 📸 **Folder Redirection Configuration Window**
 
-![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/797fd428-1c6e-4c1d-a671-64d6aad6c198)
+![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/dd5ce57c-aa7b-48cf-876e-7b2b96d7118a)
 
-📸 **Root Path Entered**
+📸 **Root Path Entered for Desktop Redirection**
 
-![Root Path Entered](https://github.com/user-attachments/assets/8c0dc5da-1191-4ba7-9105-75b8b2195deb)
+![Configuring Desktop Redirection](https://github.com/user-attachments/assets/2c84680b-2324-4d25-bf77-01a6b61522ec)
+
+📸 **Root Path Entered for Start Menu Redirection**
+
+![Configuring Start Menu Redirection](https://github.com/user-attachments/assets/e71b87d6-6a35-4656-a488-8cae58c8c3c3)
+
+📸 **Root Path Entered for Documents Redirection**
+
+![Configuring Documents Redirection](https://github.com/user-attachments/assets/69fa0353-085b-431b-8929-f2121bdde0f2)
+
+📸 **Root Path Entered for Pictures Redirection**
+
+![Configuring Pictures Redirection](https://github.com/user-attachments/assets/fec655e1-cb8c-40d5-b705-89c9537c1862)
+
+📸 **Root Path Entered for Music Redirection**
+
+![Configuring Music Redirection](https://github.com/user-attachments/assets/43c0d609-0b47-4d7c-956b-0378348d8641)
+
+📸 **Root Path Entered for Videos Redirection**
+
+![Configuring Videos Redirection](https://github.com/user-attachments/assets/f3689c2a-5f43-487c-b97c-d2d759a72f4d)
+
+📸 **Root Path Entered for Contacts Redirection**
+
+![Configuring Contacts Redirection](https://github.com/user-attachments/assets/00210b3e-fc75-4f67-bb0d-aac30821b756)
+
+📸 **Root Path Entered for Downloads Redirection**
+
+![Configuring Downloads Redirection](https://github.com/user-attachments/assets/d97f274f-ee59-4638-ba73-b36934877737)
 
 ---
 
@@ -56,15 +84,19 @@ This redirection also simplified data recovery and enabled easy integration with
 To verify the configuration:
 1. Logged into the client machine as a domain user.
 2. Created test documents in the **Documents** folder.
-3. Checked that the files were successfully redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\TechUser1`.
+3. Checked that the files were successfully redirected to `\\WINSERVER2025\FileShares$\mguzha` & `\\WINSERVER2025\FileShares$\lguzha`.
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
 
-![Client Side Documents Folder Showing the Redirected Location In Properties](https://github.com/user-attachments/assets/44b93241-be75-4f16-9945-e25f78bd08a1)
+![Client Side Documents Folder Showing the Redirected Location in Properties](https://github.com/user-attachments/assets/3d0352a7-3fa4-4d01-a8cf-685d0525e40d)
+
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
+
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`](https://github.com/user-attachments/assets/1023d892-1add-48d6-ae28-4af128f8113d)
 
 📸 **Server Side Share Showing User Folders**
 
-![Server Side Share Showing User Folders](https://github.com/user-attachments/assets/84313e57-e680-41fd-9336-5f7f1d170dec)
+![Server Side Showing User Folders](https://github.com/user-attachments/assets/f0992cdb-d942-4f7b-8cb0-04348efa9da7)
 
 ---
 

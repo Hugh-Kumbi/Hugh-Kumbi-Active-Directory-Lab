@@ -6,14 +6,14 @@ This section describes the **Windows Defender Policies** implemented via Group P
 
 ## 📛 1. GPO Name
 
-- **GPO Name:** Win11 Security Policy
+- **GPO Name:** Windows Defender
 - **Linked To:** hughdomain.local (domain root)
 
 This policy is configured using the **Group Policy Management Console (GPMC)** and applied at the domain level for all domain-joined computers.
 
 📸 **GPMC Showing Windows Defender GPO**
 
-![GPMC Showing Windows Defender GPO](https://github.com/user-attachments/assets/1ff694c6-a51f-4b23-9f7a-c77933b6a512)
+![GPMC Showing Windows Defender GPO](https://github.com/user-attachments/assets/3d860883-4a42-4231-aec8-392ffd1dbecc)
 
 ---
 
@@ -35,7 +35,7 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 📸 **Group Policy Editor Window Showing Windows Defender Path**
 
-![Group Policy Editor Window Showing Windows Defender Path](https://github.com/user-attachments/assets/553e98c7-e411-4659-97e4-a95a74238fad)
+![Group Policy Editor Window Showing Windows Defender Path](https://github.com/user-attachments/assets/b0f07d8e-9b61-41a6-8518-c2854dbe3af1)
 
 ---
 
@@ -51,23 +51,23 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 📸 **Turn off Microsoft Defender Antivirus**
 
-![Turn off Microsoft Defender Antivirus](https://github.com/user-attachments/assets/e5fafd0b-04ba-4e22-8c15-1aba168fb161)
+![Turn off Microsoft Defender Antivirus](https://github.com/user-attachments/assets/8b63608a-f614-41bd-8b95-9a6c4f8f3909)
 
 📸 **Turn Off Peal-time Protection**
 
-![Turn off real-time protection](https://github.com/user-attachments/assets/ee5102da-74f4-4950-98b3-2f92aa10c97f)
+![Turn Off Peal-time Protection](https://github.com/user-attachments/assets/1d32c43c-ab99-4151-80a2-18bd3e836800)
 
 📸 **Join Microsoft MAPS**
 
-![Join Microsoft MAPS](https://github.com/user-attachments/assets/135e8714-b973-4efa-bf7a-9bb16e055c59)
+![Join Microsoft MAPS](https://github.com/user-attachments/assets/5a5bf971-fd82-41b5-82ae-b3f6843f495d)
 
-📸 **Send File Samples When Further Analysis is Required:**
+📸 **Send File Samples When Further Analysis is Required**
 
-![Send File Samples When Further Analysis is Required](https://github.com/user-attachments/assets/e6f0b85b-d1ec-421e-83b6-d9a883b3d596)
+![Send File Samples When Further Analysis is Required](https://github.com/user-attachments/assets/9693b41f-1d80-4026-9c5e-8348080cb561)
 
 📸 **Scan Removable Drives**
 
-![Scan Removable Drives](https://github.com/user-attachments/assets/802704c0-1658-4330-95ec-d93ca50b56fa)
+![Scan Removable Drives](https://github.com/user-attachments/assets/df7dbffa-8a61-456c-bff2-b1cff536fc81)
 
 ---
 
@@ -77,9 +77,9 @@ These settings ensure that Windows Defender is active, real-time protection is e
 - Ran sample malware tests to ensure real-time protection is active.
 - Checked logs for submitted sample files.
 
-📸 **Event Viewer Showing Windows Defender Logs:**
+📸 **Event Viewer Showing Windows Defender Logs**
 
-![Event Viewer Showing Windows Defender Logs](https://github.com/user-attachments/assets/d8b8d38d-5d94-4c11-a26d-f5083fe43318)
+![Event Viewer Showing Windows Defender Logs](https://github.com/user-attachments/assets/2678c61d-e157-4605-80a8-f6a5e3da4ce5)
 
 ---
 

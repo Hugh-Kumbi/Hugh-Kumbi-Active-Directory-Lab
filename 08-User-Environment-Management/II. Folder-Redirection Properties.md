@@ -7,9 +7,9 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Folder Redirection Policy  
-- **Linked To:** Tech OU
+- **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console Showing The Folder Redirection Policy GPO And Link**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link**
 
 ![Group Policy Management Console Showing The User Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/e2303c72-8b23-4632-8d74-28eab4708666)
 
@@ -35,13 +35,13 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 6. Checked:  
    ✅ *Redirect the folder back to the user profile location when policy is removed*
 
-📸 **Folder Redirection Properties Window With Configuration**
+📸 **Folder Redirection Properties Window with Configuration**
 
 ![Configuring Documents Redirection](https://github.com/user-attachments/assets/69b3c952-a1aa-499e-97a9-c1c3cfc39604)
 
 ![Configuring Documents Redirection 1](https://github.com/user-attachments/assets/0e3b9272-7766-456f-b60f-717183658040)
 
-📸 **Shared Folder Structure on The Server Showing ServerUserDocs**
+📸 **Shared Folder Structure on the Server Showing ServerUserDocs**
 
 ![Shared Folder Structure on The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/8b39cd3a-e7de-48be-b75f-b9aaca42253d)
 
@@ -67,7 +67,7 @@ Then shared it with proper permissions:
 
  -  Domain Users: Modify, Read & Execute, List Folder Contents, Read, Write
 
-📸 **NTFS Permission Settings For The FileShares Folder**
+📸 **NTFS Permission Settings for the FileShares Folder**
 
 ![NTFS Permissions for Fileshares$ Creator Owner 2](https://github.com/user-attachments/assets/2124442d-9f73-4737-a74a-61ea1fd162a2)
 
@@ -86,7 +86,7 @@ To test the policy:
     `\\WINSERVER2025\FileShares$\TechUser2\Documents`
 4. Created a test file and confirmed it was saved on the server location.
 
-📸 **User’s Documents Folder Showing The Server Path**
+📸 **User’s Documents Folder Showing the Server Path**
 
 ![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/4c509b11-2a60-47c6-afea-3f5e26f42077)
 

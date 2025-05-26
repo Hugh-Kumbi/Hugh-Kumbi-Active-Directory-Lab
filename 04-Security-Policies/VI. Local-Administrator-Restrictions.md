@@ -76,15 +76,7 @@ These settings restrict local administrators from accessing systems remotely and
 
 ![Remote Desktop RDP Attempt failed 1](https://github.com/user-attachments/assets/dbea4eb1-f0b2-47ec-97bc-9ec30cff5bc4)
 
-📸 **Remote Desktop Access with Local Admin Credentials Showing Test Denied for `AD-WIN11-02`**
-
-![Accessing AD-WIN11-02 Using LocalAdmin Credentials](https://github.com/user-attachments/assets/adcb2ce7-0eea-4f6b-9a9b-834ea3caad55)
-
-![Remote Desktop Access With Local Admin Credentials Showing Test Denied](https://github.com/user-attachments/assets/8393a084-ff77-4a2a-9b7f-903c64103cd8)
-
-![Remote Desktop Access With Local Admin Credentials Showing Test Denied 2](https://github.com/user-attachments/assets/af762531-4192-48ed-9cbc-bb12c644a288)
-
-📸 **Remote Desktop Access with Local Admin Credentials Showing Test Denied for `AD-WIN11-02`**
+📸 **Remote Desktop Access with Domain Admin Credentials Showing Test Successful for `AD-WIN11-02`**
 
 ![Accessing AD-WIN11-02 Using LocalAdmin Credentials](https://github.com/user-attachments/assets/597c861b-e0e5-44e2-903b-4d7c5f777bd1)
 
@@ -93,6 +85,16 @@ These settings restrict local administrators from accessing systems remotely and
 ![Remote Desktop RDP Attempt for AD-Win11-02 4](https://github.com/user-attachments/assets/0c7fe2a9-51d1-41ce-a431-ce66bfef3d90)
 
 ![Remote Desktop RDP Attempt for AD-Win11-02 Successful](https://github.com/user-attachments/assets/ea29dc15-c0c8-4a30-a83d-66168de564ee)
+
+📸 **Remote Desktop Access with Local Admin Credentials Showing Test Denied for `AD-WIN11-02`**
+
+![Accessing AD-WIN11-02 Using LocalAdmin Credentials](https://github.com/user-attachments/assets/adcb2ce7-0eea-4f6b-9a9b-834ea3caad55)
+
+![Remote Desktop RDP Attempt for AD-Win11-02](https://github.com/user-attachments/assets/a35a3a46-14df-429a-b4cd-a29e6717f717)
+
+![Remote Desktop RDP Attempt for AD-Win11-02 1](https://github.com/user-attachments/assets/c38722cd-a9a7-4b54-ac48-b233ef1ced8e)
+
+![Remote Desktop RDP Attempt for AD-Win11-02 2](https://github.com/user-attachments/assets/5ea3b209-5e33-471f-ad5a-5d3569b6c8b5)
 
 ---
 

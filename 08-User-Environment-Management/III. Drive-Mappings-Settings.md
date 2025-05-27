@@ -7,11 +7,11 @@ This document explains how I configured **drive mappings via Group Policy** to p
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Drive Mappings Policy  
-- **Linked To:** Tech OU
+- **Linked To:** IT Security OU
 
-📸 **Group Policy Management Console Showing Drive Mappings Policy Under The Tech OU**
+📸 **Group Policy Management Console Showing Drive Mappings Policy Under the IT Security OU**
 
-![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
+![Group Policy Management Console Showing Drive Mappings Policy Under the IT Security OU](https://github.com/user-attachments/assets/2a711d83-a70b-4fe9-be23-000953b22462)
 
 ---
 
@@ -24,34 +24,32 @@ I used the **Group Policy Preferences** feature for drive mappings:
 ### ➕ New Mapped Drive:
 
 - **Action:** Create  
-- **Location:** `\\WIN-D2PQBCI88JQ\DepartmentShares`  
+- **Location:** `\\WINSERVER2025\`  
 - **Label as:** Shared Drive  
 - **Drive Letter:** Z:  
 - **Reconnect:** Enabled  
 - **Use:** Update  
-- **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the Tech Users Group
+- **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the IT Security Group
+
+📸 **Drive Mapping Settings Window Showing Path, Label, and Drive Letter**
+
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter](https://github.com/user-attachments/assets/2ba0dbb1-f312-48ad-b758-e563e098a379)
+
+📸 **Item-Level Targeting Configurations**
+
+![Item-Level Targeting Configurations](https://github.com/user-attachments/assets/1417ac25-1473-457d-a513-77bd1609d38c)
+
+![Item-Level Targeting Configurations 1](https://github.com/user-attachments/assets/6bf0f374-cf60-4642-b5be-038a61031c99)
 
 📸 **Drive Maps GPP Window**
 
-![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)
+![Drive Maps GPP Window](https://github.com/user-attachments/assets/ea7319d7-927b-4d73-99ca-a2ec3e4e8536)
 
-📸 **Shared Folder Path and Drive Letter Configurations**
+📸 **Shared Folder Path for SecurityAudits**
 
-![Shared Folder Path and Drive Letter Configuration 10](https://github.com/user-attachments/assets/c0f01b56-6415-46b5-a765-f050936565ca)
+![IT Security Shared Drive File in C Drive Shared](https://github.com/user-attachments/assets/c5f09569-54da-4c18-a1c8-e238817b15b8)
 
-![Shared Folder Path and Drive Letter Configuration 1](https://github.com/user-attachments/assets/ffea3ee2-ebd7-4d95-a2ee-09a6800a7d70)
-
-![Shared Folder Path and Drive Letter Configuration 2](https://github.com/user-attachments/assets/fd839620-9d66-475c-894b-11303a8819b4)
-
-![Shared Folder Path and Drive Letter Configuration 21](https://github.com/user-attachments/assets/856426ce-df8b-4c25-8c53-29e9385fd006)
-
-![Shared Folder Path and Drive Letter Configuration 3](https://github.com/user-attachments/assets/44ebbfd0-9476-42fe-9005-7d99f1fc4d57)
-
-![Shared Folder Path and Drive Letter Configuration 31](https://github.com/user-attachments/assets/3cc04899-fd49-4407-aa01-0a1df9718434)
-
-📸 **Item-Level Targeting Condition**
-
-![Item-Level Targeting Condition](https://github.com/user-attachments/assets/e1c1f6e3-1671-4138-8e4a-2f9e27de2fac)
+![IT Security Shared Drive File in C Drive Shared 1](https://github.com/user-attachments/assets/9220c5bb-4e47-491f-b43f-c74abfb62741)
 
 ---
 
@@ -59,7 +57,7 @@ I used the **Group Policy Preferences** feature for drive mappings:
 
 - Provide consistent, mapped access to shared folders across all domain-joined devices.
 - Simplify navigation to shared files and improve team collaboration.
-- Use **item-level targeting** to ensure only specific users/groups get access.
+- Use **item-level targeting** to ensure only the IT Security group gets access.
 
 This configuration eliminated the need for manual drive mapping and allowed better control over resource access.
 
@@ -68,17 +66,17 @@ This configuration eliminated the need for manual drive mapping and allowed bett
 ## 🧪 4. Testing and Validation
 
 To test the setup:
-1. Logged in as a domain user from the targeted group.
+1. Logged in as a domain user from the IT Security group.
 2. Confirmed that the **Z:** drive appeared under “This PC”.
 3. Verified access to the contents in the shared folder.
 
 📸 **File Explorer Showing The Mapped Z Drive**
 
-![File Explorer Showing The Mapped Z Drive (2)](https://github.com/user-attachments/assets/add0c1c1-4ff5-4a42-8265-bba1e4385648)
+![File Explorer Showing The Mapped Z Drive](https://github.com/user-attachments/assets/88148a57-202d-4a9a-9ca7-15d1384fa82c)
 
 📸 **Properties Of The Mapped Drive**
 
-![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/9287615a-91f1-4dfb-aa37-ba44e053f333)
+![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/e9b2ae01-ee44-4bb7-a857-9fbda14e30ac)
 
 ---
 

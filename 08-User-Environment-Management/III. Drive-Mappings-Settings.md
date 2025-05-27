@@ -24,7 +24,7 @@ I used the **Group Policy Preferences** feature for drive mappings:
 ### ➕ New Mapped Drive:
 
 - **Action:** Create  
-- **Location:** `\\WINSERVER2025\`  
+- **Location:** `\\WINSERVER2025\IT Security Shared Drive`  
 - **Label as:** Shared Drive  
 - **Drive Letter:** Z:  
 - **Reconnect:** Enabled  

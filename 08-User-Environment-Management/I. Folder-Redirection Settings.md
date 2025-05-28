@@ -11,7 +11,7 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 
 📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link**
 
-![Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link](https://github.com/user-attachments/assets/c4af2028-f958-474b-840b-f618b5be9df8)
+![Uploading Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link 1.png…]()
 
 ---
 

@@ -21,7 +21,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
    📂 `User Configuration > Policies > Windows Settings > Folder Redirection > Documents`
 
 2. Set the **Target folder location** to:  
-   `Create a folder for each user under the root path`
+   `Create a folder specifically for the IT-Security Team under the root path`
 
 3. Specified the **Root Path**:  
    `\\WINSERVER2025\RedirectionFolder$`
@@ -81,16 +81,15 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
 
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`](https://github.com/user-attachments/assets/3c4acf21-93b6-4e94-bb25-7ba13d83e662)
 
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
 
-📸 **User's Document Folder Showing the Server Path for Tech User**
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/fc2959a9-10d2-4695-97f3-e15e875e2630)
 
-📸 **User's Document Folder Showing the Server Path for Tech User2**
+📸 **Server Side Share Showing User RedirectionFolder**
 
-📸 **Shared Folder Structure on the Server Showing ServerUserDocs**
-
-![Shared Folder Structure on the Server Showing ServerUserDocs 1](https://github.com/user-attachments/assets/2c16f811-b972-4ffc-a123-245379b5caf8)
+![Server Side Share Showing User Folder 1](https://github.com/user-attachments/assets/6a8a2aea-996f-4869-a62c-2b3908a2d71d)
 
 ---
 
@@ -106,21 +105,23 @@ Then shared it with proper permissions:
 
  -  **Share Permissions:**
 
-   - Domain Users: Read/Write
+   - IT-Security Group: Read/Write
 
 -  **NTFS Permissions:**
 
  -  Creator Owner: Full Control
 
- -  Domain Users: Modify, Read & Execute, List Folder Contents, Read, Write
+ -  IT-Security Group: Modify, Read & Execute, List Folder Contents, Read, Write
 
-📸 **NTFS Permission Settings for the FileShares Folder**
+📸 **NTFS Permission Settings for the RedirectionFolder**
 
-![NTFS Permissions for Fileshares$ Creator Owner 2](https://github.com/user-attachments/assets/2124442d-9f73-4737-a74a-61ea1fd162a2)
+![Permission Entry for RedirectionFolder](https://github.com/user-attachments/assets/2b541fbc-bc37-4898-85f7-815102b0b316)
 
-📸 **Share Settings with Domain Users Listed**
+![Permission Entry for RedirectionFolder 1](https://github.com/user-attachments/assets/ba3bddf5-28c5-4674-bbb5-135f28a028e1)
 
-![Share Settings with Domain Users Listed](https://github.com/user-attachments/assets/671b9a43-0887-40a8-b9c1-e913524daa77)
+📸 **Share Settings with IT-Security Users Listed**
+
+![Share Settings with Domain Users Listed 1](https://github.com/user-attachments/assets/2c454998-5ba4-4e59-aba9-5eeae556ce05)
 
 ---
 
@@ -130,16 +131,26 @@ To test the policy:
 1. Logged into a Windows 11 domain client as a user.
 2. Opened the Documents folder.
 3. Verified that the Documents folder was redirected to the server path:
-    `\\WINSERVER2025\FileShares$\TechUser2\Documents`
+    `\\WINSERVER2025\RedirectionFolder$\TechUser1\Desktop` & `\\WINSERVER2025\RedirectionFolder$\TechUser2\Desktop`
 4. Created a test file and confirmed it was saved on the server location.
 
-📸 **User’s Documents Folder Showing the Server Path**
+📸 **User's Desktop Folder Showing the Server Path for Tech User**
 
-![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/4c509b11-2a60-47c6-afea-3f5e26f42077)
+![User’s Documents Folder Showing the Server Path for Tech User1](https://github.com/user-attachments/assets/19f86f93-6698-4514-928c-b745fef9b05d)
 
-📸 **File Explorer Showing ServerUserDataUsername**
+📸 **User's Desktop Folder Showing the Server Path for Tech User2**
 
-![File Explorer Showing ServerUserDataUsername](https://github.com/user-attachments/assets/b3fe7a31-6c01-414b-9aee-a39b48da7d6d)
+![User’s Documents Folder Showing the Server Path for Tech User2](https://github.com/user-attachments/assets/029005e5-fc54-4f02-8981-24c2ec3746ad)
+
+📸 **File Explorer Showing Server RedirectionFolder Username**
+
+![File Explorer Showing Server RedirectionFolder Username](https://github.com/user-attachments/assets/b14480b7-8784-4f4b-9c2a-1a73abe2e16a)
+
+![File Explorer Showing Server RedirectionFolder Username 1](https://github.com/user-attachments/assets/c1cf326d-ea46-430a-8077-95e00571f73c)
+
+📸 **Server Side Share Showing User Folder**
+
+
 
 ---
 

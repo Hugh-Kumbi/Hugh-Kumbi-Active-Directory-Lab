@@ -7,11 +7,11 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Folder Redirection Policy  
-- **Linked To:** hughdomain.local (domain root)
+- **Linked To:** IT OU
 
-📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the IT OU**
 
-![Group Policy Management Console Showing The User Folder Redirection Policy GPO And Link](https://github.com/user-attachments/assets/e2303c72-8b23-4632-8d74-28eab4708666)
+![Group Policy Management Console Showing the Folder Redirection Policy GPO and Link](https://github.com/user-attachments/assets/78578631-780a-4254-b005-4f7e80a13ae2)
 
 ---
 
@@ -24,7 +24,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
    `Create a folder for each user under the root path`
 
 3. Specified the **Root Path**:  
-   `\\WINSERVER2025\FileShares$`
+   `\\WINSERVER2025\RedirectionFolder$`
 
 4. Checked the box for:  
    ✅ *Grant the user exclusive rights to Documents*
@@ -37,9 +37,56 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 📸 **Folder Redirection Properties Window with Configuration**
 
-![Configuring Documents Redirection](https://github.com/user-attachments/assets/69b3c952-a1aa-499e-97a9-c1c3cfc39604)
+![Folder Redirection Properties Window with Configuration 1](https://github.com/user-attachments/assets/f101a6fc-36ae-4897-9032-90669ca327fe)
 
-![Configuring Documents Redirection 1](https://github.com/user-attachments/assets/0e3b9272-7766-456f-b60f-717183658040)
+📸 **Root Path Entered for Desktop Redirection**
+
+![Root Path Entered for Desktop Redirection](https://github.com/user-attachments/assets/b201c77a-9927-4c42-a14a-7303c51c0200)
+
+📸 **Root Path Entered for  Start Menu Redirection**
+
+![Root Path Entered for Start Menu Redirection](https://github.com/user-attachments/assets/f83c5981-4568-44e6-b67f-a94b507fb0f6)
+
+📸 **Root Path Entered for Documents Redirection**
+
+![Root Path Entered for Documents Redirection](https://github.com/user-attachments/assets/5dede761-b8ed-4496-b58d-b7f6e940a193)
+
+📸 **Root Path Entered for Pictures Redirection**
+
+![Root Path Entered for Pictures Redirection](https://github.com/user-attachments/assets/9e474143-a0b3-4666-9408-bfb5f6f15ad3)
+
+📸 **Root Path Entered for Music Redirection**
+
+![Root Path Entered for Music Redirection](https://github.com/user-attachments/assets/36b9b6fe-296e-41a3-a6c5-aa4c21b74e3d)
+
+📸 **Root Path Entered for Videos Redirection**
+
+![Root Path Entered for Videos Redirection](https://github.com/user-attachments/assets/ad42d36e-adb6-4d45-8bc6-43de2647b21a)
+
+📸 **Root Path Entered for Contacts Redirection**
+
+![Root Path Entered for Contacts Redirection](https://github.com/user-attachments/assets/a2bfcfc2-7774-4c17-9ad0-9f9591e9a222)
+
+📸 **Root Path Entered for Downloads Redirection**
+
+![Root Path Entered for Downloads Redirection](https://github.com/user-attachments/assets/53b375b8-9506-433e-bec3-cf5510f29ba8)
+
+📸 **Root Path Entered for Links Redirection**
+
+![Root Path Entered for Links Redirection](https://github.com/user-attachments/assets/e80ebe1a-2e59-4378-95c4-8416360cb9b6)
+
+📸 **Root Path Entered for Searches Redirection**
+
+![Root Path Entered for Searches Redirection](https://github.com/user-attachments/assets/a817a2ad-fc0f-43de-b49c-57e20fc29ee1)
+
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
+
+
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
+
+📸 **User's Document Folder Showing the Server Path for Tech User**
+
+📸 **User's Document Folder Showing the Server Path for Tech User2**
 
 📸 **Shared Folder Structure on the Server Showing ServerUserDocs**
 
@@ -52,7 +99,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 Created the following folder on the server to hold user files:  
 
 ```
-C:\FileShares$
+C:\RedirectionFolder$
 ```
 
 Then shared it with proper permissions:

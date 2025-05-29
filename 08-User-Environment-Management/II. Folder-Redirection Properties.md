@@ -87,7 +87,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 ![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for TechUser2](https://github.com/user-attachments/assets/b28bcece-1d3b-41eb-94a8-dfb6eecc4c2e)
 
-📸 **Server Side Share Showing User RedirectionFolder**
+📸 **Server Side Share Showing RedirectionFolder**
 
 ![Server Side Share Showing User Folder 1](https://github.com/user-attachments/assets/6a8a2aea-996f-4869-a62c-2b3908a2d71d)
 

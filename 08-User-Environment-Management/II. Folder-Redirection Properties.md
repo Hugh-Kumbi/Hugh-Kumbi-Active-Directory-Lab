@@ -117,6 +117,8 @@ Then shared it with proper permissions:
 
 ![Permission Entry for RedirectionFolder](https://github.com/user-attachments/assets/2b541fbc-bc37-4898-85f7-815102b0b316)
 
+📸 **Advanced Security Settings for RedirectionFolder**
+
 ![Permission Entry for RedirectionFolder 1](https://github.com/user-attachments/assets/ba3bddf5-28c5-4674-bbb5-135f28a028e1)
 
 📸 **Share Settings with IT-Security Users Listed**
@@ -134,23 +136,21 @@ To test the policy:
     `\\WINSERVER2025\RedirectionFolder$\TechUser1\Desktop` & `\\WINSERVER2025\RedirectionFolder$\TechUser2\Desktop`
 4. Created a test file and confirmed it was saved on the server location.
 
-📸 **User's Desktop Folder Showing the Server Path for Tech User**
+📸 **User's Desktop Folder Showing the Server Path for `Tech User1`**
 
 ![User’s Documents Folder Showing the Server Path for Tech User1](https://github.com/user-attachments/assets/19f86f93-6698-4514-928c-b745fef9b05d)
 
-📸 **User's Desktop Folder Showing the Server Path for Tech User2**
+📸 **User's Desktop Folder Showing the Server Path for `Tech User2`**
 
 ![User’s Documents Folder Showing the Server Path for Tech User2](https://github.com/user-attachments/assets/029005e5-fc54-4f02-8981-24c2ec3746ad)
 
-📸 **File Explorer Showing Server RedirectionFolder Username**
+📸 **File Explorer Showing Server RedirectionFolder for `TechUser1`**
 
 ![File Explorer Showing Server RedirectionFolder Username](https://github.com/user-attachments/assets/b14480b7-8784-4f4b-9c2a-1a73abe2e16a)
 
+📸 **File Explorer Showing Server RedirectionFolder for `TechUser2`**
+
 ![File Explorer Showing Server RedirectionFolder Username 1](https://github.com/user-attachments/assets/c1cf326d-ea46-430a-8077-95e00571f73c)
-
-📸 **Server Side Share Showing User Folder**
-
-
 
 ---
 

@@ -24,32 +24,32 @@ I used the **Group Policy Preferences** feature for drive mappings:
 ### ➕ New Mapped Drive:
 
 - **Action:** Create  
-- **Location:** `\\WINSERVER2025\IT Security Shared Drive`  
+- **Location:** `\\WINSERVER2025\ITSecurity Shared Drive`  
 - **Label as:** Shared Drive  
 - **Drive Letter:** Z:  
 - **Reconnect:** Enabled  
 - **Use:** Update  
-- **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the IT Security Group
+- **Item-level Targeting:** Enabled to apply based on group membership i.e., only for the IT-Security Group
 
 📸 **Drive Mapping Settings Window Showing Path, Label, and Drive Letter**
 
-![Drive Mapping Settings Window Showing Path, Label, and Drive Letter](https://github.com/user-attachments/assets/2ba0dbb1-f312-48ad-b758-e563e098a379)
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter2](https://github.com/user-attachments/assets/ae7248b5-bad8-44e5-b71d-04d7a6bbae9a)
 
 📸 **Item-Level Targeting Configurations**
 
-![Item-Level Targeting Configurations](https://github.com/user-attachments/assets/1417ac25-1473-457d-a513-77bd1609d38c)
+![Item-Level Targeting Configurations 4](https://github.com/user-attachments/assets/114f48fa-1674-4b98-b1d2-4467af19df51)
 
-![Item-Level Targeting Configurations 1](https://github.com/user-attachments/assets/6bf0f374-cf60-4642-b5be-038a61031c99)
+![Item-Level Targeting Configurations 6](https://github.com/user-attachments/assets/20b3c11d-63d9-4bc4-ada3-1f3c5dded96e)
 
 📸 **Drive Maps GPP Window**
 
-![Drive Maps GPP Window](https://github.com/user-attachments/assets/ea7319d7-927b-4d73-99ca-a2ec3e4e8536)
+![Drive Maps GPP Window1](https://github.com/user-attachments/assets/61128a0a-70ee-4c77-b84a-f7b1e5cc4787)
 
-📸 **Shared Folder Path for SecurityAudits**
+📸 **Shared Folder Path for ITSecurity Shared Drive**
 
-![IT Security Shared Drive File in C Drive Shared](https://github.com/user-attachments/assets/c5f09569-54da-4c18-a1c8-e238817b15b8)
+![Shared Foler Path for ITSecurity Shared Drive](https://github.com/user-attachments/assets/69a6a790-d060-4360-ab9d-0af02ccabb9f)
 
-![IT Security Shared Drive File in C Drive Shared 1](https://github.com/user-attachments/assets/9220c5bb-4e47-491f-b43f-c74abfb62741)
+![Shared Foler Path for ITSecurity Shared Drive 1](https://github.com/user-attachments/assets/b1ac7aa2-8141-49db-b290-a3c9886ec59b)
 
 ---
 
@@ -70,13 +70,21 @@ To test the setup:
 2. Confirmed that the **Z:** drive appeared under “This PC”.
 3. Verified access to the contents in the shared folder.
 
-📸 **File Explorer Showing The Mapped Z Drive**
+📸 **File Explorer Showing The Mapped Z Drive for `AD-Win11-01`**
 
-![File Explorer Showing The Mapped Z Drive](https://github.com/user-attachments/assets/88148a57-202d-4a9a-9ca7-15d1384fa82c)
+![File Explorer Showing The Mapped Z Drive for `AD-Win11-01`](https://github.com/user-attachments/assets/120c758a-5056-4518-bf14-311594966b16)
 
-📸 **Properties Of The Mapped Drive**
+📸 **File Explorer Showing The Mapped Z Drive for `AD-Win11-02`**
 
-![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/e9b2ae01-ee44-4bb7-a857-9fbda14e30ac)
+![File Explorer Showing The Mapped Z Drive for `AD-Win11-02`](https://github.com/user-attachments/assets/46349b79-466b-4e7c-b967-896ed85d6975)
+
+📸 **Properties Of The Mapped Drive for `AD-WIN11-01`**
+
+![File Explorer Showing The Mapped Z Drive for `AD-Win11-01`](https://github.com/user-attachments/assets/42094619-c937-4782-9d9e-a8393f834434)
+
+📸 **Properties Of The Mapped Drive for `AD-WIN11-02`**
+
+![Properties of the Mapped Drive for `AD-WIN11-02`](https://github.com/user-attachments/assets/4062e92d-2d41-43c6-ac8d-3044abf5799e)
 
 ---
 

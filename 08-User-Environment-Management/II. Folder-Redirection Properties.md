@@ -123,7 +123,7 @@ Then shared it with proper permissions:
 
 📸 **Share Settings with IT-Security Users Listed**
 
-![Share Settings with Domain Users Listed 1](https://github.com/user-attachments/assets/2c454998-5ba4-4e59-aba9-5eeae556ce05)
+![Share Settings with IT-Security Users Listed](https://github.com/user-attachments/assets/5eb3ace1-00e4-4c6a-a60e-2cbde8e146c2)
 
 ---
 

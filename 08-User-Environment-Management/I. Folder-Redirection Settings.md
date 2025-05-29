@@ -24,7 +24,7 @@ Using the **Group Policy Management Editor**, I navigated to:
 **Settings applied:**
 - **Target Folder Location:**  
   ➤ Redirect to the following location: **Basic - Redirect everyone’s folder to the same location**  
-  ➤ Root Path: `\\WINSERVER2025\FileShares$`
+  ➤ Root Path: `\\WINSERVER2025\FileShares`
 
 - **Settings applied:**
   - Grant the user exclusive rights
@@ -86,7 +86,7 @@ To verify the configuration:
 2. Created test documents in the **Documents** folder.
 3. Checked that the files were successfully redirected to `\\WINSERVER2025\FileShares$\mguzha` & `\\WINSERVER2025\FileShares$\lguzha`.
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for **
 
 ![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`](https://github.com/user-attachments/assets/a746187b-0575-4cbc-997c-89f332899d62)
 

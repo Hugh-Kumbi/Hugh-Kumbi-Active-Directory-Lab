@@ -19,7 +19,7 @@ This document explains how I configured **drive mappings via Group Policy** to p
 
 I used the **Group Policy Preferences** feature for drive mappings:
 
-  📂 `User Configuration > Preferences > Windows Settings > Folder Redirection > Drive Maps`
+  📂 `User Configuration > Preferences > Windows Settings > Drive Maps`
 
 ### ➕ New Mapped Drive:
 

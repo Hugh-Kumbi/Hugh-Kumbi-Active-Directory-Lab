@@ -6,12 +6,12 @@ This section outlines how I configured shared drive mappings using Group Policy 
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** Drive Mappings Policy  
-- **Linked To:** Tech OU
+- **GPO Name:** Map Network Drives Policy  
+- **Linked To:** Employees OU
 
-📸 **GPMC Showing The Drive Mappings GPO Linked To The Tech OU**
+📸 **GPMC Showing the Map Network Drives Policy GPO Linked to the Employees OU**
 
-![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
+![GPMC Showing the Map Network Drives Policy GPO Linked to the Employees OU](https://github.com/user-attachments/assets/94e09f14-2e41-4229-be9e-2a7cffe7bdf2)
 
 ---
 
@@ -23,10 +23,10 @@ This section outlines how I configured shared drive mappings using Group Policy 
 3. Right-clicked and selected **New > Mapped Drive**  
 4. Configured the following settings:
    - **Action:** Create  
-   - **Location:** `\\WIN-D2PQBCI88JQ\Shares`  
+   - **Location:** `\\WINSERVER2025\DepartmentalShares`  
    - **Drive Letter:** `S:`  
    - **Reconnect:** Enabled  
-   - **Label as:** Shared Drive  
+   - **Label as:** Departmental Shared Drive  
    - **Use:** Update or Replace depending on policy needs
 5. Under the **Common** tab:
    - Enabled **Item-level targeting** to apply the mapping to specific users or security groups.

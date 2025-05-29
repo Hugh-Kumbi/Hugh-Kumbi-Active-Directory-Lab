@@ -79,13 +79,13 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 ![Root Path Entered for Searches Redirection](https://github.com/user-attachments/assets/a817a2ad-fc0f-43de-b49c-57e20fc29ee1)
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `TechUser1`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`](https://github.com/user-attachments/assets/3c4acf21-93b6-4e94-bb25-7ba13d83e662)
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for TechUser1](https://github.com/user-attachments/assets/56f0da35-ca0d-4028-844f-b6fcd682b495)
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `TechUser2`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/fc2959a9-10d2-4695-97f3-e15e875e2630)
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for TechUser2](https://github.com/user-attachments/assets/b28bcece-1d3b-41eb-94a8-dfb6eecc4c2e)
 
 📸 **Server Side Share Showing User RedirectionFolder**
 

@@ -7,11 +7,11 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** User Folder Redirection Policy  
-- **Linked To:** hughdomain.local (domain root)
+- **Linked To:** Employees OU
 
-📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the Employees OU**
 
-![Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link 1](https://github.com/user-attachments/assets/bf311205-ddb9-4169-8875-99b0543a0a41)
+![Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link to the Employees OU](https://github.com/user-attachments/assets/175f7363-6bb5-4ccb-94ac-c28447004f46)
 
 ---
 
@@ -93,6 +93,14 @@ To verify the configuration:
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
 
 ![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`](https://github.com/user-attachments/assets/1023d892-1add-48d6-ae28-4af128f8113d)
+
+ 📸 **User's Document Folder Showing the Server Path for Mei Guzha `mguzha`**
+
+ ![User’s Documents Folder Showing the Server Path for Mei Guzha `mguzha`](https://github.com/user-attachments/assets/fe78faa4-7752-475b-a064-817bb81b82bd)
+
+ 📸 **User's Document Folder Showing the Server Path for Lana Guzha `lguzha`**
+
+ ![User’s Documents Folder Showing the Server Path for Lana Guzha `lguzha`](https://github.com/user-attachments/assets/bfd3562b-b60c-4a6f-bc3d-f79d33a29011)
 
 📸 **Server Side Share Showing User Folders**
 

@@ -88,11 +88,11 @@ To verify the configuration:
 
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties](https://github.com/user-attachments/assets/3d0352a7-3fa4-4d01-a8cf-685d0525e40d)
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01`](https://github.com/user-attachments/assets/a746187b-0575-4cbc-997c-89f332899d62)
 
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`](https://github.com/user-attachments/assets/1023d892-1add-48d6-ae28-4af128f8113d)
+![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02`](https://github.com/user-attachments/assets/9fbe67c1-b31a-4995-8cb5-1fbcbe231196)
 
  📸 **User's Document Folder Showing the Server Path for Mei Guzha `mguzha`**
 

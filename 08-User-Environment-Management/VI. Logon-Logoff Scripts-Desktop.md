@@ -6,12 +6,12 @@ In this section, I configured logon scripts using Group Policy to automate speci
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** Logon Scripts Policy  
-- **Linked To:** Tech OU
+- **GPO Name:** Logon-Logoff Scripts Policy  
+- **Linked To:** Employees OU
 
-📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to Tech OU**
+📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to Employees OU**
 
-![Group Policy Management Console Showing Logon Scripts Policy Linked to Tech OU](https://github.com/user-attachments/assets/27bcd5a4-20a0-441d-8fdb-bc0ae5588bfb)
+![Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU](https://github.com/user-attachments/assets/f3db2fc7-ea2c-445d-820d-5cc2ab3a9646)
 
 ---
 
@@ -23,70 +23,86 @@ In this section, I configured logon scripts using Group Policy to automate speci
 3. Double-clicked **Logon**, then clicked **Add...**
 4. Double-clicked **Logoff**, then clicked **Add...**
 5. Browsed to the script location and added the PowerShell script `LogonScript.ps1`
-6. Browsed to the script location and added the PowerShell script `LogoofScript.ps1`
+6. Browsed to the script location and added the PowerShell script `LogoffScript.ps1`
 7. Saved and exited the editor.
 
 📸 **Logon Script Configuration Dialog Box With Script Path**
 
-![Logon Script Configuration Dialog Box With Script Path 1](https://github.com/user-attachments/assets/61f0a04e-b002-4b07-9d40-f8196eda4e4b)
+![Logon Script Configuration Dialog Box With Script Path](https://github.com/user-attachments/assets/74d92936-846d-43fe-9c54-d38b694f5c74)
 
-![Logon Script Configuration Dialog Box With Script Path 2](https://github.com/user-attachments/assets/75e860cd-a227-4cb3-8e46-993ef97e164a)
+![Logon Script Configuration Dialog Box With Script Path 1](https://github.com/user-attachments/assets/dc55aa38-6d5e-4975-9f47-81747e010905)
 
-![Logoff Script Configuration Dialog Box With Script Path 3](https://github.com/user-attachments/assets/513dccb2-909d-4f5b-86df-7eb5a7763d25)
+📸 **Logoff Script Configuration Dialog Box With Script Path**
 
-![Logoff Script Configuration Dialog Box With Script Path 4](https://github.com/user-attachments/assets/b7c57fe2-533c-4080-85c8-cf022d3acbdf)
+![Logoff Script Configuration Dialog Box With Script Path](https://github.com/user-attachments/assets/e717abda-5c25-4fc8-ae61-4346fcbc0929)
+
+![Logoff Script Configuration Dialog Box With Script Path 1](https://github.com/user-attachments/assets/8ac1508c-4fdd-4040-9131-0760ed43d950)
 
 📸 **Logon Script Contents in PowerShell ISE**
 
-![Logon Script Contents In PowerShell ISE 1](https://github.com/user-attachments/assets/ee206d6d-6eb6-4376-b8ca-8c269def6c50)
+![Logon Script Contents in PowerShell ISE](https://github.com/user-attachments/assets/8e539a85-e9da-4fd7-8865-3c4aa7b83268)
 
-![Logon Script Contents In PowerShell ISE 2](https://github.com/user-attachments/assets/00297695-0f27-4ba0-8024-b2a7b499c2ee)
+![Logon Script Contents in PowerShell ISE 1](https://github.com/user-attachments/assets/fdf06bc8-258f-4381-beba-3612166e0cc5)
 
-![Logon Script Contents In PowerShell ISE 3](https://github.com/user-attachments/assets/2747e6ae-6cb7-4c43-8b80-b22bb0a841ee)
+![Logon Script Contents in PowerShell ISE 2](https://github.com/user-attachments/assets/358d6aba-5f7b-4a2d-a8d0-9a70871ab4d1)
 
 📸 **Logoff Script Contents in PowerShell ISE**
 
-![Logoff Script Contents In PowerShell ISE 1](https://github.com/user-attachments/assets/fc68c379-de05-4852-9b17-432a631eec58)
+![Logoff Script Contents in PowerShell ISE](https://github.com/user-attachments/assets/997da23d-634d-4f86-b7e0-63b80198c645)
 
-![Logoff Script Contents In PowerShell ISE 2](https://github.com/user-attachments/assets/d5bb6c78-899c-47d3-930b-aa88cff4f623)
+![Logoff Script Contents in PowerShell ISE 1](https://github.com/user-attachments/assets/e7382673-7ec5-431f-8131-2c60fb4008e5)
 
-![Logoff Script Contents In PowerShell ISE 3](https://github.com/user-attachments/assets/77a533b3-b37e-4c4b-b07e-05b7dc4b5935)
+![Logoff Script Contents in PowerShell ISE 2](https://github.com/user-attachments/assets/9fd4604f-a8e3-48d3-a1e5-2a2a8c5e5b82)
 
 ---
 
 ## 📂 3. Script Contents
 
 Here’s an example of what my `LogonScript.ps1` included:
-```
+
+``` powershell
 # LogonScript.ps1
-# PowerShell Logon Script for hughdomain.local
-# Save as LogonScript.ps1 in `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\`
+# Location: \\hughdomain.local\NETLOGON\LogonScript.ps1
+# (Which points to C:\WINDOWS\SYSVOL\sysvol\hughdomain.local\SCRIPTS\LogonScript.ps1)
 
-# Display notification to user
-$wshell = New-Object -ComObject Wscript.Shell
-$wshell.Popup("Logon script is running. Please wait...", 5, "Domain Logon Script", 0x0 + 0x40)
+# ----- CONFIGURATION -----
+$ServerName = "WINSERVER2025"
+$ServerIP = "192.168.1.10"
+$LogLocations = @(
+    "\\$ServerIP\LogFiles\$env:USERNAME-logon.log",
+    "\\$ServerName\LogFiles\$env:USERNAME-logon.log",
+    "C:\Windows\Temp\Logs\$env:USERNAME-logon.log"
+)
 
-# Log the logon event
-$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logon.log"
-$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged on from computer $env:COMPUTERNAME"
-Add-Content -Path $LogPath -Value $LogMessage"
+# ----- INITIALIZATION -----
+# Create local log directory if needed
+if (-not (Test-Path "C:\Windows\Temp\Logs")) {
+    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+}
+
 ```
 The script creates a message on the user's desktop after logging in.
 
 Here’s an example of what my `LogoffScript.ps1` included:
 ```
-# LogoffScript.ps1
-# PowerShell Logoff Script for hughdomain.local
-# Save as LogoffScript.ps1 in `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\`
+# LogoffScript.ps1 for hughdomain.local
+# Save to: \\hughdomain.local\NETLOGON\LogoffScript.ps1
 
-# Display notification to user
-$wshell = New-Object -ComObject Wscript.Shell
-$wshell.Popup("Logoff script is running. Please wait...", 5, "Domain Logoff Script", 0x0 + 0x40)
+# ----- CONFIGURATION -----
+$ServerName = "WINSERVER2025"
+$ServerIP = "192.168.1.10"
+$LogLocations = @(
+    "\\$ServerIP\LogFiles\$env:USERNAME-logoff.log",
+    "\\$ServerName\LogFiles\$env:USERNAME-logoff.log",
+    "C:\Windows\Temp\Logs\$env:USERNAME-logoff.log"
+)
 
-# Log the logoff event
-$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:USERNAME-logoff.log"
-$LogMessage = "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') - User $env:USERNAME logged off from computer $env:COMPUTERNAME"
-Add-Content -Path $LogPath -Value $LogMessage
+# ----- INITIALIZATION -----
+# Create local log directory if needed
+if (-not (Test-Path "C:\Windows\Temp\Logs")) {
+    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+}
+
 ```
 The script creates a message on the user's desktop after logging off.
 
@@ -97,13 +113,13 @@ The script creates a message on the user's desktop after logging off.
 1. Logged in to hughdomain.local as a standard domain user
 2. Observed the following automated behaviors:
    * ✔️ "Logon script is running" notification appeared (5-second timeout)
-   * ✔️ Z: drive successfully mapped to `\\WIN-D2PQBCI88JQ\SharedDocs`
-   * ✔️ User folder created at `\\WIN-D2PQBCI88JQ\UserFolders\<username>` (if first logon)
+   * ✔️ Z: drive successfully mapped to `\\WINSERVER2025\ITSecurity Shared Drive`
+   * ✔️ S: drive successfully mapped to `\\WINSERVER2025\DepartmentalShares`
+   * ✔️ User folder created at `\\WINSERVER2025\FileShares$\<username>` (if first logon)
    * ✔️ Outlook signatures deployed (if template existed for user)
    * ✔️ Completion notification displayed
-
 3. Verified log file creation at:
-   * `\\WIN-D2PQBCI88JQ\LogFiles\<username>-logon.log`
+   * `\\WINSERVER2025\LogFiles\<username>-logon.log`
    * Confirmed timestamp, username, and computer name were recorded
    * Checked success/failure messages for all operations
 
@@ -113,25 +129,26 @@ The script creates a message on the user's desktop after logging off.
 2. Confirmed:
    * ✔️ "Logoff script is running" notification appeared
    * ✔️ Z: drive was automatically disconnected
+   * ✔️ S: drive was automatically disconnected
    * ✔️ User data (Desktop/Documents/Pictures) backed up to network folder
    * ✔️ Temporary files cleared from %TEMP%
 
 3. Verified logoff entry in:
-   `\\WIN-D2PQBCI88JQ\LogFiles\<username>-logoff.log`
+   `\\WINSERVER2025\LogFiles<username>-logoff.log`
 
 📸 **Logon Notification Popup**
 
-![Logon Notification Popup](https://github.com/user-attachments/assets/1a5be81f-3d4d-4e39-ba0e-dfed1e7cd62e)
+![Logon Notification Popup](https://github.com/user-attachments/assets/6a64e746-3341-4e49-a0a2-c78a074ddc0a)
 
-![Logon Notification Popup 1](https://github.com/user-attachments/assets/52b30f86-6eef-49e2-a326-46ba776b7bb5)
+![Logon Notification Popup 1](https://github.com/user-attachments/assets/cc9c2a85-8b8d-4ba9-a6d1-db94df9298b0)
 
-📸 **File Explorer Showing Mapped Z Drive And Network User Folder**
+📸 **File Explorer Showing Mapped S Drive And Network User Folder**
 
-![File Explorer Showing Mapped Z Drive And Network User Folder](https://github.com/user-attachments/assets/607d6665-69cc-48cf-b143-cfac9d648b2a)
+![File Explorer Showing Mapped S Drive And Network User Folder](https://github.com/user-attachments/assets/f901c3dd-95bb-495d-8b50-8fe1176113a5)
 
 📸 **Sample Log File Contents Showing Successful Operations**
 
-![Sample Log File Contents Showing Successful Operations](https://github.com/user-attachments/assets/9550eb54-f479-44ba-b2ab-eeef7cfeaa8e)
+![Sample Log File Contents Showing Successful Operations](https://github.com/user-attachments/assets/9c395359-caaa-4da5-8ba2-f28b9cae72ec)
 
 Logoff notification popup (if captured before session termination)
 

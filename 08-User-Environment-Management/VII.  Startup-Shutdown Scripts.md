@@ -1,15 +1,15 @@
-# 🔁 Startup/Shutdown Scripts Policy
+# 🔁 Startup-Shutdown Scripts Policy
 This policy configures startup and shutdown scripts via Group Policy to run essential system-level tasks when computers boot up or shut down.
 
 ---
 
 ## 🏷️ 1. GPO Name
-- **GPO Name:** Startup/Shutdown Scripts
-- **Linked To:** Tech OU
+- **GPO Name:** Startup-Shutdown Scripts
+- **Linked To:** Employees OU
 
-📸 **Startup Shutdown Scripts Policy Linked to Tech OU:**
+📸 **Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU:**
 
-![Startup Shutdown Scripts Policy Linked to OU](https://github.com/user-attachments/assets/0db30914-40b0-4534-bf5b-5ef72aff1206)
+![Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU](https://github.com/user-attachments/assets/2b144bec-4cba-46d5-a391-9b01713a2008)
 
 ---
 
@@ -21,7 +21,7 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 
 - Script Name: `startup.ps1`
 
-- Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\StartupScript.ps1`
+- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Startup`
 
 - Script Type: PowerShell
 
@@ -29,29 +29,29 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 
 - Script Name: shutdown.ps1
 
-- Location: `\\hughdomain.local\SYSVOL\hughdomain.local\scripts\ShutdownScript.ps1`
+- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Shutdown`
 
 - Script Type: PowerShell
 
 📸 **Startup Properties Windows With Scripts Added**
 
-![Startup Scripts Policy Configuration applied 1](https://github.com/user-attachments/assets/f912c453-176b-4ae4-8688-37321b1b5f8c)
+![Startup Properties Windows With Scripts Added](https://github.com/user-attachments/assets/9ef094c7-78eb-4c63-9058-a07118dc14bd)
 
-![Startup Scripts Policy Configuration applied 2](https://github.com/user-attachments/assets/e129efe4-9e46-4454-b3dd-a0c6b9fa1bee)
+![Startup Properties Windows With Scripts Added 1](https://github.com/user-attachments/assets/8dab2220-6948-427b-a8ed-e7c2ab2c67ca)
 
 📸 **Shutdown Properties Windows With Scripts Added**
 
-![Shutdown Scripts Policy Configuration applied](https://github.com/user-attachments/assets/b6df80d3-e3de-432c-b82f-f7afad7d092c)
+![Shutdown Properties Windows With Scripts Added](https://github.com/user-attachments/assets/03330484-0fe5-45b4-ba46-7b92b1cfd622)
 
-![Shutdown Scripts Policy Configuration applied 2](https://github.com/user-attachments/assets/4a6db969-1eb8-411c-8de6-60de5a771e34)
+![Shutdown Properties Windows With Scripts Added 1](https://github.com/user-attachments/assets/d2eb7dbb-9192-4a32-90d1-10c97467ba39)
 
-📸 **Startup File Locations**
+📸 **Startup File Location**
 
-![Startup File Location](https://github.com/user-attachments/assets/43bd462f-aa82-4eb8-b431-e75531e2bd24)
+![Startup File Location](https://github.com/user-attachments/assets/46b99365-e5df-404b-b0f8-72597c9fc365)
 
-📸 **Shutdown File Locations**
+📸 **Shutdown File Location**
 
-![Shutdown File Location](https://github.com/user-attachments/assets/0bc871a3-57f1-4315-b44b-2167e460c98c)
+![Shutdown File Location](https://github.com/user-attachments/assets/092916fc-645c-4448-bc5c-7b2a4e94f5e0)
 
 ---
 
@@ -60,7 +60,7 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 These scripts were used to maintain operational visibility and enforce configurations at the system level.
 
 **Startup Script Tasks:**
-- Logs boot time and system health info to `\\WIN-D2PQBCI88JQ\LogFiles\`
+- Logs boot time and system health info to `\\WINSERVER2025\LogFiles\`
 - Displays a user-friendly popup notification
 - Updates Windows Defender definitions
 - Checks for and logs pending Windows Updates
@@ -68,15 +68,50 @@ These scripts were used to maintain operational visibility and enforce configura
 
 💻 **Example:** `startup.ps1`
 
-```
-# PowerShell Computer Shutdown Script for hughdomain.local
-# Save as ShutdownScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+``` powershell 
+# StartupScript.ps1 for hughdomain.local
+# Save to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Startup\StartupScript.ps1
 
-# Display notification
-try {
-    $message = "Computer shutdown script is running. Please wait..."
-    $title = "Domain Shutdown Script"
+# ----- CONFIGURATION -----
+$ServerName = "WINSERVER2025"
+$ServerIP = "192.168.1.10"
+$LogLocations = @(
+    "\\$ServerIP\LogFiles\$env:COMPUTERNAME-startup.log",
+    "\\$ServerName\LogFiles\$env:COMPUTERNAME-startup.log",
+    "C:\Windows\Temp\Logs\$env:COMPUTERNAME-startup.log"
+)
+
+# ----- INITIALIZATION -----
+# Create local log directory if needed
+if (-not (Test-Path "C:\Windows\Temp\Logs")) {
+    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+}
+
+# ----- LOGGING FUNCTION -----
+function Write-StartupLog {
+    param($Message)
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $logEntry = "[$timestamp] $Message"
+    
+    foreach ($logPath in $LogLocations) {
+        try {
+            # Handle local vs network paths
+            if ($logPath -like "C:*") {
+                $logDir = Split-Path $logPath -Parent
+                if (-not (Test-Path $logDir)) { New-Item -Path $logDir -ItemType Directory -Force | Out-Null }
+            }
+            
+            Add-Content -Path $logPath -Value $logEntry -ErrorAction Stop
+            return $true
+        } catch {
+            # Continue to next log location
+        }
+    }
+    return $false
+}
+
 ```
+
 **Shutdown Script Tasks:**
 - Logs shutdown events and system uptime
 - Displays a shutdown popup
@@ -86,12 +121,48 @@ try {
 
 💻 **Example:** `shutdown.ps1`
 
-```
-# PowerShell Computer Startup Script for hughdomain.local
-# Save as StartupScript.ps1 in \\hughdomain.local\SYSVOL\hughdomain.local\scripts\
+```powershell
+# ShutdownScript.ps1 for hughdomain.local
+# Save to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Shutdown\ShutdownScript.ps1
 
-# Set log path
-$LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:COMPUTERNAME-startup.log"
+# ----- CONFIGURATION -----
+$ServerName = "WINSERVER2025"
+$ServerIP = "192.168.1.10"
+$LogLocations = @(
+    "\\$ServerIP\LogFiles\$env:COMPUTERNAME-shutdown.log",
+    "\\$ServerName\LogFiles\$env:COMPUTERNAME-shutdown.log",
+    "C:\Windows\Temp\Logs\$env:COMPUTERNAME-shutdown.log"
+)
+
+# ----- INITIALIZATION -----
+# Create local log directory if needed
+if (-not (Test-Path "C:\Windows\Temp\Logs")) {
+    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+}
+
+# ----- LOGGING FUNCTION -----
+function Write-ShutdownLog {
+    param($Message)
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $logEntry = "[$timestamp] $Message"
+    
+    foreach ($logPath in $LogLocations) {
+        try {
+            # Handle local vs network paths
+            if ($logPath -like "C:*") {
+                $logDir = Split-Path $logPath -Parent
+                if (-not (Test-Path $logDir)) { New-Item -Path $logDir -ItemType Directory -Force | Out-Null }
+            }
+            
+            Add-Content -Path $logPath -Value $logEntry -ErrorAction Stop
+            return $true
+        } catch {
+            # Continue to next log location
+        }
+    }
+    return $false
+}
+
 ```
 ---
 
@@ -104,19 +175,25 @@ $LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:COMPUTERNAME-startup.log"
 
 📸 **StartupScript Powershell Test**
 
-![StartupScript Powershell Test](https://github.com/user-attachments/assets/700cd42b-f587-4ea2-91a1-7e700195e4fa)
+![StartupScript Powershell Test](https://github.com/user-attachments/assets/546ab573-8319-441e-a5bd-ad9348e6a0bf)
+
+![StartupScript Powershell Test 1](https://github.com/user-attachments/assets/09499203-03bf-485a-b414-a601af3077c5)
+
+![StartupScript Powershell Test 2](https://github.com/user-attachments/assets/350b1259-4cea-4791-9ce2-777ad70c0839)
 
 📸 **ShutdownScript Powershell Test**
 
-![ShutdownScript Powershell Test](https://github.com/user-attachments/assets/b531a3e2-2935-4bc1-b39d-6b8ec77b7c47)
+![ShutdownScript Powershell Test](https://github.com/user-attachments/assets/3aaeb593-e9cc-4ba1-8d1c-1120d60fbaa0)
 
-📸 **Cert signing**
+![ShutdownScript Powershell Test 1](https://github.com/user-attachments/assets/77f62081-56e6-4adb-acf0-de0f386d88e7)
 
-![Cert signing](https://github.com/user-attachments/assets/34164dfe-6bcd-4975-a022-daf8d9531231)
+📸 **Startup Script Signed**
 
-![Cert signing 1](https://github.com/user-attachments/assets/a4990c62-35b7-46eb-872a-50b02e268db3)
+![Startup Script Signed](https://github.com/user-attachments/assets/7782900f-4fb3-4e0a-ae7e-a5870259e063)
 
-![Cert signing 2](https://github.com/user-attachments/assets/44ec6467-7ca0-4a3e-a15a-a0babbeb71ef)
+📸 **Shutdown Script Signed**
+
+![Shutdown Script Signed](https://github.com/user-attachments/assets/ed7d54ca-6fb0-48a8-b9ca-35e55fb790b5)
 
 ## 👩🏻‍💻 4. Tasks performed
 
@@ -126,7 +203,7 @@ $LogPath = "\\WIN-D2PQBCI88JQ\LogFiles\$env:COMPUTERNAME-startup.log"
 
 📸 **Log File Contents Startup**
 
-![Log File Contents Startup](https://github.com/user-attachments/assets/9ab6a712-f801-4359-8f9f-3cc1d66376ee)
+![Log File Contents Startup](https://github.com/user-attachments/assets/9c395359-caaa-4da5-8ba2-f28b9cae72ec)
 
 📸 **Log File Contents Shutdown**
 

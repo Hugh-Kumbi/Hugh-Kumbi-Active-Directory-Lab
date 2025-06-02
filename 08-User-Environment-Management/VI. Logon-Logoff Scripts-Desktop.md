@@ -83,7 +83,8 @@ if (-not (Test-Path "C:\Windows\Temp\Logs")) {
 The script creates a message on the user's desktop after logging in.
 
 Here’s an example of what my `LogoffScript.ps1` included:
-```
+
+``` powershell
 # LogoffScript.ps1 for hughdomain.local
 # Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logoff
 

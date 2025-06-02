@@ -62,8 +62,7 @@ Here’s an example of what my `LogonScript.ps1` included:
 
 ``` powershell
 # LogonScript.ps1
-# Location: \\hughdomain.local\NETLOGON\LogonScript.ps1
-# (Which points to C:\WINDOWS\SYSVOL\sysvol\hughdomain.local\SCRIPTS\LogonScript.ps1)
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logon
 
 # ----- CONFIGURATION -----
 $ServerName = "WINSERVER2025"
@@ -86,7 +85,7 @@ The script creates a message on the user's desktop after logging in.
 Here’s an example of what my `LogoffScript.ps1` included:
 ```
 # LogoffScript.ps1 for hughdomain.local
-# Save to: \\hughdomain.local\NETLOGON\LogoffScript.ps1
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logoff
 
 # ----- CONFIGURATION -----
 $ServerName = "WINSERVER2025"

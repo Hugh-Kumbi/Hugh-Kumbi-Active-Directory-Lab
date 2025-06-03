@@ -203,19 +203,21 @@ function Write-ShutdownLog {
 
 📸 **Log File Contents Startup**
 
-![Log File Contents Startup](https://github.com/user-attachments/assets/9c395359-caaa-4da5-8ba2-f28b9cae72ec)
+![Log File Contents Startup](https://github.com/user-attachments/assets/902970b4-ab80-46eb-b837-5e62e757f9f8)
 
 📸 **Log File Contents Shutdown**
 
-![Log File Contents Shutdown](https://github.com/user-attachments/assets/b1559bf2-eb99-413f-8b11-4102cf3f7a31)
+![Log File Contents Shutdown](https://github.com/user-attachments/assets/374f88df-002e-40ee-bfdb-9ed1db91ae25)
 
 📸 **Script-Related Entries in Event Viewer**
 
-![Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/87b81369-c222-49dd-ac1c-b1ba9adb163b)
+![Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/0a4d1f30-7c90-41d9-ae8c-5caabb5417d4)
 
 📸 **Powershell Script-Related Entries in Event Viewer**
 
-![Powershell Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/db1bb8ea-4b1c-4f92-b9ae-1a06b62f41fa)
+![Powershell Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/c4bd832e-1ad9-4343-9d4c-35712cea5f08)
+
+![Powershell Script-Related Entries in Event Viewer 1](https://github.com/user-attachments/assets/308d7c40-08e2-4f5b-82aa-ec63a61d9e54)
 
 ---
 

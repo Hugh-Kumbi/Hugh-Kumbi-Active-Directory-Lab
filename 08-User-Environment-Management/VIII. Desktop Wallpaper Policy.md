@@ -7,11 +7,11 @@ This section explains how I implemented a **Desktop Wallpaper Policy** using Gro
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Desktop Wallpaper Policy  
-- **Linked To:** Tech OU
+- **Linked To:** hughdomain.local (domain root)
 
 📸 **Group Policy Management Console Showing The Desktop Wallpaper Policy GPO And Link**
 
-![Desktop Wallpaper Policy Linked to Tech OU](https://github.com/user-attachments/assets/787ba852-9463-47b6-9f97-2306d7ac98c7)
+![Group Policy Management Console Showing The Desktop Wallpaper Policy GPO And Link](https://github.com/user-attachments/assets/19f2dc2b-78f3-47dd-9429-2fbdb60202a3)
 
 ---
 
@@ -24,18 +24,18 @@ This section explains how I implemented a **Desktop Wallpaper Policy** using Gro
    `Desktop Wallpaper`
 
 3. Specified the path to the wallpaper image:  
-   `\\WIN-D2PQBCI88JQ\sysvol\hughdomain.local\Wallpaper`
+   `\\WINSERVER2025\sysvol\hughdomain.local\Wallpaper`
 
 4. Set wallpaper style to:  
-   `Fit`
+   `Fill`
 
 📸 **Desktop Wallpaper Policy Configuration**
 
-![Desktop Wallpaper Setting Enabled](https://github.com/user-attachments/assets/b90c4e0f-91b2-4bb3-a4a0-09ee05a5eb92)
+![Desktop Wallpaper Policy Configuration](https://github.com/user-attachments/assets/1473f3c6-7899-43bd-8f99-9dae4492b0d1)
 
 📸 **Wallpaper File Stored On Shared Server Folder**
 
-![Wallpaper File Stored On Shared Server Folder](https://github.com/user-attachments/assets/5909e3e0-1ea5-4445-aa68-939f2bfedbf5)
+![Wallpaper File Stored On Shared Server Folder](https://github.com/user-attachments/assets/890c8a57-539b-41aa-88a2-76e514230588)
 
 ---
 
@@ -46,9 +46,13 @@ To test the policy:
 2. Verified that the desktop wallpaper was automatically applied.
 3. Attempted to change the wallpaper via settings — confirmed that the option was greyed out.
 
-📸 **Wallpaper Automatically Applied On User Login**
+📸 **Wallpaper Automatically Applied On User Login for `AD-WIN11-01`**
 
-![Wallpaper Automatically Applied On User Login](https://github.com/user-attachments/assets/52db1b3a-7f12-4f88-a6bd-11ae4d9b391b)
+![Wallpaper Automatically Applied On User Login for `AD-WIN11-01`](https://github.com/user-attachments/assets/5bde3ac8-a33d-4495-8357-41ce4ba9e9e3)
+
+📸 **Wallpaper Automatically Applied On User Login for `AD-WIN11-02`**
+
+![Wallpaper Automatically Applied On User Login for `AD-WIN11-02`](https://github.com/user-attachments/assets/000b6da9-9c48-47ff-bc7e-3f63d2e0506a)
 
 ---
 

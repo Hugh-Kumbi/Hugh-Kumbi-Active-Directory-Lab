@@ -27,7 +27,7 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 
 ### 🔽 Shutdown Script
 
-- Script Name: shutdown.ps1
+- Script Name: `shutdown.ps1`
 
 - Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Shutdown`
 

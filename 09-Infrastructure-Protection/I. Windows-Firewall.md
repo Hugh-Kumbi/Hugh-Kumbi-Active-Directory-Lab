@@ -9,9 +9,9 @@ This document outlines how I configured **inbound and outbound firewall rules vi
 - **GPO Name:** Windows Firewall Settings Policy  
 - **Linked To:** Domain
 
-📸 **Windows Firewall Settings Policy Linked to Domain**  
+📸 **Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain**  
 
-![Windows Firewall Linked to Domain](https://github.com/user-attachments/assets/be8dc087-2f18-49aa-9306-572b0a164b19)
+![Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain](https://github.com/user-attachments/assets/e63af903-cdb8-4b00-8592-2b12e9eb9645)
 
 ---
 
@@ -262,9 +262,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Domain Profile Rules Configuration**
 
-![Domain Showing Configured Rules](https://github.com/user-attachments/assets/c6c0d172-a761-4623-9585-b4e1c3847934)
+![Domain Profile Rules Configuration](https://github.com/user-attachments/assets/54036d18-ee4e-4e49-b7a9-a11a8b75230e)
 
-![Domain Showing Configured Rules 1](https://github.com/user-attachments/assets/0fc7037e-47c4-4fff-9705-e6259b832be0)
+![Domain Profile Rules Configuration 1](https://github.com/user-attachments/assets/747b1d4b-5e84-4f60-9fc8-bc9b794a5618)
 
 ### 🏠 Private Profile
 - Firewall state: **On**
@@ -274,9 +274,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Private Profile Rules Configuration**
 
-![Private Showing Configured Rules](https://github.com/user-attachments/assets/e5f44e85-cfbc-4eb3-b668-fc228c980a80)
+![Private Profile Rules Configuration](https://github.com/user-attachments/assets/06597c1a-dec9-4d47-9965-11425a11c2fc)
 
-![Private Showing Configured Rules 1](https://github.com/user-attachments/assets/2ba6fedd-7209-4932-81c4-8d868858f9ad)
+![Private Profile Rules Configuration 1](https://github.com/user-attachments/assets/fa65365e-2fdf-49ba-86d3-db43eb7c9196)
 
 ### 🌍 Public Profile
 - Firewall state: **On**
@@ -286,11 +286,11 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Public Profile Rules Configuration**
 
-![Public Showing Configured Rules](https://github.com/user-attachments/assets/d480cd8e-06ce-45a1-ac3e-394ac041fde1)
+![Public Profile Rules Configuration](https://github.com/user-attachments/assets/ae14e952-7034-40b7-8cf8-d6b713cfbd42)
 
-![Public Showing Configured Rules 1](https://github.com/user-attachments/assets/137ff7ad-faba-4113-b253-4d93e6dffddd)
+![Public Profile Rules Configuration 1](https://github.com/user-attachments/assets/97864fab-a9dd-42c6-ae3e-4686a8c601b0)
 
-![Public Showing Configured Rules 2](https://github.com/user-attachments/assets/d68f4012-7b05-4ac8-a36f-c81ff109b9fd)
+![Public Profile Rules Configuration 2](https://github.com/user-attachments/assets/33d078a5-aaf2-4f0b-baf8-cf0d4e00bba4)
 
 ---
 

@@ -46,6 +46,10 @@ To test the policy:
 2. Verified that the desktop wallpaper was automatically applied.
 3. Attempted to change the wallpaper via settings — confirmed that the option was greyed out.
 
+📸 **Wallpaper Automatically Applied On User Login for `WinServer2025`**
+
+![Wallpaper Automatically Applied On User Login for `WinServer2025`](https://github.com/user-attachments/assets/63a10f3c-e189-4260-911a-472771518e45)
+
 📸 **Wallpaper Automatically Applied On User Login for `AD-WIN11-01`**
 
 ![Wallpaper Automatically Applied On User Login for `AD-WIN11-01`](https://github.com/user-attachments/assets/5bde3ac8-a33d-4495-8357-41ce4ba9e9e3)

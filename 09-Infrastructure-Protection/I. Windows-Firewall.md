@@ -33,7 +33,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound LDAP Rule Settings**
 
-![Allow LDAP Window](https://github.com/user-attachments/assets/6c9d0837-9a1f-487c-97c2-5c42a0e3977d)
+![Inbound LDAP Rule Settings](https://github.com/user-attachments/assets/b2489ba8-1172-46ff-b195-b51ebc54062b)
 
 ### 📁 SMB Communication Rule
 
@@ -44,7 +44,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound SMB Communication Rule Settings**
 
-![Allow SMB](https://github.com/user-attachments/assets/e9dc0cd5-999b-4883-9133-61c5677f84fb)
+![Inbound SMB Communication Rule Settings](https://github.com/user-attachments/assets/a1188d13-7aa1-41b4-8697-04b551afae1a)
 
 ### 🔐 Kerberos Authentication Rules
 

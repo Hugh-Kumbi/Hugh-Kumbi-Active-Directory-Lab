@@ -229,26 +229,26 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 📸 __Block NetBIOS:__
   * Blocks outbound TCP ports 137–139
 
-![Block NetBIOS Properties Window](https://github.com/user-attachments/assets/0e09951e-7489-4f47-990b-5216dcfc8b2a)
+![Block NetBIOS TCP Properties Window](https://github.com/user-attachments/assets/890f9127-f025-46a4-8198-1e23528d7885)
 
 📸 __Block NetBIOS:__
   * Blocks outbound UDP ports 137–139
 
-![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/dd80c7d5-e6c8-44ea-afef-844a12834ecf)
+![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/cf23baf5-debf-4197-be2e-d941426c89d3)
 
 📸 __Block LLMNR:__
   * Blocks outbound UDP port 5355
 
-![Block LLMNR Properties Window](https://github.com/user-attachments/assets/d938581f-bab3-4599-9d83-53c5b24ea9ef)
+![Block LLMNR Properties Window](https://github.com/user-attachments/assets/f3b47627-e097-4d79-b2d6-b26b187c7f4b)
 
 📸 __Block mDNS:__ 
   * Blocks outbound UDP port 5353
 
-![Block mDNS Properties Window](https://github.com/user-attachments/assets/cdc0290f-ec43-41b8-a1b7-744d02721cc3)
+![Block mDNS Properties Window](https://github.com/user-attachments/assets/c75d47b6-cd07-4919-abdc-676c7c154768)
 
 📸 **Overview of all Newly Added Outbound Rules**
 
-![Outbound rules](https://github.com/user-attachments/assets/81faafa6-8dd6-4eab-89b3-e931f0370630)
+![Overview of all Newly Added Outbound Rules](https://github.com/user-attachments/assets/9c6a6e81-02c9-4e34-a36f-c28340117146)
 
 ---
 

@@ -262,9 +262,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Domain Profile Rules Configuration**
 
-![Domain Profile Rules Configuration](https://github.com/user-attachments/assets/54036d18-ee4e-4e49-b7a9-a11a8b75230e)
+![Domain Profile Rules Configuration](https://github.com/user-attachments/assets/056ff21e-773e-4847-bfe2-28fb8ec350f5)
 
-![Domain Profile Rules Configuration 1](https://github.com/user-attachments/assets/747b1d4b-5e84-4f60-9fc8-bc9b794a5618)
+![Domain Profile Rules Configuration 1](https://github.com/user-attachments/assets/b579ef5c-15c7-4cab-83c6-997449aa80ef)
 
 ### 🏠 Private Profile
 - Firewall state: **On**
@@ -274,9 +274,9 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Private Profile Rules Configuration**
 
-![Private Profile Rules Configuration](https://github.com/user-attachments/assets/06597c1a-dec9-4d47-9965-11425a11c2fc)
+![Private Profile Rules Configuration](https://github.com/user-attachments/assets/1070ebdd-23de-4e75-883e-5ff4c39f654e)
 
-![Private Profile Rules Configuration 1](https://github.com/user-attachments/assets/fa65365e-2fdf-49ba-86d3-db43eb7c9196)
+![Private Profile Rules Configuration 1](https://github.com/user-attachments/assets/ce31ef2a-1c5c-4c24-a7db-d7aafa4a1af7)
 
 ### 🌍 Public Profile
 - Firewall state: **On**
@@ -286,11 +286,11 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Public Profile Rules Configuration**
 
-![Public Profile Rules Configuration](https://github.com/user-attachments/assets/ae14e952-7034-40b7-8cf8-d6b713cfbd42)
+![Public Profile Rules Configuration](https://github.com/user-attachments/assets/25568ce7-7a26-4a94-87d6-598113abd37d)
 
-![Public Profile Rules Configuration 1](https://github.com/user-attachments/assets/97864fab-a9dd-42c6-ae3e-4686a8c601b0)
+![Public Profile Rules Configuration 1](https://github.com/user-attachments/assets/bf3e0e97-88a0-4ba8-9a91-bed7c8f150e1)
 
-![Public Profile Rules Configuration 2](https://github.com/user-attachments/assets/33d078a5-aaf2-4f0b-baf8-cf0d4e00bba4)
+![Public Profile Rules Configuration 2](https://github.com/user-attachments/assets/c6ebecab-4aa6-4536-9652-2d7c574f5a01)
 
 ---
 
@@ -304,7 +304,11 @@ I closed the Group Policy Management Editor
 - Then I restarted the clients to ensure the policy was fully applied
 - I tested connectivity between the domain controller and the clients
 
-📸 **Command Line Showing `gpupdate` Output**  
+📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-01**  
+
+![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
+
+📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-02**  
 
 ![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
 
@@ -330,9 +334,17 @@ I closed the Group Policy Management Editor
 
 ![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration 2](https://github.com/user-attachments/assets/fdc7bc4c-c3f1-4a01-8e38-dc59680d18c6)
 
-📸 **Failed Ping to Domain**
+📸 **Failed Ping to Domain for `AD-WIN11-01`**
 
-![Failed Connection Result](https://github.com/user-attachments/assets/285924f9-4d82-4f2b-a02e-daf0f8293b8d)
+![Failed Ping to Domain](https://github.com/user-attachments/assets/bec9b00f-2eb1-4935-a8cc-c2196bede1fd)
+
+![Failed Ping to Domain 1](https://github.com/user-attachments/assets/c221ff95-0bdc-4e85-9d38-b9e1dc2f6a91)
+
+📸 **Failed Ping to Domain for `AD-WIN11-02`**
+
+![Failed Ping to Domain](https://github.com/user-attachments/assets/df34eacf-7864-4b3d-bdb5-ab173f6e02c4)
+
+![Failed Ping to Domain 1](https://github.com/user-attachments/assets/d03b7b0e-1b16-4e55-9b7b-af8eec2e7ce0)
 
 📸 **Successful Ping to Domain**
 

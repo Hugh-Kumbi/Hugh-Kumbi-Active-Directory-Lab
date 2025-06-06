@@ -118,7 +118,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 **Overview of all Newly Added Inbound Rules**
 
-![Inbound Rules Overview](https://github.com/user-attachments/assets/8553cc9b-fd15-45f3-b122-7ca9832d52b1)
+![Overview of all Newly Added Inbound Rules](https://github.com/user-attachments/assets/21c4416a-2e4f-44c6-b122-6e2b9f8135a1)
 
 ---
 

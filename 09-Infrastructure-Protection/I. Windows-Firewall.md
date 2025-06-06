@@ -55,9 +55,9 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound Kerberos Authentication Rules Settings**
 
-![Allow Kerberos TCP Window](https://github.com/user-attachments/assets/134486eb-f73c-48e3-a3c3-18f5fdabba41)
+![Inbound Kerberos TCP Authentication Rules Settings](https://github.com/user-attachments/assets/6375a3fe-e3d5-478d-80e5-ed5deabaaeb1)
 
-![Allow Kerberos UDP Window](https://github.com/user-attachments/assets/907f5438-8cb1-4f18-a576-906573bf3104)
+![Inbound Kerberos UDP Authentication Rules Settings](https://github.com/user-attachments/assets/bf0b64c6-10f4-4142-95fb-18f7690b2335)
 
 ### 🌐 DNS Rules
 
@@ -68,9 +68,9 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound DNS Rules Settings**
 
-![Allow DNS TCP Properties Window](https://github.com/user-attachments/assets/88071662-addc-4a6b-bc32-ea78e360901e)
+![Inbound DNS TCP Rules Settings](https://github.com/user-attachments/assets/b8a43db4-1620-4e03-9029-f9da23be516e)
 
-![Allow DNS UDP Properties Window](https://github.com/user-attachments/assets/256bf0ef-d613-46fa-b93c-4b8ee9fa6d3f)
+![Inbound DNS UDP Rules Settings](https://github.com/user-attachments/assets/529be861-a6d4-4da0-86c1-f7dbe0efca4a)
 
 ### 🖥️ Remote Desktop Protocol (RDP) Rule
 
@@ -81,7 +81,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound Remote Desktop Protocol (RDP) Rule Settings**
 
-![Allow RDP Window](https://github.com/user-attachments/assets/88a984ce-c202-4905-902a-e53fd1ed4fe1)
+![Inbound Remote Desktop Protocol (RDP) Rule Settings](https://github.com/user-attachments/assets/8f4ad6a9-8cde-498e-bbee-1ad85675cecb)
 
 ### 🏢 MeiVault Systems Rule
 
@@ -92,7 +92,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound MeiVault Systems Rule Settings**
 
-![Allow MeiVault Systems](https://github.com/user-attachments/assets/8f1dcb41-63df-4454-8c12-3ff60b00e81d)
+![Inbound MeiVault Systems Rule Settings](https://github.com/user-attachments/assets/189e747b-67c7-4628-a6e4-be2914bbddb9)
 
 ### 🔬 Test Rule
 
@@ -103,7 +103,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound Test Rule Settings**
 
-![Test Rule - Allow TCP 8080](https://github.com/user-attachments/assets/9cbae4fa-a748-41b3-bdd3-736ab1722edd)
+![Inbound Test Rule Settings](https://github.com/user-attachments/assets/5bda4200-2b2d-40e7-b53d-9f3f23992e13)
 
 ### 🛠️ Windows Remote Management (WinRM) Rule
 
@@ -114,7 +114,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound Windows Remote Management (WinRM) Rule Settings**
 
-![Allow WinRM Window](https://github.com/user-attachments/assets/80658456-40a4-490b-906d-6e9c2b2b87dc)
+![Inbound Windows Remote Management (WinRM) Rule Settings](https://github.com/user-attachments/assets/97e7ea4f-14b0-4b40-8c0c-f544b8ccddb9)
 
 **Overview of all Newly Added Inbound Rules**
 

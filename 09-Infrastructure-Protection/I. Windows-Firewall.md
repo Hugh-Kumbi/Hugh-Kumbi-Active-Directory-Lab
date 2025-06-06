@@ -140,7 +140,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Custom Outbound Block TFTP Rule Settings**
 
-![TFTP](https://github.com/user-attachments/assets/63271cd2-514f-49ee-82c8-3d9d15e66ba2)
+![Custom Outbound Block TFTP Rule Settings](https://github.com/user-attachments/assets/f8cfbbc6-19e8-4c18-a869-9fb2f64d332c)
 
 ### 🚫 Block Telnet
 
@@ -154,7 +154,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Custom Outbound Block Telnet Rule Settings**
 
-![Block Telnet TCP Properties Window](https://github.com/user-attachments/assets/1a20f3ee-1915-413b-9c97-1ab22ccf61a2)
+![Custom Outbound Block Telnet Rule Settings](https://github.com/user-attachments/assets/95c9a4f9-c6c4-4b7f-989b-14c56dbf8173)
 
 ### 🚫 Block Unencrypted FTP
 
@@ -168,7 +168,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Custom Outbound Block Unencrypted FTP Rule Settings**
 
-![Block Unencrypted FTP TCP Properties Window](https://github.com/user-attachments/assets/eccccbc1-8567-4fcb-82b2-bcbdc851f90e)
+![Custom Outbound Block Unencrypted FTP Rule Settings](https://github.com/user-attachments/assets/5d12a6ac-606f-4c6b-9d22-761dcfc8c32a)
 
 ### 🚫 Block SMBv1
 
@@ -183,7 +183,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Custom Outbound Block SMBv1 Rule Settings**
 
-![Block SMBv1 Properties Window](https://github.com/user-attachments/assets/be125be0-b9cb-4361-a8f7-ea5d72ef0f07)
+![Custom Outbound Block SMBv1 Rule Settings](https://github.com/user-attachments/assets/f5465f91-2ef0-4bc7-9a39-f00a9e18f49d)
 
 ### 🚫 Block Printer Sharing
 
@@ -198,31 +198,31 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **File and Printer Sharing (SMB-Out) TCP**
 
-![File and Printer Sharing (SMB-Out) TCP Properties Window](https://github.com/user-attachments/assets/e6086804-92e3-4b60-9ea9-2b0906d25b5c)
+![File and Printer Sharing (SMB-Out) TCP](https://github.com/user-attachments/assets/1c70110f-2c57-45ac-946c-522c79c011c3)
 
 📸 **File and Printer Sharing (NB-Session-Out) TCP**
 
-![File and Printer Sharing (NB-Session-Out) TCP Properties Window](https://github.com/user-attachments/assets/7c60ac09-20fc-42cc-bf8a-bdcab666fbd4)
+![File and Printer Sharing (NB-Session-Out) TCP](https://github.com/user-attachments/assets/dbd5f3dd-e6ff-4acd-8d15-87ebc7025611)
 
 📸 **File and Printer Sharing (NB-Name-Out) UDP**
 
-![File and Printer Sharing (NB-Name-Out) UDP Properties Window](https://github.com/user-attachments/assets/7ebe16e8-a07f-4cb1-b0e8-cc2bd6a22768)
+![File and Printer Sharing (NB-Name-Out) UDP](https://github.com/user-attachments/assets/21488d00-c328-4431-92ca-4696a68f4ae6)
 
 📸 **File and Printer Sharing (NB-Datagram-Out) UDP**
 
-![File and Printer Sharing (NB-Datagram-Out) UDP Properties Window](https://github.com/user-attachments/assets/af826a70-1de5-4097-9766-3b12f82b7cf8)
+![File and Printer Sharing (NB-Datagram-Out) UDP](https://github.com/user-attachments/assets/54c98a48-d1b2-4621-bf3c-63a033fa560e)
 
 📸 **File and Printer Sharing (LLMNR-UDP-Out)**
 
-![File and Printer Sharing (LLMNR-UDP-Out) Properties Window](https://github.com/user-attachments/assets/3e78ceae-9d05-4a1b-9181-6f2c1d227271)
+![File and Printer Sharing (LLMNR-UDP-Out)](https://github.com/user-attachments/assets/57703a5a-a9f6-4942-9771-2ea22af5fedf)
 
 📸 **File and Printer Sharing (Echo Request - ICMPv6-Out) TCP**
 
-![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP Properties Window](https://github.com/user-attachments/assets/66d8aed8-a2cb-4403-864f-2d67a57f9832)
+![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP](https://github.com/user-attachments/assets/db985adb-88db-4558-a155-2169665a7648)
 
 📸 **File and Printer Sharing (Echo Request - ICMPv4-Out) TCP**
 
-![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP Properties Window](https://github.com/user-attachments/assets/a48ada81-bfe6-4772-8eb3-5cefd60a5a36)
+![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP](https://github.com/user-attachments/assets/2a56574b-9f86-4437-9fe0-c658c7bed502)
 
 ### 🛡️ Additional Security Rules
 

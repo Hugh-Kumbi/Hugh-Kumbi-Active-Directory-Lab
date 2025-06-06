@@ -346,9 +346,13 @@ I closed the Group Policy Management Editor
 
 ![Failed Ping to Domain 1](https://github.com/user-attachments/assets/d03b7b0e-1b16-4e55-9b7b-af8eec2e7ce0)
 
-📸 **Successful Ping to Domain**
+📸 **Successful Ping to Domain for `AD-WIN11-01`**
 
-![Ping hughdomain local Success](https://github.com/user-attachments/assets/cc2a37c6-0efc-426f-af0f-9634692b589c)
+![Successful Ping to Domain for `AD-WIN11-01`](https://github.com/user-attachments/assets/8ba9da1f-15a3-498e-81be-026fedb10971)
+
+📸 **Successful Ping to Domain for `AD-WIN11-02`**
+
+![Successful Ping to Domain for `AD-WIN11-02`](https://github.com/user-attachments/assets/e8c23ea9-c478-4670-a89d-e252d41fa761)
 
 ---
 

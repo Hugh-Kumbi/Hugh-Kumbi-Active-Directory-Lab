@@ -304,11 +304,11 @@ I closed the Group Policy Management Editor
 - Then I restarted the clients to ensure the policy was fully applied
 - I tested connectivity between the domain controller and the clients
 
-📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-01**  
+📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-01`**  
 
 ![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
 
-📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-02**  
+📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-02`**  
 
 ![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
 
@@ -324,7 +324,11 @@ I closed the Group Policy Management Editor
 
   `netsh advfirewall show allprofiles`
 
-📸 **Command Line Showing `gpresult` Output**  
+📸 **Command Line Showing `gpresult` Output for `AD-WIN11-01`**  
+
+![gpresult /r](https://github.com/user-attachments/assets/63cea284-b4c9-4147-bbfe-4ca5dfd304a8)
+
+📸 **Command Line Showing `gpresult` Output for `AD-WIN11-02`**  
 
 ![gpresult /r](https://github.com/user-attachments/assets/63cea284-b4c9-4147-bbfe-4ca5dfd304a8)
 

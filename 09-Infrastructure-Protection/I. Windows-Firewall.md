@@ -158,7 +158,7 @@ I created multiple **inbound rules** for Active Directory communication services
    * __Port:__ 1024-5000
    * __Action:__ Allow the connection
    * __Profile:__ Domain only
-   * __Name:__ Allow RPC Dynamic Ports
+   * __Name:__ Allow RPC Dynamic Ports TCP
    * __Description:__ Allows RPC dynamic port range for Windows services.
 
 📸 **Inbound RPC Dynamic Ports Rule Settings**
@@ -316,7 +316,7 @@ I created multiple **inbound rules** for Active Directory communication services
    * __Ports:__ 123
    * __Action:__ Allow the connection
    * __Profile:__ Domain only
-   * __Names:__ Allow Windows Time Sync
+   * __Names:__ Allow Windows Time Sync UDP
    * __Description:__ Allows outbound NTP time synchronization.
 
 📸 **Outbound Windows Time Sync Rules Settings**
@@ -330,7 +330,7 @@ I created multiple **inbound rules** for Active Directory communication services
    * __Ports:__ 80,443
    * __Action:__ Allow the connection
    * __Profile:__ Domain only
-   * __Names:__ Allow HTTP/HTTPS
+   * __Names:__ Allow HTTP/HTTPS TCP
    * __Description:__ Allows outbound HTTP/HTTPS for updates and web access.
 
 📸 **Outbound HTTP/HTTPS for Updates Rules Settings**

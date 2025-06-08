@@ -51,7 +51,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound LDAP TCP Rule Settings](https://github.com/user-attachments/assets/0f563d4c-c28c-46c5-ad45-c18c465333cc)
 
-### 🔐 Allow LDAP SSL Rule
+### 🛡️ Allow LDAP SSL Rule
 
    * __Rule Type:__ Port
    * __Protocol:__ TCP
@@ -65,7 +65,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound LDAP SSL TCP Rule Settings](https://github.com/user-attachments/assets/04937554-9c6f-4d33-8a1d-f2c605a02c67)
 
-### 🔐 Allow Global Catalog Rule
+### 🌍 Allow Global Catalog Rule
 
    * __Rule Type:__ Port
    * __Protocol:__ TCP
@@ -79,7 +79,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Global Catalog Rule Settings](https://github.com/user-attachments/assets/ffdf9d9a-bc23-4705-a13e-d28adaba2ca5)
 
-### 🔐 Allow Global Catalog SSL Rule
+### ⚙️ Allow Global Catalog SSL Rule
 
    * __Rule Type:__ Port
    * __Protocol:__ TCP
@@ -93,7 +93,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Global Catalog SSL TCP Rule Settings](https://github.com/user-attachments/assets/323ad0ed-481a-42f0-b229-4035aa775f7e)
 
-### 🔐 Allow Kerberos Authentication Rules
+### 🔑 Allow Kerberos Authentication Rules
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP and UDP (separate rules)
@@ -109,7 +109,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Kerberos UDP Rule Settings](https://github.com/user-attachments/assets/182933c2-4ae8-4eb6-870f-e5eaf6143434)
 
-### 🔐 Allow Kerberos Password Change
+### 🔄 Allow Kerberos Password Change
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP
@@ -137,7 +137,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound SMB File Sharing TCP Rule Settings](https://github.com/user-attachments/assets/c4e72430-a6af-4bca-83f6-b413eaaec89f)
 
-### 📁 Allow RPC Endpoint Mapper Rule
+### 🗄️ Allow RPC Endpoint Mapper Rule
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP
@@ -151,7 +151,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound RPC Endpoint Mapper TCP Rule Settings](https://github.com/user-attachments/assets/48a4ac03-b84a-433e-a17f-18481204bceb)
 
-### 📁 Allow RPC Dynamic Ports Rule
+### 🚀 Allow RPC Dynamic Ports Rule
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP
@@ -165,7 +165,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound RPC Dynamic Ports TCP Rule Settings](https://github.com/user-attachments/assets/2cb35591-0534-441f-94ba-f26e6e92dddb)
 
-### 📁 Allow Windows Time Service Rule
+### 🕒 Allow Windows Time Service Rule
 
    * __Rule Type:__ Port
    * __Protocols:__ UDP
@@ -179,7 +179,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Windows Time Service TCP Rule Settings](https://github.com/user-attachments/assets/226a3b7d-d3a9-4137-9a43-8bf2c9b9585d)
 
-### 📁 Allow ICMP Echo Request (Ping) Rule
+### ⚡ Allow ICMP Echo Request (Ping) Rule
 
    * __Rule Type:__ Custom
    * __Protocols:__ ICMPv4
@@ -230,7 +230,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound Windows Remote Management (HTTP-in) Rule Settings 1](https://github.com/user-attachments/assets/0acf6235-003b-427d-bd16-978b036e82c0)
 
-### 🔬 File and Printer Sharing Rule
+### 📤 File and Printer Sharing Rule
 
    * __Rule Type:__ Predefined
    * __File and Printer Sharing Rule Rules:__ File and Printer Sharing (NB-Name-In), File and Printer Sharing (NB-Session-In), File and Printer Sharing (SMB-In)
@@ -277,7 +277,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Outbound Allow DNS Queries UDP Rule Settings](https://github.com/user-attachments/assets/b299ed4d-8e5a-4bfd-8634-f6099cbce6b0)
 
-### 🌐 Allow LDAP Queries Rules
+### 💻 Allow LDAP Queries Rules
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP
@@ -293,7 +293,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Outbound Allow DNS Queries UDP Rule Settings](https://github.com/user-attachments/assets/b299ed4d-8e5a-4bfd-8634-f6099cbce6b0)
 
-### 🌐 Allow Kerberos Authentication Rules
+### 🔐 Allow Kerberos Authentication Rules
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP and UDP (separate rules)
@@ -309,7 +309,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Outbound Allow Kerberos Auth UDP Rule Settings](https://github.com/user-attachments/assets/2dd3c82b-fb17-4533-b193-417e30dbe824)
 
-### 🌐 Allow Windows Time Sync Rules
+### 🕒 Allow Windows Time Sync Rules
 
    * __Rule Type:__ Port
    * __Protocols:__ UDP
@@ -323,7 +323,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Outbound Allow Windows Time Sync UDP Rule Settings](https://github.com/user-attachments/assets/5fd4db83-576c-44f5-8ad6-05fc638fdffe)
 
-### 🌐 Allow HTTP/HTTPS for Updates Rules
+### 📡 Allow HTTP/HTTPS for Updates Rules
 
    * __Rule Type:__ Port
    * __Protocols:__ TCP

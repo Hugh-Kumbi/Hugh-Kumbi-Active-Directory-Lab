@@ -314,13 +314,49 @@ I closed the Group Policy Management Editor
 
 ### 🧪 5. Testing Firewall Behavior
 
-- On a client computer, I opened Command Prompt as administrator and ran:
+- On client computers, I opened Command Prompt as administrator and ran:
 
   `gpresult /r`
   
-- To verify firewall rules were active, I ran:  
+  `netsh advfirewall show allprofiles` to verify firewall rules were active
 
-  `netsh advfirewall show allprofiles`
+  `ping 192.168.1.10` to check basic connectivity
+  
+  `nslookup hughdomain.local` to check basic connectivity
+
+- On client computers, I made sure to check that domain controller discovery works, group policy updates successfully as well as group policy results show firewall policy applied by opening Command Prompt as administrator and running:
+
+  `nltest /dsgetdc:yourdomain.local`
+
+  `gpupdate /force`
+
+  `gpresult /r`
+
+- On client computers, I made sure to check that access to SYSVOL share, NETLOGON share is available as well as authentication to domain is possible by opening Command Prompt as administrator and running:
+
+  `net use \\domain-controller\sysvol`
+  
+  `net use \\domain-controller\netlogon`
+
+- On client computers, I made sure to check that RDP connection was successful, WinRM commands execute successfully, as well as No firewall blocking messages appeared by opening Command Prompt as administrator and running:
+
+  `mstsc /v:192.168.1.10`
+  
+  `winrs -r:192.168.1.10 ipconfig`
+
+- On client computers, I made sure to check that Time services showed valid sync source, as well as Manual resync works without errors by opening Command Prompt as administrator and running:
+
+  `w32tm /query /status`
+  
+  `w32tm /resync`
+
+- On a domain controller, I opened Command Prompt as administrator and ran:
+
+   `ping 192.168.1.11` to check basic connectivity
+
+  `ping 192.168.1.12` to check basic connectivity
+  
+   `nslookup client-hostname`  to check basic connectivity
 
 📸 **Command Line Showing `gpresult` Output for `AD-WIN11-01`**  
 
@@ -396,7 +432,7 @@ I closed the Group Policy Management Editor
 
 ![Authentication and File Sharing Testing and Validating for `AD-WIN11-02`](https://github.com/user-attachments/assets/69dd3e0e-e6da-477a-8348-4b085dc9d574)
 
-📸 **Remote Management Testing and Validation for `AD-WIN11-01`**
+📸 ***Remote Management, Time Synchronization Testing and Validation for `AD-WIN11-01`**
 
 ![Remote Management Testing and Validation for `AD-WIN11-01`](https://github.com/user-attachments/assets/eedcaa72-dae3-46f4-b9b5-172703ad25cf)
 
@@ -406,7 +442,7 @@ I closed the Group Policy Management Editor
 
 ![Remote Management Testing and Validation for `AD-WIN11-01` 3](https://github.com/user-attachments/assets/1a626645-6097-4d23-ba72-ffd19a50a543)
 
-📸 **Remote Management Testing and Validation for `AD-WIN11-02`**
+📸 **Remote Management, Time Synchronization Testing and Validation for `AD-WIN11-02`**
 
 ![Remote Management Testing and Validation for `AD-WIN11-02`](https://github.com/user-attachments/assets/207fb7ad-73ce-4d77-96aa-6eb166aa1274)
 

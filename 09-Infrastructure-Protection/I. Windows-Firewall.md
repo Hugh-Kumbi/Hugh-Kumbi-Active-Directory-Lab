@@ -248,7 +248,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Overview of all Newly Added Outbound Rules**
 
-![Overview of all Newly Added Outbound Rules](https://github.com/user-attachments/assets/9c6a6e81-02c9-4e34-a36f-c28340117146)
+![Overview of all Newly Added Outbound Rules](https://github.com/user-attachments/assets/454cf635-3645-417f-afe1-b2f250fd8398)
 
 ---
 
@@ -262,7 +262,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Domain Profile Rules Configuration**
 
-![Domain Profile Rules Configuration](https://github.com/user-attachments/assets/056ff21e-773e-4847-bfe2-28fb8ec350f5)
+![Domain Profile Rules Configuration](https://github.com/user-attachments/assets/22ab94a5-f285-4e93-bd0c-56968e982f0d)
 
 ![Domain Profile Rules Configuration 1](https://github.com/user-attachments/assets/b579ef5c-15c7-4cab-83c6-997449aa80ef)
 
@@ -274,7 +274,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Private Profile Rules Configuration**
 
-![Private Profile Rules Configuration](https://github.com/user-attachments/assets/1070ebdd-23de-4e75-883e-5ff4c39f654e)
+![Private Profile Rules Configuration](https://github.com/user-attachments/assets/3a5fc61a-ff43-4c8f-a000-04055f0047f5)
 
 ![Private Profile Rules Configuration 1](https://github.com/user-attachments/assets/ce31ef2a-1c5c-4c24-a7db-d7aafa4a1af7)
 
@@ -286,9 +286,7 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
 📸 **Public Profile Rules Configuration**
 
-![Public Profile Rules Configuration](https://github.com/user-attachments/assets/25568ce7-7a26-4a94-87d6-598113abd37d)
-
-![Public Profile Rules Configuration 1](https://github.com/user-attachments/assets/bf3e0e97-88a0-4ba8-9a91-bed7c8f150e1)
+![Public Profile Rules Configuration](https://github.com/user-attachments/assets/cf9b2e66-87cb-4558-8022-fbabc1a65b56)
 
 ![Public Profile Rules Configuration 2](https://github.com/user-attachments/assets/c6ebecab-4aa6-4536-9652-2d7c574f5a01)
 
@@ -306,11 +304,11 @@ I closed the Group Policy Management Editor
 
 📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-01`**  
 
-![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
+![Command Line Showing gpupdate Output for `AD-WIN11-01`](https://github.com/user-attachments/assets/5affdc1a-d60a-4d72-8052-e17b13836275)
 
 📸 **Command Line Showing `gpupdate` Output for `AD-WIN11-02`**  
 
-![Command Prompt Showing Successful gpupdate /force Output](https://github.com/user-attachments/assets/11e307c2-39f1-4990-95b9-ef3c41f5bb20)
+![Command Line Showing gpupdate Output for `AD-WIN11-02`](https://github.com/user-attachments/assets/53197679-b5f8-4292-8a37-599ca0e70bce)
 
 ---
 
@@ -326,17 +324,27 @@ I closed the Group Policy Management Editor
 
 📸 **Command Line Showing `gpresult` Output for `AD-WIN11-01`**  
 
-![gpresult /r](https://github.com/user-attachments/assets/63cea284-b4c9-4147-bbfe-4ca5dfd304a8)
+![Command Line Showing `gpresult` Output for `AD-WIN11-01`](https://github.com/user-attachments/assets/9abd79e0-dc44-4204-aa81-7b4a0a4cbafe)
+
+![Command Line Showing `gpresult` Output for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/88cac2fe-a1c7-41cd-b52d-6a96df62df7d)
 
 📸 **Command Line Showing `gpresult` Output for `AD-WIN11-02`**  
 
-![gpresult /r](https://github.com/user-attachments/assets/63cea284-b4c9-4147-bbfe-4ca5dfd304a8)
+![Command Line Showing `gpresult` Output for `AD-WIN11-02`](https://github.com/user-attachments/assets/da1a6dc5-4142-4dd2-8bec-0a6b62c828a8)
 
-📸 **Profile Settings Verification On Clients**
+![Command Line Showing `gpresult` Output for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/4123aae1-4826-4b7d-a9b2-89e8f77dfa80)
 
-![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration](https://github.com/user-attachments/assets/39749568-d626-44a0-80c0-9aad2a3fd6bd)
+📸 **Profile Settings Verification on Clients for `AD-WIN11-01`**
 
-![netsh advfirewall show allprofiles 1 Windows Firewall Conficuration 2](https://github.com/user-attachments/assets/fdc7bc4c-c3f1-4a01-8e38-dc59680d18c6)
+![Profile Settings Verification on Clients for `AD-WIN11-01`](https://github.com/user-attachments/assets/241da56e-4d70-4668-9458-a488fe20a3e6)
+
+![Profile Settings Verification on Clients for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/f1c34efd-99d2-406b-8dc4-84f5cfed6ef0)
+
+📸 **Profile Settings Verification on Clients for `AD-WIN11-02`**
+
+![Profile Settings Verification on Clients for `AD-WIN11-02`](https://github.com/user-attachments/assets/deeacba2-dec8-4b85-9d39-28bd5f631081)
+
+![Profile Settings Verification on Clients for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/918ab037-edfb-4db2-b921-035ef8f26ca3)
 
 📸 **Failed Ping to Domain for `AD-WIN11-01`**
 

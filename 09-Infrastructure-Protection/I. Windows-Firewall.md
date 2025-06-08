@@ -11,7 +11,7 @@ This document outlines how I configured **inbound and outbound firewall rules vi
 
 📸 **Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain**  
 
-![Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain](https://github.com/user-attachments/assets/e63af903-cdb8-4b00-8592-2b12e9eb9645)
+![Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain](https://github.com/user-attachments/assets/f3eb7bba-5e3e-4e5f-a9f0-8c4be833be03)
 
 ---
 

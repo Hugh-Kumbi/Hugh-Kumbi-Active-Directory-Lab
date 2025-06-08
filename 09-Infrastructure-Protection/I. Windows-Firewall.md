@@ -433,7 +433,7 @@ I closed the Group Policy Management Editor
 
 📸 **Event Viewer Logs for Firewall**
 
-![Event Viewer Logs for Firewall](https://github.com/user-attachments/assets/fbe59af8-3d8e-4fb0-bcd6-7c5278213823)
+![Event Viewer Logs for Firewall](https://github.com/user-attachments/assets/54777102-814f-46df-9b04-1f346d256dae)
 
 ---
 

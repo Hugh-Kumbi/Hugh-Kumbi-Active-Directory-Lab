@@ -23,8 +23,11 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ### 🌐 Allow DNS Rules
 
-   * __Ports:__ 53
+   * __Rule Type:__ Port
    * __Protocols:__ TCP and UDP (separate rules)
+   * __Ports:__ 53
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
    * __Names:__ Allow DNS TCP, Allow DNS UDP
    * __Description:__ Permits Domain Name System (DNS) resolution traffic over TCP to support name resolution services critical for Active Directory functionality. Port 53 TCP & Port 53 UDP.
 
@@ -192,58 +195,151 @@ I created multiple **inbound rules** for Active Directory communication services
 
 ![Inbound ICMP Echo Request (Ping) Rule Settings](https://github.com/user-attachments/assets/ae21c693-ddb4-4cfb-b3b7-584268ee11fd)
 
-
 ### 🖥️ Remote Desktop Protocol (RDP) Rule
 
-   * __Port:__ 3389
-   * __Protocol:__ TCP
-   * __Name:__ Allow RDP
-   * __Description:__ Allows Remote Desktop Protocol (RDP) connections to enable remote management and administration of servers and clients within the domain. Port 3389 TCP.
+   * __Rule Type:__ Predefined
+   * __Remote Desktop Rules:__ Remote Desktop - Shadow (TCP-In), Remote Desktop - User Mode (TCP-In), Remote Desktop - User Mode (UDP-In)
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Description:__ 
+     - Inbound rule for the Remote Desktop service to allow shadowing of an existing Remote Desktop session. (TCP-In)
+     - Inbound rule for the Remote Desktop service to allow RDP traffic. [TCP 3389]
+     - Inbound rule for the Remote Desktop service to allow RDP traffic. [UDP 3389]
 
 📸 **Inbound Remote Desktop Protocol (RDP) Rule Settings**
 
-![Inbound Remote Desktop Protocol (RDP) Rule Settings](https://github.com/user-attachments/assets/8f4ad6a9-8cde-498e-bbee-1ad85675cecb)
+![Inbound Remote Desktop - Shadow (TCP-in) Rule Settings](https://github.com/user-attachments/assets/e9036dc1-114f-4f9e-abcf-70e783eae956)
 
-### 🏢 MeiVault Systems Rule
+![Inbound Remote Desktop - UserMode(UDP-in) Rule Settings](https://github.com/user-attachments/assets/baf944bf-074d-4ba9-adc7-ed90997942b8)
 
-   * __Port:__ 80, 443
-   * __Protocol:__ TCP
-   * __Name:__ MeiVault Systems 
-   * __Description:__ An internal secure protocol which provides strong online security for online communication. Port 80, 443 TCP.
-
-📸 **Inbound MeiVault Systems Rule Settings**
-
-![Inbound MeiVault Systems Rule Settings](https://github.com/user-attachments/assets/189e747b-67c7-4628-a6e4-be2914bbddb9)
-
-### 🔬 Test Rule
-
-   * __Port:__ 8080
-   * __Protocol:__ TCP
-   * __Name:__ Test Rule - Allow TCP 8080
-   * __Description:__ Test rule for GPO troubleshooting. Port 8080.
-
-📸 **Inbound Test Rule Settings**
-
-![Inbound Test Rule Settings](https://github.com/user-attachments/assets/5bda4200-2b2d-40e7-b53d-9f3f23992e13)
+![Inbound Remote Desktop - UserMode(TCP-in) Rule Settings](https://github.com/user-attachments/assets/a184c0de-dabd-4fed-b9fd-25b7706c862d)
 
 ### 🛠️ Windows Remote Management (WinRM) Rule
 
-   * __Port:__ 5985
-   * __Protocol:__ TCP
-   * __Name:__ Allow WinRM
-   * __Description:__ Enables Windows Remote Management (WinRM) traffic for remote PowerShell sessions and administration tasks between domain computers. Ports 5985 (HTTP) and 5986 (HTTPS) TCP.
+   * __Rule Type:__ Predefined
+   * __Windows Remote Management Rules:__ Windows Remote Management (HTTP-In), Windows Remote Management (HTTP-In)
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Description:__ 
+     - Inbound rule for Windows Remote Management via WS-Management. [TCP 5985]
+     - Inbound rule for Windows Remote Management via WS-Management. [TCP 5985]
 
 📸 **Inbound Windows Remote Management (WinRM) Rule Settings**
 
-![Inbound Windows Remote Management (WinRM) Rule Settings](https://github.com/user-attachments/assets/97e7ea4f-14b0-4b40-8c0c-f544b8ccddb9)
+![Inbound Windows Remote Management (HTTP-in) Rule Settings](https://github.com/user-attachments/assets/72e07e3a-1114-49b5-95e8-b6cea4e473d3)
+
+![Inbound Windows Remote Management (HTTP-in) Rule Settings 1](https://github.com/user-attachments/assets/0acf6235-003b-427d-bd16-978b036e82c0)
+
+### 🔬 File and Printer Sharing Rule
+
+   * __Rule Type:__ Predefined
+   * __File and Printer Sharing Rule Rules:__ File and Printer Sharing (NB-Name-In), File and Printer Sharing (NB-Session-In), File and Printer Sharing (SMB-In)
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Description:__ 
+     - Inbound rule for File and Printer Sharing to allow NetBIOS Name Resolution. [UDP 137]
+     - Inbound rule for File and Printer Sharing to allow NetBIOS Session Service connections. [TCP 139]
+     - Inbound rule for File and Printer Sharing to allow Server Message Block transmission and reception via Named Pipes. [TCP 445]
+
+📸 **Inbound File and Printer Sharing Rule Settings**
+
+![Inbound File and Printer Sharing (NB-Name-In) Rule Settings](https://github.com/user-attachments/assets/ab99c65c-66ad-4390-8816-3e0fcc645335)
+
+![Inbound File and Printer Sharing (NB-Session-In) Rule Settings](https://github.com/user-attachments/assets/20a48a28-b465-4953-bf72-6becc5fb16c0)
+
+![Inbound File and Printer Sharing (SMB-In) Rule Settings](https://github.com/user-attachments/assets/0cd19b84-64dc-41f5-bcca-5b8605f5b41f)
 
 **Overview of all Newly Added Inbound Rules**
 
-![Overview of all Newly Added Inbound Rules](https://github.com/user-attachments/assets/21c4416a-2e4f-44c6-b122-6e2b9f8135a1)
+![Overview of all Newly Added Inbound Rules](https://github.com/user-attachments/assets/6ccae6f4-c0fc-49d5-9c41-fa7fe585b94b)
 
 ---
 
-### ⛔ 3. Custom Firewall Outbound Firewall Blocking Rules
+## 🔧 3. Outbound Firewall Rule Configuration
+
+I created multiple **inbound rules** for Active Directory communication services using:
+
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Outbound Rules`
+
+### 🌐 Allow DNS Queries Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP and UDP (separate rules)
+   * __Ports:__ 53
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow DNS Queries TCP, Allow DNS Queries UDP
+   * __Description:__ Allows outbound DNS queries over TCP and UDP.
+
+📸 **Outbound DNS Queries Rules Settings**
+
+![Outbound Allow DNS Queries TCP Rule Settings](https://github.com/user-attachments/assets/2d047173-6ed3-495b-9858-37aa58459643)
+
+![Outbound Allow DNS Queries UDP Rule Settings](https://github.com/user-attachments/assets/b299ed4d-8e5a-4bfd-8634-f6099cbce6b0)
+
+### 🌐 Allow LDAP Queries Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Ports:__ 389
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow LDAP Queries TCP
+   * __Description:__ Allows outbound LDAP queries.
+
+📸 **Outbound DNS Queries Rules Settings**
+
+![Outbound Allow DNS Queries TCP Rule Settings](https://github.com/user-attachments/assets/2d047173-6ed3-495b-9858-37aa58459643)
+
+![Outbound Allow DNS Queries UDP Rule Settings](https://github.com/user-attachments/assets/b299ed4d-8e5a-4bfd-8634-f6099cbce6b0)
+
+### 🌐 Allow Kerberos Authentication Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP and UDP (separate rules)
+   * __Ports:__ 88
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow Kerberos Auth TCP
+   * __Description:__ Allows outbound Kerberos authentication over TCP.
+
+📸 **Outbound Kerberos Authentication Rules Settings**
+
+![Outbound Allow Kerberos Auth TCP Rule Settings](https://github.com/user-attachments/assets/e3aa32c6-242e-413f-b54a-11ddd6e4924c)
+
+![Outbound Allow Kerberos Auth UDP Rule Settings](https://github.com/user-attachments/assets/2dd3c82b-fb17-4533-b193-417e30dbe824)
+
+### 🌐 Allow Windows Time Sync Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ UDP
+   * __Ports:__ 123
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow Windows Time Sync
+   * __Description:__ Allows outbound NTP time synchronization.
+
+📸 **Outbound Windows Time Sync Rules Settings**
+
+![Outbound Allow Windows Time Sync UDP Rule Settings](https://github.com/user-attachments/assets/5fd4db83-576c-44f5-8ad6-05fc638fdffe)
+
+### 🌐 Allow HTTP/HTTPS for Updates Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Ports:__ 80,443
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow HTTP/HTTPS
+   * __Description:__ Allows outbound HTTP/HTTPS for updates and web access.
+
+📸 **Outbound HTTP/HTTPS for Updates Rules Settings**
+
+![Outbound Allow HTTP-HTTPS TCP Rule Settings](https://github.com/user-attachments/assets/5d53a004-f7b5-47ba-a839-d4bf95ccde4e)
+
+---
+
+### ⛔ 4. Custom Firewall Outbound Firewall Blocking Rules
 
 To enhance security, I created outbound rules to block potentially unsafe or legacy protocols.
   
@@ -253,123 +349,79 @@ To enhance security, I created outbound rules to block potentially unsafe or leg
 
    * __Rule Type:__ Port
    * __Protocol:__ UDP
-   * __Port:__ 69
+   * __Remote Port:__ 69
    * __Action:__ Block the connection
-   * __Profiles:__ Domain, Private, Public
-   * __Name:__ Block TFTP
-   * __Description:__ Blocks Trivial File Transfer Protocol (TFTP) traffic which uses unencrypted communications that could expose sensitive data. Port 69 UDP.
+   * __Profiles:__ All (Domain, Private, Public)
+   * __Name:__ Block TFTP UDP
+   * __Description:__ Blocks insecure TFTP connections.
 
 📸 **Custom Outbound Block TFTP Rule Settings**
 
-![Custom Outbound Block TFTP Rule Settings](https://github.com/user-attachments/assets/f8cfbbc6-19e8-4c18-a869-9fb2f64d332c)
+![Outbound Block TFTP UDP Rule Settings](https://github.com/user-attachments/assets/a1bb5e1c-20b9-48d6-a221-56886592b5b3)
 
 ### 🚫 Block Telnet
 
    * __Rule Type:__ Port
    * __Protocol:__ TCP
-   * __Port:__ 23
+   * __Remote Port:__ 23
    * __Action:__ Block the connection
-   * __Profiles:__ Domain, Private, Public
-   * __Name:__ Block Telnet
-   * __Description:__ Blocks legacy Telnet protocol which transmits data in plaintext, creating security vulnerabilities through potential credential exposure. Port 23 TCP.
+   * __Profiles:__ All (Domain, Private, Public)
+   * __Name:__ Block Telnet TCP
+   * __Description:__ Blocks insecure Telnet connections.
 
 📸 **Custom Outbound Block Telnet Rule Settings**
 
-![Custom Outbound Block Telnet Rule Settings](https://github.com/user-attachments/assets/95c9a4f9-c6c4-4b7f-989b-14c56dbf8173)
+![Outbound Block Telnet TCP Rule Settings](https://github.com/user-attachments/assets/9c51d6e8-f23c-488c-97db-af6af5d18793)
 
 ### 🚫 Block Unencrypted FTP
 
    * __Rule Type:__ Port
    * __Protocol:__ TCP
-   * __Port:__ 21
+   * __Remote Port:__ 21
    * __Action:__ Block the connection
-   * __Profiles:__ Domain, Private, Public
-   * __Name:__ Block Unencrypted FTP
+   * __Profiles:__ All (Domain, Private, Public)
+   * __Name:__ Block Unencrypted FTP TCP
    * __Description:__ Blocks standard File Transfer Protocol (FTP) connections that transmit credentials and data without encryption, posing significant security risks. Port 21 TCP.
 
 📸 **Custom Outbound Block Unencrypted FTP Rule Settings**
 
-![Custom Outbound Block Unencrypted FTP Rule Settings](https://github.com/user-attachments/assets/5d12a6ac-606f-4c6b-9d22-761dcfc8c32a)
+![Outbound Block Unencrypted FTP TCP Rule Settings](https://github.com/user-attachments/assets/f3cda28e-a856-4787-95f8-dc9d9bb5824d)
 
-### 🚫 Block SMBv1
+### 🚫 Block NetBIOS
 
-   * __Rule Type:__ Custom
-   * __Protocol:__ TCP
-   * __Remote Port:__ 445
-   * __Service Name:__ LanmanServer
+   * __Rule Type:__ Port
+   * __Protocol:__ TCP and UDP (separate rules)
+   * __Remote Port:__ 137,138,139
    * __Action:__ Block the connection
-   * __Profiles:__ Domain, Private, Public
-   * __Name:__ Block SMBv1
-   * __Description:__ Blocks Server Message Block version 1 (SMBv1) protocol traffic due to known security vulnerabilities including EternalBlue exploits. Legacy protocol that should be disabled in secure environments.
+   * __Profiles:__ All (Domain, Private, Public)
+   * __Name:__ Block NetBIOS TCP, Block NetBIOS UDP
+   * __Description:__ 
+     - Blocks insecure NetBIOS over TCP
+     - Blocks insecure NetBIOS over UDP
 
-📸 **Custom Outbound Block SMBv1 Rule Settings**
+📸 **Custom Outbound Block NetBIOS Rule Settings**
 
-![Custom Outbound Block SMBv1 Rule Settings](https://github.com/user-attachments/assets/f5465f91-2ef0-4bc7-9a39-f00a9e18f49d)
+![Outbound Block NetBIOS TCP Rule Settings](https://github.com/user-attachments/assets/5c883636-c14f-4e1d-946c-ada330167923)
 
-### 🚫 Block Printer Sharing
+![Outbound Block NetBIOS UDP Rule Settings](https://github.com/user-attachments/assets/bd7eecab-5ac6-4b71-b79b-42beaa61fdf5)
 
-   * __Rule Type:__ Predefined
+### 🚫 Block LLMNR
+
+   * __Rule Type:__ Port
+   * __Protocol:__ UDP
+   * __Remote Port:__ 5355
+   * __Action:__ Block the connection
    * __Profile:__ All (Domain, Private, Public)
-   * __Predefined Set:__ File and Printer Sharing
-   * __Action:__ Block the connection
-   * __Name:__ Block Printer Sharing
-   * __Description:__ Blocks printer sharing protocols that could be leveraged for unauthorized access or privilege escalation attacks in domain environments. Ports 515 TCP (LPR), 631 TCP/UDP (IPP).
+   * __Name:__ Block LLMNR UDP
+   * __Description:__ Blocks Link-Local Multicast Name Resolution.
 
-📸 **Custom Outbound Block Printer Sharing Rule Settings**
+📸 **Custom Outbound Block LLMNR Rule Settings**
 
-📸 **File and Printer Sharing (SMB-Out) TCP**
-
-![File and Printer Sharing (SMB-Out) TCP](https://github.com/user-attachments/assets/1c70110f-2c57-45ac-946c-522c79c011c3)
-
-📸 **File and Printer Sharing (NB-Session-Out) TCP**
-
-![File and Printer Sharing (NB-Session-Out) TCP](https://github.com/user-attachments/assets/dbd5f3dd-e6ff-4acd-8d15-87ebc7025611)
-
-📸 **File and Printer Sharing (NB-Name-Out) UDP**
-
-![File and Printer Sharing (NB-Name-Out) UDP](https://github.com/user-attachments/assets/21488d00-c328-4431-92ca-4696a68f4ae6)
-
-📸 **File and Printer Sharing (NB-Datagram-Out) UDP**
-
-![File and Printer Sharing (NB-Datagram-Out) UDP](https://github.com/user-attachments/assets/54c98a48-d1b2-4621-bf3c-63a033fa560e)
-
-📸 **File and Printer Sharing (LLMNR-UDP-Out)**
-
-![File and Printer Sharing (LLMNR-UDP-Out)](https://github.com/user-attachments/assets/57703a5a-a9f6-4942-9771-2ea22af5fedf)
-
-📸 **File and Printer Sharing (Echo Request - ICMPv6-Out) TCP**
-
-![File and Printer Sharing (Echo Request - ICMPv6-Out) TCP](https://github.com/user-attachments/assets/db985adb-88db-4558-a155-2169665a7648)
-
-📸 **File and Printer Sharing (Echo Request - ICMPv4-Out) TCP**
-
-![File and Printer Sharing (Echo Request - ICMPv4-Out) TCP](https://github.com/user-attachments/assets/2a56574b-9f86-4437-9fe0-c658c7bed502)
-
-### 🛡️ Additional Security Rules
-
-📸 __Block NetBIOS:__
-  * Blocks outbound TCP ports 137–139
-
-![Block NetBIOS TCP Properties Window](https://github.com/user-attachments/assets/890f9127-f025-46a4-8198-1e23528d7885)
-
-📸 __Block NetBIOS:__
-  * Blocks outbound UDP ports 137–139
-
-![Block NetBIOS UDP Properties Window](https://github.com/user-attachments/assets/cf23baf5-debf-4197-be2e-d941426c89d3)
-
-📸 __Block LLMNR:__
-  * Blocks outbound UDP port 5355
-
-![Block LLMNR Properties Window](https://github.com/user-attachments/assets/f3b47627-e097-4d79-b2d6-b26b187c7f4b)
-
-📸 __Block mDNS:__ 
-  * Blocks outbound UDP port 5353
-
-![Block mDNS Properties Window](https://github.com/user-attachments/assets/c75d47b6-cd07-4919-abdc-676c7c154768)
+![Outbound Block LLMNR UDP Rule Settings](https://github.com/user-attachments/assets/a87c3fc7-6abf-462e-bd6f-d3ed2edee790)
 
 📸 **Overview of all Newly Added Outbound Rules**
 
-![Overview of all Newly Added Outbound Rules](https://github.com/user-attachments/assets/454cf635-3645-417f-afe1-b2f250fd8398)
+![Overview of all Newly Added Outbound Rules](https://github.com/user-attachments/assets/811c16d4-4549-4927-97a8-2580c31b1998)
 
 ---
 

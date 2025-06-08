@@ -366,6 +366,56 @@ I closed the Group Policy Management Editor
 
 ![Successful Ping to Domain for `AD-WIN11-02`](https://github.com/user-attachments/assets/e8c23ea9-c478-4670-a89d-e252d41fa761)
 
+📸 **Successful Ping to `AD-WIN11-01` & `AD-WIN11-02` from Domain `WinServer2025`**
+
+![Successful Ping to Domain for `WinServer2025`](https://github.com/user-attachments/assets/fa2887f0-2573-4a2d-b0d8-9c6cb78c57e2)
+
+![Successful Ping to Domain for `WinServer2025` 1](https://github.com/user-attachments/assets/81f9282a-346b-4a71-a736-23d9ff5cc2eb)
+
+📸 **Active Directory Services Testing and Validating for `AD-WIN11-01`**
+
+![Active Directory Services Testing and Validating for `AD-WIN11-01`](https://github.com/user-attachments/assets/15080997-c499-402c-9650-7bb148545ef2)
+
+![Active Directory Services Testing and Validating for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/a2381206-59c8-429e-9994-3bace49b1d4a)
+
+![Active Directory Services Testing and Validating for `AD-WIN11-01` 2](https://github.com/user-attachments/assets/6444a49b-658e-4654-9e9e-2b4d96a6e673)
+
+📸 **Active Directory Services Testing and Validating for `AD-WIN11-02`**
+
+![Active Directory Services Testing and Validating for `AD-WIN11-02`](https://github.com/user-attachments/assets/da9b6b7b-e2bb-499a-830e-072135f6d4a3)
+
+![Active Directory Services Testing and Validating for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/02f553bc-a5e2-40cc-bfac-d8241e3d856b)
+
+![Active Directory Services Testing and Validating for `AD-WIN11-02` 2](https://github.com/user-attachments/assets/a9bcf3af-d8d5-47ab-9a6d-bc59ea93ca81)
+
+📸 **Authentication and File Sharing Testing and Validating for `AD-WIN11-01`**
+
+![Authentication and File Sharing Testing and Validating for `AD-WIN11-01`](https://github.com/user-attachments/assets/abd49a5c-677b-408f-a2e7-783341755ad8)
+
+📸 **Authentication and File Sharing Testing and Validating for `AD-WIN11-02`**
+
+![Authentication and File Sharing Testing and Validating for `AD-WIN11-02`](https://github.com/user-attachments/assets/69dd3e0e-e6da-477a-8348-4b085dc9d574)
+
+📸 **Remote Management Testing and Validation for `AD-WIN11-01`**
+
+![Remote Management Testing and Validation for `AD-WIN11-01`](https://github.com/user-attachments/assets/eedcaa72-dae3-46f4-b9b5-172703ad25cf)
+
+![Remote Management Testing and Validation for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/c3801130-9209-48d4-8e86-d062b60baf9b)
+
+![Remote Management Testing and Validation for `AD-WIN11-01` 2](https://github.com/user-attachments/assets/bbb72288-cdc7-443b-9e34-df9a716a77a2)
+
+![Remote Management Testing and Validation for `AD-WIN11-01` 3](https://github.com/user-attachments/assets/30a270e6-8094-41e8-b468-87c3f9ddd7b4)
+
+📸 **Remote Management Testing and Validation for `AD-WIN11-02`**
+
+![Remote Management Testing and Validation for `AD-WIN11-02`](https://github.com/user-attachments/assets/207fb7ad-73ce-4d77-96aa-6eb166aa1274)
+
+![Remote Management Testing and Validation for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/081a80a7-d435-404e-9583-48c7cef729fd)
+
+![Remote Management Testing and Validation for `AD-WIN11-02` 2](https://github.com/user-attachments/assets/d3968c36-7b6b-4a38-9b7a-46cf644e7035)
+
+![Remote Management Testing and Validation for `AD-WIN11-02` 4](https://github.com/user-attachments/assets/a7fbbd2c-a87d-4abd-af50-4cd4dd48409c)
+
 ---
 
 ## 🛠️ 6. Troubleshooting Tips

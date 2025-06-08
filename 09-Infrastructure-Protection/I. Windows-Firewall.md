@@ -404,7 +404,7 @@ I closed the Group Policy Management Editor
 
 ![Remote Management Testing and Validation for `AD-WIN11-01` 2](https://github.com/user-attachments/assets/bbb72288-cdc7-443b-9e34-df9a716a77a2)
 
-![Remote Management Testing and Validation for `AD-WIN11-01` 3](https://github.com/user-attachments/assets/30a270e6-8094-41e8-b468-87c3f9ddd7b4)
+![Remote Management Testing and Validation for `AD-WIN11-01` 3](https://github.com/user-attachments/assets/1a626645-6097-4d23-ba72-ffd19a50a543)
 
 📸 **Remote Management Testing and Validation for `AD-WIN11-02`**
 
@@ -427,9 +427,13 @@ I closed the Group Policy Management Editor
   `netsh advfirewall monitor show firewall rule name=all`
 - To see all applied firewall rules and check for any misconfiguration
 
-📸 **Resultant Windows Firewall Settings Policy Results**
+📸 **Resultant Windows Firewall Settings Policy Results for `AD-WIN11-01`**
 
-![Resultant Windows Firewall Settings Policy](https://github.com/user-attachments/assets/62db8287-fd22-4fef-9159-6f3d8485f02f)
+![Resultant Windows Firewall Settings Policy Results for `AD-WIN11-01`](https://github.com/user-attachments/assets/793ac904-255e-4af5-9bb1-aea6c297f9b6)
+
+📸 **Resultant Windows Firewall Settings Policy Results for `AD-WIN11-02`**
+
+![Resultant Windows Firewall Settings Policy Results for `AD-WIN11-02`](https://github.com/user-attachments/assets/0b3b9785-36ea-4ec7-8fe9-2540f120732d)
 
 📸 **Event Viewer Logs for Firewall**
 

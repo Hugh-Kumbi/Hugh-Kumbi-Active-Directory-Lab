@@ -21,7 +21,7 @@ In this section, I implemented secure network communication policies across all 
 
 ![Verifying Effective Policy Settings using `secpol msc` on `AD-WIN11-01` 3](https://github.com/user-attachments/assets/ec054495-2364-4dde-b122-8189493572ae)
 
-📸 **Network Security Configuration Compiled on `AD-WIN11-01`**  
+📸 **Network Security Configuration Compiled on `AD-WIN11-02`**  
 
 ![Verifying Effective Policy Settings using `secpol msc` on `AD-WIN11-02` 1](https://github.com/user-attachments/assets/41967b35-0b34-4e58-bd86-6c87a6b1d244)
 

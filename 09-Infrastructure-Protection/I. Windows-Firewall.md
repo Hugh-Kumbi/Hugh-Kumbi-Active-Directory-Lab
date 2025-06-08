@@ -7,7 +7,7 @@ This document outlines how I configured **inbound and outbound firewall rules vi
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Windows Firewall Settings Policy  
-- **Linked To:** Domain
+- **Linked To:** hughdomain.local (domain root)
 
 📸 **Group Policy Management Console Showing the Windows Firewall Settings Policy Linked to Domain**  
 
@@ -21,45 +21,7 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security > Inbound Rules`
 
-### 🔐 LDAP Rule
-
-   * __Rule Type:__ Port
-   * __Protocol:__ TCP
-   * __Port:__ 389
-   * __Action:__ Allow the connection
-   * __Profile:__ Domain only
-   * __Name:__ Allow LDAP
-   * __Description:__ Allows LDAP communications for Active Directory
-
-📸 **Inbound LDAP Rule Settings**
-
-![Inbound LDAP Rule Settings](https://github.com/user-attachments/assets/b2489ba8-1172-46ff-b195-b51ebc54062b)
-
-### 📁 SMB Communication Rule
-
-   * __Port:__ 445
-   * __Protocol:__ TCP
-   * __Name:__ Allow SMB
-   * __Description:__ Allows Server Message Block (SMB) protocol traffic for file and printer sharing between domain-joined computers, including access to shared folders and resources. Port 445 TCP.
-
-📸 **Inbound SMB Communication Rule Settings**
-
-![Inbound SMB Communication Rule Settings](https://github.com/user-attachments/assets/a1188d13-7aa1-41b4-8697-04b551afae1a)
-
-### 🔐 Kerberos Authentication Rules
-
-   * __Ports:__ 88
-   * __Protocols:__ TCP and UDP (separate rules)
-   * __Names:__ Allow Kerberos TCP, Allow Kerberos UDP
-   * __Description:__ Enables Kerberos authentication protocol traffic over TCP for secure domain authentication and single sign-on functionality. Port 88 TCP & Port 88 UDP.
-
-📸 **Inbound Kerberos Authentication Rules Settings**
-
-![Inbound Kerberos TCP Authentication Rules Settings](https://github.com/user-attachments/assets/6375a3fe-e3d5-478d-80e5-ed5deabaaeb1)
-
-![Inbound Kerberos UDP Authentication Rules Settings](https://github.com/user-attachments/assets/bf0b64c6-10f4-4142-95fb-18f7690b2335)
-
-### 🌐 DNS Rules
+### 🌐 Allow DNS Rules
 
    * __Ports:__ 53
    * __Protocols:__ TCP and UDP (separate rules)
@@ -68,9 +30,168 @@ I created multiple **inbound rules** for Active Directory communication services
 
 📸 **Inbound DNS Rules Settings**
 
-![Inbound DNS TCP Rules Settings](https://github.com/user-attachments/assets/b8a43db4-1620-4e03-9029-f9da23be516e)
+![Inbound DNS Allow DNS TCP Rule Settings](https://github.com/user-attachments/assets/e6805d24-96db-45f3-b3ee-9879033e3273)
 
-![Inbound DNS UDP Rules Settings](https://github.com/user-attachments/assets/529be861-a6d4-4da0-86c1-f7dbe0efca4a)
+![Inbound DNS Allow DNS UDP Rule Settings](https://github.com/user-attachments/assets/89701866-d1b3-4e5c-8f4b-64e28df1668c)
+
+### 🔐 Allow LDAP Rule
+
+   * __Rule Type:__ Port
+   * __Protocol:__ TCP
+   * __Port:__ 389
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow LDAP TCP
+   * __Description:__ Allows LDAP authentication for Active Directory
+
+📸 **Inbound LDAP Rule Settings**
+
+![Inbound LDAP TCP Rule Settings](https://github.com/user-attachments/assets/0f563d4c-c28c-46c5-ad45-c18c465333cc)
+
+### 🔐 Allow LDAP SSL Rule
+
+   * __Rule Type:__ Port
+   * __Protocol:__ TCP
+   * __Port:__ 636
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow LDAP SSL TCP
+   * __Description:__ Allows secure LDAP authentication
+
+📸 **Inbound LDAP SSL Rule Settings**
+
+![Inbound LDAP SSL TCP Rule Settings](https://github.com/user-attachments/assets/04937554-9c6f-4d33-8a1d-f2c605a02c67)
+
+### 🔐 Allow Global Catalog Rule
+
+   * __Rule Type:__ Port
+   * __Protocol:__ TCP
+   * __Port:__ 3268
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow Global Catalog TCP
+   * __Description:__ Allows Global Catalog queries
+
+📸 **Inbound Global Catalog Rule Settings**
+
+![Inbound Global Catalog Rule Settings](https://github.com/user-attachments/assets/ffdf9d9a-bc23-4705-a13e-d28adaba2ca5)
+
+### 🔐 Allow Global Catalog SSL Rule
+
+   * __Rule Type:__ Port
+   * __Protocol:__ TCP
+   * __Port:__ 3269
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow Global Catalog SSL TCP
+   * __Description:__ Allows secure Global Catalog queries
+
+📸 **Inbound LDAP Rule Settings**
+
+![Inbound Global Catalog SSL TCP Rule Settings](https://github.com/user-attachments/assets/323ad0ed-481a-42f0-b229-4035aa775f7e)
+
+### 🔐 Allow Kerberos Authentication Rules
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP and UDP (separate rules)
+   * __Ports:__ 88
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow Kerberos TCP, Allow Kerberos UDP
+   * __Description:__ Allows Kerberos authentication over TCP and UDP. Port 88 TCP & Port 88 UDP.
+
+📸 **Inbound Kerberos Authentication Rules Settings**
+
+![Inbound Kerberos TCP Rule Settings](https://github.com/user-attachments/assets/17c43258-a386-495f-b62b-ae34556b7a5c)
+
+![Inbound Kerberos UDP Rule Settings](https://github.com/user-attachments/assets/182933c2-4ae8-4eb6-870f-e5eaf6143434)
+
+### 🔐 Allow Kerberos Password Change
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Ports:__ 464
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Names:__ Allow Kerberos Password Change TCP
+   * __Description:__ Allows Kerberos password changes.
+
+📸 **Inbound Kerberos Password Change Rules Settings**
+
+![Inbound Kerberos Password Change TCP Rule Settings](https://github.com/user-attachments/assets/e9056a05-9cb9-4b73-9c59-d42fe3272674)
+
+### 📁 Allow SMB (File Sharing) Rule
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Port:__ 445
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow SMB TCP
+   * __Description:__ Allows SMB (File Sharing).
+
+📸 **Inbound SMB Communication Rule Settings**
+
+![Inbound SMB File Sharing TCP Rule Settings](https://github.com/user-attachments/assets/c4e72430-a6af-4bca-83f6-b413eaaec89f)
+
+### 📁 Allow RPC Endpoint Mapper Rule
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Port:__ 135
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow RPC Endpoint Mapper TCP
+   * __Description:__ Allows RPC endpoint mapping for Windows Services.
+
+📸 **Inbound RPC Endpoint Mapper Rule Settings**
+
+![Inbound RPC Endpoint Mapper TCP Rule Settings](https://github.com/user-attachments/assets/48a4ac03-b84a-433e-a17f-18481204bceb)
+
+### 📁 Allow RPC Dynamic Ports Rule
+
+   * __Rule Type:__ Port
+   * __Protocols:__ TCP
+   * __Port:__ 1024-5000
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow RPC Dynamic Ports
+   * __Description:__ Allows RPC dynamic port range for Windows services.
+
+📸 **Inbound RPC Dynamic Ports Rule Settings**
+
+![Inbound RPC Dynamic Ports TCP Rule Settings](https://github.com/user-attachments/assets/2cb35591-0534-441f-94ba-f26e6e92dddb)
+
+### 📁 Allow Windows Time Service Rule
+
+   * __Rule Type:__ Port
+   * __Protocols:__ UDP
+   * __Port:__ 123
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow Windows Time Service UDP
+   * __Description:__ Allows NTP time synchronization.
+
+📸 **Inbound Windows Time Service Rule Settings**
+
+![Inbound Windows Time Service TCP Rule Settings](https://github.com/user-attachments/assets/226a3b7d-d3a9-4137-9a43-8bf2c9b9585d)
+
+### 📁 Allow ICMP Echo Request (Ping) Rule
+
+   * __Rule Type:__ Custom
+   * __Protocols:__ ICMPv4
+   * __Programs:__ All programs
+   * __ICMP settings:__ Specific ICMP types — Echo Request
+   * __Scope:__ Any IP address 
+   * __Action:__ Allow the connection
+   * __Profile:__ Domain only
+   * __Name:__ Allow ICMP Echo Request (Ping)
+   * __Description:__ Allows ping requests for network troubleshooting.
+
+📸 **Inbound ICMP Echo Request Rule Settings**
+
+![Inbound ICMP Echo Request (Ping) Rule Settings](https://github.com/user-attachments/assets/ae21c693-ddb4-4cfb-b3b7-584268ee11fd)
+
 
 ### 🖥️ Remote Desktop Protocol (RDP) Rule
 

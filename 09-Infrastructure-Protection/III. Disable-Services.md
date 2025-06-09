@@ -11,7 +11,7 @@ Reducing the attack surface of domain-joined machines is essential for a secure 
 
 📸 **Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Employees OU** 
 
-![Disabling Unnecessary Windows Services Link to IT Computers](https://github.com/user-attachments/assets/9526c670-6208-4f8f-b9e4-6c40b324f116)
+![Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Employees OU](https://github.com/user-attachments/assets/92e94f62-b041-4fcc-86f6-eed42494c319)
 
 📸 **Disabling Unnecessary Windows Services Policy GPO Editor Open On The Service Configuration Node**
 

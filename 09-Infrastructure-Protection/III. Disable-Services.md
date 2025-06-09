@@ -7,9 +7,9 @@ Reducing the attack surface of domain-joined machines is essential for a secure 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Disabling Unnecessary Windows Services Policy  
-- **Linked To:** Employees OU
+- **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Employees OU** 
+📸 **Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Domain** 
 
 ![Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Employees OU](https://github.com/user-attachments/assets/92e94f62-b041-4fcc-86f6-eed42494c319)
 

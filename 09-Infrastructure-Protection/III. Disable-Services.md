@@ -166,74 +166,83 @@ I disabled the following services using Group Policy Preferences:
 
 📸 **Services Console Showing Print Spooler Settings on `AD-WIN11-01`**
 
-![Print Spooler msc](https://github.com/user-attachments/assets/7ad8af5c-f501-4b50-ab6c-1fe231371d1f)
+![Services Console Showing Print Spooler Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/9483b4f2-ea1c-4fe2-bf68-f2f0be760bf1)
 
 📸 **Services Console Showing Print Spooler Settings on `AD-WIN11-02`**
 
+![Services Console Showing Print Spooler Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/06d0d887-eeb9-41e1-9dc4-d9ac6122a471)
 
 📸 **Services Console Showing RemoteRegistry Settings on `AD-WIN11-01`**
 
-![RemoteRegistry msc](https://github.com/user-attachments/assets/81ba4908-49bc-4c1e-99c0-8d6ad8478739)
+![Services Console Showing RemoteRegistry Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/29386e6e-ee0b-4a71-8578-d697d093c194)
 
 📸 **Services Console Showing RemoteRegistry Settings on `AD-WIN11-02`**
 
-
-📸 **Services Console Showing SNMP Settings on `AD-WIN11-01`**
-
-![SNMP msc](https://github.com/user-attachments/assets/2c1d45cf-e04f-46db-b264-299f3bdaa937)
-
-📸 **Services Console Showing SNMP Settings on `AD-WIN11-02`**
-
+![Services Console Showing RemoteRegistry Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/e5d5aee1-8638-4337-8150-835ae52a6614)
 
 📸 **Services Console Showing Secondary Logon Settings on `AD-WIN11-01`**
 
-![Secondary Logon msc](https://github.com/user-attachments/assets/040ae3c8-3664-432e-93c8-7c5fc9ea52a8)
+![Services Console Showing Secondary Logon Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/cc711369-7376-4d91-bdf0-db593b53675f)
 
 📸 **Services Console Showing Secondary Logon Settings on `AD-WIN11-02`**
 
+![Services Console Showing Secondary Logon Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/6cc307cb-7512-406b-a213-cc2dd5792e76)
+
+📸 **Services Console Showing SNMP Settings on `AD-WIN11-01`**
+
+![Services Console Showing SNMP Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/8d2bf2cf-55e4-44a2-8608-f84501d29869)
+
+📸 **Services Console Showing SNMP Settings on `AD-WIN11-02`**
+
+![Services Console Showing SNMP Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/2f570aa6-0891-4e66-b7de-681874bc605f)
 
 📸 **Services Console Showing Windows Error Reporting Settings on `AD-WIN11-01`**
 
-![Windows Error Reporting msc](https://github.com/user-attachments/assets/eed89852-c495-4f6d-9119-cae2be90b632)
+![Services Console Showing Windows Error Reporting Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/20a6ac90-c593-42f8-bc0f-d382cd3b5146)
 
 📸 **Services Console Showing Windows Error Reporting Settings on `AD-WIN11-02`**
 
+![Services Console Showing Windows Error Reporting Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/ccb9c651-fbe2-4123-b61f-49cbdf47372e)
 
 📸 **Services Console Showing Windows Insider Service Settings on `AD-WIN11-01`**
 
-![Windows Insider Service msc](https://github.com/user-attachments/assets/7d33f912-e1f9-4087-a998-e17b76f381dd)
+![Services Console Showing Windows Insider Service Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/5e1db333-ed98-484e-860b-1ee091373d60)
 
 📸 **Services Console Showing Windows Insider Service Settings on `AD-WIN11-02`**
 
+![Services Console Showing Windows Insider Service Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/694f883e-642d-41f9-88ba-649985578bd4)
 
 📸 **Services Console Showing Windows Media Player Network Sharing Service Settings on `AD-WIN11-01`**
 
-![Windows Media Player Network Sharing Service msc](https://github.com/user-attachments/assets/ea1cf24f-1dc5-48c3-aeab-36f7d76c5246)
+![Services Console Showing Windows Media Player Network Sharing Service Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/4467ac4b-a911-4548-ace0-4e8f08af6544)
 
 📸 **Services Console Showing Windows Media Player Network Sharing Service Settings on `AD-WIN11-02`**
 
+![Services Console Showing Windows Media Player Network Sharing Service Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/28545b16-7646-4ba2-8602-b56289b7230d)
 
 📸 **Services Console Showing Windows Search Settings on `AD-WIN11-01`**
 
-![Windows Search msc](https://github.com/user-attachments/assets/320df70d-9d0d-48b3-b665-4e1112da5817)
+![Services Console Showing Windows Search Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/07a20575-fed5-46d9-8a5c-f1dbc6136e01)
 
 📸 **Services Console Showing Windows Search Settings on `AD-WIN11-02`**
 
+![Services Console Showing Windows Search Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/7e1afc86-9c56-48b8-9e68-85f54b1bb883)
 
 📸 **Services Console Showing Windows Update Settings on `AD-WIN11-01`**
 
-![Windows Update msc](https://github.com/user-attachments/assets/a4075b8f-ab10-4ffe-b508-9d2c03c1546a)
+![Services Console Showing Windows Update Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/70f651b8-1c10-4816-9b66-562989c42040)
 
 📸 **Services Console Showing Windows Update Settings on `AD-WIN11-02`**
 
+![Services Console Showing Windows Update Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/ec731883-3c33-4451-ac11-44e745852c39)
 
 📸 **Services Console Showing Xbox Services Settings on `AD-WIN11-01`**
 
-![Xbox msc](https://github.com/user-attachments/assets/9e262fd8-2939-41d5-a88a-1e25ac7515cd)
+![Services Console Showing Xbox Services Settings on `AD-WIN11-01`](https://github.com/user-attachments/assets/2e5030cc-ba9a-4c4e-b2a1-fd93b686b291)
 
 📸 **Services Console Showing Xbox Services Settings on `AD-WIN11-02`**
 
-
+![Services Console Showing Xbox Services Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/09b277cc-28ed-4cbe-a526-ae7568fad5a2)
 
 ---
 

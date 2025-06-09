@@ -6,10 +6,10 @@ Reducing the attack surface of domain-joined machines is essential for a secure 
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** Service Configuration Policy  
-- **Linked To:** IT Computers OU
+- **GPO Name:** Disabling Unnecessary Windows Services Policy  
+- **Linked To:** Employees OU
 
-📸 **Disabled Unnecessary Services Policy Linked to IT Computers OU** 
+📸 **Group Policy Management Console Showing the Disabled Unnecessary Services Policy Linked to Employees OU** 
 
 ![Disabling Unnecessary Windows Services Link to IT Computers](https://github.com/user-attachments/assets/9526c670-6208-4f8f-b9e4-6c40b324f116)
 

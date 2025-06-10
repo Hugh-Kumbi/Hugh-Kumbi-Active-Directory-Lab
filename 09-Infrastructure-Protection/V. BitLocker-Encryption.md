@@ -6,12 +6,12 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** BitLocker Policy  
-- **Linked To:** IT Computers
+- **GPO Name:** BitLocker Encryption Policy  
+- **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console showing the BitLocker GPO linked to IT Computers**  
+📸 **Group Policy Management Console showing the BitLocker Encryption Policy linked to Domain**  
 
-![Group Policy Management Console showing the BitLocker GPO linked to IT Computers](https://github.com/user-attachments/assets/4e6d8b3c-270a-42cb-9a57-6b3736a8147b)
+![Group Policy Management Console showing the BitLocker Encryption Policy linked to Domain](https://github.com/user-attachments/assets/5b215626-ebe6-4c08-865e-f1ea05014f33)
 
 ---
 
@@ -33,7 +33,7 @@ In the GPO, I navigated to:
 
 📸 **Additional Authentication at Startup For Operating System Drives Overview** 
 
-![BitLocker Drive Encryption Policies for Operating System Drives](https://github.com/user-attachments/assets/fbed651b-51f5-47b3-b452-ca364c48e123)
+![Additional Authentication at Startup For Operating System Drives Overview](https://github.com/user-attachments/assets/1db8d4ef-527f-4610-af4b-36280c02aba0)
 
 - **Enable use of BitLocker authentication requiring preboot keyboard input on slates:** Enabled
 - **Configure minimum PIN length for startup:** Enabled
@@ -45,7 +45,7 @@ In the GPO, I navigated to:
 
 📸 **BitLocker-Protected Operating System Drives Settings** 
 
-![BitLocker Drive Encryption Policies for Operating System Drives 2](https://github.com/user-attachments/assets/6252125b-12bf-40c5-80e9-2766931ca8bd)
+![BitLocker-Protected Operating System Drives Settings](https://github.com/user-attachments/assets/3e8c922a-636c-4a01-b647-290dacb5033e)
 
 📸 **BitLocker Drive Encryption Method and Cipher Strength**
 

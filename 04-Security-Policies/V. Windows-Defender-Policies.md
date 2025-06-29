@@ -6,7 +6,7 @@ This section describes the **Windows Defender Policies** implemented via Group P
 
 ## 📛 1. GPO Name
 
-- **GPO Name:** Windows Defender
+- **GPO Name:** Windows Defender Policy
 - **Linked To:** hughdomain.local (domain root)
 
 This policy is configured using the **Group Policy Management Console (GPMC)** and applied at the domain level for all domain-joined computers.

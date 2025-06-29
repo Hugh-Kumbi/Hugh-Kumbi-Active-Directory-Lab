@@ -21,7 +21,7 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 Configured under:
 
-📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Defender Antivirus`
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 | Setting                                                 | Value                |
 |---------------------------------------------------------|----------------------|

@@ -37,7 +37,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | GPO Name                                        | Linked To           | Purpose                                                                 |
 |-------------------------------------------------|---------------------|-------------------------------------------------------------------------|
 | BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| Block VLC - Policy                              | Tech OU             | Prevent the use of unauthorized media applications                      |
+| Block VLC Media Player - AppLocker              | Tech OU             | Prevent the use of unauthorized media applications                      |
 | Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security           |
 | Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                             |
 | Default Domain Controller Policy                | Domain Controllers  | Strengthen authentication to mitigate brute-force attacks               |

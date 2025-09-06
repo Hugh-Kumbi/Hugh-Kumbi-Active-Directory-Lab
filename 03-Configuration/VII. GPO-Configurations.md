@@ -9,23 +9,33 @@ This document outlines the key **Group Policy Objects (GPOs)** I created and lin
 Before creating GPOs, I organized domain objects into appropriate **Organizational Units** for better control and delegation.
 
 ### OU Structure:
+- `Domains`
+  - `hughdomain.local`
+- `AdminAccounts`
 - `Domain Controllers`
 - `Employees`
-- `Groups`
-- `ITSupportComputers`
-- `Tech`
   - `Accounting`
-  - `HR`
+  - `Customer Support`
+  - `Finance`
+  - `Human Resources`
   - `IT`
-  - `IT Computers`
-  - `IT Security`
-  - `IT Support`
+    - `ITSecurity`
+    - `ITSupport` 
+  - `Legal`
   - `Marketing`
+  - `Operations`
+  - `Product Management`
+  - `Research`
+  - `Sales`
+- `Groups`
+- `MeiVaultComputers`
+- `MeiVaultServers`
+- `ServiceAccounts`
 - `Users`
 
 📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy**
 
-![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](https://github.com/user-attachments/assets/f58420e2-e67f-497b-9862-ce4a8be2a78a)
+![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](ttps://github.com/user-attachments/assets/39ea06a9-a517-4618-9ddf-18f579136737)
 
 ---
 

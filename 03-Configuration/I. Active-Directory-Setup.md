@@ -36,22 +36,30 @@ I created the following OUs to organize domain objects:
 
 ```
 hughdomain.local
+├── AdminAccounts
 ├── Builtin
 ├── Computers
 ├── Domain Controllers
-├── Employees 
-  ├── CustomerSupport 
+├── Employees
+  ├── Accounting
+  ├── Customer Support 
   ├── Finance 
   ├── Human Resources 
   ├── IT
+    ├── ITSecurity
+    ├── ITSupport
   ├── Legal 
   ├── Marketing
   ├── Operations
-  ├── ProductManagement
+  ├── Product Management
   ├── Research
   ├── Sales
 ├── ForeignSecurityPrincipals
+├── Groups
 ├── Managed Service Accounts
+├── MeiVaultComputers
+├── MeiVaultServers
+├── ServiceAccounts
 ├── Users
 ````
 Each department OU will be used for GPO targeting and permission management.

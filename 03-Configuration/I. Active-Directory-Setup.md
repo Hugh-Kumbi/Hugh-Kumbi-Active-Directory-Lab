@@ -58,7 +58,7 @@ Each department OU will be used for GPO targeting and permission management.
 
 📸 **Active Directory Users and Computers (ADUC) Showing OU Structure**
 
-![Active Directory Users and Computers (ADUC) Showing OU Structure](https://github.com/user-attachments/assets/872fc031-2545-4e65-a806-2783ac4a7d0f)
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Structure1" src="https://github.com/user-attachments/assets/5d0ed0ed-c889-4dd1-8823-736d404f4b75" />
 
 ---
 

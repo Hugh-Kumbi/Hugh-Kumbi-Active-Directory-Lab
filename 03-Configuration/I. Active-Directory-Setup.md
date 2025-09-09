@@ -77,10 +77,10 @@ Using both the **ADUC GUI** and **PowerShell**, I created domain user accounts:
 ### Example Users:
 | Username            | Full Name        | Department       | OU Placement      |
 |---------------------|------------------|------------------|-------------------|
-| **mguzha**          | Mei Guzha        | Marketing        | Marketing         |
 | **BUAdmin1**        | Backup Admin     | Admins           | Admins            |
 | **BUAdmin2**        | Backup Admin1    | Admins           | Admins            |
-| **lguzha**          | Lana Guzha       | Human Resources  | Human Resources   |
+| **lguzha**          | Lana Guzha       | IT               | IT Support        |
+| **mguzha**          | Mei Guzha        | IT               | IT Support        |
 | **TechUser1**       | Tech User1       | IT               | IT Security       |
 | **TechUser2**       | Tech User2       | IT               | IT Security       |
 

@@ -32,6 +32,7 @@ After the role installation completed:
 - Confirmed that the **IIS default welcome page** loaded successfully.
 
 📸 **IIS Default Page in Browser (localhost)**
+<img width="1920" height="909" alt="IIS Default Page in Browser (localhost)" src="https://github.com/user-attachments/assets/af0e88bc-e765-4070-b92c-599d3e49b2b5" />
 
 ---
 
@@ -42,7 +43,7 @@ To demonstrate internal web hosting:
 - Navigated to `C:\inetpub\wwwroot`
 - Replaced `iisstart.htm` with a custom HTML file: `index.html`
 - Edited the file to display a custom message:  
-  `"Welcome to the Internal Web Server - Configured by [Your Name]"`
+  `"Welcome to the Internal Web Server - Configured by Hugh Chanetsa"`
 
 📸 **Modified `index.html` in Notepad & VS Code**
 

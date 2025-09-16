@@ -1,6 +1,6 @@
 # 🛠️ Windows Server 2025 Setup
 
-In this stage, I installed and configured **Windows Server 2025** as the Domain Controller (DC) for my lab environment. The process included setting a static IP, maintaining the computer name, installing Active Directory Domain Services, and promoting the server to a DC.
+In this stage, I installed and configured **Windows Server 2025** as the Domain Controller (DC) for my lab environment. The process included setting a static IP, changing the computer name, installing Active Directory Domain Services, and promoting the server to a DC.
 
 ---
 

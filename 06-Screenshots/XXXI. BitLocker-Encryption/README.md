@@ -16,7 +16,7 @@ On the domain controller, I enabled BitLocker for system drives to ensure that t
 
 ## 2. Configuring Group Policy for BitLocker
 
-I configured Group Policy to enforce BitLocker settings across our domain. I navigated to: 
+I configured Group Policy to enforce BitLocker settings across our domain. I navigated to:<br /> 
 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption` and configured the necessary settings. I specifically enabled and configured policies like "Require additional authentication at startup" and "Choose drive encryption method and cipher strength" to meet our security requirements.
 
 📸 **Configuring Group Policy for BitLocker**
@@ -75,7 +75,7 @@ I used the BitLocker Recovery Password Viewer feature in Active Directory Users 
 
 ## 7. Enabling BitLocker for Removable Drives
 
-I enabled BitLocker to go through Group Policy to enforce encryption on all removable drives, like USB drives. I did this by navigating to: 
+I enabled BitLocker to go through Group Policy to enforce encryption on all removable drives, like USB drives. I did this by navigating to:<br /> 
 `User Configuration > Administrative Templates > Windows Components > BitLocker Drive Encryption >` "Control use of BitLocker on removable drives and configuring the policy to require encryption." This ensures that any data saved to a removable drive is automatically protected.
 
 📸 **Enabling BitLocker for Removable Drives**

@@ -21,4 +21,5 @@ This architecture provided the foundation for all the configurations and simulat
 
 ---
 
-The above image corresponds to a step described in 📂 `01-Planning/Planning & Lab Overview.md`
+The above image corresponds to a step described in:<br /> 
+📂 `01-Planning/Planning & Lab Overview.md`

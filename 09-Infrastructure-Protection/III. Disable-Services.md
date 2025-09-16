@@ -194,7 +194,7 @@ I disabled the following services using Group Policy Preferences:
 
 📸 **Services Console Showing SNMP Settings on `AD-WIN11-02`**
 
-<img width="1920" height="909" alt="Services Console Showing SNMP Settings on AD-WIN11-02" src="https://github.com/user-attachments/assets/4d693345-bace-4572-bdde-c28b100e5e29" />
+<img width="1920" height="909" alt="Services Console Showing SNMP Settings on AD-WIN11-02" src="https://github.com/user-attachments/assets/4d693345-bace-4572-bdde-c28b100e5e29" /><br />
 
 📸 **Services Console Showing Windows Error Reporting Settings on `AD-WIN11-01`**
 
@@ -248,5 +248,5 @@ I disabled the following services using Group Policy Preferences:
 
 ## 🗂️ 4. Screenshot Storage
 
-All related screenshots are stored in:  
+All related screenshots are stored in: <br /> 
 📂 [`06-Screenshots/Disable-Services/Spooler-Disabled.png`]()

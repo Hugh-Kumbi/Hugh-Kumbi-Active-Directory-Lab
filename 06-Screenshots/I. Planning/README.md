@@ -22,4 +22,4 @@ This architecture provided the foundation for all the configurations and simulat
 ---
 
 The above image corresponds to a step described in:<br /> 
-📂 `01-Planning/Planning & Lab Overview.md`
+📂 [`01-Planning/Planning & Lab Overview.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/01-Planning/Planning%20%26%20Lab%20Overview.md)

@@ -159,17 +159,17 @@ To manage data recovery securely, I:
 
 📸 **DRA Certificate Configuration**
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy" src="https://github.com/user-attachments/assets/0fa54b2f-4322-418a-a325-6c89acd38860" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy" src="https://github.com/user-attachments/assets/0fa54b2f-4322-418a-a325-6c89acd38860" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 1" src="https://github.com/user-attachments/assets/147a6da9-e04f-4353-99c7-9d51c7361449" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 1" src="https://github.com/user-attachments/assets/147a6da9-e04f-4353-99c7-9d51c7361449" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 2" src="https://github.com/user-attachments/assets/aca56a92-4568-475a-9185-77a3520c16b3" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 2" src="https://github.com/user-attachments/assets/aca56a92-4568-475a-9185-77a3520c16b3" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 3" src="https://github.com/user-attachments/assets/964670b6-355c-4d12-b70a-053fde057e4a" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 3" src="https://github.com/user-attachments/assets/964670b6-355c-4d12-b70a-053fde057e4a" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 4" src="https://github.com/user-attachments/assets/fe0de28a-f12c-4bd0-8ac1-79c0ce081cae" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 4" src="https://github.com/user-attachments/assets/fe0de28a-f12c-4bd0-8ac1-79c0ce081cae" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 5" src="https://github.com/user-attachments/assets/d464cb8c-0ead-49a8-b6e9-cf78de9be937" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 5" src="https://github.com/user-attachments/assets/d464cb8c-0ead-49a8-b6e9-cf78de9be937" /><br />
 
 ---
 
@@ -195,25 +195,25 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 📸 **BitLocker Drive Encryption Policy Settings**  
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings" src="https://github.com/user-attachments/assets/40b725be-5822-4e43-a293-d3eb663c0f0f" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings" src="https://github.com/user-attachments/assets/40b725be-5822-4e43-a293-d3eb663c0f0f" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 1" src="https://github.com/user-attachments/assets/f7cd6cd1-7de0-49d8-b8a3-2a322957ff81" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 1" src="https://github.com/user-attachments/assets/f7cd6cd1-7de0-49d8-b8a3-2a322957ff81" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 2" src="https://github.com/user-attachments/assets/cff20b4c-26da-490b-835b-8f266934e540" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 2" src="https://github.com/user-attachments/assets/cff20b4c-26da-490b-835b-8f266934e540" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 3" src="https://github.com/user-attachments/assets/4ab6782c-ff45-453e-87b6-e3f9dbc937e4" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 3" src="https://github.com/user-attachments/assets/4ab6782c-ff45-453e-87b6-e3f9dbc937e4" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 4" src="https://github.com/user-attachments/assets/d84c2b38-86a3-491f-a1af-68cf9ae63447" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 4" src="https://github.com/user-attachments/assets/d84c2b38-86a3-491f-a1af-68cf9ae63447" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 5" src="https://github.com/user-attachments/assets/689bf53c-8764-45fd-bd02-1552757011b3" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 5" src="https://github.com/user-attachments/assets/689bf53c-8764-45fd-bd02-1552757011b3" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 6" src="https://github.com/user-attachments/assets/087cf28c-c71e-42cb-9a1a-dfb7b1e2ad65" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 6" src="https://github.com/user-attachments/assets/087cf28c-c71e-42cb-9a1a-dfb7b1e2ad65" /><br />
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 7" src="https://github.com/user-attachments/assets/31d9230a-3727-4579-bbc4-c247119901d0" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 7" src="https://github.com/user-attachments/assets/31d9230a-3727-4579-bbc4-c247119901d0" /><br />
 
 📸 **BitLocker DRA Deployment Policy Settings**
 
-<img width="1920" height="909" alt="BitLocker DRA Deployment Policy Settings" src="https://github.com/user-attachments/assets/1d44f184-aad8-4998-ae06-bee70ef84b9a" />
+<img width="1920" height="909" alt="BitLocker DRA Deployment Policy Settings" src="https://github.com/user-attachments/assets/1d44f184-aad8-4998-ae06-bee70ef84b9a" /><br />
 
 <img width="1920" height="909" alt="BitLocker DRA Deployment Policy Settings 1" src="https://github.com/user-attachments/assets/cf7effec-8c49-4e0f-bd3c-a239ad4313e2" />
 
@@ -230,11 +230,11 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 ![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)<br />
 
-📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01:**  
+📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01**  
 
 <img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01" src="https://github.com/user-attachments/assets/3817c0ba-d37c-48e7-8534-3db99e85c1ba" /><br />
 
-📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02:**  
+📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02**  
 
 <img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02" src="https://github.com/user-attachments/assets/900b2cde-6088-4a10-8eda-f24edf0e9a4a" />
 

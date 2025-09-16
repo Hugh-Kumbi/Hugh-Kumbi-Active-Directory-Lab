@@ -102,4 +102,4 @@ When BitLocker failed to encrypt a drive, I checked for common issues like a TPM
 
 ---
 
-Each image corresponds to a step described in 📂 [09-Infrastructure-Protection/V.BitLocker-Encryption.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/V.%20BitLocker-Encryption.md)
+Each image corresponds to a step described in 📂 [`09-Infrastructure-Protection/V.BitLocker-Encryption.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/V.%20BitLocker-Encryption.md)

@@ -19,6 +19,7 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 📸 **Group Policy Management Console showing the BitLocker DRA Deployment Policy linked to Domain**  
 
 <img width="1920" height="909" alt="Group Policy Management Console showing the BitLocker DRA Deployment Policy linked to Domain" src="https://github.com/user-attachments/assets/35c211ed-5eb4-4f31-8ca9-640ad4ed4385" />
+
 ---
 
 ## ⚙️ 2. Policy Configuration

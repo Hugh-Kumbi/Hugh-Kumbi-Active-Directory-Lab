@@ -73,12 +73,16 @@ The planning phase is crucial for establishing a structured and efficient Active
 ## 📂 Files Included
 
 - Detailed documentation outlining the lab's objectives, network design, hardware/software requirements, and implementation steps can be found in:
-  - `Planning & Lab Overview.md`
-  - `I. Windows-Server-Setup.md`
-  - `II. Windows-Client-Setup.md`
-  - `I. Active-Directory-Setup.md`
-  - `II. DNS-Setip.md`
-  - `III. GPO-Configurations.md`
+  - [`Planning & Lab Overview.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/01-Planning/Planning%20%26%20Lab%20Overview.md)
+  - [`I. Windows-Server-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md)
+  - [`II. Windows-Client-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/II.%20Windows-Client-Setup.md)
+  - [`I. Active-Directory-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/I.%20Active-Directory-Setup.md)
+  - [`II. DNS-Setip.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/II.%20DNS-Setup.md)
+  - [`III. DHCP-Configuration.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md)
+  - [`IV` Active Directory Certificate Services.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/IV.%20Active-Directory-Certificate-Services.md)
+  - [`V` Windows-Deployment-Services.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/V.%20Windows-Deployment-Services.md)
+  - [`VI` IIS-Web-Server-Configuration.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VI.%20IIS-Web-Server-Configuration.md)
+  - [`VII. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md)
  
 ---
 

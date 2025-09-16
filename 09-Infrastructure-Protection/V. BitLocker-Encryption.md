@@ -180,11 +180,11 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 📸 **AD-WIN11-01 System With BitLocker Status**
 
-![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)<br />
+<img width="1920" height="909" alt="AD-WIN11-01 System With BitLocker Status" src="https://github.com/user-attachments/assets/eed3e722-7e74-41b6-86d5-e9327865b1c1" />
 
 📸 **AD-WIN11-02 System With BitLocker Status**
 
-![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)
+<img width="1920" height="909" alt="AD-WIN11-02 System With BitLocker Status" src="https://github.com/user-attachments/assets/7678e610-d9cd-420b-8671-9dd29216cfbb" />
 
 ### ✅ BitLocker Recovery
 
@@ -227,9 +227,17 @@ This section demonstrated how to manage full-disk encryption across different dr
 - Confirmed recovery keys were stored in Active Directory via the **Active Directory Users and Computers (ADUC)** console.  
 - Rebooted to test TPM + PIN prompt on startup.
 
-📸 **PowerShell Output Showing BitLocker Status:**  
+📸 **PowerShell Output Showing BitLocker Status for AD-WIN11-01**  
 
-![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)<br />
+<img width="1920" height="909" alt="PowerShell Output Showing BitLocker Status for AD-WIN11-01" src="https://github.com/user-attachments/assets/b28caf31-51e9-42df-892d-820ae9ab30ed" /><br />
+
+<img width="1920" height="909" alt="PowerShell Output Showing BitLocker Status for AD-WIN11-01 1" src="https://github.com/user-attachments/assets/cda688e4-9476-4ef6-8324-bc65bcc58ba1" /><br />
+
+📸 **PowerShell Output Showing BitLocker Status for AD-WIN11-02**  
+
+<img width="1920" height="909" alt="PowerShell Output Showing BitLocker Status for AD-WIN11-02" src="https://github.com/user-attachments/assets/65dfbed8-ae19-4988-a476-2606b271963c" /><br />
+
+<img width="1920" height="909" alt="PowerShell Output Showing BitLocker Status for AD-WIN11-02 1" src="https://github.com/user-attachments/assets/d4a32e8e-c1d4-46fd-ba9b-d143e1b7fa81" /><br />
 
 📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01**  
 

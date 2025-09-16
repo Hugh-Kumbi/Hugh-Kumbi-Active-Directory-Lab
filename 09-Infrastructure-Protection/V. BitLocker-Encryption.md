@@ -13,9 +13,7 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 
 📸 **Group Policy Management Console showing the BitLocker Encryption Policy linked to MeiVaultComputers**  
 
-<img width="1920" height="909" alt="Group Policy Management Console showing the BitLocker Encryption Policy linked to MeiVaultComputers" src="https://github.com/user-attachments/assets/63e29fb3-bad1-4f53-9c40-9eec4d723890" />
-
-<br />
+<img width="1920" height="909" alt="Group Policy Management Console showing the BitLocker Encryption Policy linked to MeiVaultComputers" src="https://github.com/user-attachments/assets/63e29fb3-bad1-4f53-9c40-9eec4d723890" /><br />
 
 📸 **Group Policy Management Console showing the BitLocker DRA Deployment Policy linked to Domain**  
 

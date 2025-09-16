@@ -1,4 +1,4 @@
-# 🔐 BitLocker Drive Encryption Policy for Windows Server 2025 Active Directory
+# 🔐 BitLocker Drive Encryption Policies for Windows Server 2025 Active Directory
 
 In this section, I enforced BitLocker drive encryption policies to protect data at rest on all Windows 11 client devices. This policy ensures that all operating system drives are encrypted using secure standards and recovery mechanisms, providing resilience against data breaches caused by device loss or theft.
 
@@ -6,13 +6,18 @@ In this section, I enforced BitLocker drive encryption policies to protect data 
 
 ## 🏷️ 1. GPO Name
 
-- **GPO Name:** BitLocker Encryption Policy  
+- **GPO Name:** BitLocker Drive Encryption Policy  
+- **Linked To:** MeiVaultComputers
+- **GPO Name:** BitLocker DRA Deployment Policy   
 - **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console showing the BitLocker Encryption Policy linked to Domain**  
+📸 **Group Policy Management Console showing the BitLocker Encryption Policy linked to MeiVaultComputers**  
 
-![Group Policy Management Console showing the BitLocker Encryption Policy linked to Domain](https://github.com/user-attachments/assets/5b215626-ebe6-4c08-865e-f1ea05014f33)
+<img width="1920" height="909" alt="Group Policy Management Console showing the BitLocker Encryption Policy linked to MeiVaultComputers" src="https://github.com/user-attachments/assets/63e29fb3-bad1-4f53-9c40-9eec4d723890" />
 
+📸 **Group Policy Management Console showing the BitLocker DRA Deployment Policy linked to Domain**  
+
+<img width="1920" height="909" alt="Group Policy Management Console showing the BitLocker DRA Deployment Policy linked to Domain" src="https://github.com/user-attachments/assets/35c211ed-5eb4-4f31-8ca9-640ad4ed4385" />
 ---
 
 ## ⚙️ 2. Policy Configuration
@@ -27,13 +32,13 @@ In the GPO, I navigated to:
 - **Checked** "Requires a password or startup key on a USB flash drive"
 - **Configure TPM startup key settings:** Enabled  
   - **Allow TPM:** Yes  
-  - **Allow PIN + TPM:** Yes  
-  - **Allow Startup Key + TPM:** Yes  
-  - **Allow TPM + PIN + Startup Key:** Yes
+  - **Do not allow PIN + TPM:** Yes  
+  - **Do not allow Startup Key + TPM:** Yes  
+  - **Do not allow TPM + PIN + Startup Key:** Yes
 
-📸 **Additional Authentication at Startup For Operating System Drives Overview** 
+📸 **Additional Authentication at Startupfor Operating System Drives Overview** 
 
-![Additional Authentication at Startup For Operating System Drives Overview](https://github.com/user-attachments/assets/1db8d4ef-527f-4610-af4b-36280c02aba0)
+<img width="1920" height="909" alt="Additional Authentication at Startupfor Operating System Drives Overview" src="https://github.com/user-attachments/assets/88ee2cf5-6d74-47dd-b17b-1a2a56182f0c" />
 
 - **Enable use of BitLocker authentication requiring preboot keyboard input on slates:** Enabled
 - **Configure minimum PIN length for startup:** Enabled
@@ -45,19 +50,19 @@ In the GPO, I navigated to:
 
 📸 **BitLocker-Protected Operating System Drives Settings** 
 
-![BitLocker-Protected Operating System Drives Settings](https://github.com/user-attachments/assets/3e8c922a-636c-4a01-b647-290dacb5033e)
+<img width="1920" height="909" alt="BitLocker-Protected Operating System Drives Settings" src="https://github.com/user-attachments/assets/e64c44b1-9fb3-4887-959f-344ec10b0cd8" />
 
 📸 **BitLocker Drive Encryption Method and Cipher Strength**
 
-![BitLocker Drive Encryption Policies for Operating System Drives 3](https://github.com/user-attachments/assets/eb4bcf7b-8aa6-4b84-b495-4e5769a32ce9)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Method and Cipher Strength" src="https://github.com/user-attachments/assets/d8c675f6-21a6-459d-84fe-2e623fd3bcd3" />
 
 📸 **BitLocker Drive Encryption Overview**
 
-![BitLocker Drive Encryption Policies for Operating System Drives 4](https://github.com/user-attachments/assets/1ef6eec1-bb0a-4a7a-aebd-e975e407eaed)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Overview" src="https://github.com/user-attachments/assets/71015976-bb58-469c-9265-3bf38c7a91d3" />
 
 📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
 
-![BitLocker Drive Encryption Policies for Operating System Drives Overview](https://github.com/user-attachments/assets/37bdd867-c4d7-47b1-b0d4-67a83b5ff55d)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Operating System Drives Overview" src="https://github.com/user-attachments/assets/c84d3785-c5be-4eec-9bd8-893ec3e2f974" />
 
 ### 3. 🧩 Configure Fixed Data Drive Encryption
 
@@ -77,7 +82,7 @@ I enabled:
 
 📸 **BitLocker Drive Encryption Fixed Drive Settings Overview** 
 
-![BitLocker Drive Encryption Fixed Drive Settings Overview](https://github.com/user-attachments/assets/4a784e3a-6046-41fd-bb49-dacc95cb9e69)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Fixed Drive Settings Overview" src="https://github.com/user-attachments/assets/eae3f23f-f672-4a8f-a7ec-8b703b7d6191" />
 
 ### 4. 🔑 Configure Removable Drive Encryption
 
@@ -93,7 +98,7 @@ I enabled:
 
 📸 **BitLocker Drive Encryption Removable Data Drives Overview** 
 
-![BitLocker Drive Encryption Removable Data Drives Overview](https://github.com/user-attachments/assets/bb7d38ab-357c-4f9b-a12c-6c79d702ff7c)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Removable Data Drives Overview" src="https://github.com/user-attachments/assets/c53fa362-fb2d-4fbd-9836-7e7bd278cfe1" />
 
 ---
 
@@ -114,31 +119,31 @@ To allow systems to automatically unlock BitLocker-protected OS drives on domain
 
 📸 **Store BitLocker Recovery Information in Active Directory Domain Services Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature](https://github.com/user-attachments/assets/df624485-fd6a-4b1e-bb47-b3298e4f7bc2)
+<img width="1920" height="909" alt="Store BitLocker Recovery Information in Active Directory Domain Services Settings" src="https://github.com/user-attachments/assets/5be16696-b5fe-453d-a7a0-52d343e3052e" />
 
-📸 **Choose Default Folder For Recovery Password Settings**
+📸 **Choose Default Folder for Recovery Password Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature 1](https://github.com/user-attachments/assets/3aa58a18-da3a-4912-8065-a4661a32fa99)
+<img width="1920" height="909" alt="Choose Default Folder for Recovery Password Settings" src="https://github.com/user-attachments/assets/06219e11-6e18-4901-8ea2-e0ef0a8b80d3" />
 
-📸 **Choose How Users Can Recover BitLocker-protected drives Settings**
+📸 **Choose how Users can Recover BitLocker-protected Drives Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature 2](https://github.com/user-attachments/assets/939c1f22-2aa3-455e-90d7-742305c08fe0)
+<img width="1920" height="909" alt="Choose how Users can Recover BitLocker-protected Drives Settings" src="https://github.com/user-attachments/assets/97e99fe1-5bc5-40e9-b191-92449b2ccd2c" />
 
 📸 **Choose Drive Encryption Method and Cipher Strength Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature 3](https://github.com/user-attachments/assets/4b7a867a-2b6b-4c80-a805-77ccde54344f)
+<img width="1920" height="909" alt="Choose Drive Encryption Method and Cipher Strength Settings" src="https://github.com/user-attachments/assets/72e08a89-f5a9-4538-ab6e-f91d28c28bf7" />
 
-📸 **Provide The Unique Identifiers For Your Organization Settings**
+📸 **Provide the Unique Identifiers for your Organization Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature 4](https://github.com/user-attachments/assets/3e583e4d-94d0-439e-a956-7bf652dea338)
+<img width="1920" height="909" alt="Provide the Unique Identifiers for your Organization Settings" src="https://github.com/user-attachments/assets/5e98e096-3867-4a08-a0ca-e5c187ceb7b6" />
 
 📸 **Validate Smart Card Certificate Usage Rule Compliance Settings**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature 5](https://github.com/user-attachments/assets/64878673-a3e6-47ff-bf47-e6634ee4b9e2)
+<img width="1920" height="909" alt="Validate Smart Card Certificate Usage Rule Compliance Settings" src="https://github.com/user-attachments/assets/569e10fe-da85-4b37-8e54-b79c9b112968" />
 
 📸 **Network Unlock Settings Overview**
 
-![BitLocker Drive Encryption Options for Network Unlock Feature Overview](https://github.com/user-attachments/assets/8fa82a9c-d03c-4473-939d-b1503fc6c41a)
+<img width="1920" height="909" alt="Network Unlock Settings Overview" src="https://github.com/user-attachments/assets/779dbbd0-25ab-4f54-833a-ee90407e0c5a" />
 
 ---
 
@@ -153,17 +158,17 @@ To manage data recovery securely, I:
 
 📸 **DRA Certificate Configuration**
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy](https://github.com/user-attachments/assets/4557a403-391b-414b-8e6b-d8ecadeb6904)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy" src="https://github.com/user-attachments/assets/0fa54b2f-4322-418a-a325-6c89acd38860" />
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 1](https://github.com/user-attachments/assets/1c2b2636-d771-4778-ae1b-af9a245d240f)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 1" src="https://github.com/user-attachments/assets/147a6da9-e04f-4353-99c7-9d51c7361449" />
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 2](https://github.com/user-attachments/assets/e110f2cf-ceba-467f-a693-be4bda7142fb)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 2" src="https://github.com/user-attachments/assets/aca56a92-4568-475a-9185-77a3520c16b3" />
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 3](https://github.com/user-attachments/assets/ea28a692-ccd0-4a25-93eb-558eabefd645)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 3" src="https://github.com/user-attachments/assets/964670b6-355c-4d12-b70a-053fde057e4a" />
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 4](https://github.com/user-attachments/assets/ea6129bd-eef8-4ccd-a18e-b2b5e3ff421f)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 4" src="https://github.com/user-attachments/assets/fe0de28a-f12c-4bd0-8ac1-79c0ce081cae" />
 
-![BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 5](https://github.com/user-attachments/assets/dab51797-353e-481d-95a2-70224a4f3ace)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Importing DRA Certificate Into BitLocker policy 5" src="https://github.com/user-attachments/assets/d464cb8c-0ead-49a8-b6e9-cf78de9be937" />
 
 ---
 
@@ -171,7 +176,11 @@ To manage data recovery securely, I:
 
 This section demonstrated how to manage full-disk encryption across different drive types using Group Policy. It reflects a practical understanding of enterprise-grade BitLocker deployment, compliance enforcement, and data recovery preparedness in an Active Directory environment.
 
-📸 **Client System With BitLocker Status**
+📸 **AD-WIN11-01 System With BitLocker Status**
+
+![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)
+
+📸 **AD-WIN11-02 System With BitLocker Status**
 
 ![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)
 
@@ -183,23 +192,29 @@ This section demonstrated how to manage full-disk encryption across different dr
   - ✅ Store recovery passwords and key packages  
 - **Do not enable BitLocker until recovery information is stored to AD DS:** Enabled  
 
-📸 **BitLocker Policy Settings**  
+📸 **BitLocker Drive Encryption Policy Settings**  
 
-![BitLocker Policy Settings](https://github.com/user-attachments/assets/29c60283-bdfd-479c-8c79-504872af8158)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings" src="https://github.com/user-attachments/assets/40b725be-5822-4e43-a293-d3eb663c0f0f" />
 
-![BitLocker Policy Settings 1](https://github.com/user-attachments/assets/8d4f7c52-d317-4c67-8f0f-384237d68308)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 1" src="https://github.com/user-attachments/assets/f7cd6cd1-7de0-49d8-b8a3-2a322957ff81" />
 
-![BitLocker Policy Settings 2](https://github.com/user-attachments/assets/86d22d63-248f-425f-be94-d33b3c41275d)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 2" src="https://github.com/user-attachments/assets/cff20b4c-26da-490b-835b-8f266934e540" />
 
-![BitLocker Policy Settings 3](https://github.com/user-attachments/assets/7837af5e-d06c-4078-b2e1-95d72b10399d)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 3" src="https://github.com/user-attachments/assets/4ab6782c-ff45-453e-87b6-e3f9dbc937e4" />
 
-![BitLocker Policy Settings 4](https://github.com/user-attachments/assets/f7c3c76a-5244-474d-9eb4-49ffa161b7db)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 4" src="https://github.com/user-attachments/assets/d84c2b38-86a3-491f-a1af-68cf9ae63447" />
 
-![BitLocker Policy Settings 5](https://github.com/user-attachments/assets/02a4f6c8-c0ec-43fa-bfb3-e82d260f8567)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 5" src="https://github.com/user-attachments/assets/689bf53c-8764-45fd-bd02-1552757011b3" />
 
-![BitLocker Policy Settings 6](https://github.com/user-attachments/assets/ad355001-a11c-48af-82ac-7ff24b3110e4)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 6" src="https://github.com/user-attachments/assets/087cf28c-c71e-42cb-9a1a-dfb7b1e2ad65" />
 
-![BitLocker Policy Settings 7](https://github.com/user-attachments/assets/8d40e5a1-4549-4883-b304-f32463ce21d6)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policy Settings 7" src="https://github.com/user-attachments/assets/31d9230a-3727-4579-bbc4-c247119901d0" />
+
+📸 **BitLocker DRA Deployment Policy Settings**
+
+<img width="1920" height="909" alt="BitLocker DRA Deployment Policy Settings" src="https://github.com/user-attachments/assets/1d44f184-aad8-4998-ae06-bee70ef84b9a" />
+
+<img width="1920" height="909" alt="BitLocker DRA Deployment Policy Settings 1" src="https://github.com/user-attachments/assets/cf7effec-8c49-4e0f-bd3c-a239ad4313e2" />
 
 ---
 
@@ -214,9 +229,13 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 ![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)
 
-📸 **ADUC Interface Displaying BitLocker Recovery Tab:**  
+📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01:**  
 
-![BitLocker Recovery Tab at AUDC For DESKTOP-2N3JERQ](https://github.com/user-attachments/assets/10ee3290-3395-45ad-9c36-10d30dfc985a)
+<img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01" src="https://github.com/user-attachments/assets/3817c0ba-d37c-48e7-8534-3db99e85c1ba" />
+
+📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02:**  
+
+<img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02" src="https://github.com/user-attachments/assets/900b2cde-6088-4a10-8eda-f24edf0e9a4a" />
 
 ---
 

@@ -194,7 +194,7 @@ I disabled the following services using Group Policy Preferences:
 
 📸 **Services Console Showing SNMP Settings on `AD-WIN11-02`**
 
-![Services Console Showing SNMP Settings on `AD-WIN11-02`](https://github.com/user-attachments/assets/2f570aa6-0891-4e66-b7de-681874bc605f)
+<img width="1920" height="909" alt="Services Console Showing SNMP Settings on AD-WIN11-02" src="https://github.com/user-attachments/assets/4d693345-bace-4572-bdde-c28b100e5e29" />
 
 📸 **Services Console Showing Windows Error Reporting Settings on `AD-WIN11-01`**
 

@@ -6,7 +6,7 @@ This section covers the configuration of BitLocker Drive Encryption to secure da
 
 ## 1. Enabling BitLocker on the Domain Controller
 
-On the domain controller, I enabled BitLocker for system drives to ensure that the OS disk is fully encrypted. This requires TPM (Trusted Platform Module) support.
+On the domain controller, I enabled BitLocker for system drives to ensure that the OS disk is fully encrypted. This requires Trusted Platform Module support (TPM).
 
 📸 **Enabling BitLocker on Domain Controller**
 
@@ -16,7 +16,8 @@ On the domain controller, I enabled BitLocker for system drives to ensure that t
 
 ## 2. Configuring Group Policy for BitLocker
 
-I configured Group Policy to enforce BitLocker settings across our domain. I navigated to `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption` and configured the necessary settings. I specifically enabled and configured policies like "Require additional authentication at startup" and "Choose drive encryption method and cipher strength" to meet our security requirements.
+I configured Group Policy to enforce BitLocker settings across our domain. I navigated to: 
+`Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption` and configured the necessary settings. I specifically enabled and configured policies like "Require additional authentication at startup" and "Choose drive encryption method and cipher strength" to meet our security requirements.
 
 📸 **Configuring Group Policy for BitLocker**
 
@@ -26,7 +27,7 @@ I configured Group Policy to enforce BitLocker settings across our domain. I nav
 
 ## 3. Enabling TPM for BitLocker
 
-I ensured the TPM (Trusted Platform Module) was enabled in the BIOS/UEFI settings of the system. I did this because I know the TPM provides a secure, hardware-based storage for the encryption keys, which is a critical foundation for BitLocker's security.
+I ensured the TPM was enabled in the BIOS/UEFI settings of the system. I did this because I know the TPM provides a secure, hardware-based storage for the encryption keys, which is a critical foundation for BitLocker's security.
 
 📸 **Enabling TPM for BitLocker**
 
@@ -74,7 +75,8 @@ I used the BitLocker Recovery Password Viewer feature in Active Directory Users 
 
 ## 7. Enabling BitLocker for Removable Drives
 
-I enabled BitLocker to go through Group Policy to enforce encryption on all removable drives, like USB drives. I did this by navigating to `User Configuration > Administrative Templates > Windows Components > BitLocker Drive Encryption > Control use of BitLocker on removable drives and configuring the policy to require encryption.` This ensures that any data saved to a removable drive is automatically protected.
+I enabled BitLocker to go through Group Policy to enforce encryption on all removable drives, like USB drives. I did this by navigating to: 
+`User Configuration > Administrative Templates > Windows Components > BitLocker Drive Encryption >` "Control use of BitLocker on removable drives and configuring the policy to require encryption." This ensures that any data saved to a removable drive is automatically protected.
 
 📸 **Enabling BitLocker for Removable Drives**
 
@@ -86,13 +88,11 @@ I enabled BitLocker to go through Group Policy to enforce encryption on all remo
 
 I verified that all drives are properly encrypted by regularly checking their BitLocker status. I could have done this through the Control Panel on individual machines but, more efficiently, I ran the Get-BitLockerVolume PowerShell command to get a quick status report for all volumes on a system. This ensures our encryption policies are actively protecting our data.
 
-
 📸 **Verifying BitLocker Encryption**
 
 <img width="1920" height="909" alt="AD-WIN11-01 System With BitLocker Status" src="https://github.com/user-attachments/assets/b9ce0487-d0d2-49d2-8a6b-1f3cf7110de6" /><br />
 
 <img width="1920" height="909" alt="AD-WIN11-02 System With BitLocker Status" src="https://github.com/user-attachments/assets/dda21e5d-e0b5-4063-b770-367407726754" /><br />
-
 
 ---
 
@@ -102,4 +102,4 @@ When BitLocker failed to encrypt a drive, I checked for common issues like a TPM
 
 ---
 
-Each image corresponds to a step described in 📂 `09-Infrastructure-Protection/V.BitLocker-Encryption.md`.
+Each image corresponds to a step described in 📂 [09-Infrastructure-Protection/V.BitLocker-Encryption.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/V.%20BitLocker-Encryption.md)

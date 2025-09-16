@@ -28,8 +28,8 @@ The planning phase is crucial for establishing a structured and efficient Active
 ### Hardware
 
 - **Host Machine:**
-  - **CPU:** Quad-core processor or higher
-  - **RAM:** Minimum 16 GB
+  - **CPU:** Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz (2.11 GHz)
+  - **RAM:** 16 GB
   - **Storage:** SSD with at least 200 GB free space
 
 ### Software
@@ -37,7 +37,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 - **Virtualization Platform:** VirtualBox
 - **Operating Systems:**
   - **Windows Server:** 2025 for domain controllers
-  - **Windows Client:** Windows 11 for client machines
+  - **Windows Client:** Windows 11 Pro for client machines
 - **ISO Files:** Obtain evaluation versions from the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/)
 
 ---

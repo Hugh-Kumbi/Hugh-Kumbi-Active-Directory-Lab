@@ -51,19 +51,19 @@ In the GPO, I navigated to:
 
 📸 **BitLocker-Protected Operating System Drives Settings** 
 
-<img width="1920" height="909" alt="BitLocker-Protected Operating System Drives Settings" src="https://github.com/user-attachments/assets/e64c44b1-9fb3-4887-959f-344ec10b0cd8" />
+<img width="1920" height="909" alt="BitLocker-Protected Operating System Drives Settings" src="https://github.com/user-attachments/assets/e64c44b1-9fb3-4887-959f-344ec10b0cd8" /><br />
 
 📸 **BitLocker Drive Encryption Method and Cipher Strength**
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Method and Cipher Strength" src="https://github.com/user-attachments/assets/d8c675f6-21a6-459d-84fe-2e623fd3bcd3" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Method and Cipher Strength" src="https://github.com/user-attachments/assets/d8c675f6-21a6-459d-84fe-2e623fd3bcd3" /><br />
 
 📸 **BitLocker Drive Encryption Overview**
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Overview" src="https://github.com/user-attachments/assets/71015976-bb58-469c-9265-3bf38c7a91d3" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Overview" src="https://github.com/user-attachments/assets/71015976-bb58-469c-9265-3bf38c7a91d3" /><br />
 
 📸 **BitLocker Drive Encryption Policies for Operating System Drives Overview** 
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Operating System Drives Overview" src="https://github.com/user-attachments/assets/c84d3785-c5be-4eec-9bd8-893ec3e2f974" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Operating System Drives Overview" src="https://github.com/user-attachments/assets/c84d3785-c5be-4eec-9bd8-893ec3e2f974" /><br />
 
 ### 3. 🧩 Configure Fixed Data Drive Encryption
 
@@ -120,27 +120,27 @@ To allow systems to automatically unlock BitLocker-protected OS drives on domain
 
 📸 **Store BitLocker Recovery Information in Active Directory Domain Services Settings**
 
-<img width="1920" height="909" alt="Store BitLocker Recovery Information in Active Directory Domain Services Settings" src="https://github.com/user-attachments/assets/5be16696-b5fe-453d-a7a0-52d343e3052e" />
+<img width="1920" height="909" alt="Store BitLocker Recovery Information in Active Directory Domain Services Settings" src="https://github.com/user-attachments/assets/5be16696-b5fe-453d-a7a0-52d343e3052e" /><br />
 
 📸 **Choose Default Folder for Recovery Password Settings**
 
-<img width="1920" height="909" alt="Choose Default Folder for Recovery Password Settings" src="https://github.com/user-attachments/assets/06219e11-6e18-4901-8ea2-e0ef0a8b80d3" />
+<img width="1920" height="909" alt="Choose Default Folder for Recovery Password Settings" src="https://github.com/user-attachments/assets/06219e11-6e18-4901-8ea2-e0ef0a8b80d3" /><br />
 
 📸 **Choose how Users can Recover BitLocker-protected Drives Settings**
 
-<img width="1920" height="909" alt="Choose how Users can Recover BitLocker-protected Drives Settings" src="https://github.com/user-attachments/assets/97e99fe1-5bc5-40e9-b191-92449b2ccd2c" />
+<img width="1920" height="909" alt="Choose how Users can Recover BitLocker-protected Drives Settings" src="https://github.com/user-attachments/assets/97e99fe1-5bc5-40e9-b191-92449b2ccd2c" /><br />
 
 📸 **Choose Drive Encryption Method and Cipher Strength Settings**
 
-<img width="1920" height="909" alt="Choose Drive Encryption Method and Cipher Strength Settings" src="https://github.com/user-attachments/assets/72e08a89-f5a9-4538-ab6e-f91d28c28bf7" />
+<img width="1920" height="909" alt="Choose Drive Encryption Method and Cipher Strength Settings" src="https://github.com/user-attachments/assets/72e08a89-f5a9-4538-ab6e-f91d28c28bf7" /><br />
 
 📸 **Provide the Unique Identifiers for your Organization Settings**
 
-<img width="1920" height="909" alt="Provide the Unique Identifiers for your Organization Settings" src="https://github.com/user-attachments/assets/5e98e096-3867-4a08-a0ca-e5c187ceb7b6" />
+<img width="1920" height="909" alt="Provide the Unique Identifiers for your Organization Settings" src="https://github.com/user-attachments/assets/5e98e096-3867-4a08-a0ca-e5c187ceb7b6" /><br />
 
 📸 **Validate Smart Card Certificate Usage Rule Compliance Settings**
 
-<img width="1920" height="909" alt="Validate Smart Card Certificate Usage Rule Compliance Settings" src="https://github.com/user-attachments/assets/569e10fe-da85-4b37-8e54-b79c9b112968" />
+<img width="1920" height="909" alt="Validate Smart Card Certificate Usage Rule Compliance Settings" src="https://github.com/user-attachments/assets/569e10fe-da85-4b37-8e54-b79c9b112968" /><br />
 
 📸 **Network Unlock Settings Overview**
 
@@ -179,7 +179,7 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 📸 **AD-WIN11-01 System With BitLocker Status**
 
-![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)
+![Client System with BitLocker Status](https://github.com/user-attachments/assets/41121d23-03d1-4c2c-bfd1-49a0a5fb5e1f)<br />
 
 📸 **AD-WIN11-02 System With BitLocker Status**
 
@@ -228,11 +228,11 @@ This section demonstrated how to manage full-disk encryption across different dr
 
 📸 **PowerShell Output Showing BitLocker Status:**  
 
-![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)
+![PowerShell Output Showing BitLocker Status 1](https://github.com/user-attachments/assets/e4686c98-a1ea-43bb-9c17-c1651d5fb452)<br />
 
 📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01:**  
 
-<img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01" src="https://github.com/user-attachments/assets/3817c0ba-d37c-48e7-8534-3db99e85c1ba" />
+<img width="1920" height="909" alt="ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-01" src="https://github.com/user-attachments/assets/3817c0ba-d37c-48e7-8534-3db99e85c1ba" /><br />
 
 📸 **ADUC Interface Displaying BitLocker Recovery Tab for AD-WIN11-02:**  
 

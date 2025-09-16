@@ -82,7 +82,7 @@ The planning phase is crucial for establishing a structured and efficient Active
   - [`IV Active Directory Certificate Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/IV.%20Active-Directory-Certificate-Services.md)
   - [`V Windows-Deployment-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/V.%20Windows-Deployment-Services.md)
   - [`VI IIS-Web-Server-Configuration.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VI.%20IIS-Web-Server-Configuration.md)
-  - [`VII. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md)
+  - [`VII. GPO-Configurations.md`]([https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md))
  
 ---
 

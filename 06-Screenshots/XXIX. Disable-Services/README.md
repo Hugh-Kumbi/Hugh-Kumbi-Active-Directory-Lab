@@ -42,7 +42,7 @@ Set-Service -Name "TermService" -StartupType Disabled
 
 ---
 
-## 4. ⚠️ Disabling Windows Defender Antivirus (if required)
+## 4. ⚠️ Disabling Windows Defender Antivirus
 
 Since our Active Directory environment wasn't using a third-party antivirus solution at the time, I made the decision to leave `Windows Defender Antivirus` enabled to ensure we weren't left unprotected. However, I've noted that for the future rollout, once a dedicated enterprise-grade solution is fully implemented and verified, Windows Defender should be disabled to avoid any potential conflicts. I made sure to document that this critical step is contingent on confirming a functional alternative is actively protecting the systems.
 

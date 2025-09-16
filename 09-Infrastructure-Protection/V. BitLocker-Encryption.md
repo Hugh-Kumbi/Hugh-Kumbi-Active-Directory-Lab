@@ -252,4 +252,4 @@ This section demonstrated how to manage full-disk encryption across different dr
 ## 🗂️ 4. Screenshot Storage
 
 All images related to this section are stored in:  
-📂 [[`06-Screenshots/XXXI. BitLocker-Encryption`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XXXI.%20BitLocker-Encryption/README.md)
+📂 [`06-Screenshots/XXXI. BitLocker-Encryption`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XXXI.%20BitLocker-Encryption/README.md)

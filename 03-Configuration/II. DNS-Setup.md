@@ -146,7 +146,7 @@ To ensure everything worked:
 - Used `nslookup` to confirm the DNS server `(192.168.1.10)` was responding
 - Ran `gpupdate /force` and `gpresult /r` to check successful GPO delivery
 
-📸 **Output from `nslookup` to Confirm The DNS Server Response for `AD-WIN11-01`**
+📸 **Output from `nslookup` to Confirm the DNS Server Response for `AD-WIN11-01`**
 
 ![Output from `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/b2077a0c-d7a0-41fb-b93e-ce29116e3017)
 

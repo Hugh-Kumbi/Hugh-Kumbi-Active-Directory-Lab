@@ -25,9 +25,9 @@ Displays the manual IP address and DNS configuration required to support reliabl
 
 **4. System > About > Showing Kept Computer Name** 
 
-Confirms that the original computer name was retained during setup, which is a best practice before domain promotion.
+Confirms that the original computer name was changed during setup, which is a best practice before domain promotion.
 
-   ![System About Showing Kept Computer Name](https://github.com/user-attachments/assets/7dc12389-7af9-486c-b9e7-b5dbfd4d7e76)
+   <img width="1920" height="909" alt="System - About - Showing Kept Computer Name" src="https://github.com/user-attachments/assets/bcb3fcff-2842-408b-8cb0-1c75bb211d3b" /><br />
 
 **5. "Add Roles and Features Wizard" With AD DS Selected** 
 

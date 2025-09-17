@@ -262,4 +262,4 @@ To confirm everything worked:
 ## 📁 6. Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 [`06-Screenshots/IV. Active-Directory-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)
+📂 [`06-Screenshots/IV. Active-Directory-Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)

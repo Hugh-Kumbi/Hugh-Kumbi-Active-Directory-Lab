@@ -10,25 +10,43 @@ This section includes screenshots that document the full process of configuring 
 
 - Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
 
-📸 **VirtualBox VM Settings for AD-WIN11-02:**
+📸 **VirtualBox Virtual Machine General Settings for AD-WIN11-02**
 
-![VirtualBox VM settings for AD-WIN11-02 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine General Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/e263162f-55a8-4ced-bf71-886e2fadb534" /><br />
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 2](https://github.com/user-attachments/assets/796dd80a-70fe-4fc6-a990-0032bd4d966f)
+📸 **VirtualBox Virtual Machine System Motherboard Settings for AD-WIN11-02**
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 3](https://github.com/user-attachments/assets/e0dd9fb2-2906-4ffd-b09c-ed9d6ddec9fd)
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine System Motherboard Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/1acc2bce-58a6-4982-a3ae-e147dc407f24" /><br />
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 4](https://github.com/user-attachments/assets/2569c935-b009-4b5a-a89a-a43f24f185eb)
+📸 **VirtualBox Virtual Machine System Processor Settings for AD-WIN11-02**
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 5](https://github.com/user-attachments/assets/1dfa3395-88ea-43cd-b2b9-6244dde283f3)
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine System Processor Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/5e7b02c4-9f81-4891-b83b-f60724cf9244" /><br />
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 6](https://github.com/user-attachments/assets/096aa30b-7818-4bfd-bde1-cc75df1d117d)
+📸 **VirtualBox Virtual Machine System Acceleration Settings for AD-WIN11-02**
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 7](https://github.com/user-attachments/assets/c39d4368-7aab-4a02-b633-e74398ba9ce6)
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine System Acceleration Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/5d9c4ed1-c627-4166-9de8-52842c607cdb" /><br />
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 8](https://github.com/user-attachments/assets/409c0327-845e-4940-b192-173071cbe949)
+📸 **VirtualBox Virtual Machine Display Screen Settings for AD-WIN11-02**
 
-**2. Network Settings With Static IP and DNS for `DESKTOP-74HPA3F` & `DESKTOP-2N3JERQ`**
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine Display Screen Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/7b1ddedb-3626-44f2-ba1f-58111a9b7840" /><br />
+
+📸 **VirtualBox Virtual Machine Display Recording Settings for AD-WIN11-02**
+
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine Display Recording Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/c8db6413-f49d-474e-869b-96478c95726a" /><br />
+
+📸 **VirtualBox Virtual Machine Storage Settings for AD-WIN11-02**
+
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine Storage Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/7da70099-2394-4b5a-b614-2343dc3ed5db" /><br />
+
+📸 **VirtualBox Virtual Machine Network Settings for AD-WIN11-02**
+
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine Network Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/953dda80-c5fa-49df-bf0d-163432ac6e49" /><br />
+
+📸 **VirtualBox Virtual Machine USB Settings for AD-WIN11-02**
+
+<img width="1920" height="1080" alt="VirtualBox Virtual Machine USB Settings for AD-WIN11-02" src="https://github.com/user-attachments/assets/c30c8e0e-76ea-445e-b6a6-36e6204e4ae9" /><br />
+
+**2. Network Settings with Static IP and DNS for `AD-WIN11-01` & `AD-WIN11-02`**
 
 - Shows the client’s manually configured IP address and DNS pointing to the domain controller, a critical step for domain communication.
 
@@ -36,7 +54,7 @@ This section includes screenshots that document the full process of configuring 
 
 ![Network settings with static IP and DNS](https://github.com/user-attachments/assets/a10095ff-e4f6-4635-9459-7e0333493914)
 
-**3. Domain Join Prompt With Domain Name Entered**
+**3. Domain Join Prompt with Domain Name Entered**
 
 - Captures the moment the domain name hughdomain.local is entered in the System Properties dialog to initiate the domain join process.
 
@@ -44,7 +62,7 @@ This section includes screenshots that document the full process of configuring 
 
 ![Domain Join Prompt With Domain Name Entered1](https://github.com/user-attachments/assets/52dfe7a0-4b2d-4716-920e-eafb4f79dca3)
 
-**4 Confirmation Screen For Successful Domain Join**
+**4 Confirmation Screen for Successful Domain Join**
 
 - Verifies that the client was successfully joined to the domain with the appropriate confirmation message.
 
@@ -52,7 +70,7 @@ This section includes screenshots that document the full process of configuring 
 
 ![Confirmation Screen For Successful Domain Join](https://github.com/user-attachments/assets/3dfb83d6-5da0-4982-b765-07c5135e3f95)
 
-**5. Login Screen With Domain Name Shown**
+**5. Login Screen with Domain Name Shown**
 
 - Displays the Windows login screen where the domain name is now visible, confirming the system recognizes domain credentials.
 

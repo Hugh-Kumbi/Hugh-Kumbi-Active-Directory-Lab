@@ -29,7 +29,7 @@ Confirms that the original computer name was changed during setup, which is a be
 
    <img width="1920" height="909" alt="System - About - Showing Kept Computer Name" src="https://github.com/user-attachments/assets/bcb3fcff-2842-408b-8cb0-1c75bb211d3b" /><br />
 
-**5. "Add Roles and Features Wizard" With AD DS Selected** 
+**5. "Add Roles and Features Wizard" with AD DS Selected** 
 
 Demonstrates the step in Server Manager where the Active Directory Domain Services (AD DS) role is selected in preparation for domain controller promotion.
 
@@ -47,7 +47,7 @@ Verifies that the server was successfully promoted to a domain controller with n
 
    ![Confirmation of Successful Promotion](https://github.com/user-attachments/assets/aa3b0eab-428d-4f7b-9336-bc6e325cb2f9)
 
-**8. PowerShell With `dcdiag` Results** 
+**8. PowerShell with `dcdiag` Results** 
 
 Captures the output of the dcdiag command, confirming domain controller health and connectivity.
 
@@ -61,4 +61,4 @@ Displays the configured DNS forward lookup zone, validating that DNS was set up 
 
 ---
 
-Each image corresponds to a step described in `📂 02-Environment-Setup/Windows-Server-Setup.md`
+Each image corresponds to a step described in 📂 [`02-Environment-Setup/Windows-Server-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md)

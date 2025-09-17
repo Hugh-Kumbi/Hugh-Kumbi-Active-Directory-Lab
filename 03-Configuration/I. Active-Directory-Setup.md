@@ -120,7 +120,7 @@ Passwords were set to expire and require change on first login (except admin acc
 
 📸 **Users Created in ADUC Confirmation**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9uszmZNl5tM?si=lKRgBpzomUWgZL9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Users Created in ADUC Confirmation](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/issues/1)
 
 ---
 

@@ -190,13 +190,13 @@ This section showcases the complete setup and verification of Active Directory s
 
 📸 **Command Line Showing `gpresult` Output for `AD-WIN11-01`**
 
-<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/7b5d2a62-56e1-4b91-8ef6-ac7e50cc0142" />
+<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/7b5d2a62-56e1-4b91-8ef6-ac7e50cc0142" /><br />
 
-<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01` 1" src="https://github.com/user-attachments/assets/75280b85-db0b-46e7-93de-e1600c463e55" />
+<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01` 1" src="https://github.com/user-attachments/assets/75280b85-db0b-46e7-93de-e1600c463e55" /><br />
 
 📸 **Command Line Showing `gpresult` Output for `AD-WIN11-02`**
 
-<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-02`" src="https://github.com/user-attachments/assets/a25b34d8-4c35-4835-8ded-b24f1796092c" />
+<img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-02`" src="https://github.com/user-attachments/assets/a25b34d8-4c35-4835-8ded-b24f1796092c" /><br />
 
 <img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-02` 1" src="https://github.com/user-attachments/assets/aed84579-d253-4219-9be6-1494fe3f01e2" />
 

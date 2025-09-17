@@ -124,7 +124,7 @@ Back on the DHCP server:
 
 This DHCP configuration allows for seamless, automatic IP address management in the lab environment. By integrating DHCP with the domain setup, I enabled centralized control of network resources and reduced the risk of IP conflicts or manual misconfiguration.
 
-**💼 Key skills demonstrated:**
+**💼 Key skills demonstrated**
 
 - Installing and authorizing the DHCP server role
 - Creating and managing IP address scopes

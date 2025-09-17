@@ -24,7 +24,7 @@ After installing the AD DS role on the server, I promoted it to a Domain Control
 
 ![Domain Promotion Wizard Final Confirmation Screen](https://github.com/user-attachments/assets/a546e169-0eac-4ee6-85bf-0b825d36210c)
 
-📸 **Command Prompt With Ipconfig All Showing Domain Suffix**
+📸 **Command Prompt with Ipconfig all Showing Domain Suffix**
 
 ![Command Prompt With Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/57373b59-666c-48ae-81fe-155efae12f53)
 
@@ -88,39 +88,39 @@ Passwords were set to expire and require change on first login (except admin acc
 
 📸 **New User Creation Wizard in ADUC for Mei Guzha**
 
-<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Mei Guzha" src="https://github.com/user-attachments/assets/40bcfe3d-53fc-4a3a-8228-9de1d2a50301" />
+<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Mei Guzha" src="https://github.com/user-attachments/assets/40bcfe3d-53fc-4a3a-8228-9de1d2a50301" /><br />
 
 📸 **New User Creation Wizard in ADUC for Lana Guzha**
 
-<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Lana Guzha" src="https://github.com/user-attachments/assets/0f62ff2c-42a5-437e-b8d7-f3de214683ad" />
+<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Lana Guzha" src="https://github.com/user-attachments/assets/0f62ff2c-42a5-437e-b8d7-f3de214683ad" /><br />
 
 📸 **New User Creation Wizard in ADUC for Tech User1**
 
-<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Tech User1" src="https://github.com/user-attachments/assets/d29be4ee-a9bd-466c-8966-4635c6d7c894" />
+<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Tech User1" src="https://github.com/user-attachments/assets/d29be4ee-a9bd-466c-8966-4635c6d7c894" /><br />
 
 📸 **New User Creation Wizard in ADUC for Tech User2**
 
-<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Tech User2" src="https://github.com/user-attachments/assets/a5535c30-b06c-4ea4-b3b3-75dcb93dc5c3" />
+<img width="1920" height="909" alt="New User Creation Wizard in ADUC for Tech User2" src="https://github.com/user-attachments/assets/a5535c30-b06c-4ea4-b3b3-75dcb93dc5c3" /><br />
 
 📸 **1500 Users Creation Using PowerShell Script**
   
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script" src="https://github.com/user-attachments/assets/18ed5bfa-9d2c-49be-8691-d968c44b093c" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script" src="https://github.com/user-attachments/assets/18ed5bfa-9d2c-49be-8691-d968c44b093c" /><br />
 
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 1" src="https://github.com/user-attachments/assets/7a80ea6c-0989-4eaf-b51a-4595c063be04" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 1" src="https://github.com/user-attachments/assets/7a80ea6c-0989-4eaf-b51a-4595c063be04" /><br />
 
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 2" src="https://github.com/user-attachments/assets/a6a98e45-7ca5-4ca6-8a4b-a57398d5f979" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 2" src="https://github.com/user-attachments/assets/a6a98e45-7ca5-4ca6-8a4b-a57398d5f979" /><br />
 
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 3" src="https://github.com/user-attachments/assets/77b637f3-e853-4c0e-9763-627cd1a5c9db" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 3" src="https://github.com/user-attachments/assets/77b637f3-e853-4c0e-9763-627cd1a5c9db" /><br />
 
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 4" src="https://github.com/user-attachments/assets/705dc79c-e2e0-448a-af09-36f40d737298" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 4" src="https://github.com/user-attachments/assets/705dc79c-e2e0-448a-af09-36f40d737298" /><br />
 
 📸 **1500 Users Creation Confirmation**
 
-<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 5" src="https://github.com/user-attachments/assets/6ad17580-4509-48e4-a8b1-9c7e922f9a6d" />
+<img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 5" src="https://github.com/user-attachments/assets/6ad17580-4509-48e4-a8b1-9c7e922f9a6d" /><br />
 
 📸 **Users Created in ADUC Confirmation**
 
-[![Watch my video](https://img.youtube.com/vi/hIbdutpT678/0.jpg)](https://www.youtube.com/watch?v=hIbdutpT678)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9uszmZNl5tM?si=lKRgBpzomUWgZL9a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -156,67 +156,67 @@ I created security groups for access control and GPO scoping:
 
 📸 **Administrators Group Membership**
 
-<img width="1920" height="909" alt="Administrator Groups Membership" src="https://github.com/user-attachments/assets/21761d52-ac3e-4603-a374-98d956a9d09f" />
+<img width="1920" height="909" alt="Administrator Groups Membership" src="https://github.com/user-attachments/assets/21761d52-ac3e-4603-a374-98d956a9d09f" /><br />
 
 📸 **Domain Administrators Groups Membership**
 
-<img width="1920" height="909" alt="Domain Administrators Group Membership" src="https://github.com/user-attachments/assets/ef2c00b3-9649-4be7-b461-a6aa4a090fc6" />
+<img width="1920" height="909" alt="Domain Administrators Group Membership" src="https://github.com/user-attachments/assets/ef2c00b3-9649-4be7-b461-a6aa4a090fc6" /><br />
 
 📸 **Enterprise Administrators Groups Membership**
 
-<img width="1920" height="909" alt="Enterprise Administrators Group Membership" src="https://github.com/user-attachments/assets/d1062929-f6c2-4403-a5db-1d3a87986588" />
+<img width="1920" height="909" alt="Enterprise Administrators Group Membership" src="https://github.com/user-attachments/assets/d1062929-f6c2-4403-a5db-1d3a87986588" /><br />
 
 📸 **Accounting Managers Membership**
 
-<img width="1920" height="909" alt="Accounting Managers Membership" src="https://github.com/user-attachments/assets/d025394d-6424-4d76-a8e0-ebea532e36cb" />
+<img width="1920" height="909" alt="Accounting Managers Membership" src="https://github.com/user-attachments/assets/d025394d-6424-4d76-a8e0-ebea532e36cb" /><br />
 
 📸 **CustomerSupport Managers Membership**
 
-<img width="1920" height="909" alt="CustomerSupport Managers Membership" src="https://github.com/user-attachments/assets/6931f596-b8d3-4596-8d24-df7844b5b5e0" />
+<img width="1920" height="909" alt="CustomerSupport Managers Membership" src="https://github.com/user-attachments/assets/6931f596-b8d3-4596-8d24-df7844b5b5e0" /><br />
 
 📸 **Finance Managers Membership**
 
-<img width="1920" height="909" alt="Finance Managers Membership" src="https://github.com/user-attachments/assets/3c34f08f-672f-4590-9224-9d543c90b080" />
+<img width="1920" height="909" alt="Finance Managers Membership" src="https://github.com/user-attachments/assets/3c34f08f-672f-4590-9224-9d543c90b080" /><br />
 
 📸 **Human Resources Managers Membership**
 
-<img width="1920" height="909" alt="Human Resources Managers Membership" src="https://github.com/user-attachments/assets/956d9e04-f349-44f4-a2e6-750992814e49" />
+<img width="1920" height="909" alt="Human Resources Managers Membership" src="https://github.com/user-attachments/assets/956d9e04-f349-44f4-a2e6-750992814e49" /><br />
 
 📸 **IT Managers Membership**
 
-<img width="1920" height="909" alt="IT Managers Membership" src="https://github.com/user-attachments/assets/26df0a5e-789c-4147-9f79-c49d155705f1" />
+<img width="1920" height="909" alt="IT Managers Membership" src="https://github.com/user-attachments/assets/26df0a5e-789c-4147-9f79-c49d155705f1" /><br />
 
 📸 **IT Security Membership**
 
-<img width="1920" height="909" alt="IT Security Managers Membership" src="https://github.com/user-attachments/assets/6ded392e-9b9e-4dfc-bd13-5e4547cdc748" />
+<img width="1920" height="909" alt="IT Security Managers Membership" src="https://github.com/user-attachments/assets/6ded392e-9b9e-4dfc-bd13-5e4547cdc748" /><br />
 
 📸 **IT Support Membership**
 
-<img width="1920" height="909" alt="IT Support Managers Membership" src="https://github.com/user-attachments/assets/cc286ad6-01fd-48b5-9ac7-6a8702c8b530" />
+<img width="1920" height="909" alt="IT Support Managers Membership" src="https://github.com/user-attachments/assets/cc286ad6-01fd-48b5-9ac7-6a8702c8b530" /><br />
 
 📸 **Legal Managers Membership**
 
-<img width="1920" height="909" alt="Legal Managers Membership" src="https://github.com/user-attachments/assets/4dfa1fa9-3fdf-49b9-88b3-4f68fc4046fb" />
+<img width="1920" height="909" alt="Legal Managers Membership" src="https://github.com/user-attachments/assets/4dfa1fa9-3fdf-49b9-88b3-4f68fc4046fb" /><br />
 
 📸 **Marketing Managers Membership**
 
-<img width="1920" height="909" alt="Marketing Managers Membership" src="https://github.com/user-attachments/assets/27e4146b-b3ca-44cf-9abb-c357c7d09a6d" />
+<img width="1920" height="909" alt="Marketing Managers Membership" src="https://github.com/user-attachments/assets/27e4146b-b3ca-44cf-9abb-c357c7d09a6d" /><br />
 
 📸 **Operations Managers Membership**
 
-<img width="1920" height="909" alt="Operations Managers Membership" src="https://github.com/user-attachments/assets/782c9696-ae09-456c-ac36-eb607df0a2a0" />
+<img width="1920" height="909" alt="Operations Managers Membership" src="https://github.com/user-attachments/assets/782c9696-ae09-456c-ac36-eb607df0a2a0" /><br />
 
 📸 **Product Management Managers Membership**
 
-<img width="1920" height="909" alt="Product Managers Membership" src="https://github.com/user-attachments/assets/6533b3d0-4cd0-422e-8c07-ffa8ecb3431b" />
+<img width="1920" height="909" alt="Product Managers Membership" src="https://github.com/user-attachments/assets/6533b3d0-4cd0-422e-8c07-ffa8ecb3431b" /><br />
 
 📸 **Research Managers Membership**
 
-<img width="1920" height="909" alt="Research Managers Membership" src="https://github.com/user-attachments/assets/afe52544-e566-4499-b211-5d77734c48f4" />
+<img width="1920" height="909" alt="Research Managers Membership" src="https://github.com/user-attachments/assets/afe52544-e566-4499-b211-5d77734c48f4" /><br />
 
 📸 **Sales Managers Membership**
 
-<img width="1920" height="909" alt="Sales Managers Membership" src="https://github.com/user-attachments/assets/ab8575f6-208c-4cd4-b01b-7a80c77224bf" />
+<img width="1920" height="909" alt="Sales Managers Membership" src="https://github.com/user-attachments/assets/ab8575f6-208c-4cd4-b01b-7a80c77224bf" /><br />
 
 ---
 

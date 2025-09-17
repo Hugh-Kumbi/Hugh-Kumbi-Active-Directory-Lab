@@ -15,6 +15,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 <img width="1920" height="909" alt="Add Roles and Features Wizard with DHCP Server Role Selected 9" src="https://github.com/user-attachments/assets/f204ddfa-8f71-471a-a7ff-bb097ae7db7f" /><br />
 
 📸 **Server Authorization**
+
 <img width="1920" height="909" alt="DHCP Post-Install Configuration 2" src="https://github.com/user-attachments/assets/410ec77d-e435-4be2-9e0c-7129afadd852" />
 
 ### 2. Scope Creation and Configuration

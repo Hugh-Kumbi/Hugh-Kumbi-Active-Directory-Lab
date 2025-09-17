@@ -35,7 +35,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 ---
 
 ### 3. Client Configuration and Verification
--   Configured Windows 11 client network adapters for automatic (DHCP) IP and DNS acquisition.
+-   Configured Windows 11 Pro clients network adapters for automatic (DHCP) IP and DNS acquisition.
 -   Executed `ipconfig /release` and `ipconfig /renew` to force a DHCP request.
 -   Verified successful addressing via `ipconfig /all`, confirming:
     -   IP assignment from the defined scope.

@@ -23,7 +23,7 @@ Displays the manual IP address and DNS configuration required to support reliabl
 
    ![Network Settings Showing Static IP and DNS Config](https://github.com/user-attachments/assets/d0170b00-31ab-48cc-96e8-5b63ab36ee17)
 
-**4. System > About > Showing Kept Computer Name** 
+**4. System > About > Showing Changed Computer Name** 
 
 Confirms that the original computer name was changed during setup, which is a best practice before domain promotion.
 

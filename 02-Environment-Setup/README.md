@@ -17,10 +17,10 @@ The initial step involves setting up a Windows Server machine that will later be
 - **Installation of Windows Server:** Deployed Windows Server 2025 on a virtual machine using a hypervisor called VirtualBox.
 - **System Configuration:**
   - Assigned a static IP address to ensure consistent network communication.
-  - Kept the server hostname as `WIN-D2PQBCI88JQ` for easier identification.
+  - Changed the server hostname to `WinServer2025` for easier identification.
   - Updated the system with the latest patches and updates to ensure security and stability.
 
-Detailed instructions and configurations can be found in the `I. Windows-Server-Setup.md` file.
+Detailed instructions and configurations can be found in the [`I. Windows-Server-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md) file.
 
 ---
 
@@ -35,18 +35,18 @@ Set up Windows Client machines that will later join the Active Directory domain.
 - **Installation of Windows Client OS:** Deployed Windows 11 on virtual machines.
 - **System Configuration:**
   - Configured network settings to communicate with the Domain Controller.
-  - Kept the client machines identifiable hostnames namely `DESKTOP-74HPA3F` & `DESKTOP-2N3JERQ`.
+  - Changed the client machines to identifiable hostnames namely `AD-WIN11-01` & `AD-WIN11-02`.
   - Updated the systems with the latest patches and updates.
 
-Detailed instructions and configurations can be found in the `II. Windows-Client-Setup.md` file.
+Detailed instructions and configurations can be found in the [`II. Windows-Client-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/II.%20Windows-Client-Setup.md) file.
 
 ---
 
 ## 📂 Files Included
 
-- `I. Windows-Server-Setup.md`: Step-by-step guide for installing and configuring the Windows Server operating system.
-- `II. Windows-Client-Setup.md`: Instructions for setting up Windows Client machines to prepare them for domain joining.
-- `README.md`: This documentation file summarizing the environment setup steps and their significance.
+- [`I. Windows-Server-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md): Step-by-step guide for installing and configuring the Windows Server operating system.
+- [`II. Windows-Client-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/II.%20Windows-Client-Setup.md): Instructions for setting up Windows Client machines to prepare them for domain joining.
+- [`README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/README.md): This documentation file summarizing the environment setup steps and their significance.
 
 ---
 

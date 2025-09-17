@@ -60,15 +60,28 @@ This section details the deployment and configuration of a **Dynamic Host Config
 -   Confirmed active client leases in the **DHCP Console** under `Address Leases`, providing definitive server-side proof of functionality.
 
 ## 📸 Evidence of Success
-
 The implementation was validated through server and client-side screenshots, proving a fully operational state.
 
-| Description | Screenshot |
-| :--- | :--- |
-| **Authorized DHCP Server Console:** Green checkmark confirms successful AD authorization. | ![Authorized DHCP Server](https://github.com/user-attachments/assets/59565a59-559f-45fb-8b94-fa970d95828d) |
-| **Final DHCP Dashboard & Scope Overview:** Comprehensive view showing the active scope and client leases. | ![Final DHCP Dashboard](https://github.com/user-attachments/assets/07104801-01ac-4a3d-ada3-35683725e49d) |
-| **Client IP Assignment (`ipconfig /all`):** Proof of successful dynamic addressing and correct DNS configuration. | ![Client ipconfig](https://github.com/user-attachments/assets/fbc5b1f8-e41a-4503-b575-32f8e7695e66) |
-| **Active Address Leases:** The DHCP server correctly listing leased clients by hostname and IP. | ![Address Leases](https://github.com/user-attachments/assets/08fc0d95-cee4-455a-9062-eb59a1075752) |
+
+📸 **Authorized DHCP Server Console** 
+Green checkmark confirms successful AD authorization. 
+
+![Authorized DHCP Server](https://github.com/user-attachments/assets/59565a59-559f-45fb-8b94-fa970d95828d)
+
+📸 **Final DHCP Dashboard & Scope Overview** 
+Comprehensive view showing the active scope and client leases. 
+
+![Final DHCP Dashboard](https://github.com/user-attachments/assets/07104801-01ac-4a3d-ada3-35683725e49d) 
+
+📸 **Client IP Assignment (`ipconfig /all`)** 
+Proof of successful dynamic addressing and correct DNS configuration. 
+
+![Client ipconfig](https://github.com/user-attachments/assets/fbc5b1f8-e41a-4503-b575-32f8e7695e66)
+
+📸 **Active Address Leases** 
+The DHCP server correctly listing leased clients by hostname and IP. 
+
+![Address Leases](https://github.com/user-attachments/assets/08fc0d95-cee4-455a-9062-eb59a1075752)
 
 ---
 
@@ -77,15 +90,6 @@ The implementation was validated through server and client-side screenshots, pro
 -   **Centralized IP Management:** Automate the allocation of IP addresses and critical network settings from a single server.
 -   **Active Directory Integration:** Ensure clients automatically receive the correct DNS server setting (pointing to the Domain Controller) to maintain seamless domain functionality.
 -   **Operational Verification:** Confirm the server successfully authorizes and leases addresses, and clients correctly receive their configuration.
-
----
-
-## 🛠️ Technologies & Skills Demonstrated
-
--   **Windows Server 2025:** DHCP Server Role installation and management.
--   **Active Directory:** Server authorization and DNS integration.
--   **Networking:** TCP/IP, DHCP scopes, options (003 Router, 006 DNS), and lease management.
--   **Troubleshooting:** Client-side verification via Command Prompt (`ipconfig`).
 
 ---
 

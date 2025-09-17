@@ -16,7 +16,9 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 📸 **Server Authorization**
 
-<img width="1920" height="909" alt="DHCP Post-Install Configuration 2" src="https://github.com/user-attachments/assets/410ec77d-e435-4be2-9e0c-7129afadd852" />
+<img width="1920" height="909" alt="DHCP Post-Install Configuration 2" src="https://github.com/user-attachments/assets/410ec77d-e435-4be2-9e0c-7129afadd852" /><br />
+
+---
 
 ### 2. Scope Creation and Configuration
 -   Created a new IPv4 scope named `Hughdomain-Clients` with the range `192.168.1.100` to `192.168.1.200`.
@@ -50,7 +52,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 📸 **AD-WIN11-01 Client Configuration and Verification**
 
-<img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-02" src="https://github.com/user-attachments/assets/1d425cab-32f0-448a-816f-a6cf68a5a248" />
+<img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-02" src="https://github.com/user-attachments/assets/1d425cab-32f0-448a-816f-a6cf68a5a248" /><br />
 
 <img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-02 1" src="https://github.com/user-attachments/assets/b071240b-9d58-4404-95ea-5b1b4ff29f33" />
 
@@ -61,7 +63,6 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 ## 🧾 Evidence of Success
 The implementation was validated through server and client-side screenshots, proving a fully operational state.
-
 
 📸 **Authorized DHCP Server Console** 
 Green checkmark confirms successful AD authorization. 

@@ -59,7 +59,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 ### 4. Server-Side Lease Verification
 -   Confirmed active client leases in the **DHCP Console** under `Address Leases`, providing definitive server-side proof of functionality.
 
-## Evidence of Success
+## 🧾 Evidence of Success
 The implementation was validated through server and client-side screenshots, proving a fully operational state.
 
 

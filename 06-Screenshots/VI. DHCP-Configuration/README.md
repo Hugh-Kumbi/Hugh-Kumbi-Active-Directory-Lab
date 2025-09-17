@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/c766ad74-e90c-45d4-9b81-575ddbee8773" /># 📡 DHCP-Configuration for Active Directory
+# 📡 DHCP-Configuration for Active Directory
 
 This section details the deployment and configuration of a **Dynamic Host Configuration Protocol (DHCP)** server on **Windows Server 2025** within an isolated Active Directory domain (`hughdomain.local`). The primary objective was to automate IP address management for domain-joined **Windows 11 Pro clients**, eliminating manual configuration, preventing IP conflicts, and establishing a centralized networking foundation that mirrors enterprise environments.
 

@@ -12,7 +12,7 @@ I created two new VMs in **VirtualBox** with the following specifications:
 - **OS:** Windows 11 Pro
 - **RAM:** 4 GB each
 - **CPU:** 2 cores each
-- **Disk:** 60 GB each
+- **Disk:** 80 GB each
 - **Network Adapter:** Internal Network (same as Domain Controller)
 
 📸 **VirtualBox Virtual Machine General Settings for AD-WIN11-01**

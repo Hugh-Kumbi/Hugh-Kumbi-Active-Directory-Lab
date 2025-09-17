@@ -1,4 +1,4 @@
-# 📡 DHCP-Configuration for Active Directory
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/c766ad74-e90c-45d4-9b81-575ddbee8773" /># 📡 DHCP-Configuration for Active Directory
 
 This section details the deployment and configuration of a **Dynamic Host Configuration Protocol (DHCP)** server on **Windows Server 2025** within an isolated Active Directory domain (`hughdomain.local`). The primary objective was to automate IP address management for domain-joined **Windows 11 Pro clients**, eliminating manual configuration, preventing IP conflicts, and establishing a centralized networking foundation that mirrors enterprise environments.
 
@@ -6,7 +6,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 ## 🔧 Configuration Steps Summary
 
-### 1. Installation and Authorization
+### 1. 🛂 Installation and Authorization
 -   Installed the DHCP Server role via Server Manager's "Add Roles and Features Wizard."
 -   **Authorized the server** in Active Directory through the DHCP console, a critical security step to prevent rogue DHCP servers on the network.
 
@@ -20,7 +20,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 ---
 
-### 2. Scope Creation and Configuration
+### 2. 🎛 Scope Creation and Configuration
 -   Created a new IPv4 scope named `Hughdomain-Clients` with the range `192.168.1.100` to `192.168.1.200`.
 -   Configured essential DHCP Options:
     -   **003 Router (Default Gateway):** `192.168.1.1`
@@ -36,7 +36,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 ---
 
-### 3. Client Configuration and Verification
+### 3. 🪪 Client Configuration and Verification
 -   Configured Windows 11 Pro clients network adapters for automatic (DHCP) IP and DNS acquisition.
 -   Executed `ipconfig /release` and `ipconfig /renew` to force a DHCP request.
 -   Verified successful addressing via `ipconfig /all`, confirming:
@@ -58,7 +58,7 @@ This section details the deployment and configuration of a **Dynamic Host Config
 
 ---
 
-### 4. Server-Side Lease Verification
+### 4. 🏠 Server-Side Lease Verification
 -   Confirmed active client leases in the **DHCP Console** under `Address Leases`, providing definitive server-side proof of functionality.
 
 ## 🧾 Evidence of Success

@@ -80,7 +80,7 @@ This section documents the DNS setup and verification process that supports the 
 
 ### 📸 Output from `ping` Commands for Hostname and IP Resolution
 
-![Output From Ping Commands For Hostname and IP Resolution](https://github.com/user-attachments/assets/4399c704-b426-4fd2-a349-3532c22f2d9d)
+![Output from ping Commands for Hostname and IP Resolution](https://github.com/user-attachments/assets/50a58e4a-5119-4ca6-bf5e-4155da8388c5)
 
 ## 9. Output from `nslookup` Commands For Hostname and IP Resolution
 

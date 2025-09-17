@@ -5,7 +5,7 @@ This section contains screenshots documenting the step-by-step setup of the doma
 ---
 
 ## 📸 Screenshot Descriptions:
-**1. Installation Setup Screen With Edition Selection** 
+**1. Installation Setup Screen with Edition Selection** 
 
 Shows the Windows Server 2025 installer where the Server edition was selected before proceeding with the installation.
 

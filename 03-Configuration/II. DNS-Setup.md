@@ -160,7 +160,7 @@ To ensure everything worked:
 
 ![Output from `gpresult` Command for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/3087e4d0-7ecd-4f17-95c2-ccf76b4fdb89)
 
-📸 **Output from `nslookup` to Confirm The DNS Server Response for `AD-WIN11-02`**
+📸 **Output from `nslookup` to Confirm the DNS Server Response for `AD-WIN11-02`**
 
 ![Output from `nslookup` to Confirm The DNS Server Response for `AD-WIN11-02`](https://github.com/user-attachments/assets/df5988db-2130-464e-a896-44735dda2ea8)
 
@@ -178,6 +178,5 @@ To ensure everything worked:
 
 ## 📁 5. Screenshot Storage
 
-All screenshots for this section should be placed in:
-
-  📂 [`06-Screenshots/DNS-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/README.md)
+All screenshots for this section should be placed in:<br />
+📂 [`06-Screenshots/V. DNS-Setup/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/README.md)

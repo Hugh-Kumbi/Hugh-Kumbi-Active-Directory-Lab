@@ -6,13 +6,13 @@ This section includes screenshots that document the full process of configuring 
 
 ## 📸 Screenshot Descriptions:
 
-**1. VirtualBox VM Settings for DESKTOP-2N3JERQ**
+**1. VirtualBox VM Settings for AD-WIN11-02**
 
 - Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
 
-📸 **VirtualBox VM Settings for DESKTOP-2N3JERQ:**
+📸 **VirtualBox VM Settings for AD-WIN11-02:**
 
-![VirtualBox VM settings for DESKTOP-2N3JERQ 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
+![VirtualBox VM settings for AD-WIN11-02 1](https://github.com/user-attachments/assets/3b785c61-b39c-4bbf-8f2b-835eb31921fe)
 
 ![VirtualBox VM settings for DESKTOP-2N3JERQ 2](https://github.com/user-attachments/assets/796dd80a-70fe-4fc6-a990-0032bd4d966f)
 

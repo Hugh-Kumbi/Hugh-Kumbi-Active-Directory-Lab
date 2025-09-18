@@ -45,6 +45,18 @@ This section documents the installation and configuration of **Active Directory 
 
 📸 **Root CA GPO Configuration**
 
+<img width="1920" height="909" alt="RootCA Distribution Policy" src="https://github.com/user-attachments/assets/017edd80-8a1f-4d5a-be13-60a263535d45" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 1" src="https://github.com/user-attachments/assets/3c086634-d98b-40b3-94a9-e4d4e0f25484" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 2" src="https://github.com/user-attachments/assets/c43f3be8-9158-4a8c-864e-9dfd893fdaf8" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 3" src="https://github.com/user-attachments/assets/bbd9d479-71b4-4747-817f-ac0ccb1163b9" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 4" src="https://github.com/user-attachments/assets/afd3685d-ffd2-4030-8cc0-24dc0e1ff22b" /><br />
+
+<img width="1920" height="909" alt="RootCA Successfully imported" src="https://github.com/user-attachments/assets/4b3d5fed-e312-4ea4-9145-e501a5aa3377" /><br />
+
 ---
 
 4. **✔️ Verification**  

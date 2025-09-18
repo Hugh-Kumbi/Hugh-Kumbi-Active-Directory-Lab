@@ -150,7 +150,7 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
 
 ### 5. 📥 Install Web Enrollment
 
-To simulate a certificate request portal, I installed **Certificate Authority Web Enrollment**, which allows users to request and retrieve certificates via a browser interface.
+After publishing the Root CA certificate via Group Policy, I verified that the **Certificate Authority Web Enrollment** portal was accessible from both the server and domain-joined clients. Access was successful using the FQDN `https://WinServer2025.hughdomain.local/certsrv`.
 
 📸 **Web Enrollment Site on the CA Server**
 

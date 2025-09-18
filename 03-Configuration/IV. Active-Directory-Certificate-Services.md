@@ -134,13 +134,35 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
 
 📸 **Root CA GPO Configuration**
 
+<img width="1920" height="909" alt="RootCA Distribution Policy" src="https://github.com/user-attachments/assets/017edd80-8a1f-4d5a-be13-60a263535d45" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 1" src="https://github.com/user-attachments/assets/3c086634-d98b-40b3-94a9-e4d4e0f25484" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 2" src="https://github.com/user-attachments/assets/c43f3be8-9158-4a8c-864e-9dfd893fdaf8" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 3" src="https://github.com/user-attachments/assets/bbd9d479-71b4-4747-817f-ac0ccb1163b9" /><br />
+
+<img width="1920" height="909" alt="RootCA Distribution Policy 4" src="https://github.com/user-attachments/assets/afd3685d-ffd2-4030-8cc0-24dc0e1ff22b" /><br />
+
+<img width="1920" height="909" alt="RootCA Successfully imported" src="https://github.com/user-attachments/assets/4b3d5fed-e312-4ea4-9145-e501a5aa3377" /><br />
+
 ---
 
-### 5. Optional: 📥 Install Web Enrollment
+### 5. 📥 Install Web Enrollment
 
-To simulate a certificate request portal, I optionally installed **Certificate Authority Web Enrollment**, which allows users to request and retrieve certificates via a browser interface.
+To simulate a certificate request portal, I installed **Certificate Authority Web Enrollment**, which allows users to request and retrieve certificates via a browser interface.
 
-📸 **Web Enrollment Page (certsrv)**
+📸 **Web Enrollment Site on the CA Server**
+
+<img width="1920" height="909" alt="Web Enrollment Site on the CA Server" src="https://github.com/user-attachments/assets/31ca30f1-fbbf-40fb-8800-bfcf215d226c" /><br />
+
+📸 **Web Enrollment Site on the CA Server AD-WIN11-01**
+
+<img width="1920" height="909" alt="Web Enrollment Site on the CA Server AD-WIN11-01" src="https://github.com/user-attachments/assets/32bc62bd-22c8-4a90-bad0-000e62562848" /><br />
+
+📸 **Web Enrollment Site on the CA Server AD-WIN11-02**
+
+<img width="1920" height="909" alt="Web Enrollment Site on the CA AD-WIN11-02" src="https://github.com/user-attachments/assets/61b7b2fb-6933-407c-bf39-433db4ad25bd" />
 
 ---
 
@@ -148,11 +170,17 @@ To simulate a certificate request portal, I optionally installed **Certificate A
 
 By installing and configuring AD CS, I established a foundational internal PKI within my Active Directory lab. This service enables secure identity verification and supports various enterprise features such as BitLocker encryption, S/MIME, and certificate-based authentication. The configuration of the CA, key parameters, and trust distribution showcases my ability to manage core security infrastructure in a Windows Server environment.
 
-📸 **CA Root Certificate Installed on Client Machine**
+📸 **CA Root Certificate Installed on AD-WIN11-01**
+
+<img width="1920" height="909" alt="CA Root Certificate Installed on AD-WIN11-01" src="https://github.com/user-attachments/assets/43249b7a-4346-4e0a-b5cc-02ece0cef7a1" /><br />
+
+📸 **CA Root Certificate Installed on AD-WIN11-02**
+
+<img width="1920" height="909" alt="CA Root Certificate Installed on AD-WIN11-02" src="https://github.com/user-attachments/assets/17df66ff-60f6-46b6-8970-ae66e3bd1dfe" />
 
 ---
 
 ## 📁 6. Screenshot Storage
 
 All screenshots for this section should be placed in:  
-📂 [`06-Screenshots/IV. Active-Directory-Setup.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IV.%20Active-Directory-Setup/README.md)
+📂 [`06-Screenshots/VII. Active-Directory-Certificate-Services/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Active-Directory-Certificate-Services/README.md)

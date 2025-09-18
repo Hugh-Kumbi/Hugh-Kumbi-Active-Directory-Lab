@@ -17,10 +17,11 @@ This section documents the installation and configuration of **Active Directory 
 1. **📦 Role Installation**  
    Installed the **Active Directory Certificate Services** role using Server Manager with the following role services:
    - Certification Authority
+   - Certification Authority Web Enrollment
 
 📸 **Server Role Selection**
 
-![Active Directory Certificate Services (AD CS) Installation 6](https://github.com/user-attachments/assets/f956db8a-1a5e-4775-a8ef-7c98dcd4049e)
+![AD CS Server Role Selection](https://github.com/user-attachments/assets/a35854bd-81f3-4d09-8680-97323ba0823f)
 
 ---
 
@@ -35,7 +36,7 @@ This section documents the installation and configuration of **Active Directory 
 
 📸 **AD CS Configuration Wizard Results**
 
-![Specify Credentials to Configure Role Services 11](https://github.com/user-attachments/assets/66071b85-11cc-4ce6-b0cb-d6665ffe3a58)
+![AD CS Configuration Wizard Results](https://github.com/user-attachments/assets/97b55a6b-4865-482e-9f6c-8a7299cb8cd5)
 
 ---
 

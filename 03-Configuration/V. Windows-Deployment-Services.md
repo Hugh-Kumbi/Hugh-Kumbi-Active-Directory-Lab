@@ -41,8 +41,6 @@ After installation, I launched the **WDS Configuration Wizard** from the **WDS c
 
 <img width="1920" height="909" alt="Configuring WDS 1" src="https://github.com/user-attachments/assets/46f60ab9-af15-4dc7-99b7-52cf82743a33" /><br />
 
-<img width="1920" height="909" alt="Configuring WDS 2" src="https://github.com/user-attachments/assets/0c803582-c457-4b18-96e5-29ff7911a16b" /><br />
-
 <img width="1920" height="909" alt="Configuring WDS 3" src="https://github.com/user-attachments/assets/3434b547-b2bf-49c3-91ae-97b25842a42e" /><br />
 
 <img width="1920" height="909" alt="Configuring WDS 4" src="https://github.com/user-attachments/assets/5323256c-8608-43e6-8c3f-2989da094f20" /><br />

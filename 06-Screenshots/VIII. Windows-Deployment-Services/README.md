@@ -1,1 +1,41 @@
 # 💻 Windows-Deployment-Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The above image corresponds to a step described in:<br /> 
+📂 [`03-Configuration/V. Windows-Deployment-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/V.%20Windows-Deployment-Services.md)

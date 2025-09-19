@@ -21,6 +21,8 @@ Using **Server Manager**, I installed the **Windows Deployment Services** role.
 
 📸 **WDS Role Installation in Server Manager**
 
+<img width="1920" height="909" alt="WDS Role Installation in Server Manager" src="https://github.com/user-attachments/assets/52244292-df8d-4f4d-a7d1-87972617f019" />
+
 ---
 
 ### 2. 🛠️ Configure WDS
@@ -34,6 +36,22 @@ After installation, I launched the **WDS Configuration Wizard** from the **WDS c
   - Require administrator approval (for controlled testing)
 
 📸 **WDS Configuration Wizard Summary Page**
+
+<img width="1920" height="909" alt="Configuring WDS" src="https://github.com/user-attachments/assets/e55afd25-0901-41a7-b1b7-a4a6ee32a83e" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 1" src="https://github.com/user-attachments/assets/46f60ab9-af15-4dc7-99b7-52cf82743a33" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 2" src="https://github.com/user-attachments/assets/0c803582-c457-4b18-96e5-29ff7911a16b" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 3" src="https://github.com/user-attachments/assets/3434b547-b2bf-49c3-91ae-97b25842a42e" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 4" src="https://github.com/user-attachments/assets/5323256c-8608-43e6-8c3f-2989da094f20" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 5" src="https://github.com/user-attachments/assets/8d249e11-661b-4355-8621-9148459384b1" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 6" src="https://github.com/user-attachments/assets/c8b2e6e6-42f8-4258-b53b-0a9d95261f82" /><br />
+
+<img width="1920" height="909" alt="Configuring WDS 7" src="https://github.com/user-attachments/assets/3a30fbdc-8ffc-4e91-984a-9f9542cd1065" />
 
 ---
 

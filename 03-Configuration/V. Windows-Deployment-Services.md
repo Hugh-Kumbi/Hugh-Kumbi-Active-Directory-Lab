@@ -30,7 +30,7 @@ Using **Server Manager**, I installed the **Windows Deployment Services** role.
 After installation, I launched the **WDS Configuration Wizard** from the **WDS console**:
 
 - **Server configuration**: Integrated with Active Directory
-- **RemoteInstall folder location**: D:\RemoteInstall
+- **RemoteInstall folder location**: F:\RemoteInstall
 - **PXE response settings**:
   - Respond to all client computers
   - Require administrator approval (for controlled testing)
@@ -103,7 +103,7 @@ I configured two Windows 11 VMs to boot from network:
 After image deployment:
 
 - The Windows 11 clients booted successfully into the Windows 11 environment
-- I joined both machines to the domain: `corp.local`
+- I joined both machines to the domain: `hughdomain.local`
 - Verified connectivity and domain group policy application
 
 📸 **Client Machine Joined to Domain**
@@ -118,5 +118,6 @@ By configuring Windows Deployment Services on Windows Server 2025, I successfull
 
 ---
 
-📁 5. Screenshot Storage
-All screenshots related to GPOs should be saved in: 📂 06-Screenshots/GPO-Configurations.png
+📁 6. Screenshot Storage
+All screenshots related to GPOs should be saved in:<br />
+📂 [`06-Screenshots/VIII. Windows-Deployment-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Windows-Deployment-Services/README.md)

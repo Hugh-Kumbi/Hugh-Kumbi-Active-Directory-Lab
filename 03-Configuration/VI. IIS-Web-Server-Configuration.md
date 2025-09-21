@@ -45,7 +45,7 @@ To demonstrate internal web hosting:
 - Edited the file to display a custom message:  
   `"Welcome to the Internal Web Server - Configured by Hugh Chanetsa"`
 
-📸 **Modified `index.html` in Notepad & VS Code**
+📸 **Modified `index.html` in Notepad**
 
 ---
 
@@ -54,10 +54,12 @@ To demonstrate internal web hosting:
 From each domain-joined Windows 11 client:
 
 - Opened a web browser and entered the IP address of the server, e.g.,  
-  `http://192.168.1.10`
+  `https://192.168.1.10` & `https://winserver2025.hughdomain.local`
 - The custom internal web page loaded successfully, verifying LAN accessibility
 
-📸 **Custom Web Page Displayed in Browser on Client Machine**
+📸 **Custom Web Page Displayed in Browser on AD-WIN11-01**
+
+📸 **Custom Web Page Displayed in Browser on AD-WIN11-02**
 
 ---
 
@@ -72,7 +74,7 @@ For extended functionality:
   - Binding: `http`, Port: `8080`
 - Created an `index.html` in the new folder with a custom message
 - Opened firewall port 8080 and tested in browser:  
-  `http://<Server-IP>:8080`
+  `http://192.168.1.10:8080`
 
 📸 **IIS Manager Showing Custom Website**
 
@@ -89,9 +91,15 @@ In this lab, I successfully installed and configured **IIS Web Server** on Windo
 - Host and serve basic web content
 - Test network functionality across Active Directory-connected endpoints
 
-📸 **Final Setup (Server + Client Browser View)**
+📸 **Final Setup (WinServer2025 + Client Browser View)**
+
+📸 **Final Setup (AD-WIN11-01)**
+
+📸 **Final Setup (AD-WIN11-02)**
+
 
 ---
 
-📁 5. Screenshot Storage
-All screenshots related to GPOs should be saved in: 📂 06-Screenshots/GPO-Configurations.png
+📁 6. Screenshot Storage
+All screenshots related to GPOs should be saved in:<br />
+📂 [`06-Screenshots/IX. IIS-Web-Server-Configuration/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IX.%20IIS-Web-Server-Configuration/README.md)

@@ -10,7 +10,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **ADUC Showing OU Hierarchy**
 
-![Active Directory Users and Computers (ADUC) Showing OU Hierarchy](https://github.com/user-attachments/assets/2b973543-84a9-4c91-b5fd-ec6f52ce4fc6)
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy" src="https://github.com/user-attachments/assets/bd73f319-b5fb-4471-91d2-0144f0b791ba" />
 
 ---
 

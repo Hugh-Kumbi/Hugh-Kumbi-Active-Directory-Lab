@@ -10,17 +10,19 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **ADUC Showing OU Hierarchy**
 
-<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy" src="https://github.com/user-attachments/assets/bd73f319-b5fb-4471-91d2-0144f0b791ba" />
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy" src="https://github.com/user-attachments/assets/3ff7c471-fba8-49c1-9438-7c0aaa92fa3a" /><br />
+
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy 1" src="https://github.com/user-attachments/assets/79a49d22-d88a-45a9-b41d-e9b45435384a" />
 
 ---
 
-**2. GPMC With List of GPOs**
+**2. GPMC with List of GPOs**
 
 - Displays all configured GPOs, including baseline policies, startup/shutdown scripts, and user environment configurations.
 
-📸 **GPMC With List of GPOs**
+📸 **GPMC with List of GPOs**
 
-![Group Policy Management Console - GPO List](https://github.com/user-attachments/assets/cddf40b7-62a0-4cc8-b8a9-dcf1289153cb)
+<img width="1920" height="909" alt="GPMC With List of GPOs" src="https://github.com/user-attachments/assets/3e4e5d94-0192-4e77-b2fe-eeed535764d3" />
 
 ---
 
@@ -30,15 +32,13 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **Link Status to Respective OUs**
 
-![Link Status to Domain Root](https://github.com/user-attachments/assets/8419880b-5c0e-4bca-a39e-d3c28cf0d956)
+<img width="1920" height="909" alt="Link Status to Domain Root" src="https://github.com/user-attachments/assets/0beb3f76-8455-4979-a7e9-df1096964e67" /><br />
 
-![Link Status to Domain Controller](https://github.com/user-attachments/assets/1b625100-a06a-4aba-a13c-812f6016af31)
+<img width="1920" height="909" alt="Link Status to Domain Controller" src="https://github.com/user-attachments/assets/20fe3942-ba7a-4253-a659-c13133411d16" /><br />
 
-![Link Status to Groups OU](https://github.com/user-attachments/assets/439629b7-8078-450e-8756-7ec81a192a3c)
+<img width="1920" height="909" alt="Link Status to Employees OU" src="https://github.com/user-attachments/assets/938e7fc0-b2fd-4eca-89ff-bb323f0e3d07" /><br />
 
-![Link Status to Tech OU](https://github.com/user-attachments/assets/4f1e9f37-e83f-4353-bea0-a0b7b3e51d34)
-
-![Link Status to IT Computers](https://github.com/user-attachments/assets/e8c0540a-aac3-4f7a-acd3-c6c42398c65b)
+<img width="1920" height="909" alt="Link Status to MeiVaultComputers OU" src="https://github.com/user-attachments/assets/38dd2f34-ac34-484b-99de-fcdd180da44d" />
 
 ---
 
@@ -48,7 +48,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **GPMC Showing GPO Inheritance Settings**
 
-![GPMC Showing GPO Inheritance Settings for Domain oot](https://github.com/user-attachments/assets/074de9ee-94c7-49cc-99be-05c6fa7346e2)
+<img width="1920" height="909" alt="GPMC Showing GPO Inheritance Settings" src="https://github.com/user-attachments/assets/2b5316bf-278c-43b2-aa4c-05c408220021" />
 
 ---
 
@@ -63,35 +63,53 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 ---
 
-**6. Command Line Results From `gpupdate`**
+**6. Command Line Results from `gpupdate`**
 
 - Confirms successful refresh of Group Policy on a client system, ensuring policies are up to date.
 
-📸 **Command Line Results From gpupdate**
+📸 **Command Line Results from `gpupdate on AD-WIN11-01`**
 
-![Command Line Results From gpupdate](https://github.com/user-attachments/assets/393227ba-3625-4c5f-b801-b0d39e827a24)
+<img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-01" src="https://github.com/user-attachments/assets/41826450-1146-41d9-96c9-bdcd52d27913" /><br />
+
+📸 **Command Line Results from `gpupdate on AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-02" src="https://github.com/user-attachments/assets/7f0712eb-03c3-482b-b612-57857fd01003" />
 
 ---
 
-**7. Command Line Results From `gpresult`**
+**7. Command Line Results from `gpresult`**
 
 - Shows a summary of the applied policies on the system, confirming expected GPOs are enforced.
 
-📸 **Command Line Results From gpresult**
+📸 **Command Line Results from `gpresult on AD-WIN11-01`**
 
-![Group Policy Results 1](https://github.com/user-attachments/assets/6d3b0ed5-fea1-491e-94df-7df944c765e0)
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
-![Grop Policy Results 2](https://github.com/user-attachments/assets/6bcddea7-d1d5-4e53-b2b6-20641a4e393b)
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 1" src="https://github.com/user-attachments/assets/11880d48-7cb0-4022-bc07-5237ce9643d2" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 2" src="https://github.com/user-attachments/assets/af2add1e-cbf8-4920-aaaf-fb0b4351af76" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
+
+📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 1" src="https://github.com/user-attachments/assets/69a415e4-9a35-463d-a468-fc67b491b886" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 2" src="https://github.com/user-attachments/assets/474653f7-5c7b-4302-b729-4c44da093cdb" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 3" src="https://github.com/user-attachments/assets/e05a1653-6ae6-4934-8fb1-2b34e7f88149" /><br />
 
 ---
 
-**8. Command Line Results From `repadmin syncall AdeP`**
+**8. Command Line Results from `repadmin syncall AdeP`**
 
 - Validates successful Active Directory replication, ensuring GPOs are synchronized across domain controllers.
 
-📸 **Command Line Results From Repadmin Syncall AdeP**
+📸 **Command Line Results from Repadmin Syncall AdeP**
 
-![Command Line Results From Repadmin Syncall AdeP](https://github.com/user-attachments/assets/e6cb722d-b5fc-41ca-973a-22f2f56adfc1)
+<img width="1920" height="909" alt="Command Line Results from Repadmin Syncall AdeP" src="https://github.com/user-attachments/assets/636556ea-0c17-44d8-ac34-1151c18b3ec6" />
 
 ---
 
@@ -99,11 +117,11 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 - Displays log entries that confirm the successful application of Group Policy on client systems, useful for troubleshooting.
 
-📸 **Event Viewer logs confirming GPO application**
+📸 **Event Viewer Logs confirming GPO application**
 
-![Event Viewer logs Confirming GPO Application](https://github.com/user-attachments/assets/2b27071d-d616-4de8-bb5d-932dfeff5ae7)
+<img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" />/>
 
 ---
 
-Each image corresponds to a step described in 📂 03-Configuration/GPO-Configurations.md
-
+Each image corresponds to a step described in: <br />
+📂 [`03-Configuration/VII. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md)

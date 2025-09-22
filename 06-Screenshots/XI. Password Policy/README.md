@@ -63,11 +63,11 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 - Verifies that the policy is successfully applied to the client machine, with the Win11 Security Policy listed as an active GPO.
 
-📸 **`gpresult /force` Output on `AD-WIN11-01**
+📸 **`gpresult /r` Output on `AD-WIN11-01**
 
 ![`gpresult` Showing WIN Security Policy Application 1](https://github.com/user-attachments/assets/c63c2776-fa06-4c92-bdc7-04b2bb9a799c)
 
-📸 **`gpresult /force` Output on `AD-WIN11-02**
+📸 **`gpresult /r` Output on `AD-WIN11-02**
 
 ![`gpresult` Showing WIN Security Policy Application 2](https://github.com/user-attachments/assets/9b587325-82d6-496c-b71c-08e89f52737d)
 

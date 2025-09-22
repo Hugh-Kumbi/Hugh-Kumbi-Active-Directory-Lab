@@ -19,8 +19,7 @@ This policy was created using the **Group Policy Management Console (GPMC)** and
 
 ## ⚙️ 2. Policy Settings
 
-The following settings were configured under:
-
+The following settings were configured under:<br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 | Setting                                         | Value                   |
@@ -56,7 +55,7 @@ These settings align with best practices and compliance requirements such as NIS
 
 ## ✅ 4. Testing and Validation
 
-- Logged into a test account and attempted to change the password using a weak one — blocked by GPO.
+Logged into a test account and attempted to change the password using a weak one — blocked by GPO.
 - Verified GPO application using:
 ```powershell
 gpresult /r
@@ -75,7 +74,7 @@ gpresult /r
 
 ![presult` Showing Password Policy Application for `AD-WIN11-02` 1](https://github.com/user-attachments/assets/3f5a2733-3c40-4425-9347-40b7e822cba5)
 
-📸 **Resultant Set of Policy for AD-WIN11-01**
+📸 **Resultant Set of Policy**
 
 ![Resultant Set of Policy](https://github.com/user-attachments/assets/da085e01-74f1-422b-a720-92ce52780b8e)
 

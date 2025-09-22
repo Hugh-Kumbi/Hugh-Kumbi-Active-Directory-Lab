@@ -58,8 +58,17 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **WMI Filter Applied**
 
+<img width="1920" height="909" alt="WMI Filter Applied" src="https://github.com/user-attachments/assets/93e7193c-fab6-41a8-8dda-879cc819adda" /><br />
 
 📸 **Security Filter Applied**
+
+<img width="1920" height="909" alt="Security Filter Applied" src="https://github.com/user-attachments/assets/e61dbe3f-2119-43b0-8275-96cfe0bebe09" />
+
+<img width="1920" height="909" alt="Security Filter Applied 1" src="https://github.com/user-attachments/assets/1804df48-2947-494a-8941-45bd6e4e0c38" />
+
+<img width="1920" height="909" alt="Security Filter Applied 3" src="https://github.com/user-attachments/assets/e6f76883-9886-4a72-8f96-9346653ce863" />
+
+<img width="1920" height="909" alt="Security Filter Applied 2" src="https://github.com/user-attachments/assets/99c02a0c-0f28-4d64-ac6b-35f96c5a5f87" />
 
 ---
 

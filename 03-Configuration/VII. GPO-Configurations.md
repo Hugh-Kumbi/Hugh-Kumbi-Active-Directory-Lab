@@ -47,6 +47,13 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | GPO Name                                        | Linked To           | Purpose                                                                 |
 |-------------------------------------------------|---------------------|-------------------------------------------------------------------------|
 | BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
 | Block VLC Media Player - AppLocker              | Tech OU             | Prevent the use of unauthorized media applications                      |
 | Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security           |
 | Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                             |
@@ -73,7 +80,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 
 📸 **GPMC With List of GPOs**
 
-![Group Policy Management Console - GPO List](https://github.com/user-attachments/assets/cddf40b7-62a0-4cc8-b8a9-dcf1289153cb)
+<img width="1920" height="909" alt="GPMC With List of GPOs" src="https://github.com/user-attachments/assets/3e4e5d94-0192-4e77-b2fe-eeed535764d3" />
 
 📸 **Link Status to Domain Root**
 

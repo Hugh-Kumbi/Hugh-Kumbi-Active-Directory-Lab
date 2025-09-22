@@ -76,11 +76,11 @@ gpresult /r
 
 📸 **Resultant Set of Policy**
 
-![Resultant Set of Policy](https://github.com/user-attachments/assets/da085e01-74f1-422b-a720-92ce52780b8e)
+<img width="1920" height="909" alt="Resultant Set of Policy for Password Policy" src="https://github.com/user-attachments/assets/abb5311c-ddb0-4985-94be-d3ea773f98dc" />
 
 ---
 
 ## 📁 6. Screenshot Storage
 
-All screenshots related to this section should be stored in:
+All screenshots related to this section should be stored in:<br />
 📂 [`06-Screenshots/XI. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/README.md)

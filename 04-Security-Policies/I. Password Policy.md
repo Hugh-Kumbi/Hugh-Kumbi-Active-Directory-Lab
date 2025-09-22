@@ -26,7 +26,7 @@ The following settings were configured under:<br />
 |-------------------------------------------------|-------------------------|
 | **Enforce password history**                    | 24 passwords remembered |
 | **Maximum password age**                        | 90 days                 |
-| **Minimum password age**                        | 1 day                   |
+| **Minimum password age**                        | 30 day                   |
 | **Minimum password length**                     | 12 characters           |
 | **Password must meet complexity requirements**  | Enabled                 |
 | **Store passwords using reversible encryption** | Disabled                |
@@ -35,7 +35,7 @@ These settings ensure users cannot reuse old passwords frequently, must use comp
 
 📸 **Group Policy Editor Window Showing the Password Policy Path**
 
-![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/f8b39093-d77c-4b89-8974-048946e32b7d)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Password Policy Path" src="https://github.com/user-attachments/assets/6c979a92-4794-418f-a77a-1f8f1a4be9d7" />
 
 ---
 

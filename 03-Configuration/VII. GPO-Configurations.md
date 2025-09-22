@@ -44,39 +44,42 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
 Created and linked GPOs to the appropriate OUs using the **Group Policy Management Console (GPMC)**.
 
 ### GPOs Implemented:
-| GPO Name                                        | Linked To           | Purpose                                                                 |
-|-------------------------------------------------|---------------------|-------------------------------------------------------------------------|
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| BitLocker Encryption Policy                     | IT Computers        | Enforces full-disk encryption using BitLocker to protect data at rest   |
-| Block VLC Media Player - AppLocker              | Tech OU             | Prevent the use of unauthorized media applications                      |
-| Browser Security Settings Policy                | Tech OU             | Configure Microsoft Edge settings to enhance browser security           |
-| Control Panel Restrictions                      | Tech OU             | Limit user access to control panel settings                             |
-| Default Domain Controller Policy                | Domain Controllers  | Strengthen authentication to mitigate brute-force attacks               |
-| Default Domain Policy                           | Domain Root         | Enable auditing of key system and user activities                       |
-| Desktop Wallpaper Policy                        | Tech OU             | Standardize desktop appearance across all user devices                  |
-| Disabling Unnecessary Windows Services Policy   | IT Computers        | Reduce attack surface by disabling non-essential services               |
-| Drive Mappings Policy                           | Tech OU             | Assign network drives based on user or group membership                 |
-| IPsec Authentication Policy                     | Domain Root         | Enforce secure communication through IPsec authentication               |
-| Logon-Logoff Scripts Policy                     | Tech OU             | Run custom scripts during user logon and logoff events                  |
-| Map Network Drives Policy                       | Groups OU           | Automatically connect users to shared network resources                 |
-| Network Security Settings Policy                | Domain Root         | Enhance remote access control for administrative accounts               |
-| Restricted Groups Policy                        | Domain Root         | Define and enforce group membership for privileged roles                |
-| Service Configuration Policy                    | IT Computers        | Harden systems by managing and securing Windows services                |
-| Software Deployment Google Chrome Policy        | IT Computers        | Automate installation of approved web browser software                  |
-| Start Menu and Taskbar Settings Policy          | Tech OU             | Customize user interface elements for consistency and control           |
-| Startup/Shutdown Scripts Policy                 | Tech OU             | Execute scripts during system startup and shutdown events               |
-| Temp_Cleaned_DC_Policy                          | Domain Controllers  | Clears temporary files and caches on Domain Controllers                 |
-| USB Restriction Policy                          | IT Computers        | Block the use of USB storage devices to prevent data leakage            |
-| User Folder Redirection Policy                  | Tech OU             | Redirect user data folders to centralized file servers                  |
-| Win11 Security Policy | Domain Root             | Domain Root         | Apply Windows 11-specific hardening configurations                      |
-| Windows Defender Settings Policy                | Domain Root         | Configure antivirus settings for enhanced endpoint protection           |
-| Windows Firewall Settings Policy                | Domain Root         | Enforce firewall rules to control inbound and outbound traffic          |
+| GPO Name                                                 | Linked To          | Purpose                                                                 |
+|----------------------------------------------------------|--------------------|-------------------------------------------------------------------------|
+| Account Lockout Policy                                   | Domain Root        | Mitigates brute-force password attacks by locking accounts after a specified number of failed login attempts, protecting against unauthorized access                                                             |
+| Audit Policy                                             | Domain Root        | Tracks and logs specific user and system activities (e.g., logon/logoff, file access, policy changes) for security monitoring, forensic analysis, and compliance                                                |
+| Auto Enrollment for Computer Certificate Policy          | Domain Root        | Automatically issues and manages digital certificates for domain-joined computers, enabling seamless use of technologies like IPsec, EFS, and wireless authentication                                        |
+| Auto Enrollment Certificate for ITSecurity Users Policy  | ITSecurity         | Automatically issues specific digital certificates to members of the ITSecurity group, enabling secure authentication, email signing, and encryption for privileged users                                        |
+| BitLocker DRA Deployment Policy                          | Domain Root        | Ensures that a Data Recovery Agent (DRA) certificate is backed up in Active Directory, allowing authorized IT personnel to recover data from BitLocker-encrypted drives if a password is lost or a user leaves   |
+| BitLocker Encryption Policy                              | MeiVaultComputers  | Enforces full-disk encryption using BitLocker to protect data at rest   |
+| Block VLC Media Player - AppLocker                       | Domain Root        | Prevent the use of unauthorized media applications                      |
+| Browser Security Settings Policy                         | Domain Root        | Configure Microsoft Edge settings to enhance browser security           |
+| Control Panel Restrictions                               | Employees          | Limit user access to control panel settings                             |
+| Default Domain Controller Policy                         | Domain Controllers | Contains default critical authentication settings for the domain. It is modified to strengthen security policies (like Kerberos) specifically for domain controllers                                          |
+| Default Domain Policy                                    | Domain Root        | Contains default settings for all users and computers in the domain. It is modified to establish baseline security settings, such as password policies, that apply domain-wide                                   |
+| Deploy HughDomain-WinServer2025 Certificate Policy       | Domain Root        | Deploys a specific trusted root or intermediate certificate authority certificate to all domain members, ensuring they trust services and applications signed by this CA                                           |
+| Desktop Wallpaper Policy                                 | Domain Root        | Standardize desktop appearance across all user devices                  |
+| Disabling Unnecessary Windows Services Policy            | Domain Root        | Reduce attack surface by disabling non-essential services               |
+| Drive Mappings Policy                                    | ITSecurity         | Assign network drives based on user or group membership                 |
+| Folder Redirection Policy                                | ITSecurity         | Redirects the contents of key user folders (e.g., Documents, Desktop) from the local computer to a network share, ensuring data is centrally stored and backed up                                              |
+| IPsec Authentication Policy                              | Domain Root        | Enforce secure communication through IPsec authentication               |
+| Local Administrator Restrictions Policy                  | Employees          | Prevents standard user accounts from being added to the local administrators group on workstations, adhering to the principle of least privilege and reducing malware impact.                                   |
+| Logon-Logoff Scripts Policy                              | Employees          | Run custom scripts during user logon and logoff events                  |
+| Map Network Drives Policy                                | Employees          | Automatically connect users to shared network resources                 |
+| Network Security Settings Policy                         | Domain Root        | Configures protocols like NTLM, LDAP, and SMB to use stronger security features (e.g., LDAP signing, SMB encryption) to protect network traffic from interception and relay attacks.                             |
+| Password Policy                                          | Domain Root        | Defines requirements for user password complexity, length, age, and history to enforce strong authentication credentials and protect against password guessing.                                                  |
+| Restricted Groups Policy                                 | Domain Root        | Define and enforce group membership for privileged roles                |
+| Root CA Distribution Policy                              | Domain Root        | Uses Group Policy to automatically install the organization's trusted Root Certificate Authority certificate onto all domain-joined machines, ensuring they trust internally issued certificates                 |
+| Security Scripts Policy                                  | Employees          | 	Executes custom scripts (e.g., for environment configuration, security checks, or compliance reporting) on user workstations to enforce security posture and operational standards                          |
+| Software Deployment Google Chrome Policy                 | Domain Root        | Automate installation of approved web browser software                  |
+| Start Menu and Taskbar Settings Policy                   | Domain Root        | Customize user interface elements for consistency and control           |
+| Startup/Shutdown Scripts Policy                          | Employees          | Execute scripts during system startup and shutdown events               |
+| Temp_Cleaned_DC_Policy                                   | Domain Controllers | Clears temporary files and caches on Domain Controllers                 |
+| USB Restriction Policy                                   | MeiVaultComputers  | Block the use of USB storage devices to prevent data leakage            |
+| User Folder Redirection Policy                           | Employees          | Redirect user data folders to centralized file servers                  |
+| Win11 Security Policy | Domain Root                      | Domain Root        | Apply Windows 11-specific hardening configurations                      |
+| Windows Defender Settings Policy                         | Domain Root        | Configure antivirus settings for enhanced endpoint protection           |
+| Windows Firewall Settings Policy                         | Domain Root        | Enforce firewall rules to control inbound and outbound traffic          |
 
 📸 **GPMC With List of GPOs**
 

@@ -83,7 +83,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | Windows Defender Settings Policy                         | Domain Root           | Configure antivirus settings for enhanced endpoint protection           |
 | Windows Firewall Settings Policy                         | Domain Root           | Enforce firewall rules to control inbound and outbound traffic          |
 
-📸 **GPMC With List of GPOs**
+📸 **GPMC with List of GPOs**
 
 <img width="1920" height="909" alt="GPMC With List of GPOs" src="https://github.com/user-attachments/assets/3e4e5d94-0192-4e77-b2fe-eeed535764d3" /><br />
 
@@ -127,11 +127,11 @@ Verified that GPOs were successfully replicated and applied:
 repadmin /syncall /AdeP
 ```
 
-📸 **Command Line Results from Repadmin Syncall AdeP**
+📸 **Command Line Results from `Repadmin Syncall AdeP`**
 
 <img width="1920" height="909" alt="Command Line Results from Repadmin Syncall AdeP" src="https://github.com/user-attachments/assets/636556ea-0c17-44d8-ac34-1151c18b3ec6" /><br />
 
-📸 **Event Viewer logs confirming GPO application**
+📸 **Event Viewer Logs Confirming GPO application**
 
 <img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" />/><br />
 
@@ -139,15 +139,15 @@ repadmin /syncall /AdeP
 - Ran `gpupdate /force`
 - Ran `gpresult /r`
 
-📸 **Command Line Results from gpupdate on AD-WIN11-01**
+📸 **Command Line Results from `gpupdate on AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-01" src="https://github.com/user-attachments/assets/41826450-1146-41d9-96c9-bdcd52d27913" /><br />
 
-📸 **Command Line Results from gpupdate on AD-WIN11-02**
+📸 **Command Line Results from `gpupdate on AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-02" src="https://github.com/user-attachments/assets/7f0712eb-03c3-482b-b612-57857fd01003" /><br />
 
-📸 **Command Line Results from gpresult on AD-WIN11-01**
+📸 **Command Line Results from `gpresult on AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
@@ -157,7 +157,7 @@ repadmin /syncall /AdeP
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
 
-📸 **Command Line Results from gpresult on AD-WIN11-02**
+📸 **Command Line Results from `gpresult on AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
 

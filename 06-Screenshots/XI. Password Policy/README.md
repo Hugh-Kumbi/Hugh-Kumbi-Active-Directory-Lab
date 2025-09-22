@@ -17,7 +17,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 - Shows the exact configuration path:<br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.`
 
-![Group Policy Editor Window Showing the Password Policy Path](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Password Policy Path" src="https://github.com/user-attachments/assets/6c979a92-4794-418f-a77a-1f8f1a4be9d7" />
 
 ---
 

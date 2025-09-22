@@ -6,7 +6,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ## 1. 🔑 GPMC Showing the Domain Password Policy GPO
 
-- Confirms that the Win11 Security Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
+Confirms that the Win11 Security Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
 
 📸 **GPMC Showing the Domain Password Policy GPO**
 
@@ -16,7 +16,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ## 2. 📜 Group Policy Editor Window Showing the Password Policy Path
 
-- Shows the exact configuration path:<br />
+Shows the exact configuration path:<br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.`
 
 📸 **Password Policy Configuration Path**
@@ -27,7 +27,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ## 3. ✅ Each Setting with its Configured Value
 
-- Displays detailed settings including minimum password length, complexity requirements, maximum and minimum password age, and password history enforcement.
+Displays detailed settings including minimum password length, complexity requirements, maximum and minimum password age, and password history enforcement.
 
 📸 **Password Policy Settings**
 
@@ -61,7 +61,7 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 ## 6. 📊 `gpresult` Showing Password Policy Application**
 
-- Verifies that the policy is successfully applied to the client machine, with the Win11 Security Policy listed as an active GPO.
+Verifies that the policy is successfully applied to the client machine, with the Win11 Security Policy listed as an active GPO.
 
 📸 **`gpresult /r` Output on `AD-WIN11-01**
 
@@ -74,7 +74,7 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 ---
 
 ## 7. 📊 Resultant Set of Policy (RSoP)
-- Provides a graphical summary of all enforced security settings on the system, helping validate that the password policy is functioning as expected.
+Provides a graphical summary of all enforced security settings on the system, helping validate that the password policy is functioning as expected.
 
 📸 **Resultant Set of Policy (RSoP)**
 

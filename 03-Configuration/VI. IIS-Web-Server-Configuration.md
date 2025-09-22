@@ -48,6 +48,8 @@ To demonstrate internal web hosting:
 
 📸 **Modified `index.html` in Notepad**
 
+<img width="1920" height="909" alt="Custom index file created" src="https://github.com/user-attachments/assets/01c6dba2-ccd2-4f28-983d-a9ac7b5151fc" />
+
 ---
 
 ### 4. 📶 Verify Network Access from Windows 11 Clients
@@ -60,7 +62,11 @@ From each domain-joined Windows 11 client:
 
 📸 **Custom Web Page Displayed in Browser on AD-WIN11-01**
 
+<img width="1920" height="909" alt="IP Address of the Sever Access on AD-WIN11-01" src="https://github.com/user-attachments/assets/4010509f-4140-407a-9fe7-c27d8f1bfa1f" /><br />
+
 📸 **Custom Web Page Displayed in Browser on AD-WIN11-02**
+
+<img width="1920" height="909" alt="IP Address of the Sever Access on AD-WIN11-02" src="https://github.com/user-attachments/assets/04a42e21-738f-4287-a81d-e29bcf792b32" />
 
 ---
 
@@ -79,7 +85,11 @@ For extended functionality:
 
 📸 **IIS Manager Showing Custom Website**
 
+<img width="1920" height="909" alt="IIS Manager Showing Custom Website" src="https://github.com/user-attachments/assets/ce7d3fc2-6020-4219-ac1f-c82e4ca5b0db" /><br />
+
 📸 **New Site Displayed in Browser**
+
+<img width="1920" height="909" alt="New Site Displayed in Browser" src="https://github.com/user-attachments/assets/b7ce83ce-ef3d-4d09-ab2c-db9dad5b49c1" />
 
 ---
 
@@ -92,12 +102,17 @@ In this lab, I successfully installed and configured **IIS Web Server** on Windo
 - Host and serve basic web content
 - Test network functionality across Active Directory-connected endpoints
 
-📸 **Final Setup (WinServer2025 + Client Browser View)**
+📸 **Final Setup `WinServer2025`**
 
-📸 **Final Setup (AD-WIN11-01)**
+<img width="1920" height="909" alt="New Site Displayed in Browser" src="https://github.com/user-attachments/assets/8bf907bd-b205-4bc8-9577-676e3eeaf82e" /><br />
 
-📸 **Final Setup (AD-WIN11-02)**
+📸 **Final Setup `AD-WIN11-01`**
 
+<img width="1920" height="909" alt="Final Setup `AD-WIN11-01`" src="https://github.com/user-attachments/assets/a10cb6e7-361d-44df-9c0d-4184f73225eb" /><br />
+
+📸 **Final Setup `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Final Setup `AD-WIN11-02`" src="https://github.com/user-attachments/assets/e5e463d4-1640-4243-95da-76cc835125ea" />
 
 ---
 

@@ -62,11 +62,11 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **Security Filter Applied**
 
-<img width="1920" height="909" alt="Security Filter Applied" src="https://github.com/user-attachments/assets/e61dbe3f-2119-43b0-8275-96cfe0bebe09" />
+<img width="1920" height="909" alt="Security Filter Applied" src="https://github.com/user-attachments/assets/e61dbe3f-2119-43b0-8275-96cfe0bebe09" /><br />
 
-<img width="1920" height="909" alt="Security Filter Applied 1" src="https://github.com/user-attachments/assets/1804df48-2947-494a-8941-45bd6e4e0c38" />
+<img width="1920" height="909" alt="Security Filter Applied 1" src="https://github.com/user-attachments/assets/1804df48-2947-494a-8941-45bd6e4e0c38" /><br />
 
-<img width="1920" height="909" alt="Security Filter Applied 3" src="https://github.com/user-attachments/assets/e6f76883-9886-4a72-8f96-9346653ce863" />
+<img width="1920" height="909" alt="Security Filter Applied 3" src="https://github.com/user-attachments/assets/e6f76883-9886-4a72-8f96-9346653ce863" /><br />
 
 <img width="1920" height="909" alt="Security Filter Applied 2" src="https://github.com/user-attachments/assets/99c02a0c-0f28-4d64-ac6b-35f96c5a5f87" />
 
@@ -108,7 +108,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 2" src="https://github.com/user-attachments/assets/474653f7-5c7b-4302-b729-4c44da093cdb" /><br />
 
-<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 3" src="https://github.com/user-attachments/assets/e05a1653-6ae6-4934-8fb1-2b34e7f88149" /><br />
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 3" src="https://github.com/user-attachments/assets/e05a1653-6ae6-4934-8fb1-2b34e7f88149" />
 
 ---
 
@@ -128,7 +128,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 📸 **Event Viewer Logs confirming GPO application**
 
-<img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" />/>
+<img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" />
 
 ---
 

@@ -78,7 +78,7 @@ Provides a graphical summary of all enforced security settings on the system, he
 
 📸 **Resultant Set of Policy (RSoP)**
 
-<img width="1920" height="909" alt="repadmin syncall Output for Password Policy" src="https://github.com/user-attachments/assets/b438d0a4-9f6a-46c2-a8e5-5dfd3b003f7f" />
+<img width="1920" height="909" alt="Resultant Set of Policy for Password Policy" src="https://github.com/user-attachments/assets/61542576-0525-454e-9ae6-3ce56f2a0ed6" />
 
 ---
 

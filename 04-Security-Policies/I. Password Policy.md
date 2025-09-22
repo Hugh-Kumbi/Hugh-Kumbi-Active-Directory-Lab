@@ -7,13 +7,13 @@ This document outlines the **Password Policy** implemented through Group Policy 
 ## 📛 1. GPO Name
 
 - **GPO Name:** Password Policy
-- **Linked To:** hughdomain.local (domain root)
+- **Linked to:** hughdomain.local (domain root)
 
 This policy was created using the **Group Policy Management Console (GPMC)** and linked at the domain level to ensure that it applies uniformly to all domain user accounts.
 
 📸 **GPMC Showing the Domain Password Policy GPO**
 
-![GPMC Showing the Domain Password Policy GPO](https://github.com/user-attachments/assets/86192e7a-509f-4998-b9bb-d188f02fe743)
+<img width="1920" height="909" alt="GPMC Showing the Domain Password Policy GPO" src="https://github.com/user-attachments/assets/7a68f83e-b007-48d5-869a-512a18f7316b" />
 
 ---
 

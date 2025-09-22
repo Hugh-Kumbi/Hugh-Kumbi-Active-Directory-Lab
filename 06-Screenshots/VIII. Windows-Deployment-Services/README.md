@@ -1,6 +1,7 @@
 # 💻 Windows-Deployment-Services
 
-This folder contains all screenshots related to the configuration and testing of **Windows Deployment Services (WDS)** on **Windows Server 2025 Datacenter Evaluation** as part of my Active Directory homelab project.  
+This folder contains screenshots related to the configuration and testing of **Windows Deployment Services (WDS)** on Windows Server 2025.  
+They provide visual proof of each configuration step: installation, image management, PXE boot, and domain join verification. 
 
 ---
 

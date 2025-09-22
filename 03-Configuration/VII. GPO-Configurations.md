@@ -35,7 +35,9 @@ Before creating GPOs, I organized domain objects into appropriate **Organization
 
 📸 **Active Directory Users and Computers (ADUC) Showing OU Hierarchy**
 
-<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy" src="https://github.com/user-attachments/assets/bd73f319-b5fb-4471-91d2-0144f0b791ba" />
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy" src="https://github.com/user-attachments/assets/3ff7c471-fba8-49c1-9438-7c0aaa92fa3a" /><br />
+
+<img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Hierarchy 1" src="https://github.com/user-attachments/assets/79a49d22-d88a-45a9-b41d-e9b45435384a" />
 
 ---
 

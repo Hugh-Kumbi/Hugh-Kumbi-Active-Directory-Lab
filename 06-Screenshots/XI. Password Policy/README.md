@@ -35,7 +35,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ---
 
-## 4. 👁️ GPO Scope Tab – Security Filtering**
+## 4. 👁️ GPO Scope Tab – Security Filtering
 
 Displays the Security Filtering that targets Authenticated Users to ensure correct application.
 
@@ -45,7 +45,7 @@ Displays the Security Filtering that targets Authenticated Users to ensure corre
 
 ---
 
-**5. Command Line Results from `gpupdate /force`**
+**5. 🔃 Command Line Results from `gpupdate /force`**
 
 Verifies that the updated Password Policy was pushed to a Windows 11 client.
 

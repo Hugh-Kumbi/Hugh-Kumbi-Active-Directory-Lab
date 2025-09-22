@@ -4,11 +4,11 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ---
 
-## 1. 🔑 GPMC Showing the Domain Password Policy GPO**
+## 1. 🔑 GPMC Showing the Domain Password Policy GPO
 
 - Confirms that the Win11 Security Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
 
-![GPMC Showing The Domain Password Policy GPO](https://github.com/user-attachments/assets/29c96aa3-0f43-4468-8f87-873f40e98004)
+<img width="1920" height="909" alt="GPMC Showing the Domain Password Policy GPO 1" src="https://github.com/user-attachments/assets/81f6cfda-d3b8-4c23-bda4-1406507062c5" />
 
 ---
 
@@ -21,7 +21,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ---
 
-## 3. ✅ Each Setting With Its Configured Value
+## 3. ✅ Each Setting with its Configured Value
 
 - Displays detailed settings including minimum password length, complexity requirements, maximum and minimum password age, and password history enforcement.
 
@@ -39,7 +39,7 @@ Displays the Security Filtering that targets Authenticated Users to ensure corre
 
 ---
 
-**5. Command Line Results From `gpupdate /force`**
+**5. Command Line Results from `gpupdate /force`**
 
 Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
@@ -53,7 +53,7 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 ---
 
-## 6. 📊 `gpresult` Showing WIN Security Policy Application**
+## 6. 📊 `gpresult` Showing Password Policy Application**
 
 - Verifies that the policy is successfully applied to the client machine, with the Win11 Security Policy listed as an active GPO.
 

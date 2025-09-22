@@ -35,13 +35,13 @@ They demonstrate role installation, serving default and custom sites, client acc
 ## 4. Client Access – Internal Web Page  
 *Custom web page displayed on client `AD-WIN11-01`*  
 
-📸 **IIS-Client-AD-WIN11-01**
+📸 **IIS-Client-`AD-WIN11-01`**
 
 <img width="1920" height="909" alt="IP Address of the Sever Access on AD-WIN11-01" src="https://github.com/user-attachments/assets/4010509f-4140-407a-9fe7-c27d8f1bfa1f" /><br />
 
 *Custom web page displayed on client `AD-WIN11-02`*  
 
-📸 **IIS-Client-AD-WIN11-02**
+📸 **IIS-Client-`AD-WIN11-02`**
 
 <img width="1920" height="909" alt="IP Address of the Sever Access on AD-WIN11-02" src="https://github.com/user-attachments/assets/04a42e21-738f-4287-a81d-e29bcf792b32" />
 
@@ -67,15 +67,15 @@ They demonstrate role installation, serving default and custom sites, client acc
 
 <img width="1920" height="909" alt="New Site Displayed in Browser" src="https://github.com/user-attachments/assets/8bf907bd-b205-4bc8-9577-676e3eeaf82e" /><br />
 
-*Client AD-WIN11-01 confirming site access*  
+*Client `AD-WIN11-01` confirming site access*  
 
-📸 **IIS-Final-AD-WIN11-01**
+📸 **IIS-Final-`AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Final Setup `AD-WIN11-01`" src="https://github.com/user-attachments/assets/a10cb6e7-361d-44df-9c0d-4184f73225eb" /><br />
 
-*Client AD-WIN11-02 confirming site access*  
+*Client `AD-WIN11-02` confirming site access*  
 
-📸 **IIS-Final-AD-WIN11-02**
+📸 **IIS-Final-`AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Final Setup `AD-WIN11-02`" src="https://github.com/user-attachments/assets/e5e463d4-1640-4243-95da-76cc835125ea" />
 

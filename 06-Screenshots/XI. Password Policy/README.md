@@ -8,6 +8,8 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 - Confirms that the Win11 Security Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
 
+📸 **GPMC Showing the Domain Password Policy GPO**
+
 <img width="1920" height="909" alt="GPMC Showing the Domain Password Policy GPO 1" src="https://github.com/user-attachments/assets/81f6cfda-d3b8-4c23-bda4-1406507062c5" />
 
 ---
@@ -17,7 +19,9 @@ This section highlights the configuration and enforcement of the domain-wide pas
 - Shows the exact configuration path:<br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.`
 
-<img width="1920" height="909" alt="Group Policy Editor Window Showing the Password Policy Path" src="https://github.com/user-attachments/assets/6c979a92-4794-418f-a77a-1f8f1a4be9d7" />
+📸 **Password Policy Configuration Path**
+
+<img width="1920" height="909" alt="Group Policy Editor Window 1" src="https://github.com/user-attachments/assets/a544e531-14b8-481a-9d28-59ddea99b39f" />
 
 ---
 
@@ -25,7 +29,9 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 - Displays detailed settings including minimum password length, complexity requirements, maximum and minimum password age, and password history enforcement.
 
-![Each Setting With Its Configured Value](https://github.com/user-attachments/assets/4938bd3a-8efd-421a-9a8c-82eaf0f54a4f)
+📸 **Password Policy Settings**
+
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Password Policy Path" src="https://github.com/user-attachments/assets/6c979a92-4794-418f-a77a-1f8f1a4be9d7" />
 
 ---
 
@@ -69,7 +75,9 @@ Verifies that the updated Password Policy was pushed to a Windows 11 client.
 
 ## 7. 📊 Resultant Set of Policy (RSoP)
 - Provides a graphical summary of all enforced security settings on the system, helping validate that the password policy is functioning as expected.
-  
+
+📸 **Resultant Set of Policy (RSoP)**
+
 <img width="1920" height="909" alt="repadmin syncall Output for Password Policy" src="https://github.com/user-attachments/assets/b438d0a4-9f6a-46c2-a8e5-5dfd3b003f7f" />
 
 ---

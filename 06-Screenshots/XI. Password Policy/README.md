@@ -6,7 +6,7 @@ This section highlights the configuration and enforcement of the domain-wide pas
 
 ## 1. 🔑 GPMC Showing the Domain Password Policy GPO
 
-Confirms that the Win11 Security Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
+Confirms that the Password Policy GPO is linked at the domain level, ensuring uniform password standards across all users.
 
 📸 **GPMC Showing the Domain Password Policy GPO**
 

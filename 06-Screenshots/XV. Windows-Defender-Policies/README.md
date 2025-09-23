@@ -18,8 +18,8 @@ Screenshot of the Windows Defender Policy GPO in GPMC.
 
 ### 2. Group Policy Editor – Windows Defender Path 
 
-Group Policy Editor window showing navigation path:<br />  
-  📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`.
+Group Policy Editor window showing navigation path:<br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`.
 
 📸 **GPO-Windows-Defender-Path**
 

@@ -52,7 +52,7 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 ![Turn off Microsoft Defender Antivirus](https://github.com/user-attachments/assets/8b63608a-f614-41bd-8b95-9a6c4f8f3909)
 
-📸 **Turn Off Peal-time Protection**
+📸 **Turn Off Real-time Protection**
 
 ![Turn Off Peal-time Protection](https://github.com/user-attachments/assets/1d32c43c-ab99-4151-80a2-18bd3e836800)
 

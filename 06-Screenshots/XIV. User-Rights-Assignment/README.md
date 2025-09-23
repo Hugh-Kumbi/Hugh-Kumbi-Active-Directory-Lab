@@ -16,8 +16,8 @@ Screenshot of the Win11 Security Policy GPO in GPMC showing User Rights Assignme
 
 ## 2. Group Policy Editor – User Rights Assignment Path
   
-Group Policy Editor window showing navigation path:<br />  
-    📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`.
+Group Policy Editor window showing navigation path:<br />
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`.
 
 📸 **Group Policy Editor Window Showing User Rights Path**  
 

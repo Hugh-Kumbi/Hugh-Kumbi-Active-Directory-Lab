@@ -39,8 +39,9 @@ Displays the specific values configured for:
 
   - Reset account lockout counter after
 
-`**📸 User Account Management Account Lockout Confirmation**`
+**📸 User Account Management Account Lockout Confirmation**
 
+![User Account Management Account Lockout](https://github.com/user-attachments/assets/aff939a4-6185-42ff-94e4-3ea5a53b3375)
 
 ---
 

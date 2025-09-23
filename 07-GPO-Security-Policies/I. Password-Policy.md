@@ -19,12 +19,12 @@ To enhance account security by enforcing strong password policies across all dom
 |-------------------------------------------------|-------------------------|
 | **Enforce password history**                    | 24 passwords remembered |
 | **Maximum password age**                        | 90 days                 |
-| **Minimum password age**                        | 1 day                   |
+| **Minimum password age**                        | 30 day                  |
 | **Minimum password length**                     | 12 characters           |
 | **Password must meet complexity requirements**  | Enabled                 |
 | **Store passwords using reversible encryption** | Disabled                |
 
-**📸 Password Policy Showing Each Setting with Its Configured Value**
+**📸 Password Policy Showing Each Setting with its Configured Value**
 
 ![Password Policy Showing Each Setting with Its Configured Value](https://github.com/user-attachments/assets/9c13030a-018e-4ac8-8873-0991bfb40001)
 
@@ -39,5 +39,5 @@ To enhance account security by enforcing strong password policies across all dom
 
 ## 📁 5. Screenshot Storage
 
-All screenshots related to this section should be stored in:
+All screenshots related to this section should be stored in:<br />
 📂 [`06-Screenshots/Password-Policy/Password-Policy-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/Password-Policy-Settings.md)

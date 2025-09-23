@@ -7,19 +7,19 @@ This document outlines the **Audit Policy** applied to the domain via Group Poli
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Audit Policy  
-- **Linked To:** hughdomain.local
+- **Linked To:** hughdomain.local (domain root)
 
 Created using the **Group Policy Management Console (GPMC)**, this GPO was applied at the domain level to ensure consistent audit logging across all domain-joined systems.
 
 📸 **GPMC Showing the Linked Domain Audit Policy GPO**
 
-![GPMC Showing the Linked Domain Audit Policy GPO](https://github.com/user-attachments/assets/359144f9-5834-4f01-ac62-ee0d118d8e2b)
+<img width="1920" height="909" alt="GPMC Showing the Linked Domain Audit Policy GPO" src="https://github.com/user-attachments/assets/da5eceea-d686-4b44-98e9-e728aca4f6aa" />
 
 ---
 
 ## ⚙️ 2. Policy Settings
 
-Path to settings:  
+Path to settings:<br />  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Advanced Audit Policy Configuration > Audit Policies`
 
 | Category               | Setting                          | Audit Type        |
@@ -39,7 +39,7 @@ Path to settings:
 
 📸 **Advanced Audit Policy Configuration Window:**
 
-![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/1219e42e-26b1-46a9-bae6-ce7b512d5ff9)
+<img width="1920" height="909" alt="Advanced Audit Policy Configuration Window" src="https://github.com/user-attachments/assets/8eaa0d67-de77-49cc-8505-4a4038736049" />
 
 ---
 
@@ -58,8 +58,8 @@ By auditing both successful and failed events, I ensured I could track both norm
 ## 🔎 4. Testing and Verification
 
 - Performed logon attempts, privilege use, and file access actions.
-- Opened **Event Viewer** on the domain controller:
 
+- Opened **Event Viewer** on the domain controller:<br />
   📂 `Event Viewer > Windows Logs > Security`
   
 - Verified audit entries matched the expected activities.
@@ -70,11 +70,11 @@ By auditing both successful and failed events, I ensured I could track both norm
 
 📸 **Other Policy Change Events**
 
-![Other Policy Change Events](https://github.com/user-attachments/assets/2ad71fbf-4573-4a44-80ac-80e0efa8ce0e)
+<img width="3302" height="2475" alt="Picture1" src="https://github.com/user-attachments/assets/cc72e570-f395-45c5-b9be-a5c2457bb375" /><br />
 
 📸 **Filtering Platform Connection**
 
-![Filtering Platform Connection](https://github.com/user-attachments/assets/a2afb7b9-5ce3-4e7e-b243-576ad26e3c52)
+<img width="3302" height="2475" alt="Picture2" src="https://github.com/user-attachments/assets/2bc098fc-5638-4fd5-90e9-3b357216a079" /><br />
 
 📸 **Logoff**
 
@@ -96,5 +96,5 @@ By auditing both successful and failed events, I ensured I could track both norm
 
 ## 📁 5. Screenshot Storage
 
-Screenshots for this section should be saved in:  
-📂 [`06-Screenshots/Audit-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IX.%20Audit-Policy/README.md)
+Screenshots for this section should be saved in: <br /> 
+ 📂 [`06-Screenshots/Audit-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IX.%20Audit-Policy/README.md)

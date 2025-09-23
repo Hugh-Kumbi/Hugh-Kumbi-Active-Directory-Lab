@@ -10,6 +10,12 @@ Demonstrates how to back up GPOs using the GPMC, which includes exporting them t
 
 **📸 Backup GPOs in GPMC**
 
+<img width="1920" height="909" alt="Context Menu Showing 'Back Up All' Option" src="https://github.com/user-attachments/assets/04bfa784-43d4-4383-a72e-7a563973bf7d" /><br />
+
+<img width="1920" height="909" alt="Backup Dialog Showing Path and Description Entry" src="https://github.com/user-attachments/assets/9e5ab0bc-b5e5-4611-ad1a-17da617f1137" /><br />
+
+<img width="1920" height="909" alt="Confirmation of GPO Backup Completion" src="https://github.com/user-attachments/assets/509e282d-71a5-441b-9007-4af72178b34c" />
+
 ---
 
 ## 2. 📦 Export GPOs via GPMC

@@ -6,7 +6,7 @@ This portion documents the domain-wide Account Lockout Policy configuration, whi
 
 ## 1. GPMC Showing the Account Lockout Policy GPO and its Link to the Domain
 
-- Confirms that the Win11 Security Policy GPO is applied at the domain level and includes lockout policy settings to protect user accounts from brute-force attacks.
+- Confirms that the Account Lockout Policy GPO is applied at the domain level and includes lockout policy settings to protect user accounts from brute-force attacks.
 
 📸 **GPMC Showing the Account Lockout Policy GPO and its Link to the Domain`**
 

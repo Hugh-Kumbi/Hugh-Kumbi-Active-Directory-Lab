@@ -1,59 +1,93 @@
 # 🕵️ Audit Policy
 
-This section outlines the configuration and results of the Audit Policy implemented through the Win11 Security Policy GPO, which is designed to enhance visibility into critical security events across the domain.
+This section outlines the configuration and results of the Audit Policy implementation, which is designed to enhance visibility into critical security events across the domain.
 
 ---
 
 **1. GPMC Showing the Linked Domain Audit Policy GPO**
 
-- Confirms that the audit settings are enforced through the domain-linked Win11 Security Policy.
+- Confirms that the audit settings are enforced through the domain-linked Audit Policy.
 
-![GPMC showing the linked Domain Audit Policy GPO](https://github.com/user-attachments/assets/31bb11fb-730e-4dc4-ab12-e201766397f2)
+📸 **GPMC Showing the Linked Domain Audit Policy GPO**
+
+<img width="1920" height="909" alt="GPMC Showing the Linked Domain Audit Policy GPO 1" src="https://github.com/user-attachments/assets/b484b68a-1821-48f8-9d8d-46f880dc072e" />
+
+---
 
 **2. Group Policy Editor Window Showing the Audit Policy Configuration Window**
 
-- Displays traditional audit policy paths under:
-`Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Audit Policy`.
+- Displays traditional audit policy paths under:<br />
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Audit Policy`.
 
-![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/1ce841d1-5c09-4be7-9196-b48c0d8c84ae)
+📸 **Group Policy Editor Window**
+
+<img width="1920" height="909" alt="Advanced Audit Policy Configuration Window 1" src="https://github.com/user-attachments/assets/1f476e51-d825-49c9-9288-e2dda482dce3" />
+
+---
 
 **3. Advanced Audit Policy Configuration Window**
 
 - Shows detailed configuration of fine-grained audit categories under:
-`Computer Configuration > Policies > Windows Settings > Advanced Audit Policy Configuration`.
+  📂 `Computer Configuration > Policies > Windows Settings > Advanced Audit Policy Configuration`.
 
-![Advanced Audit Policy Configuration Window](https://github.com/user-attachments/assets/8e17d6d2-3340-4b6e-985e-61d71588b74b)
+📸 **Advanced Audit Policy Configuration**
+
+<img width="1920" height="909" alt="Advanced Audit Policy Configuration Window 2" src="https://github.com/user-attachments/assets/737cb882-038d-457f-858b-5762f0b03dca" />
+
+---
 
 **4. Security Event Logs in Event Viewer Showing Sample Audited Events**
 
 - Demonstrates successful logging of important audit events like logons, group membership changes, and policy changes.
 
+📸 **Event Viewer Showing Sample Audited Events**
+
 ![Security Event Logs In Event Viewer Showing Sample Audited Events](https://github.com/user-attachments/assets/738fb487-504f-4c15-8bf6-f65a3b1cc814)
+
+---
 
 **5. Other Policy Change Events**
 
 - Captures evidence of GPO or account setting changes with appropriate event IDs.
 
-![Other Policy Change Events](https://github.com/user-attachments/assets/2ad71fbf-4573-4a44-80ac-80e0efa8ce0e)
+📸 **Other Policy Change Events**
+
+<img width="3302" height="2475" alt="Picture1" src="https://github.com/user-attachments/assets/cc72e570-f395-45c5-b9be-a5c2457bb375" /><br />
+
+---
 
 **6. Filtering Platform Connection**
 
 - Logs related to Windows Filtering Platform (WFP), indicating network-level auditing is active.
 
-![Filtering Platform Connection](https://github.com/user-attachments/assets/a2afb7b9-5ce3-4e7e-b243-576ad26e3c52)
+📸 **Filtering Platform Connection**
+
+<img width="3302" height="2475" alt="Picture2" src="https://github.com/user-attachments/assets/2bc098fc-5638-4fd5-90e9-3b357216a079" /><br />
+
+---
 
 **7. Logoff / Logon / Group Membership / Special Logon**
 
 - Separate event entries showing user authentication actions, group resolution, and elevated or service logon events.
 
-![Logoff](https://github.com/user-attachments/assets/094b2bd8-7893-45ab-8725-23c1d9ac8d5e)
+📸 **Logoff**
 
-![Logon](https://github.com/user-attachments/assets/ee69efda-3b3b-4a1f-ab4b-efbc6e7c0c7d)
+![Logoff](https://github.com/user-attachments/assets/9b0a025c-851d-4b21-80b4-12ed2b057d13)
 
-![Group Membership](https://github.com/user-attachments/assets/a62ca287-2a0e-4a86-8825-8635b18675f4)
+📸 **Logon**
 
-![Special Logon](https://github.com/user-attachments/assets/e1eea46d-5a9e-4802-8415-037fceed0530)
+![Logon](https://github.com/user-attachments/assets/40dd2d42-cac8-48d1-986d-3ea25db67960)
+
+📸 **Group Membership**
+
+![Group Membership](https://github.com/user-attachments/assets/e591efdd-1001-42b7-b1d9-e6d2f47f8fec)
+
+📸 **Special Logon**
+
+![Special Logon](https://github.com/user-attachments/assets/b3524807-3f8e-4ff5-8c1b-2de9212cc225)
 
 ---
 
-Each image corresponds to a step described in 📂 04-Security-Policies/Audit-Policy.md
+# 📁 6. Screenshot Storage
+All screenshots related to GPOs should be saved in:<br />
+📂 [`04-Security-Policies/III. Audit-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)

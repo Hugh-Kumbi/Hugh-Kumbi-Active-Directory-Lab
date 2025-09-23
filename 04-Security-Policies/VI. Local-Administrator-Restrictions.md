@@ -89,5 +89,5 @@ These settings restrict local administrators from accessing systems remotely and
 
 ## 📁 5. Screenshot Storage
 
-All screenshots related to this section should be stored in:
+All screenshots related to this section should be stored in:<br />
 📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)

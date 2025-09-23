@@ -13,14 +13,13 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 📸 **GPMC Showing Windows Defender GPO**
 
-![GPMC Showing Windows Defender GPO](https://github.com/user-attachments/assets/3d860883-4a42-4231-aec8-392ffd1dbecc)
+<img width="1920" height="909" alt="GPMC Showing Windows Defender GPO" src="https://github.com/user-attachments/assets/b78db28b-388f-4cef-b5c6-9c991bb1f732" />
 
 ---
 
 ## ⚙️ 2. Policy Settings
 
-Configured under:
-
+Configured under:<br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 | Setting                                                 | Value                |
@@ -35,7 +34,7 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 📸 **Group Policy Editor Window Showing Windows Defender Path**
 
-![Group Policy Editor Window Showing Windows Defender Path](https://github.com/user-attachments/assets/b0f07d8e-9b61-41a6-8518-c2854dbe3af1)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing Windows Defender Path" src="https://github.com/user-attachments/assets/8e589a7e-b3c2-4869-a37f-3b653519a0c6" />
 
 ---
 
@@ -86,4 +85,4 @@ These settings ensure that Windows Defender is active, real-time protection is e
 ## 📁 5. Screenshot Storage
 
 All screenshots related to this section should be stored in:
-📂 [`06-Screenshots/Windows-Defender-Policies.png`]()
+📂 [`06-Screenshots/XV. Windows-Defender-Policies/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XV.%20Windows-Defender-Policies/README.md)

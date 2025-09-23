@@ -25,7 +25,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 <img width="1920" height="909" alt="GPO Restricted Groups Path" src="https://github.com/user-attachments/assets/bfce7dc6-6ffa-4242-935a-461327c061ab" /><br />
 
-- Restricted Groups setting showing "Administrators" includes `Domain Admins` and `Local Admins.`
+- Restricted Groups setting showing `"Administrators"` includes `Domain Admins` and `Local Admins.`
 
 📸 **Restricted Groups Administrators**
 

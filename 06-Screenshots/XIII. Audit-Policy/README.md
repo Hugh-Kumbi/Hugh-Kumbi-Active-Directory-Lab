@@ -27,7 +27,7 @@ This section outlines the configuration and results of the Audit Policy implemen
 
 **3. Advanced Audit Policy Configuration Window**
 
-- Shows detailed configuration of fine-grained audit categories under:
+- Shows detailed configuration of fine-grained audit categories under:<br />
   📂 `Computer Configuration > Policies > Windows Settings > Advanced Audit Policy Configuration`.
 
 📸 **Advanced Audit Policy Configuration**

@@ -13,15 +13,14 @@ This policy is configured using the **Group Policy Management Console (GPMC)** a
 
 📸 **GPMC Showing User Rights Assignment GPO Under Win11 Security Policy**
 
-![Win 11 Security Policy Linked to Domain](https://github.com/user-attachments/assets/41d02b02-6eff-41ca-95c6-6cf19b33bb1d)
+<img width="1920" height="909" alt="GPMC Showing User Rights Assignment GPO Under Win11 Security Policy" src="https://github.com/user-attachments/assets/5e95372d-14a8-4851-9b3f-f91ed5d57529" />
 
 ---
 
 ## ⚙️ 2. Policy Settings
 
-The following settings were configured under:
-
-📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
+The following settings were configured under:<br />
+    📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
 | Setting                                                            | Value                           |
 |--------------------------------------------------------------------|---------------------------------|
@@ -60,9 +59,30 @@ These rights control the ability of users or groups to log on to the system, run
 ```powershell
 gpresult /r
 ```
+
+📸 **Command Line Results from `gpresult on AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 1" src="https://github.com/user-attachments/assets/11880d48-7cb0-4022-bc07-5237ce9643d2" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 2" src="https://github.com/user-attachments/assets/af2add1e-cbf8-4920-aaaf-fb0b4351af76" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
+
+📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 1" src="https://github.com/user-attachments/assets/69a415e4-9a35-463d-a468-fc67b491b886" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 2" src="https://github.com/user-attachments/assets/474653f7-5c7b-4302-b729-4c44da093cdb" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 3" src="https://github.com/user-attachments/assets/e05a1653-6ae6-4934-8fb1-2b34e7f88149" />
+
 ---
 
 ## 📁 5. Screenshot Storage
 
-All screenshots related to this section should be stored in:
-📂 [`06-Screenshots/User-Rights-Assignment.png`]()
+All screenshots related to GPOs should be saved in:<br />
+📂 [`06-Screenshots/XIV. User-Rights-Assignment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIV.%20User-Rights-Assignment)

@@ -39,4 +39,4 @@ To track and monitor critical security events such as logons, account management
 ## 📁 5. Screenshot Storage
 
 Screenshots for this section should be saved in:  
-📂 [`06-Screenshots/Audit-Policy/Audit-Policy/Audit-Policy-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Audit-Policy/Audit-Policy-Settings.md)
+📂 [`04-Security-Policies/III. Audit-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)

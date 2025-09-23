@@ -87,5 +87,5 @@ Group Policy Editor window showing navigation path:<br />
 
 ## 📁 4. Screenshot Storage
 
-All screenshots related to this section should be stored in:
+All screenshots related to this section should be stored in:<br />
 📂 [`04-Security-Policies/V. Windows-Defender-Policies.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/V.%20Windows-Defender-Policies.md)

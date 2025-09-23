@@ -97,4 +97,4 @@ By auditing both successful and failed events, I ensured I could track both norm
 ## 📁 5. Screenshot Storage
 
 Screenshots for this section should be saved in: <br /> 
-  📂 [`06-Screenshots/Audit-Policy.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IX.%20Audit-Policy/README.md)
+  📂 [`06-Screenshots/XIII. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIII.%20Audit-Policy)

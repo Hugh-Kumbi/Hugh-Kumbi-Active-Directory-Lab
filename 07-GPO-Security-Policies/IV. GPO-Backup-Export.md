@@ -29,7 +29,7 @@ To create a backup of **all Group Policy Objects** in the domain:
 
 <img width="1920" height="909" alt="Context Menu Showing 'Back Up All' Option" src="https://github.com/user-attachments/assets/04bfa784-43d4-4383-a72e-7a563973bf7d" /><br />
 
-3. In the backup dialog, I specified the location for the backup files (e.g., `C:\Users\Administrator\Documents\GPO Backup`) and added a description to help identify the backup.
+3. In the backup dialog, I specified the location for the backup files (e.g., `F:\CHEEE\Administrator`) and added a description to help identify the backup.
 
 4. I clicked the **Back Up** button to start the process.
 

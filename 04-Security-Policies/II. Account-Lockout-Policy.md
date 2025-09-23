@@ -7,20 +7,19 @@ This document outlines the **Account Lockout Policy** configured in the domain t
 ## 📛 1. GPO Name
 
 - **GPO Name:** Account Lockout Policy  
-- **Linked To:** hughdomain.local (domain root)
+- **Linked to:** hughdomain.local (domain root)
 
 Created and applied via the **Group Policy Management Console (GPMC)**, this GPO was designed to lock accounts temporarily after multiple failed login attempts.
 
-📸 **GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain**
+📸 **GPMC Showing the Account Lockout Policy GPO and its Link to the Domain**
 
-![GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain](https://github.com/user-attachments/assets/de8ce8fa-ae37-4bbb-8cc6-faf17c429b2c)
+<img width="1920" height="909" alt="GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain" src="https://github.com/user-attachments/assets/542a4e71-2b95-447a-adfc-79481ca7a50f" />
 
 ---
 
 ## ⚙️ 2. Policy Settings
 
-Configured in:
-
+Configured in:<br />
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 | Setting                                     | Value         |
@@ -32,9 +31,9 @@ Configured in:
 
 These settings ensure that accounts are temporarily disabled after five failed logon attempts, making it more difficult for attackers to guess passwords.
 
-📸 **Group Policy Editor Window Showing the Account Lockout Policy Path**
+📸 **Group Policy Editor Window Showing the Account Lockout Policy Settings**
 
-![Group Policy Editor Window Showing the Account Lockout Policy Path](https://github.com/user-attachments/assets/6653c503-86e7-464d-9cdf-86636220644d)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Account Lockout Policy Settings" src="https://github.com/user-attachments/assets/cc81cb7c-9d27-4e28-a4e6-bc1211c5ea7b" />
 
 ---
 
@@ -54,8 +53,7 @@ These configurations align with enterprise security policies and common audit st
 
 - Simulated five incorrect logins on a test account.
 - Verified the account was locked.
-- Checked Event Viewer logs for lockout entries under:
-
+- Checked Event Viewer logs for lockout entries under:<br />
   📂 `Event Viewer > Windows Logs > Security`
 
 - Used `net user TechUser2` to confirm lockout status.

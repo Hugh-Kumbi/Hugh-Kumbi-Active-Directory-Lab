@@ -1,4 +1,4 @@
-# 👨‍💻 Local Administrator Restrictions (Domain GPO)
+# 👨‍💻 Local Administrator Restrictions
 
 This section outlines the **Local Administrator Restrictions** to limit access and control for local administrators across all machines in the domain.
 
@@ -7,20 +7,19 @@ This section outlines the **Local Administrator Restrictions** to limit access a
 ## 📛 1. GPO Name
 
 - **GPO Name:** Local Administrator Restrictions Policy
-- **Linked To:** hughdomain.local (domain root)
+- **Linked To:** Employees OU
 
 This policy is configured using the **Group Policy Management Console (GPMC)** and applied at the domain level.
 
 📸 **GPMC Showing Local Administrator Restrictions GPO**
 
-![GPMC Showing Local Administrator Restrictions Policy GPO](https://github.com/user-attachments/assets/dc502975-922f-414a-823f-850fe60a8080)
+<img width="1920" height="909" alt="GPMC Showing Local Administrator Restrictions GPO" src="https://github.com/user-attachments/assets/14462e95-9cca-4225-b1a6-694a7a5b419b" />
 
 ---
 
 ## ⚙️ 2. Policy Settings
 
-Configured under:
-
+Configured under:<br />
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`
 
 | Setting                                                       | Value                       |
@@ -91,4 +90,4 @@ These settings restrict local administrators from accessing systems remotely and
 ## 📁 5. Screenshot Storage
 
 All screenshots related to this section should be stored in:
-📂 [`06-Screenshots/Local-Administrator-Restrictions.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Password-Policy/README.md)
+📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)

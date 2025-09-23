@@ -37,7 +37,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 ### a. Server RDP Setup
 
-- Remote Desktop enabled on `WinServer2025` to allow RDP tests.*  
+- Remote Desktop enabled on `WinServer2025` to allow RDP tests.  
 
 📸 **RDP Enabled Server**
 
@@ -91,7 +91,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 ---
 
-## 📁 5. Screenshot Storage
+## 📁 4. Screenshot Storage
 
 All screenshots related to this section should be stored in:
 📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)

@@ -104,4 +104,4 @@ Validates that the Password Policy GPO has replicated successfully across all do
 
 # 📁 6. Screenshot Storage
 All screenshots related to GPOs should be saved in:<br />
-📂 [`06-Screenshots/XI. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XI.%20Password%20Policy)
+📂 [`06-Screenshots/XI. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md)

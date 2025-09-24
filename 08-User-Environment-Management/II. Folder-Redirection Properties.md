@@ -7,7 +7,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Folder Redirection Policy  
-- **Linked To:** IT OU
+- **Linked To:** ITSecurity OU
 
 📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the IT OU**
 

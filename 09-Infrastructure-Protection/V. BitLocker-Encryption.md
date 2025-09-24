@@ -84,7 +84,7 @@ I enabled:
 
 📸 **BitLocker Drive Encryption Fixed Drive Settings Overview** 
 
-<img width="1920" height="909" alt="BitLocker Drive Encryption Fixed Drive Settings Overview" src="https://github.com/user-attachments/assets/eae3f23f-f672-4a8f-a7ec-8b703b7d6191" />
+<img width="1920" height="909" alt="BitLocker Drive Encryption Fixed Drive Settings Overview" src="https://github.com/user-attachments/assets/eae3f23f-f672-4a8f-a7ec-8b703b7d6191" /><br />
 
 ### 4. 🔑 Configure Removable Drive Encryption
 

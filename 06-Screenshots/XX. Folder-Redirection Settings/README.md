@@ -1,4 +1,5 @@
 # 🔧 Folder Redirection Settings
+
 This section explains the configuration of `Folder Redirection` within the Group Policy to redirect user folders, such as Documents, Desktop, and AppData, to a network location for central management and backup.
 
 This section details the properties and configuration settings available within `Folder Redirection` policies in Group Policy, including redirection types and user settings.
@@ -11,15 +12,26 @@ The Folder Redirection Properties window allows configuration of different redir
 
 📸 **Folder Redirection Properties Overview**
 
+<img width="1920" height="909" alt="Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the ITSecurity OU" src="https://github.com/user-attachments/assets/c086dc0a-f8de-4455-b964-0125932a45ce" /><br />
+
+📸 **User Folder Redirection Properties Overview**
+
+<img width="1920" height="909" alt="Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the Employees OU" src="https://github.com/user-attachments/assets/f8ad48a3-c9dd-4c3d-b7f3-cb3a9c537e5f" />
+
 ---
 
 ## 2. 🖥️ Accessing Folder Redirection Settings in GPMC
 
-Open the Group Policy Management Console (GPMC) and navigate to the folder redirection settings under: 
-
+Open the Group Policy Management Console (GPMC) and navigate to the folder redirection settings under:<br /> 
   📁 `User Configuration > Policies > Windows Settings > Folder Redirection`
 
 📸 **Accessing Folder Redirection Settings in GPMC**
+
+<img width="1920" height="909" alt="Folder Redirection Properties Window with Configuration" src="https://github.com/user-attachments/assets/a01fcb43-9e83-4956-9c84-edd6acae7e08" /><br />
+
+📸 **Accessing User Folder Redirection Settings in GPMC**
+
+<img width="1920" height="909" alt="User Folder Redirection Configuration Window" src="https://github.com/user-attachments/assets/36000ce3-cc3b-4e0a-8eaf-8b978530f9cd" />
 
 ---
 
@@ -27,7 +39,10 @@ Open the Group Policy Management Console (GPMC) and navigate to the folder redir
 
 The Basic option redirects user folders to a specified network share. This setting is simple and can be configured without advanced conditions.
 
-📸 Setting Redirection Type to Basic
+📸 **Setting Folder Redirection Type to Basic**
+
+📸 **Setting User Folder Redirection Type to Basic**
+
 
 ---
 
@@ -35,7 +50,10 @@ The Basic option redirects user folders to a specified network share. This setti
 
 The Advanced option provides more control over folder redirection, allowing different redirection settings for different user groups or environments, such as setting up multiple paths.
 
-📸 Configuring Advanced Redirection Settings
+📸 **Configuring Advanced Folder Redirection Settings**
+
+📸 **Configuring Advanced User Folder Redirection Settings**
+
 
 ---
 
@@ -45,6 +63,9 @@ By enabling Force Folder Redirection, users will be forced to use the redirectio
 
 📸 **Forcing Folder Redirection**
 
+📸 **Forcing User Folder Redirection**
+
+
 ---
 
 ## 6. ➡️ Configuring Folder Redirection Target for Users
@@ -53,17 +74,22 @@ This step allows setting the Target for the folder redirection, specifying the n
 
 📸 **Configuring Folder Redirection Target for Users**
 
+📸 **Configuring User Folder Redirection Target for Users**
+
+
 ---
 
 ## 7. 📁 Configuring Folder Redirection for Documents
 
 Redirecting the Documents folder to a shared network location allows for centralized access and backup. 
 
-This setting is applied through GPO under: 
-
+This setting is applied through GPO under:  <br />
   📁 `Folder Redirection > Documents`
 
 📸 **Configuring Folder Redirection for Documents**
+
+📸 **Configuring User Folder Redirection for Documents**
+
 
 ---
 
@@ -73,6 +99,9 @@ Redirection of the Desktop folder ensures that users' desktop environments are c
 
 📸 **Configuring Folder Redirection for Desktop**
 
+📸 **Configuring USer Folder Redirection for Desktop**
+
+
 ---
 
 ## 9. ➡️ Configuring Folder Redirection for AppData
@@ -80,6 +109,9 @@ Redirection of the Desktop folder ensures that users' desktop environments are c
 Redirect the AppData folder to a network share to ensure that user-specific application data is stored centrally, improving user mobility and ensuring backup.
 
 📸 **Configuring Folder Redirection for AppData**
+
+📸 **Configuring User Folder Redirection for AppData**
+
 
 ---
 
@@ -89,55 +121,65 @@ Redirection properties can be set individually for Documents, Desktop, and AppDa
 
 📸 **Folder Redirection Properties for Specific Folders**
 
+📸 **User Folder Redirection Properties for Specific Folders**
+
+
 ---
 
 ## 11. 🔍 Verifying Folder Redirection Application
 
-Confirm that folder redirection has been successfully applied by checking the Event Viewer logs and using the gpresult command.
+Confirm that folder redirection has been successfully applied by checking the Event Viewer logs.
 
 📸 **Verifying Folder Redirection Application**
 
+📸 **User Verifying Folder Redirection Application**
+
+
 ---
 
-## 12. 📊 Command Line Results From gpupdate
+## 12. 📊 Command Line Results from gpupdate
 
 Run the gpupdate command on the client machine to force the latest Group Policy settings, including folder redirection, to apply.
 
-📸 **Command Line Results From `gpupdate`**
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Output From `gpupdate` Command for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/458a2e17-a7ea-457c-8424-463bc842471e" /><br />
+
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Output From `gpupdate` Command for `AD-WIN11-02`" src="https://github.com/user-attachments/assets/c3cf5676-56d5-4239-8bc3-9d595e51cc73" /><br />
 
 ---
 
-## 13. 📈 Command Line Results From `gpresult`
+## 13. 📈 Command Line Results from `gpresult`
 
 The gpresult command is used to verify which policies, including folder redirection, have been applied to a specific machine or user.
 
-📸 **Command Line Results From gpresult**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/ab69630e-0c46-4380-b361-2d4ad3983679" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 1" src="https://github.com/user-attachments/assets/6daa29d8-d3de-46a4-9a88-bac844706288" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 2" src="https://github.com/user-attachments/assets/d71ef1d5-aaeb-4d44-b1b6-4ac28297eb8e" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d9598531-2248-4898-b65f-308e2ce9b805" /><br />
+
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/96de8ccc-f9f6-4273-a12c-c7e826285751" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 1" src="https://github.com/user-attachments/assets/eb593e98-d0be-400d-864f-3b1ac370ef29" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 2" src="https://github.com/user-attachments/assets/4a5530d5-77e2-4f09-ac6b-9cc9e82548d2" /><br />
+
+<img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02 3" src="https://github.com/user-attachments/assets/e642adc0-e5e0-41b1-9c26-3161b19cca9a" />
 
 ---
 
-Each image corresponds to a step described in 📂 `08-User-Environment-Management/I.Folder-Redirection-Settings.md` and `II. Folder-Redirection Properties.md`.
+## 🗂️ 14. Screenshot Storage
 
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/75107291-3d2f-4691-a235-df719372b559)
+Store all screenshots in:
+📂 [`08-User-Environment-Management/I. User Folder-Redirection Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/I.%20User%20Folder-Redirection%20Settings.md)<br />
 
-![Folder Redirection Configuration Window](https://github.com/user-attachments/assets/797fd428-1c6e-4c1d-a671-64d6aad6c198)
-  
-![Root Path Entered](https://github.com/user-attachments/assets/8c0dc5da-1191-4ba7-9105-75b8b2195deb)
-
-![Client Side Documents Folder Showing the Redirected Location In Properties](https://github.com/user-attachments/assets/44b93241-be75-4f16-9945-e25f78bd08a1)
-
-![Server Side Share Showing User Folders](https://github.com/user-attachments/assets/84313e57-e680-41fd-9336-5f7f1d170dec)
-
-
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/7a6b5186-8001-41d2-9b92-97325d2c48b5)
-
-![Folder Redirection Properties Window With Configuration](https://github.com/user-attachments/assets/bda6c476-6430-4b88-bc7a-3bd71f590c4a)
-
-![Shared Folder Structure On The Server Showing ServerUserDocs](https://github.com/user-attachments/assets/64c80926-489a-4cff-a541-11ff220415cb)
-
-![NTFS Permission Settings For The FileShares Folder](https://github.com/user-attachments/assets/274be70b-4d35-4bc3-8438-2d7964943369)
-
-![Share Settings With Authenticated Users Listed](https://github.com/user-attachments/assets/de3e23a0-8852-4047-8354-9be238e0a9be)
-
-![User’s Documents Folder Showing The Server Path](https://github.com/user-attachments/assets/edf69bc9-71e1-434b-8ddc-7d91d2f1c6e3)
-
-![File Explorer Showing ServerUserDataUsername](https://github.com/user-attachments/assets/0868574e-ea46-4e9a-986f-e6da18a12f3d)
+📂 [`08-User-Environment-Management/II. Folder-Redirection Properties.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/II.%20Folder-Redirection%20Properties.md)

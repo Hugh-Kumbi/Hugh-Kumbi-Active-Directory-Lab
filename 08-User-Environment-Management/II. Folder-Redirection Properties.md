@@ -24,7 +24,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
    `Create a folder specifically for the IT-Security Team under the root path`
 
 3. Specified the **Root Path**:  
-   `\\WINSERVER2025\RedirectionFolder$`
+   `\\WINSERVER2025\FolderRedirection$`
 
 4. Checked the box for:  
    ✅ *Grant the user exclusive rights to Documents*

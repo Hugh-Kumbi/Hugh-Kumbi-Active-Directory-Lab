@@ -1,4 +1,4 @@
-<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User1`" src="https://github.com/user-attachments/assets/ee218dc6-6380-42c8-85c8-e3c90f223d5a" /># 📁 Folder Redirection Policy
+# 📁 Folder Redirection Policy
 
 This section explains how I implemented **Folder Redirection** via Group Policy to store user documents on the server instead of the local machine. This approach enhances data security, simplifies backups, and allows users to access their files from any domain-joined device.
 
@@ -133,7 +133,7 @@ To test the policy:
 1. Logged into a Windows 11 domain client as a user.
 2. Opened the Documents folder.
 3. Verified that the Documents folder was redirected to the server path:
-    `\\WINSERVER2025\RedirectionFolder$\TechUser1\Desktop` & `\\WINSERVER2025\RedirectionFolder$\TechUser2\Desktop`
+    `\\WINSERVER2025\FolderRedirection$\TechUser1\Desktop` & `\\WINSERVER2025\FolderRedirection$\TechUser2\Desktop`
 4. Created a test file and confirmed it was saved on the server location.
 
 📸 **User's Desktop Folder Showing the Server Path for `Tech User1`**
@@ -146,11 +146,11 @@ To test the policy:
 
 📸 **File Explorer Showing Server FolderRedirection for `TechUser1`**
 
-<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User1`" src="https://github.com/user-attachments/assets/5b3080d1-4871-429f-9f51-15d01691ab23" /><br />
+<img width="1920" height="909" alt="File Explorer Showing Server FolderRedirection for `TechUser1`" src="https://github.com/user-attachments/assets/a1dc89d1-518e-4183-a117-0e661e39e790" /><br />
 
 📸 **File Explorer Showing Server FolderRedirection for `TechUser2`**
 
-<img width="1920" height="909" alt="File Explorer Showing Server FolderRedirection for `TechUser2`" src="https://github.com/user-attachments/assets/d3beddda-9303-4cdb-9f95-df4a13df0288" />
+<img width="1920" height="909" alt="File Explorer Showing Server FolderRedirection for `TechUser2`" src="https://github.com/user-attachments/assets/cc3b2d45-f60c-4f63-a950-189740bc8bab" /><br />
 
 ---
 

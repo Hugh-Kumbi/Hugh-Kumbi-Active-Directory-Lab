@@ -84,9 +84,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Security Options Settings**
 
-![Security Options](https://github.com/user-attachments/assets/61a85dad-1038-4f0d-9965-0a27e57e93ea)
+<img width="1920" height="909" alt="Security Options Settings" src="https://github.com/user-attachments/assets/32d7e974-aacf-475c-ad4f-8243c0e9d30a" /><br />
 
-![Security Options 2](https://github.com/user-attachments/assets/f9166e44-8d35-40e3-a373-7c00e4170b5e)
+<img width="1920" height="909" alt="Security Options Settings 1" src="https://github.com/user-attachments/assets/6060a431-73d1-45e6-bff7-4e6aab4f9340" />
 
 ---
 
@@ -144,15 +144,15 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Windows Defender Firewall Settings**
 
-![Windows Defender Firewall Settings](https://github.com/user-attachments/assets/05a7a557-cff8-4867-9eec-de6c2bd58ac2)
+<img width="1920" height="909" alt="Windows Defender Firewall Settings" src="https://github.com/user-attachments/assets/f3d6b7a3-68e8-4cca-9458-efeb267155aa" /><br />
 
 📸 **Windows Defender Firewall Settings**
 
-![Windows Defender Firewall Settings 1](https://github.com/user-attachments/assets/c60c8387-2024-4d04-af00-bb2ef0eabce3)
+<img width="1920" height="909" alt="Windows Defender Firewall Settings 1" src="https://github.com/user-attachments/assets/0cea38cb-c0ef-4742-baca-ad9113e6394e" /><br />
 
 📸 **Windows Defender Firewall Settings**
 
-![Windows Defender Firewall Settings 2](https://github.com/user-attachments/assets/67d4f7a1-9400-4a32-af41-f835e7965558)
+<img width="1920" height="909" alt="Windows Defender Firewall Settings 2" src="https://github.com/user-attachments/assets/daba3079-d418-44c6-b03b-9ba797a3f623" />
 
 ---
 
@@ -276,7 +276,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Control Panel Settings**
 
-![Control Panel Settings](https://github.com/user-attachments/assets/53cb252c-a453-4f08-ad84-4e06c7593b78)
+<img width="1920" height="909" alt="Control Panel Settings" src="https://github.com/user-attachments/assets/85c149ad-c09f-449a-9e5b-5f0a21ccca53" /><br />
 
 ### 💻 System
 **Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System`
@@ -287,7 +287,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **System Settings**
 
-![System Settings 2](https://github.com/user-attachments/assets/36486c0e-af16-4662-adc9-865d8aa6f78d)
+<img width="1920" height="909" alt="System Settings" src="https://github.com/user-attachments/assets/564c1ec7-ffd0-4b1c-94c8-7903549a4bf4" /><br />
 
 📸 **System Settings**
 
@@ -302,7 +302,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Network Settings**
 
-![Network Settings](https://github.com/user-attachments/assets/d7a5d051-dd53-47a8-b1c3-dc4e4b9590ea)
+<img width="1920" height="909" alt="Network Settings" src="https://github.com/user-attachments/assets/0938c995-0d6a-4a98-9622-c715e254a252" />
 
 ---
 
@@ -358,15 +358,15 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **BitLocker Drive Encryption Settings**
 
-![BitLocker Drive Encryption](https://github.com/user-attachments/assets/5c5f5dac-7be3-4710-9b68-6ca3352ff76c)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Fixed Drive Settings Overview" src="https://github.com/user-attachments/assets/eae3f23f-f672-4a8f-a7ec-8b703b7d6191" /><br />
 
 📸 **BitLocker Drive Encryption Settings**
 
-![BitLocker Drive Encryption 2](https://github.com/user-attachments/assets/66315f81-6736-40cd-90d4-cbe7cfbc7205)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Policies for Operating System Drives Overview" src="https://github.com/user-attachments/assets/c84d3785-c5be-4eec-9bd8-893ec3e2f974" /><br />
 
 📸 **BitLocker Drive Encryption Settings**
 
-![BitLocker Drive Encryption 3](https://github.com/user-attachments/assets/c8abc7e5-e676-4229-84a6-a69cd3ce1f6a)
+<img width="1920" height="909" alt="BitLocker Drive Encryption Removable Data Drives Overview" src="https://github.com/user-attachments/assets/c53fa362-fb2d-4fbd-9836-7e7bd278cfe1" />
 
 ---
 
@@ -383,19 +383,13 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **AppLocker Settings Executable Rules Settings**
 
-![AppLocker Settings](https://github.com/user-attachments/assets/a8109dc1-b983-44ef-a7b8-4dceffaaef0f)
+<img width="1920" height="909" alt="AppLocker Settings" src="https://github.com/user-attachments/assets/975994dd-d3ca-4d3b-b617-ef53ca2ec3bc" /><br />
 
 📸 **AppLocker Settings Windows Installer Rules Settings**
 
-![AppLocker Settings 1](https://github.com/user-attachments/assets/59ec0b18-e225-432e-b818-87f599da3445)
+<img width="1920" height="909" alt="AppLocker Settings 1" src="https://github.com/user-attachments/assets/18ddb787-14b3-4418-806f-f1822ad85b84" />
 
-📸 **AppLocker Settings Script Rules Settings**
-
-![AppLocker Settings 2](https://github.com/user-attachments/assets/38351e58-6bc2-4c75-a374-72bbccecd7ee)
-
-📸 **AppLocker Settings Packaged App Rules Settings**
-
-![AppLocker Settings 3](https://github.com/user-attachments/assets/c40e471c-4012-40a2-9337-4105c6b8968f)
+---
 
 ### 📁 App Package Deployment
 

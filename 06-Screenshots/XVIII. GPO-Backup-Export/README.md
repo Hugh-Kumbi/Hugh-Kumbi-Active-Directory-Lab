@@ -22,7 +22,7 @@ Demonstrates how to back up GPOs using the GPMC, which includes exporting them t
 
 Displays the process of exporting GPO settings to a file, making it easy to transfer and reuse GPOs in other environments.
 
-**📸 Export GPO in GPMC**
+**📸 Export GPO to HTML in GPMC**
 
 <img width="1920" height="909" alt="Generating HTML report for Default Domain Policy" src="https://github.com/user-attachments/assets/f7ca6578-c3a0-4b96-ab00-4e8198020e3d" /><br />
 
@@ -90,7 +90,17 @@ Displays the process of exporting GPO settings to a file, making it easy to tran
 
 <img width="1920" height="909" alt="Generating HTML report for Windows Defender Policy" src="https://github.com/user-attachments/assets/d36953df-206b-4c15-bfe7-19f60198c8e4" /><br />
 
-<img width="1920" height="909" alt="Generating HTML report for Windows Firewall Settings Policy" src="https://github.com/user-attachments/assets/10cf97e3-f3eb-4b62-86e8-13ff108b22f8" />
+<img width="1920" height="909" alt="Generating HTML report for Windows Firewall Settings Policy" src="https://github.com/user-attachments/assets/10cf97e3-f3eb-4b62-86e8-13ff108b22f8" /><br />
+
+**📸 Export all GPOs to XML with Comprehensive Error Handling**
+
+<img width="1920" height="909" alt="Export all GPOs to XML with Comprehensive Error Handling" src="https://github.com/user-attachments/assets/781a92a8-c9dc-4774-943d-070ae45a408f" /><br />
+
+<img width="1920" height="909" alt="Export all GPOs to XML with Comprehensive Error Handling 1" src="https://github.com/user-attachments/assets/b6b47ac9-24d4-40c5-a72b-fe8042e5dbab" /><br />
+
+<img width="1920" height="909" alt="Export all GPOs to XML with Comprehensive Error Handling 2" src="https://github.com/user-attachments/assets/013a9839-b8b7-4ca1-9c33-c878470aab64" /><br />
+
+<img width="1920" height="909" alt="Export all GPOs to XML with Comprehensive Error Handling 3" src="https://github.com/user-attachments/assets/d2a3677d-5529-43c7-ad5f-76638d29382e" />
 
 ---
 
@@ -98,7 +108,7 @@ Displays the process of exporting GPO settings to a file, making it easy to tran
 
 Shows how to verify that the backup files are intact and suitable for restoration.
 
-**📸 Verify GPO Backup Integrity**
+**📸 Verify HTML GPO Backup Integrity**
 
 <img width="1920" height="909" alt="Verify GPO Backup Integrity" src="https://github.com/user-attachments/assets/5a795c93-6bb8-447f-8118-7cecc6771fc9" /><br />
 
@@ -106,7 +116,43 @@ Shows how to verify that the backup files are intact and suitable for restoratio
 
 <img width="1920" height="909" alt="Verify GPO Backup Integrity 3" src="https://github.com/user-attachments/assets/9f14256e-2b1d-4552-a4af-87c0c33cdf6e" /><br />
 
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 4" src="https://github.com/user-attachments/assets/0b476827-e79b-484b-a88e-c5413bc3a320" />
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 4" src="https://github.com/user-attachments/assets/0b476827-e79b-484b-a88e-c5413bc3a320" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity" src="https://github.com/user-attachments/assets/da85e889-ac8e-45b3-92b0-26628517b19b" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 1" src="https://github.com/user-attachments/assets/41dd264f-2600-4a4b-b503-82b59f485e20" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 2" src="https://github.com/user-attachments/assets/c585c0d8-9d14-47b8-b9d0-e51429f8eb81" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 3" src="https://github.com/user-attachments/assets/238bd10b-57f2-4a32-88d2-beeec3d3573f" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 4" src="https://github.com/user-attachments/assets/d163faa6-0946-438c-9242-32bd495006a9" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 5" src="https://github.com/user-attachments/assets/2b6b5770-4403-4324-9eb3-cda4e8a87b5c" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 6" src="https://github.com/user-attachments/assets/5322869b-4d23-4acf-b250-9ac8a30b9042" /><br />
+
+<img width="1920" height="909" alt="Verify HTML GPO Backup Integrity 7" src="https://github.com/user-attachments/assets/9f902e16-761f-4dd6-8620-5bbf9568837a" /><br />
+
+**📸 Verify XML GPO Backup Integrity**
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 6" src="https://github.com/user-attachments/assets/9e7f451c-012c-4ffd-9866-872461c4cfec" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 5" src="https://github.com/user-attachments/assets/2498e5af-bd30-4a52-b9d9-b5bdba9b4f41" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 7" src="https://github.com/user-attachments/assets/7c83f1fc-d41c-4965-adf5-7cfc1b335511" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 8" src="https://github.com/user-attachments/assets/554457d9-443f-4e6d-b0d8-95466f985192" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 9" src="https://github.com/user-attachments/assets/e1f53dae-b650-457b-8243-6849b57823b4" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 10" src="https://github.com/user-attachments/assets/0346bd7e-77ea-4222-b6ab-1ea4a1a8c06a" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 11" src="https://github.com/user-attachments/assets/430311db-47a0-4e9d-aec6-dfa8d07aa4e8" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 12" src="https://github.com/user-attachments/assets/a8bb741c-c6b5-44a2-bfa9-d372265fdce0" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 13" src="https://github.com/user-attachments/assets/0aee33f9-504d-462a-b1b7-abccc5e1a27e" /><br />
 
 ---
 
@@ -116,14 +162,38 @@ Explains how to restore and import GPO backups into a new Active Directory envir
 
 **📸 Import GPOs into New Environment**
 
+<img width="1920" height="909" alt="Importing GPOs Wizard" src="https://github.com/user-attachments/assets/42d5176f-e43a-420b-acc5-ceb45c6773cf" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 1" src="https://github.com/user-attachments/assets/887228a1-172b-45ee-8122-fec25aa1f027" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 2" src="https://github.com/user-attachments/assets/7c8bc487-4a4b-44fa-b8c8-f6311b288d64" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 3" src="https://github.com/user-attachments/assets/92e05973-4c7b-4604-8d78-04df7db73022" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 4" src="https://github.com/user-attachments/assets/f17a8983-3786-45c1-8f2c-d6226001bd15" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 5" src="https://github.com/user-attachments/assets/76c03b41-fc5d-4701-81da-450fbd7bca92" /><br />
+
+<img width="1920" height="909" alt="Importing GPOs Wizard 6" src="https://github.com/user-attachments/assets/3a081427-fb36-484f-9d19-68b36860dec7" /><br />
+
+<img width="1920" height="909" alt="Imported GPO and Test GPO are the same" src="https://github.com/user-attachments/assets/d0e3265f-a978-40b2-ae5e-edc0d9cc2782" />
+
 ---
 
 ## 5. 📚 Resultant Set of Policy (RSoP) After GPO Import
 
 Displays how the imported GPO settings are reflected in the Resultant Set of Policy (RSoP) on the client machine.
 
-**📸 RSoP After GPO Import**
+**📸 RSoP on `AD-WIN11-01` After GPO Import**
+
+<img width="1920" height="909" alt="RSoP on `AD-WIN11-01` After GPO Import" src="https://github.com/user-attachments/assets/83f5087e-45ff-42a1-a374-284f6b96299e" /><br />
+
+**📸 RSoP on `AD-WIN11-02` After GPO Import**
+
+<img width="1920" height="909" alt="RSoP on `AD-WIN11-02` After GPO Import" src="https://github.com/user-attachments/assets/8e67d213-fe57-4c6e-8bb3-07b8a7500947" />
 
 ---
 
-Each image corresponds to a step described in 📂 07-GPO-Security-Policies/IV. GPO Backup-Export.md
+# 📁 6. Screenshot Storage
+All screenshots related to GPOs should be saved in:<br />
+📂 [`07-GPO-Security-Policies/IV. GPO-Backup-Export.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/IV.%20GPO-Backup-Export.md)

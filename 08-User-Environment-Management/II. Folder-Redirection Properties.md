@@ -1,4 +1,4 @@
-# 📁 Folder Redirection Policy
+<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User1`" src="https://github.com/user-attachments/assets/ee218dc6-6380-42c8-85c8-e3c90f223d5a" /># 📁 Folder Redirection Policy
 
 This section explains how I implemented **Folder Redirection** via Group Policy to store user documents on the server instead of the local machine. This approach enhances data security, simplifies backups, and allows users to access their files from any domain-joined device.
 
@@ -9,9 +9,9 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 - **GPO Name:** Folder Redirection Policy  
 - **Linked To:** ITSecurity OU
 
-📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the IT OU**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the ITSecurity OU**
 
-![Group Policy Management Console Showing the Folder Redirection Policy GPO and Link](https://github.com/user-attachments/assets/78578631-780a-4254-b005-4f7e80a13ae2)
+<img width="1920" height="909" alt="Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the ITSecurity OU" src="https://github.com/user-attachments/assets/c086dc0a-f8de-4455-b964-0125932a45ce" />
 
 ---
 
@@ -37,59 +37,59 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 📸 **Folder Redirection Properties Window with Configuration**
 
-![Folder Redirection Properties Window with Configuration 1](https://github.com/user-attachments/assets/f101a6fc-36ae-4897-9032-90669ca327fe)
+<img width="1920" height="909" alt="Folder Redirection Properties Window with Configuration" src="https://github.com/user-attachments/assets/a01fcb43-9e83-4956-9c84-edd6acae7e08" /><br />
 
 📸 **Root Path Entered for Desktop Redirection**
 
-![Root Path Entered for Desktop Redirection](https://github.com/user-attachments/assets/b201c77a-9927-4c42-a14a-7303c51c0200)
+<img width="1920" height="909" alt="Root Path Entered for Desktop Redirection1" src="https://github.com/user-attachments/assets/abd947bb-1a3a-4a2d-9565-c1224a148a01" /><br />
 
-📸 **Root Path Entered for  Start Menu Redirection**
+📸 **Root Path Entered for Start Menu Redirection**
 
-![Root Path Entered for Start Menu Redirection](https://github.com/user-attachments/assets/f83c5981-4568-44e6-b67f-a94b507fb0f6)
+<img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection 1" src="https://github.com/user-attachments/assets/c1374b38-b4f5-4b5b-89b1-37295dcc6dfb" /><br />
 
 📸 **Root Path Entered for Documents Redirection**
 
-![Root Path Entered for Documents Redirection](https://github.com/user-attachments/assets/5dede761-b8ed-4496-b58d-b7f6e940a193)
+<img width="1920" height="909" alt="Root Path Entered for Documents Redirection 1" src="https://github.com/user-attachments/assets/b628c8db-8bfb-4d78-8394-a54b3d9160dc" /><br />
 
 📸 **Root Path Entered for Pictures Redirection**
 
-![Root Path Entered for Pictures Redirection](https://github.com/user-attachments/assets/9e474143-a0b3-4666-9408-bfb5f6f15ad3)
+<img width="1920" height="909" alt="Root Path Entered for Pictures Redirection 1" src="https://github.com/user-attachments/assets/0e2e8701-c539-4604-ae7b-b420093cdeb1" /><br />
 
 📸 **Root Path Entered for Music Redirection**
 
-![Root Path Entered for Music Redirection](https://github.com/user-attachments/assets/36b9b6fe-296e-41a3-a6c5-aa4c21b74e3d)
+<img width="1920" height="909" alt="Root Path Entered for Music Redirection 1" src="https://github.com/user-attachments/assets/2dddd00b-a65a-4201-a1f5-cc42004d46c5" /><br />
 
 📸 **Root Path Entered for Videos Redirection**
 
-![Root Path Entered for Videos Redirection](https://github.com/user-attachments/assets/ad42d36e-adb6-4d45-8bc6-43de2647b21a)
+<img width="1920" height="909" alt="Root Path Entered for Videos Redirection 1" src="https://github.com/user-attachments/assets/75110013-3712-40da-b08a-263dcf02b241" /><br />
 
 📸 **Root Path Entered for Contacts Redirection**
 
-![Root Path Entered for Contacts Redirection](https://github.com/user-attachments/assets/a2bfcfc2-7774-4c17-9ad0-9f9591e9a222)
+<img width="1920" height="909" alt="Root Path Entered for Contacts Redirection 1" src="https://github.com/user-attachments/assets/49bfac85-370f-4e3e-a8f9-5c686b26ba59" /><br />
 
 📸 **Root Path Entered for Downloads Redirection**
 
-![Root Path Entered for Downloads Redirection](https://github.com/user-attachments/assets/53b375b8-9506-433e-bec3-cf5510f29ba8)
+<img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
 
 📸 **Root Path Entered for Links Redirection**
 
-![Root Path Entered for Links Redirection](https://github.com/user-attachments/assets/e80ebe1a-2e59-4378-95c4-8416360cb9b6)
+<img width="1920" height="909" alt="Root Path Entered for Links Redirection" src="https://github.com/user-attachments/assets/0bb969a3-6004-4000-a90d-ce8770dce66c" /><br />
 
 📸 **Root Path Entered for Searches Redirection**
 
-![Root Path Entered for Searches Redirection](https://github.com/user-attachments/assets/a817a2ad-fc0f-43de-b49c-57e20fc29ee1)
+<img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `TechUser1`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `Tech User1`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for TechUser1](https://github.com/user-attachments/assets/56f0da35-ca0d-4028-844f-b6fcd682b495)
+<img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `TechUser1`" src="https://github.com/user-attachments/assets/872354c2-8b70-42af-aa3f-7d4eea9352d0" /><br />
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `TechUser2`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `Tech User2`**
 
-![Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for TechUser2](https://github.com/user-attachments/assets/b28bcece-1d3b-41eb-94a8-dfb6eecc4c2e)
+<img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `TechUser2`" src="https://github.com/user-attachments/assets/46d9c759-c137-4fcf-8999-06dae031a234" /><br />
 
-📸 **Server Side Share Showing RedirectionFolder**
+📸 **Server Side Share Showing FolderRedirection**
 
-![Server Side Share Showing User Folder 1](https://github.com/user-attachments/assets/6a8a2aea-996f-4869-a62c-2b3908a2d71d)
+<img width="1920" height="909" alt="Server Side Share Showing FolderRedirection" src="https://github.com/user-attachments/assets/4c1aedab-bf59-45a2-acbf-1c9f1f042e3b" />
 
 ---
 
@@ -98,7 +98,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 Created the following folder on the server to hold user files:  
 
 ```
-C:\RedirectionFolder$
+C:\FolderFolder$
 ```
 
 Then shared it with proper permissions:
@@ -113,17 +113,17 @@ Then shared it with proper permissions:
 
  -  IT-Security Group: Modify, Read & Execute, List Folder Contents, Read, Write
 
-📸 **NTFS Permission Settings for the RedirectionFolder**
+📸 **NTFS Permission Settings for the FolderRedirection**
 
-![Permission Entry for RedirectionFolder](https://github.com/user-attachments/assets/2b541fbc-bc37-4898-85f7-815102b0b316)
+<img width="1920" height="909" alt="NTFS Permission Settings for the FolderRedirection" src="https://github.com/user-attachments/assets/df8d00cd-7e79-485d-b9eb-1e6183f950a1" /><br />
 
 📸 **Advanced Security Settings for RedirectionFolder**
 
-![Permission Entry for RedirectionFolder 1](https://github.com/user-attachments/assets/ba3bddf5-28c5-4674-bbb5-135f28a028e1)
+<img width="1920" height="909" alt="Advanced Security Settings for FolderRedirection" src="https://github.com/user-attachments/assets/a7507789-845b-4400-9eb0-6799913a0bdc" /><br />
 
-📸 **Share Settings with IT-Security Users Listed**
+📸 **Share Settings with ITSecurity Users Listed**
 
-![Uploading Share Settings with IT-Security Users Listed 1.png…]()
+<img width="1920" height="909" alt="Share Settings with ITSecurity Users Listed" src="https://github.com/user-attachments/assets/546412db-080e-4872-8ad7-c3f4a1af1e8a" />
 
 ---
 
@@ -138,23 +138,23 @@ To test the policy:
 
 📸 **User's Desktop Folder Showing the Server Path for `Tech User1`**
 
-![User’s Documents Folder Showing the Server Path for Tech User1](https://github.com/user-attachments/assets/19f86f93-6698-4514-928c-b745fef9b05d)
+<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User1`" src="https://github.com/user-attachments/assets/70bdee30-f2de-4cf1-971f-c091e0ece565" /><br />
 
 📸 **User's Desktop Folder Showing the Server Path for `Tech User2`**
 
-![User’s Documents Folder Showing the Server Path for Tech User2](https://github.com/user-attachments/assets/029005e5-fc54-4f02-8981-24c2ec3746ad)
+<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User2`" src="https://github.com/user-attachments/assets/d9b5517d-5db8-4ac8-9331-9c257b914657" /><br />
 
-📸 **File Explorer Showing Server RedirectionFolder for `TechUser1`**
+📸 **File Explorer Showing Server FolderRedirection for `TechUser1`**
 
-![File Explorer Showing Server RedirectionFolder Username](https://github.com/user-attachments/assets/b14480b7-8784-4f4b-9c2a-1a73abe2e16a)
+<img width="1920" height="909" alt="User's Desktop Folder Showing the Server Path for `Tech User1`" src="https://github.com/user-attachments/assets/5b3080d1-4871-429f-9f51-15d01691ab23" /><br />
 
-📸 **File Explorer Showing Server RedirectionFolder for `TechUser2`**
+📸 **File Explorer Showing Server FolderRedirection for `TechUser2`**
 
-![File Explorer Showing Server RedirectionFolder Username 1](https://github.com/user-attachments/assets/c1cf326d-ea46-430a-8077-95e00571f73c)
+<img width="1920" height="909" alt="File Explorer Showing Server FolderRedirection for `TechUser2`" src="https://github.com/user-attachments/assets/d3beddda-9303-4cdb-9f95-df4a13df0288" />
 
 ---
 
 ## 🗂️ 5. Screenshot Storage
 
 Store all screenshots in:
-📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection-Properties.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Folder-Redirection/II.%20Folder-Redirection-Properties.md)
+📂 [`06-Screenshots/XX. Folder-Redirection Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XX.%20Folder-Redirection%20Settings)

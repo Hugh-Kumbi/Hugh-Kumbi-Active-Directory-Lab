@@ -21,7 +21,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Password Policies Settings**
 
-![Password Policies](https://github.com/user-attachments/assets/384e6c74-e870-46fd-992d-ce69aa88be93)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Password Policy Path" src="https://github.com/user-attachments/assets/6c979a92-4794-418f-a77a-1f8f1a4be9d7" />
 
 ---
 
@@ -37,7 +37,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **Account Lockout Policies Settings**
 
-![Account Lockout Policies](https://github.com/user-attachments/assets/dcee3079-fea0-4fb0-80c2-65e6d9b6e5a1)
+<img width="1920" height="909" alt="Group Policy Editor Window Showing the Account Lockout Policy Settings" src="https://github.com/user-attachments/assets/cc81cb7c-9d27-4e28-a4e6-bc1211c5ea7b" />
 
 ---
 
@@ -58,9 +58,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 📸 **User Rights Assignment Settings**
 
-![User Rights Assignment](https://github.com/user-attachments/assets/7a149d67-d761-4a57-9f2a-b7d6f97b2fd9)
+![Group Policy Editor Window Showing User Rights Path](https://github.com/user-attachments/assets/76170d21-d2b2-4a02-aa54-7315606c72cc)
 
-![User Rights Assignment](https://github.com/user-attachments/assets/439c855e-43ea-4c5e-9e3a-7ce91efe1139)
+![Group Policy Editor Window Showing User Rights Path 1](https://github.com/user-attachments/assets/685c9085-f8e7-43d2-aeef-d5e14cff2361)
 
 ---
 

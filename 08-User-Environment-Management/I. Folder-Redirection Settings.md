@@ -91,7 +91,7 @@ To verify the configuration:
 
 📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `lguzha`**
 
-<img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `lguzha" src="https://github.com/user-attachments/assets/9b17e647-3123-47f8-9592-1bdc456013bc" /><br />
+<img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for AD-WIN11-02 for lguzha" src="https://github.com/user-attachments/assets/ed0840c8-2d02-4814-89ad-1d20c99a64f5" /><br />
 
  📸 **User's Document Folder Showing the Server Path for Mei Guzha `mguzha`**
 

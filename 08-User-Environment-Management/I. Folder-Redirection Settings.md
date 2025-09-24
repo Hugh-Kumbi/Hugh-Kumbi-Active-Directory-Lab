@@ -9,7 +9,7 @@ This document details how I implemented **Folder Redirection** in my Active Dire
 - **GPO Name:** User Folder Redirection Policy  
 - **Linked To:** Employees OU
 
-📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the Employees OU**
+📸 **Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the ITSecurity OU**
 
 ![Group Policy Management Console Showing the User Folder Redirection Policy GPO and Link to the Employees OU](https://github.com/user-attachments/assets/175f7363-6bb5-4ccb-94ac-c28447004f46)
 

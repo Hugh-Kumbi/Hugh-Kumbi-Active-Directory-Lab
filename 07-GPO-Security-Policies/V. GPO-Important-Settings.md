@@ -8,7 +8,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔑 Password Policies
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 | Setting                                                 | Value                   |
 |---------------------------------------------------------|-------------------------|
@@ -27,7 +28,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🚫 Account Lockout Policies
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 | Setting                                        | Value              |
 |------------------------------------------------|--------------------|
@@ -43,7 +45,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 👤 User Rights Assignment
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
 | Setting                                             | Assigned To                                                                                                                      |
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -66,7 +69,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🛡️ Security Options
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
 
 | Setting                                                                    | Value                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
@@ -94,7 +98,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🛡️ Microsoft Defender Antivirus
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 | Setting                                                      | Value             |
 |--------------------------------------------------------------|-------------------|
@@ -134,7 +139,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔥 Windows Defender Firewall
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
 
 | Profile Type         | Firewall State | Inbound Connections  | Outbound Connections  |
 |----------------------|----------------|----------------------|-----------------------|
@@ -160,7 +166,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🖼️ Desktop Settings
 
-**Path:** 📂 `User Configuration > Policies > Administrative Templates > Desktop`
+**Path:** <br />
+📂 `User Configuration > Policies > Administrative Templates > Desktop`
 
 - **Desktop Wallpaper:** Set to corporate wallpaper
 - **Desktop Icons:** Control icons on desktop
@@ -171,7 +178,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📋 Start Menu and Taskbar
 
-**Path:** 📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+**Path:** <br />
+📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
 
 - Remove access to taskbar context menus: Disabled  
 - Remove "Search the Internet" link: Enabled  
@@ -196,7 +204,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔧 Windows Update for Business
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
 
 | Setting                                                  | Value                         |
 |----------------------------------------------------------|-------------------------------|
@@ -225,7 +234,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🌎 Microsoft Edge Settings
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
 
 - `Action to take on Microsoft Edge startup`: Enabled
 - `Allow users to be alerted if their passwords are found to be unsafe`: Enabled
@@ -270,7 +280,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### ⚙️ Control Panel
 
-**Path:** 📂 `User Configuration > Policies > Administrative Templates > Control Panel`
+**Path:** <br />
+📂 `User Configuration > Policies > Administrative Templates > Control Panel`
 
 - **Prohibit access to Control Panel and PC settings:** Enabled
 
@@ -279,7 +290,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 <img width="1920" height="909" alt="Control Panel Settings" src="https://github.com/user-attachments/assets/85c149ad-c09f-449a-9e5b-5f0a21ccca53" /><br />
 
 ### 💻 System
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System`
+
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > System`
 
 - Turn off DEP for Explorer: Disabled  
 - Turn off heap termination on corruption: Disabled  
@@ -295,7 +308,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🌐 Network
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Network`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Network`
 
 - Prohibit Internet Connection Sharing on DNS domain network: Enabled  
 - Route all traffic through internal network: Enabled (for VPN)
@@ -308,7 +322,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 🔋 Power Management
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
 
 - Active power plan: Enabled, set to "Balanced"  
 - Hibernate timeout (plugged in): Enabled, set accordingly  
@@ -329,7 +344,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🛡️ Data Loss Prevention
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
 
 - Block copying to removable drives: Enabled  
 - Windows SmartScreen: Enabled  
@@ -349,7 +365,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 🔐 BitLocker Drive Encryption
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
 
 - OS Drives > Require additional auth at startup: Enabled  
 - OS Drives > Enable keyboard input on slates: Enabled  
@@ -374,7 +391,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📋 AppLocker
 
-**Path:** 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
 
 - Executable Rules: Create Default Rules & Custom Rules 
 - Windows Installer Rules: Create Default Rules & Custom Rules  
@@ -393,7 +411,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ### 📁 App Package Deployment
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
 
 - Allow deployment operations in special profiles: Disabled  
 - Prevent non-admin users from installing packaged Windows apps: Enabled
@@ -406,7 +425,8 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 🔧 Device Installation
 
-**Path:** 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
+**Path:** <br />
+📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
 
 - Prevent install by device ID: Enabled (`PCI\VEN_8086&DEV_1C3A`, `USB\VID_0781&PID_5583`, `USB\VID_05AC&PID_12A8`)  
 - Prevent install by setup class: Enabled (`{4d36e967-e325-11ce-bfc1-08002be10318}`)
@@ -419,5 +439,5 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 🗂️ 5. Screenshot Storage
 
-Store all screenshots in:
-📂 [`06-Screenshots/Folder-Redirection/Folder-Redirection-Properties.png`]()
+Store all screenshots in:<br />
+📂 [`06-Screenshots/XIX. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIX.%20GPO-Important-Settings)

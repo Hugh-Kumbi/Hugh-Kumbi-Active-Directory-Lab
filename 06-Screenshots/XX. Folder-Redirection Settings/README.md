@@ -41,26 +41,15 @@ The Basic option redirects user folders to a specified network share. This setti
 
 📸 **Setting Folder Redirection Type to Basic**
 
-📸 **Setting User Folder Redirection Type to Basic**
-
-
----
-
-## 4. 🔄 Configuring Advanced Redirection Settings
-
-The Advanced option provides more control over folder redirection, allowing different redirection settings for different user groups or environments, such as setting up multiple paths.
-
-📸 **Configuring Advanced Folder Redirection Settings**
-
 <img width="1920" height="909" alt="Configuring User Folder Redirection for AppData" src="https://github.com/user-attachments/assets/46e0b629-8006-4051-b392-c41b92c95ef8" /><br />
 
-📸 **Configuring Advanced User Folder Redirection Settings**
+📸 **Setting User Folder Redirection Type to Basic**
 
 <img width="1920" height="909" alt="Configuring Folder Redirection for AppData" src="https://github.com/user-attachments/assets/ff234415-2c03-4f96-98f7-d357618e2203" />
 
 ---
 
-## 5. Forcing Folder Redirection
+## 4. 🔄 Forcing Folder Redirection
 
 By enabling Force Folder Redirection, users will be forced to use the redirection settings, even if they have local folders configured. This ensures consistency across all machines.
 
@@ -110,7 +99,7 @@ By enabling Force Folder Redirection, users will be forced to use the redirectio
 
 ---
 
-## 6. ➡️ Configuring Folder Redirection Target for Users
+## 5. ➡️ Configuring Folder Redirection Target for Users
 
 This step allows setting the Target for the folder redirection, specifying the network path or share location where user folders will be redirected.
 
@@ -124,7 +113,7 @@ This step allows setting the Target for the folder redirection, specifying the n
 
 ---
 
-## 7. 📁 Configuring Folder Redirection for Documents
+## 6. 📁 Configuring Folder Redirection for Documents
 
 Redirecting the Documents folder to a shared network location allows for centralized access and backup. 
 
@@ -141,7 +130,7 @@ This setting is applied through GPO under:  <br />
 
 ---
 
-## 8. 🛠️ Configuring Folder Redirection for Desktop
+## 7. 🛠️ Configuring Folder Redirection for Desktop
 
 Redirection of the Desktop folder ensures that users' desktop environments are consistent across machines and stored in a central network location.
 
@@ -155,7 +144,7 @@ Redirection of the Desktop folder ensures that users' desktop environments are c
 
 ---
 
-## 9. ➡️ Configuring Folder Redirection for AppData
+## 8. ➡️ Configuring Folder Redirection for AppData
 
 Redirect the AppData folder to a network share to ensure that user-specific application data is stored centrally, improving user mobility and ensuring backup.
 
@@ -169,7 +158,7 @@ Redirect the AppData folder to a network share to ensure that user-specific appl
 
 ---
 
-## 10. 🗂️ Folder Redirection Properties for Specific Folders
+## 9. 🗂️ Folder Redirection Properties for Specific Folders
 
 Redirection properties can be set individually for Documents, Desktop, and AppData. Each folder's settings allow control over synchronization and redirection paths.
 
@@ -231,7 +220,7 @@ Redirection properties can be set individually for Documents, Desktop, and AppDa
 
 ---
 
-## 11. 🔍 Verifying Folder Redirection Application
+## 10. 🔍 Verifying Folder Redirection Application
 
 Confirm that folder redirection has been successfully applied by checking the Event Viewer logs.
 
@@ -265,7 +254,7 @@ Confirm that folder redirection has been successfully applied by checking the Ev
 
 ---
 
-## 12. 📊 Command Line Results from gpupdate
+## 11. 📊 Command Line Results from gpupdate
 
 Run the gpupdate command on the client machine to force the latest Group Policy settings, including folder redirection, to apply.
 
@@ -279,7 +268,7 @@ Run the gpupdate command on the client machine to force the latest Group Policy 
 
 ---
 
-## 13. 📈 Command Line Results from `gpresult`
+## 12. 📈 Command Line Results from `gpresult`
 
 The gpresult command is used to verify which policies, including folder redirection, have been applied to a specific machine or user.
 
@@ -305,7 +294,7 @@ The gpresult command is used to verify which policies, including folder redirect
 
 ---
 
-## 🗂️ 14. Screenshot Storage
+## 🗂️ 13. Screenshot Storage
 
 Store all screenshots in:<br />
 📂 [`08-User-Environment-Management/I. User Folder-Redirection Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/I.%20User%20Folder-Redirection%20Settings.md)<br />

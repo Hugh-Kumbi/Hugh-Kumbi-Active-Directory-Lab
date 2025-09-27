@@ -10,6 +10,14 @@ This section describes the configuration of **Drive Mapping**s using Group Polic
 
 Drive Mappings allow administrators to assign network drives to users or groups based on Group Policy, ensuring that users have access to shared resources upon login.
 
+📸 **Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU**
+
+<img width="1920" height="909" alt="Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU" src="https://github.com/user-attachments/assets/263cbd1a-7a0b-4eb0-b27b-6e06ba78d26f" />
+
+📸 **GPMC Showing the Map Network Drives Policy GPO Linked to the Employees OU**
+
+<img width="1920" height="909" alt="GPMC Showing the Map Network Drives Policy GPO Linked to the Employees OU" src="https://github.com/user-attachments/assets/285d255a-483e-482c-aca3-2ec505b2eca6" />
+
 ---
 
 ## 2. 🔗Configuring Group Policy Preferences for Drive Mappings
@@ -17,6 +25,10 @@ Drive Mappings allow administrators to assign network drives to users or groups 
 Drive mappings can be configured through Group Policy Preferences, providing additional flexibility and options compared to traditional Group Policy settings. This includes options for creating, updating, or deleting mapped drives.
 
 📸 **Drive Mappings Overview**
+
+![Drive Maps GPP Window1](https://github.com/user-attachments/assets/61128a0a-70ee-4c77-b84a-f7b1e5cc4787)
+
+![Drive Maps GPP Window 2](https://github.com/user-attachments/assets/ba62deeb-5cc5-452c-a6d0-39d53b2a3ed5)
 
 ---
 
@@ -26,13 +38,21 @@ The Drive Mappings setting within Group Policy allows administrators to assign n
 
 📸 **Configuring Drive Mapping via Group Policy**
 
+<img width="1920" height="909" alt="Configuring Drive Mapping via Group Policy" src="https://github.com/user-attachments/assets/56e961b9-0b54-4f59-b4fc-144968f4f301" /><br /> 
+
+<img width="1920" height="909" alt="Configuring Drive Mapping via Group Policy 1" src="https://github.com/user-attachments/assets/641b3f2c-3d80-4a35-a3e1-171fa3263f1e" />
+
 ---
 
 ## 4. ➕ Drive Mapping Actions: Create, Update, or Delete
 
 The Action setting allows administrators to specify whether a drive mapping should be created, updated, or deleted. This is useful for maintaining or removing mappings as users' needs evolve.
 
-📸 Drive Mapping Actions: Create, Update, or Delete
+📸 **Drive Mapping Actions: Create, Update, or Delete**
+
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter2](https://github.com/user-attachments/assets/ae7248b5-bad8-44e5-b71d-04d7a6bbae9a)
+
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter 3](https://github.com/user-attachments/assets/e0d2097b-5fcc-4301-9866-52747f64f014)
 
 ---
 
@@ -42,21 +62,35 @@ Drive mappings can be configured to be applied based on conditions, such as the 
 
 📸 Configuring Drive Mapping to Use Specific Conditions
 
+<img width="1920" height="909" alt="Shared Folder Path for ITSecurity Shared Drive" src="https://github.com/user-attachments/assets/67f8f0b5-ab11-4e63-9150-c2d8d80d0601" /><br /> 
+
+<img width="1920" height="909" alt="Shared Folder Path for ITSecurity Shared Drive 1" src="https://github.com/user-attachments/assets/3198de3c-8f93-453c-9045-c678f8b0a8f8" /><br />
+
+![Share settings for Server Share Drive Mapping S](https://github.com/user-attachments/assets/739d6e73-2b7c-4779-b3d9-895de2d9539b)
+
+![Share settings for Server Share Drive Mapping S 1](https://github.com/user-attachments/assets/863ffc53-007f-4d18-8f87-abc3c694016f)
+
 ---
 
 ## 6. 🗄️ Setting Drive Letter and Network Path
 
-When configuring a drive mapping, specify the Drive Letter (e.g., Z:) and the Network Path (e.g., \server\share), ensuring that the correct path is available for users.
+When configuring a drive mapping, specify the Drive Letter (e.g., Z: & S:) and the Network Path (e.g., `\\WINSERVER2025\ITSecurity Shared Drive` & `\\WINSERVER2025\DepartmentalShares`), ensuring that the correct path is available for users.
 
 📸 **Setting Drive Letter and Network Path**
 
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter2](https://github.com/user-attachments/assets/ae7248b5-bad8-44e5-b71d-04d7a6bbae9a)
 
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter 3](https://github.com/user-attachments/assets/e0d2097b-5fcc-4301-9866-52747f64f014)
 
 ## 7. ⚙️ Configuring Reconnection Settings
 
 The Reconnect option ensures that the network drive is automatically reconnected each time the user logs in, providing seamless access to shared resources.
 
 📸 **Configuring Reconnection Settings**
+
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter2](https://github.com/user-attachments/assets/ae7248b5-bad8-44e5-b71d-04d7a6bbae9a)
+
+![Drive Mapping Settings Window Showing Path, Label, and Drive Letter 3](https://github.com/user-attachments/assets/e0d2097b-5fcc-4301-9866-52747f64f014)
 
 ---
 
@@ -66,6 +100,14 @@ Drive mappings can be set for specific user groups or Organizational Units (OUs)
 
 📸 **Setting Drive Mapping for Specific User Groups**
 
+![Item-Level Targeting Configurations 4](https://github.com/user-attachments/assets/114f48fa-1674-4b98-b1d2-4467af19df51)
+
+![Item-Level Targeting Configurations 6](https://github.com/user-attachments/assets/20b3c11d-63d9-4bc4-ada3-1f3c5dded96e)
+
+![Item-Level Targeting Configurations 9](https://github.com/user-attachments/assets/7bd01cd7-6f9b-4fb9-9d03-7a18fa1fa37b)
+
+![Item-Level Targeting Configurations 8](https://github.com/user-attachments/assets/cb8e0af6-dd74-4db3-ba4d-0334ab82912a)
+
 ---
 
 ## 9. 🔗 Applying Drive Mappings Using Security Filtering
@@ -74,13 +116,47 @@ Use Security Filtering to apply drive mappings only to specific users or groups,
 
 📸 **Applying Drive Mappings Using Security Filtering**
 
+<img width="1920" height="909" alt="Applying Drive Mappings Using Security Filtering" src="https://github.com/user-attachments/assets/4f5241b9-e6ab-4b5a-b8e6-06a40f82f83a" /><br />
+
+<img width="1920" height="909" alt="Applying Map Network Drives Policy Using Security Filtering" src="https://github.com/user-attachments/assets/bac52056-ad9d-4f76-bd4c-834aff553f51" />
+
 ---
 
 ## 10. ✅ Verifying Drive Mapping on Client Machines
 
 Once configured, verify that the drive mappings are applied correctly by checking the This PC window or using the net use command.
 
-📸 **Verifying Drive Mapping on Client Machines**
+📸 **Verifying Drive Mapping on `AD-Win11-01` for `Tech User 1`**
+
+<img width="1920" height="909" alt="File Explorer Showing The Mapped Z Drive for `AD-Win11-01`" src="https://github.com/user-attachments/assets/b441f8a6-0bfe-4cd9-b24e-84f23a3dbdba" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-02` for `Tech User 2`**
+
+<img width="1920" height="909" alt="File Explorer Showing The Mapped Z Drive for `AD-Win11-02`" src="https://github.com/user-attachments/assets/bd213b59-bc4e-49d1-b869-0a9f91bcc56c" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-01` for `lguzha`**
+
+<img width="1920" height="909" alt="Verifying Drive Mapping on `AD-Win11-01` for `lguzha`" src="https://github.com/user-attachments/assets/50e53c93-c8da-4ca8-b362-3da0b6edefd4" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-01` for `mguzha`**
+
+<img width="1920" height="909" alt="Verifying Drive Mapping on `AD-Win11-01` for `mguzha`" src="https://github.com/user-attachments/assets/59622ff1-c57c-4e1f-aee1-7330028f4214" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-01` using `net use` for `Tech User 1`**
+
+<img width="1920" height="909" alt="Net Use Command on `AD-WIN11-01` for `Tech User 1`" src="https://github.com/user-attachments/assets/16cc85cc-f588-4991-a64d-88b4f119c44d" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-02` using `net use` for `Tech User 2`**
+
+<img width="1920" height="909" alt="Net Use Command on `AD-WIN11-02` for `Tech User 2`" src="https://github.com/user-attachments/assets/588c63ae-b003-4c35-916b-d28f385e9f79" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-01` using `net use` for `lguzha`**
+
+<img width="1920" height="909" alt="Verifying Drive Mapping on `AD-Win11-01` using `net use` for `lguzha`" src="https://github.com/user-attachments/assets/2629d3c2-8360-4cc0-987e-226b10ba654a" /><br /> 
+
+📸 **Verifying Drive Mapping on `AD-Win11-02` using `net use` for `mguzha`**
+
+<img width="1920" height="909" alt="Verifying Drive Mapping on `AD-Win11-02` using `net use` for `mguzha`" src="https://github.com/user-attachments/assets/f11815e7-b34e-4c61-9e34-5b33953b4985" />
 
 ---
 

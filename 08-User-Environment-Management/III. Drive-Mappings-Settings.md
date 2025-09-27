@@ -7,11 +7,11 @@ This document explains how I configured **drive mappings via Group Policy** to p
 ## 🏷️ 1. GPO Name
 
 - **GPO Name:** Drive Mappings Policy  
-- **Linked To:** IT Security OU
+- **Linked To:** ITSecurity OU
 
-📸 **Group Policy Management Console Showing Drive Mappings Policy Under the IT Security OU**
+📸 **Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU**
 
-![Group Policy Management Console Showing Drive Mappings Policy Under the IT Security OU](https://github.com/user-attachments/assets/2a711d83-a70b-4fe9-be23-000953b22462)
+<img width="1920" height="909" alt="Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU" src="https://github.com/user-attachments/assets/263cbd1a-7a0b-4eb0-b27b-6e06ba78d26f" />
 
 ---
 
@@ -47,9 +47,9 @@ I used the **Group Policy Preferences** feature for drive mappings:
 
 📸 **Shared Folder Path for ITSecurity Shared Drive**
 
-![Shared Foler Path for ITSecurity Shared Drive](https://github.com/user-attachments/assets/69a6a790-d060-4360-ab9d-0af02ccabb9f)
+<img width="1920" height="909" alt="Shared Folder Path for ITSecurity Shared Drive" src="https://github.com/user-attachments/assets/67f8f0b5-ab11-4e63-9150-c2d8d80d0601" /><br /> 
 
-![Shared Foler Path for ITSecurity Shared Drive 1](https://github.com/user-attachments/assets/b1ac7aa2-8141-49db-b290-a3c9886ec59b)
+<img width="1920" height="909" alt="Shared Folder Path for ITSecurity Shared Drive 1" src="https://github.com/user-attachments/assets/3198de3c-8f93-453c-9045-c678f8b0a8f8" />
 
 ---
 
@@ -72,23 +72,23 @@ To test the setup:
 
 📸 **File Explorer Showing The Mapped Z Drive for `AD-Win11-01`**
 
-![File Explorer Showing The Mapped Z Drive for `AD-Win11-01`](https://github.com/user-attachments/assets/120c758a-5056-4518-bf14-311594966b16)
+<img width="1920" height="909" alt="File Explorer Showing The Mapped Z Drive for `AD-Win11-01`" src="https://github.com/user-attachments/assets/b441f8a6-0bfe-4cd9-b24e-84f23a3dbdba" /><br /> 
 
 📸 **File Explorer Showing The Mapped Z Drive for `AD-Win11-02`**
 
-![File Explorer Showing The Mapped Z Drive for `AD-Win11-02`](https://github.com/user-attachments/assets/46349b79-466b-4e7c-b967-896ed85d6975)
+<img width="1920" height="909" alt="File Explorer Showing The Mapped Z Drive for `AD-Win11-02`" src="https://github.com/user-attachments/assets/bd213b59-bc4e-49d1-b869-0a9f91bcc56c" /><br /> 
 
 📸 **Properties Of The Mapped Drive for `AD-WIN11-01`**
 
-![File Explorer Showing The Mapped Z Drive for `AD-Win11-01`](https://github.com/user-attachments/assets/42094619-c937-4782-9d9e-a8393f834434)
+<img width="1920" height="909" alt="Properties Of The Mapped Drive for `AD-Win11-01`" src="https://github.com/user-attachments/assets/d1721bf0-ad12-422e-b03b-a60b3cf7aed1" /><br /> 
 
 📸 **Properties Of The Mapped Drive for `AD-WIN11-02`**
 
-![Properties of the Mapped Drive for `AD-WIN11-02`](https://github.com/user-attachments/assets/4062e92d-2d41-43c6-ac8d-3044abf5799e)
+<img width="1920" height="909" alt="Properties Of The Mapped Drive for `AD-Win11-02`" src="https://github.com/user-attachments/assets/82911b5e-a0e2-4a3c-80d6-c4ec55669e38" />
 
 ---
 
 ## 🗂️ 5. Screenshot Storage
 
-Save all related screenshots in:  
+Save all related screenshots in:<br />   
 📂 [`06-Screenshots/Drive-Mappings/Drive-Mappings/Drive-Map-Settings.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XII.%20Drive-Mappings/I.%20Drive-Map-Settings.md)

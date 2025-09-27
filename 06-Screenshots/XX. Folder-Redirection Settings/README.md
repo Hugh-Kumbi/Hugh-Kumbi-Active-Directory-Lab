@@ -88,8 +88,12 @@ This setting is applied through GPO under:  <br />
 
 📸 **Configuring Folder Redirection for Documents**
 
+<img width="1920" height="909" alt="Root Path Entered for Documents Redirection" src="https://github.com/user-attachments/assets/5be97ba4-34e3-497c-b4b6-23853ffbba4f" /><br />
+
+
 📸 **Configuring User Folder Redirection for Documents**
 
+<img width="1920" height="909" alt="Root Path Entered for Documents Redirection 1" src="https://github.com/user-attachments/assets/b628c8db-8bfb-4d78-8394-a54b3d9160dc" />
 
 ---
 
@@ -99,8 +103,11 @@ Redirection of the Desktop folder ensures that users' desktop environments are c
 
 📸 **Configuring Folder Redirection for Desktop**
 
+<img width="1920" height="909" alt="Configuring Folder Redirection for Desktop" src="https://github.com/user-attachments/assets/9bedf909-e0bd-4a55-aa83-8394f4e10a8c" /><br />
+
 📸 **Configuring USer Folder Redirection for Desktop**
 
+<img width="1920" height="909" alt="Root Path Entered for Desktop Redirection" src="https://github.com/user-attachments/assets/e7675e62-c3cb-486c-8675-b6b2a975f14b" />
 
 ---
 
@@ -110,8 +117,11 @@ Redirect the AppData folder to a network share to ensure that user-specific appl
 
 📸 **Configuring Folder Redirection for AppData**
 
+<img width="1920" height="909" alt="Configuring Folder Redirection for AppData" src="https://github.com/user-attachments/assets/ff234415-2c03-4f96-98f7-d357618e2203" /><br />
+
 📸 **Configuring User Folder Redirection for AppData**
 
+<img width="1920" height="909" alt="Configuring User Folder Redirection for AppData" src="https://github.com/user-attachments/assets/46e0b629-8006-4051-b392-c41b92c95ef8" /><br />
 
 ---
 
@@ -121,8 +131,63 @@ Redirection properties can be set individually for Documents, Desktop, and AppDa
 
 📸 **Folder Redirection Properties for Specific Folders**
 
+📸 **Root Path Entered for Start Menu Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection 1" src="https://github.com/user-attachments/assets/c1374b38-b4f5-4b5b-89b1-37295dcc6dfb" /><br />
+
+📸 **Root Path Entered for Pictures Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Pictures Redirection 1" src="https://github.com/user-attachments/assets/0e2e8701-c539-4604-ae7b-b420093cdeb1" /><br />
+
+📸 **Root Path Entered for Music Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Music Redirection 1" src="https://github.com/user-attachments/assets/2dddd00b-a65a-4201-a1f5-cc42004d46c5" /><br />
+
+📸 **Root Path Entered for Videos Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Videos Redirection 1" src="https://github.com/user-attachments/assets/75110013-3712-40da-b08a-263dcf02b241" /><br />
+
+📸 **Root Path Entered for Contacts Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Contacts Redirection 1" src="https://github.com/user-attachments/assets/49bfac85-370f-4e3e-a8f9-5c686b26ba59" /><br />
+
+📸 **Root Path Entered for Downloads Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
+
+📸 **Root Path Entered for Links Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Links Redirection" src="https://github.com/user-attachments/assets/0bb969a3-6004-4000-a90d-ce8770dce66c" /><br />
+
+📸 **Root Path Entered for Searches Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
+
 📸 **User Folder Redirection Properties for Specific Folders**
 
+📸 **Root Path Entered for Start Menu Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection" src="https://github.com/user-attachments/assets/a10471c8-cfc3-4740-a094-0d63eb365f52" /><br />
+
+📸 **Root Path Entered for Pictures Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Pictures Redirection" src="https://github.com/user-attachments/assets/6f6e6275-9bf2-4806-9a16-f7f9f6195a89" /><br />
+
+📸 **Root Path Entered for Music Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Music Redirection" src="https://github.com/user-attachments/assets/35fee43e-e183-42bc-bc1c-63b8250d2245" /><br />
+
+📸 **Root Path Entered for Videos Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Videos Redirection" src="https://github.com/user-attachments/assets/9e69fab2-2ded-499e-8cf1-2ab8acb0ed67" /><br />
+
+📸 **Root Path Entered for Contacts Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Contacts Redirection" src="https://github.com/user-attachments/assets/7da8ee8b-968f-4838-b36b-bb48dc153651" /><br />
+
+📸 **Root Path Entered for Downloads Redirection**
+
+<img width="1920" height="909" alt="Root Path Entered for Downloads Redirection" src="https://github.com/user-attachments/assets/e5224464-4b82-4d45-84e3-d9b2bca504ee" />
 
 ---
 
@@ -130,10 +195,33 @@ Redirection properties can be set individually for Documents, Desktop, and AppDa
 
 Confirm that folder redirection has been successfully applied by checking the Event Viewer logs.
 
-📸 **Verifying Folder Redirection Application**
+📸 **Verifying Folder Redirection Application on Sever**
 
-📸 **User Verifying Folder Redirection Application**
+<img width="1920" height="909" alt="Verifying Folder Redirection Application" src="https://github.com/user-attachments/assets/8284fa05-7967-4d68-ad05-808e119e015a" /><br /> 
 
+<img width="1920" height="909" alt="Verifying Folder Redirection Application 1" src="https://github.com/user-attachments/assets/e425f99b-963b-41b4-b969-5cd02719a093" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application 2" src="https://github.com/user-attachments/assets/ed6ba6fc-1953-4e1d-b113-d40313e9ba99" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application 3" src="https://github.com/user-attachments/assets/dbe3af1b-e8b9-4b33-857d-0d596b79a32e" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application 4" src="https://github.com/user-attachments/assets/880a3364-3421-49d8-a316-f392381e9a11" /><br /> 
+
+📸 **Verifying Folder Redirection Application on `AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-01" src="https://github.com/user-attachments/assets/f68980eb-0e91-4306-ba74-145292f1696a" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-01 1" src="https://github.com/user-attachments/assets/6e5e5a3f-bf90-460c-868e-a01239c78f43" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-01 2" src="https://github.com/user-attachments/assets/94dd5200-7f9b-4f4e-b694-161aef65073d" /><br /> 
+
+📸 **Verifying Folder Redirection Application on `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-02" src="https://github.com/user-attachments/assets/8e5eb173-c1c7-48fb-93c0-440a5892174a" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-02 1" src="https://github.com/user-attachments/assets/205e68a3-e45d-41f2-bfef-34ec607092b7" /><br /> 
+
+<img width="1920" height="909" alt="Verifying Folder Redirection Application on AD-WIN11-02 2" src="https://github.com/user-attachments/assets/f33ffa25-7fa1-4cd1-8590-e72df40838b5" />
 
 ---
 
@@ -179,7 +267,6 @@ The gpresult command is used to verify which policies, including folder redirect
 
 ## 🗂️ 14. Screenshot Storage
 
-Store all screenshots in:
+Store all screenshots in:<br />
 📂 [`08-User-Environment-Management/I. User Folder-Redirection Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/I.%20User%20Folder-Redirection%20Settings.md)<br />
-
 📂 [`08-User-Environment-Management/II. Folder-Redirection Properties.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/II.%20Folder-Redirection%20Properties.md)

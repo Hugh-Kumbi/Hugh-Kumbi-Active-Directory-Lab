@@ -12,7 +12,7 @@ Drive Mappings allow administrators to assign network drives to users or groups 
 
 📸 **Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU**
 
-<img width="1920" height="909" alt="Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU" src="https://github.com/user-attachments/assets/263cbd1a-7a0b-4eb0-b27b-6e06ba78d26f" />
+<img width="1920" height="909" alt="Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU" src="https://github.com/user-attachments/assets/263cbd1a-7a0b-4eb0-b27b-6e06ba78d26f" /><br /> 
 
 📸 **GPMC Showing the Map Network Drives Policy GPO Linked to the Employees OU**
 

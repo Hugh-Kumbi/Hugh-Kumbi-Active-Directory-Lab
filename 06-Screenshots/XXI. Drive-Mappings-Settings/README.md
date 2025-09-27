@@ -60,7 +60,7 @@ The Action setting allows administrators to specify whether a drive mapping shou
 
 Drive mappings can be configured to be applied based on conditions, such as the user’s location, operating system version, or group membership, providing targeted and flexible network drive assignments.
 
-📸 Configuring Drive Mapping to Use Specific Conditions
+📸 **Configuring Drive Mapping to Use Specific Conditions**
 
 <img width="1920" height="909" alt="Shared Folder Path for ITSecurity Shared Drive" src="https://github.com/user-attachments/assets/67f8f0b5-ab11-4e63-9150-c2d8d80d0601" /><br /> 
 

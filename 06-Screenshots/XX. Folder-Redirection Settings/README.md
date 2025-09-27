@@ -128,63 +128,59 @@ Redirect the AppData folder to a network share to ensure that user-specific appl
 
 Redirection properties can be set individually for Documents, Desktop, and AppData. Each folder's settings allow control over synchronization and redirection paths.
 
-📸 **Folder Redirection Properties for Specific Folders**
-
-📸 **Root Path Entered for Start Menu Redirection**
+📸 **Folder Redirection Properties for Start Menu**
 
 <img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection 1" src="https://github.com/user-attachments/assets/c1374b38-b4f5-4b5b-89b1-37295dcc6dfb" /><br />
 
-📸 **Root Path Entered for Pictures Redirection**
+📸 **Folder Redirection Properties for Pictures**
 
 <img width="1920" height="909" alt="Root Path Entered for Pictures Redirection 1" src="https://github.com/user-attachments/assets/0e2e8701-c539-4604-ae7b-b420093cdeb1" /><br />
 
-📸 **Root Path Entered for Music Redirection**
+📸 **Folder Redirection Properties for Music**
 
 <img width="1920" height="909" alt="Root Path Entered for Music Redirection 1" src="https://github.com/user-attachments/assets/2dddd00b-a65a-4201-a1f5-cc42004d46c5" /><br />
 
-📸 **Root Path Entered for Videos Redirection**
+📸 **Folder Redirection Properties for Videos**
 
 <img width="1920" height="909" alt="Root Path Entered for Videos Redirection 1" src="https://github.com/user-attachments/assets/75110013-3712-40da-b08a-263dcf02b241" /><br />
 
-📸 **Root Path Entered for Contacts Redirection**
+📸 **Folder Redirection Properties for Contacts**
 
 <img width="1920" height="909" alt="Root Path Entered for Contacts Redirection 1" src="https://github.com/user-attachments/assets/49bfac85-370f-4e3e-a8f9-5c686b26ba59" /><br />
 
-📸 **Root Path Entered for Downloads Redirection**
+📸 **Folder Redirection Properties for Downloads**
 
 <img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
 
-📸 **Root Path Entered for Links Redirection**
+📸 **Folder Redirection Properties for Links**
 
 <img width="1920" height="909" alt="Root Path Entered for Links Redirection" src="https://github.com/user-attachments/assets/0bb969a3-6004-4000-a90d-ce8770dce66c" /><br />
 
-📸 **Root Path Entered for Searches Redirection**
+📸 **Folder Redirection Properties for Searches**
 
 <img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
 
-📸 **User Folder Redirection Properties for Specific Folders**
-
-📸 **Root Path Entered for Start Menu Redirection**
+📸 **User Folder Redirection Properties for Start Menu Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection" src="https://github.com/user-attachments/assets/a10471c8-cfc3-4740-a094-0d63eb365f52" /><br />
 
-📸 **Root Path Entered for Pictures Redirection**
+📸 **User Folder Redirection Properties for Pictures Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Pictures Redirection" src="https://github.com/user-attachments/assets/6f6e6275-9bf2-4806-9a16-f7f9f6195a89" /><br />
 
-📸 **Root Path Entered for Music Redirection**
+📸 **User Folder Redirection Properties for Music Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Music Redirection" src="https://github.com/user-attachments/assets/35fee43e-e183-42bc-bc1c-63b8250d2245" /><br />
 
-📸 **Root Path Entered for Videos Redirection**
+📸 **User Folder Redirection Properties for Videos Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Videos Redirection" src="https://github.com/user-attachments/assets/9e69fab2-2ded-499e-8cf1-2ab8acb0ed67" /><br />
 
-📸 **Root Path Entered for Contacts Redirection**
+📸 **User Folder Redirection Properties for Contacts Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Contacts Redirection" src="https://github.com/user-attachments/assets/7da8ee8b-968f-4838-b36b-bb48dc153651" /><br />
 
-📸 **Root Path Entered for Downloads Redirection**
+📸 **User Folder Redirection Properties for Downloads Redirection**
 
 <img width="1920" height="909" alt="Root Path Entered for Downloads Redirection" src="https://github.com/user-attachments/assets/e5224464-4b82-4d45-84e3-d9b2bca504ee" />
 

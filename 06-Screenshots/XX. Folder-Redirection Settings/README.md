@@ -116,11 +116,11 @@ Redirect the AppData folder to a network share to ensure that user-specific appl
 
 📸 **Configuring Folder Redirection for AppData**
 
-<img width="1920" height="909" alt="Configuring Folder Redirection for AppData" src="https://github.com/user-attachments/assets/ff234415-2c03-4f96-98f7-d357618e2203" /><br />
+<img width="1920" height="909" alt="Configuring User Folder Redirection for AppData" src="https://github.com/user-attachments/assets/46e0b629-8006-4051-b392-c41b92c95ef8" /><br />
 
 📸 **Configuring User Folder Redirection for AppData**
 
-<img width="1920" height="909" alt="Configuring User Folder Redirection for AppData" src="https://github.com/user-attachments/assets/46e0b629-8006-4051-b392-c41b92c95ef8" /><br />
+<img width="1920" height="909" alt="Configuring Folder Redirection for AppData" src="https://github.com/user-attachments/assets/ff234415-2c03-4f96-98f7-d357618e2203" />
 
 ---
 

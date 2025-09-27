@@ -160,11 +160,17 @@ Once configured, verify that the drive mappings are applied correctly by checkin
 
 ---
 
-## 11. 🖥️ Command Line Results From `gpupdate`
+## 11. 🖥️ Command Line Results from `gpupdate`
 
 Use the gpupdate command to refresh Group Policy settings on client machines, ensuring that drive mappings are updated.
 
-📸 **Command Line Results From `gpupdate`**
+📸 **Command Line Results from `gpupdate`  on `AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Command Line Showing gpupdate Output for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/5a74153c-7540-4c85-98a4-7bb0cd8ab944" /><br /> 
+
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="GPUPDATE After Implementing Security Scripts Enforcement Policy" src="https://github.com/user-attachments/assets/26b36d63-ea65-4064-a331-8cc436e5ac98" />
 
 ---
 
@@ -172,54 +178,26 @@ Use the gpupdate command to refresh Group Policy settings on client machines, en
 
 Verify the drive mappings using the gpresult command, ensuring that the correct network drives are being mapped for the user.
 
-📸 **Command Line Results From `gpresult`**
+📸 **Command Line Results From `gpresult` on `AD-WIN11-01`**
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-01`" src="https://github.com/user-attachments/assets/4f8397ff-d55a-4d00-b2e0-36167ab29d49" /><br /> 
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-01` 1" src="https://github.com/user-attachments/assets/16362ab8-c154-47da-b8fd-e7cd43fcd7c4" /><br /> 
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-01` 2" src="https://github.com/user-attachments/assets/a6cca68f-4069-426a-b39b-cdd98d9bee43" /><br /> 
+
+📸 **Command Line Results From `gpresult` on `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-02`" src="https://github.com/user-attachments/assets/89950ee9-5ca4-4763-8417-1fca6e4b4ac6" /><br /> 
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-02` 1" src="https://github.com/user-attachments/assets/f46b29dc-e50c-4066-92eb-5b3beb5a732f" /><br /> 
+
+<img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-02` 2" src="https://github.com/user-attachments/assets/641abae8-a61d-4151-a354-439ac05c10a6" />
 
 ---
 
-## 13. ❓Troubleshooting Drive Mappings
+## 🗂️ 13. Screenshot Storage
 
-If drive mappings do not apply as expected, check the Event Viewer and Group Policy Results to identify and resolve potential issues with drive mapping configurations.
-
-📸 **Troubleshooting Drive Mappings**
-
----
-Each image corresponds to a step described in 📂 `08-User-Environment-Management/III.Drive-Mappings-Settings.md` and `IV. Drive-Mappings-Config.md`.
-
-![Group Policy Management Console Showing Drive Mappings Policy Under The Correct OU](https://github.com/user-attachments/assets/f2585604-6be3-4e48-abda-158d16f17783)
-
-![Drive Maps GPP Window](https://github.com/user-attachments/assets/b7332443-b9d1-4772-9a6f-9c728003c753)
-
-![Shared Folder Path and Drive Letter Configuration 10](https://github.com/user-attachments/assets/c0f01b56-6415-46b5-a765-f050936565ca)
-
-![Shared Folder Path and Drive Letter Configuration 1](https://github.com/user-attachments/assets/ffea3ee2-ebd7-4d95-a2ee-09a6800a7d70)
-
-![Shared Folder Path and Drive Letter Configuration 2](https://github.com/user-attachments/assets/fd839620-9d66-475c-894b-11303a8819b4)
-
-![Shared Folder Path and Drive Letter Configuration 21](https://github.com/user-attachments/assets/856426ce-df8b-4c25-8c53-29e9385fd006)
-
-![Shared Folder Path and Drive Letter Configuration 3](https://github.com/user-attachments/assets/44ebbfd0-9476-42fe-9005-7d99f1fc4d57)
-
-![Shared Folder Path and Drive Letter Configuration 31](https://github.com/user-attachments/assets/3cc04899-fd49-4407-aa01-0a1df9718434)
-
-![Item-Level Targeting Condition](https://github.com/user-attachments/assets/e1c1f6e3-1671-4138-8e4a-2f9e27de2fac)
-
-![File Explorer Showing The Mapped Z Drive (2)](https://github.com/user-attachments/assets/add0c1c1-4ff5-4a42-8265-bba1e4385648)
-
-![Properties Of The Mapped Drive](https://github.com/user-attachments/assets/9287615a-91f1-4dfb-aa37-ba44e053f333)
-
-
-![GPMC Showing The Drive Mappings GPO Linked To The Tech OU](https://github.com/user-attachments/assets/fe001a9d-547e-4d17-aa27-ee2636c0386d)
-
-![Drive Mapping Settings Window Showing Path, Label, and Drive Letter](https://github.com/user-attachments/assets/6ffe13fd-8e6b-49f7-bd7c-7aa75ee898a9)
-
-![Item-Level Targeting Configuration](https://github.com/user-attachments/assets/bb4208c6-e570-4770-82b6-6d1d0f44e93b)
-
-![Item-Level Targeting Configuration](https://github.com/user-attachments/assets/5d274933-a3d3-45a8-bbdd-5ba6d0ebdbbf)
-
-![NTFS Permission Settings Drive Maps S](https://github.com/user-attachments/assets/41681c23-ce77-4393-b344-81911b20c5ea)
-
-![Share settings for Server Share Drive Mapping S](https://github.com/user-attachments/assets/1a66274a-f41e-4285-a5bf-58475ed22a19)
-
-![File Explorer Showing The mapped S Drive](https://github.com/user-attachments/assets/d25558c6-198a-46d7-9db2-e98fe00a6510)
-
-![File Savedn Successfully In The Shared Folder](https://github.com/user-attachments/assets/cbf325c1-ec0b-4a19-8db8-75074426585c)
+Store all related images in:<br /> 
+📂 [`08-User-Environment-Management/III. Drive-Mappings-Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/III.%20Drive-Mappings-Settings.md)
+📂 [`08-User-Environment-Management/IV. Drive-Mappings-Config.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IV.%20Drive-Mappings-Config.md)

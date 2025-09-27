@@ -194,27 +194,27 @@ Redirection properties can be set individually for Documents, Desktop, and AppDa
 
 <img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
 
-📸 **User Folder Redirection Properties for Start Menu Redirection**
+📸 **User Folder Redirection Properties for Start Menu**
 
 <img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection" src="https://github.com/user-attachments/assets/a10471c8-cfc3-4740-a094-0d63eb365f52" /><br />
 
-📸 **User Folder Redirection Properties for Pictures Redirection**
+📸 **User Folder Redirection Properties for Pictures**
 
 <img width="1920" height="909" alt="Root Path Entered for Pictures Redirection" src="https://github.com/user-attachments/assets/6f6e6275-9bf2-4806-9a16-f7f9f6195a89" /><br />
 
-📸 **User Folder Redirection Properties for Music Redirection**
+📸 **User Folder Redirection Properties for Music**
 
 <img width="1920" height="909" alt="Root Path Entered for Music Redirection" src="https://github.com/user-attachments/assets/35fee43e-e183-42bc-bc1c-63b8250d2245" /><br />
 
-📸 **User Folder Redirection Properties for Videos Redirection**
+📸 **User Folder Redirection Properties for Videos**
 
 <img width="1920" height="909" alt="Root Path Entered for Videos Redirection" src="https://github.com/user-attachments/assets/9e69fab2-2ded-499e-8cf1-2ab8acb0ed67" /><br />
 
-📸 **User Folder Redirection Properties for Contacts Redirection**
+📸 **User Folder Redirection Properties for Contacts**
 
 <img width="1920" height="909" alt="Root Path Entered for Contacts Redirection" src="https://github.com/user-attachments/assets/7da8ee8b-968f-4838-b36b-bb48dc153651" /><br />
 
-📸 **User Folder Redirection Properties for Downloads Redirection**
+📸 **User Folder Redirection Properties for Downloads**
 
 <img width="1920" height="909" alt="Root Path Entered for Downloads Redirection" src="https://github.com/user-attachments/assets/e5224464-4b82-4d45-84e3-d9b2bca504ee" />
 

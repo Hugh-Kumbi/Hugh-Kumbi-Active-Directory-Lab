@@ -52,8 +52,11 @@ The Advanced option provides more control over folder redirection, allowing diff
 
 📸 **Configuring Advanced Folder Redirection Settings**
 
+<img width="1920" height="909" alt="Configuring User Folder Redirection for AppData" src="https://github.com/user-attachments/assets/46e0b629-8006-4051-b392-c41b92c95ef8" /><br />
+
 📸 **Configuring Advanced User Folder Redirection Settings**
 
+<img width="1920" height="909" alt="Configuring Folder Redirection for AppData" src="https://github.com/user-attachments/assets/ff234415-2c03-4f96-98f7-d357618e2203" />
 
 ---
 
@@ -63,8 +66,47 @@ By enabling Force Folder Redirection, users will be forced to use the redirectio
 
 📸 **Forcing Folder Redirection**
 
+<img width="1920" height="909" alt="Forcing Folder Redirection" src="https://github.com/user-attachments/assets/7e70286a-131a-4978-a541-3bb84ccea04b" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 1" src="https://github.com/user-attachments/assets/512343d8-8a77-462a-80a6-0840e45057f4" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 2" src="https://github.com/user-attachments/assets/fce51aea-23e4-4def-bb8f-84d3b2db6786" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 3" src="https://github.com/user-attachments/assets/0f97b6a9-8086-4c44-bcde-769a4fc282b1" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 4" src="https://github.com/user-attachments/assets/36f06a06-2005-4055-9c9a-b21e75376ebe" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 5" src="https://github.com/user-attachments/assets/874f71cb-aacf-40f1-bbe8-012d7de57fc6" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 6" src="https://github.com/user-attachments/assets/7954ea4a-67fd-4476-97e9-d3e7f078b107" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 7" src="https://github.com/user-attachments/assets/bea13ef7-49c2-4380-b224-98193d2c994e" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 8" src="https://github.com/user-attachments/assets/3dec3045-16fd-476f-b2ff-6ab9cc804c26" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 9" src="https://github.com/user-attachments/assets/02b7142f-25e7-4279-b663-3902fdbc7d85" /><br />
+
+<img width="1920" height="909" alt="Forcing Folder Redirection 10" src="https://github.com/user-attachments/assets/a4bc6e9b-d855-4772-a87d-581db56fba22" /><br />
+
 📸 **Forcing User Folder Redirection**
 
+<img width="1920" height="909" alt="Forcing User Folder Redirection" src="https://github.com/user-attachments/assets/a3b1f962-2461-4f14-8056-585f99add501" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 1" src="https://github.com/user-attachments/assets/447065a3-239e-427f-a1e1-790db1696d26" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 2" src="https://github.com/user-attachments/assets/a67adef2-8dbb-4894-a569-9784cc997693" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 3" src="https://github.com/user-attachments/assets/f32a909c-b972-4bd0-ba8f-60b82138e389" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 4" src="https://github.com/user-attachments/assets/b63c3795-3e96-4d15-b12f-ba492b1c44d3" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 5" src="https://github.com/user-attachments/assets/18c1e81a-d690-421f-86a1-462c5688f8c7" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 6" src="https://github.com/user-attachments/assets/c43a821b-b5a0-4696-9b29-8738bf2bca42" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 7" src="https://github.com/user-attachments/assets/76a61d6d-f262-41db-b97d-0f98b614af6f" /><br />
+
+<img width="1920" height="909" alt="Forcing User Folder Redirection 8" src="https://github.com/user-attachments/assets/e81f042a-4fb7-45ec-ab28-2b2aeaf51380" />
 
 ---
 
@@ -72,10 +114,13 @@ By enabling Force Folder Redirection, users will be forced to use the redirectio
 
 This step allows setting the Target for the folder redirection, specifying the network path or share location where user folders will be redirected.
 
-📸 **Configuring Folder Redirection Target for Users**
+📸 **Configuring Folder Redirection Target for ITSecurity Users**
 
-📸 **Configuring User Folder Redirection Target for Users**
+<img width="1920" height="909" alt="Configuring Folder Redirection Target for ITSecurity Users" src="https://github.com/user-attachments/assets/a54270c4-eafc-46f8-bd2b-7e43aa8d05d6" /><br />
 
+📸 **Configuring User Folder Redirection Target for Domain Users**
+
+<img width="1920" height="909" alt="Configuring Folder Redirection Target for Domain Users" src="https://github.com/user-attachments/assets/58e62fb1-4fbb-4937-a633-72e1645fcd9d" />
 
 ---
 

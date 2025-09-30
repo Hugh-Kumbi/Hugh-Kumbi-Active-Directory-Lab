@@ -11,7 +11,7 @@ In this section, I configured logon scripts using Group Policy to automate speci
 
 📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to Employees OU**
 
-![Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU](https://github.com/user-attachments/assets/f3db2fc7-ea2c-445d-820d-5cc2ab3a9646)
+<img width="1920" height="909" alt="Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU" src="https://github.com/user-attachments/assets/198af621-f61b-4782-9519-47e3337c1447" />
 
 ---
 
@@ -28,90 +28,158 @@ In this section, I configured logon scripts using Group Policy to automate speci
 
 📸 **Logon Script Configuration Dialog Box With Script Path**
 
-![Logon Script Configuration Dialog Box With Script Path](https://github.com/user-attachments/assets/74d92936-846d-43fe-9c54-d38b694f5c74)
+<img width="1920" height="909" alt="Logon Script Configuration Dialog Box With Script Path" src="https://github.com/user-attachments/assets/3a36c199-28b1-4226-ba93-522161375ce1" />
 
-![Logon Script Configuration Dialog Box With Script Path 1](https://github.com/user-attachments/assets/dc55aa38-6d5e-4975-9f47-81747e010905)
+<img width="1920" height="909" alt="Logon Script Configuration Dialog Box With Script Path 1" src="https://github.com/user-attachments/assets/b3aa944a-0354-4c2c-8e30-7cb67a2e23cb" />
 
 📸 **Logoff Script Configuration Dialog Box With Script Path**
 
-![Logoff Script Configuration Dialog Box With Script Path](https://github.com/user-attachments/assets/e717abda-5c25-4fc8-ae61-4346fcbc0929)
+<img width="1920" height="909" alt="Logoff Script Configuration Dialog Box With Script Path" src="https://github.com/user-attachments/assets/c9845852-dd3e-44ff-a7a0-056e113e3c0f" />
 
-![Logoff Script Configuration Dialog Box With Script Path 1](https://github.com/user-attachments/assets/8ac1508c-4fdd-4040-9131-0760ed43d950)
+<img width="1920" height="909" alt="Logoff Script Configuration Dialog Box With Script Path 1" src="https://github.com/user-attachments/assets/d650fb35-16fe-48a5-8234-9a44f11beba2" />
 
 📸 **Logon Script Contents in PowerShell ISE**
 
-![Logon Script Contents in PowerShell ISE](https://github.com/user-attachments/assets/8e539a85-e9da-4fd7-8865-3c4aa7b83268)
+<img width="1920" height="909" alt="Logon Script Contents in PowerShell ISE" src="https://github.com/user-attachments/assets/50655371-2729-4520-bb03-5954a742ddbf" /><br />
 
-![Logon Script Contents in PowerShell ISE 1](https://github.com/user-attachments/assets/fdf06bc8-258f-4381-beba-3612166e0cc5)
+<img width="1920" height="909" alt="Logon Script Contents in PowerShell ISE 1" src="https://github.com/user-attachments/assets/4cb20f61-d727-4767-8460-9814b27db6cc" /><br />
 
-![Logon Script Contents in PowerShell ISE 2](https://github.com/user-attachments/assets/358d6aba-5f7b-4a2d-a8d0-9a70871ab4d1)
+<img width="1920" height="909" alt="Logon Script Contents in PowerShell ISE 2" src="https://github.com/user-attachments/assets/c56f0b71-a77c-47a6-8649-93c8d61aa35a" /><br />
 
 📸 **Logoff Script Contents in PowerShell ISE**
 
-![Logoff Script Contents in PowerShell ISE](https://github.com/user-attachments/assets/997da23d-634d-4f86-b7e0-63b80198c645)
+<img width="1920" height="909" alt="Logoff Script Contents in PowerShell ISE" src="https://github.com/user-attachments/assets/d171d4a5-c53b-4551-a50c-aa4e45c68558" />
 
-![Logoff Script Contents in PowerShell ISE 1](https://github.com/user-attachments/assets/e7382673-7ec5-431f-8131-2c60fb4008e5)
-
-![Logoff Script Contents in PowerShell ISE 2](https://github.com/user-attachments/assets/9fd4604f-a8e3-48d3-a1e5-2a2a8c5e5b82)
+<img width="1920" height="909" alt="Logoff Script Contents in PowerShell ISE 1" src="https://github.com/user-attachments/assets/8cc4a7f3-ffa0-43f2-91f7-315500a645d4" />
 
 📸 **Logon Script Signed**
 
-![Logon Script Signed](https://github.com/user-attachments/assets/f9c1fd39-85de-43da-b7d9-2a1d1c3f3b95)
+<img width="1920" height="909" alt="Logon Script Signed" src="https://github.com/user-attachments/assets/84efc946-bbe9-4f47-bc71-416b1d0387bb" /><br />
+
+<img width="1920" height="909" alt="Logon Script Signed 1" src="https://github.com/user-attachments/assets/89f0cca0-0ef3-4ab3-bb2f-7406490540b5" /><br />
 
 📸 **Logoff Script Signed**
 
-![Logoff Script Signed](https://github.com/user-attachments/assets/e88102ed-cfff-4187-b640-2126c4259c16)
+<img width="1920" height="909" alt="Logoff Script Signed" src="https://github.com/user-attachments/assets/72f551d9-6b7f-45cf-aa64-37b09a6726b7" /><br />
+
+<img width="1920" height="909" alt="Logoff Script Signed 1" src="https://github.com/user-attachments/assets/95366927-fe3d-4cdd-a26c-ba8f550545b0" />
 
 ---
 
 ## 📂 3. Script Contents
 
-Here’s an example of what my `LogonScript.ps1` included:
+Here’s a excerpt of what my `LogonScript.ps1` included:
 
 ``` powershell
 # LogonScript.ps1
-# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logon
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logon
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:USERNAME-logon.log",
-    "\\$ServerName\LogFiles\$env:USERNAME-logon.log",
-    "C:\Windows\Temp\Logs\$env:USERNAME-logon.log"
-)
+<#
+.SYNOPSIS
+    Domain logon script for hughdomain.local
+.DESCRIPTION
+    Handles drive mapping, folder setup, and user configurations
+.NOTES
+    Version: 2.0
+    Requires: PowerShell 5.1+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logon script initializing...", 3, "Domain Logon", 0x40)
+
+$logPath = "\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$logEntries = [System.Collections.Generic.List[string]]::new()
+
+# Create log header if needed
+if (-not (Test-Path $logPath)) {
+    "Timestamp,User,Computer,Action,Status,Details" | Out-File $logPath
 }
+#endregion
 
+#region Network Drive Mapping
+try {
+    # Remove existing mapping if present
+    if (Test-Path "S:\") {
+        net use S: /delete /y | Out-Null
+    }
+
+    # Map new drive
+    net use S: "\\WINSERVER2025\DepartmentalShares" /persistent:yes | Out-Null
+    $logEntries.Add("$(Get-Date -Format o),$env:USERNAME,$env:COMPUTERNAME,DriveMapping,Success,S: drive mapped")
+}
+catch {
+    $logEntries.Add("$(Get-Date -Format o),$env:USERNAME,$env:COMPUTERNAME,DriveMapping,Failed,$($_.Exception.Message)")
+    $wshell.Popup("Failed to map network drives", 5, "Error", 0x30)
+}
+#endregion
 ```
-The script creates a message on the user's desktop after logging in.
 
-Here’s an example of what my `LogoffScript.ps1` included:
+The script creates a message on the user's desktop after logging on.
+
+Here’s a excerpt of what my `LogoffScript.ps1` included:
 
 ``` powershell
 # LogoffScript.ps1 for hughdomain.local
-# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logoff
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logoff
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:USERNAME-logoff.log",
-    "\\$ServerName\LogFiles\$env:USERNAME-logoff.log",
-    "C:\Windows\Temp\Logs\$env:USERNAME-logoff.log"
-)
+<#
+.SYNOPSIS
+    Domain logoff script for hughdomain.local
+.DESCRIPTION
+    Fixed version compatible with older PowerShell versions
+.NOTES
+    Version: 2.4
+    Requires: PowerShell 3.0+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$ErrorActionPreference = "Continue"
+$scriptVersion = "2.4"
+$executionLog = New-Object System.Collections.Generic.List[pscustomobject]
+
+function Write-ExecutionLog {
+    param(
+        [string]$Action,
+        [string]$Status,
+        [string]$Details,
+        [string]$Computer = $env:COMPUTERNAME,
+        [string]$User = $env:USERNAME
+    )
+    
+    $logEntry = [pscustomobject]@{
+        Timestamp = Get-Date -Format o
+        User      = $User
+        Computer  = $Computer
+        Action    = $Action
+        Status    = $Status
+        Details   = $Details
+    }
+    
+    $executionLog.Add($logEntry)
+    
+    if ([System.Environment]::UserInteractive) {
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] $Action - $Status`n$Details`n"
+    }
 }
 
+Write-ExecutionLog -Action "ScriptStart" -Status "Running" -Details "Version $scriptVersion"
+
+$logPath = "\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$localLogPath = "$env:TEMP\LogoffScript_$(Get-Date -Format 'yyyyMMddHHmmss').log"
+
+try {
+    if (-not (Test-Path $logPath -ErrorAction SilentlyContinue)) {
+        "Timestamp,User,Computer,Action,Status,Details" | Out-File $logPath
+        Write-ExecutionLog -Action "LogInit" -Status "Success" -Details "Created new log file"
+    }
+}
+catch {
+    Write-ExecutionLog -Action "LogInit" -Status "Failed" -Details $_.Exception.Message
+}
+#endregion
 ```
+
 The script creates a message on the user's desktop after logging off.
 
 ## 🧪 4. Testing the Script

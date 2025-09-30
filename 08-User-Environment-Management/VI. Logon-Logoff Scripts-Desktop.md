@@ -220,15 +220,21 @@ The script creates a message on the user's desktop after logging off.
 
 📸 **File Explorer Showing Mapped S Drive And Network User Folder**
 
-<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder" src="https://github.com/user-attachments/assets/efcfd81a-008f-41e9-a955-35e6b6342def" /><br />
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 3" src="https://github.com/user-attachments/assets/6921f122-be90-4410-b279-618f37d6c432" /><br />
 
-<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 1" src="https://github.com/user-attachments/assets/b785995a-d284-4182-b373-a5d945313c7d" /><br />
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 4" src="https://github.com/user-attachments/assets/c6d0ca63-a443-4e2a-b6fc-e5672eaa0fe5" /><br />
 
-<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 2" src="https://github.com/user-attachments/assets/2a6e271d-8d2c-4ce2-822c-c9232a14bbd7" /><br />
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 5" src="https://github.com/user-attachments/assets/ce9b2325-c2a4-4d87-82e1-9b5a3ccad77d" /><br />
+
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 6" src="https://github.com/user-attachments/assets/9b7f8ad6-0569-4a73-a84d-c0db159db7f2" /><br />
 
 📸 **Sample Log File Contents Showing Successful Operations**
 
 <img width="1920" height="909" alt="Sample Log File Contents Showing Successful Operations" src="https://github.com/user-attachments/assets/a62ffae6-cf78-4d3b-b962-95fee724f449" />
+
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 1" src="https://github.com/user-attachments/assets/b785995a-d284-4182-b373-a5d945313c7d" /><br />
+
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 2" src="https://github.com/user-attachments/assets/2a6e271d-8d2c-4ce2-822c-c9232a14bbd7" /><br />
 
 🔍 **Validation Checklist:**
 

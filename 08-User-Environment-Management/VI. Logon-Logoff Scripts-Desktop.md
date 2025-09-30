@@ -248,4 +248,5 @@ The script creates a message on the user's desktop after logging off.
 ## 🗂️ 5. Screenshot Storage
 
 All images related to this section are stored in:<br /> 
-📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)
+📂 [`06-Screenshots/XXIII. Logon-Logoff Scripts-Config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIII.%20Logon-Logoff%20Scripts-Config)
+

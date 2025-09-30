@@ -22,7 +22,7 @@ Using the **Group Policy Management Editor**, I navigated to:<br />
 
 - Script Name: `startup.ps1`
 
-- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Startup`
+- Location: `"\\hughdomain.local\SysVol\hughdomain.local\Policies\{696BCAFA-C546-4B3F-B498-670136FDF566}\Machine\Scripts\Startup"`
 
 - Script Type: PowerShell
 
@@ -30,29 +30,33 @@ Using the **Group Policy Management Editor**, I navigated to:<br />
 
 - Script Name: `shutdown.ps1`
 
-- Location: `\\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Shutdown`
+- Location: `"\\hughdomain.local\SysVol\hughdomain.local\Policies\{696BCAFA-C546-4B3F-B498-670136FDF566}\Machine\Scripts\Shutdown"`
 
 - Script Type: PowerShell
 
 📸 **Startup Properties Windows With Scripts Added**
 
-![Startup Properties Windows With Scripts Added](https://github.com/user-attachments/assets/9ef094c7-78eb-4c63-9058-a07118dc14bd)
+<img width="1920" height="909" alt="Startup Properties Windows With Scripts Added" src="https://github.com/user-attachments/assets/7a407418-e873-47fd-82ea-60b8e287590b" /><br />
 
-![Startup Properties Windows With Scripts Added 1](https://github.com/user-attachments/assets/8dab2220-6948-427b-a8ed-e7c2ab2c67ca)
+<img width="1920" height="909" alt="Startup Properties Windows With Scripts Added 1" src="https://github.com/user-attachments/assets/c1e45e98-ee46-4e8d-94c5-e9eff15fa90b" /><br />
 
 📸 **Shutdown Properties Windows With Scripts Added**
 
-![Shutdown Properties Windows With Scripts Added](https://github.com/user-attachments/assets/03330484-0fe5-45b4-ba46-7b92b1cfd622)
+<img width="1920" height="909" alt="Shutdown Properties Windows With Scripts Added" src="https://github.com/user-attachments/assets/de0099d7-40ed-4546-b4a4-b9f1504f23fd" /><br />
 
-![Shutdown Properties Windows With Scripts Added 1](https://github.com/user-attachments/assets/d2eb7dbb-9192-4a32-90d1-10c97467ba39)
+<img width="1920" height="909" alt="Shutdown Properties Windows With Scripts Added 1" src="https://github.com/user-attachments/assets/1a5c8962-a260-4629-bdc7-0f13cf7a802c" /><br />
 
-📸 **Startup File Location**
+📸 **Startup and Shutdown Scripts Location**
 
-![Startup File Location](https://github.com/user-attachments/assets/46b99365-e5df-404b-b0f8-72597c9fc365)
+<img width="1920" height="909" alt="Startup and Shutdown Scripts Location" src="https://github.com/user-attachments/assets/78275fab-4e1f-4f0e-b61c-2b6a7620dd37" /><br />
 
-📸 **Shutdown File Location**
+📸 **Startup Script Location**
 
-![Shutdown File Location](https://github.com/user-attachments/assets/092916fc-645c-4448-bc5c-7b2a4e94f5e0)
+<img width="1920" height="909" alt="Startup Script Location" src="https://github.com/user-attachments/assets/90146197-c520-4c87-b25c-2b20179ede41" />
+
+📸 **Shutdown Script Location**
+
+<img width="1920" height="909" alt="Shutdown Script Location" src="https://github.com/user-attachments/assets/51b10c3a-aab2-4445-a68b-4192fb8bc44b" />
 
 ---
 

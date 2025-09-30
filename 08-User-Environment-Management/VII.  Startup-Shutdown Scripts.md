@@ -9,12 +9,13 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 
 📸 **Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU:**
 
-![Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU](https://github.com/user-attachments/assets/2b144bec-4cba-46d5-a391-9b01713a2008)
+<img width="1920" height="909" alt="Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU" src="https://github.com/user-attachments/assets/37b97a5e-4a89-4422-bae3-42b391b733cf" />
 
 ---
 
 ## 🗂️ 2. Script Paths
 
+Using the **Group Policy Management Editor**, I navigated to:<br /> 
     📂 `Computer Configuration > Policies > Windows Settings > Scripts (Startup/Shutdown)`
 
 ### 🔼 Startup Script

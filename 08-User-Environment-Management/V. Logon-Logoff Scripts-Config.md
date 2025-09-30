@@ -243,5 +243,5 @@ To validate the script:
 
 ### 🗂️ 5. Screenshot Storage
 
-Store all relevant images in:<br /> 
+All images related to this section are stored in:<br /> 
 📂 [`06-Screenshots/XXIII. Logon-Logoff Scripts-Config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIII.%20Logon-Logoff%20Scripts-Config)

@@ -11,7 +11,7 @@ This document outlines how I configured **logon-loggoff scripts via Group Policy
 
 📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU**
 
-![Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU](https://github.com/user-attachments/assets/4f797799-8988-4e50-b220-029945a02f11)
+<img width="1920" height="909" alt="Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU" src="https://github.com/user-attachments/assets/198af621-f61b-4782-9519-47e3337c1447" />
 
 ---
 
@@ -26,8 +26,8 @@ I configured scripts using:
  - `LogonScript.ps1`
  - `LogoffScript.ps1`  
 - **Location:**
- - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logon`
- - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logoff`  
+ - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logon`
+ - `\\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logoff`  
 - **Script Type:** PowerShell
 
 📸 **Logon Properties Window Showing The Added PowerShell Script**
@@ -55,37 +55,62 @@ The PowerShell logon script performs the following actions when a user logs in t
  * Displays a popup notification indicating the logon script is running
  * Shows a completion message when finished
 2. **Logging & Auditing**
- * Records logon events to a centralized log file (`\\WINSERVER2025\LogFiles\<USERNAME>-logon.log`)
+ * Records logon events to a centralized log file (`"\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv"`)
  * Logs timestamp, username, and source computer for each logon
 3. **Drive Mapping**
- * Maps persistent S: drive to `\\WINSERVER2025\DepartmentalShares`
+ * Maps persistent S: drive to `"\\WINSERVER2025\DepartmentalShares"`
  * Includes error handling and logging for drive mapping failures
  * Removes existing S: drive mappings before reconnection
 4. **User Folder Management**
- * Creates personalized folders in `\\WINSERVER2025\FileShares$\<USERNAME>` if they don't exist
+ * Creates personalized folders in `"\\WINSERVER2025\DepartmentalShares\$env:USERNAME"` if they don't exist
 5. **Outlook Signature Deployment**
  * Copies user-specific Outlook signatures from a network template location to the local Signatures folder
 
-💻 **Example: `LogonScript.ps1`**
+💻 **Sample: `LogonScript.ps1`**
 
 ``` powershell
 # LogonScript.ps1
-# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logon
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logon
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:USERNAME-logon.log",
-    "\\$ServerName\LogFiles\$env:USERNAME-logon.log",
-    "C:\Windows\Temp\Logs\$env:USERNAME-logon.log"
-)
+<#
+.SYNOPSIS
+    Domain logon script for hughdomain.local
+.DESCRIPTION
+    Handles drive mapping, folder setup, and user configurations
+.NOTES
+    Version: 2.0
+    Requires: PowerShell 5.1+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$wshell = New-Object -ComObject Wscript.Shell
+$wshell.Popup("Logon script initializing...", 3, "Domain Logon", 0x40)
+
+$logPath = "\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$logEntries = [System.Collections.Generic.List[string]]::new()
+
+# Create log header if needed
+if (-not (Test-Path $logPath)) {
+    "Timestamp,User,Computer,Action,Status,Details" | Out-File $logPath
 }
+#endregion
+
+#region Network Drive Mapping
+try {
+    # Remove existing mapping if present
+    if (Test-Path "S:\") {
+        net use S: /delete /y | Out-Null
+    }
+
+    # Map new drive
+    net use S: "\\WINSERVER2025\DepartmentalShares" /persistent:yes | Out-Null
+    $logEntries.Add("$(Get-Date -Format o),$env:USERNAME,$env:COMPUTERNAME,DriveMapping,Success,S: drive mapped")
+}
+catch {
+    $logEntries.Add("$(Get-Date -Format o),$env:USERNAME,$env:COMPUTERNAME,DriveMapping,Failed,$($_.Exception.Message)")
+    $wshell.Popup("Failed to map network drives", 5, "Error", 0x30)
+}
+#endregion
 
 ```
 ---
@@ -96,7 +121,7 @@ The PowerShell logoff script executes the following when a user logs off:
 1. **User Notification**
  * Displays a popup notification indicating the logoff process has started
 2. **Logging & Auditing**
- * Records logoff events to `\\WINSERVER2025\LogFiles\<USERNAME>-logoff.log`
+ * Records logoff events to `\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv`
  * Tracks timestamp, username, and source computer
 3. **Resource Cleanup**
  * Safely disconnects mapped S: drive
@@ -109,26 +134,67 @@ The PowerShell logoff script executes the following when a user logs off:
  * Attempts to display a completion notification (may not appear if logoff is rapid)
  * Logs final completion timestamp
 
-💻 **Example: `LogoffScript.ps1`**
+💻 **Sample: `LogoffScript.ps1`**
 
 ``` powershell
 # LogoffScript.ps1 for hughdomain.local
-# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User\Scripts\Logoff
+# Location: \\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User\Scripts\Logoff
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:USERNAME-logoff.log",
-    "\\$ServerName\LogFiles\$env:USERNAME-logoff.log",
-    "C:\Windows\Temp\Logs\$env:USERNAME-logoff.log"
-)
+<#
+.SYNOPSIS
+    Domain logoff script for hughdomain.local
+.DESCRIPTION
+    Fixed version compatible with older PowerShell versions
+.NOTES
+    Version: 2.4
+    Requires: PowerShell 3.0+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$ErrorActionPreference = "Continue"
+$scriptVersion = "2.4"
+$executionLog = New-Object System.Collections.Generic.List[pscustomobject]
+
+function Write-ExecutionLog {
+    param(
+        [string]$Action,
+        [string]$Status,
+        [string]$Details,
+        [string]$Computer = $env:COMPUTERNAME,
+        [string]$User = $env:USERNAME
+    )
+    
+    $logEntry = [pscustomobject]@{
+        Timestamp = Get-Date -Format o
+        User      = $User
+        Computer  = $Computer
+        Action    = $Action
+        Status    = $Status
+        Details   = $Details
+    }
+    
+    $executionLog.Add($logEntry)
+    
+    if ([System.Environment]::UserInteractive) {
+        Write-Host "[$(Get-Date -Format 'HH:mm:ss')] $Action - $Status`n$Details`n"
+    }
 }
+
+Write-ExecutionLog -Action "ScriptStart" -Status "Running" -Details "Version $scriptVersion"
+
+$logPath = "\\WINSERVER2025\LogFiles\$env:USERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$localLogPath = "$env:TEMP\LogoffScript_$(Get-Date -Format 'yyyyMMddHHmmss').log"
+
+try {
+    if (-not (Test-Path $logPath -ErrorAction SilentlyContinue)) {
+        "Timestamp,User,Computer,Action,Status,Details" | Out-File $logPath
+        Write-ExecutionLog -Action "LogInit" -Status "Success" -Details "Created new log file"
+    }
+}
+catch {
+    Write-ExecutionLog -Action "LogInit" -Status "Failed" -Details $_.Exception.Message
+}
+#endregion
 
 ```
 ---
@@ -136,7 +202,7 @@ if (-not (Test-Path "C:\Windows\Temp\Logs")) {
 ### ✅ 4. Testing and Validation
 
 To validate the script:
-1. Ensured the files were placed in the `\\hughdomain.local\SysVol\hughdomain.local\Policies\{7F8FFD6B-8465-44C8-B698-6A73BE1994EF}\User` shared folder.
+1. Ensured the files were placed in the `"\\hughdomain.local\SysVol\hughdomain.local\Policies\{C79F56AD-4E23-443C-89CB-6C2D93A6A25F}\User"` shared folder.
 2. Logged in as a domain user.
 3. Verified:
   * Welcome message displayed

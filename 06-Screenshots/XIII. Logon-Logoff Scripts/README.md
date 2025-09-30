@@ -10,15 +10,15 @@ Both write-ups are covered here:
 
 ## 🗂️ Folder Structure
 
-``
+```
 06-Screenshots/
-└── XIII. Logon-Logoff Scripts/
+    ├── XIII. Logon-Logoff Scripts/
 ├── Config/
-│ └── (Screenshots of GPO configuration, script linking, file locations)
+      ├── (Screenshots of GPO configuration, script linking, file locations)
 ├── Desktop/
-│ └── (Screenshots of script execution results on client machines)
-└── README.md
-``
+      ├── (Screenshots of GPO configuration, script linking, file locations)
+├── README.md
+````
 
 ---
 

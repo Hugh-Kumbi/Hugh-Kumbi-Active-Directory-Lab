@@ -191,11 +191,11 @@ The script creates a message on the user's desktop after logging off.
    * ✔️ "Logon script is running" notification appeared (5-second timeout)
    * ✔️ Z: drive successfully mapped to `\\WINSERVER2025\ITSecurity Shared Drive`
    * ✔️ S: drive successfully mapped to `\\WINSERVER2025\DepartmentalShares`
-   * ✔️ User folder created at `\\WINSERVER2025\FileShares$\<username>` (if first logon)
+   * ✔️ User folder created at `\\WINSERVER2025\FileShares\<username>` (if first logon)
    * ✔️ Outlook signatures deployed (if template existed for user)
    * ✔️ Completion notification displayed
 3. Verified log file creation at:
-   * `\\WINSERVER2025\LogFiles\<username>-logon.log`
+   * `\\WINSERVER2025\SecurityLogs`
    * Confirmed timestamp, username, and computer name were recorded
    * Checked success/failure messages for all operations
 
@@ -210,23 +210,25 @@ The script creates a message on the user's desktop after logging off.
    * ✔️ Temporary files cleared from %TEMP%
 
 3. Verified logoff entry in:
-   `\\WINSERVER2025\LogFiles<username>-logoff.log`
+   `"\\WINSERVER2025\SecurityLogs"`
 
 📸 **Logon Notification Popup**
 
-![Logon Notification Popup](https://github.com/user-attachments/assets/6a64e746-3341-4e49-a0a2-c78a074ddc0a)
+<img width="1920" height="909" alt="Logon Notification Popup" src="https://github.com/user-attachments/assets/d581ee7b-3b18-43a6-9f8a-c4c14d16c194" /><br />
 
-![Logon Notification Popup 1](https://github.com/user-attachments/assets/cc9c2a85-8b8d-4ba9-a6d1-db94df9298b0)
+<img width="1920" height="909" alt="Logon Notification Popup" src="https://github.com/user-attachments/assets/33e53d0d-09e8-40e0-8550-7b21dc111fa2" /><br />
 
 📸 **File Explorer Showing Mapped S Drive And Network User Folder**
 
-![File Explorer Showing Mapped S Drive And Network User Folder](https://github.com/user-attachments/assets/f901c3dd-95bb-495d-8b50-8fe1176113a5)
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder" src="https://github.com/user-attachments/assets/efcfd81a-008f-41e9-a955-35e6b6342def" /><br />
+
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 1" src="https://github.com/user-attachments/assets/b785995a-d284-4182-b373-a5d945313c7d" /><br />
+
+<img width="1920" height="909" alt="File Explorer Showing Mapped S Drive And Network User Folder 2" src="https://github.com/user-attachments/assets/2a6e271d-8d2c-4ce2-822c-c9232a14bbd7" /><br />
 
 📸 **Sample Log File Contents Showing Successful Operations**
 
-![Sample Log File Contents Showing Successful Operations](https://github.com/user-attachments/assets/9c395359-caaa-4da5-8ba2-f28b9cae72ec)
-
-Logoff notification popup (if captured before session termination)
+<img width="1920" height="909" alt="Sample Log File Contents Showing Successful Operations" src="https://github.com/user-attachments/assets/a62ffae6-cf78-4d3b-b962-95fee724f449" />
 
 🔍 **Validation Checklist:**
 
@@ -239,5 +241,5 @@ Logoff notification popup (if captured before session termination)
 
 ## 🗂️ 5. Screenshot Storage
 
-All images related to this section are stored in:
+All images related to this section are stored in:<br /> 
 📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

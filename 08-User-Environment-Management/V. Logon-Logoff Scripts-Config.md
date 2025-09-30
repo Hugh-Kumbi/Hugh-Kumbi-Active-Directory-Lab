@@ -32,19 +32,19 @@ I configured scripts using:
 
 📸 **Logon Properties Window Showing The Added PowerShell Script**
 
-![Logon Properties Window Showing The Added PowerShell Script](https://github.com/user-attachments/assets/e09929c7-e635-44f9-936f-3b8a36e0c6fa)
+<img width="1920" height="909" alt="Logon Properties Window Showing The Added PowerShell Script" src="https://github.com/user-attachments/assets/f077a4e5-c10f-4737-b699-8fc6cce0ae1e" /><br />
 
 📸 **Logoff Properties window showing the added PowerShell Script**
 
-![Logoff Properties window showing the added PowerShell Script](https://github.com/user-attachments/assets/41da33b4-3300-4e58-af30-9dd72a818c1c)
+<img width="1920" height="909" alt="Logoff Properties window showing the added PowerShell Script" src="https://github.com/user-attachments/assets/d30f9717-f741-473d-a2ac-0fbd9af22f6e" /><br />
 
 📸 **Logon File Location in the SysVol Share**
 
-![Logon File Location in the SysVol Share](https://github.com/user-attachments/assets/4d0ec410-9224-45e4-b496-b6b712fad617)
+<img width="1920" height="909" alt="Logon File Location in the SysVol Share" src="https://github.com/user-attachments/assets/bcd3fd05-9eb1-4e28-800e-b24a816d8ed9" /><br />
 
 📸 **Logoff File Location in the SysVol Share**
 
-![Logoff File Location in the SysVol Share](https://github.com/user-attachments/assets/8258761a-ce1c-4eef-8e3c-28b61fb6806f)
+<img width="1920" height="909" alt="Logoff File Location in the SysVol Share" src="https://github.com/user-attachments/assets/f62eee51-88f3-438d-985a-11a5bb698051" />
 
 ---
 
@@ -111,7 +111,6 @@ catch {
     $wshell.Popup("Failed to map network drives", 5, "Error", 0x30)
 }
 #endregion
-
 ```
 ---
 
@@ -195,7 +194,6 @@ catch {
     Write-ExecutionLog -Action "LogInit" -Status "Failed" -Details $_.Exception.Message
 }
 #endregion
-
 ```
 ---
 
@@ -211,21 +209,39 @@ To validate the script:
 
 **📸 PowerShell Execution Results (from User Logon)**
 
-![PowerShell Execution Results (from User Logon)](https://github.com/user-attachments/assets/b02d6320-4da5-4e93-a0cf-95420da1d2db)
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon)" src="https://github.com/user-attachments/assets/2f31b50e-bb20-4b8b-9618-7c508af4e79b" /><br /> 
 
-![PowerShell Execution Results (from User Logon) 1](https://github.com/user-attachments/assets/e878425b-38a4-49cc-aead-21f0515e483b)
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 1" src="https://github.com/user-attachments/assets/c69b38bf-f2ec-42fe-85db-5a81d27395f0" /><br /> 
 
-![PowerShell Execution Results (from User Logon) 2](https://github.com/user-attachments/assets/88613b3b-5397-4224-b808-335b59b62ee9)
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 2" src="https://github.com/user-attachments/assets/2f830493-0529-4ab7-a9b8-d80094c82753" /><br /> 
 
-![PowerShell Execution Results (from User Logon) 3](https://github.com/user-attachments/assets/4bb770b4-1a05-4395-af20-bf43a9144912)
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 3" src="https://github.com/user-attachments/assets/117a5010-a59e-4354-ba03-2f45d9a0028c" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 4" src="https://github.com/user-attachments/assets/1964b891-4235-4499-9953-55ff7e041d39" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 5" src="https://github.com/user-attachments/assets/acb77931-6ed7-4c03-8f1b-410e61fa2d7f" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 6" src="https://github.com/user-attachments/assets/4cbae71d-f45d-4c2c-8c00-18c98683553e" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 7" src="https://github.com/user-attachments/assets/1d4a4095-5ff8-4ccf-ad51-bee55e9b04ca" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 8" src="https://github.com/user-attachments/assets/16d9e73e-f731-44ca-8860-a4baff299cde" /><br /> 
+
+<img width="1920" height="909" alt="PowerShell Execution Results (from User Logon) 9" src="https://github.com/user-attachments/assets/3b84e3b2-427d-4d26-8205-96573ac0da8a" />
 
 **📸 Log File Entry in ServerLogs**
 
-![Log File Entry in ServerLogs](https://github.com/user-attachments/assets/9c395359-caaa-4da5-8ba2-f28b9cae72ec)
+<img width="1920" height="909" alt="Log File Entry in ServerLogs" src="https://github.com/user-attachments/assets/6372e02b-4678-4800-9913-74ff7272352b" /><br /> 
+
+<img width="1920" height="909" alt="Log File Entry in ServerLogs 1" src="https://github.com/user-attachments/assets/91e5e053-eedd-43f6-b923-ca147b2b726c" /><br /> 
+
+<img width="1920" height="909" alt="Log File Entry in ServerLogs 2" src="https://github.com/user-attachments/assets/bf3db225-57d3-4e7f-aa87-047249adb2e5" /><br /> 
+
+<img width="1920" height="909" alt="Log File Entry in ServerLogs 3" src="https://github.com/user-attachments/assets/890758c6-5e7b-414f-b556-b5b5ff0a9082" />
 
 ---
 
 ### 🗂️ 5. Screenshot Storage
 
-Store all relevant images in:
-📂 [`06-Screenshots/Logon-Scripts/Logon-Scripts/logon-script-config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/I.%20Logon-Logoff%20Config.md)
+Store all relevant images in:<br /> 
+📂 [`06-Screenshots/XXIII. Logon-Logoff Scripts-Config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIII.%20Logon-Logoff%20Scripts-Config)

@@ -10,6 +10,7 @@ Logon and logoff scripts can be created and configured to run automatically when
 
 📸 **Creating Logon/Logoff Scripts**
 
+<img width="1920" height="909" alt="Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU" src="https://github.com/user-attachments/assets/198af621-f61b-4782-9519-47e3337c1447" />
 
 ---
 

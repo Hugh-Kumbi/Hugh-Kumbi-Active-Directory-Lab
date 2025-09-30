@@ -9,9 +9,9 @@ This section explains how I implemented a **Desktop Wallpaper Policy** using Gro
 - **GPO Name:** Desktop Wallpaper Policy  
 - **Linked To:** hughdomain.local (domain root)
 
-📸 **Group Policy Management Console Showing The Desktop Wallpaper Policy GPO And Link**
+📸 **Group Policy Management Console Showing the Desktop Wallpaper Policy GPO and Link**
 
-![Group Policy Management Console Showing The Desktop Wallpaper Policy GPO And Link](https://github.com/user-attachments/assets/19f2dc2b-78f3-47dd-9429-2fbdb60202a3)
+<img width="1920" height="909" alt="Group Policy Management Console Showing The Desktop Wallpaper Policy GPO And Link" src="https://github.com/user-attachments/assets/2a789e80-1c0e-4a51-863a-cc4b0c36e515" />
 
 ---
 
@@ -62,5 +62,5 @@ To test the policy:
 
 ## 🗂️ 4. Screenshot Storage
 
-All images related to this section are stored in:
+All images related to this section are stored in:<br />
 📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

@@ -247,25 +247,29 @@ catch {
 
 📸 **StartupScript Powershell Test**
 
-![StartupScript Powershell Test](https://github.com/user-attachments/assets/546ab573-8319-441e-a5bd-ad9348e6a0bf)
+<img width="1920" height="909" alt="StartupScript Powershell Test" src="https://github.com/user-attachments/assets/f62b9e6f-ebd3-46e4-a2bf-f693769afaa5" /><br /> 
 
-![StartupScript Powershell Test 1](https://github.com/user-attachments/assets/09499203-03bf-485a-b414-a601af3077c5)
+<img width="1920" height="909" alt="StartupScript Powershell Test 1" src="https://github.com/user-attachments/assets/a988a16a-76e6-4989-8462-b311b3d02b9a" /><br /> 
 
-![StartupScript Powershell Test 2](https://github.com/user-attachments/assets/350b1259-4cea-4791-9ce2-777ad70c0839)
+<img width="1920" height="909" alt="StartupScript Powershell Test 2" src="https://github.com/user-attachments/assets/6273a441-016a-4bb0-887b-307482d04a54" /><br /> 
 
 📸 **ShutdownScript Powershell Test**
 
-![ShutdownScript Powershell Test](https://github.com/user-attachments/assets/3aaeb593-e9cc-4ba1-8d1c-1120d60fbaa0)
-
-![ShutdownScript Powershell Test 1](https://github.com/user-attachments/assets/77f62081-56e6-4adb-acf0-de0f386d88e7)
+<img width="1920" height="909" alt="ShutdownScript Powershell Test" src="https://github.com/user-attachments/assets/ebfefe6a-3342-4115-837e-50301c2b6f35" />
 
 📸 **Startup Script Signed**
 
-![Startup Script Signed](https://github.com/user-attachments/assets/7782900f-4fb3-4e0a-ae7e-a5870259e063)
+<img width="1920" height="909" alt="Startup Script Signed" src="https://github.com/user-attachments/assets/ad41319a-bf75-444d-b8d5-bccd07f8ed39" /><br /> 
+
+<img width="1920" height="909" alt="Startup Script Signed 1" src="https://github.com/user-attachments/assets/ecc23655-57db-41c0-b9b5-30b1462acaef" /><br /> 
 
 📸 **Shutdown Script Signed**
 
-![Shutdown Script Signed](https://github.com/user-attachments/assets/ed7d54ca-6fb0-48a8-b9ca-35e55fb790b5)
+<img width="1920" height="909" alt="Shutdown Script Signed" src="https://github.com/user-attachments/assets/0a1d3abb-9066-4944-b54d-fcb25cd85d1f" /><br /> 
+
+<img width="1920" height="909" alt="Shutdown Script Signed 1" src="https://github.com/user-attachments/assets/f7a7c0eb-45b5-441e-a5fb-34acc90d41d9" />
+
+---
 
 ## 👩🏻‍💻 4. Tasks performed
 

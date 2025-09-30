@@ -65,7 +65,7 @@ Using the **Group Policy Management Editor**, I navigated to:<br />
 These scripts were used to maintain operational visibility and enforce configurations at the system level.
 
 **Startup Script Tasks:**
-- Logs boot time and system health info to `\\WINSERVER2025\LogFiles\`
+- Logs boot time and system health info to `"\\WINSERVER2025\LogFiles\Startup\$env:COMPUTERNAME-$(Get-Date -Format 'yyyyMMdd').csv"`
 - Displays a user-friendly popup notification
 - Updates Windows Defender definitions
 - Checks for and logs pending Windows Updates
@@ -75,44 +75,66 @@ These scripts were used to maintain operational visibility and enforce configura
 
 ``` powershell 
 # StartupScript.ps1 for hughdomain.local
-# Save to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Startup\StartupScript.ps1
+# Saved to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{696BCAFA-C546-4B3F-B498-670136FDF566}\Machine\Scripts\Startup\StartupScript.ps1
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:COMPUTERNAME-startup.log",
-    "\\$ServerName\LogFiles\$env:COMPUTERNAME-startup.log",
-    "C:\Windows\Temp\Logs\$env:COMPUTERNAME-startup.log"
-)
+<#
+.SYNOPSIS
+    Domain computer startup script for hughdomain.local
+.DESCRIPTION
+    Performs system health checks, security updates, and maintenance tasks
+.NOTES
+    Version: 3.2
+    Requires: PowerShell 5.1+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$ErrorActionPreference = "Continue"
+$scriptVersion = "3.7"
+$scriptStartTime = Get-Date
+$logPath = "\\WINSERVER2025\LogFiles\Startup\$env:COMPUTERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$verboseLog = "$env:TEMP\StartupScript_Verbose.log"
+
+# Clear previous verbose log
+if (Test-Path $verboseLog) { Remove-Item $verboseLog -Force }
+
+function Write-ProgressLog {
+    param([string]$Message)
+    Add-Content -Path $verboseLog -Value "[$(Get-Date -Format 'HH:mm:ss')] $Message"
+    Write-Host $Message -ForegroundColor Cyan
 }
 
-# ----- LOGGING FUNCTION -----
-function Write-StartupLog {
-    param($Message)
-    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $logEntry = "[$timestamp] $Message"
-    
-    foreach ($logPath in $LogLocations) {
-        try {
-            # Handle local vs network paths
-            if ($logPath -like "C:*") {
-                $logDir = Split-Path $logPath -Parent
-                if (-not (Test-Path $logDir)) { New-Item -Path $logDir -ItemType Directory -Force | Out-Null }
-            }
-            
-            Add-Content -Path $logPath -Value $logEntry -ErrorAction Stop
-            return $true
-        } catch {
-            # Continue to next log location
-        }
+function Log-Action {
+    param([string]$Action, [string]$Status, [string]$Details)
+    Add-Content -Path $logPath -Value "$(Get-Date -Format o),$env:COMPUTERNAME,$Action,$Status,$Details"
+    Write-ProgressLog "[$Action] $Status - $Details"
+}
+
+# Start with clear header
+Write-ProgressLog "=== CLOSED ENVIRONMENT STARTUP v$scriptVersion ==="
+Write-ProgressLog "Initiated at: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+Write-ProgressLog "Computer: $env:COMPUTERNAME"
+Write-ProgressLog "User: $env:USERNAME"
+#endregion
+
+#region Share Verification
+$requiredShares = @(
+    "\\hughdomain.local\ITResources\DefenderUpdates",
+    "\\WINSERVER2025\DefenderUpdates",
+    "\\hughdomain.local\NETLOGON\DefenderUpdates"
+)
+
+Write-ProgressLog "`n=== SHARE VERIFICATION ==="
+$availableShares = @()
+
+foreach ($share in $requiredShares) {
+    try {
+        $exists = Test-Path $share -ErrorAction Stop
+        Write-ProgressLog "$(if($exists){'✓'}else{'×'}) $share"
+        if ($exists) { $availableShares += $share }
     }
-    return $false
+    catch {
+        Write-ProgressLog "× $share (Access Denied)" -ForegroundColor Red
+    }
 }
 
 ```
@@ -128,46 +150,91 @@ function Write-StartupLog {
 
 ```powershell
 # ShutdownScript.ps1 for hughdomain.local
-# Save to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{F790A831-590B-45C2-94DC-4054DC2022A8}\Machine\Scripts\Shutdown\ShutdownScript.ps1
+# Saved to: \\hughdomain.local\SysVol\hughdomain.local\Policies\{696BCAFA-C546-4B3F-B498-670136FDF566}\Machine\Scripts\Shutdown\ShutdownScript.ps1
 
-# ----- CONFIGURATION -----
-$ServerName = "WINSERVER2025"
-$ServerIP = "192.168.1.10"
-$LogLocations = @(
-    "\\$ServerIP\LogFiles\$env:COMPUTERNAME-shutdown.log",
-    "\\$ServerName\LogFiles\$env:COMPUTERNAME-shutdown.log",
-    "C:\Windows\Temp\Logs\$env:COMPUTERNAME-shutdown.log"
-)
+<#
+.SYNOPSIS
+    Domain computer shutdown script for hughdomain.local
+.DESCRIPTION
+    Performs system state logging, maintenance tasks, and cleanup operations
+.NOTES
+    Version: 3.2
+    Requires: PowerShell 5.1+
+#>
 
-# ----- INITIALIZATION -----
-# Create local log directory if needed
-if (-not (Test-Path "C:\Windows\Temp\Logs")) {
-    New-Item -Path "C:\Windows\Temp\Logs" -ItemType Directory -Force | Out-Null
+#region Initialization
+$ErrorActionPreference = "Stop"
+$logPath = "\\WINSERVER2025\LogFiles\Shutdown\$env:COMPUTERNAME-$(Get-Date -Format 'yyyyMMdd').csv"
+$maxLogAge = 30 # Days to keep logs
+
+# Ensure log directory exists
+try {
+    if (-not (Test-Path (Split-Path $logPath -Parent))) {
+        New-Item -ItemType Directory -Path (Split-Path $logPath -Parent) -Force | Out-Null
+    }
+    
+    # Create CSV header if new log
+    if (-not (Test-Path $logPath)) {
+        "Timestamp,Computer,Action,Status,Details" | Out-File $logPath
+    }
+    
+    # Clean up old logs
+    Get-ChildItem -Path (Split-Path $logPath -Parent) -Filter "$env:COMPUTERNAME-*.csv" |
+        Where-Object { $_.LastWriteTime -lt (Get-Date).AddDays(-$maxLogAge) } |
+        Remove-Item -Force
+}
+catch {
+    # Fallback to local logging if network unavailable
+    $logPath = "$env:ProgramData\ShutdownScript.log"
+    "Failed to access network log location: $($_.Exception.Message)" | Out-File $logPath -Append
 }
 
-# ----- LOGGING FUNCTION -----
-function Write-ShutdownLog {
-    param($Message)
-    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    $logEntry = "[$timestamp] $Message"
-    
-    foreach ($logPath in $LogLocations) {
+function Log-Action {
+    param(
+        [string]$Action,
+        [string]$Status,
+        [string]$Details
+    )
+    "$(Get-Date -Format o),$env:COMPUTERNAME,$Action,$Status,$Details" | Out-File $logPath -Append
+}
+
+# Start logging
+Log-Action -Action "ScriptStart" -Status "Running" -Details "Version 3.2"
+#endregion
+
+#region Notification
+try {
+    if ([System.Environment]::UserInteractive) {
+        # Try modern toast notification first (requires BurntToast module)
         try {
-            # Handle local vs network paths
-            if ($logPath -like "C:*") {
-                $logDir = Split-Path $logPath -Parent
-                if (-not (Test-Path $logDir)) { New-Item -Path $logDir -ItemType Directory -Force | Out-Null }
+            Import-Module BurntToast -ErrorAction Stop
+            $toastArgs = @{
+                Text  = "Preparing system for shutdown, please wait..."
+                Title = "Domain Shutdown Script"
+                Time  = 3
             }
-            
-            Add-Content -Path $logPath -Value $logEntry -ErrorAction Stop
-            return $true
-        } catch {
-            # Continue to next log location
+            New-BurntToastNotification @toastArgs
+            Log-Action -Action "Notification" -Status "Success" -Details "Displayed toast notification"
+        }
+        catch {
+            # Fallback to VBS popup if Toast unavailable
+            $vbsContent = @"
+Set ws = CreateObject("WScript.Shell")
+ws.Popup "Preparing system for shutdown, please wait...", 3, "Domain Shutdown Script", 64
+"@
+            $vbsPath = "$env:TEMP\shutdown-notification.vbs"
+            $vbsContent | Out-File $vbsPath -Encoding ASCII
+            Start-Process wscript.exe -ArgumentList $vbsPath -WindowStyle Hidden -Wait
+            Start-Sleep -Seconds 1
+            Remove-Item $vbsPath -Force -ErrorAction SilentlyContinue
+            Log-Action -Action "Notification" -Status "Success" -Details "Displayed VBS popup notification"
         }
     }
-    return $false
 }
-
+catch {
+    Log-Action -Action "Notification" -Status "Failed" -Details $_.Exception.Message
+}
+#endregion
 ```
 ---
 
@@ -228,5 +295,5 @@ function Write-ShutdownLog {
 
 ## 🗂️ 5. Screenshot Storage
 
-All related screenshots are stored in:  
-📂 [`06-Screenshots/Startup/Shutdown-Scripts/Startup/Shutdown-Scripts/Startup/Shutdown-script-config.png`]()
+All related screenshots are stored in:<br />  
+📂 [`06-Screenshots/XXIV. Startup-Shutdown Scripts`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIV.%20Startup-Shutdown%20Scripts)

@@ -611,9 +611,11 @@ hughdomain.local
 
 <img width="1920" height="909" alt="Slow Link Review Monitoring 2" src="https://github.com/user-attachments/assets/c18ab239-f519-4944-b4f4-b0180718d79f" /><br />
 
+<img width="1920" height="909" alt="Slow Link Review Monitoring 3" src="https://github.com/user-attachments/assets/ec50be13-4800-4164-bea4-92e60730adc3" /><br />
+
 📸 **Extension load analysis Monitoring**
 
-<img width="1920" height="909" alt="Extension load analysis Monitoring" src="https://github.com/user-attachments/assets/8ca53944-cc87-4b4a-b890-9507ac4c3887" />
+<img width="1920" height="909" alt="Extension load analysis Monitoring" src="https://github.com/user-attachments/assets/9d6ac707-8bcc-4b02-97f6-099ea209e5a5" />
 
 ---
 
@@ -631,7 +633,7 @@ hughdomain.local
 - WMI filter mismatches
 - Extension errors
 
-📸 **Troubleshooting Using gpresult**
+📸 **Troubleshooting Using `gpresult`**
 
 ![Troubleshooting Using GPRESULT](https://github.com/user-attachments/assets/2fc7ae94-dab4-4f68-ae48-7ccfc1b503d7)
 

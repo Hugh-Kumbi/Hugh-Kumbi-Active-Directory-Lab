@@ -229,6 +229,8 @@ hughdomain.local
 
 <img width="4400" height="2083" alt="Picture3" src="https://github.com/user-attachments/assets/7d5db566-bd03-4893-929e-b07ee9dd9518" />
 
+---
+
 ### 9. Map Network Drives Policies
 
 - **Scope**: User configuration
@@ -237,17 +239,17 @@ hughdomain.local
 
 📸 **Drive Mapping Policy**
 
-![Map Network Drives Policy](https://github.com/user-attachments/assets/c41fa089-611e-45ea-83f3-1c6d62f92827)
+<img width="1920" height="909" alt="Drive Mapping Policy" src="https://github.com/user-attachments/assets/70f7f3b6-7166-401f-aa02-35d3ec103f54" /><br />
 
-![Map Network Drives Policy 1](https://github.com/user-attachments/assets/25b7969b-ac58-4f79-b9ea-4d58ddd10cf3)
+<img width="1920" height="909" alt="Drive Mapping Policy 1" src="https://github.com/user-attachments/assets/cfc3a468-63e7-4566-a925-d753cfc9bd11" /><br />
 
-![Map Network Drives Policy 2](https://github.com/user-attachments/assets/dff93057-da6f-4af6-8fe9-cc6868d871fc)
+<img width="1920" height="909" alt="Drive Mapping Policy 2" src="https://github.com/user-attachments/assets/57c440f7-8c62-4591-8a25-e562879cd967" /><br />
 
-![Drive Mapping Policy](https://github.com/user-attachments/assets/4908581f-1bd2-4216-8283-2bc9efeabc40)
+<img width="1920" height="909" alt="Drive Mapping Policy 3" src="https://github.com/user-attachments/assets/ffc29626-86f7-4b83-9368-09c34b8d46ab" /><br />
 
-![Drive Mapping Policy 1](https://github.com/user-attachments/assets/074cce5f-c86b-4cf3-9def-8d4a86d4d6fa)
+<img width="1920" height="909" alt="Drive Mapping Policy 4" src="https://github.com/user-attachments/assets/90f0aa6d-0437-4ec2-b025-5a731a5eb8d6" /><br />
 
-![Drive Mapping Policy 2](https://github.com/user-attachments/assets/2c043a6f-5d48-4cc4-a05a-a5786ede9ca3)
+<img width="1920" height="909" alt="Drive Mapping Policy 5" src="https://github.com/user-attachments/assets/24636522-e904-41ac-aa18-471ddacba492" />
 
 ---
 
@@ -261,7 +263,7 @@ hughdomain.local
 
 📸 **Security Groups in Active Directory**
 
-![Security Groups in Active Directory](https://github.com/user-attachments/assets/d9b945f0-4977-48ac-b0de-2d66fb16b54b)
+<img width="1920" height="909" alt="OU Structure in Active Directory Users and Computers" src="https://github.com/user-attachments/assets/5eb83b38-bfb2-44c9-84c1-c6d2f4ecf05d" />
 
 ---
 
@@ -270,17 +272,27 @@ hughdomain.local
 ### Group Policy Processing
 
 - **Mode**: Normal
-- **Last Applied**: May 5, 2025, 2:45:30 PM
+- **Last Applied**: September 30, 2025 at 6:12:31 PM & September ‎30, ‎2025 at 7:21:44 PM
 - **Slow Link Threshold**: 500 kbps
-- **Policy Source**: `WIN-D2PQBCI88JQ.hughdomain.local`
+- **Policy Source**: `WinServer2025.hughdomain.local`
 
-📸 **GPResult from Client Machine**
+📸 **`gpresult` from `AD-WIN11-01`**
 
-![GPResult from Client Machine](https://github.com/user-attachments/assets/28eb2d27-4bce-427d-b832-06aafacd3d8d)
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-01`" src="https://github.com/user-attachments/assets/25c17be7-a9f8-4bfb-9c8f-6e0b3ba2e669" /><br />
 
-![GPResult from Client Machine 1](https://github.com/user-attachments/assets/0a512658-0fbd-4a84-99e2-8ba4f3cbe71d)
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-01` 1" src="https://github.com/user-attachments/assets/bbca3623-b5e1-47a1-8a28-5d312737440f" /><br />
 
-![GPResult from Client Machine 2](https://github.com/user-attachments/assets/a667c08c-c032-4b31-96f0-40c9ef1d9668)
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-01` 2" src="https://github.com/user-attachments/assets/dee163d0-848a-43ec-aeb5-26b5265906d8" /><br />
+
+📸 **`gpresult` from `AD-WIN11-02`**
+
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02`" src="https://github.com/user-attachments/assets/57ff8f06-8bce-4ae1-94ff-99739ce7f96d" /><br />
+
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02` 1" src="https://github.com/user-attachments/assets/5f8bbebb-11ce-4c77-b4ea-4f125206d049" /><br />
+
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02` 2" src="https://github.com/user-attachments/assets/30326a53-b6c8-48d3-bfe3-847ae005d35c" /><br />
+
+---
 
 ### 💻 Computer Configuration
 
@@ -300,91 +312,115 @@ hughdomain.local
 
 📸 **Computer Configuration Settings**
 
-![Computer Configuration Settings On Client Machine](https://github.com/user-attachments/assets/aa654be4-c939-41c8-bc0e-f01f1d4332ad)
+<img width="1920" height="909" alt="Computer Configuration Settings" src="https://github.com/user-attachments/assets/7d4ed616-b08b-4bec-a384-d70776fc12ab" />
 
-![Computer Configuration Settings On Client Machine 1](https://github.com/user-attachments/assets/6db814d0-7fd3-4504-9659-0790f4157f24)
+<img width="1920" height="909" alt="Computer Configuration Settings 1" src="https://github.com/user-attachments/assets/135d1e44-a64a-4e40-9502-50d30e996c99" />
 
-![Computer Configuration Settings On Client Machine 2](https://github.com/user-attachments/assets/8dbf86c1-9511-41c2-af93-cf8c92b15969)
+<img width="1920" height="909" alt="Computer Configuration Settings 2" src="https://github.com/user-attachments/assets/cc771fb8-3bc8-4abe-9daf-177e8324920d" />
 
-![Computer Configuration Settings On Client Machine 3](https://github.com/user-attachments/assets/37932f22-8052-486f-bcf9-e6856e441d54)
+<img width="1920" height="909" alt="Computer Configuration Settings 3" src="https://github.com/user-attachments/assets/16cdb0eb-39f7-4b6e-8eb4-4810bcf208d2" />
 
-![Computer Configuration Settings On Client Machine 4](https://github.com/user-attachments/assets/894e157e-0edb-4cde-9f59-f2b9344912c7)
+<img width="1920" height="909" alt="Computer Configuration Settings 4" src="https://github.com/user-attachments/assets/45c74c49-c282-466c-a632-01d1816402eb" />
 
-![Computer Configuration Settings On Client Machine 5](https://github.com/user-attachments/assets/f1f45fbf-8492-4f00-8559-33c214445fd0)
+<img width="1920" height="909" alt="Computer Configuration Settings 5" src="https://github.com/user-attachments/assets/2af8ca49-e15f-4fd8-b0c5-b073d67a55ce" />
 
-![Computer Configuration Settings On Client Machine 6](https://github.com/user-attachments/assets/cfbd4fd3-c532-408b-bffb-e8a013a97bb1)
+<img width="1920" height="909" alt="Computer Configuration Settings 6" src="https://github.com/user-attachments/assets/a0075feb-f7a1-40c6-b06c-55dd5bef107d" />
 
-![Computer Configuration Settings On Client Machine 7](https://github.com/user-attachments/assets/b46a373c-a80e-431e-a969-e5103ff52c5d)
+<img width="1920" height="909" alt="Computer Configuration Settings 7" src="https://github.com/user-attachments/assets/91fd305f-96b7-4c86-bd48-c85e32b031aa" />
 
-![Computer Configuration Settings On Client Machine 8](https://github.com/user-attachments/assets/c2cde3bd-a091-4330-9f10-3516cfad4530)
+<img width="1920" height="909" alt="Computer Configuration Settings 8" src="https://github.com/user-attachments/assets/745acde0-3823-41aa-b304-06b2eaa81954" />
 
-![Computer Configuration Settings On Client Machine 9](https://github.com/user-attachments/assets/5e9cb427-a7bf-4af7-8893-6166b4530283)
+<img width="1920" height="909" alt="Computer Configuration Settings 9" src="https://github.com/user-attachments/assets/e8011518-8e26-41c9-a014-4ebc9a53db7e" />
 
-![Computer Configuration Settings On Client Machine 10](https://github.com/user-attachments/assets/531a9f11-1b30-4a27-beb7-4ec0e0515a39)
+<img width="1920" height="909" alt="Computer Configuration Settings 10" src="https://github.com/user-attachments/assets/b6dec855-45db-4bb5-9a81-fa684e0bcc2b" />
 
-![Computer Configuration Settings On Client Machine 11](https://github.com/user-attachments/assets/5eeed4d6-dc9b-49d4-b3f7-d1d8c688c352)
+<img width="1920" height="909" alt="Computer Configuration Settings 11" src="https://github.com/user-attachments/assets/c9091c7d-863e-40f9-addd-87f520ec3882" />
 
-![Computer Configuration Settings On Client Machine 12](https://github.com/user-attachments/assets/e73615c8-b1f2-4e1b-afb9-6ac46cbdc7f1)
+<img width="1920" height="909" alt="Computer Configuration Settings 12" src="https://github.com/user-attachments/assets/9f81bc74-ae0e-4a61-b2a0-3c2dcfb8e9b0" />
 
-![Computer Configuration Settings On Client Machine 13](https://github.com/user-attachments/assets/a6c04758-080b-439c-a8cd-94eadab503f4)
+<img width="1920" height="909" alt="Computer Configuration Settings 13" src="https://github.com/user-attachments/assets/a2491c81-22c2-427d-8931-708798a03e8b" />
 
-![Computer Configuration Settings On Client Machine 14](https://github.com/user-attachments/assets/fffd8a0b-3f56-4cbc-b229-c8757d3806bb)
+<img width="1920" height="909" alt="Computer Configuration Settings 14" src="https://github.com/user-attachments/assets/e7f2bca0-dbd5-485d-8de3-9575d94c7e5b" />
 
-![Computer Configuration Settings On Client Machine 15](https://github.com/user-attachments/assets/aabfa352-8895-4368-8213-63f34d2d5aff)
+<img width="1920" height="909" alt="Computer Configuration Settings 15" src="https://github.com/user-attachments/assets/2a5eb0b5-224f-45d4-9a86-d06bef40be73" />
 
-![Computer Configuration Settings On Client Machine 16](https://github.com/user-attachments/assets/1e3f9948-27d9-401b-b6e6-2a7d4dd5a37a)
+<img width="1920" height="909" alt="Computer Configuration Settings 16" src="https://github.com/user-attachments/assets/7114619e-2c97-4706-9e0d-3dbe590fe308" />
 
-![Computer Configuration Settings On Client Machine 17](https://github.com/user-attachments/assets/801f67ba-99f9-4582-a813-6a92a2e75ac8)
+<img width="1920" height="909" alt="Computer Configuration Settings 17" src="https://github.com/user-attachments/assets/76eafa3b-28d3-4bea-b7e4-04e133f48fb5" />
 
-![Computer Configuration Settings On Client Machine 18](https://github.com/user-attachments/assets/860fa969-5488-4d67-a3ac-4fcdc74c7c1d)
+<img width="1920" height="909" alt="Computer Configuration Settings 18" src="https://github.com/user-attachments/assets/9ecd545b-f27e-49c4-8a5d-ecc8ea429abd" />
 
-![Computer Configuration Settings On Client Machine 19](https://github.com/user-attachments/assets/eaed7b36-e51d-43cb-bcc3-b2aa510531e1)
+<img width="1920" height="909" alt="Computer Configuration Settings 19" src="https://github.com/user-attachments/assets/d1b53176-fd6c-49d6-bfda-5102dbd12ac7" />
 
-![Computer Configuration Settings On Client Machine 20](https://github.com/user-attachments/assets/8750d004-95ef-4ef6-9a90-afaaf09517c3)
+<img width="1920" height="909" alt="Computer Configuration Settings 20" src="https://github.com/user-attachments/assets/7e216e09-379e-4e50-80fc-ec2b4f5327da" />
 
-![Computer Configuration Settings On Client Machine 21](https://github.com/user-attachments/assets/99e0fbc6-af32-465f-94a3-847c5beabc14)
+<img width="1920" height="909" alt="Computer Configuration Settings 21" src="https://github.com/user-attachments/assets/76d7dc03-8cca-4431-8daf-0b3b3f377401" />
 
-![Computer Configuration Settings On Client Machine 22](https://github.com/user-attachments/assets/216bc197-7093-4edc-b0ee-8d8dc7feda6a)
+<img width="1920" height="909" alt="Computer Configuration Settings 22" src="https://github.com/user-attachments/assets/7e27dfdc-81c8-4e87-9f24-ef56641c9e28" />
 
-![Computer Configuration Settings On Client Machine 23](https://github.com/user-attachments/assets/217c95c7-0a2e-4395-a627-207da57fec5f)
+<img width="1920" height="909" alt="Computer Configuration Settings 23" src="https://github.com/user-attachments/assets/33392e9f-dfbb-47f5-98e2-2e4d88c78f88" />
 
-![Computer Configuration Settings On Client Machine 24](https://github.com/user-attachments/assets/947ac508-44ae-4810-8e8f-e3e5e96f0cd2)
+<img width="1920" height="909" alt="Computer Configuration Settings 24" src="https://github.com/user-attachments/assets/a23773f6-eb6a-48a2-aea0-3b7f43a0ddc6" />
 
-![Computer Configuration Settings On Client Machine 25](https://github.com/user-attachments/assets/378d8d16-b0fc-4913-b721-e071bd7fdfea)
+<img width="1920" height="909" alt="Computer Configuration Settings 25" src="https://github.com/user-attachments/assets/243ab98e-3c39-48d4-9536-d2ad889cb3a8" />
 
-![Computer Configuration Settings On Client Machine 26](https://github.com/user-attachments/assets/0cc5bd38-13cc-4cb0-8c93-77f87c82f6f2)
+<img width="1920" height="909" alt="Computer Configuration Settings 26" src="https://github.com/user-attachments/assets/b9980432-0d4f-4553-aaf1-a1022960b220" />
 
-![Computer Configuration Settings On Client Machine 27](https://github.com/user-attachments/assets/6c318c12-c122-4f03-a8d8-d4dfe97d2624)
+<img width="1920" height="909" alt="Computer Configuration Settings 27" src="https://github.com/user-attachments/assets/10f53db5-318a-4a7c-83fe-176190900b8f" />
 
-![Computer Configuration Settings On Client Machine 28](https://github.com/user-attachments/assets/eaa8045f-be88-4900-868d-ac6f5a196482)
+<img width="1920" height="909" alt="Computer Configuration Settings 28" src="https://github.com/user-attachments/assets/fa895cf9-0b19-45d8-bd71-81c5d9d3cb13" />
 
-![Computer Configuration Settings On Client Machine 29](https://github.com/user-attachments/assets/8802dc54-251e-48f5-89a3-dc3fca3ce03d)
+<img width="1920" height="909" alt="Computer Configuration Settings 29" src="https://github.com/user-attachments/assets/95b2dcbb-1dee-4471-9833-8cec6180f2dc" />
 
-![Computer Configuration Settings On Client Machine 30](https://github.com/user-attachments/assets/73df91c1-8bca-4328-bc72-919ff7595da4)
+<img width="1920" height="909" alt="Computer Configuration Settings 30" src="https://github.com/user-attachments/assets/db1bf58d-4237-49c9-942d-122588431045" />
 
-![Computer Configuration Settings On Client Machine 31](https://github.com/user-attachments/assets/0be92bfb-1568-4a2a-84c7-9cbc1fff4a0b)
+<img width="1920" height="909" alt="Computer Configuration Settings 31" src="https://github.com/user-attachments/assets/35cca9d6-8d5b-44da-a4d5-e26292f37e21" />
 
-![Computer Configuration Settings On Client Machine 32](https://github.com/user-attachments/assets/fc0d1f94-391a-48cc-b2d0-390d0a5ceef2)
+<img width="1920" height="909" alt="Computer Configuration Settings 32" src="https://github.com/user-attachments/assets/4ca6e3b2-1ac9-4f23-99cd-dad2934bdcc9" />
 
-![Computer Configuration Settings On Client Machine 33](https://github.com/user-attachments/assets/9582f1ea-8559-4c40-838a-195549e6be41)
+<img width="1920" height="909" alt="Computer Configuration Settings 33" src="https://github.com/user-attachments/assets/b6876029-c1cb-4fd4-9de4-28f44c85d62b" />
 
-![Computer Configuration Settings On Client Machine 34](https://github.com/user-attachments/assets/f0a82c55-9ff2-483a-8459-6391b941a5fc)
+<img width="1920" height="909" alt="Computer Configuration Settings 34" src="https://github.com/user-attachments/assets/80b1a3da-15c5-4d1b-8d3d-b9d9959f788b" />
 
-![Computer Configuration Settings On Client Machine 35](https://github.com/user-attachments/assets/ffb47982-0d58-4f6e-9a59-b9c78b5c6838)
+<img width="1920" height="909" alt="Computer Configuration Settings 35" src="https://github.com/user-attachments/assets/71d0299a-011c-423c-9cc7-0144b33c8100" />
 
-![Computer Configuration Settings On Client Machine 36](https://github.com/user-attachments/assets/317393c2-e374-46c3-8d94-8670df415285)
+<img width="1920" height="909" alt="Computer Configuration Settings 36" src="https://github.com/user-attachments/assets/9e36b3e0-bb7c-48bc-b373-4507edad23bf" />
 
-![Computer Configuration Settings On Client Machine 37](https://github.com/user-attachments/assets/37a2bd2a-a84a-4845-b264-0174e5a5a028)
+<img width="1920" height="909" alt="Computer Configuration Settings 37" src="https://github.com/user-attachments/assets/7a4deed2-fd25-48ef-bfce-5e5f678f5ed5" />
 
-![Computer Configuration Settings On Client Machine 38](https://github.com/user-attachments/assets/5993f326-0d32-486a-a824-00b451132cda)
+<img width="1920" height="909" alt="Computer Configuration Settings 38" src="https://github.com/user-attachments/assets/47607875-a213-484f-97ba-3323a3eca367" />
 
-![Computer Configuration Settings On Client Machine 39](https://github.com/user-attachments/assets/898e4e44-5ace-4f20-8784-a99587ec6ad7)
+<img width="1920" height="909" alt="Computer Configuration Settings 39" src="https://github.com/user-attachments/assets/812ac25c-f7c1-4858-9da0-8d08191cfe76" />
 
-![Computer Configuration Settings On Client Machine 40](https://github.com/user-attachments/assets/691cdb3f-5867-4793-a03a-41128f37c682)
+<img width="1920" height="909" alt="Computer Configuration Settings 40" src="https://github.com/user-attachments/assets/60215c7b-4cb9-44d7-9b1a-db88c9cc2ad7" />
 
-![Computer Configuration Settings On Client Machine 41](https://github.com/user-attachments/assets/43ca570d-2c37-478d-a50f-2af4661141ed)
+<img width="1920" height="909" alt="Computer Configuration Settings 41" src="https://github.com/user-attachments/assets/00508fe4-ae5a-4591-a74a-ca23ab6902e0" />
 
-![Computer Configuration Settings On Client Machine 42](https://github.com/user-attachments/assets/0dbcb6ac-1198-424b-aa65-7e42795ae13f)
+<img width="1920" height="909" alt="Computer Configuration Settings 42" src="https://github.com/user-attachments/assets/60dae0a8-4795-4d55-b6c5-c2c2cad23a1f" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 43" src="https://github.com/user-attachments/assets/f41cb659-1a73-4678-b6e8-9ae22a77428d" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 44" src="https://github.com/user-attachments/assets/8b34abc6-2485-42b0-9fef-0f81909b3e92" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 45" src="https://github.com/user-attachments/assets/f59cb5b0-7013-4dbd-af0d-ba2d9cafa21e" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 46" src="https://github.com/user-attachments/assets/10a5ed60-8346-4cc1-a50c-99e4695c1fbd" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 47" src="https://github.com/user-attachments/assets/456b27ca-d14e-4ed2-9fb5-ef9fedc84025" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 48" src="https://github.com/user-attachments/assets/d783acf6-4a83-47e5-89a8-62ed6c75e1d2" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 49" src="https://github.com/user-attachments/assets/17538d11-e443-4859-8113-c4885cc4fc41" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 50" src="https://github.com/user-attachments/assets/c8b5f05f-e98e-4bef-937c-3ddd7e36a91b" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 51" src="https://github.com/user-attachments/assets/205875c9-6ed3-4f73-b8b9-d82b2136e791" />
+
+<img width="1920" height="909" alt="Computer Configuration Settings 52" src="https://github.com/user-attachments/assets/c152cbd6-34c0-4b4d-94d2-05052699c582" />
+
+
+![Uploading Computer Configuration Settings 53.png…]()
+
 
 ### 👤 User Configuration
 

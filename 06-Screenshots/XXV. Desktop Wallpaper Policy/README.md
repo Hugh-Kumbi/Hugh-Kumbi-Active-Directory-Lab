@@ -10,6 +10,8 @@ The Desktop Wallpaper Policy can be applied through Group Policy to ensure that 
 
 📸 **Configuring Desktop Wallpaper Policy in Group Policy**
 
+![Desktop Wallpaper Policy Configuration](https://github.com/user-attachments/assets/1473f3c6-7899-43bd-8f99-9dae4492b0d1)
+
 ---
 
 ## 2. 📱 Setting Wallpaper Path
@@ -19,10 +21,6 @@ In this step, the wallpaper path is set to point to the location of the wallpape
 📸 **Desktop Wallpaper Path Set**
 
 <img width="1920" height="909" alt="Desktop Wallpaper Path Set" src="https://github.com/user-attachments/assets/816a744c-5bd3-403a-8a56-3b9db5d3d634" /><br />
-
-📸 **Desktop Wallpaper Policy Configuration**
-
-![Desktop Wallpaper Policy Configuration](https://github.com/user-attachments/assets/1473f3c6-7899-43bd-8f99-9dae4492b0d1)
 
 📸 **Wallpaper File Stored On Shared Server Folder**
 

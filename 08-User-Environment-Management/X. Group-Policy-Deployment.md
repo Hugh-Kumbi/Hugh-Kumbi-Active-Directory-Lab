@@ -17,7 +17,6 @@ This document outlines the implementation of a comprehensive Group Policy strate
 ## 🗂️ Organizational Unit (OU) Structure
 
 ```
-Domains
 hughdomain.local
 ├── AdminAccounts
 ├── Domain Controllers

@@ -508,8 +508,25 @@ hughdomain.local
 
 📸 **Least Privilege Group Membership Screenshot**
 
-![Principle of Least Privilege Domain Group Memberships](https://github.com/user-attachments/assets/90bb1607-129b-4fea-acc0-e712c381138e)
+<img width="1920" height="909" alt="Least Privilege Group Membership" src="https://github.com/user-attachments/assets/372360f7-d886-4d04-92be-a7540b878bb8" /><br />
 
+<img width="1920" height="909" alt="Least Privilege Group Membership 1" src="https://github.com/user-attachments/assets/cd597290-0578-403d-b079-a17fe2cfa961" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 2" src="https://github.com/user-attachments/assets/bc13415b-8c68-4e58-bfff-cb15de2765ec" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 3" src="https://github.com/user-attachments/assets/fb6cc41c-65e7-49ee-b085-eb2369648f22" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 4" src="https://github.com/user-attachments/assets/2cb01ad8-20e4-45fc-b730-06e9135cbc97" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 5" src="https://github.com/user-attachments/assets/4a1d1b76-0a1b-41c6-a509-d3327c887d07" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 6" src="https://github.com/user-attachments/assets/922b0e96-5a5b-403a-8828-22b3c197119c" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 7" src="https://github.com/user-attachments/assets/0cb15346-94c4-4ae4-9f75-0ffd39fee3f9" /><br />
+
+<img width="1920" height="909" alt="Least Privilege Group Membership 8" src="https://github.com/user-attachments/assets/e97bd5c5-c647-43aa-affe-87fee9d38bf5" />
+
+---
 
 ### 📱Application Control
 
@@ -519,13 +536,9 @@ hughdomain.local
 
 📸 **AppLocker Configuration**
 
-![AppLocker Settings](https://github.com/user-attachments/assets/a56f42f1-0a05-440d-839f-f6b8d7500e25)
+<img width="1920" height="909" alt="AppLocker Configuration" src="https://github.com/user-attachments/assets/5cfb7e7e-f66b-4d8a-9b3e-fffe9b4679a2" /><br />
 
-![AppLocker Settings 1](https://github.com/user-attachments/assets/160e86c6-74b2-4d6a-ab32-2f66685bccbf)
-
-![AppLocker Settings 2](https://github.com/user-attachments/assets/c2c0bca9-f7b2-4bfe-9a25-b497cbc5ab73)
-
-![AppLocker Settings 3](https://github.com/user-attachments/assets/2e70e6a3-a2aa-494e-a1fb-285c7bb1847d)
+<img width="1920" height="909" alt="AppLocker Configuration 1" src="https://github.com/user-attachments/assets/8ec74868-9bc6-412d-9fc7-092750fdd05e" />
 
 ---
 
@@ -534,8 +547,6 @@ hughdomain.local
 - GPResult analysis
 - Baseline validation
 - Alerting on policy deviations
-
----
 
 ## 🛠️ Maintenance Procedures
 
@@ -552,11 +563,31 @@ hughdomain.local
 
 📸 **GPO Backup Procedure**
 
-![Confirmation of GPO Backup Completion](https://github.com/user-attachments/assets/012ceb23-363f-4659-8f98-df20d710712e)
+<img width="1920" height="909" alt="Confirmation of GPO Backup Completion" src="https://github.com/user-attachments/assets/cf8800b7-6fde-4e43-a139-82adf2d0b32d" /><br />
 
-![Backup Directory with GPO Files](https://github.com/user-attachments/assets/4f171f47-faa1-4e30-a5a2-a6f188ed2359)
+<img width="1920" height="909" alt="GPO Backup Procedure" src="https://github.com/user-attachments/assets/506aed2d-eb89-4bf1-852c-345b2af36b39" /><br />
 
-![Backup Directory with GPO Files 1](https://github.com/user-attachments/assets/c7e925fd-21c3-4442-aac5-8c26af6c4510)
+<img width="1920" height="909" alt="GPO Backup Procedure 1" src="https://github.com/user-attachments/assets/fa032574-7d27-47c2-a616-7e8a9da7cd04" /><br />
+
+<img width="1920" height="909" alt="GPO Backup Procedure 2" src="https://github.com/user-attachments/assets/efd45035-bb19-43e7-a65f-31b8af077d6b" /><br />
+
+<img width="1920" height="909" alt="GPO Backup Procedure 3" src="https://github.com/user-attachments/assets/2688b597-00a1-4e82-88ad-48f156f0003f" /><br />
+
+<img width="1920" height="909" alt="GPO Backup Procedure 4" src="https://github.com/user-attachments/assets/f3aafdee-5a70-43fb-87b5-5c47c3a5d23a" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity" src="https://github.com/user-attachments/assets/72ec9249-1e77-4e16-a4d0-72e7d19ef4a3" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 1" src="https://github.com/user-attachments/assets/079247ac-7773-44d3-9bda-267135acf073" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 2" src="https://github.com/user-attachments/assets/47f63a86-9605-4632-94f6-20071d8fa0ca" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 3" src="https://github.com/user-attachments/assets/e751f661-2a0d-4abc-bfce-e110765175a5" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 4" src="https://github.com/user-attachments/assets/d86deb64-ffac-4943-901f-122aaed0a726" /><br />
+
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 5" src="https://github.com/user-attachments/assets/1c276ca8-4f97-4ab8-a67c-d52a2d4db917" />
+
+---
 
 ### ⏱️ Performance Monitoring
 
@@ -566,17 +597,23 @@ hughdomain.local
 
 📸 **GPO Processing Time Monitoring**
 
-![Performance GPO Processing Time](https://github.com/user-attachments/assets/5fe84bac-4bed-45e1-9014-4b6d3135c1c8)
+<img width="1920" height="909" alt="GPO Processing Time Monitoring" src="https://github.com/user-attachments/assets/884b4e42-b032-48bd-85f7-c88d97c5a43a" /><br />
+
+<img width="1920" height="909" alt="GPO Processing Time Monitoring 1" src="https://github.com/user-attachments/assets/687fd12d-b4f1-4087-adf6-25ce3bc3e711" /><br />
+
+<img width="1920" height="909" alt="GPO Processing Time Monitoring 2" src="https://github.com/user-attachments/assets/65090e27-5ecd-4f85-87b7-535bb3eb3cca" /><br />
 
 📸 **Slow Link Review Monitoring**
 
-![Slow Link Review](https://github.com/user-attachments/assets/197dd742-45ac-4c1c-a41f-947ec1cf800a)
+<img width="1920" height="909" alt="Slow Link Review Monitoring" src="https://github.com/user-attachments/assets/661ad577-aa8e-4c40-851f-053543d22d1a" /><br />
 
-![Slow Link Review 1](https://github.com/user-attachments/assets/f71802f5-05af-4826-978b-e4f5e8bdcd09)
+<img width="1920" height="909" alt="Slow Link Review Monitoring 1" src="https://github.com/user-attachments/assets/f230bbf6-bdb2-48a4-ac46-4b34bc1bd465" /><br />
+
+<img width="1920" height="909" alt="Slow Link Review Monitoring 2" src="https://github.com/user-attachments/assets/c18ab239-f519-4944-b4f4-b0180718d79f" /><br />
 
 📸 **Extension load analysis Monitoring**
 
-![Extension load analysis](https://github.com/user-attachments/assets/c59d001f-c755-4a08-946e-1f8093a507c0)
+<img width="1920" height="909" alt="Extension load analysis Monitoring" src="https://github.com/user-attachments/assets/8ca53944-cc87-4b4a-b890-9507ac4c3887" />
 
 ---
 

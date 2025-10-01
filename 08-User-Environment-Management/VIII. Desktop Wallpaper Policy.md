@@ -27,7 +27,7 @@ This section explains how I implemented a **Desktop Wallpaper Policy** using Gro
    `\\WINSERVER2025\sysvol\hughdomain.local\Wallpaper`
 
 4. Set wallpaper style to:  
-   `Fill`
+   `Fit`
 
 📸 **Desktop Wallpaper Policy Configuration**
 

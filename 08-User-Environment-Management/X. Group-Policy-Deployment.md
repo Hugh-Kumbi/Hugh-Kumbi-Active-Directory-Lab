@@ -312,115 +312,117 @@ hughdomain.local
 
 📸 **Computer Configuration Settings**
 
-<img width="1920" height="909" alt="Computer Configuration Settings" src="https://github.com/user-attachments/assets/7d4ed616-b08b-4bec-a384-d70776fc12ab" />
+<img width="1920" height="909" alt="Computer Configuration Settings" src="https://github.com/user-attachments/assets/7d4ed616-b08b-4bec-a384-d70776fc12ab" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 1" src="https://github.com/user-attachments/assets/135d1e44-a64a-4e40-9502-50d30e996c99" />
+<img width="1920" height="909" alt="Computer Configuration Settings 1" src="https://github.com/user-attachments/assets/135d1e44-a64a-4e40-9502-50d30e996c99" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 2" src="https://github.com/user-attachments/assets/cc771fb8-3bc8-4abe-9daf-177e8324920d" />
+<img width="1920" height="909" alt="Computer Configuration Settings 2" src="https://github.com/user-attachments/assets/cc771fb8-3bc8-4abe-9daf-177e8324920d" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 3" src="https://github.com/user-attachments/assets/16cdb0eb-39f7-4b6e-8eb4-4810bcf208d2" />
+<img width="1920" height="909" alt="Computer Configuration Settings 3" src="https://github.com/user-attachments/assets/16cdb0eb-39f7-4b6e-8eb4-4810bcf208d2" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 4" src="https://github.com/user-attachments/assets/45c74c49-c282-466c-a632-01d1816402eb" />
+<img width="1920" height="909" alt="Computer Configuration Settings 4" src="https://github.com/user-attachments/assets/45c74c49-c282-466c-a632-01d1816402eb" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 5" src="https://github.com/user-attachments/assets/2af8ca49-e15f-4fd8-b0c5-b073d67a55ce" />
+<img width="1920" height="909" alt="Computer Configuration Settings 5" src="https://github.com/user-attachments/assets/2af8ca49-e15f-4fd8-b0c5-b073d67a55ce" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 6" src="https://github.com/user-attachments/assets/a0075feb-f7a1-40c6-b06c-55dd5bef107d" />
+<img width="1920" height="909" alt="Computer Configuration Settings 6" src="https://github.com/user-attachments/assets/a0075feb-f7a1-40c6-b06c-55dd5bef107d" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 7" src="https://github.com/user-attachments/assets/91fd305f-96b7-4c86-bd48-c85e32b031aa" />
+<img width="1920" height="909" alt="Computer Configuration Settings 7" src="https://github.com/user-attachments/assets/91fd305f-96b7-4c86-bd48-c85e32b031aa" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 8" src="https://github.com/user-attachments/assets/745acde0-3823-41aa-b304-06b2eaa81954" />
+<img width="1920" height="909" alt="Computer Configuration Settings 8" src="https://github.com/user-attachments/assets/745acde0-3823-41aa-b304-06b2eaa81954" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 9" src="https://github.com/user-attachments/assets/e8011518-8e26-41c9-a014-4ebc9a53db7e" />
+<img width="1920" height="909" alt="Computer Configuration Settings 9" src="https://github.com/user-attachments/assets/e8011518-8e26-41c9-a014-4ebc9a53db7e" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 10" src="https://github.com/user-attachments/assets/b6dec855-45db-4bb5-9a81-fa684e0bcc2b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 10" src="https://github.com/user-attachments/assets/b6dec855-45db-4bb5-9a81-fa684e0bcc2b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 11" src="https://github.com/user-attachments/assets/c9091c7d-863e-40f9-addd-87f520ec3882" />
+<img width="1920" height="909" alt="Computer Configuration Settings 11" src="https://github.com/user-attachments/assets/c9091c7d-863e-40f9-addd-87f520ec3882" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 12" src="https://github.com/user-attachments/assets/9f81bc74-ae0e-4a61-b2a0-3c2dcfb8e9b0" />
+<img width="1920" height="909" alt="Computer Configuration Settings 12" src="https://github.com/user-attachments/assets/9f81bc74-ae0e-4a61-b2a0-3c2dcfb8e9b0" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 13" src="https://github.com/user-attachments/assets/a2491c81-22c2-427d-8931-708798a03e8b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 13" src="https://github.com/user-attachments/assets/a2491c81-22c2-427d-8931-708798a03e8b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 14" src="https://github.com/user-attachments/assets/e7f2bca0-dbd5-485d-8de3-9575d94c7e5b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 14" src="https://github.com/user-attachments/assets/e7f2bca0-dbd5-485d-8de3-9575d94c7e5b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 15" src="https://github.com/user-attachments/assets/2a5eb0b5-224f-45d4-9a86-d06bef40be73" />
+<img width="1920" height="909" alt="Computer Configuration Settings 15" src="https://github.com/user-attachments/assets/2a5eb0b5-224f-45d4-9a86-d06bef40be73" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 16" src="https://github.com/user-attachments/assets/7114619e-2c97-4706-9e0d-3dbe590fe308" />
+<img width="1920" height="909" alt="Computer Configuration Settings 16" src="https://github.com/user-attachments/assets/7114619e-2c97-4706-9e0d-3dbe590fe308" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 17" src="https://github.com/user-attachments/assets/76eafa3b-28d3-4bea-b7e4-04e133f48fb5" />
+<img width="1920" height="909" alt="Computer Configuration Settings 17" src="https://github.com/user-attachments/assets/76eafa3b-28d3-4bea-b7e4-04e133f48fb5" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 18" src="https://github.com/user-attachments/assets/9ecd545b-f27e-49c4-8a5d-ecc8ea429abd" />
+<img width="1920" height="909" alt="Computer Configuration Settings 18" src="https://github.com/user-attachments/assets/9ecd545b-f27e-49c4-8a5d-ecc8ea429abd" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 19" src="https://github.com/user-attachments/assets/d1b53176-fd6c-49d6-bfda-5102dbd12ac7" />
+<img width="1920" height="909" alt="Computer Configuration Settings 19" src="https://github.com/user-attachments/assets/d1b53176-fd6c-49d6-bfda-5102dbd12ac7" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 20" src="https://github.com/user-attachments/assets/7e216e09-379e-4e50-80fc-ec2b4f5327da" />
+<img width="1920" height="909" alt="Computer Configuration Settings 20" src="https://github.com/user-attachments/assets/7e216e09-379e-4e50-80fc-ec2b4f5327da" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 21" src="https://github.com/user-attachments/assets/76d7dc03-8cca-4431-8daf-0b3b3f377401" />
+<img width="1920" height="909" alt="Computer Configuration Settings 21" src="https://github.com/user-attachments/assets/76d7dc03-8cca-4431-8daf-0b3b3f377401" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 22" src="https://github.com/user-attachments/assets/7e27dfdc-81c8-4e87-9f24-ef56641c9e28" />
+<img width="1920" height="909" alt="Computer Configuration Settings 22" src="https://github.com/user-attachments/assets/7e27dfdc-81c8-4e87-9f24-ef56641c9e28" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 23" src="https://github.com/user-attachments/assets/33392e9f-dfbb-47f5-98e2-2e4d88c78f88" />
+<img width="1920" height="909" alt="Computer Configuration Settings 23" src="https://github.com/user-attachments/assets/33392e9f-dfbb-47f5-98e2-2e4d88c78f88" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 24" src="https://github.com/user-attachments/assets/a23773f6-eb6a-48a2-aea0-3b7f43a0ddc6" />
+<img width="1920" height="909" alt="Computer Configuration Settings 24" src="https://github.com/user-attachments/assets/a23773f6-eb6a-48a2-aea0-3b7f43a0ddc6" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 25" src="https://github.com/user-attachments/assets/243ab98e-3c39-48d4-9536-d2ad889cb3a8" />
+<img width="1920" height="909" alt="Computer Configuration Settings 25" src="https://github.com/user-attachments/assets/243ab98e-3c39-48d4-9536-d2ad889cb3a8" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 26" src="https://github.com/user-attachments/assets/b9980432-0d4f-4553-aaf1-a1022960b220" />
+<img width="1920" height="909" alt="Computer Configuration Settings 26" src="https://github.com/user-attachments/assets/b9980432-0d4f-4553-aaf1-a1022960b220" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 27" src="https://github.com/user-attachments/assets/10f53db5-318a-4a7c-83fe-176190900b8f" />
+<img width="1920" height="909" alt="Computer Configuration Settings 27" src="https://github.com/user-attachments/assets/10f53db5-318a-4a7c-83fe-176190900b8f" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 28" src="https://github.com/user-attachments/assets/fa895cf9-0b19-45d8-bd71-81c5d9d3cb13" />
+<img width="1920" height="909" alt="Computer Configuration Settings 28" src="https://github.com/user-attachments/assets/fa895cf9-0b19-45d8-bd71-81c5d9d3cb13" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 29" src="https://github.com/user-attachments/assets/95b2dcbb-1dee-4471-9833-8cec6180f2dc" />
+<img width="1920" height="909" alt="Computer Configuration Settings 29" src="https://github.com/user-attachments/assets/95b2dcbb-1dee-4471-9833-8cec6180f2dc" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 30" src="https://github.com/user-attachments/assets/db1bf58d-4237-49c9-942d-122588431045" />
+<img width="1920" height="909" alt="Computer Configuration Settings 30" src="https://github.com/user-attachments/assets/db1bf58d-4237-49c9-942d-122588431045" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 31" src="https://github.com/user-attachments/assets/35cca9d6-8d5b-44da-a4d5-e26292f37e21" />
+<img width="1920" height="909" alt="Computer Configuration Settings 31" src="https://github.com/user-attachments/assets/35cca9d6-8d5b-44da-a4d5-e26292f37e21" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 32" src="https://github.com/user-attachments/assets/4ca6e3b2-1ac9-4f23-99cd-dad2934bdcc9" />
+<img width="1920" height="909" alt="Computer Configuration Settings 32" src="https://github.com/user-attachments/assets/4ca6e3b2-1ac9-4f23-99cd-dad2934bdcc9" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 33" src="https://github.com/user-attachments/assets/b6876029-c1cb-4fd4-9de4-28f44c85d62b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 33" src="https://github.com/user-attachments/assets/b6876029-c1cb-4fd4-9de4-28f44c85d62b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 34" src="https://github.com/user-attachments/assets/80b1a3da-15c5-4d1b-8d3d-b9d9959f788b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 34" src="https://github.com/user-attachments/assets/80b1a3da-15c5-4d1b-8d3d-b9d9959f788b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 35" src="https://github.com/user-attachments/assets/71d0299a-011c-423c-9cc7-0144b33c8100" />
+<img width="1920" height="909" alt="Computer Configuration Settings 35" src="https://github.com/user-attachments/assets/71d0299a-011c-423c-9cc7-0144b33c8100" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 36" src="https://github.com/user-attachments/assets/9e36b3e0-bb7c-48bc-b373-4507edad23bf" />
+<img width="1920" height="909" alt="Computer Configuration Settings 36" src="https://github.com/user-attachments/assets/9e36b3e0-bb7c-48bc-b373-4507edad23bf" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 37" src="https://github.com/user-attachments/assets/7a4deed2-fd25-48ef-bfce-5e5f678f5ed5" />
+<img width="1920" height="909" alt="Computer Configuration Settings 37" src="https://github.com/user-attachments/assets/7a4deed2-fd25-48ef-bfce-5e5f678f5ed5" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 38" src="https://github.com/user-attachments/assets/47607875-a213-484f-97ba-3323a3eca367" />
+<img width="1920" height="909" alt="Computer Configuration Settings 38" src="https://github.com/user-attachments/assets/47607875-a213-484f-97ba-3323a3eca367" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 39" src="https://github.com/user-attachments/assets/812ac25c-f7c1-4858-9da0-8d08191cfe76" />
+<img width="1920" height="909" alt="Computer Configuration Settings 39" src="https://github.com/user-attachments/assets/812ac25c-f7c1-4858-9da0-8d08191cfe76" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 40" src="https://github.com/user-attachments/assets/60215c7b-4cb9-44d7-9b1a-db88c9cc2ad7" />
+<img width="1920" height="909" alt="Computer Configuration Settings 40" src="https://github.com/user-attachments/assets/60215c7b-4cb9-44d7-9b1a-db88c9cc2ad7" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 41" src="https://github.com/user-attachments/assets/00508fe4-ae5a-4591-a74a-ca23ab6902e0" />
+<img width="1920" height="909" alt="Computer Configuration Settings 41" src="https://github.com/user-attachments/assets/00508fe4-ae5a-4591-a74a-ca23ab6902e0" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 42" src="https://github.com/user-attachments/assets/60dae0a8-4795-4d55-b6c5-c2c2cad23a1f" />
+<img width="1920" height="909" alt="Computer Configuration Settings 42" src="https://github.com/user-attachments/assets/60dae0a8-4795-4d55-b6c5-c2c2cad23a1f" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 43" src="https://github.com/user-attachments/assets/f41cb659-1a73-4678-b6e8-9ae22a77428d" />
+<img width="1920" height="909" alt="Computer Configuration Settings 43" src="https://github.com/user-attachments/assets/f41cb659-1a73-4678-b6e8-9ae22a77428d" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 44" src="https://github.com/user-attachments/assets/8b34abc6-2485-42b0-9fef-0f81909b3e92" />
+<img width="1920" height="909" alt="Computer Configuration Settings 44" src="https://github.com/user-attachments/assets/8b34abc6-2485-42b0-9fef-0f81909b3e92" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 45" src="https://github.com/user-attachments/assets/f59cb5b0-7013-4dbd-af0d-ba2d9cafa21e" />
+<img width="1920" height="909" alt="Computer Configuration Settings 45" src="https://github.com/user-attachments/assets/f59cb5b0-7013-4dbd-af0d-ba2d9cafa21e" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 46" src="https://github.com/user-attachments/assets/10a5ed60-8346-4cc1-a50c-99e4695c1fbd" />
+<img width="1920" height="909" alt="Computer Configuration Settings 46" src="https://github.com/user-attachments/assets/10a5ed60-8346-4cc1-a50c-99e4695c1fbd" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 47" src="https://github.com/user-attachments/assets/456b27ca-d14e-4ed2-9fb5-ef9fedc84025" />
+<img width="1920" height="909" alt="Computer Configuration Settings 47" src="https://github.com/user-attachments/assets/456b27ca-d14e-4ed2-9fb5-ef9fedc84025" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 48" src="https://github.com/user-attachments/assets/d783acf6-4a83-47e5-89a8-62ed6c75e1d2" />
+<img width="1920" height="909" alt="Computer Configuration Settings 48" src="https://github.com/user-attachments/assets/d783acf6-4a83-47e5-89a8-62ed6c75e1d2" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 49" src="https://github.com/user-attachments/assets/17538d11-e443-4859-8113-c4885cc4fc41" />
+<img width="1920" height="909" alt="Computer Configuration Settings 49" src="https://github.com/user-attachments/assets/17538d11-e443-4859-8113-c4885cc4fc41" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 50" src="https://github.com/user-attachments/assets/c8b5f05f-e98e-4bef-937c-3ddd7e36a91b" />
+<img width="1920" height="909" alt="Computer Configuration Settings 50" src="https://github.com/user-attachments/assets/c8b5f05f-e98e-4bef-937c-3ddd7e36a91b" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 51" src="https://github.com/user-attachments/assets/205875c9-6ed3-4f73-b8b9-d82b2136e791" />
+<img width="1920" height="909" alt="Computer Configuration Settings 51" src="https://github.com/user-attachments/assets/205875c9-6ed3-4f73-b8b9-d82b2136e791" /><br />
 
-<img width="1920" height="909" alt="Computer Configuration Settings 52" src="https://github.com/user-attachments/assets/c152cbd6-34c0-4b4d-94d2-05052699c582" />
+<img width="1920" height="909" alt="Computer Configuration Settings 52" src="https://github.com/user-attachments/assets/c152cbd6-34c0-4b4d-94d2-05052699c582" /><br />
 
+<img width="1920" height="909" alt="Computer Configuration Settings 53" src="https://github.com/user-attachments/assets/ec9d1e26-a195-46e2-b8fa-e776b83c860c" /><br />
 
-![Uploading Computer Configuration Settings 53.png…]()
+<img width="1920" height="909" alt="Computer Configuration Settings 54" src="https://github.com/user-attachments/assets/ed136f5e-343e-48c7-97cd-fe0875fbef47" />
 
+---
 
 ### 👤 User Configuration
 
@@ -434,11 +436,31 @@ hughdomain.local
 
 📸 **User Configuration Settings**
 
-![User Configuration Settings On Client Machine](https://github.com/user-attachments/assets/8625f087-b4a6-402d-9e3a-0898d5c30211)
+<img width="1920" height="909" alt="User Configuration Settings" src="https://github.com/user-attachments/assets/1bcafeec-36cb-482b-80cb-d4e4e0769848" /><br />
 
-![User Configuration Settings On Client Machine 1](https://github.com/user-attachments/assets/1d93478b-d559-4ebd-a46c-8bf21390e961)
+<img width="1920" height="909" alt="User Configuration Settings 1" src="https://github.com/user-attachments/assets/dc6684d0-e388-4d84-82fa-d1ae9ceb043f" /><br />
 
-![User Configuration Settings On Client Machine 2](https://github.com/user-attachments/assets/afd58271-297b-4eea-a0d8-02286904235e)
+<img width="1920" height="909" alt="User Configuration Settings 2" src="https://github.com/user-attachments/assets/d9287356-bb97-4ee2-a1eb-c7f7320e8fd8" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 3" src="https://github.com/user-attachments/assets/0a8e5656-f16c-499e-b2e1-d469b1cd9551" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 4" src="https://github.com/user-attachments/assets/8eaf420f-551d-45fe-a2b6-c3ab0a7b9962" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 5" src="https://github.com/user-attachments/assets/4dadffe8-aeb9-4a41-a999-564bb064fcb2" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 6" src="https://github.com/user-attachments/assets/ab904a04-9c84-4e0b-87d7-0a6b65c65f89" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 7" src="https://github.com/user-attachments/assets/a69e35ed-539d-4cf7-b08e-ff7cf337432e" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 8" src="https://github.com/user-attachments/assets/b36e6587-09b0-4798-bdbb-be5240d28e64" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 9" src="https://github.com/user-attachments/assets/a153a13a-1908-4b92-b8c7-6131a52122c4" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 10" src="https://github.com/user-attachments/assets/4f77badf-8575-437b-af14-05c64114a07f" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 11" src="https://github.com/user-attachments/assets/76c96dd6-748a-4911-83b5-e50b2702e1d6" /><br />
+
+<img width="1920" height="909" alt="User Configuration Settings 12" src="https://github.com/user-attachments/assets/7eca6351-a365-47e1-9b45-fac0f1553b02" />
 
 ---
 

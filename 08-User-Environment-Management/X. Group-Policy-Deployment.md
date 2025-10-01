@@ -8,8 +8,8 @@ This document outlines the implementation of a comprehensive Group Policy strate
 ## 🖥️ Environment Specifications
 ### Domain Information
 - **Domain Name**: `hughdomain.local`
-- **Primary Domain Controller**: `WIN-D2PQBCI88JQ`
-- **Operating System**: Windows Server 2025 (OS Version: 10.0.26100)
+- **Primary Domain Controller**: `WinServer2025`
+- **Operating System**: `Windows Server 2025 (OS Version: 10.0.26100)`
 - **Site Name**: `Default-First-Site-Name`
 
 ---
@@ -17,25 +17,34 @@ This document outlines the implementation of a comprehensive Group Policy strate
 ## 🗂️ Organizational Unit (OU) Structure
 
 ```
+Domains
 hughdomain.local
+├── AdminAccounts
 ├── Domain Controllers
 ├── Employees
-├── Groups
-├── ITSupportComputers
-├── Tech
 │ ├── Accounting
-│ ├── HR
+│ ├── Customer Support
+│ ├── Finance
+│ ├── Human Resources
 │ ├── IT
-│ ├── IT Computers
-│ ├── IT Security
-│ └── IT Support
-├── Marketing
+│ ├── └── ITSecurity
+│ ├── └── ITSupport
+│ ├── Legal
+│ ├── Marketing
+│ ├── Operations
+│ ├── Product Management
+│ ├── Research 
+│ └── Sales
+├── Groups
+├── MeiVaultComputers
+├── MeiVaultServers
+├── ServiceAccounts
 └── Users
 ```
 
 📸 **OU Structure in Active Directory Users and Computers**
 
-![OU Structure in Active Directory Users and Computers](https://github.com/user-attachments/assets/31108f9f-0809-49fd-bcb1-b56b4ca4d080)
+<img width="1920" height="909" alt="OU Structure in Active Directory Users and Computers" src="https://github.com/user-attachments/assets/5eb83b38-bfb2-44c9-84c1-c6d2f4ecf05d" />
 
 ---
 

@@ -279,21 +279,29 @@ catch {
 
 📸 **Log File Contents Startup**
 
-![Log File Contents Startup](https://github.com/user-attachments/assets/902970b4-ab80-46eb-b837-5e62e757f9f8)
+<img width="1920" height="909" alt="Log File Contents Startup" src="https://github.com/user-attachments/assets/94ed7f7e-a6db-4dbf-ad0b-f6767f8be9b0" /><br /> 
 
 📸 **Log File Contents Shutdown**
 
-![Log File Contents Shutdown](https://github.com/user-attachments/assets/374f88df-002e-40ee-bfdb-9ed1db91ae25)
+<img width="1920" height="909" alt="Log File Contents Shutdown" src="https://github.com/user-attachments/assets/c8b95cf2-d91d-4eb1-8141-112bd866346c" /><br /> 
 
 📸 **Script-Related Entries in Event Viewer**
 
-![Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/0a4d1f30-7c90-41d9-ae8c-5caabb5417d4)
+<img width="1920" height="909" alt="Script-Related Entries in Event Viewer" src="https://github.com/user-attachments/assets/5d3944c8-3ac8-4bc2-9601-2a65729d0619" /><br /> 
 
 📸 **Powershell Script-Related Entries in Event Viewer**
 
-![Powershell Script-Related Entries in Event Viewer](https://github.com/user-attachments/assets/c4bd832e-1ad9-4343-9d4c-35712cea5f08)
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer" src="https://github.com/user-attachments/assets/028375b7-9e12-41c8-827b-782795788ef5" /><br />
 
-![Powershell Script-Related Entries in Event Viewer 1](https://github.com/user-attachments/assets/308d7c40-08e2-4f5b-82aa-ec63a61d9e54)
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer 1" src="https://github.com/user-attachments/assets/3a3458c5-437b-4539-a8d4-c5341f1d4176" /><br />
+
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer 2" src="https://github.com/user-attachments/assets/2200fe3a-be85-4465-a5d0-5053ef950f39" /><br />
+
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer 3" src="https://github.com/user-attachments/assets/0e354604-2034-4e96-90a9-da459f62790b" /><br />
+
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer 4" src="https://github.com/user-attachments/assets/4e8dfe3e-b87c-4905-806b-1af6ee7f5774" /><br />
+
+<img width="1920" height="909" alt="Powershell Script-Related Entries in Event Viewer 5" src="https://github.com/user-attachments/assets/cd7bc1a9-c723-4f81-a72d-4aef79584867" />
 
 ---
 

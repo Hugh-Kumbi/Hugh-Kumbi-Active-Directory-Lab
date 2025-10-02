@@ -192,4 +192,5 @@ After I disabled all the targeted services, my next critical step was to put the
 
 ---
 
-Each image corresponds to a step described in 📂 [`09-Infrastructure-Protection/III.Disable-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/III.%20Disable-Services.md)
+Each image corresponds to a step described in:<br />
+📂 [`09-Infrastructure-Protection/III.Disable-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/III.%20Disable-Services.md)

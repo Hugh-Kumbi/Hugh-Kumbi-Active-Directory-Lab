@@ -197,4 +197,4 @@ Monitored **Event Viewer → Security and System logs** for:
 ## 📁 Screenshot Storage
 
 All screenshots related to this section should be stored in:  
-📂 [`06-Screenshots/XVI. Network-Security-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XVI.%20Network-Security-Configuration)  
+📂 [`09-Infrastructure-Protection/II. Network-Security.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/II.%20Network-Security.md)  

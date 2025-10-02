@@ -249,4 +249,4 @@ I disabled the following services using Group Policy Preferences:
 ## 🗂️ 4. Screenshot Storage
 
 All related screenshots are stored in: <br /> 
-📂 [`06-Screenshots/Disable-Services/Spooler-Disabled.png`]()
+📂 [`06-Screenshots/XXIX. Disable-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIX.%20Disable-Services)

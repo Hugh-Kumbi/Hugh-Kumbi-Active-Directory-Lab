@@ -659,4 +659,4 @@ I closed the Group Policy Management Editor
 ## 🗂️ 7. Screenshot Storage
 
 All images related to this section are stored in:<br />  
-📂 [`06-Screenshots/Windows-Firewall/domain-profile-config.png`]()
+📂 [`06-Screenshots/XXVII. Windows-Firewall`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXVII.%20Windows-Firewall)

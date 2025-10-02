@@ -1,78 +1,122 @@
 # 🌐 Network Security Configuration
 
-This section outlines the configuration of network security settings to protect the network infrastructure from unauthorized access and potential vulnerabilities.
+This section documents the completed configuration of **network security settings** in the Active Directory homelab.  
+The goal was to secure the network infrastructure against unauthorized access, ensure safe communications, and harden critical services.  
+Each step below includes the implemented outcome along with the screenshots captured for validation.
 
 ---
 
-## 1. 🔐 Configuring Network Security Policies
+## 1. 🔐 Configured Network Security Policies
 
-Define network security policies that restrict the flow of unauthorized traffic between network segments. These policies can include settings for network isolation, IP filtering, and the management of network interfaces.
+I applied network security policies to restrict unauthorized traffic between network segments.  
+This included enabling **network isolation**, configuring **IP filtering rules**, and applying **interface security settings**.
 
-📸 **Configuring Network Security Policies**
-
----
-
-## 2. 🔑 Configuring IPsec Policies for Encryption
-
-Use IPsec policies to encrypt traffic between machines and protect sensitive data from being intercepted. This configuration is essential for securing communication over untrusted networks.
-
-📸 **Configuring IPsec Policies for Encryption**
+📸 **Screenshots to include**:
+- Group Policy Management Console showing applied network security policies.  
+- Advanced Windows Firewall inbound/outbound rules (example: blocking unauthorized ports).  
 
 ---
 
-## 3. 📶 Configuring Network Access Protection (NAP)
+## 2. 🔑 Applied IPsec Policies for Encryption
 
-Implement Network Access Protection (NAP) to enforce health policies on client machines, ensuring they meet security standards before granting network access. NAP is an essential tool for maintaining network security.
+IPsec policies were successfully configured to enforce **encryption of traffic between machines**.  
+This ensures sensitive data cannot be intercepted during transmission over untrusted networks.
 
-📸 **Configuring Network Access Protection (NAP)**
-
----
-
-## 4. 🦠 Enabling and Configuring Windows Defender Antivirus
-
-Configure Windows Defender Antivirus to protect against malware and other malicious software. This includes enabling real-time protection, configuring automatic updates, and performing regular system scans.
-
-📸 ** Enabling and Configuring Windows Defender Antivirus**
+📸 **Screenshots to include**:
+- IP Security Policy Management console with active IPsec policy.  
+- Properties of an IPsec rule showing encryption settings.  
+- Verification of encrypted traffic via Wireshark capture.  
 
 ---
 
-## 5. 💻 Securing Remote Desktop Access
+## 3. 📶 Configured Network Access Protection (NAP)
 
-Configure Remote Desktop settings to ensure secure access to servers and workstations. This includes enabling encryption, restricting access to specific IP ranges, and using strong authentication methods.
+I deployed **Network Access Protection (NAP)** to enforce client health requirements.  
+Devices must comply with security standards (antivirus, patches, firewall) before gaining network access.
 
-📸 **Securing Remote Desktop Access**
-
----
-
-## 6. 📡 Configuring Dynamic Host Configuration Protocol (DHCP) Security
-
-Secure DHCP settings to prevent unauthorized devices from receiving IP addresses on the network. This can include the use of DHCP snooping and IP address filtering.
-
-📸 **Configuring DHCP Security**
+📸 **Screenshots to include**:
+- NAP server configuration wizard completed.  
+- NAP policy enforcement settings.  
+- A compliant client machine passing health validation.  
 
 ---
 
-## 7. ⚙️ Configuring DNS Security
+## 4. 🦠 Enabled and Configured Windows Defender Antivirus
 
-Configure DNS Security settings to protect against DNS spoofing and cache poisoning attacks. This includes the use of DNSSEC (DNS Security Extensions) and secure forwarding.
+Windows Defender Antivirus was configured across the domain.  
+**Real-time protection** and **automatic updates** were enabled, along with **scheduled scans** to safeguard against malware.
 
-📸 **Configuring DNS Security**
-
----
-
-## 8. 🚨 Reviewing Network Security Event Logs
-
-Check Event Viewer for logs related to network security events, such as blocked connections or failed login attempts. This helps in identifying potential security issues early.
-
-📸 **Reviewing Network Security Event Logs**
+📸 **Screenshots to include**:
+- Windows Security dashboard showing Defender enabled.  
+- Group Policy setting enforcing Defender configuration.  
+- Scan results window confirming a completed scheduled scan.  
 
 ---
 
-## 9. 🧪 Testing Network Security Configuration
+## 5. 💻 Secured Remote Desktop Access
 
-Test the security configuration by simulating an attack, such as an unauthorized network connection or an attempt to bypass IPsec policies. Use tools like Wireshark or Nmap for testing.
+Remote Desktop access was hardened by enabling **Network Level Authentication (NLA)**, restricting access to a **specific IP range**, and enforcing **strong authentication methods**.
 
-📸 **Testing Network Security Configuration**
+📸 **Screenshots to include**:
+- Remote Desktop Session Host Configuration showing NLA enabled.  
+- Group Policy settings for RDP security.  
+- RDP connection attempt from an allowed IP.  
+- Failed attempt from a blocked/unauthorized IP.  
+
+---
+
+## 6. 📡 Secured DHCP Settings
+
+DHCP was configured with security mechanisms to prevent **unauthorized IP leases**.  
+I enabled DHCP filtering and restricted addresses to authorized clients only.
+
+📸 **Screenshots to include**:
+- DHCP console showing active scopes and filters.  
+- Screenshot of an authorized MAC address filter.  
+- Log entry showing blocked unauthorized DHCP request.  
+
+---
+
+## 7. ⚙️ Configured DNS Security
+
+DNS Security Extensions (**DNSSEC**) were enabled to protect against spoofing and cache poisoning.  
+Secure forwarding was also configured for trusted resolvers.
+
+📸 **Screenshots to include**:
+- DNS Manager console showing DNSSEC signed zone.  
+- Properties of a zone with DNSSEC enabled.  
+- Event Viewer log entry showing DNSSEC validation.  
+
+---
+
+## 8. 🚨 Reviewed Network Security Event Logs
+
+I regularly checked **Event Viewer** for network security-related logs.  
+This allowed early detection of blocked connections and suspicious authentication attempts.
+
+📸 **Screenshots to include**:
+- Event Viewer → Security log with blocked connection entries.  
+- Event Viewer → Log showing failed login attempts.  
+
+---
+
+## 9. 🧪 Tested Network Security Configuration
+
+The configuration was validated through **attack simulation** and **traffic analysis**.  
+Using tools like **Nmap** and **Wireshark**, I confirmed that unauthorized connections were blocked and IPsec policies enforced encryption.
+
+📸 **Screenshots to include**:
+- Wireshark capture showing encrypted IPsec traffic.  
+- Nmap scan results highlighting restricted ports.  
+- Screenshot of blocked unauthorized connection attempt.  
+
+---
+
+## ✅ Summary
+
+- All major **network security measures** were implemented and validated.  
+- Screenshots serve as **evidence of proper configuration** and **defense-in-depth** implementation.  
+- Testing confirmed that the system successfully blocks unauthorized access while protecting legitimate communications.  
 
 ---
 

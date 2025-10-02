@@ -116,5 +116,5 @@ The following settings were configured under:
 
 ## 🗂️ 4. Screenshot Storage
 
-All images related to this section are stored in:  
-📂 [`06-Screenshots/Network-Security/lan-manager-auth-level.png`]()
+All images related to this section are stored in:<br />
+📂 [`06-Screenshots/XXVIII. Network-Security`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXVIII.%20Network-Security)

@@ -290,7 +290,7 @@ hughdomain.local
 
 <img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02` 1" src="https://github.com/user-attachments/assets/5f8bbebb-11ce-4c77-b4ea-4f125206d049" /><br />
 
-<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02` 2" src="https://github.com/user-attachments/assets/30326a53-b6c8-48d3-bfe3-847ae005d35c" /><br />
+<img width="1920" height="909" alt="Final `gpresult` from `AD-WIN11-02` 2" src="https://github.com/user-attachments/assets/30326a53-b6c8-48d3-bfe3-847ae005d35c" />
 
 ---
 
@@ -575,17 +575,9 @@ hughdomain.local
 
 <img width="1920" height="909" alt="GPO Backup Procedure 4" src="https://github.com/user-attachments/assets/f3aafdee-5a70-43fb-87b5-5c47c3a5d23a" /><br />
 
-<img width="1920" height="909" alt="Verify GPO Backup Integrity" src="https://github.com/user-attachments/assets/72ec9249-1e77-4e16-a4d0-72e7d19ef4a3" /><br />
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 5" src="https://github.com/user-attachments/assets/1c276ca8-4f97-4ab8-a67c-d52a2d4db917" /><br />
 
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 1" src="https://github.com/user-attachments/assets/079247ac-7773-44d3-9bda-267135acf073" /><br />
-
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 2" src="https://github.com/user-attachments/assets/47f63a86-9605-4632-94f6-20071d8fa0ca" /><br />
-
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 3" src="https://github.com/user-attachments/assets/e751f661-2a0d-4abc-bfce-e110765175a5" /><br />
-
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 4" src="https://github.com/user-attachments/assets/d86deb64-ffac-4943-901f-122aaed0a726" /><br />
-
-<img width="1920" height="909" alt="Verify GPO Backup Integrity 5" src="https://github.com/user-attachments/assets/1c276ca8-4f97-4ab8-a67c-d52a2d4db917" />
+<img width="1920" height="909" alt="Verify GPO Backup Integrity 101" src="https://github.com/user-attachments/assets/9c2a2b86-17be-48da-9b70-63cc317a2b68" />
 
 ---
 
@@ -635,15 +627,15 @@ hughdomain.local
 
 📸 **Troubleshooting Using `gpresult`**
 
-![Troubleshooting Using GPRESULT](https://github.com/user-attachments/assets/2fc7ae94-dab4-4f68-ae48-7ccfc1b503d7)
+<img width="1920" height="909" alt="Troubleshooting Using `gpresult`" src="https://github.com/user-attachments/assets/e38dd093-cd92-44ca-9529-5074673378cf" /><br />
 
-![Troubleshooting Using GPRESULT 1](https://github.com/user-attachments/assets/ee8ca309-7f82-4f19-b9c0-8fa12973cabd)
+<img width="1920" height="909" alt="Troubleshooting Using `gpresult` 1" src="https://github.com/user-attachments/assets/3d511c00-8ba4-4d40-a538-3b1c90e3edde" /><br />
 
-![Troubleshooting Using GPRESULT 2](https://github.com/user-attachments/assets/2ae714af-963c-4d6b-8015-e71ce22ce687)
+<img width="1920" height="909" alt="Troubleshooting Using `gpresult` 2" src="https://github.com/user-attachments/assets/018cd124-46a0-428a-bc93-1582dc9b0c76" /><br />
 
 📸 **Event Viewer Logs**
 
-![Event Viewer Logs](https://github.com/user-attachments/assets/1f491177-63c9-469e-b850-1a41356cf400)
+<img width="1920" height="909" alt="Event Viewer Logs" src="https://github.com/user-attachments/assets/c033af7b-98bf-4f48-a8dc-30da1d3ac526" />
 
 ---
 

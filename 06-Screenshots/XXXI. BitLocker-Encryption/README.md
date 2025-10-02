@@ -92,7 +92,7 @@ I verified that all drives are properly encrypted by regularly checking their Bi
 
 <img width="1920" height="909" alt="AD-WIN11-01 System With BitLocker Status" src="https://github.com/user-attachments/assets/b9ce0487-d0d2-49d2-8a6b-1f3cf7110de6" /><br />
 
-<img width="1920" height="909" alt="AD-WIN11-02 System With BitLocker Status" src="https://github.com/user-attachments/assets/dda21e5d-e0b5-4063-b770-367407726754" /><br />
+<img width="1920" height="909" alt="AD-WIN11-02 System With BitLocker Status" src="https://github.com/user-attachments/assets/dda21e5d-e0b5-4063-b770-367407726754" />
 
 ---
 
@@ -102,4 +102,5 @@ When BitLocker failed to encrypt a drive, I checked for common issues like a TPM
 
 ---
 
-Each image corresponds to a step described in 📂 [`09-Infrastructure-Protection/V.BitLocker-Encryption.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/V.%20BitLocker-Encryption.md)
+Each image corresponds to a step described in:<br /> 
+📂 [`09-Infrastructure-Protection/V.BitLocker-Encryption.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/V.%20BitLocker-Encryption.md)

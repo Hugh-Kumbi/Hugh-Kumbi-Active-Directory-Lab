@@ -250,5 +250,5 @@ Use the gpresult command to check whether the firewall settings configured throu
 
 ## 🗂️ 8. Screenshot Storage
 
-All images related to this section are stored in:<br />  
+All images related to this section are stored in:<br /> 
 📂 [`09-Infrastructure-Protection/I. Windows-Firewall.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/I.%20Windows-Firewall.md)

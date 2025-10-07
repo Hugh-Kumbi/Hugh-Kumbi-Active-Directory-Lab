@@ -80,5 +80,7 @@ This section documents the installation and configuration of **Active Directory 
 
 ![Issued Root Certificate](https://github.com/user-attachments/assets/c612d45b-6acb-4bac-af93-f4a3bd1bff3b)
 
+---
+
 Each image corresponds to a step described in:<br /> 
 📂 [`03-Configuration/IV. Active-Directory-Certificate-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/edit/main/03-Configuration/IV.%20Active-Directory-Certificate-Services.md)

@@ -8,46 +8,46 @@ This section details how I configured and joined two Windows 11 Pro clients—**
 
 I created two new VMs in **VirtualBox** with the following specifications:
 
-- **VM Names:** AD-WIN11-01 and AD-WIN11-02
-- **OS:** Windows 11 Pro
-- **RAM:** 4 GB each
-- **CPU:** 2 cores each
-- **Disk:** 80 GB each
-- **Network Adapter:** Internal Network (same as Domain Controller)
+- **VM Names:** `AD-WIN11-01` and `AD-WIN11-02`
+- **OS:** `Windows 11 Pro`
+- **RAM:** `4 GB each`
+- **CPU:** `2 cores each`
+- **Disk:** `80 GB each`
+- **Network Adapter:** `Internal Network (same as Domain Controller)`
 
-📸 **VirtualBox Virtual Machine General Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine General Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM General Settings for AD-WIN11-01](https://github.com/user-attachments/assets/8da28c73-02bf-4688-b908-1af65d8b30e5)
 
-📸 **VirtualBox Virtual Machine System Motherboard Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine System Motherboard Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM System Motherboard Settings for AD-WIN11-01](https://github.com/user-attachments/assets/dd51caf8-2558-497c-baf8-6e6b83042bf2)
 
-📸 **VirtualBox Virtual Machine System Processor Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine System Processor Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM System Processor Settings for AD-WIN11-01](https://github.com/user-attachments/assets/3febf267-9362-45f6-be6c-7edb8149189e)
 
-📸 **VirtualBox Virtual Machine System Acceleration Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine System Acceleration Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM System Acceleration Settings for AD-WIN11-01](https://github.com/user-attachments/assets/82c218ca-a10f-4561-94cc-53fd3d8738a7)
 
-📸 **VirtualBox Virtual Machine Display Screen Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine Display Screen Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM Display Screen Settings for AD-WIN11-01](https://github.com/user-attachments/assets/5395c314-ac3d-4826-b21a-bfc9ed74732a)
 
-📸 **VirtualBox Virtual Machine Display Recording Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine Display Recording Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM Display Recording Settings for AD-WIN11-01](https://github.com/user-attachments/assets/76037d83-952d-4d58-bc2e-4bf21267e024)
 
-📸 **VirtualBox Virtual Machine Storage Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine Storage Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM Storage Settings for AD-WIN11-01](https://github.com/user-attachments/assets/c7329dad-1fd4-4999-af5e-d28656bbda93)
 
-📸 **VirtualBox Virtual Machine Network Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine Network Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM Network Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e6e8b8a7-8baa-4498-84a7-448d5aabf7e7)
 
-📸 **VirtualBox Virtual Machine USB Settings for AD-WIN11-01**
+📸 **VirtualBox Virtual Machine USB Settings for `AD-WIN11-01`**
 
 ![VirtualBox VM USB Settings for AD-WIN11-01](https://github.com/user-attachments/assets/e2219acf-0c0d-4e36-84a4-edfbcf93e087)
 
@@ -67,7 +67,7 @@ After installation, I did the following on both clients:
 - Set Preferred DNS to point to the Domain Controller: `192.168.1.10`
 - Restarted each machine to apply changes
 
-📸 **Network Settings With Static IP and DNS For `AD-WIN11-01`**
+📸 **Network Settings with Static IP and DNS for `AD-WIN11-01`**
 
 ![Network Settings With Static IP and DNS For `AD-WIN11-01](https://github.com/user-attachments/assets/56804e76-f1bd-4fa3-9dfe-b085a1fe9e43)
 
@@ -79,7 +79,7 @@ After installation, I did the following on both clients:
 
 ![System - About - Showing Changed Computer Name 1](https://github.com/user-attachments/assets/1e124501-0f94-413e-a88c-3681087c3c99)
 
-📸 **Network Settings With Static IP and DNS For `AD-WIN11-02`**
+📸 **Network Settings with Static IP and DNS for `AD-WIN11-02`**
 
 ![Network Settings With Static IP and DNS for AD-WIN11-02](https://github.com/user-attachments/assets/de6ebac8-5a3a-4c6e-8197-cbe4b5aaec2c)
 

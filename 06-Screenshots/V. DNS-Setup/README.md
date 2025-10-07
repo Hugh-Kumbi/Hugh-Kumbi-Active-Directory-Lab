@@ -8,9 +8,11 @@ This section documents the DNS setup and verification process that supports the 
 
 - Confirms that the primary zone for the AD domain has been created and is active.
 
-📸 **Forward Lookup Zone For `hughdomain.local`**
+📸 **Forward Lookup Zone for `hughdomain.local`**
 
 ![DNS Manager Showing Forward Lookup Zone for hughdomain](https://github.com/user-attachments/assets/c51b04af-24b8-40e5-858e-547e8d207033)
+
+---
 
 **2. Reverse Lookup Zone Creation Wizard**
 
@@ -20,6 +22,8 @@ This section documents the DNS setup and verification process that supports the 
 
 <img width="1920" height="909" alt="DNS Server Post Configuration Reverse Lookup Zone 6" src="https://github.com/user-attachments/assets/c4d8b6ce-f510-4d7c-8769-05de37155649" /><br />
 
+---
+
 **3. DNS Manager with `msdcs` and SRV Records Visible**
 
 - Shows critical service records (SRV) under the `_msdcs` folder, which are essential for locating domain controllers.
@@ -27,6 +31,8 @@ This section documents the DNS setup and verification process that supports the 
 📸 **DNS Manager with `msdcs` and SRV Records Visible**
 
 <img width="1920" height="909" alt="DNS Manager With msdcs and SRV Records Visible" src="https://github.com/user-attachments/assets/257fa471-9ec8-4766-9200-5deb5b6711b3" /><br />
+
+---
 
 **4. Host Records for Domain Members**
 
@@ -36,6 +42,8 @@ This section documents the DNS setup and verification process that supports the 
 
 <img width="1920" height="909" alt="Host Records for Domain Members" src="https://github.com/user-attachments/assets/a9ef5ae8-7900-422a-ba51-b80a6319bd5d" />
 
+---
+
 **5. Reverse Lookup Zone Configuration in DNS Manager**
 
 - Displays the zone set up for reverse DNS, ensuring that IP addresses can be resolved to hostnames.
@@ -44,6 +52,8 @@ This section documents the DNS setup and verification process that supports the 
 
 ![Reverse Lookup Zone Configuration in DNS Manager](https://github.com/user-attachments/assets/03a2ff6e-c85f-4947-8917-9263d655d7be)
 
+---
+
 **6. PTR Record List**
 
 - Lists pointer (PTR) records confirming successful reverse resolution for domain-joined clients and servers.
@@ -51,6 +61,8 @@ This section documents the DNS setup and verification process that supports the 
 📸 **PTR Record List**
 
 ![PTR Record List](https://github.com/user-attachments/assets/84c3653f-b565-4bc8-a490-c8c1b58803ca)
+
+---
 
 **7. Verified that Domain Services could be Located**
 
@@ -74,6 +86,8 @@ This section documents the DNS setup and verification process that supports the 
 
 ![Verified fhat Domain Services Could be Located 7](https://github.com/user-attachments/assets/75154b70-67ea-41ce-88f7-c2b65c157d20)
 
+---
+
 **8. Output from `ping` Commands for Hostname and IP Resolution**
 
 - Shows successful responses when pinging devices by name and IP, confirming bidirectional DNS resolution.
@@ -81,6 +95,8 @@ This section documents the DNS setup and verification process that supports the 
 📸 **Output from `ping` Commands for Hostname and IP Resolution**
 
 ![Output from ping Commands for Hostname and IP Resolution](https://github.com/user-attachments/assets/50a58e4a-5119-4ca6-bf5e-4155da8388c5)
+
+---
 
 **9. Output from `nslookup` Commands For Hostname and IP Resolution**
 
@@ -90,6 +106,8 @@ This section documents the DNS setup and verification process that supports the 
 
 ![Output from nslookup Commands for Hostname and IP Resolution](https://github.com/user-attachments/assets/89ca04a7-5e98-40fa-af84-e1c062163573)
 
+---
+
 10. **Command Prompt with `ipconfig /all` Showing Domain Suffix**
 
 - Displays full DNS configuration of the client, including domain suffix and DNS server IP.
@@ -98,41 +116,47 @@ This section documents the DNS setup and verification process that supports the 
 
 ![Command Prompt with Ipconfig all Showing Domain Suffix](https://github.com/user-attachments/assets/7a8c2ef9-ddd0-42c7-9c3a-6cf824031e78)
 
-**11. Output From `nslookup` to Confirm the DNS Server Response**
+---
+
+**11. Output from `nslookup` to Confirm the DNS Server Response**
 
 - Confirms that queries are being answered by the correct internal DNS server, with accurate forward and reverse resolution.
 
-📸 **Output From `nslookup` to Confirm the DNS Server Response for AD-WIN11-01**
+📸 **Output from `nslookup` to Confirm the DNS Server Response for `AD-WIN11-01`**
 
 ![Output from `nslookup` to Confirm The DNS Server Response](https://github.com/user-attachments/assets/b2077a0c-d7a0-41fb-b93e-ce29116e3017)
 
-📸 **Output From `nslookup` to Confirm the DNS Server Response for AD-WIN11-02**
+📸 **Output from `nslookup` to Confirm the DNS Server Response for `AD-WIN11-02`**
 
 ![Output from `nslookup` to Confirm The DNS Server Response for `AD-WIN11-02`](https://github.com/user-attachments/assets/df5988db-2130-464e-a896-44735dda2ea8)
 
-**12. Output From `gpupdate` Command**
+---
+
+**12. Output from `gpupdate` Command**
 
 - Verifies successful Group Policy update via DNS-based domain controller discovery.
 
-📸 **Output From `gpupdate` Command for AD-WIN11-01**
+📸 **Output from `gpupdate` Command for `AD-WIN11-01`**
 
 ![Output from `gpupdate` Command for `AD-WIN11-01`](https://github.com/user-attachments/assets/8974d5c9-c52c-4937-9196-8e14ff373ec6)
 
-📸 **Output From `gpupdate` Command for AD-WIN11-02**
+📸 **Output from `gpupdate` Command for `AD-WIN11-02`**
 
 ![Output from `gpupdate` Command for `AD-WIN11-02`](https://github.com/user-attachments/assets/6eb4e6da-f4b6-4347-a24a-bb04f9b31a16)
 
-**13. Output From `gpresult` Command**
+---
+
+**13. Output from `gpresult` Command**
 
 - Confirms GPOs are applied, indirectly verifying DNS resolution and domain controller accessibility.
 
-📸 **Output From `gpresult` Command for AD-WIN11-01**
+📸 **Output from `gpresult` Command for `AD-WIN11-01`**
 
 ![Output from `gpresult` Command for `AD-WIN11-01`](https://github.com/user-attachments/assets/795f2a4b-c930-4d9d-b2bf-1ceda5056d79)
 
 ![Output from `gpresult` Command for `AD-WIN11-01` 1](https://github.com/user-attachments/assets/3087e4d0-7ecd-4f17-95c2-ccf76b4fdb89)
 
-📸 **Output From `gpresult` Command for AD-WIN11-02**
+📸 **Output from `gpresult` Command for `AD-WIN11-02`**
 
 ![Output from `gpresult` Command for `AD-WIN11-02`](https://github.com/user-attachments/assets/1111636a-791b-47ff-b20d-f96c15e0c0bc)
 

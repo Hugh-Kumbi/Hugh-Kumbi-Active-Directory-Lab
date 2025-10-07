@@ -127,7 +127,7 @@ To ensure domain clients trust the internal CA, I:
 - Opened **Group Policy Management**
 - Navigated to:  
 
-Computer Configuration → Policies → Windows Settings → Security Settings → Public Key Policies → Trusted Root Certification Authorities
+📂 `Computer Configuration → Policies → Windows Settings → Security Settings → Public Key Policies → Trusted Root Certification Authorities`
 
 - Imported the Root CA certificate
 - Forced Group Policy update using `gpupdate /force` on client machines
@@ -156,11 +156,11 @@ After publishing the Root CA certificate via Group Policy, I verified that the *
 
 <img width="1920" height="909" alt="Web Enrollment Site on the CA Server" src="https://github.com/user-attachments/assets/31ca30f1-fbbf-40fb-8800-bfcf215d226c" /><br />
 
-📸 **Web Enrollment Site on the CA Server AD-WIN11-01**
+📸 **Web Enrollment Site on the CA Server `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Web Enrollment Site on the CA Server AD-WIN11-01" src="https://github.com/user-attachments/assets/32bc62bd-22c8-4a90-bad0-000e62562848" /><br />
 
-📸 **Web Enrollment Site on the CA Server AD-WIN11-02**
+📸 **Web Enrollment Site on the CA Server `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Web Enrollment Site on the CA AD-WIN11-02" src="https://github.com/user-attachments/assets/61b7b2fb-6933-407c-bf39-433db4ad25bd" />
 
@@ -170,11 +170,11 @@ After publishing the Root CA certificate via Group Policy, I verified that the *
 
 By installing and configuring AD CS, I established a foundational internal PKI within my Active Directory lab. This service enables secure identity verification and supports various enterprise features such as BitLocker encryption, S/MIME, and certificate-based authentication. The configuration of the CA, key parameters, and trust distribution showcases my ability to manage core security infrastructure in a Windows Server environment.
 
-📸 **CA Root Certificate Installed on AD-WIN11-01**
+📸 **CA Root Certificate Installed on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="CA Root Certificate Installed on AD-WIN11-01" src="https://github.com/user-attachments/assets/43249b7a-4346-4e0a-b5cc-02ece0cef7a1" /><br />
 
-📸 **CA Root Certificate Installed on AD-WIN11-02**
+📸 **CA Root Certificate Installed on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="CA Root Certificate Installed on AD-WIN11-02" src="https://github.com/user-attachments/assets/17df66ff-60f6-46b6-8970-ae66e3bd1dfe" />
 

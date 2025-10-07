@@ -143,5 +143,5 @@ This DHCP configuration allows for seamless, automatic IP address management in 
 
 ## 📁 6. Screenshot Storage
 
-All screenshots for this section should be placed in:<br />  
+All screenshots for this section can be found in:<br />  
 📂 [`06-Screenshots/VI. DHCP-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/VI.%20DHCP-Configuration)

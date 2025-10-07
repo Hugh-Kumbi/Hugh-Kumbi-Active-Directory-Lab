@@ -13,7 +13,7 @@ In this stage, I installed and configured **Windows Server 2025** as the Domain 
 - Mounted the **Windows Server 2025 ISO** and completed the installation.
 - Selected the **Datacenter Evaluation (Desktop Experience)** during setup.
 
-📸 **Installation Setup Screen With Edition Selection**
+📸 **Installation Setup Screen with Edition Selection**
 
 ![Windows Server Setup 3](https://github.com/user-attachments/assets/915a6e00-5202-4e3c-a4fc-601ce180731a)
 

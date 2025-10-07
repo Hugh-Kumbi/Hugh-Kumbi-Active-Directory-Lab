@@ -134,21 +134,21 @@ repadmin /syncall /AdeP
 
 📸 **Event Viewer Logs Confirming GPO application**
 
-<img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" />/><br />
+<img width="1920" height="909" alt="Event Viewer logs confirming GPO application" src="https://github.com/user-attachments/assets/ade41b66-6fff-404d-b14d-51b15f670754" /><br />
 
 ### On Clients:
 - Ran `gpupdate /force`
 - Ran `gpresult /r`
 
-📸 **Command Line Results from `gpupdate on AD-WIN11-01`**
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-01" src="https://github.com/user-attachments/assets/41826450-1146-41d9-96c9-bdcd52d27913" /><br />
 
-📸 **Command Line Results from `gpupdate on AD-WIN11-02`**
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-02" src="https://github.com/user-attachments/assets/7f0712eb-03c3-482b-b612-57857fd01003" /><br />
 
-📸 **Command Line Results from `gpresult on AD-WIN11-01`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
@@ -158,7 +158,7 @@ repadmin /syncall /AdeP
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
 
-📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
 
@@ -170,6 +170,7 @@ repadmin /syncall /AdeP
 
 ---
 
-📁 6. Screenshot Storage
+## 📁 6. Screenshot Storage
+
 All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/X. GPO-Configurations`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/X.%20GPO-Configurations#readme)

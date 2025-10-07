@@ -178,5 +178,5 @@ To ensure everything worked:
 
 ## 📁 5. Screenshot Storage
 
-All screenshots for this section should be placed in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/V. DNS-Setup/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/V.%20DNS-Setup/README.md)

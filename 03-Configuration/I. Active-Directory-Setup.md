@@ -233,11 +233,11 @@ To confirm everything worked:
 
 ![Login Screen Showing Domain User for AD-WIN11-01](https://github.com/user-attachments/assets/0bc7e673-9b66-45c8-aeec-09678c7076f4)
 
-📸 **Output From `whoami` Command for `AD-WIN11-01`**
+📸 **Output from `whoami` Command for `AD-WIN11-01`**
 
 ![Output From whoami Command for `AD-WIN11-01](https://github.com/user-attachments/assets/028472e8-4048-4d0e-9be9-13069ca425ab)
 
-📸 **Output From `gpresult` Command for `AD-WIN11-01`**
+📸 **Output from `gpresult` Command for `AD-WIN11-01`**
 
 ![Output From gpresult Command for AD-WIN11-01](https://github.com/user-attachments/assets/1f63b1dc-52ec-4913-9e2a-b11c4a455109)
 
@@ -247,11 +247,11 @@ To confirm everything worked:
 
 ![Login Screen Showing Domain User for AD-WIN11-02](https://github.com/user-attachments/assets/e0b5123f-e3d2-4858-855d-e1b3eb70aa28)
 
-📸 **Output From `whoami` Command for `AD-WIN11-02`**
+📸 **Output from `whoami` Command for `AD-WIN11-02`**
 
 ![Output From whoami Command for `AD-WIN11-02](https://github.com/user-attachments/assets/30cd62c0-77ca-4091-b74c-fc5ae0adf6ba)
 
-📸 **Output From `gpresult` Command for `AD-WIN11-02`**
+📸 **Output from `gpresult` Command for `AD-WIN11-02`**
 
 ![Output From gpresult Command for AD-WIN11-02](https://github.com/user-attachments/assets/d7c53c8d-9977-4165-9594-ad4d9ac1f839)
 

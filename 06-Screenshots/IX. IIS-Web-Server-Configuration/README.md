@@ -6,7 +6,8 @@ They demonstrate role installation, serving default and custom sites, client acc
 ---
 
 ## 1. IIS Role Installation   
-*Server Manager showing Web Server (IIS) role selected*  
+
+Server Manager showing Web Server (IIS) role selected  
 
 📸 **IIS-Role-Installation**
 
@@ -15,7 +16,8 @@ They demonstrate role installation, serving default and custom sites, client acc
 ---
 
 ## 2. Default Website Test  
-*Default IIS welcome page displayed via `http://localhost`*  
+
+Default IIS welcome page displayed via `http://localhost`  
 
 📸 **IIS-Default-Page**
 
@@ -24,7 +26,8 @@ They demonstrate role installation, serving default and custom sites, client acc
 ---
 
 ## 3. Custom Website in `wwwroot`  
-*Custom `index.html` added to wwwroot replacing the IIS default page*  
+
+Custom `index.html` added to wwwroot replacing the IIS default page  
 
 📸 **IIS-Custom-Index**
 
@@ -33,13 +36,14 @@ They demonstrate role installation, serving default and custom sites, client acc
 ---
 
 ## 4. Client Access – Internal Web Page  
-*Custom web page displayed on client `AD-WIN11-01`*  
+
+Custom web page displayed on client `AD-WIN11-01`  
 
 📸 **IIS-Client-`AD-WIN11-01`**
 
 <img width="1920" height="909" alt="IP Address of the Sever Access on AD-WIN11-01" src="https://github.com/user-attachments/assets/4010509f-4140-407a-9fe7-c27d8f1bfa1f" /><br />
 
-*Custom web page displayed on client `AD-WIN11-02`*  
+Custom web page displayed on client `AD-WIN11-02`  
 
 📸 **IIS-Client-`AD-WIN11-02`**
 
@@ -48,32 +52,34 @@ They demonstrate role installation, serving default and custom sites, client acc
 ---
 
 ## 5. Custom Website on Port 8080  
-*IIS Manager showing the `Intranet` site bound to port 8080*  
+
+IIS Manager showing the `Intranet` site bound to port 8080  
 
 📸 **IIS-Custom-Site**
 
 <img width="1920" height="909" alt="IIS-Custom-Site" src="https://github.com/user-attachments/assets/ce7d3fc2-6020-4219-ac1f-c82e4ca5b0db" /><br />
 
-*Browser accessing the custom intranet site via port 8080*  
+Browser accessing the custom intranet site via port 8080  
 
 📸 **IIS-Custom-Site-Browser**
 
 <img width="1920" height="909" alt="IIS-Custom-Site-Browser" src="https://github.com/user-attachments/assets/b7ce83ce-ef3d-4d09-ab2c-db9dad5b49c1" />
 
 ## 6. Final Setup Verification  
-*Server showing IIS running with default and custom sites*  
+
+Server showing IIS running with default and custom sites  
 
 📸 **IIS-Final-Server**
 
 <img width="1920" height="909" alt="New Site Displayed in Browser" src="https://github.com/user-attachments/assets/8bf907bd-b205-4bc8-9577-676e3eeaf82e" /><br />
 
-*Client `AD-WIN11-01` confirming site access*  
+Client `AD-WIN11-01` confirming site access  
 
 📸 **IIS-Final-`AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Final Setup `AD-WIN11-01`" src="https://github.com/user-attachments/assets/a10cb6e7-361d-44df-9c0d-4184f73225eb" /><br />
 
-*Client `AD-WIN11-02` confirming site access*  
+Client `AD-WIN11-02` confirming site access  
 
 📸 **IIS-Final-`AD-WIN11-02`**
 

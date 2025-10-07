@@ -170,6 +170,6 @@ repadmin /syncall /AdeP
 
 ---
 
-# 📁 6. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+📁 6. Screenshot Storage
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/X. GPO-Configurations`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/X.%20GPO-Configurations#readme)

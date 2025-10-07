@@ -76,11 +76,11 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 - Confirms successful refresh of Group Policy on a client system, ensuring policies are up to date.
 
-📸 **Command Line Results from `gpupdate on AD-WIN11-01`**
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-01" src="https://github.com/user-attachments/assets/41826450-1146-41d9-96c9-bdcd52d27913" /><br />
 
-📸 **Command Line Results from `gpupdate on AD-WIN11-02`**
+📸 **Command Line Results from `gpupdate` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpupdate on AD-WIN11-02" src="https://github.com/user-attachments/assets/7f0712eb-03c3-482b-b612-57857fd01003" />
 
@@ -90,7 +90,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 - Shows a summary of the applied policies on the system, confirming expected GPOs are enforced.
 
-📸 **Command Line Results from `gpresult on AD-WIN11-01`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
@@ -100,7 +100,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
 
-📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
 
@@ -116,7 +116,7 @@ This section showcases the structure and application of Group Policy Objects (GP
 
 - Validates successful Active Directory replication, ensuring GPOs are synchronized across domain controllers.
 
-📸 **Command Line Results from Repadmin Syncall AdeP**
+📸 **Command Line Results from `repadmin Syncall AdeP**
 
 <img width="1920" height="909" alt="Command Line Results from Repadmin Syncall AdeP" src="https://github.com/user-attachments/assets/636556ea-0c17-44d8-ac34-1151c18b3ec6" />
 

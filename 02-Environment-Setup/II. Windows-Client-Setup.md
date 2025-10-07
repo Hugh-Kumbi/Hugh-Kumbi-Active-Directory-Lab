@@ -173,5 +173,5 @@ After reboot, I:
 
 ## 📁 8. Screenshot Storage
 
-All screenshots for this section should be placed in:  
+All screenshots for this section can be found in:  
 📂 [`06-Screenshots/III. Windows-Client-Setup/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/III.%20Windows-Client-Setup/README.md)

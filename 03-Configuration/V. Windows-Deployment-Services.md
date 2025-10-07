@@ -162,6 +162,6 @@ By configuring Windows Deployment Services on Windows Server 2025, I successfull
 
 ---
 
-📁 6. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+📁 7. Screenshot Storage
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/VIII. Windows-Deployment-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VIII.%20Windows-Deployment-Services/README.md)

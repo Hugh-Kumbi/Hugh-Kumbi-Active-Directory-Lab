@@ -12,6 +12,8 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="Add Roles and Features Wizard With AD DS Selected 9" src="https://github.com/user-attachments/assets/517e22b5-56a5-467d-9351-9d5ab6f6fcb7" /><br />
 
+---
+
 **2. Domain Promotion Wizard Final Confirmation Screen**
 
 - Shows the summary screen right before completing the promotion of the server to a domain controller.
@@ -20,13 +22,17 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="Promoting Server to Domain Controller 6" src="https://github.com/user-attachments/assets/5c75b727-093e-47e0-82a2-ad9e025350dc" /><br />
 
-**3. Command Prompt With ipconfig /all Showing Domain Suffix**
+---
+
+**3. Command Prompt with ipconfig /all Showing Domain Suffix**
 
 - Confirms the presence of a domain suffix (e.g., hughdomain.local), indicating successful domain configuration.
 
 📸 **Command Prompt Showing Domain Suffix**
 
 <img width="1920" height="909" alt="Command Prompt With Ipconfig all Showing Domain Suffix" src="https://github.com/user-attachments/assets/d231ac53-0150-4fab-aa6e-7490dd1e5513" /><br />
+
+---
 
 **4. Active Directory Users and Computers (ADUC) Showing OU Structure**
 
@@ -35,6 +41,8 @@ This section showcases the complete setup and verification of Active Directory s
 📸 **ADUC Showing OU Structure**
 
 <img width="1920" height="909" alt="Active Directory Users and Computers (ADUC) Showing OU Structure1" src="https://github.com/user-attachments/assets/d4cb56b5-ec7a-4fe3-a64f-fa5114c575e7" /><br />
+
+---
 
 **5. New User Wizard in ADUC**
 
@@ -56,6 +64,8 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="New User Creation Wizard in ADUC for Tech User2" src="https://github.com/user-attachments/assets/85384add-a43f-4e69-8e19-35df0ac8f5ad" /><br />
 
+---
+
 **6. 1500 Users Creation Using PowerShell Script**
 
 - Shows the PowerShell window during bulk user creation via a script for efficient user onboarding.
@@ -72,6 +82,8 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 4" src="https://github.com/user-attachments/assets/57cee162-c983-4bb6-86d9-41df69fc0254" /><br />
 
+---
+
 **7. 1500 Users Creation Confirmation**
 
 - Confirms that the script completed successfully, with users now visible in ADUC.
@@ -79,6 +91,8 @@ This section showcases the complete setup and verification of Active Directory s
 📸 **1500 Users Creation Confirmation**
 
 <img width="1920" height="909" alt="1500 Users Creation Using PowerShell Script 5" src="https://github.com/user-attachments/assets/39a15319-57fb-462b-9823-36c503d4f8c7" /><br />
+
+---
 
 **8. Properties Window Showing Group Membership**
 
@@ -97,6 +111,8 @@ This section showcases the complete setup and verification of Active Directory s
 <img width="1920" height="909" alt="User’s Group Memberships in ADUC 4" src="https://github.com/user-attachments/assets/0d91b843-08b7-428f-8cbf-b8f4f9c1d0df" /><br />
 
 <img width="1920" height="909" alt="User’s Group Memberships in ADUC 5" src="https://github.com/user-attachments/assets/a4fb5ea9-af84-48e7-8d24-1e498d1ceb33" /><br />
+
+---
 
 **9. Group Membership List**
 
@@ -164,6 +180,8 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="Sales Managers Membership" src="https://github.com/user-attachments/assets/ab8575f6-208c-4cd4-b01b-7a80c77224bf" /><br />
 
+---
+
 **10. Login Screen Showing Domain User**
 
 - Captures a successful login attempt with a domain user account.
@@ -174,6 +192,8 @@ This section showcases the complete setup and verification of Active Directory s
 
 <img width="1920" height="909" alt="Login Screen Showing Domain User for AD-WIN11-02" src="https://github.com/user-attachments/assets/a133d6cc-5831-4a2a-a0eb-88c72031c8e7" /><br />
 
+---
+
 **11. Output From `whoami` Command**
 
 - Verifies domain-level login by showing the domain and username in the CLI.
@@ -183,6 +203,8 @@ This section showcases the complete setup and verification of Active Directory s
 <img width="1920" height="909" alt="Output From whoami Command for `AD-WIN11-01" src="https://github.com/user-attachments/assets/7004e25a-6338-4c26-bc54-69ab3a3c9db3" /><br />
 
 <img width="1920" height="909" alt="Output From whoami Command for `AD-WIN11-02" src="https://github.com/user-attachments/assets/f6beeb2b-985c-4811-a1cc-71d720df8e9d" /><br />
+
+---
 
 **12. Output From `gpresult` Command**
 

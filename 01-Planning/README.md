@@ -27,7 +27,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 ### Hardware
 
-- **Host Machine:**
+- **Host Machine**
   - **CPU:** Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz (2.11 GHz)
   - **RAM:** 16 GB
   - **Storage:** SSD with 465 GB free space
@@ -44,27 +44,27 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 ## 📝 Implementation Roadmap
 
-1. **Environment Setup:**
+1. **Environment Setup**
   - Install and configure the virtualization platform.
   - Create virtual machines for servers and clients.
 
-2. **Server Configuration:**
+2. **Server Configuration**
   - Install Windows Server on designated VMs.
   - Assign static IP addresses and configure hostnames.
 
-3. **Active Directory Deployment:**
+3. **Active Directory Deployment**
   - Promote servers to domain controllers.
   - Configure DNS and DHCP services.
 
-4. **Client Configuration:**
+4. **Client Configuration**
   - Install Windows Client OS on designated VMs.
   - Join clients to the domain.
 
-5. **Group Policy Implementation:**
+5. **Group Policy Implementation**
   - Create and link GPOs to OUs.
   - Test policy application on client machines.
 
-6. **User and Group Management:**
+6. **User and Group Management**
   - Create user accounts and security groups.
   - Assign permissions and test access controls.
 

@@ -48,7 +48,7 @@ After installation, I performed the following:
 - Selected **Add Roles and Features**
 - Installed the **Active Directory Domain Services (AD DS)** role
 
-📸 **"Add Roles and Features Wizard" With AD DS Selected**
+📸 **"Add Roles and Features Wizard" with AD DS Selected**
 
 ![Add Roles and Features Wizard With AD DS Selected 3](https://github.com/user-attachments/assets/5cd38039-3f07-4bac-bfa1-e13427d5474f)
 
@@ -80,7 +80,7 @@ After installation, I performed the following:
 - Ensured DNS was properly installed and functioning
 - Confirmed that AD-related services were running
 
-📸 **PowerShell With `dcdiag` Results**
+📸 **PowerShell with `dcdiag` Results**
 
 ![PowerShell With dcdiag Results](https://github.com/user-attachments/assets/b0b55f72-0cbd-4034-ab04-dd87a585fee8)
 

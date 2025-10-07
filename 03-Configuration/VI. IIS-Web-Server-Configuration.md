@@ -44,7 +44,7 @@ To demonstrate internal web hosting:
 - Navigated to `C:\inetpub\wwwroot`
 - Replaced `iisstart.htm` with a custom HTML file: `index.html`
 - Edited the file to display a custom message:  
-  `"Welcome to the Internal Web Server - Configured by Hugh Chanetsa"`
+  `"MeiVault Systems Internal Portal - Configured by Hugh Chanetsa"`
 
 📸 **Modified `index.html` in Notepad**
 
@@ -116,6 +116,7 @@ In this lab, I successfully installed and configured **IIS Web Server** on Windo
 
 ---
 
-📁 6. Screenshot Storage
+## 📁 6. Screenshot Storage
+
 All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/IX. IIS-Web-Server-Configuration/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/IX.%20IIS-Web-Server-Configuration/README.md)

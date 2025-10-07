@@ -20,6 +20,8 @@ The diagram below illustrates the network structure, including the domain contro
 
 ![Lab Architecture](https://github.com/user-attachments/assets/9e0f2334-a862-4b43-ac28-52cf6861c98d)
 
+---
+
 ## 🛠️ 3. Lab Components
 
 | Component             | Details                       |
@@ -30,15 +32,19 @@ The diagram below illustrates the network structure, including the domain contro
 | **Virtualization**    | VirtualBox                    |
 | **Network Type**      | Internal Network (VirtualBox) |
 
+---
+
 ## ✅ 4. Pre-Requisites
 
 Before building the lab, I ensured the following were in place:
 
-- A host system with at least 16GB RAM and 220GB disk space
+- A host system with at least 16GB RAM and 465 GB disk space
 - VirtualBox installed and working properly
 - ISO files for Windows Server 2025 and Windows 11 Pro
 - Network properly configured to allow domain communication
 - Basic understanding of AD, DNS, and GPO concepts
+
+---
 
 ## 🔍 5. Planning Considerations
 

@@ -194,7 +194,7 @@ This section showcases the complete setup and verification of Active Directory s
 
 ---
 
-**11. Output From `whoami` Command**
+**11. Output from `whoami` Command**
 
 - Verifies domain-level login by showing the domain and username in the CLI.
 
@@ -206,7 +206,7 @@ This section showcases the complete setup and verification of Active Directory s
 
 ---
 
-**12. Output From `gpresult` Command**
+**12. Output from `gpresult` Command**
 
 - Displays applied Group Policies for the logged-in user, confirming policy enforcement.
 

@@ -1,5 +1,7 @@
 # 🧠 Planning & Lab Overview
 
+---
+
 ## 📝 1. Objectives
 
 The goal of this lab was to simulate a small enterprise Active Directory environment to sharpen my cybersecurity and IT administration skills. I focused on hands-on configuration of key services including:

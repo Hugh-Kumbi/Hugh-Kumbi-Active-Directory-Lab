@@ -16,7 +16,7 @@ The planning phase is crucial for establishing a structured and efficient Active
 
 ## 🗺️ Network Topology Design
 
-- **Domain Structure:** Plan a single forest with one to reflect organizational hierarchy.
+- **Domain Structure:** Plan a single forest with one domain to reflect organizational hierarchy.
 - **Organizational Units (OUs):** Design OUs based on departments or functions (e.g., IT, HR, Finance) to manage policies and permissions effectively.
 - **Site Configuration:** When simulating multiple physical locations, define sites and associate subnets accordingly.
 - **Trust Relationships:** Outline trust relationships between domains when multiple domains are planned.

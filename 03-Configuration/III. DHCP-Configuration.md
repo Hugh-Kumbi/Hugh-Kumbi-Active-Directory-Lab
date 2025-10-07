@@ -92,13 +92,13 @@ On both Windows 11 clients:
 - Ran `ipconfig /release` followed by `ipconfig /renew` from Command Prompt
 - Verified that each client received an IP from the DHCP scope
 
-📸 **ipconfig Output Showing Assigned IPs on AD-WIN11-01**
+📸 **`ipconfig` Output Showing Assigned IPs on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-01" src="https://github.com/user-attachments/assets/fbc5b1f8-e41a-4503-b575-32f8e7695e66" /><br />
 
 <img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-01 1" src="https://github.com/user-attachments/assets/2ab9174d-3331-4957-8154-1d4b71cf57a9" /><br />
 
-📸 **ipconfig Output Showing Assigned IPs on AD-WIN11-02**
+📸 **`ipconfig` Output Showing Assigned IPs on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="ipconfig Output Showing Assigned IPs on AD-WIN11-02" src="https://github.com/user-attachments/assets/28fbe6ed-b47f-420d-a297-60434e6684df" /><br />
 
@@ -143,5 +143,5 @@ This DHCP configuration allows for seamless, automatic IP address management in 
 
 ## 📁 6. Screenshot Storage
 
-All screenshots for this section can be found in:<br />  
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/VI. DHCP-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/VI.%20DHCP-Configuration)

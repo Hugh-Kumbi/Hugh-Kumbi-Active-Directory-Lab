@@ -157,4 +157,4 @@ By completing these configurations:
 
 [Group Policy Overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)
 
-[Active Directory Security Best Practices](https://www.semperis.com/blog/active-directory-security/active-directory-security-best-practices-checklist/)
+[Active Directory Security Best Practices](https://learn.microsoft.com/ja-jp/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)

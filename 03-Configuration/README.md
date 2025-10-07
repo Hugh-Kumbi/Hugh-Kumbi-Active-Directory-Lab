@@ -20,7 +20,7 @@ The initial step involves installing the AD DS role and promoting the server to 
 - **DNS Server Installation:** Opted to install the DNS Server role alongside AD DS.
 - **Directory Services Restore Mode (DSRM) Password:** Defined a secure DSRM password for recovery purposes.
 
-These steps are detailed in the `I. Active-Directory-Setup.md` file.
+These steps are detailed in the [`I. Active-Directory-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/I.%20Active-Directory-Setup.md) file.
 
 ---
 
@@ -37,7 +37,7 @@ Proper DNS configuration is critical for the functionality of Active Directory, 
 - **Reverse Lookup Zone Creation:** Established a reverse lookup zone for IP address to name resolution.
 - **DNS Records Verification:** Confirmed the creation of essential DNS records, including SRV and A records for domain controllers.
 
-These configurations are outlined in the `II. DNS-Setup.md` file.
+These configurations are outlined in the [`II. DNS-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/II.%20DNS-Setup.md) file.
 
 ---
 
@@ -55,13 +55,25 @@ This section documents the various Group Policy Objects (GPOs) I implemented in 
 - **User Rights Assignment:** Configured rights such as logon locally and access this computer from the network.
 - **Security Options:** Adjusted settings to enhance the security posture of domain-joined systems.
 
-🔒 Custom Group Policies Implemented
+## 🔒 Custom Group Policies Implemented
 
 ### 🧩 Description of Custom Group Policies Implemented
 
 The custom Group Policies implemented in this lab environment were designed to enforce organizational standards, streamline user experience, and mitigate potential security threats. These policies cover a broad range of system and user configurations, including software restrictions (e.g., blocking VLC), enhanced browser settings, desktop environment personalization, USB access control, firewall and antivirus configurations, and scripted automation for startup/shutdown and user sessions. Each policy was tailored to reflect real-world enterprise needs, ensuring that domain-joined systems are secure, manageable, and consistent across the organization. Where applicable, these policies align with cybersecurity best practices and regulatory compliance frameworks.
 
-- **Block VLC - Policy**
+- **Account Lockout Policy**
+
+- **Audit Policy**
+
+- **Auto Enrollment for Computer Certificate Policy**
+
+- **Auto Enrollment Certificate for ITSecurity Users Policy**
+
+- **BitLocker DRA Deployment Policy**
+
+- **BitLocker Encryption Policy**
+  
+- **Block VLC Media Player - AppLocker**
 
 - **Browser Security Settings Policy**
 
@@ -71,13 +83,19 @@ The custom Group Policies implemented in this lab environment were designed to e
 
 - **Default Domain Policy**
 
+- **Deploy HughDomain-WinServer2025 Certificate Policy**
+
 - **Desktop Wallpaper Policy**
 
 - **Disabling Unnecessary Windows Services Policy**
 
 - **Drive Mappings Policy**
 
+- **Folder Redirection Policy**
+
 - **IPsec Authentication Policy**
+
+- **Local Administrator Restrictions Policy**
 
 - **Logon-Logoff Scripts Policy**
 
@@ -85,15 +103,21 @@ The custom Group Policies implemented in this lab environment were designed to e
 
 - **Network Security Settings Policy**
 
+- **Password Policy**
+
 - **Restricted Groups Policy**
 
-- **Service Configuration Policy**
+- **Root CA Distribution Policy**
+
+- **Security Scripts Policy**
 
 - **Software Deployment Google Chrome Policy**
 
 - **Start Menu and Taskbar Settings Policy**
 
 - **Startup/Shutdown Scripts Policy**
+
+- **Temp_Cleaned_DC_Policy**
 
 - **USB Restriction Policy**
 
@@ -105,16 +129,16 @@ The custom Group Policies implemented in this lab environment were designed to e
 
 - **Windows Firewall Settings Policy**
 
-Each policy above was configured to meet specific security or operational objectives within the Active Directory domain. Detailed documentation for individual policies can be found within the corresponding folders in the `III. GPO-Configurations.md` file.
+Each policy above was configured to meet specific security or operational objectives within the Active Directory domain. Detailed documentation for individual policies can be found within the corresponding folders in the [`III. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md) file.
 
 ---
 
 ## 📂 Files Included
 
-- `I. Active-Directory-Setup.md`: Step-by-step guide for installing and configuring Active Directory Domain Services.
-- `II. DNS-Setup.md`: Instructions for setting up and verifying DNS configurations essential for AD functionality.
-- `III. GPO-Configurations.md`: Details on implementing baseline Group Policy Objects for security and standardization.
-- `README.md`: This documentation file summarizing the configuration steps and their significance.
+- [`I. Active-Directory-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/I.%20Active-Directory-Setup.md): Step-by-step guide for installing and configuring Active Directory Domain Services.
+- [`II. DNS-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/II.%20DNS-Setup.md): Instructions for setting up and verifying DNS configurations essential for AD functionality.
+- [`III. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md): Details on implementing baseline Group Policy Objects for security and standardization.
+- [`README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/README.md): This documentation file summarizing the configuration steps and their significance.
 
 ---
 

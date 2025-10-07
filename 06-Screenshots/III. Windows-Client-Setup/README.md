@@ -4,7 +4,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 1. VirtualBox VM Settings for `AD-WIN11-02`
+**1. VirtualBox VM Settings for `AD-WIN11-02`**
 
 - Displays the VirtualBox configuration for the client machine, ensuring it is connected to the same internal network as the domain controller.
 
@@ -46,7 +46,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-##  2. Network Settings with Static IP and DNS for `AD-WIN11-01` & `AD-WIN11-02`
+**2. Network Settings with Static IP and DNS for `AD-WIN11-01` & `AD-WIN11-02`**
 
 - Shows the client’s manually configured IP address and DNS pointing to the domain controller, a critical step for domain communication.
 
@@ -60,7 +60,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 3. Domain Join Prompt with Domain Name Entered
+**3. Domain Join Prompt with Domain Name Entered**
 
 - Captures the moment the domain name hughdomain.local is entered in the System Properties dialog to initiate the domain join process.
 
@@ -74,7 +74,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 4 Confirmation Screen for Successful Domain Join
+**4 Confirmation Screen for Successful Domain Join**
 
 - Verifies that the client was successfully joined to the domain with the appropriate confirmation message.
 
@@ -88,7 +88,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 5. Login Screen with Domain Name Shown
+**5. Login Screen with Domain Name Shown**
 
 - Displays the Windows login screen where the domain name is now visible, confirming the system recognizes domain credentials.
 
@@ -102,7 +102,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 6. System Properties Showing Domain Joined
+**6. System Properties Showing Domain Joined**
 
 - Confirms through the System Properties panel that the client is now a member of hughdomain.local.
 
@@ -120,7 +120,7 @@ This section includes screenshots that document the full process of configuring 
 
 ---
 
-## 7. PowerShell Showing Successful Ping
+**7. PowerShell Showing Successful Ping**
 
 - Demonstrates network connectivity by showing a successful ping to the domain controller via PowerShell.
 

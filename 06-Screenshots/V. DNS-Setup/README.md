@@ -98,7 +98,7 @@ This section documents the DNS setup and verification process that supports the 
 
 ---
 
-**9. Output from `nslookup` Commands For Hostname and IP Resolution**
+**9. Output from `nslookup` Commands for Hostname and IP Resolution**
 
 - Displays results from `nslookup` queries using both hostnames and IP addresses. Confirms that the DNS server correctly resolves internal domain names to IPs and supports reverse lookup functionality. This validates proper DNS integration with Active Directory services.
 
@@ -108,7 +108,7 @@ This section documents the DNS setup and verification process that supports the 
 
 ---
 
-10. **Command Prompt with `ipconfig /all` Showing Domain Suffix**
+**10. Command Prompt with `ipconfig /all` Showing Domain Suffix**
 
 - Displays full DNS configuration of the client, including domain suffix and DNS server IP.
 

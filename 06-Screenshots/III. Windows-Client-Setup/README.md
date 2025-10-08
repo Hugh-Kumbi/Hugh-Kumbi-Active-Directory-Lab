@@ -135,4 +135,4 @@ This section includes screenshots that document the full process of configuring 
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`02-Environment-Setup/Windows-Client-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/edit/main/02-Environment-Setup/II.%20Windows-Client-Setup.md)
+📂 [`02-Environment-Setup/Windows-Client-Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/edit/main/02-Environment-Setup/II.%20Windows-Client-Setup.md)

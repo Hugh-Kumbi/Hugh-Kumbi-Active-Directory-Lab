@@ -85,4 +85,4 @@ These settings ensure that Windows Defender is active, real-time protection is e
 ## 📁 5. Screenshot Storage
 
 All screenshots for this section can be found in:<br /> 
-📂 [`06-Screenshots/XV. Windows-Defender-Policies/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XV.%20Windows-Defender-Policies/README.md)
+📂 [`06-Screenshots/XV. Windows-Defender-Policies`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XV.%20Windows-Defender-Policies/README.md)

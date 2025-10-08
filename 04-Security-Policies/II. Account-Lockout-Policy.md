@@ -66,7 +66,7 @@ These configurations align with enterprise security policies and common audit st
 
 ![Command Prompt Showing Account Status After Lockout](https://github.com/user-attachments/assets/a9887b88-df20-4cfe-a5a6-feb654d5d21a)
 
-📸 **Win11 Client Showing Account Lockout Policy Succedssfully Implemented for `TechUser2`**
+📸 **`AD-WIN11-01` Showing Account Lockout Policy Successfully Implemented for `TechUser2`**
 
 ![Account Lockout Policy Succedssfully Implemented for `TechUser2`](https://github.com/user-attachments/assets/79f911c0-f3ba-4c0a-b235-03a5b091136a)
 

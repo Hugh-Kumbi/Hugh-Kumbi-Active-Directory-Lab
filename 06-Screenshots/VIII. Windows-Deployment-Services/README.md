@@ -105,4 +105,4 @@ This folder contains screenshots related to the configuration and testing of **W
 ---
 
 The above image corresponds to a step described in:<br /> 
-📂 [`03-Configuration/V. Windows-Deployment-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/V.%20Windows-Deployment-Services.md)
+📂 [`03-Configuration/V. Windows-Deployment-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/V.%20Windows-Deployment-Services.md)

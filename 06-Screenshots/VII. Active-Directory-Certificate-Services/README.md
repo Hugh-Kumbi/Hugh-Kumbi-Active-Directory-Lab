@@ -83,4 +83,4 @@ This section documents the installation and configuration of **Active Directory 
 ---
 
 Each image corresponds to a step described in:<br /> 
-📂 [`03-Configuration/IV. Active-Directory-Certificate-Services.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/edit/main/03-Configuration/IV.%20Active-Directory-Certificate-Services.md)
+📂 [`03-Configuration/IV. Active-Directory-Certificate-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/edit/main/03-Configuration/IV.%20Active-Directory-Certificate-Services.md)

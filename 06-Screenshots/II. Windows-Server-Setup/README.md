@@ -77,4 +77,4 @@ Displays the configured DNS forward lookup zone, validating that DNS was set up 
 ---
 
 Each image corresponds to a step described in:<br /> 
-📂 [`02-Environment-Setup/Windows-Server-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md)
+📂 [`02-Environment-Setup/Windows-Server-Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/02-Environment-Setup/I.%20Windows-Server-Setup.md)

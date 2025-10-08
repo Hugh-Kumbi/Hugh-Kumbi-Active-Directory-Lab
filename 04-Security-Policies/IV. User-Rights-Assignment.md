@@ -84,5 +84,5 @@ gpresult /r
 
 ## 📁 5. Screenshot Storage
 
-All screenshots related to GPOs should be saved in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/XIV. User-Rights-Assignment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIV.%20User-Rights-Assignment)

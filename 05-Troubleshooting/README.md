@@ -15,6 +15,7 @@ This section of the Active Directory Lab focuses on identifying and resolving co
 * Settings not reflecting as expected on client machines.
 
 **Troubleshooting Steps:**
+
 - **Verify GPO Linkage and Scope:**
   - Ensure the GPO is linked to the correct Organizational Unit (OU).
   - Confirm that the user or computer object resides in the OU where the GPO is applied.

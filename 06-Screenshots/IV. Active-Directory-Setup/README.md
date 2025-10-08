@@ -225,4 +225,4 @@ This section showcases the complete setup and verification of Active Directory s
 ---
 
 Each image corresponds to a step described in: <br />
-📂 [`03-Configuration/Active-Directory-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/I.%20Active-Directory-Setup.md)
+📂 [`03-Configuration/Active-Directory-Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/I.%20Active-Directory-Setup.md)

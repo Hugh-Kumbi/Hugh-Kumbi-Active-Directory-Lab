@@ -4,7 +4,7 @@ This document serves as a centralized repository for all screenshots taken durin
 
 ---
 
-## 1. Domain Trust Issues
+## 🔗🚫 1. Domain Trust Issues
 
 - Error message showing the trust relationship failure.	
 
@@ -20,7 +20,7 @@ This document serves as a centralized repository for all screenshots taken durin
 
 ---
 
-## 2. RDP Access Denied for Domain Admins
+## 🖥️⛔ 2. RDP Access Denied for Domain Admins
 
 The "Access is denied" error when trying to RDP.	
 
@@ -48,7 +48,7 @@ A full, established RDP session to the server.
 
 ---
 
-## 3. USB Device Policy Not Applying
+## 🔌❌ 3. USB Device Policy Not Applying
 
 Command Prompt output after running gpupdate /force to apply the USB policy.	
 
@@ -70,7 +70,7 @@ Evidence of the policy working: "Access is denied" when trying to open a USB dri
 
 ---
 
-## 4. Logon Denied for Domain Users
+## 👤🚫 4. Logon Denied for Domain Users
 
 The problematic GPO setting with "Domain Users" in the "Deny log on locally" policy.	
 

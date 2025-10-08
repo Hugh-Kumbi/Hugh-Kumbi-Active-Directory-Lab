@@ -80,7 +80,7 @@ gpresult /r
 
 ---
 
-## 📁 6. Screenshot Storage
+## 📁 5. Screenshot Storage
 
-All screenshots related to this section should be stored in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/XI. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XI.%20Password%20Policy)

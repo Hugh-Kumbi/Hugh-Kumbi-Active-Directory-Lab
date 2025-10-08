@@ -76,7 +76,7 @@ Configured audit policies to monitor and record critical security-related events
 
 - **Audit Privilege Use:** Success and Failure
 
-- **Audit Process Tracking:** Success and Failure
+- **Audit Process Tracking:** Success
 
 - **Audit System Events:** Success and Failure
 

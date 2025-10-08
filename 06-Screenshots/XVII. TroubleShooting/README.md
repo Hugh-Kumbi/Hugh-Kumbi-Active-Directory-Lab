@@ -60,7 +60,11 @@ Output from the gpresult command showing applied Group Policy Objects.
 
 📸 **Checking USB Policy Application**
 
-![Ran gpresult](https://github.com/user-attachments/assets/d2cd5644-473a-43dd-a886-ce6360f7291d)
+<img width="1920" height="909" alt="Output from `gpresult`Command" src="https://github.com/user-attachments/assets/d51d5633-5ac7-49bc-9a6d-76d9209a20a3" /><br />
+
+<img width="1920" height="909" alt="Output from `gpresult`Command 1" src="https://github.com/user-attachments/assets/b3287c0d-34a4-4a59-b8e0-abfa10c4d72b" /><br />
+
+<img width="1920" height="909" alt="Output from `gpresult`Command 2" src="https://github.com/user-attachments/assets/fb01d9d8-e0ac-45cb-8f8c-45dba4734e2f" /><br />
 
 Evidence of the policy working: "Access is denied" when trying to open a USB drive.	
 

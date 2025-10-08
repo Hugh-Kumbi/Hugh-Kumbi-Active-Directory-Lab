@@ -183,4 +183,4 @@ By installing and configuring AD CS, I established a foundational internal PKI w
 ## 📁 6. Screenshot Storage
 
 All screenshots for this section can be found in:  
-📂 [`06-Screenshots/VII. Active-Directory-Certificate-Services/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Active-Directory-Certificate-Services/README.md)
+📂 [`06-Screenshots/VII. Active-Directory-Certificate-Services`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/VII.%20Active-Directory-Certificate-Services/README.md)

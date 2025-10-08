@@ -96,7 +96,7 @@ Defined specific user rights to control the actions that users and groups can pe
 
 ### 🛠️ Group Policy Settings Applied
 
-- **Log on locally:** Assigned to administrators and specific user groups
+- **Log on locally:** Assigned to administrators and domain users
 
 - **Access this computer from the network:** Restricted to necessary groups
 

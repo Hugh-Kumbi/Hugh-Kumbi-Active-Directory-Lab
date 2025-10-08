@@ -7,7 +7,7 @@ This section outlines the **Local Administrator Restrictions** to limit access a
 ## 📛 1. GPO Name
 
 - **GPO Name:** Local Administrator Restrictions Policy
-- **Linked To:** Employees OU
+- **Linked To:** hughdomain.local (domain root)
 
 This policy is configured using the **Group Policy Management Console (GPMC)** and applied at the domain level.
 

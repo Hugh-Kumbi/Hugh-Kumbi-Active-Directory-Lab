@@ -4,7 +4,7 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ---
 
-## 1. 🧭 Group Policy Management Console (GPMC)
+## 🧭 1. Group Policy Management Console (GPMC)
 
 - Local Administrator Restrictions Policy GPO applied at the domain level for all domain-joined computers.
 
@@ -14,7 +14,7 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ---
 
-## 2. 🔒 Group Policy Editor – Restricted Groups Path
+## 🔒 2. Group Policy Editor – Restricted Groups Path
 
 - Group Policy Editor showing navigation path:<br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`
@@ -31,9 +31,9 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ---
 
-## 3. 🧪 Validation – Remote Access Tests
+## 🧪 3. Validation – Remote Access Tests
 
-### a. 🖥️ Server RDP Setup
+### 🖥️ a. Server RDP Setup
 
 - Remote Desktop enabled on `WinServer2025` to allow RDP tests.  
 
@@ -47,7 +47,7 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ![Command Prompt Showing the IP Configuration Necessary for RDP Connection](https://github.com/user-attachments/assets/675f72ed-7724-48c3-a771-8cedc1fe539c)
 
-### b. 👑 Domain Admin Access
+### 👑 b. Domain Admin Access
 
 - Successful RDP login to `AD-WIN11-01` using `Domain Admin` credentials.  
 
@@ -65,7 +65,7 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ![Remote Desktop RDP Attempt for AD-Win11-02 Successful](https://github.com/user-attachments/assets/ea29dc15-c0c8-4a30-a83d-66168de564ee)
 
-### c. 🧑‍💻 Local Admin Access
+### 🧑‍💻 c. Local Admin Access
 
 - Failed RDP login attempt to `AD-WIN11-01` using `Local Admin` credentials.  
 

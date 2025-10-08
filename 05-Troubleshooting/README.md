@@ -102,7 +102,7 @@ This section of the Active Directory Lab focuses on identifying and resolving co
   - Use `nslookup` to verify SRV and A records for domain controllers.
 
 - **Clear DNS Cache:**
-- Run `ipconfig /flushdns` to clear the DNS resolver cache on clients.
+  - Run `ipconfig /flushdns` to clear the DNS resolver cache on clients.
 
 ### 📚 Reference 
 

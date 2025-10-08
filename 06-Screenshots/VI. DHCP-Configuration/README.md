@@ -108,4 +108,4 @@ This setup forms the reliable networking backbone for all subsequent services an
 ---
 
 The above image corresponds to a step described in:<br /> 
-📂 [`03-Configuration/III. DHCP-Configuration.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md)
+📂 [`03-Configuration/III. DHCP-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/III.%20DHCP-Configuration.md)

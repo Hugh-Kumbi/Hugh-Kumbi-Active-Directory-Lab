@@ -192,6 +192,6 @@ By applying these security policies:
 
 [Configure Group Policies to Set Security](https://learn.microsoft.com/en-us/troubleshoot/windows-server/group-policy/configure-group-policies-set-security)
 
-[Active Directory Security Best Practices](https://blog.netwrix.com/2023/05/04/active-directory-security-groups/)
+[Active Directory Security Best Practices](https://www.semperis.com/blog/active-directory-security/active-directory-security-best-practices-checklist/)
 
 [Group Policy Overview for Windows Server](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-overview)

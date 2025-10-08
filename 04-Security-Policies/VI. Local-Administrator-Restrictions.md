@@ -90,4 +90,4 @@ These settings restrict local administrators from accessing systems remotely and
 ## 📁 5. Screenshot Storage
 
 All screenshots for this section can be found in:<br />
-📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)
+📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XVI.%20Local-Administrator-Restrictions#readme)

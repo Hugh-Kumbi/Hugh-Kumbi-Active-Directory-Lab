@@ -25,7 +25,8 @@ This section of the Active Directory Lab focuses on identifying and resolving co
   - Analyze the report for any errors or denied GPOs.
 
 - **Check Event Viewer Logs:**
-- Navigate to 📂 `Event Viewer > Applications and Services Logs > Microsoft > Windows > GroupPolicy > Operational`
+- Navigate to:<br />
+     📂 `Event Viewer > Applications and Services Logs > Microsoft > Windows > GroupPolicy > Operational`
 - Look for warning or error events related to Group Policy processing.
 
 ### 📚 Reference 

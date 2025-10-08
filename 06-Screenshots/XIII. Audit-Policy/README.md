@@ -89,4 +89,4 @@ This section outlines the configuration and results of the Audit Policy implemen
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`04-Security-Policies/III. Audit-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)
+📂 [`04-Security-Policies/III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)

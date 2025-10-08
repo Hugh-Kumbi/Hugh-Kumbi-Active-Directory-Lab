@@ -53,11 +53,11 @@ GPO missing or misconfigured to allow RDP access to Domain Admins group.
 
 ![RDP Access Denied](https://github.com/user-attachments/assets/12745c2e-bf5c-4a8e-a41d-7a767cf172fc)
 
-📸 **GPO setting Showing Domain Admins Added To RDP Permissions**
+📸 **GPO Setting Showing Domain Admins Added to RDP Permissions**
 
 ![GPO setting Showing Domain Admins Added To RDP Permissions](https://github.com/user-attachments/assets/e31a3b6d-a423-403a-8813-782af0d30eea)
 
-📸 **Regaining RDP access After Adding Domain Admins**
+📸 **Regaining RDP Access After Adding Domain Admins**
 
 ![Regaining RDP access After Adding Domain Admins](https://github.com/user-attachments/assets/d0819674-6fa2-4f42-9274-83b793af8215)
 
@@ -86,11 +86,11 @@ gpupdate /force
 
 - Ensured WMI filtering was not used.
 
-📸 **`gpupdate` Command Output For USB Restriction**
+📸 **`gpupdate` Command Output for USB Restriction**
 
 ![Gpupdate Force Command Output For USB Restriction](https://github.com/user-attachments/assets/048cab8d-18ce-4d7a-a2d8-4e541cdfc323)
 
-**📸 Output From `gpresult`Command**
+**📸 Output from `gpresult`Command**
 
 ![Ran gpresult](https://github.com/user-attachments/assets/d2cd5644-473a-43dd-a886-ce6360f7291d)
 
@@ -116,7 +116,7 @@ Removed `Domain Users` group from:
 
 - Rebooted affected machines.
 
-**📸 GPO Showing Deny Log On Locally Setting**
+**📸 GPO Showing Deny Log on Locally Setting**
 
 ![GPO Showing Deny Log On Locally Setting](https://github.com/user-attachments/assets/f23b3f25-875a-4fbe-8f56-4626fb43e0f5)
 
@@ -137,4 +137,4 @@ Removed `Domain Users` group from:
 ## 🗂️ 5. Screenshot Storage
 
 All related troubleshooting screenshots are saved in:
-📂 [`06-Screenshots/Troubleshooting/Trust-Issue.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/X.%20Troubleshooting/Trust-Issues.md)
+📂 [`06-Screenshots/Troubleshooting`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XVII.%20TroubleShooting#readme)

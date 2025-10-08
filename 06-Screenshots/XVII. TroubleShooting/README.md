@@ -16,7 +16,7 @@ This document serves as a centralized repository for all screenshots taken durin
 
 📸 **Rejoining the Domain**
 
-![System Properties Screen Showing Domain Rejoining](https://github.com/user-attachments/assets/97892673-b001-4b4a-92b7-d3ad969f4bfd)
+<img width="1920" height="909" alt="Confirmation Screen for Successful Domain Join" src="https://github.com/user-attachments/assets/34595e5f-905f-4d74-94f6-9b89658a49c5" />
 
 ---
 
@@ -94,7 +94,9 @@ RSoP output after the fix, showing the "Deny log on locally" policy is now empty
 
 📸 **Successful Resolved Permissions**
 
-![Resultant Set of Policy (RSoP) Output Showing Resolved Permissions](https://github.com/user-attachments/assets/0a9bf0cb-e8b1-4034-910b-b3f2f9feba28)
+<img width="1920" height="909" alt="Resultant Set of Policy (RSoP) Output Showing Resolved Permissions" src="https://github.com/user-attachments/assets/31ebccb6-3586-42b2-af6c-297a2d1ebd51" /><br />
+
+<img width="1920" height="909" alt="Resultant Set of Policy (RSoP) Output Showing Resolved Permissions 1" src="https://github.com/user-attachments/assets/2fb864d8-9883-46a7-b8c2-3c18aa9db636" />
 
 ---
 Each image corresponds to a step described in: <br />

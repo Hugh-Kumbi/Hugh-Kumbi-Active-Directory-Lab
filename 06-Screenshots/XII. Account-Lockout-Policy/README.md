@@ -115,6 +115,5 @@ Reviewed the Security logs in Event Viewer to confirm policy application and mon
 
 ---
 
-# 📁 10. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+Each image corresponds to a step described in:<br />
 📂 [`04-Security-Policies/II. Account-Lockout-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md)

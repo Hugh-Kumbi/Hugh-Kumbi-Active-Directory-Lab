@@ -59,4 +59,4 @@ Each screenshot should capture the output of `gpresult /r` confirming User Right
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`04-Security-Policies/IV. User-Rights-Assignment.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/IV.%20User-Rights-Assignment.md)
+📂 [`04-Security-Policies/IV. User-Rights-Assignment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/IV.%20User-Rights-Assignment.md)

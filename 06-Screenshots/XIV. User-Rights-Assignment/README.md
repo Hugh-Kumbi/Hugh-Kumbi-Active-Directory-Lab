@@ -17,7 +17,7 @@ Screenshot of the Win11 Security Policy GPO in GPMC showing User Rights Assignme
 ## 2. Group Policy Editor – User Rights Assignment Path
   
 Group Policy Editor window showing navigation path:<br />
-  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`.
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
 
 📸 **Group Policy Editor Window Showing User Rights Path**  
 
@@ -36,7 +36,7 @@ Configured values for user rights (e.g., Log on locally, Log on as a service, et
 
 Each screenshot should capture the output of `gpresult /r` confirming User Rights Assignment application.
 
-📸 **Command Line Results from `gpresult on AD-WIN11-01`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
@@ -46,7 +46,7 @@ Each screenshot should capture the output of `gpresult /r` confirming User Right
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
 
-📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
 
@@ -58,7 +58,5 @@ Each screenshot should capture the output of `gpresult /r` confirming User Right
 
 ---
 
-## 📁 4. Screenshot Storage
-
-All screenshots related to GPOs should be saved in:<br />
+Each image corresponds to a step described in:<br />
 📂 [`04-Security-Policies/IV. User-Rights-Assignment.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/IV.%20User-Rights-Assignment.md)

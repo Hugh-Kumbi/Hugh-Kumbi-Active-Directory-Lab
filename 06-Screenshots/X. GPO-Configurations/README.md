@@ -133,4 +133,4 @@ This section showcases the structure and application of Group Policy Objects (GP
 ---
 
 Each image corresponds to a step described in: <br />
-📂 [`03-Configuration/VII. GPO-Configurations.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md)
+📂 [`03-Configuration/VII. GPO-Configurations`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VII.%20GPO-Configurations.md)

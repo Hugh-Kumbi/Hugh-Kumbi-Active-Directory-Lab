@@ -116,4 +116,4 @@ Reviewed the Security logs in Event Viewer to confirm policy application and mon
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`04-Security-Policies/II. Account-Lockout-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md)
+📂 [`04-Security-Policies/II. Account-Lockout-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md)

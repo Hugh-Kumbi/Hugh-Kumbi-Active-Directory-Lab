@@ -37,7 +37,7 @@ Path to settings:<br />
 
 ![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/9d82e1ac-04f2-4c97-be37-abdb595dc055)
 
-📸 **Advanced Audit Policy Configuration Window:**
+📸 **Advanced Audit Policy Configuration Window**
 
 <img width="1920" height="909" alt="Advanced Audit Policy Configuration Window" src="https://github.com/user-attachments/assets/8eaa0d67-de77-49cc-8505-4a4038736049" />
 

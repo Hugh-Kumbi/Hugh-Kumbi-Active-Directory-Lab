@@ -88,4 +88,4 @@ Client `AD-WIN11-02` confirming site access
 ---
 
 Each image corresponds to a step described in: <br />
-📂 [`03-Configuration/VI. IIS-Web-Server-Configuration.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VI.%20IIS-Web-Server-Configuration.md)
+📂 [`03-Configuration/VI. IIS-Web-Server-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/VI.%20IIS-Web-Server-Configuration.md)

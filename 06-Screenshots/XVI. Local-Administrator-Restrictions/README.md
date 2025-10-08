@@ -1,6 +1,6 @@
 # 👨‍💻 Local Administrator Restrictions
 
-This folder contains all screenshots related to configuring and validating the **Local Administrator Restrictions Policy** applied through Group Policy.
+This section highlights the configuration and enforcement of the domain-wide local administrator policy applied through a dedicated GPO named Local Administrator Restrictions Policy. The goal was to limit access and control for local administrators across all machines in the domain.
 
 ---
 
@@ -8,7 +8,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 ## 1. Group Policy Management Console (GPMC)
 
-- Screenshot of the "Local Administrator Restrictions Policy" GPO in GPMC.
+- Local Administrator Restrictions Policy GPO applied at the domain level for all domain-joined computers.
 
 📸 **GPMC Showing Local Administrator Restrictions GPO**
 
@@ -19,7 +19,7 @@ This folder contains all screenshots related to configuring and validating the *
 ## 2. Group Policy Editor – Restricted Groups Path
 
 - Group Policy Editor showing navigation path:<br />
-📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`.
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Restricted Groups`
 
 📸 **GPO Restricted Groups Path**
 
@@ -49,7 +49,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 ![Command Prompt Showing the IP Configuration Necessary for RDP Connection](https://github.com/user-attachments/assets/675f72ed-7724-48c3-a771-8cedc1fe539c)
 
-### b. Domain Admin Access (Expected: ✅ Success)
+### b. Domain Admin Access
 
 - Successful RDP login to `AD-WIN11-01` using `Domain Admin` credentials.  
 
@@ -67,7 +67,7 @@ This folder contains all screenshots related to configuring and validating the *
 
 ![Remote Desktop RDP Attempt for AD-Win11-02 Successful](https://github.com/user-attachments/assets/ea29dc15-c0c8-4a30-a83d-66168de564ee)
 
-### c. Local Admin Access (Expected: ❌ Denied)
+### c. Local Admin Access
 
 - Failed RDP login attempt to `AD-WIN11-01` using `Local Admin` credentials.  
 
@@ -91,7 +91,5 @@ This folder contains all screenshots related to configuring and validating the *
 
 ---
 
-## 📁 4. Screenshot Storage
-
-All screenshots related to this section should be stored in:
+Each image corresponds to a step described in:
 📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)

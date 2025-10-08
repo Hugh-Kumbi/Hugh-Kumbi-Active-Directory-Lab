@@ -17,7 +17,7 @@ Confirms that the Password Policy GPO is linked at the domain level, ensuring un
 ## 2. 📜 Group Policy Editor Window Showing the Password Policy Path
 
 I navigated to:<br />
-📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy.`
+📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 📸 **Password Policy Configuration Path**
 

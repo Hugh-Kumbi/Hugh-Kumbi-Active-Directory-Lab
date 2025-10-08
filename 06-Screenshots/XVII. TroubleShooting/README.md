@@ -80,13 +80,13 @@ The problematic GPO setting with "Domain Users" in the "Deny log on locally" pol
 
 📸 **Checking Deny Log on Locally Settings**
 
-![GPO Showing Deny Log On Locally Setting](https://github.com/user-attachments/assets/f23b3f25-875a-4fbe-8f56-4626fb43e0f5)
+<img width="1920" height="909" alt="Checking Deny Log on Locally Settings" src="https://github.com/user-attachments/assets/bc34d5fe-f297-4e4b-b0f1-eef96598767c" /><br />
 
 RSoP output showing the unresolved permissions and the source of the "Deny" policy.	
 
 📸 **Checking Unresolved Permissions**
 
-![Resultant Set of Policy (RSoP) Output Showing Unresolved Permissions](https://github.com/user-attachments/assets/2a720ab1-39da-446d-a1a3-c261d7c1c5d3)
+<img width="1920" height="909" alt="Checking Unresolved Permissions" src="https://github.com/user-attachments/assets/a1899cfe-8559-46a5-b908-2c2d6ba6e7d2" />
 
 The "Sign-in is disabled" error message a user would see on the logon screen.	
 

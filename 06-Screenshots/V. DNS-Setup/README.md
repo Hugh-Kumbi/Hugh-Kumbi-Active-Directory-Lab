@@ -165,4 +165,4 @@ This section documents the DNS setup and verification process that supports the 
 ---
 
 Each image corresponds to a step described in:<br />
-[`📂 03-Configuration/DNS-Setup.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/II.%20DNS-Setup.md)
+[`📂 03-Configuration/DNS-Setup`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/03-Configuration/II.%20DNS-Setup.md)

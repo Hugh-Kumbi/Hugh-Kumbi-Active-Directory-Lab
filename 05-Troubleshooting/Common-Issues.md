@@ -28,7 +28,7 @@ Corrupted trust relationship between the domain controller and the client.
 
 📸 **System Properties Screen Showing Domain Rejoining**
 
-![System Properties Screen Showing Domain Rejoining](https://github.com/user-attachments/assets/97892673-b001-4b4a-92b7-d3ad969f4bfd)
+<img width="1920" height="909" alt="Confirmation Screen for Successful Domain Join" src="https://github.com/user-attachments/assets/a9adcb06-3426-479a-b2fa-fefe2ec2581c" />
 
 ---
 
@@ -130,7 +130,9 @@ Removed `Domain Users` group from:
 
 **📸 Resultant Set of Policy (RSoP) Output Showing Resolved Permissions**
 
-![Resultant Set of Policy (RSoP) Output Showing Resolved Permissions](https://github.com/user-attachments/assets/0a9bf0cb-e8b1-4034-910b-b3f2f9feba28)
+<img width="1920" height="909" alt="Resultant Set of Policy (RSoP) Output Showing Resolved Permissions" src="https://github.com/user-attachments/assets/31ebccb6-3586-42b2-af6c-297a2d1ebd51" /><br />
+
+<img width="1920" height="909" alt="Resultant Set of Policy (RSoP) Output Showing Resolved Permissions 1" src="https://github.com/user-attachments/assets/2fb864d8-9883-46a7-b8c2-3c18aa9db636" />
 
 ---
 

@@ -60,7 +60,7 @@ These settings ensure that Windows Defender is active, real-time protection is e
 
 ![Join Microsoft MAPS](https://github.com/user-attachments/assets/5a5bf971-fd82-41b5-82ae-b3f6843f495d)
 
-📸 **Send File Samples When Further Analysis is Required**
+📸 **Send File Samples when Further Analysis is Required**
 
 ![Send File Samples When Further Analysis is Required](https://github.com/user-attachments/assets/9693b41f-1d80-4026-9c5e-8348080cb561)
 

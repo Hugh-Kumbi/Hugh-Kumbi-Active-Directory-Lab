@@ -104,4 +104,4 @@ Validates that the Password Policy GPO has replicated successfully across all do
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`04-Security-Policies/I. Password Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md)
+📂 [`04-Security-Policies/I. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md)

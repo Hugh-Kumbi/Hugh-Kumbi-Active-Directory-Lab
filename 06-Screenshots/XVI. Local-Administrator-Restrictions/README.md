@@ -89,5 +89,5 @@ This section highlights the configuration and enforcement of the domain-wide loc
 
 ---
 
-Each image corresponds to a step described in:
+Each image corresponds to a step described in:<br />
 📂 [`04-Security-Policies/VI. Local-Administrator-Restrictions.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/VI.%20Local-Administrator-Restrictions.md)

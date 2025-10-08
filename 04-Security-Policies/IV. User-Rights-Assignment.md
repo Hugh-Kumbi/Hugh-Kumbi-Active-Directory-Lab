@@ -60,7 +60,7 @@ These rights control the ability of users or groups to log on to the system, run
 gpresult /r
 ```
 
-📸 **Command Line Results from `gpresult on AD-WIN11-01`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01" src="https://github.com/user-attachments/assets/18ddef13-7d98-464b-a832-1368df0658b5" /><br />
 
@@ -70,7 +70,7 @@ gpresult /r
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-01 3" src="https://github.com/user-attachments/assets/d2e04722-49aa-4918-b633-ecd2af19358b" /><br />
 
-📸 **Command Line Results from `gpresult on AD-WIN11-02`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results from gpresult on AD-WIN11-02" src="https://github.com/user-attachments/assets/6ec30dd0-7908-475a-a7fc-b8ee47fddd79" /><br />
 

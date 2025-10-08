@@ -92,7 +92,11 @@ gpupdate /force
 
 **📸 Output from `gpresult`Command**
 
-![Ran gpresult](https://github.com/user-attachments/assets/d2cd5644-473a-43dd-a886-ce6360f7291d)
+<img width="1920" height="909" alt="Output from `gpresult`Command" src="https://github.com/user-attachments/assets/d51d5633-5ac7-49bc-9a6d-76d9209a20a3" /><br />
+
+<img width="1920" height="909" alt="Output from `gpresult`Command 1" src="https://github.com/user-attachments/assets/b3287c0d-34a4-4a59-b8e0-abfa10c4d72b" /><br />
+
+<img width="1920" height="909" alt="Output from `gpresult`Command 2" src="https://github.com/user-attachments/assets/fb01d9d8-e0ac-45cb-8f8c-45dba4734e2f" /><br />
 
 **📸 USB Restriction Policy Successfully Implemented**
 
@@ -118,11 +122,11 @@ Removed `Domain Users` group from:
 
 **📸 GPO Showing Deny Log on Locally Setting**
 
-![GPO Showing Deny Log On Locally Setting](https://github.com/user-attachments/assets/f23b3f25-875a-4fbe-8f56-4626fb43e0f5)
+<img width="1920" height="909" alt="Checking Deny Log on Locally Settings" src="https://github.com/user-attachments/assets/bc34d5fe-f297-4e4b-b0f1-eef96598767c" /><br />
 
 **📸 Resultant Set of Policy (RSoP) Output Showing Unresolved Permissions**
 
-![Resultant Set of Policy (RSoP) Output Showing Unresolved Permissions](https://github.com/user-attachments/assets/2a720ab1-39da-446d-a1a3-c261d7c1c5d3)
+<img width="1920" height="909" alt="Checking Unresolved Permissions" src="https://github.com/user-attachments/assets/a1899cfe-8559-46a5-b908-2c2d6ba6e7d2" />
 
 **📸 Logon Access Denied Because Deny Logon Setting**
 

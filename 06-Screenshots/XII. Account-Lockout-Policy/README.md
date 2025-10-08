@@ -1,6 +1,6 @@
 # 🔒 Account Lockout Policy (Domain GPO)
 
-This portion documents the domain-wide Account Lockout Policy configuration, which is integrated into the same Win11 Security Policy GPO linked to the domain.
+This portion documents the domain-wide Account Lockout Policy configuration, which is implemented under the Account Lockout Policy linked to the domain.
 
 ---
 
@@ -8,7 +8,7 @@ This portion documents the domain-wide Account Lockout Policy configuration, whi
 
 - Confirms that the Account Lockout Policy GPO is applied at the domain level and includes lockout policy settings to protect user accounts from brute-force attacks.
 
-📸 **GPMC Showing the Account Lockout Policy GPO and its Link to the Domain`**
+📸 **GPMC Showing the Account Lockout Policy GPO and its Link to the Domain**
 
 <img width="1920" height="909" alt="GPMC Showing the Account Lockout Policy GPO and Its Link to the Domain 1" src="https://github.com/user-attachments/assets/2d8a9af5-3638-4641-8f54-eb57234255f4" />
 
@@ -17,7 +17,7 @@ This portion documents the domain-wide Account Lockout Policy configuration, whi
 ## 2. Group Policy Editor Window Showing the Password Policy Path
 
 - Highlights the configuration path:<br />
-  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`.
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 📸 **Group Policy Editor Window Showing the Password Policy Path**
 
@@ -67,13 +67,13 @@ Applied security filtering to Authenticated users for the lockout policy.
 
 ## 6. Results from `gpupdate` Command
 
-Ran the gpupdate /force command to refresh policies on a domain-joined Windows 11 client.
+Ran the `gpupdate /force` command to refresh policies on a domain-joined Windows 11 clients.
 
-**📸 Command Line Results from `gpupdate on AD-WIN11-01`**
+**📸 Command Line Results from `gpupdate` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Output From `gpupdate` Command for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/150efea1-bd50-48ee-8cb2-f50f14cf3228" /><br />
 
-**📸 Command Line Results from `gpupdate on AD-WIN11-02`**
+**📸 Command Line Results from `gpupdate` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="GPUPDATE After Account Lockout Policy Implementation AD-WIN11-01" src="https://github.com/user-attachments/assets/0306e7bd-c378-43c2-a5e1-008bf7cbb2a9" />
 
@@ -81,15 +81,15 @@ Ran the gpupdate /force command to refresh policies on a domain-joined Windows 1
 
 ## 7. Results from `gpresult` Command
 
-Used gpresult /r to confirm the policy was applied and view its scope.
+Used `gpresult /r` to confirm the policy was applied and view its scope.
 
-**📸 Command Line Results from `gpresult on AD-WIN11-01`**
+**📸 Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01`" src="https://github.com/user-attachments/assets/ecec1152-fad3-4afb-8487-ac1fbb74d37c" /><br />
 
 <img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-01` 1" src="https://github.com/user-attachments/assets/b346c696-5532-4a15-bc93-2340a151771c" /><br />
 
-**📸 Command Line Results from `gpresult on AD-WIN11-02`**
+**📸 Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Showing `gpresult` Output for `AD-WIN11-02`" src="https://github.com/user-attachments/assets/45cb96cd-7407-4181-b0f9-b6eaf40df694" /><br />
 

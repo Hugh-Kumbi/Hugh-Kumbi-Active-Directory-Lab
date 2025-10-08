@@ -17,7 +17,7 @@ This section outlines the configuration and results of the Audit Policy implemen
 **2. Group Policy Editor Window Showing the Audit Policy Configuration Window**
 
 - Displays traditional audit policy paths under:<br />
-  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Audit Policy`.
+  📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Audit Policy`
 
 📸 **Group Policy Editor Window**
 
@@ -28,7 +28,7 @@ This section outlines the configuration and results of the Audit Policy implemen
 **3. Advanced Audit Policy Configuration Window**
 
 - Shows detailed configuration of fine-grained audit categories under:<br />
-  📂 `Computer Configuration > Policies > Windows Settings > Advanced Audit Policy Configuration`.
+  📂 `Computer Configuration > Policies > Windows Settings > Advanced Audit Policy Configuration`
 
 📸 **Advanced Audit Policy Configuration**
 
@@ -88,6 +88,5 @@ This section outlines the configuration and results of the Audit Policy implemen
 
 ---
 
-# 📁 6. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+Each image corresponds to a step described in:<br />
 📂 [`04-Security-Policies/III. Audit-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)

@@ -29,7 +29,7 @@ To create a backup of **all Group Policy Objects** in the domain:
 
 <img width="1920" height="909" alt="Context Menu Showing 'Back Up All' Option" src="https://github.com/user-attachments/assets/04bfa784-43d4-4383-a72e-7a563973bf7d" /><br />
 
-3. In the backup dialog, I specified the location for the backup files (e.g., `F:\CHEEE\Administrator`) and added a description to help identify the backup.
+3. In the backup dialog, I specified the location for the backup files (i.e., `F:\CHEEE\Administrator`) and added a description to help identify the backup.
 
 4. I clicked the **Back Up** button to start the process.
 
@@ -57,7 +57,7 @@ To create a backup of **all Group Policy Objects** in the domain:
 
 ## ✅ 5. Verification
 
-After completing the backup, I navigated to the target folder (`C:\Users\Administrator\Documents\GPO Backup`) to confirm the presence of the `.bak` files.
+After completing the backup, I navigated to the target folder (`F:\CHEEE\Administrator`) to confirm the presence of the `.bak` files.
 
 I also tested the restoration of one GPO on a non-production policy to verify that the backup process worked as intended.
 
@@ -70,5 +70,5 @@ I also tested the restoration of one GPO on a non-production policy to verify th
 ---
 
 # 📁 6. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/XVIII. GPO-Backup-Export`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XVIII.%20GPO-Backup-Export)

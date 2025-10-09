@@ -37,5 +37,5 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 
 ## 📁 5. Screenshot Storage
 
-Screenshots for this section should be saved in:<br /> 
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/XII. Account-Lockout-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XII.%20Account-Lockout-Policy)

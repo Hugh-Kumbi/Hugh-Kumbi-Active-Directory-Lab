@@ -4,7 +4,7 @@ This section covers the configuration of essential Group Policy settings within 
 
 ---
 
-## 1. 📜 Accessing Group Policy Management Console (GPMC)
+## 📜 1. Accessing Group Policy Management Console (GPMC)
 
 Opened the GPMC and navigated to the GPOs to configure important settings, including security and system policies.
 
@@ -16,7 +16,7 @@ Opened the GPMC and navigated to the GPOs to configure important settings, inclu
 
 ---
 
-## 2. 🛡️ Configuring Security Settings in GPO
+## 🛡️ 2. Configuring Security Settings in GPO
 
 Security settings are critical for enforcing security policies such as password policies, account lockout policies, and audit policies. This step focuses on configuring those essential settings.
 
@@ -176,7 +176,7 @@ Security settings are critical for enforcing security policies such as password 
 
 ---
 
-## 3. ⚙️ Configuring System Settings in GPO
+## ⚙️ 3. Configuring System Settings in GPO
 
 System settings, including user rights assignment and system services, play a pivotal role in maintaining a secure and stable environment. This section covers the process of configuring these settings.
 
@@ -455,7 +455,7 @@ System settings, including user rights assignment and system services, play a pi
 
 ---
 
-## 4. ✅ Verifying GPO Settings Application
+## ✅ 4. Verifying GPO Settings Application
 
 After configuring important settings, it's crucial to verify that the GPO is applied correctly across the domain. This includes using tools like gpresult to confirm the settings.
 
@@ -469,7 +469,7 @@ After configuring important settings, it's crucial to verify that the GPO is app
 
 ---
 
-## 5. 🔄 Command Line Results from `gpupdate`
+## 🔄 5. Command Line Results from `gpupdate`
 
 Running the gpupdate command ensures the latest policies are refreshed on the target system, confirming the updated GPO settings.
 
@@ -483,7 +483,7 @@ Running the gpupdate command ensures the latest policies are refreshed on the ta
 
 ---
 
-## 6. 💻 Command Line Results from `gpresult`
+## 💻 6. Command Line Results from `gpresult`
 
 The gpresult command provides a detailed report on which GPOs have been applied to the machine, including any policy conflicts or overrides.
 
@@ -505,6 +505,5 @@ The gpresult command provides a detailed report on which GPOs have been applied 
 
 ---
 
-# 📁 7. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+Each image corresponds to a step described in:<br />
 📂 [`07-GPO-Security-Policies/V. GPO-Important-Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/V.%20GPO-Important-Settings.md)

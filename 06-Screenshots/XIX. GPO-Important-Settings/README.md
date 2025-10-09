@@ -506,4 +506,4 @@ The gpresult command provides a detailed report on which GPOs have been applied 
 ---
 
 Each image corresponds to a step described in:<br />
-📂 [`07-GPO-Security-Policies/V. GPO-Important-Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/V.%20GPO-Important-Settings.md)
+📂 [`07-GPO-Security-Policies/V. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/V.%20GPO-Important-Settings.md)

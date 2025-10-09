@@ -18,7 +18,6 @@ This document explains how I configured **drive mappings via Group Policy** to p
 ## 🛠️ 2. Policy Settings
 
 I used the **Group Policy Preferences** feature for drive mappings:
-
   📂 `User Configuration > Preferences > Windows Settings > Drive Maps`
 
 ### ➕ New Mapped Drive:
@@ -90,5 +89,5 @@ To test the setup:
 
 ## 🗂️ 5. Screenshot Storage
 
-Save all related screenshots in:<br /> 
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/XXI. Drive-Mappings-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXI.%20Drive-Mappings-Settings)

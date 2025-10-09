@@ -30,7 +30,7 @@ These settings are configured under:
 
   📂 `Computer Configuration → Windows Settings → Security Settings → Account Policies → Password Policy`
 
-Detailed configurations can be found in the [`I. Password Policy` file](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md).
+Detailed configurations can be found in the [`I. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md) file.
 
 ---
 

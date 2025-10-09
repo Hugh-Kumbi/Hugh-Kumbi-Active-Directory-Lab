@@ -439,5 +439,5 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ## 16. 🗂️ Screenshot Storage
 
-All related troubleshooting screenshots are saved in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/XIX. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIX.%20GPO-Important-Settings)

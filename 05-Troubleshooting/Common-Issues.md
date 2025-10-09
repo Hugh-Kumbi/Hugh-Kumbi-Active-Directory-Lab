@@ -142,5 +142,5 @@ Removed `Domain Users` group from:
 
 ## 🗂️ 5. Screenshot Storage
 
-All related troubleshooting screenshots are saved in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/Troubleshooting`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XVII.%20TroubleShooting#readme)

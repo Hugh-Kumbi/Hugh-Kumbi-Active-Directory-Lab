@@ -9,7 +9,7 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 ## 🛠️ 2. GPO Details
 
 - **GPO Name:** Account Lockout Policy
-- **Scope:** Applied at the domain level.
+- **Scope:** Applied at the domain level to ensure all users comply.
 
 ---
 
@@ -22,7 +22,7 @@ To prevent brute-force logon attempts by locking user accounts after a set numbe
 | **Allow Administrator account lockout**     | Disabled      |
 | **Reset account lockout counter after**     | 10 minutes    |
 
-**📸 Account Lockout Policy Showing Each Individual Setting With Values Applied**
+**📸 Account Lockout Policy Showing each Individual Setting with Values Applied**
 
 ![Account Lockout Policy Showing Each Individual Setting With Values Applied](https://github.com/user-attachments/assets/6653c503-86e7-464d-9cdf-86636220644d)
 

@@ -79,11 +79,11 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 
 <img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `Tech User1`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties on `AD-WIN11-01` for `Tech User1`**
 
 <img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `TechUser1`" src="https://github.com/user-attachments/assets/872354c2-8b70-42af-aa3f-7d4eea9352d0" /><br />
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `Tech User2`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties on `AD-WIN11-02` for `Tech User2`**
 
 <img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `TechUser2`" src="https://github.com/user-attachments/assets/46d9c759-c137-4fcf-8999-06dae031a234" /><br />
 
@@ -98,7 +98,7 @@ This section explains how I implemented **Folder Redirection** via Group Policy 
 Created the following folder on the server to hold user files:  
 
 ```
-C:\FolderFolder$
+C:\FolderRedirection
 ```
 
 Then shared it with proper permissions:
@@ -156,5 +156,5 @@ To test the policy:
 
 ## 🗂️ 5. Screenshot Storage
 
-Store all screenshots in:
+All screenshots for this section can be found in:
 📂 [`06-Screenshots/XX. Folder-Redirection Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XX.%20Folder-Redirection%20Settings)

@@ -1,16 +1,16 @@
 # 🔧 Drive Mappings Settings
 
-This section explains the **Drive Mappings** settings available within Group Policy, allowing administrators to map network drives to specific users or groups.
+Having configured the **Drive Mappings policy** within Group Policy, I can confirm that the designated network drives are now being correctly and consistently assigned to the targeted users and groups upon login.
 
-This section describes the configuration of **Drive Mapping**s using Group Policy, ensuring that network drives are correctly assigned and mapped to user systems.
+The settings were straightforward to implement, allowing me to define the drive letters, network paths, and security group filtering to ensure the mappings are applied as intended across the user base.
 
 ---
 
 ## 1. 🗺️ Drive Mappings Overview
 
-Drive Mappings allow administrators to assign network drives to users or groups based on Group Policy, ensuring that users have access to shared resources upon login.
+Having now deployed the Drive Mappings policy, I can confirm it successfully assigns the required network drives to users based on their group membership. This ensures all users have immediate and consistent access to their designated shared resources as soon as they log in.
 
-📸 **Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU**
+📸 **Group Policy Management Console Showing Drive Mappings Policy under the ITSecurity OU**
 
 <img width="1920" height="909" alt="Group Policy Management Console Showing Drive Mappings Policy Under the ITSecurity OU" src="https://github.com/user-attachments/assets/263cbd1a-7a0b-4eb0-b27b-6e06ba78d26f" /><br /> 
 
@@ -22,7 +22,7 @@ Drive Mappings allow administrators to assign network drives to users or groups 
 
 ## 2. 🔗Configuring Group Policy Preferences for Drive Mappings
 
-Drive mappings can be configured through Group Policy Preferences, providing additional flexibility and options compared to traditional Group Policy settings. This includes options for creating, updating, or deleting mapped drives.
+Having completed the configuration, I utilized Group Policy Preferences for the drive mappings, which provided the superior flexibility needed. This allowed me to define precise actions—such as creating new mappings, updating existing ones, and replacing outdated connections—ensuring a clean and consistent state for all user drive connections.
 
 📸 **Drive Mappings Overview**
 
@@ -34,7 +34,7 @@ Drive mappings can be configured through Group Policy Preferences, providing add
 
 ## 3. 👨‍💻 Configuring Drive Mapping via Group Policy
 
-The Drive Mappings setting within Group Policy allows administrators to assign network drives to specific user groups or Organizational Units (OUs).
+Having configured the Drive Mappings within Group Policy, I successfully assigned the required network drives by linking the policy to specific Organizational Units. This ensures that users in those OUs now have their designated drives mapped automatically upon login.
 
 📸 **Configuring Drive Mapping via Group Policy**
 
@@ -46,7 +46,7 @@ The Drive Mappings setting within Group Policy allows administrators to assign n
 
 ## 4. ➕ Drive Mapping Actions: Create, Update, or Delete
 
-The Action setting allows administrators to specify whether a drive mapping should be created, updated, or deleted. This is useful for maintaining or removing mappings as users' needs evolve.
+By configuring the **Action** setting, I was able to precisely control the lifecycle of each network drive. For new requirements, I set the action to **Create**. For existing drives that needed their paths modified, I used **Update**. Finally, to retire old or unused drives, I applied the **Delete** action, which successfully removed them from user profiles.
 
 📸 **Drive Mapping Actions: Create, Update, or Delete**
 
@@ -58,7 +58,7 @@ The Action setting allows administrators to specify whether a drive mapping shou
 
 ## 5. 🔧 Configuring Drive Mapping to Use Specific Conditions
 
-Drive mappings can be configured to be applied based on conditions, such as the user’s location, operating system version, or group membership, providing targeted and flexible network drive assignments.
+Having deployed the policy, I leveraged the item-level targeting options to apply drive mappings based on specific conditions. This allowed me to, for instance, map a department-specific drive only for users in the "IT" security group, and a software repository drive only for devices running Windows 11, ensuring a highly targeted and flexible configuration.
 
 📸 **Configuring Drive Mapping to Use Specific Conditions**
 
@@ -74,7 +74,7 @@ Drive mappings can be configured to be applied based on conditions, such as the 
 
 ## 6. 🗄️ Setting Drive Letter and Network Path
 
-When configuring a drive mapping, specify the Drive Letter (e.g., Z: & S:) and the Network Path (e.g., `\\WINSERVER2025\ITSecurity Shared Drive` & `\\WINSERVER2025\DepartmentalShares`), ensuring that the correct path is available for users.
+For each mapped drive, I specified the exact **Drive Letter** and corresponding **Network Path**. For example, I mapped drive `S:` to `\\WINSERVER2025\ITSecurity Shared Drive` for the security team, and drive `Z:` to `\\WINSERVER2025\DepartmentalShares` for general department use. I first verified that each network path was accessible and had the correct permissions before finalizing the policy.
 
 📸 **Setting Drive Letter and Network Path**
 
@@ -84,7 +84,7 @@ When configuring a drive mapping, specify the Drive Letter (e.g., Z: & S:) and t
 
 ## 7. ⚙️ Configuring Reconnection Settings
 
-The Reconnect option ensures that the network drive is automatically reconnected each time the user logs in, providing seamless access to shared resources.
+Having enabled the **Reconnect** option for each mapped drive, I have confirmed that the connections are now automatically restored for users at every login. This provides seamless, persistent access to their shared network resources without any manual intervention required.
 
 📸 **Configuring Reconnection Settings**
 
@@ -96,7 +96,7 @@ The Reconnect option ensures that the network drive is automatically reconnected
 
 ## 8. 👥 Setting Drive Mapping for Specific User Groups
 
-Drive mappings can be set for specific user groups or Organizational Units (OUs) to ensure that only users who belong to certain groups have access to particular network drives.
+By linking the Group Policy Object to specific Organizational Units and applying security group filtering, I successfully targeted the drive mappings. This ensured that only authorized users in the "IT" OU, for example, received their dedicated departmental drive, while the other groups received theirs, maintaining strict access control.
 
 📸 **Setting Drive Mapping for Specific User Groups**
 
@@ -112,7 +112,7 @@ Drive mappings can be set for specific user groups or Organizational Units (OUs)
 
 ## 9. 🔗 Applying Drive Mappings Using Security Filtering
 
-Use Security Filtering to apply drive mappings only to specific users or groups, providing granular control over who receives which mapped drives.
+Having completed the configuration, I used **Security Filtering** on the GPO to apply the drive mappings with precision. By specifying the relevant security groups (e.g., "ITSecurity"), I ensured that only authorized users and computers receive the intended mapped drives, providing the granular control we required.
 
 📸 **Applying Drive Mappings Using Security Filtering**
 
@@ -124,7 +124,7 @@ Use Security Filtering to apply drive mappings only to specific users or groups,
 
 ## 10. ✅ Verifying Drive Mapping on Client Machines
 
-Once configured, verify that the drive mappings are applied correctly by checking the This PC window or using the net use command.
+Following the configuration, I verified the drive mappings were applied correctly by having test users log in. A quick check in their **This PC** window confirmed the presence of the new network drives (e.g., S: and Z:), and running the `net use` command from the command line provided a successful command-line confirmation of the persistent connections.
 
 📸 **Verifying Drive Mapping on `AD-Win11-01` for `Tech User 1`**
 
@@ -162,7 +162,7 @@ Once configured, verify that the drive mappings are applied correctly by checkin
 
 ## 11. 🖥️ Command Line Results from `gpupdate`
 
-Use the gpupdate command to refresh Group Policy settings on client machines, ensuring that drive mappings are updated.
+Following the policy configuration, I executed the `gpupdate /force` command on the client machines. This successfully refreshed the Group Policy settings, ensuring the new and updated drive mappings were applied immediately without requiring a user logout.
 
 📸 **Command Line Results from `gpupdate`  on `AD-WIN11-01`**
 
@@ -176,7 +176,7 @@ Use the gpupdate command to refresh Group Policy settings on client machines, en
 
 ## 12. 🖥️ Command Line Results From `gpresult`
 
-Verify the drive mappings using the gpresult command, ensuring that the correct network drives are being mapped for the user.
+After the policy refresh, I used the `gpresult /r` and `gpresult /h` commands to generate detailed reports. The output confirmed that the correct Drive Mapping policy was being applied to the user, verifying that the intended network drives were successfully mapped.
 
 📸 **Command Line Results From `gpresult` on `AD-WIN11-01`**
 
@@ -198,6 +198,6 @@ Verify the drive mappings using the gpresult command, ensuring that the correct 
 
 ## 🗂️ 13. Screenshot Storage
 
-Store all related images in:<br /> 
+All screenshots for this section can be found in:<br /> 
 📂 [`08-User-Environment-Management/III. Drive-Mappings-Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/III.%20Drive-Mappings-Settings.md)
 📂 [`08-User-Environment-Management/IV. Drive-Mappings-Config.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IV.%20Drive-Mappings-Config.md)

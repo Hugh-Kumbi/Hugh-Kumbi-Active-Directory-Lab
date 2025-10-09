@@ -85,11 +85,11 @@ To verify the configuration:
 2. Created test documents in the **Documents** folder.
 3. Checked that the files were successfully redirected to `\\WINSERVER2025\FileShares\mguzha` & `\\WINSERVER2025\FileShares\lguzha`.
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01` for `mguzha`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties on `AD-WIN11-01` for `mguzha`**
 
 <img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-01 for mguzha`" src="https://github.com/user-attachments/assets/3372b6b8-eb3e-4a34-8eb8-b7487fd14c64" /><br />
 
-📸 **Client Side Documents Folder Showing the Redirected Location in Properties for `AD-WIN11-02` for `lguzha`**
+📸 **Client Side Documents Folder Showing the Redirected Location in Properties on `AD-WIN11-02` for `lguzha`**
 
 <img width="1920" height="909" alt="Client Side Documents Folder Showing the Redirected Location in Properties for AD-WIN11-02 for lguzha" src="https://github.com/user-attachments/assets/ed0840c8-2d02-4814-89ad-1d20c99a64f5" /><br />
 

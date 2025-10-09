@@ -7,7 +7,7 @@ To track and monitor critical security events such as logons, account management
 
 ## 🛠️ 2. GPO Details
 - **GPO Name:** Audit Policy
-- **Scope:** Domain-wide
+- **Scope:** Applied at the domain level to ensure all users comply.
 
 ---
 
@@ -24,7 +24,7 @@ To track and monitor critical security events such as logons, account management
 | **Privilege Use**          | Sensitive Privilege Use             | Success, Failure  |
 | **System**                 | Security System Extension           | Success, Failure  |
 
-## 📸 Audit Policy Configuration Window
+📸 **Audit Policy Configuration Window**
 
 ![Group Policy Editor Window Showing the Audit Policy Configuration Window](https://github.com/user-attachments/assets/9d82e1ac-04f2-4c97-be37-abdb595dc055)
 
@@ -38,5 +38,5 @@ To track and monitor critical security events such as logons, account management
 
 ## 📁 5. Screenshot Storage
 
-Screenshots for this section should be saved in:  
-📂 [`04-Security-Policies/III. Audit-Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)
+All screenshots for this section can be found in:  
+📂 [`04-Security-Policies/III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)

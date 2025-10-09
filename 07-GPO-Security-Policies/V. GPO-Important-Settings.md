@@ -26,7 +26,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🚫 2. Account Lockout Policies
+### 🚫 Account Lockout Policies
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
@@ -43,7 +43,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-### 👤 3. User Rights Assignment
+### 👤 User Rights Assignment
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
@@ -67,7 +67,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🛡️ 4. Security Options
+### 🛡️ Security Options
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
@@ -94,9 +94,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🦠 5. Windows Defender Settings
+### 🦠 Windows Defender Settings
 
-### 🛡️ Microsoft Defender Antivirus
+#### 🛡️ Microsoft Defender Antivirus
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
@@ -137,7 +137,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🔥 6. Windows Defender Firewall
+### 🔥 Windows Defender Firewall
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
@@ -162,7 +162,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🖥️ 7. Desktop and Start Menu Settings
+## 🖥️ 2. Desktop and Start Menu Settings
 
 ### 🖼️ Desktop Settings
 
@@ -200,9 +200,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🔄 8. Windows Update Settings
+### 🔄 Windows Update Settings
 
-### 🔧 Windows Update for Business
+#### 🔧 Windows Update for Business
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update > Windows Update for Business`
@@ -230,9 +230,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🌐 9. Internet Explorer and Microsoft Edge
+### 🌐 Internet Explorer and Microsoft Edge
 
-### 🌎 Microsoft Edge Settings
+#### 🌎 Microsoft Edge Settings
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Microsoft Edge`
@@ -276,9 +276,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🧩 10. Administrative Templates
+### 🧩 Administrative Templates
 
-### ⚙️ Control Panel
+#### ⚙️ Control Panel
 
 **Path:** <br />
 📂 `User Configuration > Policies > Administrative Templates > Control Panel`
@@ -289,7 +289,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 <img width="1920" height="909" alt="Control Panel Settings" src="https://github.com/user-attachments/assets/85c149ad-c09f-449a-9e5b-5f0a21ccca53" /><br />
 
-### 💻 System
+#### 💻 System
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > System`
@@ -306,7 +306,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![System Settings 1](https://github.com/user-attachments/assets/74d8674a-d2b7-48a3-83d7-4fdf28a67fee)
 
-### 🌐 Network
+#### 🌐 Network
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Network`
@@ -320,7 +320,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🔋 11. Power Management
+#### 🔋 Power Management
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
@@ -340,9 +340,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🏢 12. Corporate Compliance Settings
+### 🏢 Corporate Compliance Settings
 
-### 🛡️ Data Loss Prevention
+#### 🛡️ Data Loss Prevention
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > File Explorer`
@@ -363,7 +363,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ![Data Loss Prevention Settings 3](https://github.com/user-attachments/assets/a31973ec-13c1-4747-8507-0fd04558ca1a)
 
-### 🔐 BitLocker Drive Encryption
+#### 🔐 BitLocker Drive Encryption
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > BitLocker Drive Encryption`
@@ -387,9 +387,9 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 📦 13. Application Control
+### 📦 Application Control
 
-### 📋 AppLocker
+#### 📋 AppLocker
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
@@ -409,7 +409,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 📁 14. App Package Deployment
+### 📁 App Package Deployment
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
@@ -423,7 +423,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🔧 15. Device Installation
+### 🔧 Device Installation
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
@@ -437,7 +437,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 16. 🗂️ Screenshot Storage
+## 3. 🗂️ Screenshot Storage
 
 All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/XIX. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIX.%20GPO-Important-Settings)

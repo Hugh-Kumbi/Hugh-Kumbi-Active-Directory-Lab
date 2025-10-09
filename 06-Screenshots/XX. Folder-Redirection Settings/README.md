@@ -296,6 +296,6 @@ The gpresult command is used to verify which policies, including folder redirect
 
 ## 🗂️ 13. Screenshot Storage
 
-Store all screenshots in:<br />
+Each image corresponds to a step described in:<br />
 📂 [`08-User-Environment-Management/I. User Folder-Redirection Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/I.%20User%20Folder-Redirection%20Settings.md)<br />
 📂 [`08-User-Environment-Management/II. Folder-Redirection Properties.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/II.%20Folder-Redirection%20Properties.md)

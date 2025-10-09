@@ -38,5 +38,5 @@ To track and monitor critical security events such as logons, account management
 
 ## 📁 5. Screenshot Storage
 
-All screenshots for this section can be found in:  
-📂 [`04-Security-Policies/III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)
+All screenshots for this section can be found in: <br /> 
+  📂 [`06-Screenshots/XIII. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIII.%20Audit-Policy)

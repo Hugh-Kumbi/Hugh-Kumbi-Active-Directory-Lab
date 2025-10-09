@@ -227,7 +227,7 @@ These settings are configured under:
 
 ## ✅ Outcome
 
-Implemented Group Policy configurations have achieved:
+Implemented Group Policy configurations:
 - **Enhanced Security Posture**: Reduced attack surface through strict password policies, application whitelisting, and device installation controls
 - **Standardized User Environment**: Consistent desktop experience across all domain-joined systems with controlled customization options
 - **Improved Compliance**: Meeting organizational security requirements through enforced Windows Defender configurations and update management
@@ -250,4 +250,4 @@ Implemented Group Policy configurations have achieved:
 
 [CIS Windows Benchmarks](https://www.cisecurity.org/cis-benchmarks/)
 
-[Microsoft Group Policy Documentation](https://learn.microsoft.com/en-us/windows-server/identity/group-policy/group-policy-overview)
+[Microsoft Group Policy Documentation](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831791(v=ws.11))

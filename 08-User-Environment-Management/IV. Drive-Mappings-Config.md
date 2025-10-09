@@ -64,7 +64,7 @@ This section outlines how I configured shared drive mappings using Group Policy 
 
 ![NTFS Permission Settings Drive Maps S 1](https://github.com/user-attachments/assets/3baa037e-d85b-4841-a006-d0565c9b84d1)
 
-📸 **Share settings for Server Share Drive Mapping S**
+📸 **Share Settings for Server Share Drive Mapping S**
 
 ![Share settings for Server Share Drive Mapping S](https://github.com/user-attachments/assets/739d6e73-2b7c-4779-b3d9-895de2d9539b)
 

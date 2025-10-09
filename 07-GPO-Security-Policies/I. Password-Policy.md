@@ -39,5 +39,5 @@ To enhance account security by enforcing strong password policies across all dom
 
 ## 📁 5. Screenshot Storage
 
-All screenshots related to this section should be stored in:<br />
-📂 [`06-Screenshots/XI. Password Policy/README.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Password%20Policy/README.md)
+All screenshots for this section can be found in:<br />
+📂 [`06-Screenshots/XI. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XI.%20Password%20Policy/README.md)

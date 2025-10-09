@@ -24,7 +24,7 @@ To enhance account security by enforcing strong password policies across all dom
 | **Password must meet complexity requirements**  | Enabled                 |
 | **Store passwords using reversible encryption** | Disabled                |
 
-**📸 Password Policy Showing Each Setting with its Configured Value**
+**📸 Password Policy Showing each Setting with its Configured Value**
 
 ![Password Policy Showing Each Setting with Its Configured Value](https://github.com/user-attachments/assets/9c13030a-018e-4ac8-8873-0991bfb40001)
 

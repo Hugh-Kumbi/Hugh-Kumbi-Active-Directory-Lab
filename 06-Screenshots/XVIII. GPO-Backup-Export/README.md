@@ -195,5 +195,5 @@ Displays how the imported GPO settings are reflected in the Resultant Set of Pol
 ---
 
 # 📁 6. Screenshot Storage
-All screenshots related to GPOs should be saved in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`07-GPO-Security-Policies/IV. GPO-Backup-Export`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/IV.%20GPO-Backup-Export.md)

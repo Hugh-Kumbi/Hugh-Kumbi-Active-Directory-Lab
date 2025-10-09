@@ -109,5 +109,5 @@ To verify the configuration:
 
 ## 🗂️ 6. Screenshot Storage
 
-All screenshots for this configuration should be saved in:  
+All screenshots for this section can be found in:  
 📂 [`06-Screenshots/XX. Folder-Redirection Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XX.%20Folder-Redirection%20Settings)

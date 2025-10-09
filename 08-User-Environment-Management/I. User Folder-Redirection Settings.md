@@ -68,7 +68,7 @@ Using the **Group Policy Management Editor**, I navigated to:<br />
 
 ---
 
-## 🎯 4. Objectives and Benefits
+## 🎯 3. Objectives and Benefits
 
 - Ensure user documents are stored on the server for **centralized management and backup**.
 - Allow seamless user experience across different domain-joined machines.
@@ -78,7 +78,7 @@ This redirection also simplified data recovery and enabled easy integration with
 
 ---
 
-## 🧪 5. Testing and Validation
+## 🧪 4. Testing and Validation
 
 To verify the configuration:
 1. Logged into the client machine as a domain user.
@@ -107,7 +107,7 @@ To verify the configuration:
 
 ---
 
-## 🗂️ 6. Screenshot Storage
+## 🗂️ 5. Screenshot Storage
 
 All screenshots for this section can be found in:  
 📂 [`06-Screenshots/XX. Folder-Redirection Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XX.%20Folder-Redirection%20Settings)

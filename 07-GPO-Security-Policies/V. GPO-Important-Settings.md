@@ -4,7 +4,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 1. 🔐 Security Baseline Settings
+## 🔐 1. Security Baseline Settings
 
 ### 🔑 Password Policies
 
@@ -26,7 +26,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 2. 🚫 Account Lockout Policies
+## 🚫 2. Account Lockout Policies
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
@@ -43,7 +43,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-### 3. 👤 User Rights Assignment
+### 👤 3. User Rights Assignment
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > User Rights Assignment`
@@ -67,7 +67,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 4. 🛡️ Security Options
+## 🛡️ 4. Security Options
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options`
@@ -94,7 +94,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 5. 🦠 Windows Defender Settings
+## 🦠 5. Windows Defender Settings
 
 ### 🛡️ Microsoft Defender Antivirus
 
@@ -137,7 +137,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 6. 🔥 Windows Defender Firewall
+## 🔥 6. Windows Defender Firewall
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall with Advanced Security`
@@ -162,7 +162,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 7. 🖥️ Desktop and Start Menu Settings
+## 🖥️ 7. Desktop and Start Menu Settings
 
 ### 🖼️ Desktop Settings
 
@@ -200,7 +200,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 8. 🔄 Windows Update Settings
+## 🔄 8. Windows Update Settings
 
 ### 🔧 Windows Update for Business
 
@@ -230,7 +230,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 9. 🌐 Internet Explorer and Microsoft Edge
+## 🌐 9. Internet Explorer and Microsoft Edge
 
 ### 🌎 Microsoft Edge Settings
 
@@ -276,7 +276,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 10. 🧩 Administrative Templates
+## 🧩 10. Administrative Templates
 
 ### ⚙️ Control Panel
 
@@ -320,7 +320,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 11. 🔋 Power Management
+## 🔋 11. Power Management
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > System > Power Management`
@@ -340,7 +340,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 12. 🏢 Corporate Compliance Settings
+## 🏢 12. Corporate Compliance Settings
 
 ### 🛡️ Data Loss Prevention
 
@@ -387,7 +387,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 13. 📦 Application Control
+## 📦 13. Application Control
 
 ### 📋 AppLocker
 
@@ -409,7 +409,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 14. 📁 App Package Deployment
+## 📁 14. App Package Deployment
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
@@ -423,7 +423,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 15. 🔧 Device Installation
+## 🔧 15. Device Installation
 
 **Path:** <br />
 📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation > Device Installation Restrictions`
@@ -437,7 +437,7 @@ This guide outlines the essential Group Policy settings I configured to align wi
 
 ---
 
-## 🗂️ 16. Screenshot Storage
+## 16. 🗂️ Screenshot Storage
 
 All related troubleshooting screenshots are saved in:<br />
 📂 [`06-Screenshots/XIX. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XIX.%20GPO-Important-Settings)

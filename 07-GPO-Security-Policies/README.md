@@ -27,7 +27,6 @@ Established stringent password requirements to enforce strong authentication pra
 - **Store Passwords Using Reversible Encryption:** Disabled
 
 These settings are configured under:
-
   📂 `Computer Configuration → Windows Settings → Security Settings → Account Policies → Password Policy`
 
 Detailed configurations can be found in the [`I. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md) file.
@@ -49,7 +48,6 @@ Implemented account lockout settings to deter brute-force attacks and unauthoriz
 - **Reset Account Lockout Counter After:** 15 minutes
 
 These settings are configured under:
-
   📂 `Computer Configuration → Windows Settings → Security Settings → Account Policies → Account Lockout Policy`
   
 Detailed configurations can be found in the [`II. Account-Lockout-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md) file.
@@ -76,12 +74,11 @@ Configured audit policies to monitor and record critical security-related events
 
 - **Audit Privilege Use:** Success and Failure
 
-- **Audit Process Tracking:** Success and Failure
+- **Audit Process Tracking:** Success
 
 - **Audit System Events:** Success and Failure
 
 These settings are configured under:
-
   📂 `Computer Configuration → Windows Settings → Security Settings → Local Policies → Audit Policy`
   
 Detailed configurations can be found in the [`III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md) file.
@@ -96,10 +93,9 @@ Detailed configurations can be found in the [`III. Audit-Policy`](https://github
 
 Core security policies enforcing authentication standards and access controls, including password complexity requirements, account lockout thresholds, and user rights assignments to protect against brute force attacks and unauthorized access.
 
-##### 🔑 Password Policies
+#### 🔑 Password Policies
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Password Policy`
 
 | Setting | Value |
@@ -109,10 +105,9 @@ These settings are configured under:
 | Minimum password length | 14 characters |
 | Password complexity | Enabled |
 
-##### 🚫 Account Lockout Policies
+#### 🚫 Account Lockout Policies
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Account Policies > Account Lockout Policy`
 
 | Setting | Value |
@@ -126,10 +121,9 @@ These settings are configured under:
 
 Endpoint protection settings enabling real-time threat detection, behavioral monitoring, and network traffic filtering through Microsoft Defender Antivirus and Firewall rules to maintain system integrity and block malicious activity.
 
-##### Microsoft Defender Antivirus
+#### 🕵️‍♂️ Microsoft Defender Antivirus
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Microsoft Defender Antivirus`
 
 Key Settings:
@@ -137,10 +131,9 @@ Key Settings:
 - Behavior monitoring: Enabled
 - Scheduled scans: Full scan weekly
 
-##### Firewall Settings
+#### 🧱 Firewall Settings
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Windows Defender Firewall`
 
 | Profile | Firewall State | Inbound | Outbound |
@@ -153,19 +146,19 @@ These settings are configured under:
 
 Standardized interface configurations that enforce corporate branding while limiting user customization options to reduce support overhead and maintain consistent productivity environments across the organization.
 
-##### Desktop Configuration
+#### 💻 Desktop Configuration
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `User Configuration > Policies > Administrative Templates > Desktop`
+  
 - Enforced corporate wallpaper
 - Controlled desktop icons
 
-##### Start Menu Customization
+#### 🪟 Start Menu Customization
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `User Configuration > Policies > Administrative Templates > Start Menu and Taskbar`
+  
 - Removed "Search the Internet" option
 - Disabled user tracking
 
@@ -175,9 +168,9 @@ These settings are configured under:
 
 Centralized patch management policies that enforce scheduled security updates, feature rollouts, and quality patches while maintaining operational stability through controlled deployment cycles. Configures automatic download/install schedules with enterprise-appropriate deferral periods to balance security responsiveness with business continuity requirements.
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > Windows Update`
+  
 - Update deployment: Semi-Annual Channel
 - Quality updates: 7-day deferral
 - Automatic updates: Enabled (3AM daily)
@@ -188,22 +181,22 @@ These settings are configured under:
 
 Whitelisting policies leveraging AppLocker and deployment restrictions to prevent execution of unauthorized scripts, installers, and applications while permitting approved business-critical software.
 
-##### AppLocker Policies
+#### 🔒 AppLocker Policies
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Windows Settings > Security Settings > Application Control Policies > AppLocker`
+  
 - Created default rules for:
   - Executables (.exe)
   - Windows Installers (.msi)
   - Scripts (.ps1, .bat)
   - Packaged Apps (AppX)
 
-##### App Deployment Restrictions
+#### 🚫 App Deployment Restrictions
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Administrative Templates > Windows Components > App Package Deployment`
+  
 - Blocked user app installations
 - Disabled special profile deployments
 
@@ -213,9 +206,9 @@ These settings are configured under:
 
 Hardware restriction policies that govern peripheral and storage device usage through device ID and class-based blocking to prevent data exfiltration and unauthorized hardware access.
 
-These settings are configured under:
-  
+These settings are configured under:  
   📂 `Computer Configuration > Policies > Administrative Templates > System > Device Installation`
+  
 - Blocked installation by:
   - Device IDs (specific hardware)
   - Setup classes (disk drives, etc.)
@@ -224,11 +217,11 @@ These settings are configured under:
 
 ## 📂 Files Included
 
-- `I. Password Policy.md`: Detailed configurations for enforcing strong password policies.
-- `II. Account-Lockout-Policy.md`: Settings to prevent unauthorized access through account lockouts.
-- `III. Audit-Policy.md`: Configurations for auditing and monitoring critical security events.
-- `IV. GPO-Important-Settings.md`: Configurations for security baselines, ensuring corporate compliance, and optimization of user experience in a Windows enterprise environment.
-- `README.md`: This documentation file summarizing the implemented security policies.
+- [`I. Password Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/I.%20Password-Policy.md): Detailed configurations for enforcing strong password policies.
+- [`II. Account-Lockout-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/II.%20Account-Lockout-Policy.md): Settings to prevent unauthorized access through account lockouts.
+- [`III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/III.%20Audit-Policy.md): Configurations for auditing and monitoring critical security events.
+- [`IV. GPO-Important-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/IV.%20GPO-Backup-Export.md): Configurations for security baselines, ensuring corporate compliance, and optimization of user experience in a Windows enterprise environment.
+- [`README`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/07-GPO-Security-Policies/README.md): This documentation file summarizing the implemented security policies.
 
 ---
 

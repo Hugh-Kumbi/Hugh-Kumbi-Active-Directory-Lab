@@ -30,7 +30,7 @@ These settings are configured under:
 
   📂 `Computer Configuration → Windows Settings → Security Settings → Account Policies → Password Policy`
 
-Detailed configurations can be found in the `[I. Password Policy` file](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md).
+Detailed configurations can be found in the [`I. Password Policy` file](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/I.%20Password%20Policy.md).
 
 ---
 
@@ -52,7 +52,7 @@ These settings are configured under:
 
   📂 `Computer Configuration → Windows Settings → Security Settings → Account Policies → Account Lockout Policy`
   
-Detailed configurations can be found in the [`II. Account-Lockout-Policy](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md)` file.
+Detailed configurations can be found in the [`II. Account-Lockout-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/II.%20Account-Lockout-Policy.md)` file.
 
 ---
 
@@ -84,7 +84,7 @@ These settings are configured under:
 
   📂 `Computer Configuration → Windows Settings → Security Settings → Local Policies → Audit Policy`
   
-Detailed configurations can be found in the [`III. Audit-Policy](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)` file.
+Detailed configurations can be found in the [`III. Audit-Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/04-Security-Policies/III.%20Audit-Policy.md)` file.
 
 ---
 

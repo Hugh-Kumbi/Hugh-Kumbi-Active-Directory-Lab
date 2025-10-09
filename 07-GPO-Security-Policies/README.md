@@ -20,7 +20,7 @@ Established stringent password requirements to enforce strong authentication pra
 
 - **Maximum Password Age:** 90 days
 
-- **Minimum Password Age:** 1 day
+- **Minimum Password Age:** 30 day
 
 - **Enforce Password History:** Remember last 24 passwords
 

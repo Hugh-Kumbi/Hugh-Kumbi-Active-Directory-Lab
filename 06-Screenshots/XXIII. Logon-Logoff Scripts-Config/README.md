@@ -138,6 +138,6 @@ Run gpupdate to manually refresh Group Policy and apply the logon/logoff scripts
 
 ## 📁 7. Screenshot Storage
 
-All screenshots related to this section are stored in:<br />  
-📂 [`08-User-Environment-Management/V. Logon-Logoff Scripts-Config.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/V.%20Logon-Logoff%20Scripts-Config.md)<br />
-📂 [`08-User-Environment-Management/VI. Logon-Logoff Scripts-Desktop.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VI.%20Logon-Logoff%20Scripts-Desktop.md)
+Each image corresponds to a step described in:<br />  
+📂 [`08-User-Environment-Management/V. Logon-Logoff Scripts-Config`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/V.%20Logon-Logoff%20Scripts-Config.md)<br />
+📂 [`08-User-Environment-Management/VI. Logon-Logoff Scripts-Desktop`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VI.%20Logon-Logoff%20Scripts-Desktop.md)

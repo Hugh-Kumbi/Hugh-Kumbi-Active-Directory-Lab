@@ -56,7 +56,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | BitLocker Encryption Policy                              | MeiVaultComputers     | Enforces full-disk encryption using BitLocker to protect data at rest   |
 | Block VLC Media Player - AppLocker                       | Domain Root           | Prevent the use of unauthorized media applications                      |
 | Browser Security Settings Policy                         | Domain Root           | Configure Microsoft Edge settings to enhance browser security           |
-| Control Panel Restrictions                               | Employees OU          | Limit user access to control panel settings                             |
+| Control Panel & Settings Restrictions Policy             | Employees OU          | Limit user access to control panel settings                             |
 | Default Domain Controller Policy                         | Domain Controllers    | Contains default critical authentication settings for the domain. It is modified to strengthen security policies (like Kerberos) specifically for domain controllers                                          |
 | Default Domain Policy                                    | Domain Root           | Contains default settings for all users and computers in the domain. It is modified to establish baseline security settings, such as password policies, that apply domain-wide                                   |
 | Deploy HughDomain-WinServer2025 Certificate Policy       | Domain Root           | Deploys a specific trusted root or intermediate certificate authority certificate to all domain members, ensuring they trust services and applications signed by this CA                                           |
@@ -79,7 +79,7 @@ Created and linked GPOs to the appropriate OUs using the **Group Policy Manageme
 | Temp_Cleaned_DC_Policy                                   | Domain Controllers    | Clears temporary files and caches on Domain Controllers                 |
 | USB Restriction Policy                                   | MeiVaultComputers OU  | Block the use of USB storage devices to prevent data leakage            |
 | User Folder Redirection Policy                           | Employees OU          | Redirect user data folders to centralized file servers                  |
-| Win11 Security Policy | Domain Root                      | Domain Root           | Apply Windows 11-specific hardening configurations                      |
+| Win11 Security Policy                                    | Domain Root           | Apply Windows 11-specific hardening configurations                      |
 | Windows Defender Settings Policy                         | Domain Root           | Configure antivirus settings for enhanced endpoint protection           |
 | Windows Firewall Settings Policy                         | Domain Root           | Enforce firewall rules to control inbound and outbound traffic          |
 

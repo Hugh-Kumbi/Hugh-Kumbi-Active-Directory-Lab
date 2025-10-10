@@ -11,13 +11,13 @@ This document outlines how I configured **logon-loggoff scripts via Group Policy
 
 📸 **Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU**
 
-<img width="1920" height="909" alt="Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU" src="https://github.com/user-attachments/assets/198af621-f61b-4782-9519-47e3337c1447" />
+<img width="1920" height="909" alt="Group Policy Management Console Showing Logon Scripts Policy Linked to the Employees OU" src="https://github.com/user-attachments/assets/7b877325-cd8e-4929-bbe6-c07b83b93e10" />
 
 ---
 
 ## 🛠️ 2. Script Settings Configuration
 
-I configured scripts using:
+I configured scripts using:<br /> 
  📂 `User Configuration > Policies > Windows Settings > Scripts (Logon-Logoff)`
 
 ### ➕ Logon Script Configuration

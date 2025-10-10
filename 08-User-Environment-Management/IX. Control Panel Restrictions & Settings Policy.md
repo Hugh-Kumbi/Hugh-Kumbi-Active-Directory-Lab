@@ -86,4 +86,4 @@ To verify the policy:
 ## 🗂️ 5. Screenshot Storage
 
 All images related to this section are stored in:<br /> 
-📂 [`06-Screenshots/XXII. Control Panel Restrictions Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXII.%20Control%20Panel%20Restrictions%20Policy)
+📂 [`06-Screenshots/XXII. Control Panel Restrictions & Settings Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXII.%20Control%20Panel%20Restrictions%20Policy) 

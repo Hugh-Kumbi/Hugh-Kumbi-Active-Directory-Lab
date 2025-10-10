@@ -1,4 +1,4 @@
-# 🔧 Control Panel Restrictions Policy
+# 🔧 Control Panel Restrictions & Settings Policy
 
 Having configured the Control Panel Restrictions via Group Policy, I have successfully limited user access to only authorized Control Panel applets. This enhances security and reduces support calls by preventing users from modifying critical system settings.
 

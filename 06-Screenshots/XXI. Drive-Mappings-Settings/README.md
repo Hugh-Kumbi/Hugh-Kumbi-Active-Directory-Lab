@@ -174,11 +174,11 @@ Following the policy configuration, I executed the `gpupdate /force` command on 
 
 ---
 
-## 🖥️ 12. Command Line Results From `gpresult`
+## 🖥️ 12. Command Line Results from `gpresult`
 
 After the policy refresh, I used the `gpresult /r` and `gpresult /h` commands to generate detailed reports. The output confirmed that the correct Drive Mapping policy was being applied to the user, verifying that the intended network drives were successfully mapped.
 
-📸 **Command Line Results From `gpresult` on `AD-WIN11-01`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-01`**
 
 <img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-01`" src="https://github.com/user-attachments/assets/4f8397ff-d55a-4d00-b2e0-36167ab29d49" /><br /> 
 
@@ -186,7 +186,7 @@ After the policy refresh, I used the `gpresult /r` and `gpresult /h` commands to
 
 <img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-01` 2" src="https://github.com/user-attachments/assets/a6cca68f-4069-426a-b39b-cdd98d9bee43" /><br /> 
 
-📸 **Command Line Results From `gpresult` on `AD-WIN11-02`**
+📸 **Command Line Results from `gpresult` on `AD-WIN11-02`**
 
 <img width="1920" height="909" alt="Command Line Results From `gpresult` on `AD-WIN11-02`" src="https://github.com/user-attachments/assets/89950ee9-5ca4-4763-8417-1fca6e4b4ac6" /><br /> 
 

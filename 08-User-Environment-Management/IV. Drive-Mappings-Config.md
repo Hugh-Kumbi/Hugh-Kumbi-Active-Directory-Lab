@@ -18,9 +18,12 @@ This section outlines how I configured shared drive mappings using Group Policy 
 ## 🛠️ 2. Policy Configuration Steps
 
 1. Opened Group Policy Management Editor.  
+
 2. Navigated to:  
    `User Configuration > Preferences > Windows Settings > Drive Maps`
+
 3. Right-clicked and selected **New > Mapped Drive**  
+
 4. Configured the following settings:
    - **Action:** Create  
    - **Location:** `\\WINSERVER2025\DepartmentalShares`  
@@ -28,6 +31,7 @@ This section outlines how I configured shared drive mappings using Group Policy 
    - **Reconnect:** Enabled  
    - **Label as:** Departmental Shared Drive  
    - **Use:** Update or Replace depending on policy needs
+
 5. Under the **Common** tab:
    - Enabled **Item-level targeting** to apply the mapping to specific users or security groups.
 

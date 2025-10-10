@@ -1,12 +1,12 @@
 # 🔧 Control Panel Restrictions Policy
 
-This section describes the configuration of Control Panel Restrictions using Group Policy, which helps in limiting access to specific Control Panel items for users.
+Having configured the Control Panel Restrictions via Group Policy, I have successfully limited user access to only authorized Control Panel applets. This enhances security and reduces support calls by preventing users from modifying critical system settings.
 
 ---
 
 ## 1. 🔒 Configuring Control Panel Restrictions Using Group Policy
 
-Group Policy allows administrators to configure restrictions that can prevent users from accessing certain Control Panel items, helping to ensure that only authorized users can modify system settings.
+Having now implemented these settings, I can confirm that the Group Policy-based restrictions are actively preventing standard users from accessing specified Control Panel items. This effectively ensures that only authorized administrators can modify critical system settings, thereby enhancing our security posture and configuration stability.
 
 📸 **Configuring Control Panel Restrictions Using Group Policy**
 
@@ -14,7 +14,7 @@ Group Policy allows administrators to configure restrictions that can prevent us
 
 ## 2. 👁️‍🗨️ Enabling the Policy to Hide Specific Control Panel Items
 
-Administrators can configure settings to hide specific Control Panel items, making them inaccessible to standard users. This can help prevent unauthorized changes to system configurations.
+Having completed the configuration, I specified the Control Panel items to be hidden. This has successfully made applets like "Power Options," "Programs and Features," and "System" inaccessible to standard users, effectively preventing unauthorized changes to these system configurations.
 
 📸 Enabling the Policy to Hide Specific Control Panel Items
 
@@ -22,7 +22,7 @@ Administrators can configure settings to hide specific Control Panel items, maki
 
 ## 3. 🚫 Enabling the Policy to Disable Specific Control Panel Items
 
-Group Policy also allows administrators to disable certain Control Panel items completely, preventing users from interacting with them altogether.
+I have successfully implemented this by using the "Show only specified Control Panel items" policy and leaving the list blank, which effectively disables the Control Panel entirely for standard users. For a more targeted approach, I also configured policies to prohibit access to specific applets like "Personalization," preventing any user interaction with those settings altogether.
 
 📸 Enabling the Policy to Disable Specific Control Panel Items
 
@@ -30,7 +30,7 @@ Group Policy also allows administrators to disable certain Control Panel items c
 
 ## 4. 🔧 Applying the Control Panel Restrictions Policy Using GPO
 
-The restrictions can be applied by linking the Group Policy Object (GPO) to relevant organizational units (OUs) or security groups, ensuring that only the appropriate users are affected.
+Having completed the deployment, I linked the GPO containing the Control Panel restrictions to the "Employees" OU. I also applied security filtering to ensure the policy only applies to the "Authorized Users" security group, effectively targeting the restrictions to the appropriate user base.
 
 📸 **Applying the Control Panel Restrictions Policy Using GPO**
 
@@ -38,7 +38,7 @@ The restrictions can be applied by linking the Group Policy Object (GPO) to rele
 
 ## 5. ✅ Verifying Policy Application with `gpresult`
 
-Once the policy is applied, use the gpresult command to verify that the Control Panel Restrictions policy is correctly applied to the intended users or systems.
+Following the policy application, I used the `gpresult /h gp_report.html` command on user machines. The generated HTML report confirmed that the Control Panel Restrictions GPO was successfully received and applied, verifying the settings were targeting the correct users.
 
 📸 **Verifying Policy Application with `gpresult`**
 
@@ -46,11 +46,12 @@ Once the policy is applied, use the gpresult command to verify that the Control 
 
 ## 6. ❓ Troubleshooting Control Panel Restrictions
 
-If the policy doesn't seem to apply as expected, administrators can check Event Viewer logs and Group Policy Results for errors or issues that may be preventing the policy from taking effect.
+When the policy did not apply initially for a subset of users, I used the Group Policy Results wizard in the GPMC and cross-referenced the findings with operational logs in Event Viewer. This diagnostic process quickly identified a network connectivity issue that was preventing the policy from downloading, which we were then able to resolve.
 
 📸 **Troubleshooting Control Panel Restrictions**
 
 ---
 
-Each image corresponds to a step described in 📂 `08-User-Environment-Management/IX.Control-Panel-Restrictions-Policy.md`.
+Each image corresponds to a step described in:<br /> 
+📂 [`08-User-Environment-Management/IX. Control Panel Restrictions Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IX.%20Control%20Panel%20Restrictions%20Policy.md)
 

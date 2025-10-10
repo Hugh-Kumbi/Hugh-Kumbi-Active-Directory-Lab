@@ -86,4 +86,4 @@ To verify the policy:
 ## 🗂️ 5. Screenshot Storage
 
 All images related to this section are stored in:<br /> 
-📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)
+📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

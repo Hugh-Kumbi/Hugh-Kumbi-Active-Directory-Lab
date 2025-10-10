@@ -1,4 +1,4 @@
-# 🔧 Control Panel & Settings Restrictions
+# 🔧 Control Panel & Settings Restrictions Policy
 
 This section explains how I implemented **Control Panel and Settings Restrictions** via Group Policy to prevent standard users from accessing system settings. This increases security and reduces the risk of misconfiguration or unauthorized system changes.
 

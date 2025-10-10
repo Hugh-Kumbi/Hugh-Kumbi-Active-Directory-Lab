@@ -198,6 +198,6 @@ After the policy refresh, I used the `gpresult /r` and `gpresult /h` commands to
 
 ## 🗂️ 13. Screenshot Storage
 
-All screenshots for this section can be found in:<br /> 
+Each image corresponds to a step described in:<br /> 
 📂 [`08-User-Environment-Management/III. Drive-Mappings-Settings.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/III.%20Drive-Mappings-Settings.md)<br /> 
 📂 [`08-User-Environment-Management/IV. Drive-Mappings-Config.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IV.%20Drive-Mappings-Config.md)

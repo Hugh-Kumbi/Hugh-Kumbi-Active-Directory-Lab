@@ -75,5 +75,5 @@ When the policy did not apply initially for a subset of users, I used the Group 
 ---
 
 Each image corresponds to a step described in:<br /> 
-📂 [`08-User-Environment-Management/IX. Control Panel Restrictions Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IX.%20Control%20Panel%20Restrictions%20&%20Settings%20Policy.md)
+📂 [`08-User-Environment-Management/IX. Control Panel Restrictions & Settings Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/IX.%20Control%20Panel%20Restrictions%20&%20Settings%20Policy.md)
 

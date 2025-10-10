@@ -126,5 +126,5 @@ This section outlines how I configured shared drive mappings using Group Policy 
 
 ## 🗂️ 5. Screenshot Storage
 
-Store all related images in:<br /> 
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/XXI. Drive-Mappings-Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXI.%20Drive-Mappings-Settings)

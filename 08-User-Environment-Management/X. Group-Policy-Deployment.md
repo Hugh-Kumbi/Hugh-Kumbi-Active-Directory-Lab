@@ -53,7 +53,7 @@ hughdomain.local
 
 <img width="1920" height="909" alt="Group Policy Management Console - GPO List" src="https://github.com/user-attachments/assets/08d61629-2c81-4cc4-bdd5-992cd4c9faff" />
 
-### 1. Default Domain Policy
+### 🏢 1. Default Domain Policy
 
 - **Scope**: Domain-wide
 - **Purpose**: Base security settings for all domain objects
@@ -69,7 +69,7 @@ hughdomain.local
 
 ---
 
-### 2. Default Domain Controllers Policy
+### 🖥️ 2. Default Domain Controllers Policy
 
 - **Scope**: Domain Controllers OU
 - **Purpose**: Secure authentication servers
@@ -87,7 +87,7 @@ hughdomain.local
 
 ---
 
-### 3. Windows Firewall Settings Policy
+### 🔥 3. Windows Firewall Settings Policy
 
 - **Scope**: Domain-wide (focused on DCs)
 - **Purpose**: Enforce firewall configurations
@@ -159,7 +159,7 @@ hughdomain.local
 
 ---
 
-### 4. Win11 Security Policy
+### 🪟 4. Win11 Security Policy
 
 - **Scope**: Windows 11 workstations
 - **Purpose**: Harden client endpoints
@@ -173,7 +173,7 @@ hughdomain.local
 
 ---
 
-### 5. Windows Defender Settings Policy
+### 🧰 5. Windows Defender Settings Policy
 
 - **Scope**: All computers
 - **Purpose**: Antivirus and threat protection
@@ -187,7 +187,7 @@ hughdomain.local
 
 ---
 
-### 6. Network Security Settings Policy
+### 🌐 6. Network Security Settings Policy
 
 - **Scope**: All computers
 - **Purpose**: Secure communication protocols
@@ -201,7 +201,7 @@ hughdomain.local
 
 ---
 
-### 7. Restricted Groups Policy
+### 👥 7. Restricted Groups Policy
 
 - **Scope**: DCs and IT Security computers
 - **Purpose**: Manage group membership
@@ -215,7 +215,7 @@ hughdomain.local
 
 ---
 
-### 8. IPsec Authentication Policy
+### 🛰️ 8. IPsec Authentication Policy
 
 - **Scope**: Secure communication channels
 - **Purpose**: Encrypt sensitive traffic
@@ -231,7 +231,7 @@ hughdomain.local
 
 ---
 
-### 9. Map Network Drives Policies
+### 🗂️ 9. Map Network Drives Policies
 
 - **Scope**: User configuration
 - **Purpose**: Drive mapping automation
@@ -269,7 +269,7 @@ hughdomain.local
 
 ## 🔧 Technical Implementation Details
 
-### Group Policy Processing
+### ⚙️ Group Policy Processing
 
 - **Mode**: Normal
 - **Last Applied**: September 30, 2025 at 6:12:31 PM & September ‎30, ‎2025 at 7:21:44 PM
@@ -528,7 +528,7 @@ hughdomain.local
 
 ---
 
-### 📱Application Control
+### 📱 Application Control
 
 - Managed installs
 - Blocked executable directories
@@ -670,3 +670,10 @@ This Group Policy deployment lays the foundation for secure, scalable, and manag
 ---
 
 ✅ **This project showcases practical expertise in enterprise Active Directory design, Group Policy deployment, and IT security best practices.**
+
+---
+
+## 📁 10. Screenshot Storage
+
+Each image corresponds to a step described in:<br /> 
+📂 [`06-Screenshots/XXVI. Group-Policy-Deployment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXVI.%20Group-Policy-Deployment)

@@ -675,5 +675,5 @@ This Group Policy deployment lays the foundation for secure, scalable, and manag
 
 ## 📁 10. Screenshot Storage
 
-Each image corresponds to a step described in:<br /> 
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/XXVI. Group-Policy-Deployment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXVI.%20Group-Policy-Deployment)

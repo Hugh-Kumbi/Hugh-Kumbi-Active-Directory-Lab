@@ -34,7 +34,7 @@ Having created the necessary scripts, I assigned them by configuring the "Logon"
 
 ## 🖥️ 3. Testing Logon/Logoff Script Execution
 
-Before rolling out the scripts, I thoroughly tested them on a pilot group. I used `gpresult` to confirm the policy was applying and then checked the `Applications and Services Logs > Microsoft > Windows > PowerShell > Operational log` in Event Viewer to verify the scripts executed without errors and performed their intended actions.
+Before rolling out the scripts, I thoroughly tested them on a pilot group. I used `gpresult` to confirm the policy was applying and then checked the 📂 `Applications and Services Logs > Microsoft > Windows > PowerShell > Operational log` in Event Viewer to verify the scripts executed without errors and performed their intended actions.
 
 📸 **Testing Logon/Logoff Script Execution**
 

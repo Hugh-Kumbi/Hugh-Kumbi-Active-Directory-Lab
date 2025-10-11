@@ -20,7 +20,7 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
  
 📸 **Desktop Folder Redirection Configuration**
   
-<img width="1920" height="909" alt="Folder Redirection Properties Window with Configuration" src="https://github.com/user-attachments/assets/a01fcb43-9e83-4956-9c84-edd6acae7e08" /><br />
+<img width="1920" height="909" alt="Root Path Entered for Desktop Redirection1" src="https://github.com/user-attachments/assets/abd947bb-1a3a-4a2d-9565-c1224a148a01" /><br />
 
   - **Desktop:** Redirected to `\\WINSERVER2025\FileShares\...\Desktop`
 

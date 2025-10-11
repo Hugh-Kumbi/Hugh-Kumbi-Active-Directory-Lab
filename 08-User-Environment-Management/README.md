@@ -106,8 +106,6 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 
 <img width="1920" height="909" alt="Root Path Entered for Links Redirection" src="https://github.com/user-attachments/assets/0bb969a3-6004-4000-a90d-ce8770dce66c" /><br />
 
-  - **Links:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Links`
-
 📸 **Searches Folder Redirection Configuration**
 
   - **Searches:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Searches`
@@ -122,7 +120,11 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 
 <img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
 
-📸 **Desktop User Folder Redirection Configuration**
+  - **Downloads:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Downloads`
+
+📸 **Downloads User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Downloads Redirection" src="https://github.com/user-attachments/assets/e5224464-4b82-4d45-84e3-d9b2bca504ee" />
 
 - **Settings:**
   - Enabled offline files for redirected folders to allow access during network outages.

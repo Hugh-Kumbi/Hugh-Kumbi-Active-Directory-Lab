@@ -111,4 +111,4 @@ After linking the GPO to the correct OU, I ran `gpupdate /force` on the target s
 ## 📁 7. Screenshot Storage
 
 Each image corresponds to a step described in:<br /> 
-📂 [`08-User-Environment-Management/VII.  Startup-Shutdown Scripts.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VII.%20%20Startup-Shutdown%20Scripts.md)
+📂 [`08-User-Environment-Management/VII.  Startup-Shutdown Scripts.`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VII.%20%20Startup-Shutdown%20Scripts.md)

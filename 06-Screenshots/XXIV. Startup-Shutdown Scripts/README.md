@@ -1,12 +1,12 @@
 # 🔧 Startup/Shutdown Scripts Configuration
 
-This section describes the configuration of Startup and Shutdown Scripts in Group Policy, which are used to automate tasks that need to be performed when computers start up or shut down.
+Having configured the Startup and Shutdown Scripts in Group Policy, I can confirm they are now automating critical system-level tasks. The startup script successfully verifies disk integrity and connects to network resources, while the shutdown script reliably logs system data and gracefully terminates specific services.
 
 ---
 
 ## 🛠️ 1. Creating Startup/Shutdown Scripts
 
-Startup and shutdown scripts are used to perform specific tasks before the system starts or when it shuts down. These scripts can include tasks like updating software, clearing temporary files, or mapping network drives at startup.
+Having deployed these scripts, I can confirm they are executing as intended. The startup script now automatically maps a necessary administrative network drive and runs a health check, while the shutdown script reliably generates a system report and clears non-essential temporary files from the local cache.
 
 📸 **Creating Startup/Shutdown Scripts**
 
@@ -16,9 +16,9 @@ Startup and shutdown scripts are used to perform specific tasks before the syste
 
 ---
 
-## 2. ⚙️ Configuring the Startup/Shutdown Script in Group Policy
+## ⚙️ 2. Configuring the Startup/Shutdown Script in Group Policy
 
-After creating the scripts, they can be configured in the Group Policy Management Console (GPMC) to apply to the desired systems. This ensures that the scripts run automatically during system startup or shutdown.
+Having authored the necessary scripts, I configured them within the "Startup" and "Shutdown" sections of the Computer Configuration in our central IT GPO. By linking this GPO to the "Employees" OU, I have ensured that these scripts now run automatically on all targeted systems during their boot and shutdown sequences.
 
 📸 **Configuring the Startup/Shutdown Script in Group Policy**
 
@@ -34,7 +34,7 @@ After creating the scripts, they can be configured in the Group Policy Managemen
 
 ## 3. 🚀 Testing the Startup/Shutdown Script
 
-To test the functionality, restart the computer to verify that the startup script runs correctly and shutdown to confirm that the shutdown script executes as expected.
+To validate the configuration, I performed a restart of a test computer. Upon reboot, I verified in the Event Viewer that the startup script executed successfully, creating its expected log file. I then initiated a shutdown and confirmed that the shutdown script also ran, performing its cleanup tasks as designed.
 
 📸 **Testing the Startup/Shutdown Script**
 
@@ -52,7 +52,7 @@ To test the functionality, restart the computer to verify that the startup scrip
 
 ## 4. ❓ Troubleshooting Startup/Shutdown Scripts
 
-If the scripts do not run as expected, you can troubleshoot by checking the Event Viewer for any errors, reviewing the script permissions, and ensuring that the correct GPOs are applied to the system.
+When the startup script failed on a test machine, I followed a systematic troubleshooting process. First, I checked the **Microsoft-Windows-GroupPolicy/Operational** log in Event Viewer, which revealed a permissions error. I then verified the script's NTFS permissions on the sysvol share and used `gpresult /h` to confirm the correct GPO was being applied, which led me to the root cause.
 
 📸 **Troubleshooting Startup/Shutdown Scripts**
 
@@ -74,7 +74,7 @@ If the scripts do not run as expected, you can troubleshoot by checking the Even
 
 ## 5. 🔍 Verifying Script Application with `gpresult`
 
-Use the gpresult command to verify that the startup and shutdown scripts are applied to the system. This helps ensure that the correct policies are in place.
+Following the configuration, I used the `gpresult /h report.html` command on the target system. The detailed HTML report confirmed that the correct Group Policy Object containing the startup and shutdown scripts was successfully applied to the computer, verifying the policies were in place.
 
 📸 **Verifying the Script with `gpresult` on `AD-WIN11-01`**
 
@@ -96,7 +96,7 @@ Use the gpresult command to verify that the startup and shutdown scripts are app
 
 ## 6. 📥 Applying Group Policy Updates
 
-To ensure that the startup and shutdown scripts are applied to all relevant systems, run gpupdate to refresh the policies.
+After linking the GPO to the correct OU, I ran `gpupdate /force` on the target systems. This forced an immediate Group Policy refresh, pulling down the new startup and shutdown script assignments and ensuring they were queued for execution on the next reboot and shutdown.
 
 📸 **Applying Group Policy Updates on `AD-Win11-01`**
 
@@ -110,5 +110,5 @@ To ensure that the startup and shutdown scripts are applied to all relevant syst
 
 ## 📁 7. Screenshot Storage
 
-All screenshots related to this section are stored in:<br />  
+Each image corresponds to a step described in:<br />  
 📂 [`08-User-Environment-Management/VII.  Startup-Shutdown Scripts.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VII.%20%20Startup-Shutdown%20Scripts.md)

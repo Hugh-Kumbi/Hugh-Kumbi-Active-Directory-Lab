@@ -32,7 +32,7 @@ Having created the necessary scripts, I assigned them by configuring the "Logon"
 
 ---
 
-## 3. 🖥️ Testing Logon/Logoff Script Execution
+## 🖥️ 3. Testing Logon/Logoff Script Execution
 
 Before rolling out the scripts, I thoroughly tested them on a pilot group. I used `gpresult` to confirm the policy was applying and then checked the `Applications and Services Logs > Microsoft > Windows > PowerShell > Operational log` in Event Viewer to verify the scripts executed without errors and performed their intended actions.
 
@@ -50,7 +50,7 @@ Before rolling out the scripts, I thoroughly tested them on a pilot group. I use
 
 ---
 
-## 4. ❓ Troubleshooting Logon/Logoff Scripts
+## ❓ 4. Troubleshooting Logon/Logoff Scripts
 
 When the scripts did not execute as expected, troubleshooting steps included checking script permissions, ensuring proper network connectivity, and reviewing Event Viewer logs for any error messages related to script execution.
 
@@ -100,7 +100,7 @@ When the scripts did not execute as expected, troubleshooting steps included che
 
 ---
 
-## 5. 🔍 Verifying the Script with `gpresult`
+## 🔍 5. Verifying the Script with `gpresult`
 
 Following the configuration, I ran `gpresult /h report.html` on a test workstation. The resulting report clearly showed the assigned logon script policy was successfully applied to the test user, confirming the GPO was being processed correctly.
 
@@ -122,7 +122,7 @@ Following the configuration, I ran `gpresult /h report.html` on a test workstati
 
 ---
 
-## 6. 🔄 Applying Group Policy Updates
+## 🔄 6. Applying Group Policy Updates
 
 After deploying the GPO, I executed `gpupdate /force` on the target systems. This manually triggered a Group Policy refresh, which immediately applied and made the new logon and logoff scripts active for the next user session.
 

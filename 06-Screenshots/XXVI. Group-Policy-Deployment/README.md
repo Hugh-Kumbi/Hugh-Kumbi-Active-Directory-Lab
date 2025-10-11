@@ -1,12 +1,12 @@
 # ⚙️ Group Policy Deployment
 
-This section explains the deployment process of Group Policies within the Active Directory environment to ensure configurations are applied consistently across client systems.
+Having completed the deployment, I can confirm that the Group Policies have been consistently applied across our Active Directory environment. By strategically linking GPOs to specific Organizational Units and employing security filtering, we have ensured that all targeted client systems now operate with the intended security, software, and configuration settings.
 
 ---
 
 # 1. 🛠️ Deploying Group Policy to Organizational Units (OUs)
 
-Group Policy Objects (GPOs) are deployed to specific Organizational Units (OUs) to apply settings to user and computer accounts. This ensures that policies are targeted to the right systems based on their location within Active Directory.
+Having completed the deployment, I linked the specific GPOs to their corresponding OUs. For instance, the "Security Scripts Policy" GPO was linked to the "Employees" OU, while the "BitLocker Encryption Policy" GPO was linked to the "MeiVaultComputers" OU. This successfully targeted the policies to the correct user and computer accounts based on their AD structure.
 
 📸 **Deploying Group Policy to Organizational Units (OUs)**
 
@@ -22,7 +22,7 @@ Group Policy Objects (GPOs) are deployed to specific Organizational Units (OUs) 
 
 ## 2. 📜 GPO Inheritance and Filtering
 
-Group Policy inheritance allows GPOs to be passed down from parent OUs to child OUs. However, inheritance can be blocked or filtered based on security group memberships or WMI filters.
+During the deployment, I leveraged inheritance to apply a baseline security GPO at the domain level. I applied **Security Filtering** to a specific software deployment GPO to ensure it only applied to the "Engineering" security group, even within a larger OU.
 
 📸 **GPO Inheritance and Filtering**
 
@@ -32,7 +32,7 @@ Group Policy inheritance allows GPOs to be passed down from parent OUs to child 
 
 ## 3. 🛡️ Applying GPOs to Specific Security Groups
 
-GPOs can be applied to specific security groups using Security Filtering. This allows you to target policies to certain users or computers within an OU, ensuring granular control over group policy application.
+Having configured the GPOs, I used Security Filtering to apply them with precision. For example, I removed "Authenticated Users" and granted "Apply Group Policy" permissions only to the "ITSecurity" security group. This ensured the policy only affected the intended IT Security users, even within a larger, shared OU.
 
 📸 **Applying GPOs to Specific Security Groups**
 
@@ -46,7 +46,7 @@ GPOs can be applied to specific security groups using Security Filtering. This a
 
 ## 4. 🔧 Testing Group Policy Deployment
 
-Before full deployment, test the applied GPO on a small set of machines or users to ensure that the policies are being enforced correctly. You can use the gpresult command to verify GPO application.
+Before full deployment, I applied the GPO on a small set of users and a single client machine to ensure that the policies are being enforced correctly. In addition to that I also used the `gpresult` command to verify GPO application.
 
 ---
 

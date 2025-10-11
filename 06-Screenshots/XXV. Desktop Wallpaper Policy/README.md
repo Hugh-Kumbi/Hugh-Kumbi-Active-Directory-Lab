@@ -72,5 +72,5 @@ Following the GPO configuration, I executed `gpupdate /force` on the client mach
 
 ## 📁 6. Screenshot Storage
 
-All screenshots related to this section are stored in:<br /> 
+Each image corresponds to a step described in:<br /> 
 📂 [`08-User-Environment-Management/VIII. Desktop Wallpaper Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VIII.%20Desktop%20Wallpaper%20Policy.md)

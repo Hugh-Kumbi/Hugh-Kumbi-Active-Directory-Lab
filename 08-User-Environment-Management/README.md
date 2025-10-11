@@ -16,53 +16,113 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 
 - **Redirected Folders:**
 
-  - **Desktop:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Desktop`
+  - **Desktop:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Desktop`
  
-  📸 **Desktop Folder Redirection Configuration**
+📸 **Desktop Folder Redirection Configuration**
   
-  ![Desktop Folder Redirection Configuration](https://github.com/user-attachments/assets/d9ddcae3-e705-4c23-9694-12110d135ccc)
+<img width="1920" height="909" alt="Folder Redirection Properties Window with Configuration" src="https://github.com/user-attachments/assets/a01fcb43-9e83-4956-9c84-edd6acae7e08" /><br />
 
-  - **Documents:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Documents`
+  - **Desktop:** Redirected to `\\WINSERVER2025\FileShares\...\Desktop`
+
+📸 **Desktop User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Desktop Redirection" src="https://github.com/user-attachments/assets/e7675e62-c3cb-486c-8675-b6b2a975f14b" /><br />
+
+  - **Documents:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Documents`
  
   📸 **Documents Folder Redirection Configuration**
 
-  ![Documents Folder Redirection Configuration](https://github.com/user-attachments/assets/3f58f036-f245-4586-9599-fb1bee9ab0f9)
+<img width="1920" height="909" alt="Root Path Entered for Documents Redirection 1" src="https://github.com/user-attachments/assets/b628c8db-8bfb-4d78-8394-a54b3d9160dc" /><br />
 
-  - **Pictures:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Pictures`
+  - **Documents:** Redirected to `\\WINSERVER2025\FileShares\...\Documents`
+
+📸 **Documents User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Documents Redirection" src="https://github.com/user-attachments/assets/5be97ba4-34e3-497c-b4b6-23853ffbba4f" /><br />
+
+  - **Pictures:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Pictures`
  
   📸 **Pictures Folder Redirection Configuration**
 
-  ![Pictures Folder Redirection Configuration](https://github.com/user-attachments/assets/0f8b799f-f6df-475b-9af3-ff0208fb1176)
+<img width="1920" height="909" alt="Root Path Entered for Pictures Redirection 1" src="https://github.com/user-attachments/assets/0e2e8701-c539-4604-ae7b-b420093cdeb1" /><br />
 
-  - **Favourites:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Favourites`
+  - **Pictures:** Redirected to `\\WINSERVER2025\FileShares\...\Pictures`
+
+📸 **Pictures User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Pictures Redirection" src="https://github.com/user-attachments/assets/6f6e6275-9bf2-4806-9a16-f7f9f6195a89" /><br />
+
+  - **Start Menu:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Start Menu`
  
-  📸 **Favourites Folder Redirection Configuration**
+📸 **Start Menu Folder Redirection Configuration**
 
-  ![Favourites Folder Redirection Configuration](https://github.com/user-attachments/assets/1a7b3cd6-8a86-4ce9-a1e2-e11458b6e55a)
+<img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection 1" src="https://github.com/user-attachments/assets/c1374b38-b4f5-4b5b-89b1-37295dcc6dfb" /><br />
 
-  - **Contacts:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Contacts`
+  - **Start Menu:** Redirected to `\\WINSERVER2025\FileShares\...\Start Menu`
+
+📸 **Start Menu User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Start Menu Redirection" src="https://github.com/user-attachments/assets/a10471c8-cfc3-4740-a094-0d63eb365f52" /><br />
+
+  - **Music:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Music`
   
-  📸 **Contacts Folder Redirection Configuration**
+  📸 **Music Folder Redirection Configuration**
 
-  ![Contacts Folder Redirection Configuration](https://github.com/user-attachments/assets/df8050c1-c67a-43fc-b056-ccab0af020f3)
+<img width="1920" height="909" alt="Root Path Entered for Music Redirection 1" src="https://github.com/user-attachments/assets/2dddd00b-a65a-4201-a1f5-cc42004d46c5" /><br />
 
-   - **Downloads:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Downloads` 
+   - **Music:** Redirected to `\\WINSERVER2025\FileShares\...\Music` 
+
+📸 **Music User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Music Redirection" src="https://github.com/user-attachments/assets/35fee43e-e183-42bc-bc1c-63b8250d2245" /><br />
+
+   - **Videos:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Videos` 
  
-  📸 **Downloads Folder Redirection Configuration**
+  📸 **Videos Folder Redirection Configuration**
 
-  ![Downloads Folder Redirection Configuration](https://github.com/user-attachments/assets/aa2aa11a-d1b8-4269-8536-be625fcdd8ed)
+<img width="1920" height="909" alt="Root Path Entered for Videos Redirection 1" src="https://github.com/user-attachments/assets/75110013-3712-40da-b08a-263dcf02b241" /><br />
 
-  - **Links:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Links`
+  - **Videos:** Redirected to `\\WINSERVER2025\FileShares\...\Videos`
+
+📸 **Videos User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Videos Redirection" src="https://github.com/user-attachments/assets/9e69fab2-2ded-499e-8cf1-2ab8acb0ed67" /><br />
+
+  - **Contacts:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Contacts`
  
-  📸 **Links Folder Redirection Configuration**
+📸 **Contacts Folder Redirection Configuration**
 
-  ![Links Folder Redirection Configuration](https://github.com/user-attachments/assets/6ee5b31c-ae90-4822-949f-317fbbb50e62)
+<img width="1920" height="909" alt="Root Path Entered for Contacts Redirection 1" src="https://github.com/user-attachments/assets/49bfac85-370f-4e3e-a8f9-5c686b26ba59" /><br />
  
-  - **Searches:** Redirected to `\\WIN-D2PQBCI88JQ\RedirectedFolder$\...\Searches`
- 
-  📸 **Searches Folder Redirection Configuration**
+  - **Contacts:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Contacts`
 
-  ![Searches Folder Redirection Configuration](https://github.com/user-attachments/assets/dc891298-69e4-4a6d-b0ea-f690b25fb406)
+📸 **Contacts User Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Contacts Redirection" src="https://github.com/user-attachments/assets/7da8ee8b-968f-4838-b36b-bb48dc153651" /><br />
+
+  - **Links:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Links`
+
+📸 **Links Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Links Redirection" src="https://github.com/user-attachments/assets/0bb969a3-6004-4000-a90d-ce8770dce66c" /><br />
+
+  - **Links:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Links`
+
+📸 **Searches Folder Redirection Configuration**
+
+  - **Searches:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Searches`
+
+📸 **Searches Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Searches Redirection" src="https://github.com/user-attachments/assets/b69f72ab-d45f-43f9-bbf3-586a5c39005f" /><br />
+
+  - **Downloads:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Downloads`
+
+📸 **Downloads Folder Redirection Configuration**
+
+<img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
+
+📸 **Desktop User Folder Redirection Configuration**
 
 - **Settings:**
   - Enabled offline files for redirected folders to allow access during network outages.
@@ -70,14 +130,16 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
   
 ### Paths Redirected
 
-- `\\WIN-D2PQBCI88JQ\RedirectedFolder$`
-- `\\WIN-D2PQBCI88JQ\UserData`
+- `\\WINSERVER2025\FolderRedirection$`
+- `\\WINSERVER2025\FileShares`
 
 📸 **Group Policy Management Console Showing The Folder Redirection Policy Link to Domain**
 
-![Group Policy Management Console Showing The Folder Redirection Policy GPO And Link (2)](https://github.com/user-attachments/assets/ba7969ae-be46-466e-89c1-5d863c0d4e45)
+<img width="1920" height="909" alt="Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the ITSecurity OU" src="https://github.com/user-attachments/assets/c086dc0a-f8de-4455-b964-0125932a45ce" /><br />
 
-These settings are detailed in the `I. Folder-Redirection Settings.md` and `II. Folder-Redirection Properties.md` files.
+<img width="1920" height="909" alt="Group Policy Management Console Showing the Folder Redirection Policy GPO and Link to the Employees OU" src="https://github.com/user-attachments/assets/f8ad48a3-c9dd-4c3d-b7f3-cb3a9c537e5f" /><br />
+
+These settings are detailed in the [`I. Folder-Redirection Settings`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/I.%20User%20Folder-Redirection%20Settings.md) and [`II. Folder-Redirection Properties`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/II.%20Folder-Redirection%20Properties.md) files.
 
 ---
 

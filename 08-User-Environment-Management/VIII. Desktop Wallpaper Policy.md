@@ -33,7 +33,7 @@ This section explains how I implemented a **Desktop Wallpaper Policy** using Gro
 
 ![Desktop Wallpaper Policy Configuration](https://github.com/user-attachments/assets/1473f3c6-7899-43bd-8f99-9dae4492b0d1)
 
-📸 **Wallpaper File Stored On Shared Server Folder**
+📸 **Wallpaper File Stored on Shared Server Folder**
 
 ![Wallpaper File Stored On Shared Server Folder](https://github.com/user-attachments/assets/890c8a57-539b-41aa-88a2-76e514230588)
 
@@ -46,15 +46,15 @@ To test the policy:
 2. Verified that the desktop wallpaper was automatically applied.
 3. Attempted to change the wallpaper via settings — confirmed that the option was greyed out.
 
-📸 **Wallpaper Automatically Applied On User Login for `WinServer2025`**
+📸 **Wallpaper Automatically Applied on User Login for `WinServer2025`**
 
 ![Wallpaper Automatically Applied On User Login for `WinServer2025`](https://github.com/user-attachments/assets/63a10f3c-e189-4260-911a-472771518e45)
 
-📸 **Wallpaper Automatically Applied On User Login for `AD-WIN11-01`**
+📸 **Wallpaper Automatically Applied on User Login for `AD-WIN11-01`**
 
 ![Wallpaper Automatically Applied On User Login for `AD-WIN11-01`](https://github.com/user-attachments/assets/5bde3ac8-a33d-4495-8357-41ce4ba9e9e3)
 
-📸 **Wallpaper Automatically Applied On User Login for `AD-WIN11-02`**
+📸 **Wallpaper Automatically Applied on User Login for `AD-WIN11-02`**
 
 ![Wallpaper Automatically Applied On User Login for `AD-WIN11-02`](https://github.com/user-attachments/assets/000b6da9-9c48-47ff-bc7e-3f63d2e0506a)
 
@@ -62,5 +62,5 @@ To test the policy:
 
 ## 🗂️ 4. Screenshot Storage
 
-All images related to this section are stored in:<br />
+All screenshots for this section can be found in:<br />
 📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop.png`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XIII.%20Logon-Logoff%20Scripts/II.%20Logon-Logoff%20Desktop.md)

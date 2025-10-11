@@ -32,7 +32,7 @@ Having authored the necessary scripts, I configured them within the "Startup" an
 
 ---
 
-## 3. 🚀 Testing the Startup/Shutdown Script
+## 🚀 3. Testing the Startup/Shutdown Script
 
 To validate the configuration, I performed a restart of a test computer. Upon reboot, I verified in the Event Viewer that the startup script executed successfully, creating its expected log file. I then initiated a shutdown and confirmed that the shutdown script also ran, performing its cleanup tasks as designed.
 
@@ -50,7 +50,7 @@ To validate the configuration, I performed a restart of a test computer. Upon re
 
 ---
 
-## 4. ❓ Troubleshooting Startup/Shutdown Scripts
+## ❓ 4. Troubleshooting Startup/Shutdown Scripts
 
 When the startup script failed on a test machine, I followed a systematic troubleshooting process. First, I checked the **Microsoft-Windows-GroupPolicy/Operational** log in Event Viewer, which revealed a permissions error. I then verified the script's NTFS permissions on the sysvol share and used `gpresult /h` to confirm the correct GPO was being applied, which led me to the root cause.
 
@@ -72,7 +72,7 @@ When the startup script failed on a test machine, I followed a systematic troubl
 
 ---
 
-## 5. 🔍 Verifying Script Application with `gpresult`
+## 🔍 5. Verifying Script Application with `gpresult`
 
 Following the configuration, I used the `gpresult /h report.html` command on the target system. The detailed HTML report confirmed that the correct Group Policy Object containing the startup and shutdown scripts was successfully applied to the computer, verifying the policies were in place.
 
@@ -94,7 +94,7 @@ Following the configuration, I used the `gpresult /h report.html` command on the
 
 ---
 
-## 6. 📥 Applying Group Policy Updates
+## 📥 6. Applying Group Policy Updates
 
 After linking the GPO to the correct OU, I ran `gpupdate /force` on the target systems. This forced an immediate Group Policy refresh, pulling down the new startup and shutdown script assignments and ensuring they were queued for execution on the next reboot and shutdown.
 

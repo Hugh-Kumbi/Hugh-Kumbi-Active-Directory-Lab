@@ -506,7 +506,7 @@ hughdomain.local
 - Limited admin privileges
 - Secure service account policies
 
-📸 **Least Privilege Group Membership Screenshot**
+📸 **Least Privilege Group Membership**
 
 <img width="1920" height="909" alt="Least Privilege Group Membership" src="https://github.com/user-attachments/assets/372360f7-d886-4d04-92be-a7540b878bb8" /><br />
 

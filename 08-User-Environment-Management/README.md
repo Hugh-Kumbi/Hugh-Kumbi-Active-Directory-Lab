@@ -120,7 +120,7 @@ Implemented folder redirection to redirect user profile folders **(i.e., Desktop
 
 <img width="1920" height="909" alt="Root Path Entered for Downloads Redirection1" src="https://github.com/user-attachments/assets/84bdde99-3d03-43c4-87d4-5be2d12512fb" /><br />
 
-  - **Downloads:** Redirected to `\\WINSERVER2025\FolderRedirection$\...\Downloads`
+  - **Downloads:** Redirected to `\\WINSERVER2025\FileShares\...\Downloads`
 
 📸 **Downloads User Folder Redirection Configuration**
 

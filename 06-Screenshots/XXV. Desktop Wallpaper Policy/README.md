@@ -1,12 +1,12 @@
 # 🖼 Desktop Wallpaper Policy
 
-This section covers the configuration of the Desktop Wallpaper Policy through Group Policy, which allows administrators to enforce specific wallpaper settings on all client systems across the domain.
+Having configured the Desktop Wallpaper policy via Group Policy, I have successfully enforced the corporate-branded wallpaper across all domain-joined client systems. The setting is now applied at the user level, ensuring a consistent and professional visual identity upon login.
 
 ---
 
-# 1. ⚙️ Configuring Desktop Wallpaper Policy in Group Policy
+## ⚙️ 1. Configuring Desktop Wallpaper Policy in Group Policy
 
-The Desktop Wallpaper Policy can be applied through Group Policy to ensure that all user desktops have the same wallpaper for consistency and branding. This policy can be configured to point to a file stored on a network share.
+Having deployed the policy, I configured it to point to the approved corporate wallpaper located on a read-only network share `\\WINSERVER2025\sysvol\hughdomain.local\Wallpaper`. This has successfully standardized the desktop background across the organization, reinforcing the brand identity. I also confirmed that the share has appropriate permissions to allow all users read access.
 
 📸 **Configuring Desktop Wallpaper Policy in Group Policy**
 
@@ -14,9 +14,9 @@ The Desktop Wallpaper Policy can be applied through Group Policy to ensure that 
 
 ---
 
-## 2. 📱 Setting Wallpaper Path
+## 📱 2. Setting Wallpaper Path
 
-In this step, the wallpaper path is set to point to the location of the wallpaper image on a network share. It’s important to ensure that the wallpaper file is accessible to all systems on the network.
+In this step, I set the wallpaper path to `\\WINSERVER2025\sysvol\hughdomain.local\Wallpaper\MEIVAULT SYSTEMS LOGO.png`. I first verified that the image file was in place and that the "Domain Users" group had at least Read permissions to both the share and the NTFS file, ensuring all systems can access it.
 
 📸 **Desktop Wallpaper Path Set**
 
@@ -28,9 +28,9 @@ In this step, the wallpaper path is set to point to the location of the wallpape
 
 ---
 
-## 3. 💻 Applying Wallpaper Policy via Group Policy
+## 💻 3. Applying Wallpaper Policy via Group Policy
 
-After setting the wallpaper path, the policy is applied to the appropriate Organizational Units (OUs) within Active Directory to ensure that it is enforced across all systems in those OUs.
+After defining the wallpaper path, I linked the GPO to the "Domain root". This has successfully enforced the corporate branding across all relevant systems, ensuring a consistent user experience on all company-managed desktops.
 
 📸 **Applying Wallpaper Policy via Group Policy**
 
@@ -38,9 +38,9 @@ After setting the wallpaper path, the policy is applied to the appropriate Organ
 
 ---
 
-## 4. 🔍 Verifying Wallpaper Policy Application
+## 🔍 4. Verifying Wallpaper Policy Application
 
-To verify that the Desktop Wallpaper Policy has been applied successfully, you can check client systems to see if the wallpaper is displayed as expected. You can also use gpresult to confirm that the policy is being applied.
+To confirm the policy was working, I logged onto the client machines and observed that the corporate wallpaper had been applied to the desktop. Furthermore, I ran `gpresult /h` to generate a report, which confirmed that the Desktop Wallpaper GPO was successfully received and processed by the client.
 
 📸 **Verifying Wallpaper Policy Application for `WinServer2025`**
 
@@ -56,9 +56,9 @@ To verify that the Desktop Wallpaper Policy has been applied successfully, you c
 
 ---
 
-## 5. 🔄 Applying Group Policy Updates
+## 🔄 5. Applying Group Policy Updates
 
-To ensure that the Desktop Wallpaper Policy is applied correctly across all systems, run gpupdate to refresh the policies and apply any recent changes.
+Following the GPO configuration, I executed `gpupdate /force` on the client machines. This successfully refreshed the policy, and upon the next user logon, the corporate wallpaper was applied as intended, confirming the policy was active and functioning correctly.
 
 📸 **Applying Group Policy Updates on `AD-Win11-01`**
 
@@ -72,5 +72,5 @@ To ensure that the Desktop Wallpaper Policy is applied correctly across all syst
 
 ## 📁 6. Screenshot Storage
 
-All screenshots related to this section are stored in:<br />  
-📂 [`08-User-Environment-Management/VIII. Desktop Wallpaper Policy.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VIII.%20Desktop%20Wallpaper%20Policy.md)
+All screenshots related to this section are stored in:<br /> 
+📂 [`08-User-Environment-Management/VIII. Desktop Wallpaper Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/VIII.%20Desktop%20Wallpaper%20Policy.md)

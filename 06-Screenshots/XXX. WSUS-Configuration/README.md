@@ -76,4 +76,5 @@ Use WSUS reporting tools to track which systems have successfully received and i
 
 ---
 
-Each image corresponds to a step described in 📂 [`06-Screenshots/XXX. WSUS-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/IV.%20WSUS-Configuration.md).
+Each image corresponds to a step described in: <br /> 
+📂 [`06-Screenshots/XXX. WSUS-Configuration`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/09-Infrastructure-Protection/IV.%20WSUS-Configuration.md).

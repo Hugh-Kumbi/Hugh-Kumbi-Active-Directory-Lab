@@ -63,4 +63,4 @@ To test the policy:
 ## 🗂️ 4. Screenshot Storage
 
 All screenshots for this section can be found in:<br />
-📂 [`06-Screenshots/Logon-Scripts/Logon-Logoff Script-Desktop`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXV.%20Desktop%20Wallpaper%20Policy)
+📂 [`06-Screenshots/XXV. Desktop Wallpaper Policy`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/06-Screenshots/XXV.%20Desktop%20Wallpaper%20Policy/README.md)

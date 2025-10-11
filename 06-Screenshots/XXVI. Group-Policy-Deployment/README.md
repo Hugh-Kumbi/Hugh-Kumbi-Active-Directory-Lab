@@ -4,7 +4,7 @@ Having completed the deployment, I can confirm that the Group Policies have been
 
 ---
 
-# 1. 🛠️ Deploying Group Policy to Organizational Units (OUs)
+## 🛠️ 1. Deploying Group Policy to Organizational Units (OUs)
 
 Having completed the deployment, I linked the specific GPOs to their corresponding OUs. For instance, the "Security Scripts Policy" GPO was linked to the "Employees" OU, while the "BitLocker Encryption Policy" GPO was linked to the "MeiVaultComputers" OU. This successfully targeted the policies to the correct user and computer accounts based on their AD structure.
 
@@ -20,7 +20,7 @@ Having completed the deployment, I linked the specific GPOs to their correspondi
 
 ---
 
-## 2. 📜 GPO Inheritance and Filtering
+## 📜 2. GPO Inheritance and Filtering
 
 During the deployment, I leveraged inheritance to apply a baseline security GPO at the domain level. I applied **Security Filtering** to a specific software deployment GPO to ensure it only applied to the "Engineering" security group, even within a larger OU.
 
@@ -30,7 +30,7 @@ During the deployment, I leveraged inheritance to apply a baseline security GPO 
 
 ---
 
-## 3. 🛡️ Applying GPOs to Specific Security Groups
+## 🛡️ 3. Applying GPOs to Specific Security Groups
 
 Having configured the GPOs, I used Security Filtering to apply them with precision. For example, I removed "Authenticated Users" and granted "Apply Group Policy" permissions only to the "ITSecurity" security group. This ensured the policy only affected the intended IT Security users, even within a larger, shared OU.
 
@@ -44,15 +44,15 @@ Having configured the GPOs, I used Security Filtering to apply them with precisi
 
 ---
 
-## 4. 🔧 Testing Group Policy Deployment
+## 🔧 4. Testing Group Policy Deployment
 
 Before full deployment, I applied the GPO on a small set of users and a single client machine to ensure that the policies are being enforced correctly. In addition to that I also used the `gpresult` command to verify GPO application.
 
 ---
 
-## 5. 🔄 Force Group Policy Update
+## 🔄 5. Force Group Policy Update
 
-Use the gpupdate command to immediately refresh and apply Group Policies on client systems. This is useful to test policies or when making changes that need to be reflected right away.
+During the testing phase, I regularly used the `gpupdate /force` command on the pilot machines. This allowed me to immediately apply policy adjustments and verify their effects without waiting for the standard refresh interval, significantly speeding up the testing and validation cycle.
 
 📸 **Verifying the Script with `gpresult` on `AD-WIN11-01`**
 
@@ -72,9 +72,9 @@ Use the gpupdate command to immediately refresh and apply Group Policies on clie
 
 ---
 
-## 6. 🖥️ Group Policy Result with `gpresult`
+## 🖥️ 6. Group Policy Result with `gpresult`
 
-The gpresult command shows a detailed report of applied GPOs for a user or computer. This tool helps verify that the correct policies are being applied and troubleshoot any issues.
+Throughout the deployment and troubleshooting process, I consistently used `gpresult /h report.html` to generate detailed reports. This was invaluable for verifying that the correct GPOs were being applied to our test users and computers, and for identifying any filtering or precedence issues when a policy wasn't applying as expected.
 
 📸 **Applying Group Policy Updates on `AD-Win11-01`**
 
@@ -86,9 +86,9 @@ The gpresult command shows a detailed report of applied GPOs for a user or compu
 
 ---
 
-## 7. 🗂️ Event Viewer Logs for Group Policy Application
+## 🗂️ 7. Event Viewer Logs for Group Policy Application
 
-Use the Event Viewer to check for logs that confirm Group Policy application. These logs provide detailed information about which policies were successfully applied and any errors that occurred.
+When a policy failed to apply on a test machine, I opened Event Viewer and navigated to 📂 `Applications and Services Logs > Microsoft > Windows > GroupPolicy > Operational`. Reviewing these logs provided a step-by-step account of the processing, which quickly revealed a network timeout error that was preventing the policy from downloading.
 
 📸 **Event Viewer Logs for Group Policy Application**
 

@@ -7,7 +7,7 @@ This policy configures startup and shutdown scripts via Group Policy to run esse
 - **GPO Name:** Startup-Shutdown Scripts
 - **Linked To:** Employees OU
 
-📸 **Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU:**
+📸 **Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU**
 
 <img width="1920" height="909" alt="Group Policy Management Console Showing Startup Shutdown Scripts Policy Linked to Employees OU" src="https://github.com/user-attachments/assets/37b97a5e-4a89-4422-bae3-42b391b733cf" />
 
@@ -34,13 +34,13 @@ Using the **Group Policy Management Editor**, I navigated to:<br />
 
 - Script Type: PowerShell
 
-📸 **Startup Properties Windows With Scripts Added**
+📸 **Startup Properties Windows with Scripts Added**
 
 <img width="1920" height="909" alt="Startup Properties Windows With Scripts Added" src="https://github.com/user-attachments/assets/7a407418-e873-47fd-82ea-60b8e287590b" /><br />
 
 <img width="1920" height="909" alt="Startup Properties Windows With Scripts Added 1" src="https://github.com/user-attachments/assets/c1e45e98-ee46-4e8d-94c5-e9eff15fa90b" /><br />
 
-📸 **Shutdown Properties Windows With Scripts Added**
+📸 **Shutdown Properties Windows with Scripts Added**
 
 <img width="1920" height="909" alt="Shutdown Properties Windows With Scripts Added" src="https://github.com/user-attachments/assets/de0099d7-40ed-4546-b4a4-b9f1504f23fd" /><br />
 
@@ -307,5 +307,5 @@ catch {
 
 ## 🗂️ 5. Screenshot Storage
 
-All related screenshots are stored in:<br />  
+All screenshots for this section can be found in:<br /> 
 📂 [`06-Screenshots/XXIV. Startup-Shutdown Scripts`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/tree/main/06-Screenshots/XXIV.%20Startup-Shutdown%20Scripts)

@@ -98,5 +98,5 @@ When a policy failed to apply on a test machine, I opened Event Viewer and navig
 
 ## 📁 8. Screenshot Storage
 
-All screenshots related to this section are stored in:<br />  
-📂 [`08-User-Environment-Management/X. Group-Policy-Deployment.md`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/X.%20Group-Policy-Deployment.md)
+All screenshots related to this section are stored in:<br /> 
+📂 [`08-User-Environment-Management/X. Group-Policy-Deployment`](https://github.com/Hugh-Kumbi/Hugh-Kumbi-Active-Directory-Lab/blob/main/08-User-Environment-Management/X.%20Group-Policy-Deployment.md)

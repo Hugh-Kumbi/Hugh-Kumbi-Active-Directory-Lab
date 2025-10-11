@@ -106,3 +106,7 @@ I reviewed filtering, denied policies, and slow link detection if expected setti
 ---
 
 By completing this report, I ensured that all user-specific configurations were enforced correctly across domain-joined Windows clients, contributing to a secure and consistent environment.
+
+---
+
+Each image corresponds to a step described in: <br />

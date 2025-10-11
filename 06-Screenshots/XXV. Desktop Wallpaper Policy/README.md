@@ -22,7 +22,7 @@ In this step, I set the wallpaper path to `\\WINSERVER2025\sysvol\hughdomain.loc
 
 <img width="1920" height="909" alt="Desktop Wallpaper Path Set" src="https://github.com/user-attachments/assets/816a744c-5bd3-403a-8a56-3b9db5d3d634" /><br />
 
-📸 **Wallpaper File Stored On Shared Server Folder**
+📸 **Wallpaper File Stored on Shared Server Folder**
 
 ![Wallpaper File Stored On Shared Server Folder](https://github.com/user-attachments/assets/890c8a57-539b-41aa-88a2-76e514230588)
 

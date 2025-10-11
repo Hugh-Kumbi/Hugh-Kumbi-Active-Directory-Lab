@@ -1,12 +1,12 @@
 # 🔧 Logon/Logoff Scripts Configuration
 
-This section outlines the configuration of Logon and Logoff Scripts in Group Policy, which are used to automate tasks when users log on or log off from their workstations.
+Having now deployed the Logon and Logoff Scripts via Group Policy, I can confirm they are successfully automating key tasks. The logon script maps network printers and drives for users, while the logoff script cleans up temporary files and logs session data, streamlining our user environment management.
 
 ---
 
-## 1. 📜 Creating Logon/Logoff Scripts
+## 📜 1. Creating Logon/Logoff Scripts
 
-Logon and logoff scripts can be created and configured to run automatically whenever a user logs on or off the system. These scripts are typically used for environment setup, file mappings, network configurations, etc.
+Having configured these scripts, I can confirm they now run automatically at each user session. The logon script successfully establishes the user's environment by mapping necessary network drives and printers, while the logoff script reliably cleans up temporary files and logs usage data for audit purposes.
 
 📸 **Creating Logon/Logoff Scripts**
 
@@ -14,9 +14,9 @@ Logon and logoff scripts can be created and configured to run automatically when
 
 ---
 
-## 2. 👨‍💻 Configuring the Logon/Logoff Script in Group Policy
+## 👨‍💻 2. Configuring the Logon/Logoff Script in Group Policy
 
-Once the scripts are created, they can be assigned through Group Policy, allowing them to be applied to users in specific OUs or security groups.
+Having created the necessary scripts, I assigned them by configuring the "Logon" and "Logoff" sections within the User Configuration of the Logon-Logoff Scripts Policy. By linking this GPO to the "Employees" OU, I ensured the scripts are deployed to the entire targeted user base.
 
 📸 **Configuring the Logon Script in Group Policy**
 
@@ -34,7 +34,7 @@ Once the scripts are created, they can be assigned through Group Policy, allowin
 
 ## 3. 🖥️ Testing Logon/Logoff Script Execution
 
-It is essential to test the scripts to ensure they execute properly when users log on or off. Using tools like gpresult or reviewing Event Viewer logs can help verify proper execution.
+Before rolling out the scripts, I thoroughly tested them on a pilot group. I used `gpresult` to confirm the policy was applying and then checked the `Applications and Services Logs > Microsoft > Windows > PowerShell > Operational log` in Event Viewer to verify the scripts executed without errors and performed their intended actions.
 
 📸 **Testing Logon/Logoff Script Execution**
 
@@ -52,7 +52,7 @@ It is essential to test the scripts to ensure they execute properly when users l
 
 ## 4. ❓ Troubleshooting Logon/Logoff Scripts
 
-When the scripts did not execute as expected, troubleshooting steps include checking script permissions, ensuring proper network connectivity, and reviewing Event Viewer logs for any error messages related to script execution.
+When the scripts did not execute as expected, troubleshooting steps included checking script permissions, ensuring proper network connectivity, and reviewing Event Viewer logs for any error messages related to script execution.
 
 📸 **Checking NTFS Permissions for `Logon Script`**
 
@@ -102,7 +102,7 @@ When the scripts did not execute as expected, troubleshooting steps include chec
 
 ## 5. 🔍 Verifying the Script with `gpresult`
 
-After configuration, use the gpresult command to ensure that the logon/logoff script has been applied to the target systems and users.
+Following the configuration, I ran `gpresult /h report.html` on a test workstation. The resulting report clearly showed the assigned logon script policy was successfully applied to the test user, confirming the GPO was being processed correctly.
 
 📸 **Verifying the Script with `gpresult` on `AD-WIN11-01`**
 
@@ -124,7 +124,7 @@ After configuration, use the gpresult command to ensure that the logon/logoff sc
 
 ## 6. 🔄 Applying Group Policy Updates
 
-Run gpupdate to manually refresh Group Policy and apply the logon/logoff scripts on all target systems.
+After deploying the GPO, I executed `gpupdate /force` on the target systems. This manually triggered a Group Policy refresh, which immediately applied and made the new logon and logoff scripts active for the next user session.
 
 📸 **Applying Group Policy Updates on `AD-Win11-01`**
 
